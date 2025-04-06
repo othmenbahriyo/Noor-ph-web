@@ -19,8 +19,8 @@
             --light-gray: #f0f0f0;
             --white: #ffffff;
             --shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
-            --border-radius: 12px;
-            --border-radius-sm: 6px;
+            --border-radius: 16px;
+            --border-radius-sm: 8px;
             --transition: all 0.3s ease;
         }
 
@@ -33,22 +33,23 @@
 
         body {
             color: var(--text-color);
-            background-color: var(--light-gray);
+            background-color: var(--light-color);
             line-height: 1.6;
             overflow-x: hidden;
         }
 
         .container {
+            width: 100%;
             max-width: 1200px;
             margin: 0 auto;
             padding: 0 20px;
         }
 
-        /* Header */
+        /* Header - Modern Mobile */
         header {
             background-color: var(--white);
             color: var(--primary-color);
-            padding: 20px 0;
+            padding: 15px 0;
             position: sticky;
             top: 0;
             z-index: 1000;
@@ -64,20 +65,29 @@
         .logo {
             display: flex;
             align-items: center;
-            gap: 15px;
+            gap: 12px;
         }
 
         .logo img {
-            width: 50px;
-            height: 50px;
-            border-radius: 12px;
+            width: 42px;
+            height: 42px;
+            border-radius: 10px;
             object-fit: cover;
         }
 
         .logo h1 {
-            font-size: 1.5rem;
+            font-size: 1.25rem;
             font-weight: 600;
             color: var(--primary-color);
+        }
+
+        .menu-toggle {
+            display: none;
+            background: none;
+            border: none;
+            font-size: 1.5rem;
+            color: var(--primary-color);
+            cursor: pointer;
         }
 
         .navbar {
@@ -114,43 +124,73 @@
             width: 100%;
         }
 
-        .language-toggle {
+        /* Mobile Menu */
+        .mobile-navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: var(--white);
+            z-index: 1001;
+            padding: 20px;
+            transform: translateX(-100%);
+            transition: transform 0.4s ease;
             display: flex;
-            align-items: center;
-            gap: 10px;
-            background-color: var(--light-gray);
-            padding: 6px 10px;
-            border-radius: 30px;
+            flex-direction: column;
         }
 
-        .language-btn {
+        .mobile-navbar.active {
+            transform: translateX(0);
+        }
+
+        .mobile-navbar-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+
+        .close-menu {
             background: none;
             border: none;
-            color: var(--text-light);
-            padding: 5px 10px;
-            border-radius: 20px;
+            font-size: 1.5rem;
+            color: var(--primary-color);
             cursor: pointer;
-            transition: var(--transition);
-            font-weight: 500;
         }
 
-        .language-btn:hover {
-            color: var(--primary-color);
+        .mobile-menu {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
         }
 
-        .language-btn.active {
-            background-color: var(--white);
-            color: var(--primary-color);
-            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+        .mobile-menu a {
+            font-size: 1.2rem;
+            color: var(--primary-dark);
+            text-decoration: none;
+            padding: 15px 0;
+            border-bottom: 1px solid var(--light-gray);
+            display: flex;
+            align-items: center;
+            gap: 15px;
         }
 
-        /* Hero Section */
+        .mobile-menu a i {
+            color: var(--accent-color);
+            width: 24px;
+            text-align: center;
+        }
+
+        /* Hero Section - Modern Mobile */
         .hero {
-            background: linear-gradient(120deg, var(--primary-color) 0%, var(--primary-light) 100%);
+            background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-light) 100%);
             color: white;
-            padding: 100px 0 120px;
+            padding: 60px 0;
             position: relative;
             overflow: hidden;
+            border-radius: 0 0 30px 30px;
+            margin-bottom: 30px;
         }
 
         .hero-bg {
@@ -163,60 +203,49 @@
             opacity: 0.5;
         }
 
-        .hero::after {
-            content: '';
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            width: 100%;
-            height: 100px;
-            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 1200 120' preserveAspectRatio='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z' fill='%23ffffff' opacity='.25'%3E%3C/path%3E%3Cpath d='M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z' fill='%23ffffff' opacity='.5'%3E%3C/path%3E%3Cpath d='M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z' fill='%23ffffff'%3E%3C/path%3E%3C/svg%3E");
-            background-size: cover;
-            background-position: center;
-            z-index: 1;
-        }
-
         .hero-content {
             position: relative;
             z-index: 2;
             display: flex;
+            flex-direction: column;
             align-items: center;
-            justify-content: space-between;
-            gap: 40px;
+            text-align: center;
         }
 
         .hero-text {
-            flex: 1;
             max-width: 600px;
+            margin-bottom: 30px;
         }
 
         .hero h2 {
-            font-size: 3rem;
+            font-size: 2.5rem;
             font-weight: 700;
-            margin-bottom: 25px;
+            margin-bottom: 20px;
             line-height: 1.2;
         }
 
         .hero p {
-            font-size: 1.2rem;
+            font-size: 1.1rem;
             margin-bottom: 30px;
             opacity: 0.9;
         }
 
         .hero-image {
-            flex: 1;
-            max-width: 400px;
+            width: 100%;
+            max-width: 280px;
             position: relative;
             display: flex;
             justify-content: center;
+            margin: 0 auto;
         }
 
         .floating-image {
             width: 100%;
-            max-width: 300px;
-            border-radius: 20px;
+            max-width: 280px;
+            border-radius: 25px;
             box-shadow: var(--shadow);
             animation: float 6s ease-in-out infinite;
+            border: 5px solid rgba(255, 255, 255, 0.2);
         }
 
         @keyframes float {
@@ -225,7 +254,7 @@
             }
 
             50% {
-                transform: translateY(-20px);
+                transform: translateY(-15px);
             }
 
             100% {
@@ -236,7 +265,9 @@
         .download-btns {
             display: flex;
             gap: 15px;
+            margin-top: 30px;
             flex-wrap: wrap;
+            justify-content: center;
         }
 
         .download-btn {
@@ -263,21 +294,25 @@
             font-size: 1.5rem;
         }
 
-        /* Features Section */
+        /* Features Section - Modern Mobile */
         .features {
-            padding: 100px 0;
+            padding: 50px 0;
             background-color: var(--white);
             position: relative;
+            border-radius: var(--border-radius);
+            margin: 0 15px 30px;
+            box-shadow: var(--shadow);
         }
 
         .section-title {
             text-align: center;
-            margin-bottom: 60px;
+            margin-bottom: 40px;
             position: relative;
+            padding: 0 15px;
         }
 
         .section-title h2 {
-            font-size: 2.5rem;
+            font-size: 2rem;
             color: var(--primary-color);
             margin-bottom: 15px;
             font-weight: 700;
@@ -292,90 +327,67 @@
 
         .features-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 30px;
+            grid-template-columns: 1fr;
+            gap: 20px;
+            padding: 0 15px;
         }
 
         .feature-card {
             background-color: var(--white);
-            border-radius: var(--border-radius);
-            padding: 40px 30px;
-            text-align: center;
+            border-radius: var(--border-radius-sm);
+            padding: 25px 20px;
+            display: flex;
+            align-items: flex-start;
+            gap: 15px;
             transition: var(--transition);
-            box-shadow: var(--shadow);
-            position: relative;
-            overflow: hidden;
-            z-index: 1;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.03);
             border: 1px solid rgba(0, 0, 0, 0.03);
         }
 
-        .feature-card::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: linear-gradient(135deg, rgba(218, 188, 76, 0.1) 0%, rgba(0, 85, 61, 0.05) 100%);
-            z-index: -1;
-            opacity: 0;
-            transition: var(--transition);
-        }
-
         .feature-card:hover {
-            transform: translateY(-10px);
-            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
-        }
-
-        .feature-card:hover::before {
-            opacity: 1;
+            transform: translateY(-5px);
+            box-shadow: 0 12px 25px rgba(0, 0, 0, 0.06);
         }
 
         .feature-icon {
-            width: 80px;
-            height: 80px;
+            width: 50px;
+            height: 50px;
+            min-width: 50px;
             display: flex;
             align-items: center;
             justify-content: center;
-            margin: 0 auto 25px;
-            border-radius: 50%;
+            border-radius: 12px;
             background: linear-gradient(135deg, var(--primary-light) 0%, var(--primary-color) 100%);
-            box-shadow: 0 10px 20px rgba(0, 85, 61, 0.2);
+            box-shadow: 0 5px 15px rgba(0, 85, 61, 0.15);
         }
 
         .feature-icon i {
-            font-size: 2rem;
+            font-size: 1.5rem;
             color: var(--white);
         }
 
+        .feature-content {
+            flex: 1;
+        }
+
         .feature-card h3 {
-            font-size: 1.5rem;
-            margin-bottom: 15px;
+            font-size: 1.2rem;
+            margin-bottom: 8px;
             color: var(--primary-color);
             font-weight: 600;
         }
 
         .feature-card p {
             color: var(--text-light);
-            margin-bottom: 20px;
+            font-size: 0.95rem;
+            margin: 0;
         }
 
-        /* Screenshots Section */
+        /* Screenshots Section - Modern Mobile */
         .screenshots {
-            padding: 100px 0;
-            background-color: var(--light-gray);
+            padding: 50px 0;
+            background-color: var(--light-color);
             position: relative;
-        }
-
-        .screenshots::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23008f67' fill-opacity='0.05'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
-            opacity: 0.5;
         }
 
         .screenshots-container {
@@ -385,22 +397,22 @@
 
         .screenshots-slider {
             display: flex;
-            gap: 25px;
+            gap: 20px;
             overflow-x: auto;
-            padding: 30px 10px;
+            padding: 30px 15px;
             scroll-snap-type: x mandatory;
             scrollbar-width: none;
-            /* Firefox */
+            -webkit-overflow-scrolling: touch;
+            margin: 0 -15px;
         }
 
         .screenshots-slider::-webkit-scrollbar {
             display: none;
-            /* Chrome, Safari, Opera */
         }
 
         .screenshot-wrapper {
             position: relative;
-            flex: 0 0 250px;
+            flex: 0 0 240px;
             scroll-snap-align: center;
         }
 
@@ -410,7 +422,7 @@
             overflow: hidden;
             box-shadow: var(--shadow);
             transition: var(--transition);
-            transform: scale(0.9);
+            transform: scale(0.95);
             border: 5px solid var(--white);
         }
 
@@ -425,41 +437,60 @@
             display: block;
         }
 
-        /* Testimonials Section */
-        .testimonials {
-            padding: 100px 0;
-            background-color: var(--white);
-            position: relative;
+        .scroll-indicator {
+            display: flex;
+            justify-content: center;
+            gap: 8px;
+            margin-top: 25px;
         }
 
-        .testimonials-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 30px;
+        .scroll-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background-color: var(--light-gray);
+            transition: var(--transition);
+        }
+
+        .scroll-dot.active {
+            width: 25px;
+            border-radius: 4px;
+            background-color: var(--accent-color);
+        }
+
+        /* Testimonials Section - Modern Mobile */
+        .testimonials {
+            padding: 50px 0;
+            background-color: var(--white);
+            position: relative;
+            border-radius: var(--border-radius);
+            margin: 30px 15px;
+            box-shadow: var(--shadow);
         }
 
         .testimonial-card {
-            background-color: var(--white);
-            border-radius: var(--border-radius);
-            padding: 40px 30px;
-            box-shadow: var(--shadow);
+            background-color: var(--light-color);
+            border-radius: var(--border-radius-sm);
+            padding: 30px 25px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.03);
             position: relative;
             transition: var(--transition);
+            margin: 0 15px 20px;
             border: 1px solid rgba(0, 0, 0, 0.03);
         }
 
         .testimonial-card:hover {
-            transform: translateY(-10px);
-            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+            transform: translateY(-5px);
+            box-shadow: 0 12px 25px rgba(0, 0, 0, 0.06);
         }
 
         .quote-icon {
             position: absolute;
-            top: 30px;
-            right: 30px;
+            top: 25px;
+            right: 25px;
             color: var(--accent-color);
             opacity: 0.2;
-            font-size: 3rem;
+            font-size: 2.5rem;
         }
 
         .testimonial-content {
@@ -481,8 +512,8 @@
         }
 
         .testimonial-author img {
-            width: 60px;
-            height: 60px;
+            width: 50px;
+            height: 50px;
             border-radius: 50%;
             object-fit: cover;
             border: 3px solid var(--white);
@@ -493,26 +524,30 @@
             color: var(--primary-color);
             font-weight: 600;
             margin-bottom: 5px;
+            font-size: 1rem;
         }
 
         .author-info span {
             color: var(--text-light);
-            font-size: 0.9rem;
+            font-size: 0.85rem;
         }
 
         .rating {
             margin-top: 8px;
             color: var(--accent-color);
+            font-size: 0.9rem;
         }
 
-        /* CTA Section */
+        /* CTA Section - Modern Mobile */
         .cta-section {
-            padding: 80px 0;
+            padding: 60px 0;
             background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-light) 100%);
             color: var(--white);
             text-align: center;
             position: relative;
             overflow: hidden;
+            border-radius: 30px 30px 0 0;
+            margin-top: 30px;
         }
 
         .cta-bg {
@@ -532,15 +567,16 @@
         }
 
         .cta-content h2 {
-            font-size: 2.5rem;
+            font-size: 2rem;
             margin-bottom: 20px;
             font-weight: 700;
         }
 
         .cta-content p {
-            font-size: 1.2rem;
+            font-size: 1.1rem;
             margin-bottom: 30px;
             opacity: 0.9;
+            padding: 0 20px;
         }
 
         .cta-btn {
@@ -568,34 +604,19 @@
             font-size: 1.2rem;
         }
 
-        /* Footer */
+        /* Footer - Modern Mobile */
         footer {
             background-color: var(--primary-dark);
             color: var(--white);
-            padding: 80px 0 20px;
+            padding: 60px 0 20px;
             position: relative;
-        }
-
-        footer::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 20px;
-            background: linear-gradient(135deg, var(--primary-color) 25%, transparent 25%) -10px 0,
-                linear-gradient(225deg, var(--primary-color) 25%, transparent 25%) -10px 0,
-                linear-gradient(315deg, var(--primary-color) 25%, transparent 25%),
-                linear-gradient(45deg, var(--primary-color) 25%, transparent 25%);
-            background-size: 20px 20px;
-            background-color: var(--primary-dark);
         }
 
         .footer-content {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 50px;
-            margin-bottom: 50px;
+            grid-template-columns: 1fr;
+            gap: 40px;
+            margin-bottom: 40px;
         }
 
         .footer-logo {
@@ -606,9 +627,9 @@
         }
 
         .footer-logo img {
-            width: 50px;
-            height: 50px;
-            border-radius: 12px;
+            width: 45px;
+            height: 45px;
+            border-radius: 10px;
         }
 
         .footer-about p {
@@ -619,7 +640,7 @@
 
         .social-links {
             display: flex;
-            gap: 15px;
+            gap: 12px;
         }
 
         .social-links a {
@@ -629,7 +650,7 @@
             width: 40px;
             height: 40px;
             background-color: rgba(255, 255, 255, 0.1);
-            border-radius: 50%;
+            border-radius: 12px;
             color: var(--white);
             transition: var(--transition);
         }
@@ -641,10 +662,10 @@
         }
 
         .footer-title {
-            font-size: 1.3rem;
-            margin-bottom: 25px;
+            font-size: 1.2rem;
+            margin-bottom: 20px;
             position: relative;
-            padding-bottom: 15px;
+            padding-bottom: 12px;
             font-weight: 600;
         }
 
@@ -653,7 +674,7 @@
             position: absolute;
             left: 0;
             bottom: 0;
-            width: 50px;
+            width: 40px;
             height: 3px;
             background-color: var(--accent-color);
             border-radius: 3px;
@@ -661,10 +682,9 @@
 
         .footer-links ul {
             list-style: none;
-        }
-
-        .footer-links ul li {
-            margin-bottom: 12px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px 20px;
         }
 
         .footer-links ul li a {
@@ -674,10 +694,11 @@
             display: inline-flex;
             align-items: center;
             gap: 8px;
+            font-size: 0.95rem;
         }
 
         .footer-links ul li a i {
-            font-size: 0.8rem;
+            font-size: 0.75rem;
             transition: var(--transition);
         }
 
@@ -704,7 +725,7 @@
             width: 40px;
             height: 40px;
             background-color: rgba(255, 255, 255, 0.1);
-            border-radius: 50%;
+            border-radius: 12px;
             color: var(--accent-color);
             flex-shrink: 0;
         }
@@ -712,6 +733,7 @@
         .contact-info {
             color: rgba(255, 255, 255, 0.8);
             line-height: 1.6;
+            font-size: 0.95rem;
         }
 
         .contact-info a {
@@ -763,144 +785,6 @@
             transform: translateY(-5px);
         }
 
-        /* Media Queries */
-        @media (max-width: 992px) {
-            .hero-content {
-                flex-direction: column;
-                text-align: center;
-            }
-
-            .hero h2 {
-                font-size: 2.5rem;
-            }
-
-            .download-btns {
-                justify-content: center;
-            }
-
-            .hero-image {
-                margin-top: 30px;
-            }
-
-            .floating-image {
-                max-width: 250px;
-            }
-
-            .section-title h2 {
-                font-size: 2rem;
-            }
-        }
-
-        @media (max-width: 768px) {
-            .header-content {
-                flex-direction: column;
-                gap: 20px;
-            }
-
-            .navbar {
-                margin-top: 15px;
-            }
-
-            .language-toggle {
-                margin-top: 10px;
-            }
-
-            .hero {
-                padding: 80px 0 100px;
-            }
-
-            .hero h2 {
-                font-size: 2rem;
-            }
-
-            .floating-image {
-                max-width: 200px;
-            }
-
-            .features {
-                padding: 80px 0;
-            }
-
-            .feature-card {
-                padding: 30px 20px;
-            }
-
-            .screenshots {
-                padding: 80px 0;
-            }
-
-            .testimonials {
-                padding: 80px 0;
-            }
-
-            .cta-section {
-                padding: 60px 0;
-            }
-
-            .cta-content h2 {
-                font-size: 2rem;
-            }
-
-            footer {
-                padding: 60px 0 20px;
-            }
-        }
-
-        @media (max-width: 576px) {
-            .logo h1 {
-                font-size: 1.2rem;
-            }
-
-            .navbar {
-                gap: 15px;
-                flex-wrap: wrap;
-                justify-content: center;
-            }
-
-            .hero h2 {
-                font-size: 1.8rem;
-            }
-
-            .hero p {
-                font-size: 1rem;
-            }
-
-            .download-btns {
-                flex-direction: column;
-                align-items: center;
-            }
-
-            .feature-icon {
-                width: 70px;
-                height: 70px;
-            }
-
-            .feature-icon i {
-                font-size: 1.5rem;
-            }
-
-            .feature-card h3 {
-                font-size: 1.3rem;
-            }
-
-            .cta-content h2 {
-                font-size: 1.8rem;
-            }
-
-            .cta-btn {
-                padding: 12px 25px;
-                font-size: 1rem;
-            }
-
-            .testimonial-card {
-                padding: 30px 20px;
-            }
-
-            .footer-content {
-                gap: 40px;
-            }
-        }
-
         /* Language-specific content */
         /* Langue française */
         [lang="fr"] {
@@ -920,6 +804,95 @@
         html[lang="en"] [lang="en"] {
             display: block;
         }
+
+        /* Media Queries - Modern Mobile */
+        @media (min-width: 768px) {
+            .menu-toggle {
+                display: none;
+            }
+
+            .navbar {
+                display: flex;
+            }
+
+            .hero-content {
+                flex-direction: row;
+                text-align: left;
+                justify-content: space-between;
+                gap: 40px;
+                align-items: center;
+            }
+
+            .hero h2 {
+                font-size: 2.75rem;
+            }
+
+            .download-btns {
+                justify-content: flex-start;
+            }
+
+            .features-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 25px;
+            }
+
+            .footer-content {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (min-width: 992px) {
+            .features-grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+
+            .footer-content {
+                grid-template-columns: 2fr 1fr 1fr;
+            }
+        }
+
+        @media (max-width: 767px) {
+            .menu-toggle {
+                display: block;
+            }
+
+            .navbar {
+                display: none;
+            }
+
+            .hero {
+                padding: 50px 0;
+            }
+
+            .hero h2 {
+                font-size: 2rem;
+            }
+
+            .floating-image {
+                max-width: 240px;
+            }
+
+            .testimonial-card {
+                padding: 25px 20px;
+            }
+
+            .quote-icon {
+                font-size: 2rem;
+            }
+
+            .testimonial-author img {
+                width: 45px;
+                height: 45px;
+            }
+
+            .cta-content h2 {
+                font-size: 1.75rem;
+            }
+
+            .footer-links ul {
+                grid-template-columns: 1fr;
+            }
+        }
     </style>
 </head>
 
@@ -932,6 +905,10 @@
                     <h1>Noor Phonetic Quran</h1>
                 </div>
 
+                <button class="menu-toggle" id="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+
                 <nav class="navbar">
                     <a href="#features" lang="fr">Fonctionnalités</a>
                     <a href="#features" lang="en">Features</a>
@@ -942,11 +919,54 @@
                     <a href="#contact" lang="fr">Contact</a>
                     <a href="#contact" lang="en">Contact</a>
                 </nav>
-
-        
             </div>
         </div>
     </header>
+
+    <!-- Mobile Navbar -->
+    <div class="mobile-navbar" id="mobile-navbar">
+        <div class="mobile-navbar-header">
+            <div class="logo">
+                <img src="images/logo.webp" alt="Noor Phonetic Quran Logo">
+                <h1>Noor Phonetic Quran</h1>
+            </div>
+            <button class="close-menu" id="close-menu">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <nav class="mobile-menu">
+            <a href="#features">
+                <i class="fas fa-star"></i>
+                <span lang="fr">Fonctionnalités</span>
+                <span lang="en">Features</span>
+            </a>
+            <a href="#screenshots">
+                <i class="fas fa-mobile-alt"></i>
+                <span lang="fr">Captures d'écran</span>
+                <span lang="en">Screenshots</span>
+            </a>
+            <a href="#testimonials">
+                <i class="fas fa-comment"></i>
+                <span lang="fr">Avis</span>
+                <span lang="en">Reviews</span>
+            </a>
+            <a href="#contact">
+                <i class="fas fa-envelope"></i>
+                <span lang="fr">Contact</span>
+                <span lang="en">Contact</span>
+            </a>
+            <a href="https://play.google.com/store/apps/details?id=coran.noor.bhr" target="_blank">
+                <i class="fab fa-google-play"></i>
+                <span lang="fr">Google Play</span>
+                <span lang="en">Google Play</span>
+            </a>
+            <a href="https://apps.apple.com/sn/app/noor-phonetic-quran/id6737744800" target="_blank">
+                <i class="fab fa-apple"></i>
+                <span lang="fr">App Store</span>
+                <span lang="en">App Store</span>
+            </a>
+        </nav>
+    </div>
 
     <section class="hero">
         <div class="hero-bg"></div>
@@ -999,65 +1019,77 @@
                     <div class="feature-icon">
                         <i class="fas fa-book"></i>
                     </div>
-                    <h3 lang="fr">Transcription Phonétique</h3>
-                    <h3 lang="en">Phonetic Transcription</h3>
-                    <p lang="fr">Chaque verset est accompagné d'une transcription phonétique détaillée pour une
-                        prononciation correcte.</p>
-                    <p lang="en">Each verse is accompanied by a detailed phonetic transcription for correct
-                        pronunciation.</p>
+                    <div class="feature-content">
+                        <h3 lang="fr">Transcription Phonétique</h3>
+                        <h3 lang="en">Phonetic Transcription</h3>
+                        <p lang="fr">Chaque verset est accompagné d'une transcription phonétique détaillée pour une
+                            prononciation correcte.</p>
+                        <p lang="en">Each verse is accompanied by a detailed phonetic transcription for correct
+                            pronunciation.</p>
+                    </div>
                 </div>
 
                 <div class="feature-card">
                     <div class="feature-icon">
                         <i class="fas fa-bookmark"></i>
                     </div>
-                    <h3 lang="fr">Règles de Tajweed</h3>
-                    <h3 lang="en">Tajweed Rules</h3>
-                    <p lang="fr">Les couleurs et annotations guident votre récitation selon les règles correctes du
-                        Tajweed.</p>
-                    <p lang="en">Colors and annotations guide your recitation according to the correct Tajweed rules.
-                    </p>
+                    <div class="feature-content">
+                        <h3 lang="fr">Règles de Tajweed</h3>
+                        <h3 lang="en">Tajweed Rules</h3>
+                        <p lang="fr">Les couleurs et annotations guident votre récitation selon les règles correctes du
+                            Tajweed.</p>
+                        <p lang="en">Colors and annotations guide your recitation according to the correct Tajweed rules.
+                        </p>
+                    </div>
                 </div>
 
                 <div class="feature-card">
                     <div class="feature-icon">
                         <i class="fas fa-language"></i>
                     </div>
-                    <h3 lang="fr">Traductions Multilingues</h3>
-                    <h3 lang="en">Multilingual Translations</h3>
-                    <p lang="fr">Accédez aux traductions en français et en anglais pour mieux comprendre le message
-                        divin.</p>
-                    <p lang="en">Access translations in French and English to better understand the divine message.</p>
+                    <div class="feature-content">
+                        <h3 lang="fr">Traductions Multilingues</h3>
+                        <h3 lang="en">Multilingual Translations</h3>
+                        <p lang="fr">Accédez aux traductions en français et en anglais pour mieux comprendre le message
+                            divin.</p>
+                        <p lang="en">Access translations in French and English to better understand the divine message.</p>
+                    </div>
                 </div>
 
                 <div class="feature-card">
                     <div class="feature-icon">
                         <i class="fas fa-headphones"></i>
                     </div>
-                    <h3 lang="fr">Audio Synchronisé</h3>
-                    <h3 lang="en">Synchronized Audio</h3>
-                    <p lang="fr">Chaque verset est accompagné d'un audio pour entendre la prononciation correcte.</p>
-                    <p lang="en">Each verse is accompanied by audio to hear the correct pronunciation.</p>
+                    <div class="feature-content">
+                        <h3 lang="fr">Audio Synchronisé</h3>
+                        <h3 lang="en">Synchronized Audio</h3>
+                        <p lang="fr">Chaque verset est accompagné d'un audio pour entendre la prononciation correcte.</p>
+                        <p lang="en">Each verse is accompanied by audio to hear the correct pronunciation.</p>
+                    </div>
                 </div>
 
                 <div class="feature-card">
                     <div class="feature-icon">
                         <i class="fas fa-mobile-alt"></i>
                     </div>
-                    <h3 lang="fr">Interface Conviviale</h3>
-                    <h3 lang="en">User-Friendly Interface</h3>
-                    <p lang="fr">Navigation intuitive et personnalisation selon vos préférences.</p>
-                    <p lang="en">Intuitive navigation and customization according to your preferences.</p>
+                    <div class="feature-content">
+                        <h3 lang="fr">Interface Conviviale</h3>
+                        <h3 lang="en">User-Friendly Interface</h3>
+                        <p lang="fr">Navigation intuitive et personnalisation selon vos préférences.</p>
+                        <p lang="en">Intuitive navigation and customization according to your preferences.</p>
+                    </div>
                 </div>
 
                 <div class="feature-card">
                     <div class="feature-icon">
                         <i class="fas fa-graduation-cap"></i>
                     </div>
-                    <h3 lang="fr">Apprentissage Facilité</h3>
-                    <h3 lang="en">Easy Learning</h3>
-                    <p lang="fr">Idéal pour les débutants ou ceux qui souhaitent améliorer leur récitation.</p>
-                    <p lang="en">Ideal for beginners or those who want to improve their recitation.</p>
+                    <div class="feature-content">
+                        <h3 lang="fr">Apprentissage Facilité</h3>
+                        <h3 lang="en">Easy Learning</h3>
+                        <p lang="fr">Idéal pour les débutants ou ceux qui souhaitent améliorer leur récitation.</p>
+                        <p lang="en">Ideal for beginners or those who want to improve their recitation.</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -1103,6 +1135,15 @@
                         <img src="images/screenshot6.png" alt="Noor Phonetic Quran Screenshot 6">
                     </div>
                 </div>
+            </div>
+            
+            <div class="scroll-indicator">
+                <span class="scroll-dot active"></span>
+                <span class="scroll-dot"></span>
+                <span class="scroll-dot"></span>
+                <span class="scroll-dot"></span>
+                <span class="scroll-dot"></span>
+                <span class="scroll-dot"></span>
             </div>
         </div>
     </section>
@@ -1205,7 +1246,7 @@
                         <div class="contact-info">
                             <span lang="fr">Email:</span>
                             <span lang="en">Email:</span>
-                            <a href="mailto:contact@noorquran.com">othmeneb@gmail.com</a>
+                            <a href="mailto:othmeneb@gmail.com">othmeneb@gmail.com</a>
                         </div>
                     </div>
 
@@ -1216,7 +1257,7 @@
                         <div class="contact-info">
                             <span lang="fr">Téléphone:</span>
                             <span lang="en">Phone:</span>
-                            <a href="tel:+221771234567">+33 7 44 27 26 65</a>
+                            <a href="tel:+33744272665">+33 7 44 27 26 65</a>
                         </div>
                     </div>
 
@@ -1240,10 +1281,95 @@
             </div>
         </div>
 
-        <a href="#" class="back-to-top">
+        <a href="#" class="back-to-top" id="back-to-top">
             <i class="fas fa-arrow-up"></i>
         </a>
     </footer>
+
+    <!-- JavaScript pour les interactions -->
+    <script>
+        // Toggle Menu Mobile
+        const menuToggle = document.getElementById('menu-toggle');
+        const mobileNavbar = document.getElementById('mobile-navbar');
+        const closeMenu = document.getElementById('close-menu');
+        const mobileMenuLinks = document.querySelectorAll('.mobile-menu a');
+
+        menuToggle.addEventListener('click', () => {
+            mobileNavbar.classList.add('active');
+            document.body.style.overflow = 'hidden';
+        });
+
+        closeMenu.addEventListener('click', () => {
+            mobileNavbar.classList.remove('active');
+            document.body.style.overflow = 'auto';
+        });
+
+        mobileMenuLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                mobileNavbar.classList.remove('active');
+                document.body.style.overflow = 'auto';
+            });
+        });
+
+        // Back to Top Button
+        const backToTopButton = document.getElementById('back-to-top');
+
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 300) {
+                backToTopButton.classList.add('active');
+            } else {
+                backToTopButton.classList.remove('active');
+            }
+        });
+
+        backToTopButton.addEventListener('click', (e) => {
+            e.preventDefault();
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+
+        // Screenshots Slider Indicator
+        const screenshotsSlider = document.querySelector('.screenshots-slider');
+        const scrollDots = document.querySelectorAll('.scroll-dot');
+
+        if (screenshotsSlider && scrollDots.length > 0) {
+            screenshotsSlider.addEventListener('scroll', () => {
+                const scrollPosition = screenshotsSlider.scrollLeft;
+                const maxScroll = screenshotsSlider.scrollWidth - screenshotsSlider.clientWidth;
+                const scrollPercentage = scrollPosition / maxScroll;
+                
+                // Calculate which dot should be active
+                const activeDotIndex = Math.min(
+                    Math.floor(scrollPercentage * scrollDots.length),
+                    scrollDots.length - 1
+                );
+                
+                // Update active dot
+                scrollDots.forEach((dot, index) => {
+                    if (index === activeDotIndex) {
+                        dot.classList.add('active');
+                    } else {
+                        dot.classList.remove('active');
+                    }
+                });
+            });
+
+            // Click on dots to navigate
+            scrollDots.forEach((dot, index) => {
+                dot.addEventListener('click', () => {
+                    const scrollWidth = screenshotsSlider.scrollWidth - screenshotsSlider.clientWidth;
+                    const scrollTarget = (scrollWidth * index) / (scrollDots.length - 1);
+                    
+                    screenshotsSlider.scrollTo({
+                        left: scrollTarget,
+                        behavior: 'smooth'
+                    });
+                });
+            });
+        }
+    </script>
 </body>
 
 </html>
