@@ -19,6 +19,9 @@
             --light-gray: #f0f0f0;
             --white: #ffffff;
             --shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+            --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.04);
+            --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.08);
+            --shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.12);
             --border-radius: 16px;
             --border-radius-sm: 8px;
             --transition: all 0.3s ease;
@@ -180,848 +183,6 @@
             color: var(--accent-color);
             width: 24px;
             text-align: center;
-        }
-
-        /* Hero Section - Modern Mobile */
-        .hero {
-            background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-light) 100%);
-            color: white;
-            padding: 60px 0;
-            position: relative;
-            overflow: hidden;
-            border-radius: 0 0 30px 30px;
-            margin-bottom: 30px;
-        }
-
-        .hero-bg {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-image: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M11 18c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm48 25c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm-43-7c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm63 31c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM34 90c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm56-76c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM12 86c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm28-65c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm23-11c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-6 60c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm29 22c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zM32 63c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm57-13c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-9-21c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM60 91c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM35 41c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM12 60c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2z' fill='%23ffffff' fill-opacity='0.05' fill-rule='evenodd'/%3E%3C/svg%3E");
-            opacity: 0.5;
-        }
-
-        .hero-content {
-            position: relative;
-            z-index: 2;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            text-align: center;
-        }
-
-        .hero-text {
-            max-width: 600px;
-            margin-bottom: 30px;
-        }
-
-        .hero h2 {
-            font-size: 2.5rem;
-            font-weight: 700;
-            margin-bottom: 20px;
-            line-height: 1.2;
-        }
-
-        .hero p {
-            font-size: 1.1rem;
-            margin-bottom: 30px;
-            opacity: 0.9;
-        }
-
-        .hero-image {
-            width: 100%;
-            max-width: 280px;
-            position: relative;
-            display: flex;
-            justify-content: center;
-            margin: 0 auto;
-        }
-
-        .floating-image {
-            width: 100%;
-            max-width: 280px;
-            border-radius: 25px;
-            box-shadow: var(--shadow);
-            animation: float 6s ease-in-out infinite;
-            border: 5px solid rgba(255, 255, 255, 0.2);
-        }
-
-        @keyframes float {
-            0% {
-                transform: translateY(0px);
-            }
-
-            50% {
-                transform: translateY(-15px);
-            }
-
-            100% {
-                transform: translateY(0px);
-            }
-        }
-
-        .download-btns {
-            display: flex;
-            gap: 15px;
-            margin-top: 30px;
-            flex-wrap: wrap;
-            justify-content: center;
-        }
-
-        .download-btn {
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            background-color: var(--white);
-            color: var(--primary-color);
-            text-decoration: none;
-            padding: 12px 25px;
-            border-radius: 30px;
-            font-weight: 600;
-            transition: var(--transition);
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-        }
-
-        .download-btn:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
-            background-color: var(--accent-color);
-        }
-
-        .download-btn i {
-            font-size: 1.5rem;
-        }
-
-        /* Features Section - Modern Mobile */
-        .features {
-            padding: 50px 0;
-            background-color: var(--white);
-            position: relative;
-
-        }
-
-        .section-title {
-            text-align: center;
-            margin-bottom: 40px;
-            position: relative;
-            padding: 0 15px;
-        }
-
-        .section-title h2 {
-            font-size: 2rem;
-            color: var(--primary-color);
-            margin-bottom: 15px;
-            font-weight: 700;
-        }
-
-        .section-title p {
-            font-size: 1.1rem;
-            color: var(--text-light);
-            max-width: 600px;
-            margin: 0 auto;
-        }
-
-        .features-grid {
-            display: grid;
-            grid-template-columns: 1fr;
-            gap: 20px;
-            padding: 0 15px;
-        }
-
-        .feature-card {
-            background-color: var(--white);
-            border-radius: var(--border-radius-sm);
-            padding: 25px 20px;
-            display: flex;
-            align-items: flex-start;
-            gap: 15px;
-            transition: var(--transition);
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.03);
-            border: 1px solid rgba(0, 0, 0, 0.03);
-        }
-
-        .feature-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 12px 25px rgba(0, 0, 0, 0.06);
-        }
-
-        .feature-icon {
-            width: 50px;
-            height: 50px;
-            min-width: 50px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            border-radius: 12px;
-            background: linear-gradient(135deg, var(--primary-light) 0%, var(--primary-color) 100%);
-            box-shadow: 0 5px 15px rgba(0, 85, 61, 0.15);
-        }
-
-        .feature-icon i {
-            font-size: 1.5rem;
-            color: var(--white);
-        }
-
-        .feature-content {
-            flex: 1;
-        }
-
-        .feature-card h3 {
-            font-size: 1.2rem;
-            margin-bottom: 8px;
-            color: var(--primary-color);
-            font-weight: 600;
-        }
-
-        .feature-card p {
-            color: var(--text-light);
-            font-size: 0.95rem;
-            margin: 0;
-        }
-
-        /* Screenshots Section - Modern Mobile */
-        .screenshots {
-            padding: 50px 0;
-            background-color: var(--light-color);
-            position: relative;
-        }
-
-        .screenshots-container {
-            position: relative;
-            z-index: 1;
-        }
-
-        .screenshots-slider {
-            display: flex;
-            overflow-x: auto;
-            padding: 30px 15px;
-            scroll-snap-type: x mandatory;
-            scrollbar-width: none;
-            -webkit-overflow-scrolling: touch;
-            margin: 0 -15px;
-        }
-
-        .screenshots-slider::-webkit-scrollbar {
-            display: none;
-        }
-
-        .screenshot-wrapper {
-            position: relative;
-            flex: 0 0 240px;
-            scroll-snap-align: center;
-        }
-
-        .screenshot {
-            width: 100%;
-            border-radius: 20px;
-            overflow: hidden;
-            box-shadow: var(--shadow);
-            transition: var(--transition);
-            transform: scale(0.95);
-            border: 5px solid var(--white);
-        }
-
-        .screenshot:hover {
-            transform: scale(1);
-            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
-        }
-
-        .screenshot img {
-            width: 100%;
-            height: auto;
-            display: block;
-        }
-
-        .scroll-indicator {
-            display: flex;
-            justify-content: center;
-            gap: 8px;
-            margin-top: 25px;
-        }
-
-        .scroll-dot {
-            width: 8px;
-            height: 8px;
-            border-radius: 50%;
-            background-color: var(--light-gray);
-            transition: var(--transition);
-        }
-
-        .scroll-dot.active {
-            width: 25px;
-            border-radius: 4px;
-            background-color: var(--accent-color);
-        }
-
-        /* Testimonials Section - Modern Mobile */
-        .testimonials {
-            padding: 50px 0;
-            background-color: var(--white);
-            position: relative;
-            /* border-radius: var(--border-radius);
-            margin: 30px 15px;
-            box-shadow: var(--shadow);*/
-        }
-
-        .testimonial-card {
-            background-color: var(--light-color);
-            border-radius: var(--border-radius-sm);
-            padding: 30px 25px;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.03);
-            position: relative;
-            transition: var(--transition);
-            margin: 0 15px 20px;
-            border: 1px solid rgba(0, 0, 0, 0.03);
-        }
-
-        .testimonial-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 12px 25px rgba(0, 0, 0, 0.06);
-        }
-
-        .quote-icon {
-            position: absolute;
-            top: 25px;
-            right: 25px;
-            color: var(--accent-color);
-            opacity: 0.2;
-            font-size: 2.5rem;
-        }
-
-        .testimonial-content {
-            position: relative;
-            z-index: 1;
-        }
-
-        .testimonial-content p {
-            margin-bottom: 25px;
-            font-style: italic;
-            color: var(--text-light);
-            line-height: 1.7;
-        }
-
-        .testimonial-author {
-            display: flex;
-            align-items: center;
-            gap: 15px;
-        }
-
-        .testimonial-author img {
-            width: 50px;
-            height: 50px;
-            border-radius: 50%;
-            object-fit: cover;
-            border: 3px solid var(--white);
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-        }
-
-        .author-info h4 {
-            color: var(--primary-color);
-            font-weight: 600;
-            margin-bottom: 5px;
-            font-size: 1rem;
-        }
-
-        .author-info span {
-            color: var(--text-light);
-            font-size: 0.85rem;
-        }
-
-        .rating {
-            margin-top: 8px;
-            color: var(--accent-color);
-            font-size: 0.9rem;
-        }
-
-        /* CTA Section - Modern Mobile */
-        .cta-section {
-            padding: 60px 0;
-            background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-light) 100%);
-            color: var(--white);
-            text-align: center;
-            position: relative;
-            overflow: hidden;
-            border-radius: 30px 30px 0 0;
-            margin-top: 30px;
-        }
-
-        .cta-bg {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-image: url("data:image/svg+xml,%3Csvg width='52' height='26' viewBox='0 0 52 26' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.1'%3E%3Cpath d='M10 10c0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6h2c0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4v2c-3.314 0-6-2.686-6-6 0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6zm25.464-1.95l8.486 8.486-1.414 1.414-8.486-8.486 1.414-1.414z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
-        }
-
-        .cta-content {
-            position: relative;
-            z-index: 1;
-            max-width: 800px;
-            margin: 0 auto;
-        }
-
-        .cta-content h2 {
-            font-size: 2rem;
-            margin-bottom: 20px;
-            font-weight: 700;
-        }
-
-        .cta-content p {
-            font-size: 1.1rem;
-            margin-bottom: 30px;
-            opacity: 0.9;
-            padding: 0 20px;
-        }
-
-        .cta-btn {
-            display: inline-flex;
-            align-items: center;
-            gap: 10px;
-            background-color: var(--white);
-            color: var(--primary-color);
-            text-decoration: none;
-            padding: 15px 35px;
-            border-radius: 30px;
-            font-weight: 600;
-            font-size: 1.1rem;
-            transition: var(--transition);
-            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-        }
-
-        .cta-btn:hover {
-            background-color: var(--accent-color);
-            transform: translateY(-5px);
-            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
-        }
-
-        .cta-btn i {
-            font-size: 1.2rem;
-        }
-
-        /* Footer - Modern Mobile */
-        footer {
-            background-color: var(--primary-dark);
-            color: var(--white);
-            padding: 60px 0 20px;
-            position: relative;
-        }
-
-        .footer-content {
-            display: grid;
-            grid-template-columns: 1fr;
-            gap: 40px;
-            margin-bottom: 40px;
-        }
-
-        .footer-logo {
-            display: flex;
-            align-items: center;
-            gap: 15px;
-            margin-bottom: 20px;
-        }
-
-        .footer-logo img {
-            width: 45px;
-            height: 45px;
-            border-radius: 10px;
-        }
-
-        .footer-about p {
-            margin-bottom: 25px;
-            color: rgba(255, 255, 255, 0.8);
-            line-height: 1.7;
-        }
-
-        .social-links {
-            display: flex;
-            gap: 12px;
-        }
-
-        .social-links a {
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            width: 40px;
-            height: 40px;
-            background-color: rgba(255, 255, 255, 0.1);
-            border-radius: 12px;
-            color: var(--white);
-            transition: var(--transition);
-        }
-
-        .social-links a:hover {
-            background-color: var(--accent-color);
-            color: var(--primary-color);
-            transform: translateY(-5px);
-        }
-
-        .footer-title {
-            font-size: 1.2rem;
-            margin-bottom: 20px;
-            position: relative;
-            padding-bottom: 12px;
-            font-weight: 600;
-        }
-
-        .footer-title::after {
-            content: '';
-            position: absolute;
-            left: 0;
-            bottom: 0;
-            width: 40px;
-            height: 3px;
-            background-color: var(--accent-color);
-            border-radius: 3px;
-        }
-
-        .footer-links ul {
-            list-style: none;
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 10px 20px;
-        }
-
-        .footer-links ul li a {
-            color: rgba(255, 255, 255, 0.8);
-            text-decoration: none;
-            transition: var(--transition);
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            font-size: 0.95rem;
-        }
-
-        .footer-links ul li a i {
-            font-size: 0.75rem;
-            transition: var(--transition);
-        }
-
-        .footer-links ul li a:hover {
-            color: var(--accent-color);
-            transform: translateX(5px);
-        }
-
-        .footer-links ul li a:hover i {
-            transform: translateX(3px);
-        }
-
-        .contact-item {
-            display: flex;
-            align-items: flex-start;
-            gap: 15px;
-            margin-bottom: 20px;
-        }
-
-        .contact-icon {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            width: 40px;
-            height: 40px;
-            background-color: rgba(255, 255, 255, 0.1);
-            border-radius: 12px;
-            color: var(--accent-color);
-            flex-shrink: 0;
-        }
-
-        .contact-info {
-            color: rgba(255, 255, 255, 0.8);
-            line-height: 1.6;
-            font-size: 0.95rem;
-        }
-
-        .contact-info a {
-            color: rgba(255, 255, 255, 0.8);
-            text-decoration: none;
-            transition: var(--transition);
-        }
-
-        .contact-info a:hover {
-            color: var(--accent-color);
-        }
-
-        .copyright {
-            text-align: center;
-            padding-top: 30px;
-            border-top: 1px solid rgba(255, 255, 255, 0.1);
-            color: rgba(255, 255, 255, 0.7);
-            font-size: 0.9rem;
-        }
-
-        .back-to-top {
-            position: fixed;
-            bottom: 30px;
-            right: 30px;
-            width: 50px;
-            height: 50px;
-            background-color: var(--primary-color);
-            color: var(--white);
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
-            cursor: pointer;
-            z-index: 99;
-            opacity: 0;
-            visibility: hidden;
-            transition: var(--transition);
-        }
-
-        .back-to-top.active {
-            opacity: 1;
-            visibility: visible;
-        }
-
-        .back-to-top:hover {
-            background-color: var(--accent-color);
-            color: var(--primary-color);
-            transform: translateY(-5px);
-        }
-
-        /* Language-specific content */
-        /* Langue française */
-        [lang="fr"] {
-            display: block;
-        }
-
-        /* Langue anglaise */
-        [lang="en"] {
-            display: none;
-        }
-
-        /* Quand la langue HTML est l'anglais */
-        html[lang="en"] [lang="fr"] {
-            display: none;
-        }
-
-        html[lang="en"] [lang="en"] {
-            display: block;
-        }
-
-        /* Styles supplémentaires pour la Hero Section améliorée */
-
-        /* Stats section styles */
-        .hero-stats {
-            display: flex;
-            gap: 30px;
-            margin: 25px 0;
-            flex-wrap: wrap;
-        }
-
-        .stat-item {
-            background-color: rgba(255, 255, 255, 0.15);
-            padding: 15px 20px;
-            border-radius: 15px;
-            backdrop-filter: blur(5px);
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-        }
-
-        .stat-item:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-        }
-
-        .stat-number {
-            font-size: 2rem;
-            font-weight: 700;
-            color: var(--accent-color);
-            margin-bottom: 5px;
-        }
-
-        .counter {
-            display: inline-block;
-        }
-
-        .stat-rating {
-            color: var(--accent-color);
-            font-size: 1.5rem;
-            margin-bottom: 5px;
-            display: flex;
-            align-items: center;
-        }
-
-        .rating-text {
-            margin-left: 8px;
-            font-weight: 700;
-            font-size: 1.8rem;
-        }
-
-        .stat-label {
-            font-size: 0.9rem;
-            color: rgba(255, 255, 255, 0.9);
-        }
-
-        /* Trust badge section */
-        .trust-badges {
-            display: flex;
-            gap: 15px;
-            margin-bottom: 25px;
-            flex-wrap: wrap;
-        }
-
-        .badge {
-            display: flex;
-            align-items: center;
-            gap: 8px;
-            background-color: rgba(255, 255, 255, 0.15);
-            padding: 8px 15px;
-            border-radius: 30px;
-            font-size: 0.85rem;
-            color: white;
-            backdrop-filter: blur(5px);
-            transition: all 0.3s ease;
-        }
-
-        .badge:hover {
-            background-color: var(--accent-color);
-            color: var(--primary-color);
-            transform: scale(1.05);
-        }
-
-        .badge i {
-            font-size: 1rem;
-        }
-
-        /* Floating phone with animations */
-        .floating-phone {
-            position: relative;
-            width: 100%;
-            max-width: 280px;
-            margin: 0 auto;
-        }
-
-        .phone-notification {
-            position: absolute;
-            background-color: white;
-            border-radius: 12px;
-            padding: 10px 15px;
-            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            font-size: 0.85rem;
-            color: var(--primary-color);
-            opacity: 0;
-            transform: translateY(20px);
-            animation: notification-popup 5s ease infinite;
-            min-width: 180px;
-        }
-
-        .phone-notification i {
-            color: var(--accent-color);
-            font-size: 1.2rem;
-        }
-
-        .notification-1 {
-            top: 20%;
-            right: -100px;
-            animation-delay: 1s;
-        }
-
-        .notification-2 {
-            bottom: 25%;
-            left: -100px;
-            animation-delay: 3s;
-        }
-
-        @keyframes notification-popup {
-
-            0%,
-            100% {
-                opacity: 0;
-                transform: translateY(20px);
-            }
-
-            10%,
-            90% {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-
-        /* Wave separator */
-        .wave-separator {
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            width: 100%;
-            overflow: hidden;
-            line-height: 0;
-        }
-
-        .wave-separator svg {
-            width: 100%;
-            height: 50px;
-        }
-
-        /* Counter animation */
-        @keyframes count-up {
-            from {
-                opacity: 0;
-                transform: translateY(20px);
-            }
-
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-
-        /* Download buttons enhancement */
-        .download-btns {
-            position: relative;
-            z-index: 5;
-        }
-
-        .download-btn {
-            position: relative;
-            overflow: hidden;
-        }
-
-        .download-btn::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: -100%;
-            width: 100%;
-            height: 100%;
-            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
-            transition: all 0.5s ease;
-        }
-
-        .download-btn:hover::before {
-            left: 100%;
-        }
-
-        /* Media Queries for responsiveness */
-        @media (max-width: 767px) {
-            .notification-1 {
-                right: -60px;
-                top: 10%;
-            }
-
-            .notification-2 {
-                left: -60px;
-                bottom: 20%;
-            }
-
-            .hero-stats {
-                justify-content: center;
-            }
-
-            .trust-badges {
-                justify-content: center;
-            }
-        }
-
-        @media (min-width: 992px) {
-            .floating-phone {
-                transform: rotate(-5deg);
-            }
         }
 
         /* Styles Ultra-Modernes pour la section Hero avec Glassmorphism et éléments 3D */
@@ -1463,19 +624,6 @@
             transform: translateZ(5px);
         }
 
-        .device-glare {
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background: linear-gradient(135deg,
-                    rgba(255, 255, 255, 0.2) 0%,
-                    rgba(255, 255, 255, 0) 60%);
-            border-radius: 40px;
-            pointer-events: none;
-        }
-
         .device-shadow {
             position: absolute;
             bottom: -30px;
@@ -1525,6 +673,15 @@
 
             50% {
                 transform: translate(20px, 20px);
+            }
+        }
+
+        @keyframes float {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-10px);
             }
         }
 
@@ -1609,6 +766,21 @@
             }
         }
 
+        /* Séparateur moderne */
+        .hero-separator {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            overflow: hidden;
+            line-height: 0;
+        }
+
+        .hero-separator svg {
+            width: 100%;
+            height: 100px;
+        }
+
         /* Styles optimisés pour mobile */
         .hero-mobile {
             position: relative;
@@ -1654,63 +826,6 @@
             font-size: 1.2rem;
             font-weight: 600;
             margin: 0;
-        }
-
-        /* Rangée de badges statistiques */
-        .mobile-badges-row {
-            display: flex;
-            gap: 15px;
-            width: 100%;
-            justify-content: center;
-        }
-
-        .mobile-badge {
-            background: rgba(255, 255, 255, 0.15);
-            border-radius: 12px;
-            padding: 10px 15px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            text-align: center;
-            min-width: 100px;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-            animation: badge-appear 0.5s ease forwards;
-            opacity: 0;
-            transform: translateY(10px);
-        }
-
-        .users-badge {
-            animation-delay: 0.2s;
-        }
-
-        .rating-badge {
-            animation-delay: 0.3s;
-        }
-
-        .badge-number {
-            font-size: 1.5rem;
-            font-weight: 700;
-            color: var(--accent-color);
-            margin-bottom: 3px;
-        }
-
-        .stars-container {
-            display: flex;
-            align-items: center;
-            color: var(--accent-color);
-            font-size: 1.2rem;
-            margin-bottom: 3px;
-        }
-
-        .rating-number {
-            margin-left: 5px;
-            font-weight: 700;
-            font-size: 1.5rem;
-        }
-
-        .badge-label {
-            font-size: 0.7rem;
-            color: rgba(255, 255, 255, 0.9);
         }
 
         /* Section de contenu principal */
@@ -1867,181 +982,6 @@
             height: 50px;
         }
 
-        /* Section Why */
-        .why-section {
-            padding: 80px 0;
-            background-color: var(--white);
-        }
-
-        .section-title {
-            text-align: center;
-            margin-bottom: 50px;
-            position: relative;
-            padding: 0 15px;
-        }
-
-        .section-title h2 {
-            font-size: 2.5rem;
-            color: var(--primary-color);
-            margin-bottom: 15px;
-            font-weight: 700;
-        }
-
-        .section-title p {
-            font-size: 1.1rem;
-            color: var(--text-light);
-            max-width: 600px;
-            margin: 0 auto;
-        }
-
-        .why-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 30px;
-            margin-top: 50px;
-        }
-
-        .why-card {
-            background: linear-gradient(135deg, var(--primary-light) 0%, var(--primary-color) 100%);
-            border-radius: var(--border-radius);
-            padding: 40px 30px;
-            color: white;
-            text-align: center;
-            transition: var(--transition);
-            position: relative;
-            overflow: hidden;
-        }
-
-        .why-card::before {
-            content: '';
-            position: absolute;
-            top: -50%;
-            right: -50%;
-            width: 200%;
-            height: 200%;
-            background: rgba(255, 255, 255, 0.1);
-            transform: rotate(45deg);
-            transition: var(--transition);
-        }
-
-        .why-card:hover::before {
-            top: -30%;
-            right: -30%;
-        }
-
-        .why-card:hover {
-            transform: translateY(-10px);
-            box-shadow: 0 20px 40px rgba(0, 85, 61, 0.3);
-        }
-
-        .why-icon {
-            font-size: 3rem;
-            margin-bottom: 20px;
-            color: var(--accent-color);
-        }
-
-        .why-card h3 {
-            font-size: 1.5rem;
-            margin-bottom: 15px;
-        }
-
-        .why-card p {
-            font-size: 1rem;
-            opacity: 0.95;
-            line-height: 1.7;
-        }
-
-        /* Responsive */
-        @media (max-width: 767px) {
-            .section-title h2 {
-                font-size: 2rem;
-            }
-
-            .why-card {
-                padding: 30px 20px;
-            }
-
-            .why-icon {
-                font-size: 2.5rem;
-            }
-        }
-
-        /* Section FAQ */
-        .faq-section {
-            padding: 80px 0;
-            background: linear-gradient(135deg, var(--light-color) 0%, var(--white) 100%);
-        }
-
-        .faq-container {
-            max-width: 800px;
-            margin: 50px auto 0;
-        }
-
-        .faq-item {
-            background: var(--white);
-            border-radius: var(--border-radius-sm);
-            margin-bottom: 20px;
-            overflow: hidden;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
-            transition: var(--transition);
-        }
-
-        .faq-item:hover {
-            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
-        }
-
-        .faq-question {
-            padding: 20px 25px;
-            cursor: pointer;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            background: var(--white);
-            transition: var(--transition);
-        }
-
-        .faq-question:hover {
-            background: var(--light-color);
-        }
-
-        .faq-question h3 {
-            color: var(--primary-color);
-            font-size: 1.1rem;
-            font-weight: 600;
-            margin: 0;
-            flex: 1;
-            padding-right: 15px;
-        }
-
-        .faq-icon {
-            font-size: 1.2rem;
-            color: var(--accent-color);
-            transition: var(--transition);
-            min-width: 30px;
-            text-align: center;
-        }
-
-        .faq-item.active .faq-icon {
-            transform: rotate(180deg);
-        }
-
-        .faq-answer {
-            max-height: 0;
-            overflow: hidden;
-            transition: max-height 0.3s ease;
-        }
-
-        .faq-answer-content {
-            padding: 0 25px 20px;
-            color: var(--text-light);
-            line-height: 1.7;
-            font-size: 1rem;
-        }
-
-        .faq-item.active .faq-answer {
-            max-height: 500px;
-        }
-
         /* Animations */
         @keyframes badge-appear {
             0% {
@@ -2079,18 +1019,6 @@
             }
         }
 
-        @keyframes device-float {
-
-            0%,
-            100% {
-                transform: translateY(0);
-            }
-
-            50% {
-                transform: translateY(-10px);
-            }
-        }
-
         @keyframes indicator-pulse {
             0% {
                 opacity: 0;
@@ -2111,85 +1039,6 @@
                 opacity: 0;
                 transform: scale(0.8);
             }
-        }
-
-        /* Styles spécifiques pour tablettes */
-        @media (min-width: 600px) and (max-width: 991px) {
-            .mobile-header {
-                flex-direction: row;
-                justify-content: space-between;
-                margin-bottom: 40px;
-            }
-
-            .mobile-badges-row {
-                justify-content: flex-end;
-            }
-
-            .mobile-hero-content {
-                margin-bottom: 40px;
-            }
-
-            .mobile-headline {
-                font-size: 2.2rem;
-            }
-
-            .mobile-device-container {
-                max-width: 320px;
-                margin-bottom: 40px;
-            }
-
-            .mobile-indicator {
-                font-size: 0.8rem;
-                padding: 8px 15px;
-            }
-
-            .phonetic-indicator {
-                right: -20px;
-            }
-
-            .tajweed-indicator {
-                left: -20px;
-            }
-
-            .audio-indicator {
-                right: -20px;
-            }
-
-            .mobile-download-btn {
-                padding: 12px 25px;
-                font-size: 1rem;
-            }
-        }
-
-        /* Style pour les grands écrans - bascule automatiquement vers la version desktop */
-        @media (min-width: 992px) {
-            .hero-mobile {
-                display: none;
-            }
-        }
-
-        /* Style pour cacher la version desktop sur mobile */
-        @media (max-width: 991px) {
-
-            .hero,
-            .hero-modern {
-                display: none;
-            }
-        }
-
-        /* Séparateur moderne */
-        .hero-separator {
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            width: 100%;
-            overflow: hidden;
-            line-height: 0;
-        }
-
-        .hero-separator svg {
-            width: 100%;
-            height: 100px;
         }
 
         /* Responsive Design */
@@ -2302,9 +1151,797 @@
             .hero-separator svg {
                 height: 60px;
             }
+
+            .notification-1 {
+                right: -60px;
+                top: 10%;
+            }
+
+            .notification-2 {
+                left: -60px;
+                bottom: 20%;
+            }
         }
 
-        /* Media Queries - Modern Mobile */
+        /* Style pour cacher la version desktop sur mobile */
+        @media (max-width: 991px) {
+            .hero-modern {
+                display: none;
+            }
+        }
+
+        /* Style pour les grands écrans - bascule automatiquement vers la version desktop */
+        @media (min-width: 992px) {
+            .hero-mobile {
+                display: none;
+            }
+        }
+
+        /* Features Section - Modern Mobile */
+        .features {
+            padding: 50px 0;
+            background-color: var(--white);
+            position: relative;
+
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 40px;
+            position: relative;
+            padding: 0 15px;
+        }
+
+        .section-title h2 {
+            font-size: 2rem;
+            color: var(--primary-color);
+            margin-bottom: 15px;
+            font-weight: 700;
+        }
+
+        .section-title p {
+            font-size: 1.1rem;
+            color: var(--text-light);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 20px;
+            padding: 0 15px;
+        }
+
+        .feature-card {
+            background-color: var(--white);
+            border-radius: var(--border-radius-sm);
+            padding: 25px 20px;
+            display: flex;
+            align-items: flex-start;
+            gap: 15px;
+            transition: var(--transition);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.03);
+            border: 1px solid rgba(0, 0, 0, 0.03);
+        }
+
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 25px rgba(0, 0, 0, 0.06);
+        }
+
+        .feature-icon {
+            width: 50px;
+            height: 50px;
+            min-width: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 12px;
+            background: linear-gradient(135deg, var(--primary-light) 0%, var(--primary-color) 100%);
+            box-shadow: 0 5px 15px rgba(0, 85, 61, 0.15);
+        }
+
+        .feature-icon i {
+            font-size: 1.5rem;
+            color: var(--white);
+        }
+
+        .feature-content {
+            flex: 1;
+        }
+
+        .feature-card h3 {
+            font-size: 1.2rem;
+            margin-bottom: 8px;
+            color: var(--primary-color);
+            font-weight: 600;
+        }
+
+        .feature-card p {
+            color: var(--text-light);
+            font-size: 0.95rem;
+            margin: 0;
+        }
+
+        /* Screenshots Section - Modern Mobile */
+        .screenshots {
+            padding: 50px 0;
+            background-color: var(--light-color);
+            position: relative;
+        }
+
+        .screenshots-container {
+            position: relative;
+            z-index: 1;
+        }
+
+        .screenshots-slider {
+            display: flex;
+            
+            overflow-x: auto;
+            padding: 30px 15px;
+            scroll-snap-type: x mandatory;
+            scrollbar-width: none;
+            -webkit-overflow-scrolling: touch;
+            margin: 0 -15px;
+        }
+
+        .screenshots-slider::-webkit-scrollbar {
+            display: none;
+        }
+
+        .screenshot-wrapper {
+            position: relative;
+            flex: 0 0 240px;
+            scroll-snap-align: center;
+        }
+
+        .screenshot {
+            width: 100%;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: var(--shadow);
+            transition: var(--transition);
+            transform: scale(0.95);
+            border: 5px solid var(--white);
+        }
+
+        .screenshot:hover {
+            transform: scale(1);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+        }
+
+        .screenshot img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .scroll-indicator {
+            display: flex;
+            justify-content: center;
+            gap: 8px;
+            margin-top: 25px;
+        }
+
+        .scroll-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background-color: var(--light-gray);
+            transition: var(--transition);
+        }
+
+        .scroll-dot.active {
+            width: 25px;
+            border-radius: 4px;
+            background-color: var(--accent-color);
+        }
+
+        /* Testimonials Section - Modern Mobile */
+        .testimonials {
+            padding: 80px 0;
+            background-color: var(--white);
+            position: relative;
+        }
+
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 32px;
+            margin-top: 60px;
+        }
+
+        .testimonial-card {
+            background-color: var(--light-color);
+            border-radius: var(--border-radius-sm);
+            padding: 40px 32px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.03);
+            position: relative;
+            transition: var(--transition);
+            border: 1px solid rgba(0, 0, 0, 0.03);
+        }
+
+        .testimonial-card:hover {
+            transform: translateY(-4px);
+            box-shadow: var(--shadow-md);
+        }
+
+        .quote-icon {
+            position: absolute;
+            top: 32px;
+            right: 32px;
+            font-size: 3rem;
+            color: var(--accent-color);
+            opacity: 0.2;
+        }
+
+        .testimonial-content {
+            position: relative;
+            z-index: 1;
+        }
+
+        .stars {
+            color: var(--accent-color);
+            margin-bottom: 16px;
+            font-size: 1.125rem;
+        }
+
+        .testimonial-text {
+            font-size: 1rem;
+            line-height: 1.7;
+            color: var(--text-color);
+            margin-bottom: 24px;
+            font-style: italic;
+        }
+
+        .testimonial-author {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+
+        .author-avatar {
+            width: 56px;
+            height: 56px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-light) 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: 700;
+            font-size: 1.25rem;
+        }
+
+        .author-info h4 {
+            font-weight: 600;
+            color: var(--text-color);
+            margin-bottom: 4px;
+        }
+
+        .author-info p {
+            font-size: 0.875rem;
+            color: var(--text-light);
+        }
+
+        /* Section Why */
+        .why-section {
+            padding: 80px 0;
+            background-color: var(--white);
+        }
+
+        /* Video Demo Section */
+        .video-demo-section {
+            padding: 80px 0;
+            background: linear-gradient(135deg, var(--light-color) 0%, var(--white) 100%);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .video-demo-section::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -10%;
+            width: 500px;
+            height: 500px;
+            background: radial-gradient(circle, rgba(0, 85, 61, 0.05) 0%, transparent 70%);
+            border-radius: 50%;
+        }
+
+        .video-container {
+            position: relative;
+            z-index: 1;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .video-wrapper {
+            position: relative;
+            width: 100%;
+            max-width: 400px;
+            margin: 0 auto 50px;
+            border-radius: 30px;
+            overflow: hidden;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+            background: var(--primary-dark);
+            padding: 10px;
+            transform: perspective(1000px) rotateY(-2deg);
+            transition: var(--transition);
+        }
+
+        .video-wrapper:hover {
+            transform: perspective(1000px) rotateY(0deg) scale(1.02);
+            box-shadow: 0 25px 70px rgba(0, 0, 0, 0.2);
+        }
+
+        .video-wrapper::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(135deg, rgba(218, 188, 76, 0.1) 0%, transparent 50%);
+            pointer-events: none;
+            z-index: 1;
+        }
+
+        .video-wrapper iframe {
+            width: 100%;
+            height: 711px;
+            min-height: 500px;
+            border-radius: 20px;
+            display: block;
+            position: relative;
+            z-index: 0;
+            border: none;
+        }
+
+        @media (max-width: 767px) {
+            .video-wrapper iframe {
+                height: 600px;
+                min-height: 400px;
+            }
+        }
+
+        @media (min-width: 768px) and (max-width: 991px) {
+            .video-wrapper iframe {
+                height: 650px;
+            }
+        }
+
+        .video-features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+            margin-top: 50px;
+        }
+
+        .video-feature {
+            background: white;
+            padding: 25px;
+            border-radius: var(--border-radius-sm);
+            display: flex;
+            align-items: flex-start;
+            gap: 15px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            transition: var(--transition);
+            border: 1px solid rgba(0, 0, 0, 0.05);
+        }
+
+        .video-feature:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+            border-color: var(--accent-color);
+        }
+
+        .video-feature-icon {
+            width: 50px;
+            height: 50px;
+            min-width: 50px;
+            border-radius: 12px;
+            background: linear-gradient(135deg, var(--accent-color) 0%, var(--accent-light) 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--primary-dark);
+            font-size: 1.5rem;
+            box-shadow: 0 5px 15px rgba(218, 188, 76, 0.3);
+        }
+
+        .video-feature-content h4 {
+            font-size: 1.1rem;
+            color: var(--primary-color);
+            margin-bottom: 5px;
+            font-weight: 600;
+        }
+
+        .video-feature-content p {
+            font-size: 0.9rem;
+            color: var(--text-light);
+            margin: 0;
+            line-height: 1.5;
+        }
+
+        /* Section Why continued */
+
+        .why-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+            margin-top: 50px;
+        }
+
+        .why-card {
+            background: linear-gradient(135deg, var(--primary-light) 0%, var(--primary-color) 100%);
+            border-radius: var(--border-radius);
+            padding: 40px 30px;
+            color: white;
+            text-align: center;
+            transition: var(--transition);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .why-card::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -50%;
+            width: 200%;
+            height: 200%;
+            background: rgba(255, 255, 255, 0.1);
+            transform: rotate(45deg);
+            transition: var(--transition);
+        }
+
+        .why-card:hover::before {
+            top: -30%;
+            right: -30%;
+        }
+
+        .why-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(0, 85, 61, 0.3);
+        }
+
+        .why-icon {
+            font-size: 3rem;
+            margin-bottom: 20px;
+            color: var(--accent-color);
+        }
+
+        .why-card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+        }
+
+        .why-card p {
+            font-size: 1rem;
+            opacity: 0.95;
+            line-height: 1.7;
+        }
+
+        /* Section FAQ */
+        .faq-section {
+            padding: 80px 0;
+            background: linear-gradient(135deg, var(--light-color) 0%, var(--white) 100%);
+        }
+
+        .faq-container {
+            max-width: 800px;
+            margin: 50px auto 0;
+        }
+
+        .faq-item {
+            background: var(--white);
+            border-radius: var(--border-radius-sm);
+            margin-bottom: 20px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            transition: var(--transition);
+        }
+
+        .faq-item:hover {
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+        }
+
+        .faq-question {
+            padding: 20px 25px;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: var(--white);
+            transition: var(--transition);
+        }
+
+        .faq-question:hover {
+            background: var(--light-color);
+        }
+
+        .faq-question h3 {
+            color: var(--primary-color);
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin: 0;
+            flex: 1;
+            padding-right: 15px;
+        }
+
+        .faq-icon {
+            font-size: 1.2rem;
+            color: var(--accent-color);
+            transition: var(--transition);
+            min-width: 30px;
+            text-align: center;
+        }
+
+        .faq-item.active .faq-icon {
+            transform: rotate(180deg);
+        }
+
+        .faq-answer {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+        }
+
+        .faq-answer-content {
+            padding: 0 25px 20px;
+            color: var(--text-light);
+            line-height: 1.7;
+            font-size: 1rem;
+        }
+
+        .faq-item.active .faq-answer {
+            max-height: 500px;
+        }
+
+        /* ===== CTA SECTION ===== */
+        .cta-section {
+            padding: 100px 0;
+            background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-dark) 100%);
+            color: white;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .cta-section::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(255, 255, 255, 0.1) 0%, transparent 70%);
+            animation: rotate 20s linear infinite;
+        }
+
+        @keyframes rotate {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        .cta-content {
+            position: relative;
+            z-index: 1;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .cta-content h2 {
+            font-size: 3rem;
+            font-weight: 800;
+            margin-bottom: 24px;
+            line-height: 1.2;
+        }
+
+        .cta-content p {
+            font-size: 1.25rem;
+            margin-bottom: 40px;
+            opacity: 0.95;
+            line-height: 1.7;
+        }
+
+        .cta-buttons {
+            display: flex;
+            gap: 16px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .btn-store {
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            background: white;
+            color: var(--primary-color);
+            padding: 16px 32px;
+            border-radius: 16px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: var(--transition);
+        }
+
+        .btn-store:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 12px 32px rgba(0, 0, 0, 0.2);
+        }
+
+        .btn-store i {
+            font-size: 2rem;
+        }
+
+        .btn-store-text {
+            text-align: left;
+        }
+
+        .btn-store-small {
+            font-size: 0.75rem;
+            display: block;
+            opacity: 0.7;
+        }
+
+        .btn-store-large {
+            font-size: 1.125rem;
+            display: block;
+            font-weight: 700;
+        }
+
+        /* ===== FOOTER ===== */
+        footer {
+            background: var(--primary-dark);
+            color: white;
+            padding: 80px 0 32px;
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr 1fr;
+            gap: 60px;
+            margin-bottom: 60px;
+        }
+
+        .footer-about h3 {
+            font-size: 1.5rem;
+            margin-bottom: 16px;
+        }
+
+        .footer-about p {
+            line-height: 1.7;
+            opacity: 0.8;
+            margin-bottom: 24px;
+        }
+
+        .social-links {
+            display: flex;
+            gap: 12px;
+        }
+
+        .social-link {
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-decoration: none;
+            transition: var(--transition);
+        }
+
+        .social-link:hover {
+            background: var(--accent-color);
+            color: var(--primary-dark);
+            transform: translateY(-4px);
+        }
+
+        .footer-links h4 {
+            font-size: 1.125rem;
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+
+        .footer-links ul {
+            list-style: none;
+        }
+
+        .footer-links li {
+            margin-bottom: 12px;
+        }
+
+        .footer-links a {
+            color: rgba(255, 255, 255, 0.8);
+            text-decoration: none;
+            transition: var(--transition);
+        }
+
+        .footer-links a:hover {
+            color: var(--accent-color);
+            padding-left: 4px;
+        }
+
+        .footer-bottom {
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            padding-top: 32px;
+            text-align: center;
+            opacity: 0.8;
+        }
+
+        .back-to-top {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            width: 50px;
+            height: 50px;
+            background-color: var(--primary-color);
+            color: var(--white);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+            cursor: pointer;
+            z-index: 99;
+            opacity: 0;
+            visibility: hidden;
+            transition: var(--transition);
+        }
+
+        .back-to-top.active {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .back-to-top:hover {
+            background-color: var(--accent-color);
+            color: var(--primary-color);
+            transform: translateY(-5px);
+        }
+
+        /* Language-specific content */
+        [lang="fr"] {
+            display: block;
+        }
+
+        [lang="en"] {
+            display: none;
+        }
+
+        html[lang="en"] [lang="fr"] {
+            display: none;
+        }
+
+        html[lang="en"] [lang="en"] {
+            display: block;
+        }
+
+        /* Responsive */
+        @media (max-width: 1024px) {
+            .footer-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 40px;
+            }
+
+            .testimonials-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .video-features {
+                grid-template-columns: 1fr;
+            }
+        }
+
         @media (min-width: 768px) {
             .menu-toggle {
                 display: none;
@@ -2335,8 +1972,8 @@
                 gap: 25px;
             }
 
-            .footer-content {
-                grid-template-columns: repeat(2, 1fr);
+            .video-wrapper {
+                max-width: 350px;
             }
         }
 
@@ -2345,8 +1982,8 @@
                 grid-template-columns: repeat(3, 1fr);
             }
 
-            .footer-content {
-                grid-template-columns: 2fr 1fr 1fr;
+            .video-features {
+                grid-template-columns: repeat(3, 1fr);
             }
         }
 
@@ -2385,11 +2022,38 @@
             }
 
             .cta-content h2 {
-                font-size: 1.75rem;
+                font-size: 2rem;
             }
 
-            .footer-links ul {
+            .footer-grid {
                 grid-template-columns: 1fr;
+                gap: 40px;
+            }
+
+            .btn-store {
+                width: 100%;
+                justify-content: center;
+            }
+
+            .video-wrapper {
+                max-width: 100%;
+                transform: perspective(1000px) rotateY(0deg);
+                padding: 8px;
+            }
+
+            .video-wrapper:hover {
+                transform: perspective(1000px) rotateY(0deg) scale(1);
+            }
+
+            .video-feature {
+                padding: 20px;
+            }
+
+            .video-feature-icon {
+                width: 45px;
+                height: 45px;
+                min-width: 45px;
+                font-size: 1.3rem;
             }
         }
     </style>
@@ -2491,7 +2155,7 @@
                     <div class="status-badge">
                         <span class="status-dot pulse"></span>
                         <span lang="fr">50K+ Utilisateurs Actifs</span>
-                        <span lang="en">K+ Active Users</span>
+                        <span lang="en">50K+ Active Users</span>
                     </div>
 
                     <h2 class="headline-modern" lang="fr">
@@ -2718,7 +2382,7 @@
         </div>
     </section>
 
-    <!-- NOUVELLE SECTION: Pourquoi Noor Phonetic Quran ? -->
+    <!-- Why Section -->
     <section class="why-section" id="why">
         <div class="container">
             <div class="section-title">
@@ -2782,6 +2446,70 @@
         </div>
     </section>
 
+    <!-- Video Demo Section -->
+    <section class="video-demo-section">
+        <div class="container">
+            <div class="section-title">
+                <h2 lang="fr">Découvrez l'Application en Action</h2>
+                <h2 lang="en">Discover the App in Action</h2>
+                <p lang="fr">Regardez cette courte démo pour voir comment Noor Phonetic Quran fonctionne</p>
+                <p lang="en">Watch this short demo to see how Noor Phonetic Quran works</p>
+            </div>
+
+            <div class="video-container">
+                <div class="video-wrapper">
+                    <iframe 
+                        src="https://www.youtube.com/embed/O6kRF4UV_xc?rel=0&modestbranding=1" 
+                        title="Noor Phonetic Quran Demo" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen
+                        loading="lazy">
+                    </iframe>
+                </div>
+                
+                <div class="video-features">
+                    <div class="video-feature">
+                        <div class="video-feature-icon">
+                            <i class="fas fa-play-circle"></i>
+                        </div>
+                        <div class="video-feature-content">
+                            <h4 lang="fr">Interface Intuitive</h4>
+                            <h4 lang="en">Intuitive Interface</h4>
+                            <p lang="fr">Navigation simple et fluide pour une expérience optimale</p>
+                            <p lang="en">Simple and smooth navigation for an optimal experience</p>
+                        </div>
+                    </div>
+
+                    <div class="video-feature">
+                        <div class="video-feature-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <div class="video-feature-content">
+                            <h4 lang="fr">Mode Portrait & Paysage</h4>
+                            <h4 lang="en">Portrait & Landscape Mode</h4>
+                            <p lang="fr">Adaptée à toutes les orientations d'écran</p>
+                            <p lang="en">Adapted to all screen orientations</p>
+                        </div>
+                    </div>
+
+                    <div class="video-feature">
+                        <div class="video-feature-icon">
+                            <i class="fas fa-volume-up"></i>
+                        </div>
+                        <div class="video-feature-content">
+                            <h4 lang="fr">Audio HD</h4>
+                            <h4 lang="en">HD Audio</h4>
+                            <p lang="fr">Récitation claire et de haute qualité</p>
+                            <p lang="en">Clear and high quality recitation</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
     <section class="features" id="features">
         <div class="container">
             <div class="section-title">
@@ -2876,6 +2604,7 @@
         </div>
     </section>
 
+    <!-- Screenshots Section -->
     <section class="screenshots" id="screenshots">
         <div class="container screenshots-container">
             <div class="section-title">
@@ -2918,27 +2647,27 @@
                 </div>
                 <div class="screenshot-wrapper">
                     <div class="screenshot">
-                        <img src="images/screenshot7.png" alt="Noor Phonetic Quran Screenshot 6">
+                        <img src="images/screenshot7.png" alt="Noor Phonetic Quran Screenshot 7">
                     </div>
                 </div>
                 <div class="screenshot-wrapper">
                     <div class="screenshot">
-                        <img src="images/screenshot8.png" alt="Noor Phonetic Quran Screenshot 6">
+                        <img src="images/screenshot8.png" alt="Noor Phonetic Quran Screenshot 8">
                     </div>
                 </div>
                 <div class="screenshot-wrapper">
                     <div class="screenshot">
-                        <img src="images/screenshot9.png" alt="Noor Phonetic Quran Screenshot 6">
+                        <img src="images/screenshot9.png" alt="Noor Phonetic Quran Screenshot 9">
                     </div>
                 </div>
                 <div class="screenshot-wrapper">
                     <div class="screenshot">
-                        <img src="images/screenshot10.png" alt="Noor Phonetic Quran Screenshot 6">
+                        <img src="images/screenshot10.png" alt="Noor Phonetic Quran Screenshot 10">
                     </div>
                 </div>
                 <div class="screenshot-wrapper">
                     <div class="screenshot">
-                        <img src="images/screenshot11.png" alt="Noor Phonetic Quran Screenshot 6">
+                        <img src="images/screenshot11.png" alt="Noor Phonetic Quran Screenshot 11">
                     </div>
                 </div>
             </div>
@@ -2954,7 +2683,7 @@
         </div>
     </section>
 
-
+    <!-- FAQ Section -->
     <section class="faq-section" id="faq">
         <div class="container">
             <div class="section-title">
@@ -3091,140 +2820,355 @@
         </div>
     </section>
 
-
+    <!-- Testimonials Section -->
     <section class="testimonials" id="testimonials">
         <div class="container">
             <div class="section-title">
                 <h2 lang="fr">Ce que disent nos utilisateurs</h2>
                 <h2 lang="en">What Our Users Say</h2>
-                <p lang="fr">Découvrez les avis de notre communauté</p>
-                <p lang="en">Discover what our community has to say</p>
+                <p lang="fr">Découvrez les avis de notre communauté grandissante d'utilisateurs satisfaits</p>
+                <p lang="en">Discover what our growing community of satisfied users has to say</p>
             </div>
 
-            <iframe src='https://widgets.sociablekit.com/google-play-reviews/iframe/25543130' frameborder='0'
-                width='100%' height='570'></iframe>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <i class="fas fa-quote-right quote-icon"></i>
+                    <div class="testimonial-content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text" lang="fr">
+                            "Excellente application, avec phonétique claire, audio de qualité et règles de Tajwid en couleurs. Très bon outil pour faciliter l'apprentissage du Coran."
+                        </p>
+                        <p class="testimonial-text" lang="en">
+                            "Excellent app, with clear phonetics, quality audio and color-coded Tajweed rules. Very good tool to facilitate Quran learning."
+                        </p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">OA</div>
+                            <div class="author-info">
+                                <h4>Oussama A.</h4>
+                                <p lang="fr">Samsung Galaxy S23 Ultra</p>
+                                <p lang="en">Samsung Galaxy S23 Ultra</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <i class="fas fa-quote-right quote-icon"></i>
+                    <div class="testimonial-content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text" lang="fr">
+                            "Une application utile et bien pensée ! Grâce à la translittération, j'ai pu améliorer ma lecture du Coran en peu de temps. Qu'Allah récompense les développeurs."
+                        </p>
+                        <p class="testimonial-text" lang="en">
+                            "A useful and well-thought-out app! Thanks to the transliteration, I was able to improve my Quran reading in a short time. May Allah reward the developers."
+                        </p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">DB</div>
+                            <div class="author-info">
+                                <h4>Dorra B.</h4>
+                                <p lang="fr">Redmi Note 12 Pro</p>
+                                <p lang="en">Redmi Note 12 Pro</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <i class="fas fa-quote-right quote-icon"></i>
+                    <div class="testimonial-content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text" lang="fr">
+                            "Salam à vous excellente application j'ai déjà lu plusieurs livre en phonétique mais j'avoue cette appli est la meilleure pour le moment, je suis presque un expert en phonétique et QuAllah vous récompense au centuple."
+                        </p>
+                        <p class="testimonial-text" lang="en">
+                            "Salam to you excellent application I've already read several books in phonetics but I admit this app is the best so far, I'm almost an expert in phonetics and may Allah reward you a hundredfold."
+                        </p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">MB</div>
+                            <div class="author-info">
+                                <h4>Mohamed G.</h4>
+                                <p lang="fr">Samsung Galaxy A11</p>
+                                <p lang="en">Samsung Galaxy A11</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <i class="fas fa-quote-right quote-icon"></i>
+                    <div class="testimonial-content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text" lang="fr">
+                            "Salam 'alaykoum, excellente application facile à utiliser et très utile pour la lecture et l'apprentissage. Qu'Allah récompense les développeurs."
+                        </p>
+                        <p class="testimonial-text" lang="en">
+                            "Salam 'alaykoum, excellent application easy to use and very useful for reading and learning. May Allah reward the developers."
+                        </p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">BH</div>
+                            <div class="author-info">
+                                <h4>Bahri H.</h4>
+                                <p lang="fr">Samsung Galaxy A22 5G</p>
+                                <p lang="en">Samsung Galaxy A22 5G</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <i class="fas fa-quote-right quote-icon"></i>
+                    <div class="testimonial-content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text" lang="fr">
+                            "Vraiment qu'Allah vous récompense de janatoul Firdaws, c'est la meilleure application, qu'Allah vous aide à améliorer l'application et qu'Il fasse que cela soit une sôdaquat' oul jarriyâh pour vous."
+                        </p>
+                        <p class="testimonial-text" lang="en">
+                            "Truly may Allah reward you with Jannah al-Firdaws, this is the best application, may Allah help you improve the app and make it a continuous charity for you."
+                        </p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">SB</div>
+                            <div class="author-info">
+                                <h4>Saïdou M.</h4>
+                                <p lang="fr">Orange Sanza plus</p>
+                                <p lang="en">Orange Sanza plus</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <i class="fas fa-quote-right quote-icon"></i>
+                    <div class="testimonial-content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text" lang="fr">
+                            "Très belle application, simple et complète. Parfaite pour lire et écouter le Coran partout. بارك الله فيكم"
+                        </p>
+                        <p class="testimonial-text" lang="en">
+                            "Very beautiful app, simple and complete. Perfect for reading and listening to the Quran anywhere. بارك الله فيكم"
+                        </p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">CB</div>
+                            <div class="author-info">
+                                <h4>Chiraz B.</h4>
+                                <p lang="fr">Samsung Galaxy A21s</p>
+                                <p lang="en">Samsung Galaxy A21s</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <i class="fas fa-quote-right quote-icon"></i>
+                    <div class="testimonial-content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text" lang="fr">
+                            "Une très bonne application. Très simple pour l'utilisation et ne contient pas des annonces. Bravo!"
+                        </p>
+                        <p class="testimonial-text" lang="en">
+                            "A very good app. Very simple to use and contains no ads. Bravo!"
+                        </p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">GB</div>
+                            <div class="author-info">
+                                <h4>Gora B.</h4>
+                                <p lang="fr">Huawei GR5 2017</p>
+                                <p lang="en">Huawei GR5 2017</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <i class="fas fa-quote-right quote-icon"></i>
+                    <div class="testimonial-content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text" lang="fr">
+                            "Application excellente ! Très utile, facile à utiliser et bien pensée. Je la recommande vivement ! Bravo au développeur pour ce beau travail, continuez comme ça, vous faites un excellent boulot !"
+                        </p>
+                        <p class="testimonial-text" lang="en">
+                            "Excellent application! Very useful, easy to use and well thought out. I highly recommend it! Congratulations to the developer for this beautiful work, keep it up, you're doing an excellent job!"
+                        </p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">YB</div>
+                            <div class="author-info">
+                                <h4>Yosra B.</h4>
+                                <p lang="fr">Samsung Galaxy A14</p>
+                                <p lang="en">Samsung Galaxy A14</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <i class="fas fa-quote-right quote-icon"></i>
+                    <div class="testimonial-content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text" lang="fr">
+                            "Hyper utile, pratique et franchement intuitive. Très belle interface bravo très qualitatif qu'Allah vous facilite vos projets et vous en récompense grandement."
+                        </p>
+                        <p class="testimonial-text" lang="en">
+                            "Super useful, practical and frankly intuitive. Very beautiful interface congratulations very qualitative may Allah facilitate your projects and reward you greatly."
+                        </p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">AC</div>
+                            <div class="author-info">
+                                <h4>Assia C.</h4>
+                                <p lang="fr">Nothing Phone (2a)</p>
+                                <p lang="en">Nothing Phone (2a)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
+    <!-- CTA Section -->
     <section class="cta-section">
-        <div class="cta-bg"></div>
         <div class="container">
             <div class="cta-content">
-                <h2 lang="fr">Prêt à commencer votre voyage d'apprentissage ?</h2>
-                <h2 lang="en">Ready to start your learning journey?</h2>
-
-                <p lang="fr">Téléchargez Noor Phonetic Quran dès aujourd'hui et transformez votre expérience de
-                    récitation du Coran.</p>
-                <p lang="en">Download Noor Phonetic Quran today and transform your Quran recitation experience.</p>
-
-                <div class="download-btns-modern">
-                    <a href="https://play.google.com/store/apps/details?id=coran.noor.bhr"
-                        class="download-btn-modern play-store" target="_blank" rel="noopener noreferrer"
-                        aria-label="Download on Google Play">
-                        <div class="btn-icon">
-                            <i class="fab fa-google-play"></i>
-                        </div>
-                        <div class="btn-text">
-                            <span class="btn-small-text" lang="fr">Télécharger sur</span>
-                            <span class="btn-small-text" lang="en">Download on</span>
-                            <span class="btn-large-text">Google Play</span>
+                <h2 lang="fr">Commencez votre voyage d'apprentissage aujourd'hui</h2>
+                <h2 lang="en">Start your learning journey today</h2>
+                <p lang="fr">Téléchargez Noor Phonetic Quran gratuitement et transformez votre expérience de récitation du Coran.</p>
+                <p lang="en">Download Noor Phonetic Quran for free and transform your Quran recitation experience.</p>
+                
+                <div class="cta-buttons">
+                    <a href="https://play.google.com/store/apps/details?id=coran.noor.bhr" class="btn-store" target="_blank">
+                        <i class="fab fa-google-play"></i>
+                        <div class="btn-store-text">
+                            <span class="btn-store-small" lang="fr">Télécharger sur</span>
+                            <span class="btn-store-small" lang="en">Download on</span>
+                            <span class="btn-store-large">Google Play</span>
                         </div>
                     </a>
-                    <a href="https://apps.apple.com/sn/app/noor-phonetic-quran/id6737744800"
-                        class="download-btn-modern app-store" target="_blank" rel="noopener noreferrer"
-                        aria-label="Download on App Store">
-                        <div class="btn-icon">
-                            <i class="fab fa-apple"></i>
-                        </div>
-                        <div class="btn-text">
-                            <span class="btn-small-text" lang="fr">Télécharger sur</span>
-                            <span class="btn-small-text" lang="en">Download on</span>
-                            <span class="btn-large-text">App Store</span>
+                    <a href="https://apps.apple.com/sn/app/noor-phonetic-quran/id6737744800" class="btn-store" target="_blank">
+                        <i class="fab fa-apple"></i>
+                        <div class="btn-store-text">
+                            <span class="btn-store-small" lang="fr">Télécharger sur</span>
+                            <span class="btn-store-small" lang="en">Download on</span>
+                            <span class="btn-store-large">App Store</span>
                         </div>
                     </a>
                 </div>
-
             </div>
         </div>
     </section>
 
+    <!-- Footer -->
     <footer id="contact">
         <div class="container">
-            <div class="footer-content">
+            <div class="footer-grid">
                 <div class="footer-about">
-                    <div class="footer-logo">
-                        <img src="images/logo.webp" alt="Noor Phonetic Quran Logo">
-                        <h3>Noor Phonetic Quran</h3>
-                    </div>
-                    <p lang="fr">Une application innovante pour apprendre à réciter le Saint Coran avec précision et
-                        facilité, conçue pour les débutants et les avancés.</p>
-                    <p lang="en">An innovative application to learn to recite the Holy Quran with precision and ease,
-                        designed for beginners and advanced users.</p>
-
+                    <h3>Noor Phonetic Quran</h3>
+                    <p lang="fr">Une application innovante pour apprendre à réciter le Saint Coran avec précision et facilité.</p>
+                    <p lang="en">An innovative application to learn to recite the Holy Quran with precision and ease.</p>
                     <div class="social-links">
-                        <a href="#"><i class="fab fa-tiktok"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-tiktok"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-youtube"></i>
+                        </a>
                     </div>
                 </div>
 
                 <div class="footer-links">
-                    <h3 class="footer-title" lang="fr">Liens Rapides</h3>
-                    <h3 class="footer-title" lang="en">Quick Links</h3>
-
+                    <h4 lang="fr">Liens Rapides</h4>
+                    <h4 lang="en">Quick Links</h4>
                     <ul>
-                        <li>
-                            <a href="#" lang="fr"><i class="fas fa-chevron-right"></i> Accueil</a>
-                        </li>
-                        <li>
-                            <a href="#features" lang="fr"><i class="fas fa-chevron-right"></i> Fonctionnalités</a>
-                        </li>
-                        <li>
-                            <a href="#screenshots" lang="fr"><i class="fas fa-chevron-right"></i> Captures d'écran</a>
-                        </li>
-                        <li>
-                            <a href="#testimonials" lang="fr"><i class="fas fa-chevron-right"></i> Avis</a>
-                        </li>
-                        <li>
-                            <a href="#" lang="fr"><i class="fas fa-chevron-right"></i> Politique de confidentialité</a>
-                        </li>
-                        <li>
-                            <a href="#" lang="fr"><i class="fas fa-chevron-right"></i> Conditions d'utilisation</a>
-                        </li>
+                        <li><a href="#features" lang="fr">Fonctionnalités</a></li>
+                        <li><a href="#features" lang="en">Features</a></li>
+                        <li><a href="#screenshots" lang="fr">Captures d'écran</a></li>
+                        <li><a href="#screenshots" lang="en">Screenshots</a></li>
+                        <li><a href="#testimonials" lang="fr">Avis</a></li>
+                        <li><a href="#testimonials" lang="en">Reviews</a></li>
+                        <li><a href="cgu.html" lang="fr">CGU</a></li>
+                        <li><a href="cgu.html" lang="en">Terms</a></li>
                     </ul>
                 </div>
 
-                <div class="footer-contact">
-                    <h3 class="footer-title" lang="fr">Contact</h3>
-                    <h3 class="footer-title" lang="en">Contact</h3>
+                <div class="footer-links">
+                    <h4 lang="fr">Ressources</h4>
+                    <h4 lang="en">Resources</h4>
+                    <ul>
+                        <li><a href="#" lang="fr">Guide d'utilisation</a></li>
+                        <li><a href="#" lang="en">User Guide</a></li>
+                        <li><a href="#" lang="fr">FAQ</a></li>
+                        <li><a href="#" lang="en">FAQ</a></li>
+                        <li><a href="#" lang="fr">Support</a></li>
+                        <li><a href="#" lang="en">Support</a></li>
+                        <li><a href="#" lang="fr">Blog</a></li>
+                        <li><a href="#" lang="en">Blog</a></li>
+                    </ul>
+                </div>
 
-                    <div class="contact-item">
-                        <div class="contact-icon">
-                            <i class="fas fa-envelope"></i>
-                        </div>
-                        <div class="contact-info">
-                            <span lang="fr">Email:</span>
-                            <span lang="en">Email:</span>
-                            <a href="mailto:othmeneb@gmail.com">othmeneb@gmail.com</a>
-                        </div>
-                    </div>
-
-
-                    <div class="contact-item">
-                        <div class="contact-icon">
-                            <i class="fas fa-map-marker-alt"></i>
-                        </div>
-                        <div class="contact-info">
-                            <span lang="fr">Adresse:</span>
-                            <span lang="en">Address:</span>
-                            <p lang="fr">Paris, France</p>
-                            <p lang="en">Paris, France</p>
-                        </div>
-                    </div>
+                <div class="footer-links">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><a href="/cdn-cgi/l/email-protection#d7b8a3bfbab2b9b2b597b0bab6bebbf9b4b8ba"><span class="__cf_email__" data-cfemail="4a253e22272f242f280a2d272b232664292527">[email&#160;protected]</span></a></li>
+                        <li><a href="#">Paris, France</a></li>
+                    </ul>
                 </div>
             </div>
 
-            <div class="copyright">
+            <div class="footer-bottom">
                 <p lang="fr">&copy; 2025 Noor Phonetic Quran. Tous droits réservés.</p>
                 <p lang="en">&copy; 2025 Noor Phonetic Quran. All rights reserved.</p>
             </div>
@@ -3235,8 +3179,8 @@
         </a>
     </footer>
 
-    <!-- JavaScript pour les interactions -->
-    <script>
+    <!-- JavaScript -->
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
         // Toggle Menu Mobile
         const menuToggle = document.getElementById('menu-toggle');
         const mobileNavbar = document.getElementById('mobile-navbar');
@@ -3289,13 +3233,11 @@
                 const maxScroll = screenshotsSlider.scrollWidth - screenshotsSlider.clientWidth;
                 const scrollPercentage = scrollPosition / maxScroll;
 
-                // Calculate which dot should be active
                 const activeDotIndex = Math.min(
                     Math.floor(scrollPercentage * scrollDots.length),
                     scrollDots.length - 1
                 );
 
-                // Update active dot
                 scrollDots.forEach((dot, index) => {
                     if (index === activeDotIndex) {
                         dot.classList.add('active');
@@ -3305,7 +3247,6 @@
                 });
             });
 
-            // Click on dots to navigate
             scrollDots.forEach((dot, index) => {
                 dot.addEventListener('click', () => {
                     const scrollWidth = screenshotsSlider.scrollWidth - screenshotsSlider.clientWidth;
@@ -3319,7 +3260,40 @@
             });
         }
 
-        // Script pour animer les compteurs et autres éléments interactifs
+        // FAQ Accordion
+        const faqItems = document.querySelectorAll('.faq-item');
+
+        faqItems.forEach(item => {
+            const question = item.querySelector('.faq-question');
+
+            question.addEventListener('click', () => {
+                const isActive = item.classList.contains('active');
+
+                faqItems.forEach(faq => {
+                    faq.classList.remove('active');
+                });
+
+                if (!isActive) {
+                    item.classList.add('active');
+                }
+            });
+        });
+
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // ===== HERO ULTRA-MODERNE ANIMATIONS =====
 
         // Fonction pour animer les compteurs
         function animateCounters() {
@@ -3327,8 +3301,8 @@
 
             counters.forEach(counter => {
                 const target = +counter.getAttribute('data-target');
-                const duration = 2000; // 2 secondes
-                const increment = target / (duration / 15); // Mise à jour toutes les 15ms
+                const duration = 2500;
+                const increment = target / (duration / 15);
 
                 let currentCount = 0;
 
@@ -3343,11 +3317,12 @@
                     }
                 };
 
-                // Démarre l'animation lorsque l'élément est visible
                 const observer = new IntersectionObserver((entries) => {
                     entries.forEach(entry => {
                         if (entry.isIntersecting) {
-                            updateCounter();
+                            setTimeout(() => {
+                                updateCounter();
+                            }, 1000);
                             observer.unobserve(entry.target);
                         }
                     });
@@ -3357,216 +3332,51 @@
             });
         }
 
-        // Fonction pour animer l'apparition des éléments avec effet de fade in
-        function animateElements() {
-            const elements = document.querySelectorAll('.hero-stats, .trust-badges, .download-btns');
+        // Mise en place de l'effet parallaxe pour le dispositif 3D
+        function setupParallaxEffect() {
+            const device = document.querySelector('.device-3d');
+            const deviceContainer = document.querySelector('.device-showcase');
 
-            elements.forEach((element, index) => {
-                element.style.opacity = '0';
-                element.style.transform = 'translateY(20px)';
-                element.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
-                element.style.transitionDelay = `${index * 0.2}s`;
+            if (device && deviceContainer) {
+                deviceContainer.addEventListener('mousemove', (e) => {
+                    const rect = deviceContainer.getBoundingClientRect();
+                    const x = e.clientX - rect.left;
+                    const y = e.clientY - rect.top;
 
-                setTimeout(() => {
-                    element.style.opacity = '1';
-                    element.style.transform = 'translateY(0)';
-                }, 300);
+                    const xPercent = ((x / rect.width) - 0.5) * 2;
+                    const yPercent = ((y / rect.height) - 0.5) * 2;
+
+                    device.style.transform = `
+                        rotateY(${-15 + (xPercent * 5)}deg) 
+                        rotateX(${10 - (yPercent * 5)}deg)
+                        translateZ(0)
+                    `;
+                });
+
+                deviceContainer.addEventListener('mouseleave', () => {
+                    device.style.transform = 'rotateY(-15deg) rotateX(10deg)';
+                    device.style.transition = 'transform 0.5s ease';
+                });
+
+                deviceContainer.addEventListener('mouseenter', () => {
+                    device.style.transition = 'none';
+                });
+            }
+
+            // Effet de parallaxe léger pour le fond lors du défilement
+            window.addEventListener('scroll', () => {
+                const scrollPosition = window.scrollY;
+                const heroSection = document.querySelector('.hero-modern');
+                const circles = document.querySelectorAll('.bg-circle');
+
+                if (heroSection && circles.length && scrollPosition < window.innerHeight) {
+                    circles.forEach((circle, index) => {
+                        const speed = 0.05 + (index * 0.02);
+                        circle.style.transform = `translateY(${scrollPosition * speed}px)`;
+                    });
+                }
             });
         }
-
-        // Exécuter les animations lorsque le DOM est chargé
-        document.addEventListener('DOMContentLoaded', () => {
-            animateCounters();
-            animateElements();
-
-            // Animation des étoiles
-            const stars = document.querySelectorAll('.stat-rating i');
-            stars.forEach((star, index) => {
-                star.style.opacity = '0';
-                star.style.transform = 'scale(0)';
-                star.style.transition = 'opacity 0.3s ease, transform 0.3s ease';
-                star.style.transitionDelay = `${index * 0.1 + 0.5}s`;
-
-                setTimeout(() => {
-                    star.style.opacity = '1';
-                    star.style.transform = 'scale(1)';
-                }, 300);
-            });
-
-            // Animer l'image principale avec un effet de flottement amélioré
-            const floatingImage = document.querySelector('.floating-image');
-            if (floatingImage) {
-                floatingImage.style.animation = 'float 6s ease-in-out infinite';
-            }
-        });
-
-        // Fonction pour parallax sur le hero
-        window.addEventListener('scroll', () => {
-            const heroSection = document.querySelector('.hero');
-            const scrollPosition = window.scrollY;
-
-            if (scrollPosition < window.innerHeight) {
-                heroSection.style.backgroundPositionY = `${scrollPosition * 0.5}px`;
-            }
-        });
-
-
-        // FAQ Accordion
-        const faqItems = document.querySelectorAll('.faq-item');
-
-        faqItems.forEach(item => {
-            const question = item.querySelector('.faq-question');
-
-            question.addEventListener('click', () => {
-                const isActive = item.classList.contains('active');
-
-                // Close all FAQ items
-                faqItems.forEach(faq => {
-                    faq.classList.remove('active');
-                });
-
-                // Open clicked item if it wasn't active
-                if (!isActive) {
-                    item.classList.add('active');
-                }
-            });
-        });
-
-        // Script JavaScript pour le Hero section ultra-moderne
-
-        document.addEventListener('DOMContentLoaded', () => {
-            // Animations d'apparition des éléments
-            animateHeroElements();
-
-            // Animation des compteurs
-            animateCounters();
-
-            // Effet parallaxe 3D pour le téléphone
-            setupParallaxEffect();
-        },
-
-            // Fonction pour animer les compteurs
-            function animateCounters() {
-                const counters = document.querySelectorAll('.counter');
-
-                counters.forEach(counter => {
-                    const target = +counter.getAttribute('data-target');
-                    const duration = 2500; // 2.5 secondes
-                    const increment = target / (duration / 15); // Mise à jour toutes les 15ms
-
-                    let currentCount = 0;
-
-                    const updateCounter = () => {
-                        currentCount += increment;
-
-                        if (currentCount < target) {
-                            counter.textContent = Math.ceil(currentCount).toLocaleString();
-                            setTimeout(updateCounter, 15);
-                        } else {
-                            counter.textContent = target.toLocaleString();
-                        }
-                    };
-
-                    // Démarre l'animation lorsque l'élément est visible
-                    const observer = new IntersectionObserver((entries) => {
-                        entries.forEach(entry => {
-                            if (entry.isIntersecting) {
-                                setTimeout(() => {
-                                    updateCounter();
-                                }, 1000); // Délai avant de démarrer l'animation
-                                observer.unobserve(entry.target);
-                            }
-                        });
-                    }, { threshold: 0.5 });
-
-                    observer.observe(counter);
-                });
-            },
-
-            // Mise en place de l'effet parallaxe pour le dispositif 3D
-            function setupParallaxEffect() {
-                const device = document.querySelector('.device-3d');
-                const deviceContainer = document.querySelector('.device-showcase');
-
-                if (device && deviceContainer) {
-                    deviceContainer.addEventListener('mousemove', (e) => {
-                        // Calculer la position relative de la souris dans le conteneur
-                        const rect = deviceContainer.getBoundingClientRect();
-                        const x = e.clientX - rect.left; // Position X relative
-                        const y = e.clientY - rect.top;  // Position Y relative
-
-                        // Calculer le pourcentage de la position (de -0.5 à 0.5)
-                        const xPercent = ((x / rect.width) - 0.5) * 2;
-                        const yPercent = ((y / rect.height) - 0.5) * 2;
-
-                        // Appliquer la rotation 3D basée sur la position de la souris
-                        device.style.transform = `
-                rotateY(${-15 + (xPercent * 5)}deg) 
-                rotateX(${10 - (yPercent * 5)}deg)
-                translateZ(0)
-            `;
-                    });
-
-                    // Réinitialiser l'animation lorsque la souris quitte la zone
-                    deviceContainer.addEventListener('mouseleave', () => {
-                        device.style.transform = 'rotateY(-15deg) rotateX(10deg)';
-                        device.style.transition = 'transform 0.5s ease';
-                    });
-
-                    // Désactiver la transition lors du survol pour un effet fluide
-                    deviceContainer.addEventListener('mouseenter', () => {
-                        device.style.transition = 'none';
-                    });
-                }
-
-                // Effet de parallaxe léger pour le fond lors du défilement
-                window.addEventListener('scroll', () => {
-                    const scrollPosition = window.scrollY;
-                    const heroSection = document.querySelector('.hero-modern');
-                    const circles = document.querySelectorAll('.bg-circle');
-
-                    if (heroSection && circles.length && scrollPosition < window.innerHeight) {
-                        circles.forEach((circle, index) => {
-                            const speed = 0.05 + (index * 0.02);
-                            circle.style.transform = `translateY(${scrollPosition * speed}px)`;
-                        });
-                    }
-                });
-            },
-
-            // Fonction pour créer dynamiquement les particules de lumière
-            function createLightParticles() {
-                const particlesContainer = document.querySelector('.light-particles');
-
-                if (particlesContainer) {
-                    // Supprimer les particules existantes
-                    while (particlesContainer.firstChild) {
-                        particlesContainer.removeChild(particlesContainer.firstChild);
-                    }
-
-                    // Créer de nouvelles particules
-                    for (let i = 0; i < 12; i++) {
-                        const particle = document.createElement('span');
-
-                        // Position aléatoire
-                        particle.style.left = `${Math.random() * 100}%`;
-
-                        // Taille aléatoire
-                        const size = 3 + (Math.random() * 4);
-                        particle.style.width = `${size}px`;
-                        particle.style.height = `${size}px`;
-
-                        // Animation aléatoire
-                        const duration = 8 + (Math.random() * 10);
-                        const delay = Math.random() * 5;
-
-                        particle.style.animationDuration = `${duration}s`;
-                        particle.style.animationDelay = `${delay}s`;
-
-                        particlesContainer.appendChild(particle);
-                    }
-                }
-            });
 
         // Fonction pour animer l'apparition des éléments du hero
         function animateHeroElements() {
@@ -3582,13 +3392,11 @@
             elements.forEach((selector, index) => {
                 const element = document.querySelector(selector);
                 if (element) {
-                    // Définir l'état initial
                     element.style.opacity = '0';
                     element.style.transform = 'translateY(30px)';
                     element.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
                     element.style.transitionDelay = `${index * 0.15}s`;
 
-                    // Activer l'animation après un court délai
                     setTimeout(() => {
                         element.style.opacity = '1';
                         element.style.transform = 'translateY(0)';
@@ -3638,91 +3446,65 @@
                 }, 100);
             });
         }
-        // Script JavaScript optimisé pour mobile
-        document.addEventListener('DOMContentLoaded', () => {
-            // Animation des indicateurs de fonctionnalités
-            animateFeatureIndicators();
 
-            // Animation des indicateurs de fonctionnalités
-            function animateFeatureIndicators() {
-                const indicators = document.querySelectorAll('.mobile-indicator');
+        // Animation des indicateurs de fonctionnalités mobiles
+        function animateFeatureIndicators() {
+            const indicators = document.querySelectorAll('.mobile-indicator');
 
-                indicators.forEach((indicator, index) => {
-                    // Animation séquentielle
-                    setTimeout(() => {
-                        indicator.style.animation = `indicator-pulse 4s ease-in-out ${index * 0.8}s infinite`;
-                        indicator.style.opacity = "1";
-                    }, 1000 + (index * 200));
-                });
-            }
+            indicators.forEach((indicator, index) => {
+                setTimeout(() => {
+                    indicator.style.animation = `indicator-pulse 4s ease-in-out ${index * 0.8}s infinite`;
+                    indicator.style.opacity = "1";
+                }, 1000 + (index * 200));
+            });
+        }
 
-            // Adaptation en fonction de l'orientation de l'appareil
-            window.addEventListener('resize', adjustForOrientation);
+        // Adaptation en fonction de l'orientation de l'appareil
+        window.addEventListener('resize', adjustForOrientation);
 
-            function adjustForOrientation() {
-                const isMobile = window.innerWidth <= 991;
-                const isLandscape = window.innerWidth > window.innerHeight;
+        function adjustForOrientation() {
+            const isMobile = window.innerWidth <= 991;
+            const isLandscape = window.innerWidth > window.innerHeight;
 
-                if (isMobile) {
-                    // Ajustements pour l'orientation paysage sur mobile
+            if (isMobile) {
+                const deviceContainer = document.querySelector('.mobile-device-container');
+                if (deviceContainer) {
                     if (isLandscape) {
-                        document.querySelector('.mobile-device-container').style.maxWidth = '220px';
+                        deviceContainer.style.maxWidth = '220px';
                     } else {
-                        document.querySelector('.mobile-device-container').style.maxWidth = '280px';
+                        deviceContainer.style.maxWidth = '280px';
                     }
                 }
             }
+        }
 
-            // Effet de défilement parallaxe léger
-            window.addEventListener('scroll', function () {
-                if (window.innerWidth <= 991) { // Seulement sur mobile
-                    const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-                    const heroSection = document.querySelector('.hero-mobile');
-
-                    if (heroSection && scrollTop < heroSection.offsetHeight) {
-                        const mobileDeviceFrame = document.querySelector('.mobile-device-frame');
-                        if (mobileDeviceFrame) {
-                            // Déplace légèrement le téléphone lors du défilement
-                            mobileDeviceFrame.style.transform = `translateY(${scrollTop * 0.1}px)`;
-                        }
-                    }
-                }
-            });
-
-            // Appliquer les ajustements au chargement
+        // Initialisation au chargement de la page
+        document.addEventListener('DOMContentLoaded', () => {
+            animateCounters();
+            animateHeroElements();
+            setupParallaxEffect();
+            animateFeatureIndicators();
             adjustForOrientation();
-
-            // Animer les compteurs (version simplifiée pour mobile)
-            const counterEl = document.querySelector('.counter');
-            if (counterEl) {
-                const target = +counterEl.getAttribute('data-target');
-                counterEl.textContent = target.toLocaleString() + '+';
-            }
-
-            // Effet d'interaction tactile
-            const downloadBtns = document.querySelectorAll('.mobile-download-btn');
-
-            downloadBtns.forEach(btn => {
-                btn.addEventListener('touchstart', function () {
-                    this.style.transform = 'scale(0.95)';
-                });
-
-                btn.addEventListener('touchend', function () {
-                    this.style.transform = 'scale(1)';
-
-                    // Animation de brillance au relâchement
-                    this.style.backgroundImage = 'linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent)';
-                    setTimeout(() => {
-                        this.style.backgroundImage = 'none';
-                    }, 300);
-                });
-            });
         });
 
+        // Effet d'interaction tactile pour mobile
+        const downloadBtns = document.querySelectorAll('.mobile-download-btn');
 
+        downloadBtns.forEach(btn => {
+            btn.addEventListener('touchstart', function () {
+                this.style.transform = 'scale(0.95)';
+            });
+
+            btn.addEventListener('touchend', function () {
+                this.style.transform = 'scale(1)';
+
+                this.style.backgroundImage = 'linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent)';
+                setTimeout(() => {
+                    this.style.backgroundImage = 'none';
+                }, 300);
+            });
+        });
     </script>
-
-
 </body>
 
 </html>
