@@ -299,9 +299,7 @@
             padding: 50px 0;
             background-color: var(--white);
             position: relative;
-            border-radius: var(--border-radius);
-            margin: 0 15px 30px;
-            box-shadow: var(--shadow);
+           
         }
 
         .section-title {
@@ -463,9 +461,9 @@
             padding: 50px 0;
             background-color: var(--white);
             position: relative;
-            border-radius: var(--border-radius);
+           /* border-radius: var(--border-radius);
             margin: 30px 15px;
-            box-shadow: var(--shadow);
+            box-shadow: var(--shadow);*/
         }
 
         .testimonial-card {
@@ -1870,6 +1868,181 @@
             height: 50px;
         }
 
+        /* Section Why */
+        .why-section {
+            padding: 80px 0;
+            background-color: var(--white);
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 50px;
+            position: relative;
+            padding: 0 15px;
+        }
+
+        .section-title h2 {
+            font-size: 2.5rem;
+            color: var(--primary-color);
+            margin-bottom: 15px;
+            font-weight: 700;
+        }
+
+        .section-title p {
+            font-size: 1.1rem;
+            color: var(--text-light);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .why-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+            margin-top: 50px;
+        }
+
+        .why-card {
+            background: linear-gradient(135deg, var(--primary-light) 0%, var(--primary-color) 100%);
+            border-radius: var(--border-radius);
+            padding: 40px 30px;
+            color: white;
+            text-align: center;
+            transition: var(--transition);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .why-card::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -50%;
+            width: 200%;
+            height: 200%;
+            background: rgba(255, 255, 255, 0.1);
+            transform: rotate(45deg);
+            transition: var(--transition);
+        }
+
+        .why-card:hover::before {
+            top: -30%;
+            right: -30%;
+        }
+
+        .why-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(0, 85, 61, 0.3);
+        }
+
+        .why-icon {
+            font-size: 3rem;
+            margin-bottom: 20px;
+            color: var(--accent-color);
+        }
+
+        .why-card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+        }
+
+        .why-card p {
+            font-size: 1rem;
+            opacity: 0.95;
+            line-height: 1.7;
+        }
+
+        /* Responsive */
+        @media (max-width: 767px) {
+            .section-title h2 {
+                font-size: 2rem;
+            }
+
+            .why-card {
+                padding: 30px 20px;
+            }
+
+            .why-icon {
+                font-size: 2.5rem;
+            }
+        }
+
+        /* Section FAQ */
+        .faq-section {
+            padding: 80px 0;
+            background: linear-gradient(135deg, var(--light-color) 0%, var(--white) 100%);
+        }
+
+        .faq-container {
+            max-width: 800px;
+            margin: 50px auto 0;
+        }
+
+        .faq-item {
+            background: var(--white);
+            border-radius: var(--border-radius-sm);
+            margin-bottom: 20px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            transition: var(--transition);
+        }
+
+        .faq-item:hover {
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+        }
+
+        .faq-question {
+            padding: 20px 25px;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: var(--white);
+            transition: var(--transition);
+        }
+
+        .faq-question:hover {
+            background: var(--light-color);
+        }
+
+        .faq-question h3 {
+            color: var(--primary-color);
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin: 0;
+            flex: 1;
+            padding-right: 15px;
+        }
+
+        .faq-icon {
+            font-size: 1.2rem;
+            color: var(--accent-color);
+            transition: var(--transition);
+            min-width: 30px;
+            text-align: center;
+        }
+
+        .faq-item.active .faq-icon {
+            transform: rotate(180deg);
+        }
+
+        .faq-answer {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+        }
+
+        .faq-answer-content {
+            padding: 0 25px 20px;
+            color: var(--text-light);
+            line-height: 1.7;
+            font-size: 1rem;
+        }
+
+        .faq-item.active .faq-answer {
+            max-height: 500px;
+        }
+
         /* Animations */
         @keyframes badge-appear {
             0% {
@@ -2539,6 +2712,70 @@
         </div>
     </section>
 
+    <!-- NOUVELLE SECTION: Pourquoi Noor Phonetic Quran ? -->
+    <section class="why-section" id="why">
+        <div class="container">
+            <div class="section-title">
+                <h2 lang="fr">Pourquoi Noor Phonetic Quran ?</h2>
+                <h2 lang="en">Why Noor Phonetic Quran?</h2>
+                <p lang="fr">Découvrez les raisons qui font de notre application un choix unique</p>
+                <p lang="en">Discover the reasons that make our app a unique choice</p>
+            </div>
+
+            <div class="why-grid">
+                <div class="why-card">
+                    <div class="why-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3 lang="fr">Accessible à Tous</h3>
+                    <h3 lang="en">Accessible to All</h3>
+                    <p lang="fr">
+                        Beaucoup de musulmans souhaitent lire le Coran mais sont freinés par la langue arabe. Notre
+                        application supprime cette barrière et donne la possibilité à chacun d'apprendre, réciter et
+                        comprendre avec facilité.
+                    </p>
+                    <p lang="en">
+                        Many Muslims want to read the Quran but are hindered by the Arabic language. Our app removes
+                        this barrier and gives everyone the opportunity to learn, recite and understand with ease.
+                    </p>
+                </div>
+
+                <div class="why-card">
+                    <div class="why-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3 lang="fr">Apprentissage Facilité</h3>
+                    <h3 lang="en">Easy Learning</h3>
+                    <p lang="fr">
+                        Une phonétique claire et intuitive permet à chacun d'apprendre à son rythme, sans stress ni
+                        frustration. Que vous soyez débutant ou expérimenté, progressez sereinement dans votre
+                        récitation.
+                    </p>
+                    <p lang="en">
+                        Clear and intuitive phonetics allow everyone to learn at their own pace, without stress or
+                        frustration. Whether you're a beginner or experienced, progress peacefully in your recitation.
+                    </p>
+                </div>
+
+                <div class="why-card">
+                    <div class="why-icon">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <h3 lang="fr">Prononciation Correcte</h3>
+                    <h3 lang="en">Correct Pronunciation</h3>
+                    <p lang="fr">
+                        Guidés par des règles de Tajweed précises et un audio synchronisé, vous progressez vers une
+                        récitation authentique et respectueuse des règles coraniques.
+                    </p>
+                    <p lang="en">
+                        Guided by precise Tajweed rules and synchronized audio, you progress toward authentic recitation
+                        that respects Quranic rules.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section class="features" id="features">
         <div class="container">
             <div class="section-title">
@@ -2711,6 +2948,144 @@
         </div>
     </section>
 
+
+    <section class="faq-section" id="faq">
+        <div class="container">
+            <div class="section-title">
+                <h2 lang="fr">Questions Fréquentes</h2>
+                <h2 lang="en">Frequently Asked Questions</h2>
+                <p lang="fr">Trouvez rapidement des réponses à vos questions</p>
+                <p lang="en">Quickly find answers to your questions</p>
+            </div>
+
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3 lang="fr">L'application fonctionne-t-elle hors ligne ?</h3>
+                        <h3 lang="en">Does the app work offline?</h3>
+                        <i class="fas fa-chevron-down faq-icon"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            <p lang="fr">
+                                Oui, absolument ! Toutes les sourates du Coran sont disponibles hors ligne une fois
+                                l'application installée. Vous pouvez lire et réciter partout, sans connexion Internet.
+                            </p>
+                            <p lang="en">
+                                Yes, absolutely! All Quran surahs are available offline once the app is installed. You
+                                can read and recite anywhere, without an Internet connection.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3 lang="fr">Quelle phonétique utilisez-vous ?</h3>
+                        <h3 lang="en">What phonetics do you use?</h3>
+                        <i class="fas fa-chevron-down faq-icon"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            <p lang="fr">
+                                Nous utilisons une phonétique anglaise simple et universelle, facile à lire pour tous.
+                                Une version en phonétique française est en cours de développement et sera bientôt
+                                disponible.
+                            </p>
+                            <p lang="en">
+                                We use simple and universal English phonetics, easy to read for everyone. A French
+                                phonetics version is under development and will be available soon.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3 lang="fr">Le Coran est-il complet dans l'application ?</h3>
+                        <h3 lang="en">Is the Quran complete in the app?</h3>
+                        <i class="fas fa-chevron-down faq-icon"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            <p lang="fr">
+                                Oui ! L'application contient l'intégralité du Saint Coran avec ses 114 sourates, du
+                                début à la fin, avec transcription phonétique complète.
+                            </p>
+                            <p lang="en">
+                                Yes! The app contains the entire Holy Quran with its 114 surahs, from beginning to end,
+                                with complete phonetic transcription.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3 lang="fr">L'audio est-il disponible pour tous les versets ?</h3>
+                        <h3 lang="en">Is audio available for all verses?</h3>
+                        <i class="fas fa-chevron-down faq-icon"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            <p lang="fr">
+                                Oui, chaque verset est accompagné d'une récitation audio claire et lente, parfaite pour
+                                faciliter l'apprentissage et améliorer votre prononciation.
+                            </p>
+                            <p lang="en">
+                                Yes, each verse is accompanied by clear and slow audio recitation, perfect for
+                                facilitating learning and improving your pronunciation.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3 lang="fr">Y aura-t-il de nouvelles fonctionnalités ?</h3>
+                        <h3 lang="en">Will there be new features?</h3>
+                        <i class="fas fa-chevron-down faq-icon"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            <p lang="fr">
+                                Oui, nous travaillons constamment à l'amélioration de l'application. Plusieurs
+                                nouveautés sont prévues : phonétique française complète, mode Tajweed coloré, plusieurs
+                                récitateurs, mode apprentissage lettre par lettre, et bien plus encore !
+                            </p>
+                            <p lang="en">
+                                Yes, we are constantly working on improving the app. Several new features are planned:
+                                complete French phonetics, colored Tajweed mode, multiple reciters, letter-by-letter
+                                learning mode, and much more!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3 lang="fr">L'application est-elle gratuite ?</h3>
+                        <h3 lang="en">Is the app free?</h3>
+                        <i class="fas fa-chevron-down faq-icon"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            <p lang="fr">
+                                Oui, Noor Phonetic Quran est entièrement gratuite. Notre objectif est de rendre le Coran
+                                accessible à tous, sans aucune barrière financière.
+                            </p>
+                            <p lang="en">
+                                Yes, Noor Phonetic Quran is completely free. Our goal is to make the Quran accessible to
+                                everyone, without any financial barriers.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
     <section class="testimonials" id="testimonials">
         <div class="container">
             <div class="section-title">
@@ -2828,17 +3203,7 @@
                         </div>
                     </div>
 
-                    <div class="contact-item">
-                        <div class="contact-icon">
-                            <i class="fas fa-phone-alt"></i>
-                        </div>
-                        <div class="contact-info">
-                            <span lang="fr">Téléphone:</span>
-                            <span lang="en">Phone:</span>
-                            <a href="tel:+33744272665">+33 7 44 27 26 65</a>
-                        </div>
-                    </div>
-
+                
                     <div class="contact-item">
                         <div class="contact-icon">
                             <i class="fas fa-map-marker-alt"></i>
@@ -3037,6 +3402,28 @@
             if (scrollPosition < window.innerHeight) {
                 heroSection.style.backgroundPositionY = `${scrollPosition * 0.5}px`;
             }
+        });
+
+
+        // FAQ Accordion
+        const faqItems = document.querySelectorAll('.faq-item');
+
+        faqItems.forEach(item => {
+            const question = item.querySelector('.faq-question');
+
+            question.addEventListener('click', () => {
+                const isActive = item.classList.contains('active');
+
+                // Close all FAQ items
+                faqItems.forEach(faq => {
+                    faq.classList.remove('active');
+                });
+
+                // Open clicked item if it wasn't active
+                if (!isActive) {
+                    item.classList.add('active');
+                }
+            });
         });
 
         // Script JavaScript pour le Hero section ultra-moderne
