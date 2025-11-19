@@ -4262,13 +4262,13 @@ document.addEventListener('DOMContentLoaded', () => {
     prevBtn.addEventListener('click', () => {
         prevSlide();
         stopAutoPlay();
-        startAutoPlay();
+       // startAutoPlay();
     });
 
     nextBtn.addEventListener('click', () => {
         nextSlide();
         stopAutoPlay();
-        startAutoPlay();
+       // startAutoPlay();
     });
 
     // Pause au survol
@@ -4304,7 +4304,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         }
 
-        startAutoPlay();
+       // startAutoPlay();
     });
 
     // Détection du scroll pour mettre à jour l'index actuel
@@ -4326,17 +4326,17 @@ document.addEventListener('DOMContentLoaded', () => {
         if (e.key === 'ArrowLeft') {
             prevSlide();
             stopAutoPlay();
-            startAutoPlay();
+            //startAutoPlay();
         } else if (e.key === 'ArrowRight') {
             nextSlide();
             stopAutoPlay();
-            startAutoPlay();
+            //startAutoPlay();
         }
     });
 
     // Initialisation
     createIndicators();
-    startAutoPlay();
+   // startAutoPlay();
 
     // Ajuster au redimensionnement
     window.addEventListener('resize', () => {
