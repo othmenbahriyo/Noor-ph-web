@@ -1525,91 +1525,218 @@
         }
 
         /* Testimonials Section - Modern Mobile */
-        .testimonials {
-            padding: 80px 0;
-            background-color: var(--white);
-            position: relative;
-        }
+       /* Testimonials Section - Carousel */
+.testimonials {
+    padding: 80px 0;
+    background-color: var(--white);
+    position: relative;
+    overflow: hidden;
+}
 
-        .testimonials-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-            gap: 32px;
-            margin-top: 60px;
-        }
+.testimonials-carousel-wrapper {
+    position: relative;
+    max-width: 1200px;
+    margin: 60px auto 0;
+    padding: 0 60px;
+}
 
-        .testimonial-card {
-            background-color: var(--light-color);
-            border-radius: var(--border-radius-sm);
-            padding: 40px 32px;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.03);
-            position: relative;
-            transition: var(--transition);
-            border: 1px solid rgba(0, 0, 0, 0.03);
-        }
+.testimonials-carousel {
+    display: flex;
+    gap: 32px;
+    overflow: hidden;
+    scroll-behavior: smooth;
+    padding: 20px 0;
+}
 
-        .testimonial-card:hover {
-            transform: translateY(-4px);
-            box-shadow: var(--shadow-md);
-        }
+.testimonial-card {
+    min-width: 380px;
+    max-width: 380px;
+    background-color: var(--light-color);
+    border-radius: var(--border-radius-sm);
+    padding: 40px 32px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.03);
+    position: relative;
+    transition: var(--transition);
+    border: 1px solid rgba(0, 0, 0, 0.03);
+    flex-shrink: 0;
+}
 
-        .quote-icon {
-            position: absolute;
-            top: 32px;
-            right: 32px;
-            font-size: 3rem;
-            color: var(--accent-color);
-            opacity: 0.2;
-        }
+.testimonial-card:hover {
+    transform: translateY(-8px);
+    box-shadow: var(--shadow-md);
+}
 
-        .testimonial-content {
-            position: relative;
-            z-index: 1;
-        }
+.quote-icon {
+    position: absolute;
+    top: 32px;
+    right: 32px;
+    font-size: 3rem;
+    color: var(--accent-color);
+    opacity: 0.2;
+}
 
-        .stars {
-            color: var(--accent-color);
-            margin-bottom: 16px;
-            font-size: 1.125rem;
-        }
+.testimonial-content {
+    position: relative;
+    z-index: 1;
+}
 
-        .testimonial-text {
-            font-size: 1rem;
-            line-height: 1.7;
-            color: var(--text-color);
-            margin-bottom: 24px;
-            font-style: italic;
-        }
+.stars {
+    color: var(--accent-color);
+    margin-bottom: 16px;
+    font-size: 1.125rem;
+}
 
-        .testimonial-author {
-            display: flex;
-            align-items: center;
-            gap: 16px;
-        }
+.testimonial-text {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: var(--text-color);
+    margin-bottom: 24px;
+    font-style: italic;
+    min-height: 120px;
+}
 
-        .author-avatar {
-            width: 56px;
-            height: 56px;
-            border-radius: 50%;
-            background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-light) 100%);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: white;
-            font-weight: 700;
-            font-size: 1.25rem;
-        }
+.testimonial-author {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
 
-        .author-info h4 {
-            font-weight: 600;
-            color: var(--text-color);
-            margin-bottom: 4px;
-        }
+.author-avatar {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-light) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 700;
+    font-size: 1.25rem;
+    flex-shrink: 0;
+}
 
-        .author-info p {
-            font-size: 0.875rem;
-            color: var(--text-light);
-        }
+.author-info h4 {
+    font-weight: 600;
+    color: var(--text-color);
+    margin-bottom: 4px;
+}
+
+.author-info p {
+    font-size: 0.875rem;
+    color: var(--text-light);
+}
+
+/* Boutons de navigation */
+.carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: var(--white);
+    border: 2px solid var(--primary-color);
+    color: var(--primary-color);
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: var(--transition);
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-btn:hover {
+    background: var(--primary-color);
+    color: var(--white);
+    transform: translateY(-50%) scale(1.1);
+}
+
+.prev-btn {
+    left: 0;
+}
+
+.next-btn {
+    right: 0;
+}
+
+/* Indicateurs de pagination */
+.carousel-indicators {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+.carousel-indicator {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: var(--light-gray);
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.carousel-indicator.active {
+    background: var(--primary-color);
+    width: 30px;
+    border-radius: 6px;
+}
+
+/* Responsive */
+@media (max-width: 991px) {
+    .testimonials-carousel-wrapper {
+        padding: 0 50px;
+    }
+
+    .testimonial-card {
+        min-width: 320px;
+        max-width: 320px;
+        padding: 30px 25px;
+    }
+
+    .carousel-btn {
+        width: 45px;
+        height: 45px;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .testimonials-carousel-wrapper {
+        padding: 0 15px;
+    }
+
+    .testimonial-card {
+        min-width: 280px;
+        max-width: 280px;
+        padding: 25px 20px;
+    }
+
+    .testimonial-text {
+        font-size: 0.95rem;
+        min-height: auto;
+    }
+
+    .carousel-btn {
+        width: 40px;
+        height: 40px;
+        font-size: 0.9rem;
+    }
+
+    .prev-btn {
+        left: 5px;
+    }
+
+    .next-btn {
+        right: 5px;
+    }
+
+    .quote-icon {
+        font-size: 2rem;
+    }
+}
 
         /* Section Why */
         .why-section {
@@ -3244,16 +3371,23 @@
     </section>
 
     <!-- Testimonials Section -->
-    <section class="testimonials" id="testimonials">
-        <div class="container">
-            <div class="section-title">
-                <h2 lang="fr">Ce que disent nos utilisateurs</h2>
-                <h2 lang="en">What Our Users Say</h2>
-                <p lang="fr">Découvrez les avis de notre communauté grandissante d'utilisateurs satisfaits</p>
-                <p lang="en">Discover what our growing community of satisfied users has to say</p>
-            </div>
+<!-- Testimonials Section -->
+<section class="testimonials" id="testimonials">
+    <div class="container">
+        <div class="section-title">
+            <h2 lang="fr">Ce que disent nos utilisateurs</h2>
+            <h2 lang="en">What Our Users Say</h2>
+            <p lang="fr">Découvrez les avis de notre communauté grandissante d'utilisateurs satisfaits</p>
+            <p lang="en">Discover what our growing community of satisfied users has to say</p>
+        </div>
 
-            <div class="testimonials-grid">
+        <!-- Carousel Container -->
+        <div class="testimonials-carousel-wrapper">
+            <button class="carousel-btn prev-btn" id="prevBtn">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+
+            <div class="testimonials-carousel" id="testimonialsCarousel">
                 <div class="testimonial-card">
                     <i class="fas fa-quote-right quote-icon"></i>
                     <div class="testimonial-content">
@@ -3519,8 +3653,16 @@
                     </div>
                 </div>
             </div>
+
+            <button class="carousel-btn next-btn" id="nextBtn">
+                <i class="fas fa-chevron-right"></i>
+            </button>
         </div>
-    </section>
+
+        <!-- Indicateurs de pagination -->
+        <div class="carousel-indicators" id="carouselIndicators"></div>
+    </div>
+</section>
 
     <!-- CTA Section -->
     <section class="cta-section">
@@ -4034,6 +4176,176 @@
                 });
             });
         });
+    </script>
+    <script>
+        // ===== TESTIMONIALS CAROUSEL =====
+document.addEventListener('DOMContentLoaded', () => {
+    const carousel = document.getElementById('testimonialsCarousel');
+    const prevBtn = document.getElementById('prevBtn');
+    const nextBtn = document.getElementById('nextBtn');
+    const indicatorsContainer = document.getElementById('carouselIndicators');
+    const cards = document.querySelectorAll('.testimonial-card');
+    
+    if (!carousel || !prevBtn || !nextBtn || cards.length === 0) return;
+
+    let currentIndex = 0;
+    let autoPlayInterval;
+    const autoPlayDelay = 5000; // 5 secondes
+    const cardWidth = cards[0].offsetWidth + 32; // largeur + gap
+
+    // Créer les indicateurs
+    function createIndicators() {
+        indicatorsContainer.innerHTML = '';
+        cards.forEach((_, index) => {
+            const indicator = document.createElement('div');
+            indicator.classList.add('carousel-indicator');
+            if (index === 0) indicator.classList.add('active');
+            indicator.addEventListener('click', () => goToSlide(index));
+            indicatorsContainer.appendChild(indicator);
+        });
+    }
+
+    // Aller à une diapositive spécifique
+    function goToSlide(index) {
+        if (index < 0) {
+            currentIndex = cards.length - 1;
+        } else if (index >= cards.length) {
+            currentIndex = 0;
+        } else {
+            currentIndex = index;
+        }
+
+        const scrollAmount = currentIndex * cardWidth;
+        carousel.scrollTo({
+            left: scrollAmount,
+            behavior: 'smooth'
+        });
+
+        updateIndicators();
+    }
+
+    // Mettre à jour les indicateurs
+    function updateIndicators() {
+        const indicators = document.querySelectorAll('.carousel-indicator');
+        indicators.forEach((indicator, index) => {
+            if (index === currentIndex) {
+                indicator.classList.add('active');
+            } else {
+                indicator.classList.remove('active');
+            }
+        });
+    }
+
+    // Navigation suivante
+    function nextSlide() {
+        goToSlide(currentIndex + 1);
+    }
+
+    // Navigation précédente
+    function prevSlide() {
+        goToSlide(currentIndex - 1);
+    }
+
+    // Auto-play
+    function startAutoPlay() {
+        stopAutoPlay();
+        autoPlayInterval = setInterval(nextSlide, autoPlayDelay);
+    }
+
+    function stopAutoPlay() {
+        if (autoPlayInterval) {
+            clearInterval(autoPlayInterval);
+        }
+    }
+
+    // Event Listeners
+    prevBtn.addEventListener('click', () => {
+        prevSlide();
+        stopAutoPlay();
+        startAutoPlay();
+    });
+
+    nextBtn.addEventListener('click', () => {
+        nextSlide();
+        stopAutoPlay();
+        startAutoPlay();
+    });
+
+    // Pause au survol
+    carousel.addEventListener('mouseenter', stopAutoPlay);
+    carousel.addEventListener('mouseleave', startAutoPlay);
+
+    // Support du swipe sur mobile
+    let startX = 0;
+    let currentX = 0;
+    let isDragging = false;
+
+    carousel.addEventListener('touchstart', (e) => {
+        startX = e.touches[0].clientX;
+        isDragging = true;
+        stopAutoPlay();
+    });
+
+    carousel.addEventListener('touchmove', (e) => {
+        if (!isDragging) return;
+        currentX = e.touches[0].clientX;
+    });
+
+    carousel.addEventListener('touchend', () => {
+        if (!isDragging) return;
+        isDragging = false;
+
+        const difference = startX - currentX;
+        if (Math.abs(difference) > 50) {
+            if (difference > 0) {
+                nextSlide();
+            } else {
+                prevSlide();
+            }
+        }
+
+        startAutoPlay();
+    });
+
+    // Détection du scroll pour mettre à jour l'index actuel
+    let scrollTimeout;
+    carousel.addEventListener('scroll', () => {
+        clearTimeout(scrollTimeout);
+        scrollTimeout = setTimeout(() => {
+            const scrollLeft = carousel.scrollLeft;
+            const newIndex = Math.round(scrollLeft / cardWidth);
+            if (newIndex !== currentIndex) {
+                currentIndex = newIndex;
+                updateIndicators();
+            }
+        }, 100);
+    });
+
+    // Navigation au clavier
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'ArrowLeft') {
+            prevSlide();
+            stopAutoPlay();
+            startAutoPlay();
+        } else if (e.key === 'ArrowRight') {
+            nextSlide();
+            stopAutoPlay();
+            startAutoPlay();
+        }
+    });
+
+    // Initialisation
+    createIndicators();
+    startAutoPlay();
+
+    // Ajuster au redimensionnement
+    window.addEventListener('resize', () => {
+        const newCardWidth = cards[0].offsetWidth + 32;
+        if (newCardWidth !== cardWidth) {
+            goToSlide(currentIndex);
+        }
+    });
+});
     </script>
 </body>
 
