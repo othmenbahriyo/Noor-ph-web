@@ -7,6 +7,153 @@
     <title>Noor Phonetic Quran - Application d'Apprentissage du Coran</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
     <style>
+        .language-switcher {
+            position: relative;
+        }
+
+        .lang-btn {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            background: var(--light-color);
+            border: 2px solid transparent;
+            border-radius: 12px;
+            padding: 8px 16px;
+            font-size: 0.95rem;
+            font-weight: 600;
+            color: var(--primary-color);
+            cursor: pointer;
+            transition: var(--transition);
+        }
+
+        .lang-btn:hover {
+            background: var(--primary-color);
+            color: var(--white);
+            border-color: var(--primary-color);
+        }
+
+        .lang-btn i.fa-globe {
+            font-size: 1.1rem;
+        }
+
+        .lang-btn i.fa-chevron-down {
+            font-size: 0.8rem;
+            transition: transform 0.3s ease;
+        }
+
+        .lang-btn.active i.fa-chevron-down {
+            transform: rotate(180deg);
+        }
+
+        .current-lang {
+            font-weight: 700;
+            letter-spacing: 0.5px;
+        }
+
+        .lang-dropdown {
+            position: absolute;
+            top: calc(100% + 10px);
+            right: 0;
+            background: var(--white);
+            border-radius: 12px;
+            box-shadow: var(--shadow-md);
+            min-width: 180px;
+            opacity: 0;
+            visibility: hidden;
+            transform: translateY(-10px);
+            transition: var(--transition);
+            overflow: hidden;
+            z-index: 100;
+        }
+
+        .lang-dropdown.active {
+            opacity: 1;
+            visibility: visible;
+            transform: translateY(0);
+        }
+
+        .lang-option {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 12px 16px;
+            color: var(--text-color);
+            text-decoration: none;
+            transition: var(--transition);
+            font-weight: 500;
+        }
+
+        .lang-option:hover {
+            background: var(--primary-color);
+            color: var(--white);
+        }
+
+        .lang-option.active {
+            background: var(--light-color);
+            color: var(--primary-color);
+        }
+
+        .lang-flag {
+            font-size: 1.5rem;
+            line-height: 1;
+        }
+
+        /* Mobile Language Switcher */
+        .mobile-lang-switcher {
+            margin-top: auto;
+            padding-top: 20px;
+            border-top: 2px solid var(--light-gray);
+        }
+
+        .mobile-lang-title {
+            font-size: 0.9rem;
+            color: var(--text-light);
+            margin-bottom: 15px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .mobile-lang-options {
+            display: flex;
+            gap: 10px;
+        }
+
+        .mobile-lang-btn {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            padding: 12px;
+            background: var(--light-color);
+            border: 2px solid transparent;
+            border-radius: 12px;
+            font-size: 0.95rem;
+            font-weight: 600;
+            color: var(--text-color);
+            cursor: pointer;
+            transition: var(--transition);
+        }
+
+        .mobile-lang-btn:hover,
+        .mobile-lang-btn.active {
+            background: var(--primary-color);
+            color: var(--white);
+            border-color: var(--primary-color);
+        }
+
+        .mobile-lang-btn .lang-flag {
+            font-size: 1.3rem;
+        }
+
+        /* Responsive */
+        @media (max-width: 767px) {
+            .language-switcher {
+                display: none;
+            }
+        }
+
         :root {
             --primary-color: #00553d;
             --primary-light: #007a56;
@@ -677,9 +824,12 @@
         }
 
         @keyframes float {
-            0%, 100% {
+
+            0%,
+            100% {
                 transform: translateY(0);
             }
+
             50% {
                 transform: translateY(-10px);
             }
@@ -1277,7 +1427,7 @@
 
         .screenshots-slider {
             display: flex;
-            
+
             overflow-x: auto;
             padding: 30px 15px;
             scroll-snap-type: x mandatory;
@@ -1474,7 +1624,7 @@
             background: linear-gradient(145deg, #1a1a1a 0%, #2d2d2d 50%, #1a1a1a 100%);
             border-radius: 55px;
             padding: 12px;
-            box-shadow: 
+            box-shadow:
                 inset 0 0 0 2px rgba(255, 255, 255, 0.1),
                 inset 0 0 0 3px rgba(0, 0, 0, 0.8),
                 0 20px 40px rgba(0, 0, 0, 0.4);
@@ -1492,7 +1642,7 @@
             background: #000000;
             border-radius: 30px;
             z-index: 10;
-            box-shadow: 
+            box-shadow:
                 0 2px 8px rgba(0, 0, 0, 0.8),
                 inset 0 1px 2px rgba(255, 255, 255, 0.1);
         }
@@ -1538,11 +1688,9 @@
             left: 0;
             right: 0;
             bottom: 0;
-            background: linear-gradient(
-                135deg,
-                rgba(0, 0, 0, 0.3) 0%,
-                rgba(0, 0, 0, 0.5) 100%
-            );
+            background: linear-gradient(135deg,
+                    rgba(0, 0, 0, 0.3) 0%,
+                    rgba(0, 0, 0, 0.5) 100%);
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -1552,11 +1700,9 @@
         }
 
         .video-content:hover .play-overlay {
-            background: linear-gradient(
-                135deg,
-                rgba(0, 0, 0, 0.4) 0%,
-                rgba(0, 0, 0, 0.6) 100%
-            );
+            background: linear-gradient(135deg,
+                    rgba(0, 0, 0, 0.4) 0%,
+                    rgba(0, 0, 0, 0.6) 100%);
         }
 
         .play-button-circle {
@@ -1570,22 +1716,25 @@
             color: white;
             font-size: 3rem;
             transition: var(--transition);
-            box-shadow: 
+            box-shadow:
                 0 8px 32px rgba(255, 0, 0, 0.5),
                 0 0 0 8px rgba(255, 255, 255, 0.1);
             animation: pulse-play 2s ease-in-out infinite;
         }
 
         @keyframes pulse-play {
-            0%, 100% {
+
+            0%,
+            100% {
                 transform: scale(1);
-                box-shadow: 
+                box-shadow:
                     0 8px 32px rgba(255, 0, 0, 0.5),
                     0 0 0 8px rgba(255, 255, 255, 0.1);
             }
+
             50% {
                 transform: scale(1.05);
-                box-shadow: 
+                box-shadow:
                     0 12px 40px rgba(255, 0, 0, 0.6),
                     0 0 0 12px rgba(255, 255, 255, 0.15);
             }
@@ -1594,7 +1743,7 @@
         .video-content:hover .play-button-circle {
             transform: scale(1.1);
             background: rgba(255, 0, 0, 1);
-            box-shadow: 
+            box-shadow:
                 0 12px 40px rgba(255, 0, 0, 0.7),
                 0 0 0 12px rgba(255, 255, 255, 0.2);
         }
@@ -1654,12 +1803,10 @@
             left: 15%;
             width: 40%;
             height: 60%;
-            background: linear-gradient(
-                135deg,
-                rgba(255, 255, 255, 0.15) 0%,
-                rgba(255, 255, 255, 0.05) 30%,
-                transparent 60%
-            );
+            background: linear-gradient(135deg,
+                    rgba(255, 255, 255, 0.15) 0%,
+                    rgba(255, 255, 255, 0.05) 30%,
+                    transparent 60%);
             border-radius: 40px;
             pointer-events: none;
             opacity: 0.6;
@@ -1672,7 +1819,7 @@
         }
 
         .iphone-mockup:hover .iphone-frame {
-            box-shadow: 
+            box-shadow:
                 inset 0 0 0 2px rgba(255, 255, 255, 0.15),
                 inset 0 0 0 3px rgba(0, 0, 0, 0.8),
                 0 25px 50px rgba(0, 0, 0, 0.5);
@@ -1935,6 +2082,7 @@
             0% {
                 transform: rotate(0deg);
             }
+
             100% {
                 transform: rotate(360deg);
             }
@@ -2119,21 +2267,26 @@
         }
 
         /* Language-specific content */
+        /* Par défaut, tout est visible */
         [lang="fr"] {
-            display: block;
+            display: block !important;
         }
 
         [lang="en"] {
-            display: none;
+            display: block !important;
         }
 
+        /* Quand la page est en français, on cache l'anglais */
+        html[lang="fr"] [lang="en"] {
+            display: none !important;
+        }
+
+        /* Quand la page est en anglais, on cache le français */
         html[lang="en"] [lang="fr"] {
-            display: none;
+            display: none !important;
         }
 
-        html[lang="en"] [lang="en"] {
-            display: block;
-        }
+        /* Les éléments sans attribut lang restent toujours visibles */
 
         /* Responsive */
         @media (max-width: 1024px) {
@@ -2301,6 +2454,24 @@
                     <a href="#contact" lang="fr">Contact</a>
                     <a href="#contact" lang="en">Contact</a>
                 </nav>
+
+                <div class="language-switcher">
+                    <button class="lang-btn" id="lang-btn">
+                        <i class="fas fa-globe"></i>
+                        <span class="current-lang">FR</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="lang-dropdown" id="lang-dropdown">
+                        <a href="#" class="lang-option active" data-lang="fr">
+                            <span class="lang-flag">🇫🇷</span>
+                            <span>Français</span>
+                        </a>
+                        <a href="#" class="lang-option" data-lang="en">
+                            <span class="lang-flag">🇬🇧</span>
+                            <span>English</span>
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
     </header>
@@ -2353,6 +2524,22 @@
                 <span lang="en">App Store</span>
             </a>
         </nav>
+        <div class="mobile-lang-switcher">
+            <div class="mobile-lang-title">
+                <span lang="fr">Langue / Language</span>
+                <span lang="en">Language / Langue</span>
+            </div>
+            <div class="mobile-lang-options">
+                <button class="mobile-lang-btn active" data-lang="fr">
+                    <span class="lang-flag">🇫🇷</span>
+                    <span>FR</span>
+                </button>
+                <button class="mobile-lang-btn" data-lang="en">
+                    <span class="lang-flag">🇬🇧</span>
+                    <span>EN</span>
+                </button>
+            </div>
+        </div>
     </div>
 
     <!-- Section Hero Ultra-Moderne avec Design Glassmorphism et Éléments 3D -->
@@ -2760,7 +2947,7 @@
         </div>
     </section>
 
-        <!-- Video Demo Section -->
+    <!-- Video Demo Section -->
     <section class="video-demo-section">
         <div class="container">
             <div class="section-title">
@@ -2775,30 +2962,27 @@
                     <div class="iphone-frame">
                         <!-- Dynamic Island -->
                         <div class="dynamic-island"></div>
-                        
+
                         <!-- Écran iPhone -->
                         <div class="iphone-screen">
-                            <iframe 
-                                src="https://www.youtube.com/embed/O6kRF4UV_xc?autoplay=0&mute=0&controls=1&loop=0&rel=0&modestbranding=1" 
-                                title="Noor Phonetic Quran Demo" 
-                                frameborder="0" 
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                                allowfullscreen
-                                loading="lazy"
-                                class="video-iframe">
+                            <iframe
+                                src="https://www.youtube.com/embed/O6kRF4UV_xc?autoplay=0&mute=0&controls=1&loop=0&rel=0&modestbranding=1"
+                                title="Noor Phonetic Quran Demo" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen loading="lazy" class="video-iframe">
                             </iframe>
                         </div>
-                        
+
                         <!-- Bouton power -->
                         <div class="power-button"></div>
-                        
+
                         <!-- Boutons volume -->
                         <div class="volume-buttons">
                             <div class="volume-up"></div>
                             <div class="volume-down"></div>
                         </div>
                     </div>
-                    
+
                     <!-- Reflet de lumière -->
                     <div class="iphone-reflection"></div>
                 </div>
@@ -3044,10 +3228,12 @@
                             <i class="fas fa-star"></i>
                         </div>
                         <p class="testimonial-text" lang="fr">
-                            "Excellente application, avec phonétique claire, audio de qualité et règles de Tajwid en couleurs. Très bon outil pour faciliter l'apprentissage du Coran."
+                            "Excellente application, avec phonétique claire, audio de qualité et règles de Tajwid en
+                            couleurs. Très bon outil pour faciliter l'apprentissage du Coran."
                         </p>
                         <p class="testimonial-text" lang="en">
-                            "Excellent app, with clear phonetics, quality audio and color-coded Tajweed rules. Very good tool to facilitate Quran learning."
+                            "Excellent app, with clear phonetics, quality audio and color-coded Tajweed rules. Very good
+                            tool to facilitate Quran learning."
                         </p>
                         <div class="testimonial-author">
                             <div class="author-avatar">OA</div>
@@ -3071,10 +3257,12 @@
                             <i class="fas fa-star"></i>
                         </div>
                         <p class="testimonial-text" lang="fr">
-                            "Une application utile et bien pensée ! Grâce à la translittération, j'ai pu améliorer ma lecture du Coran en peu de temps. Qu'Allah récompense les développeurs."
+                            "Une application utile et bien pensée ! Grâce à la translittération, j'ai pu améliorer ma
+                            lecture du Coran en peu de temps. Qu'Allah récompense les développeurs."
                         </p>
                         <p class="testimonial-text" lang="en">
-                            "A useful and well-thought-out app! Thanks to the transliteration, I was able to improve my Quran reading in a short time. May Allah reward the developers."
+                            "A useful and well-thought-out app! Thanks to the transliteration, I was able to improve my
+                            Quran reading in a short time. May Allah reward the developers."
                         </p>
                         <div class="testimonial-author">
                             <div class="author-avatar">DB</div>
@@ -3098,10 +3286,14 @@
                             <i class="fas fa-star"></i>
                         </div>
                         <p class="testimonial-text" lang="fr">
-                            "Salam à vous excellente application j'ai déjà lu plusieurs livre en phonétique mais j'avoue cette appli est la meilleure pour le moment, je suis presque un expert en phonétique et QuAllah vous récompense au centuple."
+                            "Salam à vous excellente application j'ai déjà lu plusieurs livre en phonétique mais j'avoue
+                            cette appli est la meilleure pour le moment, je suis presque un expert en phonétique et
+                            QuAllah vous récompense au centuple."
                         </p>
                         <p class="testimonial-text" lang="en">
-                            "Salam to you excellent application I've already read several books in phonetics but I admit this app is the best so far, I'm almost an expert in phonetics and may Allah reward you a hundredfold."
+                            "Salam to you excellent application I've already read several books in phonetics but I admit
+                            this app is the best so far, I'm almost an expert in phonetics and may Allah reward you a
+                            hundredfold."
                         </p>
                         <div class="testimonial-author">
                             <div class="author-avatar">MB</div>
@@ -3125,10 +3317,12 @@
                             <i class="fas fa-star"></i>
                         </div>
                         <p class="testimonial-text" lang="fr">
-                            "Salam 'alaykoum, excellente application facile à utiliser et très utile pour la lecture et l'apprentissage. Qu'Allah récompense les développeurs."
+                            "Salam 'alaykoum, excellente application facile à utiliser et très utile pour la lecture et
+                            l'apprentissage. Qu'Allah récompense les développeurs."
                         </p>
                         <p class="testimonial-text" lang="en">
-                            "Salam 'alaykoum, excellent application easy to use and very useful for reading and learning. May Allah reward the developers."
+                            "Salam 'alaykoum, excellent application easy to use and very useful for reading and
+                            learning. May Allah reward the developers."
                         </p>
                         <div class="testimonial-author">
                             <div class="author-avatar">BH</div>
@@ -3152,10 +3346,13 @@
                             <i class="fas fa-star"></i>
                         </div>
                         <p class="testimonial-text" lang="fr">
-                            "Vraiment qu'Allah vous récompense de janatoul Firdaws, c'est la meilleure application, qu'Allah vous aide à améliorer l'application et qu'Il fasse que cela soit une sôdaquat' oul jarriyâh pour vous."
+                            "Vraiment qu'Allah vous récompense de janatoul Firdaws, c'est la meilleure application,
+                            qu'Allah vous aide à améliorer l'application et qu'Il fasse que cela soit une sôdaquat' oul
+                            jarriyâh pour vous."
                         </p>
                         <p class="testimonial-text" lang="en">
-                            "Truly may Allah reward you with Jannah al-Firdaws, this is the best application, may Allah help you improve the app and make it a continuous charity for you."
+                            "Truly may Allah reward you with Jannah al-Firdaws, this is the best application, may Allah
+                            help you improve the app and make it a continuous charity for you."
                         </p>
                         <div class="testimonial-author">
                             <div class="author-avatar">SB</div>
@@ -3179,10 +3376,12 @@
                             <i class="fas fa-star"></i>
                         </div>
                         <p class="testimonial-text" lang="fr">
-                            "Très belle application, simple et complète. Parfaite pour lire et écouter le Coran partout. بارك الله فيكم"
+                            "Très belle application, simple et complète. Parfaite pour lire et écouter le Coran partout.
+                            بارك الله فيكم"
                         </p>
                         <p class="testimonial-text" lang="en">
-                            "Very beautiful app, simple and complete. Perfect for reading and listening to the Quran anywhere. بارك الله فيكم"
+                            "Very beautiful app, simple and complete. Perfect for reading and listening to the Quran
+                            anywhere. بارك الله فيكم"
                         </p>
                         <div class="testimonial-author">
                             <div class="author-avatar">CB</div>
@@ -3206,7 +3405,8 @@
                             <i class="fas fa-star"></i>
                         </div>
                         <p class="testimonial-text" lang="fr">
-                            "Une très bonne application. Très simple pour l'utilisation et ne contient pas des annonces. Bravo!"
+                            "Une très bonne application. Très simple pour l'utilisation et ne contient pas des annonces.
+                            Bravo!"
                         </p>
                         <p class="testimonial-text" lang="en">
                             "A very good app. Very simple to use and contains no ads. Bravo!"
@@ -3233,10 +3433,14 @@
                             <i class="fas fa-star"></i>
                         </div>
                         <p class="testimonial-text" lang="fr">
-                            "Application excellente ! Très utile, facile à utiliser et bien pensée. Je la recommande vivement ! Bravo au développeur pour ce beau travail, continuez comme ça, vous faites un excellent boulot !"
+                            "Application excellente ! Très utile, facile à utiliser et bien pensée. Je la recommande
+                            vivement ! Bravo au développeur pour ce beau travail, continuez comme ça, vous faites un
+                            excellent boulot !"
                         </p>
                         <p class="testimonial-text" lang="en">
-                            "Excellent application! Very useful, easy to use and well thought out. I highly recommend it! Congratulations to the developer for this beautiful work, keep it up, you're doing an excellent job!"
+                            "Excellent application! Very useful, easy to use and well thought out. I highly recommend
+                            it! Congratulations to the developer for this beautiful work, keep it up, you're doing an
+                            excellent job!"
                         </p>
                         <div class="testimonial-author">
                             <div class="author-avatar">YB</div>
@@ -3260,10 +3464,12 @@
                             <i class="fas fa-star"></i>
                         </div>
                         <p class="testimonial-text" lang="fr">
-                            "Hyper utile, pratique et franchement intuitive. Très belle interface bravo très qualitatif qu'Allah vous facilite vos projets et vous en récompense grandement."
+                            "Hyper utile, pratique et franchement intuitive. Très belle interface bravo très qualitatif
+                            qu'Allah vous facilite vos projets et vous en récompense grandement."
                         </p>
                         <p class="testimonial-text" lang="en">
-                            "Super useful, practical and frankly intuitive. Very beautiful interface congratulations very qualitative may Allah facilitate your projects and reward you greatly."
+                            "Super useful, practical and frankly intuitive. Very beautiful interface congratulations
+                            very qualitative may Allah facilitate your projects and reward you greatly."
                         </p>
                         <div class="testimonial-author">
                             <div class="author-avatar">AC</div>
@@ -3285,11 +3491,13 @@
             <div class="cta-content">
                 <h2 lang="fr">Commencez votre voyage d'apprentissage aujourd'hui</h2>
                 <h2 lang="en">Start your learning journey today</h2>
-                <p lang="fr">Téléchargez Noor Phonetic Quran gratuitement et transformez votre expérience de récitation du Coran.</p>
+                <p lang="fr">Téléchargez Noor Phonetic Quran gratuitement et transformez votre expérience de récitation
+                    du Coran.</p>
                 <p lang="en">Download Noor Phonetic Quran for free and transform your Quran recitation experience.</p>
-                
+
                 <div class="cta-buttons">
-                    <a href="https://play.google.com/store/apps/details?id=coran.noor.bhr" class="btn-store" target="_blank">
+                    <a href="https://play.google.com/store/apps/details?id=coran.noor.bhr" class="btn-store"
+                        target="_blank">
                         <i class="fab fa-google-play"></i>
                         <div class="btn-store-text">
                             <span class="btn-store-small" lang="fr">Télécharger sur</span>
@@ -3297,7 +3505,8 @@
                             <span class="btn-store-large">Google Play</span>
                         </div>
                     </a>
-                    <a href="https://apps.apple.com/sn/app/noor-phonetic-quran/id6737744800" class="btn-store" target="_blank">
+                    <a href="https://apps.apple.com/sn/app/noor-phonetic-quran/id6737744800" class="btn-store"
+                        target="_blank">
                         <i class="fab fa-apple"></i>
                         <div class="btn-store-text">
                             <span class="btn-store-small" lang="fr">Télécharger sur</span>
@@ -3316,8 +3525,10 @@
             <div class="footer-grid">
                 <div class="footer-about">
                     <h3>Noor Phonetic Quran</h3>
-                    <p lang="fr">Une application innovante pour apprendre à réciter le Saint Coran avec précision et facilité.</p>
-                    <p lang="en">An innovative application to learn to recite the Holy Quran with precision and ease.</p>
+                    <p lang="fr">Une application innovante pour apprendre à réciter le Saint Coran avec précision et
+                        facilité.</p>
+                    <p lang="en">An innovative application to learn to recite the Holy Quran with precision and ease.
+                    </p>
                     <div class="social-links">
                         <a href="#" class="social-link">
                             <i class="fab fa-tiktok"></i>
@@ -3382,7 +3593,8 @@
     </footer>
 
     <!-- JavaScript -->
-    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <script>
         // Toggle Menu Mobile
         const menuToggle = document.getElementById('menu-toggle');
         const mobileNavbar = document.getElementById('mobile-navbar');
@@ -3482,10 +3694,19 @@
         });
 
         // Smooth scroll for anchor links
+        // Smooth scroll for anchor links
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
+                const href = this.getAttribute('href');
+
+                // Ignorer les liens avec href="#" vide
+                if (href === '#' || href === '') {
+                    e.preventDefault();
+                    return;
+                }
+
                 e.preventDefault();
-                const target = document.querySelector(this.getAttribute('href'));
+                const target = document.querySelector(href);
                 if (target) {
                     target.scrollIntoView({
                         behavior: 'smooth',
@@ -3704,6 +3925,77 @@
                 setTimeout(() => {
                     this.style.backgroundImage = 'none';
                 }, 300);
+            });
+        });
+    </script>
+    <script>
+        function switchLanguage(lang) {
+            // ✅ IMPORTANT : définir l'attribut lang sur <html>
+            document.documentElement.setAttribute('lang', lang);
+
+            const currentLangSpan = document.querySelector('.current-lang');
+            if (currentLangSpan) {
+                currentLangSpan.textContent = lang.toUpperCase();
+            }
+
+            document.querySelectorAll('.lang-option').forEach(option => {
+                if (option.dataset.lang === lang) {
+                    option.classList.add('active');
+                } else {
+                    option.classList.remove('active');
+                }
+            });
+
+            document.querySelectorAll('.mobile-lang-btn').forEach(btn => {
+                if (btn.dataset.lang === lang) {
+                    btn.classList.add('active');
+                } else {
+                    btn.classList.remove('active');
+                }
+            });
+
+            localStorage.setItem('preferredLanguage', lang);
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            const savedLang = localStorage.getItem('preferredLanguage') || 'fr';
+            switchLanguage(savedLang);
+
+            const langBtn = document.getElementById('lang-btn');
+            const langDropdown = document.getElementById('lang-dropdown');
+
+            if (langBtn && langDropdown) {
+                langBtn.addEventListener('click', (e) => {
+                    e.stopPropagation();
+                    e.preventDefault();
+                    langBtn.classList.toggle('active');
+                    langDropdown.classList.toggle('active');
+                });
+
+                document.addEventListener('click', (e) => {
+                    if (!langBtn.contains(e.target) && !langDropdown.contains(e.target)) {
+                        langBtn.classList.remove('active');
+                        langDropdown.classList.remove('active');
+                    }
+                });
+
+                document.querySelectorAll('.lang-option').forEach(option => {
+                    option.addEventListener('click', (e) => {
+                        e.preventDefault();
+                        e.stopPropagation();
+                        const selectedLang = option.dataset.lang;
+                        switchLanguage(selectedLang);
+                        langBtn.classList.remove('active');
+                        langDropdown.classList.remove('active');
+                    });
+                });
+            }
+
+            document.querySelectorAll('.mobile-lang-btn').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    const selectedLang = btn.dataset.lang;
+                    switchLanguage(selectedLang);
+                });
             });
         });
     </script>
