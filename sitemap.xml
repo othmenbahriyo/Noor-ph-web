@@ -64,4 +64,20 @@
     <priority>0.8</priority>
   </url>
 
+  <!-- Feature landing page: Audio -->
+  <url>
+    <loc>https://noor-phonetic-quran.com/audio-coran.html</loc>
+    <lastmod>2026-07-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Feature landing page: Tajweed -->
+  <url>
+    <loc>https://noor-phonetic-quran.com/tajweed-coran.html</loc>
+    <lastmod>2026-07-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
 </urlset>
