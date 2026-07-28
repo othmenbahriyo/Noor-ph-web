@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khatma du Coran : Application pour Planifier et Suivre sa Lecture Complète | Noor Phonetic Quran</title>
+    <meta name="description"
+        content="Planifiez votre Khatma (lecture complète du Coran) avec l'application Noor Phonetic Quran : objectifs quotidiens, suivi de progression, séries de jours (streak) et rappels. Gratuit sur iOS et Android.">
+    <meta name="keywords"
+        content="Khatma Coran, khatma application, lire le Coran en entier, plan de lecture Coran, objectif Khatma Ramadan, suivi lecture Coran, terminer le Coran">
+    <meta name="author" content="Noor Phonetic Quran">
+    <meta name="robots" content="index, follow, max-image-preview:large">
+    <link rel="canonical" href="https://noor-phonetic-quran.com/khatma-coran.html" />
+
+    <meta property="og:title" content="Khatma du Coran : Planifiez et Suivez votre Lecture Complète">
+    <meta property="og:description"
+        content="Planifiez votre Khatma avec objectifs quotidiens, suivi de progression et rappels. Application gratuite Noor Phonetic Quran.">
+    <meta property="og:image" content="https://noor-phonetic-quran.com/images/noor.png">
+    <meta property="og:url" content="https://noor-phonetic-quran.com/khatma-coran.html">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Noor Phonetic Quran">
+    <meta property="og:locale" content="fr_FR">
+
+    <link rel="icon" type="image/webp" href="images/logo.webp">
+    <link rel="apple-touch-icon" href="images/logo.webp">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://noor-phonetic-quran.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Khatma du Coran", "item": "https://noor-phonetic-quran.com/khatma-coran.html" }
+      ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Qu'est-ce qu'une Khatma du Coran ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Une Khatma désigne la lecture complète du Coran, du début à la fin, généralement réalisée sur une période définie (souvent pendant le mois de Ramadan, mais aussi tout au long de l'année)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Comment planifier une Khatma avec l'application ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Choisissez un nombre de jours pour terminer le Coran (par exemple 30 jours pour le Ramadan), l'application calcule automatiquement votre objectif de pages quotidien et suit votre progression jour après jour."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Que se passe-t-il si je manque un jour de lecture ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "L'application ajuste votre objectif quotidien restant pour vous permettre de rattraper votre retard et terminer votre Khatma dans les temps, tout en suivant votre série de jours consécutifs (streak)."
+          }
+        }
+      ]
+    }
+    </script>
+
+    <style>
+        :root {
+            --primary-color: #00553d;
+            --primary-light: #007a56;
+            --primary-dark: #004030;
+            --accent-color: #dabc4c;
+            --accent-light: #e5cc70;
+            --text-color: #333;
+            --text-light: #666;
+            --light-color: #f8f9fa;
+            --light-gray: #f0f0f0;
+            --white: #ffffff;
+            --shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+            --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.08);
+            --border-radius: 16px;
+            --border-radius-sm: 8px;
+            --transition: all 0.3s ease;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            color: var(--text-color);
+            background-color: var(--light-color);
+            line-height: 1.6;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        header {
+            background-color: var(--white);
+            padding: 15px 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 15px rgba(0, 0, 0, 0.05);
+        }
+
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            text-decoration: none;
+            color: var(--primary-color);
+            font-weight: 700;
+            font-size: 1.1rem;
+        }
+
+        .logo img {
+            border-radius: 10px;
+        }
+
+        .back-link {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.95rem;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .back-link:hover {
+            color: var(--primary-light);
+        }
+
+        .hero {
+            background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary-light) 100%);
+            color: var(--white);
+            padding: 60px 0 70px;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 2.3rem;
+            margin-bottom: 18px;
+            line-height: 1.3;
+        }
+
+        .hero p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+            max-width: 650px;
+            margin: 0 auto 30px;
+        }
+
+        .breadcrumb {
+            font-size: 0.85rem;
+            opacity: 0.75;
+            margin-bottom: 20px;
+        }
+
+        .breadcrumb a {
+            color: var(--white);
+            text-decoration: none;
+        }
+
+        .cta-group {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .btn-store {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            background: var(--white);
+            color: var(--primary-color);
+            padding: 12px 24px;
+            border-radius: 12px;
+            text-decoration: none;
+            font-weight: 700;
+            transition: var(--transition);
+        }
+
+        .btn-store:hover {
+            transform: translateY(-3px);
+            box-shadow: var(--shadow);
+        }
+
+        .btn-store i {
+            font-size: 1.5rem;
+        }
+
+        main {
+            padding: 60px 0;
+        }
+
+        .content-block {
+            background: var(--white);
+            border-radius: var(--border-radius);
+            padding: 35px;
+            margin-bottom: 25px;
+            box-shadow: var(--shadow-md);
+        }
+
+        .content-block h2 {
+            color: var(--primary-color);
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+        }
+
+        .content-block p {
+            color: var(--text-light);
+            margin-bottom: 12px;
+        }
+
+        .steps-list {
+            list-style: none;
+            counter-reset: step-counter;
+        }
+
+        .steps-list li {
+            counter-increment: step-counter;
+            padding-left: 45px;
+            position: relative;
+            margin-bottom: 18px;
+            color: var(--text-light);
+        }
+
+        .steps-list li::before {
+            content: counter(step-counter);
+            position: absolute;
+            left: 0;
+            top: -2px;
+            width: 30px;
+            height: 30px;
+            background: var(--accent-color);
+            color: var(--primary-dark);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+        }
+
+        .steps-list strong {
+            color: var(--text-color);
+        }
+
+        .faq-block details {
+            border-bottom: 1px solid var(--light-gray);
+            padding: 15px 0;
+        }
+
+        .faq-block summary {
+            font-weight: 600;
+            color: var(--primary-color);
+            cursor: pointer;
+        }
+
+        .faq-block p {
+            margin-top: 10px;
+        }
+
+        .related-features {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .related-features a {
+            flex: 1;
+            min-width: 200px;
+            background: var(--light-color);
+            padding: 18px;
+            border-radius: var(--border-radius-sm);
+            text-decoration: none;
+            color: var(--primary-color);
+            font-weight: 600;
+            text-align: center;
+            transition: var(--transition);
+        }
+
+        .related-features a:hover {
+            background: var(--accent-light);
+        }
+
+        .screenshot-gallery {
+            display: flex;
+            gap: 15px;
+            overflow-x: auto;
+            padding-bottom: 10px;
+        }
+
+        .screenshot-gallery img {
+            border-radius: 12px;
+            box-shadow: var(--shadow-md);
+            height: 380px;
+            width: auto;
+            flex-shrink: 0;
+        }
+
+        footer {
+            background: var(--primary-dark);
+            color: var(--white);
+            text-align: center;
+            padding: 30px 0;
+            font-size: 0.9rem;
+        }
+
+        footer a {
+            color: var(--accent-light);
+        }
+
+        .faq-question:focus-visible,
+        .back-link:focus-visible,
+        .btn-store:focus-visible {
+            outline: 3px solid var(--accent-color);
+            outline-offset: 2px;
+        }
+
+        @media (max-width: 600px) {
+            .hero h1 {
+                font-size: 1.7rem;
+            }
+            .content-block {
+                padding: 22px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container header-content">
+            <a href="index.html" class="logo">
+                <img src="images/logo.webp" alt="Noor Phonetic Quran Logo" width="36" height="36">
+                Noor Phonetic Quran
+            </a>
+            <a href="index.html" class="back-link"><i class="fas fa-arrow-left"></i> Retour à l'accueil</a>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <p class="breadcrumb"><a href="index.html">Accueil</a> / Khatma du Coran</p>
+            <h1>Khatma du Coran : Planifiez et Terminez votre Lecture Complète</h1>
+            <p>Fixez-vous un objectif de jours, suivez votre progression quotidienne et gardez votre série de lecture
+                (streak) jusqu'à la dernière page du Saint Coran, avec des rappels pour rester régulier.</p>
+            <div class="cta-group">
+                <a href="https://play.google.com/store/apps/details?id=coran.noor.bhr" class="btn-store" target="_blank" rel="noopener">
+                    <i class="fab fa-google-play"></i> Google Play
+                </a>
+                <a href="https://apps.apple.com/sn/app/noor-phonetic-quran/id6737744800" class="btn-store" target="_blank" rel="noopener">
+                    <i class="fab fa-apple"></i> App Store
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <main>
+        <div class="container">
+            <div class="content-block">
+                <h2>Qu'est-ce qu'une Khatma ?</h2>
+                <p>La Khatma désigne la lecture complète du Coran, du début (Al-Fatiha) à la fin (An-Nas). De
+                    nombreux musulmans réalisent une Khatma pendant le mois de Ramadan, mais elle peut aussi être
+                    entreprise à n'importe quel moment de l'année, sur la durée de votre choix.</p>
+                <p>Terminer le Coran demande de la constance : sans plan de lecture ni suivi, il est facile de perdre
+                    le fil ou d'abandonner en cours de route. C'est exactement ce que résout la fonctionnalité Khatma
+                    de Noor Phonetic Quran.</p>
+            </div>
+
+            <div class="content-block">
+                <h2>Comment fonctionne la Khatma dans l'application ?</h2>
+                <ol class="steps-list">
+                    <li><strong>Choisissez la durée de votre Khatma</strong> — par exemple 30 jours pour le Ramadan,
+                        ou une durée personnalisée adaptée à votre rythme.</li>
+                    <li><strong>Suivez votre objectif quotidien</strong> — l'application calcule automatiquement le
+                        nombre de pages à lire chaque jour pour terminer dans les temps.</li>
+                    <li><strong>Gardez votre série de lecture (streak)</strong> — chaque jour où vous atteignez votre
+                        objectif prolonge votre streak, une motivation supplémentaire pour rester régulier.</li>
+                    <li><strong>Recevez des rappels</strong> — des notifications vous aident à ne pas oublier votre
+                        lecture du jour.</li>
+                    <li><strong>Célébrez la fin de votre Khatma</strong> — un récapitulatif de votre parcours
+                        (jours pris, meilleur streak) s'affiche une fois le Coran terminé.</li>
+                </ol>
+            </div>
+
+            <div class="content-block">
+                <h2>Aperçu de la fonctionnalité Khatma</h2>
+                <div class="screenshot-gallery">
+                    <img src="images/screenshot-khatma-1.webp" alt="Noor Phonetic Quran - Choix du plan de Khatma (30, 60, 90 jours ou Ramadan)" loading="lazy" width="243" height="540">
+                    <img src="images/screenshot-khatma-2.webp" alt="Noor Phonetic Quran - Suivi de progression de la Khatma avec streak" loading="lazy" width="243" height="540">
+                    <img src="images/screenshot-khatma-indicator.webp" alt="Noor Phonetic Quran - Indicateur Khatma affiché pendant la lecture" loading="lazy" width="243" height="540">
+                </div>
+            </div>
+
+            <div class="content-block faq-block">
+                <h2>Questions fréquentes sur la Khatma</h2>
+                <details>
+                    <summary>Que se passe-t-il si je manque un jour de lecture ?</summary>
+                    <p>L'application ajuste votre progression pour vous permettre de rattraper votre retard et
+                        terminer votre Khatma dans les temps.</p>
+                </details>
+                <details>
+                    <summary>Puis-je faire une Khatma en dehors du Ramadan ?</summary>
+                    <p>Oui, vous pouvez démarrer une Khatma à tout moment de l'année, avec la durée de votre choix.</p>
+                </details>
+                <details>
+                    <summary>La fonctionnalité Khatma est-elle gratuite ?</summary>
+                    <p>Oui, comme l'ensemble des fonctionnalités principales de Noor Phonetic Quran, la Khatma est
+                        entièrement gratuite.</p>
+                </details>
+            </div>
+
+            <div class="content-block">
+                <h2>Découvrez aussi</h2>
+                <div class="related-features">
+                    <a href="memorisation-coran.html">Mémoriser le Coran (Hifz)</a>
+                    <a href="quiz-coran.html">Quiz Coranique</a>
+                    <a href="index.html#features">Toutes les fonctionnalités</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Noor Phonetic Quran. <a href="privacy-policy.html">Politique de confidentialité</a></p>
+        </div>
+    </footer>
+</body>
+
+</html>

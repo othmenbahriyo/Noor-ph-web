@@ -1,0 +1,18 @@
+{
+  "name": "Noor Phonetic Quran",
+  "short_name": "Noor Quran",
+  "description": "Apprenez à réciter, mémoriser et lire le Coran en entier avec transcription phonétique, audio et Tajweed.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#00553d",
+  "theme_color": "#00553d",
+  "lang": "fr",
+  "icons": [
+    {
+      "src": "/images/logo.webp",
+      "sizes": "512x512",
+      "type": "image/webp",
+      "purpose": "any"
+    }
+  ]
+}

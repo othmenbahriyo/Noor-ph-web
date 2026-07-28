@@ -2,21 +2,66 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
+  <!-- French Homepage (default) -->
   <url>
     <loc>https://noor-phonetic-quran.com/</loc>
-    <lastmod>2026-05-07</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://noor-phonetic-quran.com/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://noor-phonetic-quran.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://noor-phonetic-quran.com/en/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://noor-phonetic-quran.com/"/>
   </url>
 
+  <!-- English Homepage -->
   <url>
-    <loc>https://noor-phonetic-quran.com/cgu.html</loc>
-    <lastmod>2025-03-26</lastmod>
+    <loc>https://noor-phonetic-quran.com/en/</loc>
+    <lastmod>2026-07-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://noor-phonetic-quran.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://noor-phonetic-quran.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://noor-phonetic-quran.com/"/>
+  </url>
+
+  <!-- Privacy Policy -->
+  <url>
+    <loc>https://noor-phonetic-quran.com/privacy-policy.html</loc>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
+  </url>
+
+  <!-- Feature landing page: Khatma -->
+  <url>
+    <loc>https://noor-phonetic-quran.com/khatma-coran.html</loc>
+    <lastmod>2026-07-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Feature landing page: Memorization (Hifz) -->
+  <url>
+    <loc>https://noor-phonetic-quran.com/memorisation-coran.html</loc>
+    <lastmod>2026-07-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Feature landing page: Recitation correction -->
+  <url>
+    <loc>https://noor-phonetic-quran.com/correction-recitation-coran.html</loc>
+    <lastmod>2026-07-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Feature landing page: Quiz -->
+  <url>
+    <loc>https://noor-phonetic-quran.com/quiz-coran.html</loc>
+    <lastmod>2026-07-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
 
 </urlset>

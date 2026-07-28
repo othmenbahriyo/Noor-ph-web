@@ -10,30 +10,37 @@ Noor Phonetic Quran is a static HTML landing page for a mobile app that teaches 
 
 **No build system** - this is a pure static HTML/CSS/JS website.
 
-- Edit files directly (`index.html`, `cgu.html`)
+- Edit files directly
 - Open in browser to test (no build step required)
-- All styles and scripts are inline in `index.html`
+- All styles and scripts are inline in HTML files
 
 ## Architecture
 
 ### File Structure
-- `index.html` - Main landing page (single 4400+ line file with embedded CSS and JS)
-- `cgu.html` - Terms and conditions page
+- `index.html` - French landing page (default)
+- `en/index.html` - English landing page
+- `cgu.html` - Terms and conditions page (French)
 - `images/` - Static image assets (logo, screenshots, app images)
 - `robots.txt`, `sitemap.xml` - SEO configuration
+
+### Multilingual SEO Structure
+The site uses **separate URLs for each language** (best practice for SEO):
+- French (default): `https://noor-phonetic-quran.com/`
+- English: `https://noor-phonetic-quran.com/en/`
+
+Each page has proper `hreflang` tags pointing to both versions:
+```html
+<link rel="alternate" hreflang="fr" href="https://noor-phonetic-quran.com/" />
+<link rel="alternate" hreflang="en" href="https://noor-phonetic-quran.com/en/" />
+<link rel="alternate" hreflang="x-default" href="https://noor-phonetic-quran.com/" />
+```
+
+**Important**: When updating content, update BOTH language versions.
 
 ### Technology Stack
 - HTML5, CSS3, Vanilla JavaScript
 - Font Awesome 6.4.0 (via CDN)
 - No frameworks or build tools
-
-### Bilingual Content System
-Content is duplicated in French and English using lang attributes:
-```html
-<span lang="fr">Texte français</span>
-<span lang="en">English text</span>
-```
-The `switchLanguage(lang)` JavaScript function toggles visibility and persists selection to localStorage.
 
 ### CSS Variables (defined in `:root`)
 - `--primary-color: #00553d` (green)
@@ -41,7 +48,6 @@ The `switchLanguage(lang)` JavaScript function toggles visibility and persists s
 - `--transition: all 0.3s ease`
 
 ### Key JavaScript Functions
-- `switchLanguage(lang)` - Language switching with localStorage persistence
 - `animateCounters()` - Number counter animations
 - `animateHeroElements()` - Hero section entrance animations
 - `setupParallaxEffect()` - Parallax scrolling effect
@@ -50,6 +56,10 @@ The `switchLanguage(lang)` JavaScript function toggles visibility and persists s
 ### Responsive Breakpoints
 - Mobile: `max-width: 991px`
 - Landscape detection adjusts device container sizing
+
+### Image Paths
+- French version (`index.html`): `src="images/..."`
+- English version (`en/index.html`): `src="../images/..."`
 
 ## External Links
 - Google Play: `com.coran.noor.bhr`

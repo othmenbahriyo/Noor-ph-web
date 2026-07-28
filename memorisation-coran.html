@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mémoriser le Coran (Hifz) : Application avec Répétition Audio et Quiz | Noor Phonetic Quran</title>
+    <meta name="description"
+        content="Mémorisez le Coran (Hifz) avec l'application Noor Phonetic Quran : répétition audio verset par verset, mode mot-par-mot, quiz de révision, points, niveaux et badges. Gratuit sur iOS et Android.">
+    <meta name="keywords"
+        content="mémoriser le Coran, Hifz Coran, application mémorisation Coran, apprendre le Coran par coeur, mémorisation verset par verset, Hifz application gratuite">
+    <meta name="author" content="Noor Phonetic Quran">
+    <meta name="robots" content="index, follow, max-image-preview:large">
+    <link rel="canonical" href="https://noor-phonetic-quran.com/memorisation-coran.html" />
+
+    <meta property="og:title" content="Mémoriser le Coran (Hifz) : Répétition Audio, Quiz et Suivi de Progression">
+    <meta property="og:description"
+        content="Mémorisez le Coran avec répétition audio, mode mot-par-mot, quiz et défis quotidiens. Application gratuite Noor Phonetic Quran.">
+    <meta property="og:image" content="https://noor-phonetic-quran.com/images/noor.png">
+    <meta property="og:url" content="https://noor-phonetic-quran.com/memorisation-coran.html">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Noor Phonetic Quran">
+    <meta property="og:locale" content="fr_FR">
+
+    <link rel="icon" type="image/webp" href="images/logo.webp">
+    <link rel="apple-touch-icon" href="images/logo.webp">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://noor-phonetic-quran.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Mémorisation du Coran", "item": "https://noor-phonetic-quran.com/memorisation-coran.html" }
+      ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Qu'est-ce que le Hifz ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Le Hifz désigne la mémorisation du Coran, verset par verset et sourate par sourate, jusqu'à pouvoir le réciter entièrement de mémoire."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Comment mémoriser le Coran avec l'application ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "L'application propose une répétition audio verset par verset, un mode mot-par-mot pour ancrer la mémorisation, et des quiz de révision réguliers pour vérifier que les versets appris restent bien mémorisés."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Comment rester motivé pour mémoriser le Coran ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "L'application inclut un système de points, de niveaux, de badges et de défis quotidiens qui transforment la mémorisation en objectif progressif et gratifiant."
+          }
+        }
+      ]
+    }
+    </script>
+
+    <style>
+        :root {
+            --primary-color: #00553d;
+            --primary-light: #007a56;
+            --primary-dark: #004030;
+            --accent-color: #dabc4c;
+            --accent-light: #e5cc70;
+            --text-color: #333;
+            --text-light: #666;
+            --light-color: #f8f9fa;
+            --light-gray: #f0f0f0;
+            --white: #ffffff;
+            --shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+            --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.08);
+            --border-radius: 16px;
+            --border-radius-sm: 8px;
+            --transition: all 0.3s ease;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            color: var(--text-color);
+            background-color: var(--light-color);
+            line-height: 1.6;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        header {
+            background-color: var(--white);
+            padding: 15px 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 15px rgba(0, 0, 0, 0.05);
+        }
+
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            text-decoration: none;
+            color: var(--primary-color);
+            font-weight: 700;
+            font-size: 1.1rem;
+        }
+
+        .logo img {
+            border-radius: 10px;
+        }
+
+        .back-link {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.95rem;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .back-link:hover {
+            color: var(--primary-light);
+        }
+
+        .hero {
+            background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary-light) 100%);
+            color: var(--white);
+            padding: 60px 0 70px;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 2.3rem;
+            margin-bottom: 18px;
+            line-height: 1.3;
+        }
+
+        .hero p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+            max-width: 650px;
+            margin: 0 auto 30px;
+        }
+
+        .breadcrumb {
+            font-size: 0.85rem;
+            opacity: 0.75;
+            margin-bottom: 20px;
+        }
+
+        .breadcrumb a {
+            color: var(--white);
+            text-decoration: none;
+        }
+
+        .cta-group {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .btn-store {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            background: var(--white);
+            color: var(--primary-color);
+            padding: 12px 24px;
+            border-radius: 12px;
+            text-decoration: none;
+            font-weight: 700;
+            transition: var(--transition);
+        }
+
+        .btn-store:hover {
+            transform: translateY(-3px);
+            box-shadow: var(--shadow);
+        }
+
+        .btn-store i {
+            font-size: 1.5rem;
+        }
+
+        main {
+            padding: 60px 0;
+        }
+
+        .content-block {
+            background: var(--white);
+            border-radius: var(--border-radius);
+            padding: 35px;
+            margin-bottom: 25px;
+            box-shadow: var(--shadow-md);
+        }
+
+        .content-block h2 {
+            color: var(--primary-color);
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+        }
+
+        .content-block p {
+            color: var(--text-light);
+            margin-bottom: 12px;
+        }
+
+        .steps-list {
+            list-style: none;
+            counter-reset: step-counter;
+        }
+
+        .steps-list li {
+            counter-increment: step-counter;
+            padding-left: 45px;
+            position: relative;
+            margin-bottom: 18px;
+            color: var(--text-light);
+        }
+
+        .steps-list li::before {
+            content: counter(step-counter);
+            position: absolute;
+            left: 0;
+            top: -2px;
+            width: 30px;
+            height: 30px;
+            background: var(--accent-color);
+            color: var(--primary-dark);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+        }
+
+        .steps-list strong {
+            color: var(--text-color);
+        }
+
+        .faq-block details {
+            border-bottom: 1px solid var(--light-gray);
+            padding: 15px 0;
+        }
+
+        .faq-block summary {
+            font-weight: 600;
+            color: var(--primary-color);
+            cursor: pointer;
+        }
+
+        .faq-block p {
+            margin-top: 10px;
+        }
+
+        .related-features {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .related-features a {
+            flex: 1;
+            min-width: 200px;
+            background: var(--light-color);
+            padding: 18px;
+            border-radius: var(--border-radius-sm);
+            text-decoration: none;
+            color: var(--primary-color);
+            font-weight: 600;
+            text-align: center;
+            transition: var(--transition);
+        }
+
+        .related-features a:hover {
+            background: var(--accent-light);
+        }
+
+        .screenshot-gallery {
+            display: flex;
+            gap: 15px;
+            overflow-x: auto;
+            padding-bottom: 10px;
+        }
+
+        .screenshot-gallery img {
+            border-radius: 12px;
+            box-shadow: var(--shadow-md);
+            height: 380px;
+            width: auto;
+            flex-shrink: 0;
+        }
+
+        footer {
+            background: var(--primary-dark);
+            color: var(--white);
+            text-align: center;
+            padding: 30px 0;
+            font-size: 0.9rem;
+        }
+
+        footer a {
+            color: var(--accent-light);
+        }
+
+        .faq-question:focus-visible,
+        .back-link:focus-visible,
+        .btn-store:focus-visible {
+            outline: 3px solid var(--accent-color);
+            outline-offset: 2px;
+        }
+
+        @media (max-width: 600px) {
+            .hero h1 {
+                font-size: 1.7rem;
+            }
+            .content-block {
+                padding: 22px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container header-content">
+            <a href="index.html" class="logo">
+                <img src="images/logo.webp" alt="Noor Phonetic Quran Logo" width="36" height="36">
+                Noor Phonetic Quran
+            </a>
+            <a href="index.html" class="back-link"><i class="fas fa-arrow-left"></i> Retour à l'accueil</a>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <p class="breadcrumb"><a href="index.html">Accueil</a> / Mémorisation du Coran</p>
+            <h1>Mémoriser le Coran (Hifz) : Répétition Audio, Quiz et Suivi de Progression</h1>
+            <p>Apprenez le Coran par cœur verset par verset grâce à la répétition audio, au mode mot-par-mot et aux
+                quiz de révision, avec un système de points et de badges pour rester motivé chaque jour.</p>
+            <div class="cta-group">
+                <a href="https://play.google.com/store/apps/details?id=coran.noor.bhr" class="btn-store" target="_blank" rel="noopener">
+                    <i class="fab fa-google-play"></i> Google Play
+                </a>
+                <a href="https://apps.apple.com/sn/app/noor-phonetic-quran/id6737744800" class="btn-store" target="_blank" rel="noopener">
+                    <i class="fab fa-apple"></i> App Store
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <main>
+        <div class="container">
+            <div class="content-block">
+                <h2>Qu'est-ce que le Hifz ?</h2>
+                <p>Le Hifz désigne la mémorisation du Coran, verset par verset et sourate par sourate. C'est un
+                    parcours exigeant qui demande de la répétition régulière, de bonnes méthodes d'apprentissage et
+                    un moyen fiable de vérifier ce qui est déjà bien mémorisé.</p>
+                <p>Noor Phonetic Quran a été conçu pour accompagner ce parcours avec des outils concrets : audio,
+                    répétition, révision active et gamification, plutôt que la seule lecture répétée d'un mushaf.</p>
+            </div>
+
+            <div class="content-block">
+                <h2>Comment mémoriser le Coran avec l'application ?</h2>
+                <ol class="steps-list">
+                    <li><strong>Écoutez et répétez</strong> — chaque verset dispose d'une répétition audio pour
+                        ancrer la mémorisation par l'écoute.</li>
+                    <li><strong>Utilisez le mode mot-par-mot</strong> — décomposez les versets les plus longs pour
+                        les mémoriser progressivement.</li>
+                    <li><strong>Testez-vous avec les quiz de révision</strong> — vérifiez régulièrement que les
+                        versets appris restent bien mémorisés.</li>
+                    <li><strong>Gagnez des points et des badges</strong> — chaque verset mémorisé rapporte des
+                        points, fait progresser votre niveau et débloque des badges.</li>
+                    <li><strong>Relevez des défis quotidiens</strong> — des objectifs journaliers vous encouragent à
+                        mémoriser un peu chaque jour, sans surcharge.</li>
+                </ol>
+            </div>
+
+            <div class="content-block">
+                <h2>Aperçu du plan de mémorisation</h2>
+                <div class="screenshot-gallery">
+                    <img src="images/screenshot-memorisation-1.webp" alt="Noor Phonetic Quran - Étapes du plan de mémorisation quotidien" loading="lazy" width="243" height="540">
+                    <img src="images/screenshot-memorisation-2.webp" alt="Noor Phonetic Quran - Checklist de mémorisation avec streak" loading="lazy" width="243" height="540">
+                    <img src="images/screenshot-daily-plan-indicator.webp" alt="Noor Phonetic Quran - Indicateur du plan quotidien affiché pendant la lecture" loading="lazy" width="243" height="540">
+                </div>
+            </div>
+
+            <div class="content-block faq-block">
+                <h2>Questions fréquentes sur la mémorisation du Coran</h2>
+                <details>
+                    <summary>Combien de temps faut-il pour mémoriser le Coran ?</summary>
+                    <p>Cela dépend du rythme de chacun. L'application vous permet d'avancer à votre propre rythme,
+                        verset par verset, sans pression de délai.</p>
+                </details>
+                <details>
+                    <summary>Le mode mémorisation fonctionne-t-il hors ligne ?</summary>
+                    <p>Une fois les sourates chargées, la répétition audio et les quiz de révision restent
+                        disponibles sans connexion Internet.</p>
+                </details>
+                <details>
+                    <summary>La fonctionnalité Mémorisation est-elle gratuite ?</summary>
+                    <p>Oui, comme l'ensemble des fonctionnalités principales de Noor Phonetic Quran, le mode
+                        Mémorisation est entièrement gratuit.</p>
+                </details>
+            </div>
+
+            <div class="content-block">
+                <h2>Découvrez aussi</h2>
+                <div class="related-features">
+                    <a href="khatma-coran.html">Khatma du Coran</a>
+                    <a href="quiz-coran.html">Quiz Coranique</a>
+                    <a href="index.html#features">Toutes les fonctionnalités</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Noor Phonetic Quran. <a href="privacy-policy.html">Politique de confidentialité</a></p>
+        </div>
+    </footer>
+</body>
+
+</html>

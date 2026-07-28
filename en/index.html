@@ -1,47 +1,46 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Noor Phonetic Quran - Application d'Apprentissage du Coran</title>
+    <title>Noor Phonetic Quran - Quran Learning App with Phonetics</title>
 
     <!-- Open Graph Meta Tags pour Facebook, Instagram, WhatsApp -->
-    <meta property="og:title" content="Noor Phonetic Quran - Récitez le Coran avec phonétique">
+    <meta property="og:title" content="Noor Phonetic Quran - Recite Quran with Phonetics">
     <meta property="og:description"
-        content="Apprenez à réciter le Saint Coran même sans connaître l'arabe. Application gratuite avec phonétique précise, audio intégré et règles de Tajweed.">
+        content="Learn to recite the Holy Quran even without knowing Arabic. Free app with precise phonetics, integrated audio and Tajweed rules.">
     <meta property="og:image" content="https://noor-phonetic-quran.com/images/noor.png">
     <meta property="og:image:secure_url" content="https://noor-phonetic-quran.com/images/noor.png">
     <meta property="og:image:type" content="image/png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
-    <meta property="og:image:alt" content="Noor Phonetic Quran - Application d'apprentissage du Coran">
-    <meta property="og:url" content="https://noor-phonetic-quran.com">
+    <meta property="og:image:alt" content="Noor Phonetic Quran - Quran Learning App">
+    <meta property="og:url" content="https://noor-phonetic-quran.com/en/">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Noor Phonetic Quran">
-    <meta property="og:locale" content="fr_FR">
-    <meta property="og:locale:alternate" content="en_US">
-    <link rel="canonical" href="https://noor-phonetic-quran.com/" />
+    <meta property="og:locale" content="en_US">
+    <meta property="og:locale:alternate" content="fr_FR">
+    <link rel="canonical" href="https://noor-phonetic-quran.com/en/" />
     <link rel="alternate" hreflang="fr" href="https://noor-phonetic-quran.com/" />
     <link rel="alternate" hreflang="en" href="https://noor-phonetic-quran.com/en/" />
     <link rel="alternate" hreflang="x-default" href="https://noor-phonetic-quran.com/" />
     <!-- Twitter Card Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Noor Phonetic Quran - Récitez le Coran avec phonétique">
+    <meta name="twitter:title" content="Noor Phonetic Quran - Recite Quran with Phonetics">
     <meta name="twitter:description"
-        content="Apprenez à réciter le Saint Coran même sans connaître l'arabe. Application gratuite avec phonétique précise, audio intégré et règles de Tajweed.">
+        content="Learn to recite the Holy Quran even without knowing Arabic. Free app with precise phonetics, integrated audio and Tajweed rules.">
     <meta name="twitter:image" content="https://noor-phonetic-quran.com/images/noor.png">
     <meta name="twitter:image:alt" content="Noor Phonetic Quran App">
 
     <!-- Meta Tags supplémentaires -->
-    <meta name="description"
-        content="Noor Phonetic Quran - Application gratuite pour apprendre à réciter, mémoriser (Hifz) et lire le Coran en entier (Khatma). Transcription phonétique, audio synchronisé, Tajweed colorée, plan de lecture quotidien, quiz et correction de récitation. 50K+ utilisateurs satisfaits. Disponible sur iOS et Android.">
-    <meta name="keywords" content="Coran phonétique, apprendre Coran, Quran phonetics, récitation Coran, Tajweed, application Coran gratuite, Coran arabe français, transcription phonétique Coran, learn Quran, Quran app free, Khatma Coran, mémoriser le Coran, Hifz Coran, plan de lecture Coran, quiz Coran, correction récitation Coran, application mémorisation Coran">
+    <meta name="description" content="Noor Phonetic Quran - Free app to learn, memorize (Hifz) and read the entire Quran (Khatma). Precise phonetic transcription, synchronized audio, color-coded Tajweed, daily reading plan, quiz and recitation correction. 50K+ satisfied users. Available on iOS and Android.">
+    <meta name="keywords" content="Quran phonetics, learn Quran, Quran recitation, Tajweed, free Quran app, phonetic Quran transcription, Quran app free, Quran Khatma, memorize Quran, Hifz Quran, Quran reading plan, Quran quiz, recitation correction app, Quran memorization app">
     <meta name="author" content="Noor Phonetic Quran">
     <meta name="robots" content="index, follow, max-image-preview:large">
     <!-- Favicon -->
-    <link rel="icon" type="image/webp" href="images/logo.webp">
-    <link rel="apple-touch-icon" href="images/logo.webp">
+    <link rel="icon" type="image/webp" href="../images/logo.webp">
+    <link rel="apple-touch-icon" href="../images/logo.webp">
     <link rel="manifest" href="/manifest.json">
 
     <!-- Préconnexion aux domaines externes pour accélérer le rendu -->
@@ -1450,16 +1449,6 @@
             font-weight: 600;
         }
 
-        .feature-card h3 a {
-            color: inherit;
-            text-decoration: none;
-        }
-
-        .feature-card h3 a:hover,
-        .feature-card h3 a:focus-visible {
-            text-decoration: underline;
-        }
-
         .feature-card p {
             color: var(--text-light);
             font-size: 0.95rem;
@@ -2624,34 +2613,34 @@
         <div class="container">
             <div class="header-content">
                 <div class="logo">
-                    <img src="images/logo.webp" alt="Noor Phonetic Quran Logo" width="42" height="42">
+                    <img src="../images/logo.webp" alt="Noor Phonetic Quran Logo" width="42" height="42">
                     <span class="logo-text">Noor Phonetic Quran</span>
                 </div>
 
-                <button class="menu-toggle" id="menu-toggle" aria-label="Ouvrir le menu de navigation" aria-expanded="false" aria-controls="mobile-navbar">
+                <button class="menu-toggle" id="menu-toggle" aria-label="Open navigation menu" aria-expanded="false" aria-controls="mobile-navbar">
                     <i class="fas fa-bars"></i>
                 </button>
 
                 <nav class="navbar">
-                    <a href="#features">Fonctionnalités</a>
-                    <a href="#screenshots">Captures d'écran</a>
-                    <a href="#testimonials">Avis</a>
-                    <a href="privacy-policy.html">Confidentialité</a>
+                    <a href="#features">Features</a>
+                    <a href="#screenshots">Screenshots</a>
+                    <a href="#testimonials">Reviews</a>
+                    <a href="../privacy-policy.html">Privacy</a>
                     <a href="#contact">Contact</a>
-                    </nav>
+                </nav>
 
                 <div class="language-switcher">
                     <button class="lang-btn" id="lang-btn">
                         <i class="fas fa-globe"></i>
-                        <span class="current-lang">FR</span>
+                        <span class="current-lang">EN</span>
                         <i class="fas fa-chevron-down"></i>
                     </button>
                     <div class="lang-dropdown" id="lang-dropdown">
-                        <a href="/" class="lang-option active">
+                        <a href="/" class="lang-option">
                             <span class="lang-flag">🇫🇷</span>
                             <span>Français</span>
                         </a>
-                        <a href="/en/" class="lang-option">
+                        <a href="/en/" class="lang-option active">
                             <span class="lang-flag">🇬🇧</span>
                             <span>English</span>
                         </a>
@@ -2665,53 +2654,53 @@
     <div class="mobile-navbar" id="mobile-navbar">
         <div class="mobile-navbar-header">
             <div class="logo">
-                <img src="images/logo.webp" alt="Noor Phonetic Quran Logo" width="42" height="42">
+                <img src="../images/logo.webp" alt="Noor Phonetic Quran Logo" width="42" height="42">
                 <span class="logo-text">Noor Phonetic Quran</span>
             </div>
-            <button class="close-menu" id="close-menu" aria-label="Fermer le menu de navigation">
+            <button class="close-menu" id="close-menu" aria-label="Close navigation menu">
                 <i class="fas fa-times"></i>
             </button>
         </div>
         <nav class="mobile-menu">
             <a href="#features">
                 <i class="fas fa-star"></i>
-                <span>Fonctionnalités</span>
-                </a>
+                <span>Features</span>
+            </a>
             <a href="#screenshots">
                 <i class="fas fa-mobile-alt"></i>
-                <span>Captures d'écran</span>
-                </a>
+                <span>Screenshots</span>
+            </a>
             <a href="#testimonials">
                 <i class="fas fa-comment"></i>
-                <span>Avis</span>
-                </a>
-            <a href="privacy-policy.html">
+                <span>Reviews</span>
+            </a>
+            <a href="../privacy-policy.html">
                 <i class="fas fa-file-contract"></i>
-                <span>Confidentialité</span>
-                </a>
+                <span>Privacy</span>
+            </a>
             <a href="#contact">
                 <i class="fas fa-envelope"></i>
                 <span>Contact</span>
-                </a>
+            </a>
             <a href="https://play.google.com/store/apps/details?id=coran.noor.bhr" target="_blank">
                 <i class="fab fa-google-play"></i>
                 <span>Google Play</span>
-                </a>
+            </a>
             <a href="https://apps.apple.com/sn/app/noor-phonetic-quran/id6737744800" target="_blank">
                 <i class="fab fa-apple"></i>
                 <span>App Store</span>
-                </a>
+            </a>
         </nav>
         <div class="mobile-lang-switcher">
             <div class="mobile-lang-title">
-                <span>Langue / Language</span>
-                </div>
+                <span>Language / Langue</span>
+            </div>
             <div class="mobile-lang-options">
-                <a href="/" class="mobile-lang-btn active">
+                <a href="/" class="mobile-lang-btn">
                     <span class="lang-flag">🇫🇷</span>
                     <span>FR</span>
                 </a>
-                <a href="/en/" class="mobile-lang-btn">
+                <a href="/en/" class="mobile-lang-btn active">
                     <span class="lang-flag">🇬🇧</span>
                     <span>EN</span>
                 </a>
@@ -2736,16 +2725,19 @@
                 <div class="hero-text-modern">
                     <div class="status-badge">
                         <span class="status-dot pulse"></span>
-                        <span>50K+ Utilisateurs Actifs</span>
-                        </div>
+                        <span>50K+ Active Users</span>
+                    </div>
 
                     <h1 class="headline-modern">
-                        <span class="headline-highlight">Récitez</span> le Saint Coran, même sans connaître l'arabe
+                        <span class="headline-highlight">Recite</span> the Holy Quran, even without knowing Arabic
                     </h1>
+
                     <p class="subheadline-modern">
-                        Grâce à une phonétique précise et intuitive, Noor Phonetic Quran rend chaque verset accessible à
-                        tous.
+                        With precise and intuitive phonetics, Noor Phonetic Quran makes every verse accessible to
+                        everyone.
                     </p>
+
+
                     <!-- Cards de fonctionnalités mini -->
                     <div class="mini-features">
                         <div class="mini-feature-card">
@@ -2753,24 +2745,24 @@
                                 <i class="fas fa-language"></i>
                             </div>
                             <div class="mini-feature-text">
-                                <h4>Phonétique Précise</h4>
-                                </div>
+                                <h4>Precise Phonetics</h4>
+                            </div>
                         </div>
                         <div class="mini-feature-card">
                             <div class="mini-feature-icon">
                                 <i class="fas fa-headphones"></i>
                             </div>
                             <div class="mini-feature-text">
-                                <h4>Audio Intégré</h4>
-                                </div>
+                                <h4>Integrated Audio</h4>
+                            </div>
                         </div>
                         <div class="mini-feature-card">
                             <div class="mini-feature-icon">
                                 <i class="fas fa-book-reader"></i>
                             </div>
                             <div class="mini-feature-text">
-                                <h4>Règles de Tajweed</h4>
-                                </div>
+                                <h4>Tajweed Rules</h4>
+                            </div>
                         </div>
                     </div>
 
@@ -2785,8 +2777,8 @@
                             <span class="rating-number">5.0</span>
                         </div>
                         <div class="rating-info">
-                            <p>Note parfaite sur Play Store et App Store</p>
-                            </div>
+                            <p>Perfect rating on Play Store and App Store</p>
+                        </div>
                     </div>
 
                     <!-- Boutons de téléchargement modernes -->
@@ -2797,7 +2789,7 @@
                                 <i class="fab fa-google-play"></i>
                             </div>
                             <div class="btn-text">
-                                <span class="btn-small-text">Télécharger sur</span>
+                                <span class="btn-small-text">Download on</span>
                                 <span class="btn-large-text">Google Play</span>
                             </div>
                         </a>
@@ -2807,7 +2799,7 @@
                                 <i class="fab fa-apple"></i>
                             </div>
                             <div class="btn-text">
-                                <span class="btn-small-text">Télécharger sur</span>
+                                <span class="btn-small-text">Download on</span>
                                 <span class="btn-large-text">App Store</span>
                             </div>
                         </a>
@@ -2821,22 +2813,22 @@
                         <i class="fas fa-users"></i>
                         <div class="badge-content">
                             <span class="badge-number counter" data-target="50000">0</span>
-                            <span class="badge-text">Utilisateurs</span>
-                            </div>
+                            <span class="badge-text">Users</span>
+                        </div>
                     </div>
 
                     <!-- Badge flottant de mise à jour -->
                     <div class="floating-badge update-badge">
                         <i class="fas fa-sync-alt spin"></i>
                         <div class="badge-content">
-                            <span class="badge-text">Mis à jour récemment</span>
-                            </div>
+                            <span class="badge-text">Recently updated</span>
+                        </div>
                     </div>
 
                     <!-- Illustration du téléphone en 3D -->
                     <div class="device-3d-container">
                         <div class="device-3d">
-                            <img src="images/welcome_image1.png" alt="Noor Phonetic Quran - Interface de l'application montrant la phonétique du Coran" class="device-screen" width="360" height="680">
+                            <img src="../images/welcome_image1.png" alt="Noor Phonetic Quran - Interface de l'application montrant la phonétique du Coran" class="device-screen" width="360" height="680">
                         </div>
                         <div class="device-shadow"></div>
                     </div>
@@ -2872,7 +2864,7 @@
             <!-- Logo et badges en haut -->
             <div class="mobile-header">
                 <div class="mobile-app-identity">
-                    <img src="images/logo.webp" alt="Noor Phonetic Quran Logo" class="mobile-logo" width="60" height="60">
+                    <img src="../images/logo.webp" alt="Noor Phonetic Quran Logo" class="mobile-logo" width="60" height="60">
                     <span class="mobile-app-name">Noor Phonetic Quran</span>
                 </div>
 
@@ -2880,33 +2872,33 @@
 
             <!-- Section du titre principal -->
             <div class="mobile-hero-content">
-                <p class="mobile-headline" role="heading" aria-level="1">Récitez le Saint Coran, même sans connaître l'arabe</p>
+                <p class="mobile-headline" role="heading" aria-level="1">Recite the Holy Quran, even without knowing Arabic</p>
+
                 <p class="mobile-subheadline">
-                    Une application pensée pour vous guider vers une récitation fluide grâce à une phonétique claire et
-                    intuitive.
+                    An app designed to guide you toward smooth recitation through clear and intuitive phonetics.
                 </p>
-                </div>
+            </div>
 
             <!-- Image principale avec effets -->
             <div class="mobile-device-container">
                 <div class="mobile-device-frame">
-                    <img src="images/welcome_image2.png" alt="Noor Phonetic Quran - Apprentissage du Coran avec transcription phonétique" class="mobile-device-screen" width="280" height="560">
+                    <img src="../images/welcome_image2.png" alt="Noor Phonetic Quran - Apprentissage du Coran avec transcription phonétique" class="mobile-device-screen" width="280" height="560">
 
                     <!-- Indicateurs flottants autour de l'image -->
                     <div class="mobile-indicator phonetic-indicator">
                         <i class="fas fa-language"></i>
-                        <span>Phonétique Précise</span>
-                        </div>
+                        <span>Precise Phonetics</span>
+                    </div>
 
                     <div class="mobile-indicator tajweed-indicator">
                         <i class="fas fa-book-reader"></i>
-                        <span>Règles de Tajweed</span>
-                        </div>
+                        <span>Tajweed Rules</span>
+                    </div>
 
                     <div class="mobile-indicator audio-indicator">
                         <i class="fas fa-headphones"></i>
-                        <span>Audio Intégré</span>
-                        </div>
+                        <span>Integrated Audio</span>
+                    </div>
                 </div>
             </div>
 
@@ -2916,12 +2908,12 @@
                     target="_blank">
                     <i class="fab fa-google-play"></i>
                     <span>Google Play</span>
-                    </a>
+                </a>
                 <a href="https://apps.apple.com/sn/app/noor-phonetic-quran/id6737744800" class="mobile-download-btn"
                     target="_blank">
                     <i class="fab fa-apple"></i>
                     <span>App Store</span>
-                    </a>
+                </a>
             </div>
         </div>
 
@@ -2939,45 +2931,43 @@
     <section class="why-section" id="why">
         <div class="container">
             <div class="section-title">
-                <h2>Pourquoi Noor Phonetic Quran ?</h2>
-                <p>Découvrez les raisons qui font de notre application un choix unique</p>
-                </div>
+                <h2>Why Noor Phonetic Quran?</h2>
+                <p>Discover the reasons that make our app a unique choice</p>
+            </div>
 
             <div class="why-grid">
                 <div class="why-card">
                     <div class="why-icon">
                         <i class="fas fa-heart"></i>
                     </div>
-                    <h3>Accessible à Tous</h3>
+                    <h3>Accessible to All</h3>
                     <p>
-                        Beaucoup de musulmans souhaitent lire le Coran mais sont freinés par la langue arabe. Notre
-                        application supprime cette barrière et donne la possibilité à chacun d'apprendre, réciter et
-                        comprendre avec facilité.
+                        Many Muslims want to read the Quran but are hindered by the Arabic language. Our app removes
+                        this barrier and gives everyone the opportunity to learn, recite and understand with ease.
                     </p>
-                    </div>
+                </div>
 
                 <div class="why-card">
                     <div class="why-icon">
                         <i class="fas fa-graduation-cap"></i>
                     </div>
-                    <h3>Apprentissage Facilité</h3>
+                    <h3>Easy Learning</h3>
                     <p>
-                        Une phonétique claire et intuitive permet à chacun d'apprendre à son rythme, sans stress ni
-                        frustration. Que vous soyez débutant ou expérimenté, progressez sereinement dans votre
-                        récitation.
+                        Clear and intuitive phonetics allow everyone to learn at their own pace, without stress or
+                        frustration. Whether you're a beginner or experienced, progress peacefully in your recitation.
                     </p>
-                    </div>
+                </div>
 
                 <div class="why-card">
                     <div class="why-icon">
                         <i class="fas fa-check-circle"></i>
                     </div>
-                    <h3>Prononciation Correcte</h3>
+                    <h3>Correct Pronunciation</h3>
                     <p>
-                        Guidés par des règles de Tajweed précises et un audio synchronisé, vous progressez vers une
-                        récitation authentique et respectueuse des règles coraniques.
+                        Guided by precise Tajweed rules and synchronized audio, you progress toward authentic recitation
+                        that respects Quranic rules.
                     </p>
-                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -2988,10 +2978,9 @@
     <section class="features" id="features">
         <div class="container">
             <div class="section-title">
-                <h2>Caractéristiques Principales</h2>
-                <p>Découvrez pourquoi Noor Phonetic Quran est l'application parfaite pour apprendre à réciter
-                    le Coran</p>
-                </div>
+                <h2>Main Features</h2>
+                <p>Discover why Noor Phonetic Quran is the perfect app for learning to recite the Quran</p>
+            </div>
 
             <div class="features-grid">
                 <div class="feature-card">
@@ -2999,10 +2988,10 @@
                         <i class="fas fa-book"></i>
                     </div>
                     <div class="feature-content">
-                        <h3>Transcription Phonétique</h3>
-                        <p>Chaque verset est accompagné d'une transcription phonétique détaillée pour une
-                            prononciation correcte.</p>
-                        </div>
+                        <h3>Phonetic Transcription</h3>
+                        <p>Each verse is accompanied by a detailed phonetic transcription for correct
+                            pronunciation.</p>
+                    </div>
                 </div>
 
                 <div class="feature-card">
@@ -3010,10 +2999,11 @@
                         <i class="fas fa-bookmark"></i>
                     </div>
                     <div class="feature-content">
-                        <h3>Règles de Tajweed</h3>
-                        <p>Les couleurs et annotations guident votre récitation selon les règles correctes du
-                            Tajweed.</p>
-                        </div>
+                        <h3>Tajweed Rules</h3>
+                        <p>Colors and annotations guide your recitation according to the correct Tajweed
+                            rules.
+                        </p>
+                    </div>
                 </div>
 
                 <div class="feature-card">
@@ -3021,10 +3011,10 @@
                         <i class="fas fa-language"></i>
                     </div>
                     <div class="feature-content">
-                        <h3>Traductions Multilingues</h3>
-                        <p>Accédez aux traductions en français et en anglais pour mieux comprendre le message
-                            divin.</p>
-                        </div>
+                        <h3>Multilingual Translations</h3>
+                        <p>Access translations in French and English to better understand the divine message.
+                        </p>
+                    </div>
                 </div>
 
                 <div class="feature-card">
@@ -3032,10 +3022,9 @@
                         <i class="fas fa-headphones"></i>
                     </div>
                     <div class="feature-content">
-                        <h3>Audio Synchronisé</h3>
-                        <p>Chaque verset est accompagné d'un audio pour entendre la prononciation correcte.
-                        </p>
-                        </div>
+                        <h3>Synchronized Audio</h3>
+                        <p>Each verse is accompanied by audio to hear the correct pronunciation.</p>
+                    </div>
                 </div>
 
                 <div class="feature-card">
@@ -3043,9 +3032,9 @@
                         <i class="fas fa-mobile-alt"></i>
                     </div>
                     <div class="feature-content">
-                        <h3>Interface Conviviale</h3>
-                        <p>Navigation intuitive et personnalisation selon vos préférences.</p>
-                        </div>
+                        <h3>User-Friendly Interface</h3>
+                        <p>Intuitive navigation and customization according to your preferences.</p>
+                    </div>
                 </div>
 
                 <div class="feature-card">
@@ -3053,9 +3042,9 @@
                         <i class="fas fa-graduation-cap"></i>
                     </div>
                     <div class="feature-content">
-                        <h3>Apprentissage Facilité</h3>
-                        <p>Idéal pour les débutants ou ceux qui souhaitent améliorer leur récitation.</p>
-                        </div>
+                        <h3>Easy Learning</h3>
+                        <p>Ideal for beginners or those who want to improve their recitation.</p>
+                    </div>
                 </div>
 
                 <div class="feature-card">
@@ -3063,9 +3052,9 @@
                         <i class="fas fa-calendar-check"></i>
                     </div>
                     <div class="feature-content">
-                        <h3><a href="khatma-coran.html">Khatma du Coran</a></h3>
-                        <p>Planifiez et suivez votre lecture complète du Coran (Khatma) avec objectifs quotidiens, séries de jours (streak) et rappels de progression jusqu'à la fin.</p>
-                        </div>
+                        <h3>Quran Khatma</h3>
+                        <p>Plan and track your complete Quran reading (Khatma) with daily goals, day streaks and progress reminders until you finish.</p>
+                    </div>
                 </div>
 
                 <div class="feature-card">
@@ -3073,9 +3062,9 @@
                         <i class="fas fa-calendar-day"></i>
                     </div>
                     <div class="feature-content">
-                        <h3>Plan de Lecture Quotidien</h3>
-                        <p>Définissez un nombre de pages à lire chaque jour et suivez votre progression avec une checklist personnalisée, pour prendre l'habitude de lire le Coran régulièrement.</p>
-                        </div>
+                        <h3>Daily Reading Plan</h3>
+                        <p>Set a number of pages to read every day and track your progress with a personalized checklist, to build a regular Quran reading habit.</p>
+                    </div>
                 </div>
 
                 <div class="feature-card">
@@ -3083,9 +3072,9 @@
                         <i class="fas fa-brain"></i>
                     </div>
                     <div class="feature-content">
-                        <h3><a href="memorisation-coran.html">Mémorisation du Coran (Hifz)</a></h3>
-                        <p>Mémorisez le Coran verset par verset avec répétition audio, mode mot-par-mot, quiz de révision, points, niveaux, badges et défis quotidiens pour rester motivé.</p>
-                        </div>
+                        <h3>Quran Memorization (Hifz)</h3>
+                        <p>Memorize the Quran verse by verse with audio repetition, word-by-word mode, review quizzes, points, levels, badges and daily challenges to stay motivated.</p>
+                    </div>
                 </div>
 
                 <div class="feature-card">
@@ -3093,9 +3082,9 @@
                         <i class="fas fa-microphone-alt"></i>
                     </div>
                     <div class="feature-content">
-                        <h3><a href="correction-recitation-coran.html">Correction de Récitation</a></h3>
-                        <p>Enregistrez votre récitation et recevez une correction personnalisée pour progresser dans la justesse de votre prononciation et du Tajweed.</p>
-                        </div>
+                        <h3>Recitation Correction</h3>
+                        <p>Record your recitation and receive personalized correction to improve the accuracy of your pronunciation and Tajweed.</p>
+                    </div>
                 </div>
 
                 <div class="feature-card">
@@ -3103,9 +3092,9 @@
                         <i class="fas fa-trophy"></i>
                     </div>
                     <div class="feature-content">
-                        <h3><a href="quiz-coran.html">Quiz Coranique</a></h3>
-                        <p>Testez vos connaissances du Coran avec un quiz ludique à plusieurs niveaux de difficulté, pour apprendre en vous amusant.</p>
-                        </div>
+                        <h3>Quran Quiz</h3>
+                        <p>Test your knowledge of the Quran with a fun quiz featuring multiple difficulty levels, so you can learn while having fun.</p>
+                    </div>
                 </div>
 
                 <div class="feature-card">
@@ -3113,9 +3102,9 @@
                         <i class="fas fa-user-friends"></i>
                     </div>
                     <div class="feature-content">
-                        <h3>Plusieurs Récitateurs</h3>
-                        <p>Choisissez parmi plusieurs récitateurs du Coran et téléchargez l'audio pour une écoute hors ligne, sans connexion Internet.</p>
-                        </div>
+                        <h3>Multiple Reciters</h3>
+                        <p>Choose from several Quran reciters and download the audio for offline listening, with no Internet connection required.</p>
+                    </div>
                 </div>
 
                 <div class="feature-card">
@@ -3123,9 +3112,9 @@
                         <i class="fas fa-mobile-screen-button"></i>
                     </div>
                     <div class="feature-content">
-                        <h3>Widget Écran d'Accueil</h3>
-                        <p>Affichez le verset du jour directement sur l'écran d'accueil de votre téléphone et gardez votre routine de lecture toujours à portée de vue.</p>
-                        </div>
+                        <h3>Home Screen Widget</h3>
+                        <p>Display the verse of the day right on your phone's home screen and keep your reading routine always within sight.</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -3135,9 +3124,9 @@
     <section class="video-demo-section">
         <div class="container">
             <div class="section-title">
-                <h2>Découvrez l'Application en Action</h2>
-                <p>Regardez cette courte démo pour voir comment Noor Phonetic Quran fonctionne</p>
-                </div>
+                <h2>Discover the App in Action</h2>
+                <p>Watch this short demo to see how Noor Phonetic Quran works</p>
+            </div>
 
             <div class="video-container">
                 <div class="iphone-mockup">
@@ -3176,64 +3165,64 @@
     <section class="screenshots" id="screenshots">
         <div class="container screenshots-container">
             <div class="section-title">
-                <h2>Captures d'Écran</h2>
-                <p>Découvrez l'application en images</p>
-                </div>
+                <h2>Screenshots</h2>
+                <p>Discover the app in pictures</p>
+            </div>
 
             <div class="screenshots-slider">
                 <div class="screenshot-wrapper">
                     <div class="screenshot">
-                        <img src="images/screenshot1.png" alt="Noor Phonetic Quran - Liste des sourates du Coran" loading="lazy" width="270" height="585">
+                        <img src="../images/screenshot1.png" alt="Noor Phonetic Quran - Liste des sourates du Coran" loading="lazy" width="270" height="585">
                     </div>
                 </div>
                 <div class="screenshot-wrapper">
                     <div class="screenshot">
-                        <img src="images/screenshot2.png" alt="Noor Phonetic Quran - Récitation avec phonétique précise" loading="lazy" width="270" height="585">
+                        <img src="../images/screenshot2.png" alt="Noor Phonetic Quran - Récitation avec phonétique précise" loading="lazy" width="270" height="585">
                     </div>
                 </div>
                 <div class="screenshot-wrapper">
                     <div class="screenshot">
-                        <img src="images/screenshot3.png" alt="Noor Phonetic Quran - Règles de Tajweed colorées" loading="lazy" width="270" height="585">
+                        <img src="../images/screenshot3.png" alt="Noor Phonetic Quran - Règles de Tajweed colorées" loading="lazy" width="270" height="585">
                     </div>
                 </div>
                 <div class="screenshot-wrapper">
                     <div class="screenshot">
-                        <img src="images/screenshot4.png" alt="Noor Phonetic Quran - Audio synchronisé avec le texte" loading="lazy" width="270" height="585">
+                        <img src="../images/screenshot4.png" alt="Noor Phonetic Quran - Audio synchronisé avec le texte" loading="lazy" width="270" height="585">
                     </div>
                 </div>
                 <div class="screenshot-wrapper">
                     <div class="screenshot">
-                        <img src="images/screenshot5.png" alt="Noor Phonetic Quran - Traduction française du Coran" loading="lazy" width="270" height="585">
+                        <img src="../images/screenshot5.png" alt="Noor Phonetic Quran - Traduction française du Coran" loading="lazy" width="270" height="585">
                     </div>
                 </div>
                 <div class="screenshot-wrapper">
                     <div class="screenshot">
-                        <img src="images/screenshot6.png" alt="Noor Phonetic Quran - Mode apprentissage du Coran" loading="lazy" width="270" height="585">
+                        <img src="../images/screenshot6.png" alt="Noor Phonetic Quran - Mode apprentissage du Coran" loading="lazy" width="270" height="585">
                     </div>
                 </div>
                 <div class="screenshot-wrapper">
                     <div class="screenshot">
-                        <img src="images/screenshot7.png" alt="Noor Phonetic Quran - Navigation par sourate" loading="lazy" width="270" height="585">
+                        <img src="../images/screenshot7.png" alt="Noor Phonetic Quran - Navigation par sourate" loading="lazy" width="270" height="585">
                     </div>
                 </div>
                 <div class="screenshot-wrapper">
                     <div class="screenshot">
-                        <img src="images/screenshot8.png" alt="Noor Phonetic Quran - Versets avec transcription phonétique" loading="lazy" width="270" height="585">
+                        <img src="../images/screenshot8.png" alt="Noor Phonetic Quran - Versets avec transcription phonétique" loading="lazy" width="270" height="585">
                     </div>
                 </div>
                 <div class="screenshot-wrapper">
                     <div class="screenshot">
-                        <img src="images/screenshot9.png" alt="Noor Phonetic Quran - Paramètres de l'application" loading="lazy" width="270" height="585">
+                        <img src="../images/screenshot9.png" alt="Noor Phonetic Quran - Paramètres de l'application" loading="lazy" width="270" height="585">
                     </div>
                 </div>
                 <div class="screenshot-wrapper">
                     <div class="screenshot">
-                        <img src="images/screenshot10.png" alt="Noor Phonetic Quran - Lecture continue du Coran" loading="lazy" width="270" height="585">
+                        <img src="../images/screenshot10.png" alt="Noor Phonetic Quran - Lecture continue du Coran" loading="lazy" width="270" height="585">
                     </div>
                 </div>
                 <div class="screenshot-wrapper">
                     <div class="screenshot">
-                        <img src="images/screenshot11.png" alt="Noor Phonetic Quran - Interface moderne et intuitive" loading="lazy" width="270" height="585">
+                        <img src="../images/screenshot11.png" alt="Noor Phonetic Quran - Interface moderne et intuitive" loading="lazy" width="270" height="585">
                     </div>
                 </div>
             </div>
@@ -3253,164 +3242,161 @@
     <section class="faq-section" id="faq">
         <div class="container">
             <div class="section-title">
-                <h2>Questions Fréquentes</h2>
-                <p>Trouvez rapidement des réponses à vos questions</p>
-                </div>
+                <h2>Frequently Asked Questions</h2>
+                <p>Quickly find answers to your questions</p>
+            </div>
 
             <div class="faq-container">
                 <div class="faq-item">
                     <div class="faq-question">
-                        <h3>L'application fonctionne-t-elle hors ligne ?</h3>
+                        <h3>Does the app work offline?</h3>
                         <i class="fas fa-chevron-down faq-icon"></i>
                     </div>
                     <div class="faq-answer">
                         <div class="faq-answer-content">
                             <p>
-                                Oui, absolument ! Toutes les sourates du Coran sont disponibles hors ligne une fois
-                                l'application installée. Vous pouvez lire et réciter partout, sans connexion Internet.
+                                Yes, absolutely! All Quran surahs are available offline once the app is installed. You
+                                can read and recite anywhere, without an Internet connection.
                             </p>
-                            </div>
+                        </div>
                     </div>
                 </div>
 
                 <div class="faq-item">
                     <div class="faq-question">
-                        <h3>Quelle phonétique utilisez-vous ?</h3>
+                        <h3>What phonetics do you use?</h3>
                         <i class="fas fa-chevron-down faq-icon"></i>
                     </div>
                     <div class="faq-answer">
                         <div class="faq-answer-content">
                             <p>
-                                Nous utilisons une phonétique anglaise simple et universelle, facile à lire pour tous.
-                                Une version en phonétique française est en cours de développement et sera bientôt
-                                disponible.
+                                We use simple and universal English phonetics, easy to read for everyone. A French
+                                phonetics version is under development and will be available soon.
                             </p>
-                            </div>
+                        </div>
                     </div>
                 </div>
 
                 <div class="faq-item">
                     <div class="faq-question">
-                        <h3>Le Coran est-il complet dans l'application ?</h3>
+                        <h3>Is the Quran complete in the app?</h3>
                         <i class="fas fa-chevron-down faq-icon"></i>
                     </div>
                     <div class="faq-answer">
                         <div class="faq-answer-content">
                             <p>
-                                Oui ! L'application contient l'intégralité du Saint Coran avec ses 114 sourates, du
-                                début à la fin, avec transcription phonétique complète.
+                                Yes! The app contains the entire Holy Quran with its 114 surahs, from beginning to end,
+                                with complete phonetic transcription.
                             </p>
-                            </div>
+                        </div>
                     </div>
                 </div>
 
                 <div class="faq-item">
                     <div class="faq-question">
-                        <h3>L'audio est-il disponible pour tous les versets ?</h3>
+                        <h3>Is audio available for all verses?</h3>
                         <i class="fas fa-chevron-down faq-icon"></i>
                     </div>
                     <div class="faq-answer">
                         <div class="faq-answer-content">
                             <p>
-                                Oui, chaque verset est accompagné d'une récitation audio claire et lente, parfaite pour
-                                faciliter l'apprentissage et améliorer votre prononciation.
+                                Yes, each verse is accompanied by clear and slow audio recitation, perfect for
+                                facilitating learning and improving your pronunciation.
                             </p>
-                            </div>
+                        </div>
                     </div>
                 </div>
 
                 <div class="faq-item">
                     <div class="faq-question">
-                        <h3>L'application est-elle gratuite ?</h3>
+                        <h3>Is the app free?</h3>
                         <i class="fas fa-chevron-down faq-icon"></i>
                     </div>
                     <div class="faq-answer">
                         <div class="faq-answer-content">
                             <p>
-                                Oui, Noor Phonetic Quran est entièrement gratuite. Notre objectif est de rendre le Coran
-                                accessible à tous, sans aucune barrière financière.
+                                Yes, Noor Phonetic Quran is completely free. Our goal is to make the Quran accessible to
+                                everyone, without any financial barriers.
                             </p>
-                            </div>
+                        </div>
                     </div>
                 </div>
 
                 <div class="faq-item">
                     <div class="faq-question">
-                        <h3>Comment fonctionne la Khatma (lecture complète du Coran) ?</h3>
+                        <h3>How does the Quran Khatma (complete reading) work?</h3>
                         <i class="fas fa-chevron-down faq-icon"></i>
                     </div>
                     <div class="faq-answer">
                         <div class="faq-answer-content">
                             <p>
-                                L'application vous permet de planifier une Khatma en choisissant un nombre de jours
-                                pour terminer le Coran. Vous suivez votre progression quotidienne, votre série de
-                                jours (streak) et recevez des rappels pour rester régulier jusqu'à la fin de votre
-                                lecture.
+                                The app lets you plan a Khatma by choosing a number of days to finish the Quran. You
+                                track your daily progress, your day streak, and receive reminders to stay consistent
+                                until you complete your reading.
                             </p>
-                            </div>
+                        </div>
                     </div>
                 </div>
 
                 <div class="faq-item">
                     <div class="faq-question">
-                        <h3>Peut-on mémoriser le Coran (Hifz) avec l'application ?</h3>
+                        <h3>Can I memorize the Quran (Hifz) with the app?</h3>
                         <i class="fas fa-chevron-down faq-icon"></i>
                     </div>
                     <div class="faq-answer">
                         <div class="faq-answer-content">
                             <p>
-                                Oui, l'application propose un mode Mémorisation complet avec répétition audio verset
-                                par verset, mode mot-par-mot, quiz de révision, points, niveaux, badges et défis
-                                quotidiens pour vous aider à mémoriser le Coran efficacement.
+                                Yes, the app offers a complete Memorization mode with verse-by-verse audio repetition,
+                                word-by-word mode, review quizzes, points, levels, badges and daily challenges to help
+                                you memorize the Quran effectively.
                             </p>
-                            </div>
+                        </div>
                     </div>
                 </div>
 
                 <div class="faq-item">
                     <div class="faq-question">
-                        <h3>Y a-t-il plusieurs récitateurs disponibles ?</h3>
+                        <h3>Are there several reciters available?</h3>
                         <i class="fas fa-chevron-down faq-icon"></i>
                     </div>
                     <div class="faq-answer">
                         <div class="faq-answer-content">
                             <p>
-                                Oui, vous pouvez choisir parmi plusieurs récitateurs du Coran et télécharger l'audio
-                                pour une écoute complète hors ligne, sans connexion Internet.
+                                Yes, you can choose from several Quran reciters and download the audio for complete
+                                offline listening, with no Internet connection required.
                             </p>
-                            </div>
+                        </div>
                     </div>
                 </div>
 
                 <div class="faq-item">
                     <div class="faq-question">
-                        <h3>L'application propose-t-elle une correction de récitation ?</h3>
+                        <h3>Does the app offer recitation correction?</h3>
                         <i class="fas fa-chevron-down faq-icon"></i>
                     </div>
                     <div class="faq-answer">
                         <div class="faq-answer-content">
                             <p>
-                                Oui, vous pouvez enregistrer votre récitation directement dans l'application et
-                                recevoir une correction personnalisée pour améliorer votre prononciation et le
-                                respect des règles de Tajweed.
+                                Yes, you can record your recitation directly in the app and receive personalized
+                                correction to improve your pronunciation and adherence to Tajweed rules.
                             </p>
-                            </div>
+                        </div>
                     </div>
                 </div>
 
                 <div class="faq-item">
                     <div class="faq-question">
-                        <h3>Y aura-t-il de nouvelles fonctionnalités ?</h3>
+                        <h3>Will there be new features?</h3>
                         <i class="fas fa-chevron-down faq-icon"></i>
                     </div>
                     <div class="faq-answer">
                         <div class="faq-answer-content">
                             <p>
-                                Oui, nous travaillons constamment à l'amélioration de l'application. Plusieurs
-                                nouveautés sont prévues : phonétique française complète, mode Tajweed coloré étendu,
-                                mode apprentissage lettre par lettre, et bien plus encore !
+                                Yes, we are constantly working on improving the app. Several new features are planned:
+                                complete French phonetics, extended colored Tajweed mode, letter-by-letter
+                                learning mode, and much more!
                             </p>
-                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -3422,13 +3408,13 @@
 <section class="testimonials" id="testimonials">
     <div class="container">
         <div class="section-title">
-            <h2>Ce que disent nos utilisateurs</h2>
-            <p>Découvrez les avis de notre communauté grandissante d'utilisateurs satisfaits</p>
-            </div>
+            <h2>What Our Users Say</h2>
+            <p>Discover what our growing community of satisfied users has to say</p>
+        </div>
 
         <!-- Carousel Container -->
         <div class="testimonials-carousel-wrapper">
-            <button class="carousel-btn prev-btn" id="prevBtn" aria-label="Avis précédent">
+            <button class="carousel-btn prev-btn" id="prevBtn" aria-label="Previous review">
                 <i class="fas fa-chevron-left"></i>
             </button>
 
@@ -3444,15 +3430,15 @@
                             <i class="fas fa-star"></i>
                         </div>
                         <p class="testimonial-text">
-                            "Excellente application, avec phonétique claire, audio de qualité et règles de Tajwid en
-                            couleurs. Très bon outil pour faciliter l'apprentissage du Coran."
+                            "Excellent app, with clear phonetics, quality audio and color-coded Tajweed rules. Very good
+                            tool to facilitate Quran learning."
                         </p>
                         <div class="testimonial-author">
                             <div class="author-avatar">OA</div>
                             <div class="author-info">
                                 <h4>Oussama A.</h4>
                                 <p>Samsung Galaxy S23 Ultra</p>
-                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -3468,15 +3454,15 @@
                             <i class="fas fa-star"></i>
                         </div>
                         <p class="testimonial-text">
-                            "Une application utile et bien pensée ! Grâce à la translittération, j'ai pu améliorer ma
-                            lecture du Coran en peu de temps. Qu'Allah récompense les développeurs."
+                            "A useful and well-thought-out app! Thanks to the transliteration, I was able to improve my
+                            Quran reading in a short time. May Allah reward the developers."
                         </p>
                         <div class="testimonial-author">
                             <div class="author-avatar">DB</div>
                             <div class="author-info">
                                 <h4>Dorra B.</h4>
                                 <p>Redmi Note 12 Pro</p>
-                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -3492,16 +3478,16 @@
                             <i class="fas fa-star"></i>
                         </div>
                         <p class="testimonial-text">
-                            "Salam à vous excellente application j'ai déjà lu plusieurs livre en phonétique mais j'avoue
-                            cette appli est la meilleure pour le moment, je suis presque un expert en phonétique et
-                            QuAllah vous récompense au centuple."
+                            "Salam to you excellent application I've already read several books in phonetics but I admit
+                            this app is the best so far, I'm almost an expert in phonetics and may Allah reward you a
+                            hundredfold."
                         </p>
                         <div class="testimonial-author">
                             <div class="author-avatar">MB</div>
                             <div class="author-info">
                                 <h4>Mohamed G.</h4>
                                 <p>Samsung Galaxy A11</p>
-                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -3517,15 +3503,15 @@
                             <i class="fas fa-star"></i>
                         </div>
                         <p class="testimonial-text">
-                            "Salam 'alaykoum, excellente application facile à utiliser et très utile pour la lecture et
-                            l'apprentissage. Qu'Allah récompense les développeurs."
+                            "Salam 'alaykoum, excellent application easy to use and very useful for reading and
+                            learning. May Allah reward the developers."
                         </p>
                         <div class="testimonial-author">
                             <div class="author-avatar">BH</div>
                             <div class="author-info">
                                 <h4>Bahri H.</h4>
                                 <p>Samsung Galaxy A22 5G</p>
-                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -3541,16 +3527,15 @@
                             <i class="fas fa-star"></i>
                         </div>
                         <p class="testimonial-text">
-                            "Vraiment qu'Allah vous récompense de janatoul Firdaws, c'est la meilleure application,
-                            qu'Allah vous aide à améliorer l'application et qu'Il fasse que cela soit une sôdaquat' oul
-                            jarriyâh pour vous."
+                            "Truly may Allah reward you with Jannah al-Firdaws, this is the best application, may Allah
+                            help you improve the app and make it a continuous charity for you."
                         </p>
                         <div class="testimonial-author">
                             <div class="author-avatar">SB</div>
                             <div class="author-info">
                                 <h4>Saïdou M.</h4>
                                 <p>Orange Sanza plus</p>
-                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -3566,15 +3551,15 @@
                             <i class="fas fa-star"></i>
                         </div>
                         <p class="testimonial-text">
-                            "Très belle application, simple et complète. Parfaite pour lire et écouter le Coran partout.
-                            بارك الله فيكم"
+                            "Very beautiful app, simple and complete. Perfect for reading and listening to the Quran
+                            anywhere. بارك الله فيكم"
                         </p>
                         <div class="testimonial-author">
                             <div class="author-avatar">CB</div>
                             <div class="author-info">
                                 <h4>Chiraz B.</h4>
                                 <p>Samsung Galaxy A21s</p>
-                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -3590,15 +3575,14 @@
                             <i class="fas fa-star"></i>
                         </div>
                         <p class="testimonial-text">
-                            "Une très bonne application. Très simple pour l'utilisation et ne contient pas des annonces.
-                            Bravo!"
+                            "A very good app. Very simple to use and contains no ads. Bravo!"
                         </p>
                         <div class="testimonial-author">
                             <div class="author-avatar">GB</div>
                             <div class="author-info">
                                 <h4>Gora B.</h4>
                                 <p>Huawei GR5 2017</p>
-                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -3614,16 +3598,16 @@
                             <i class="fas fa-star"></i>
                         </div>
                         <p class="testimonial-text">
-                            "Application excellente ! Très utile, facile à utiliser et bien pensée. Je la recommande
-                            vivement ! Bravo au développeur pour ce beau travail, continuez comme ça, vous faites un
-                            excellent boulot !"
+                            "Excellent application! Very useful, easy to use and well thought out. I highly recommend
+                            it! Congratulations to the developer for this beautiful work, keep it up, you're doing an
+                            excellent job!"
                         </p>
                         <div class="testimonial-author">
                             <div class="author-avatar">YB</div>
                             <div class="author-info">
                                 <h4>Yosra B.</h4>
                                 <p>Samsung Galaxy A14</p>
-                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -3639,21 +3623,21 @@
                             <i class="fas fa-star"></i>
                         </div>
                         <p class="testimonial-text">
-                            "Hyper utile, pratique et franchement intuitive. Très belle interface bravo très qualitatif
-                            qu'Allah vous facilite vos projets et vous en récompense grandement."
+                            "Super useful, practical and frankly intuitive. Very beautiful interface congratulations
+                            very qualitative may Allah facilitate your projects and reward you greatly."
                         </p>
                         <div class="testimonial-author">
                             <div class="author-avatar">AC</div>
                             <div class="author-info">
                                 <h4>Assia C.</h4>
                                 <p>Nothing Phone (2a)</p>
-                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <button class="carousel-btn next-btn" id="nextBtn" aria-label="Avis suivant">
+            <button class="carousel-btn next-btn" id="nextBtn" aria-label="Next review">
                 <i class="fas fa-chevron-right"></i>
             </button>
         </div>
@@ -3667,15 +3651,15 @@
     <section class="cta-section">
         <div class="container">
             <div class="cta-content">
-                <h2>Commencez votre voyage d'apprentissage aujourd'hui</h2>
-                <p>Téléchargez Noor Phonetic Quran gratuitement et transformez votre expérience de récitation
-                    du Coran.</p>
+                <h2>Start your learning journey today</h2>
+                <p>Download Noor Phonetic Quran for free and transform your Quran recitation experience.</p>
+
                 <div class="cta-buttons">
                     <a href="https://play.google.com/store/apps/details?id=coran.noor.bhr" class="btn-store"
                         target="_blank">
                         <i class="fab fa-google-play"></i>
                         <div class="btn-store-text">
-                            <span class="btn-store-small">Télécharger sur</span>
+                            <span class="btn-store-small">Download on</span>
                             <span class="btn-store-large">Google Play</span>
                         </div>
                     </a>
@@ -3683,7 +3667,7 @@
                         target="_blank">
                         <i class="fab fa-apple"></i>
                         <div class="btn-store-text">
-                            <span class="btn-store-small">Télécharger sur</span>
+                            <span class="btn-store-small">Download on</span>
                             <span class="btn-store-large">App Store</span>
                         </div>
                     </a>
@@ -3699,31 +3683,31 @@
             <div class="footer-grid">
                 <div class="footer-about">
                     <h3>Noor Phonetic Quran</h3>
-                    <p>Une application innovante pour apprendre à réciter le Saint Coran avec précision et
-                        facilité.</p>
+                    <p>An innovative application to learn to recite the Holy Quran with precision and ease.
+                    </p>
                 </div>
 
                 <div class="footer-links">
-                    <h4>Liens Rapides</h4>
+                    <h4>Quick Links</h4>
                     <ul>
-                        <li><a href="#features">Fonctionnalités</a></li>
                         <li></li>
-                        <li><a href="#screenshots">Captures d'écran</a></li>
+                        <li><a href="#features">Features</a></li>
                         <li></li>
-                        <li><a href="#testimonials">Avis</a></li>
+                        <li><a href="#screenshots">Screenshots</a></li>
                         <li></li>
-                        <li><a href="privacy-policy.html">Politique de confidentialité</a></li>
+                        <li><a href="#testimonials">Reviews</a></li>
                         <li></li>
+                        <li><a href="../privacy-policy.html">Privacy Policy</a></li>
                     </ul>
                 </div>
 
                 <div class="footer-links">
-                    <h4>Ressources</h4>
+                    <h4>Resources</h4>
                     <ul>
+                        <li></li>
                         <li><a href="#faq">FAQ</a></li>
                         <li></li>
                         <li><a href="mailto:othmeneb@gmail.com">Support</a></li>
-                        <li></li>
                     </ul>
                 </div>
 
@@ -3737,11 +3721,11 @@
             </div>
 
             <div class="footer-bottom">
-                <p>&copy; 2025 Noor Phonetic Quran. Tous droits réservés.</p>
-                </div>
+                <p>&copy; 2025 Noor Phonetic Quran. All rights reserved.</p>
+            </div>
         </div>
 
-        <a href="#" class="back-to-top" id="back-to-top" aria-label="Retour en haut de la page">
+        <a href="#" class="back-to-top" id="back-to-top" aria-label="Back to top">
             <i class="fas fa-arrow-up"></i>
         </a>
     </footer>
@@ -4306,7 +4290,7 @@ document.addEventListener('DOMContentLoaded', () => {
     "@context": "https://schema.org",
     "@type": "MobileApplication",
     "name": "Noor Phonetic Quran",
-    "description": "Apprenez à réciter, mémoriser et lire le Coran en entier même sans connaître l'arabe. Application gratuite avec phonétique précise, audio intégré, règles de Tajweed, Khatma, plan de lecture quotidien, mémorisation gamifiée, quiz et correction de récitation.",
+    "description": "Learn to recite, memorize and read the entire Quran (Khatma) even without knowing Arabic. Free app with precise phonetics, integrated audio, Tajweed rules, Khatma, daily reading plan, gamified memorization, quiz and recitation correction.",
     "url": "https://noor-phonetic-quran.com",
     "applicationCategory": "EducationApplication",
     "operatingSystem": "Android, iOS",
@@ -4339,82 +4323,82 @@ document.addEventListener('DOMContentLoaded', () => {
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "L'application fonctionne-t-elle hors ligne ?",
+        "name": "Does the app work offline?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Oui, absolument ! Toutes les sourates du Coran sont disponibles hors ligne une fois l'application installée. Vous pouvez lire et réciter partout, sans connexion Internet."
+          "text": "Yes, absolutely! All Surahs of the Quran are available offline once the app is installed. You can read and recite anywhere, without an Internet connection."
         }
       },
       {
         "@type": "Question",
-        "name": "Quelle phonétique utilisez-vous ?",
+        "name": "What phonetics do you use?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Nous utilisons une phonétique anglaise simple et universelle, facile à lire pour tous. Une version en phonétique française est en cours de développement et sera bientôt disponible."
+          "text": "We use simple, universal English-based phonetics that are easy for everyone to read. A French phonetics version is currently in development and will be available soon."
         }
       },
       {
         "@type": "Question",
-        "name": "Le Coran est-il complet dans l'application ?",
+        "name": "Is the Quran complete in the app?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Oui ! L'application contient l'intégralité du Saint Coran avec ses 114 sourates, du début à la fin, avec transcription phonétique complète."
+          "text": "Yes! The app contains the entire Holy Quran with all 114 Surahs, from beginning to end, with complete phonetic transcription."
         }
       },
       {
         "@type": "Question",
-        "name": "L'audio est-il disponible pour tous les versets ?",
+        "name": "Is audio available for all verses?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Oui, chaque verset est accompagné d'une récitation audio claire et lente, parfaite pour faciliter l'apprentissage et améliorer votre prononciation."
+          "text": "Yes, each verse comes with a clear, slow audio recitation, perfect for facilitating learning and improving your pronunciation."
         }
       },
       {
         "@type": "Question",
-        "name": "L'application est-elle gratuite ?",
+        "name": "Is the app free?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Oui, Noor Phonetic Quran est entièrement gratuite. Notre objectif est de rendre le Coran accessible à tous, sans aucune barrière financière."
+          "text": "Yes, Noor Phonetic Quran is completely free. Our goal is to make the Quran accessible to everyone, with no financial barrier."
         }
       },
       {
         "@type": "Question",
-        "name": "Comment fonctionne la Khatma (lecture complète du Coran) ?",
+        "name": "How does the Quran Khatma (complete reading) work?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "L'application vous permet de planifier une Khatma en choisissant un nombre de jours pour terminer le Coran. Vous suivez votre progression quotidienne, votre série de jours (streak) et recevez des rappels pour rester régulier jusqu'à la fin de votre lecture."
+          "text": "The app lets you plan a Khatma by choosing a number of days to finish the Quran. You track your daily progress, your day streak, and receive reminders to stay consistent until you complete your reading."
         }
       },
       {
         "@type": "Question",
-        "name": "Peut-on mémoriser le Coran (Hifz) avec l'application ?",
+        "name": "Can I memorize the Quran (Hifz) with the app?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Oui, l'application propose un mode Mémorisation complet avec répétition audio verset par verset, mode mot-par-mot, quiz de révision, points, niveaux, badges et défis quotidiens pour vous aider à mémoriser le Coran efficacement."
+          "text": "Yes, the app offers a complete Memorization mode with verse-by-verse audio repetition, word-by-word mode, review quizzes, points, levels, badges and daily challenges to help you memorize the Quran effectively."
         }
       },
       {
         "@type": "Question",
-        "name": "Y a-t-il plusieurs récitateurs disponibles ?",
+        "name": "Are there several reciters available?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Oui, vous pouvez choisir parmi plusieurs récitateurs du Coran et télécharger l'audio pour une écoute complète hors ligne, sans connexion Internet."
+          "text": "Yes, you can choose from several Quran reciters and download the audio for complete offline listening, with no Internet connection required."
         }
       },
       {
         "@type": "Question",
-        "name": "L'application propose-t-elle une correction de récitation ?",
+        "name": "Does the app offer recitation correction?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Oui, vous pouvez enregistrer votre récitation directement dans l'application et recevoir une correction personnalisée pour améliorer votre prononciation et le respect des règles de Tajweed."
+          "text": "Yes, you can record your recitation directly in the app and receive personalized correction to improve your pronunciation and adherence to Tajweed rules."
         }
       },
       {
         "@type": "Question",
-        "name": "Y aura-t-il de nouvelles fonctionnalités ?",
+        "name": "Will there be new features?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Oui, nous travaillons constamment à l'amélioration de l'application. Plusieurs nouveautés sont prévues : phonétique française complète, mode Tajweed coloré étendu, mode apprentissage lettre par lettre, et bien plus encore !"
+          "text": "Yes, we are constantly working to improve the app. Several new features are planned: full French phonetics, extended color-coded Tajweed mode, letter-by-letter learning mode, and much more!"
         }
       }
     ]
