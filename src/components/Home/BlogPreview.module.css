@@ -1,6 +1,6 @@
 .section {
   padding: var(--section-padding) 0;
-  background: var(--light-color);
+  background: var(--white);
 }
 
 .sectionTitle {
@@ -34,12 +34,10 @@
 
 .card {
   display: flex;
-  align-items: center;
-  gap: 18px;
-  background: var(--white);
-  padding: 22px;
+  flex-direction: column;
+  background: var(--light-color);
   border-radius: var(--border-radius-lg);
-  box-shadow: var(--shadow-sm);
+  overflow: hidden;
   text-decoration: none;
   color: inherit;
   transition: var(--transition);
@@ -54,13 +52,14 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 52px;
-  height: 52px;
-  min-width: 52px;
-  border-radius: 14px;
+  height: 90px;
   background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary-light) 100%);
   color: var(--on-primary-text);
-  font-size: 1.3rem;
+  font-size: 1.8rem;
+}
+
+.cardBody {
+  padding: 20px 22px;
 }
 
 .cardCategory {
@@ -70,13 +69,13 @@
   letter-spacing: 1px;
   text-transform: uppercase;
   color: var(--accent-color);
-  margin-bottom: 4px;
+  margin-bottom: 8px;
 }
 
 .cardTitle {
   color: var(--primary-color);
-  font-size: 1.02rem;
-  line-height: 1.35;
+  font-size: 1.05rem;
+  line-height: 1.4;
 }
 
 .viewAll {

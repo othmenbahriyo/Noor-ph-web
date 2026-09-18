@@ -33,7 +33,7 @@ export default async function BlogPreview() {
               <div className={styles.cardIcon}>
                 <i className={`fas ${iconFor(post.category)}`} />
               </div>
-              <div>
+              <div className={styles.cardBody}>
                 <span className={styles.cardCategory}>{post.category}</span>
                 <h3 className={styles.cardTitle}>{post.title}</h3>
               </div>
