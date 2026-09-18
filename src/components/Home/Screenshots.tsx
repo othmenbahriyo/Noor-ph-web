@@ -3,17 +3,17 @@ import { getTranslations } from 'next-intl/server';
 import styles from './Screenshots.module.css';
 
 const SCREENSHOT_FILES = [
-  'screenshot1.png',
-  'screenshot2.png',
-  'screenshot3.png',
-  'screenshot4.png',
-  'screenshot5.png',
-  'screenshot6.png',
-  'screenshot7.png',
-  'screenshot8.png',
-  'screenshot9.png',
-  'screenshot10.png',
-  'screenshot11.png',
+  'screenshot1.webp',
+  'screenshot2.webp',
+  'screenshot3.webp',
+  'screenshot4.webp',
+  'screenshot5.webp',
+  'screenshot6.webp',
+  'screenshot7.webp',
+  'screenshot8.webp',
+  'screenshot9.webp',
+  'screenshot10.webp',
+  'screenshot11.webp',
 ];
 
 export default async function Screenshots() {

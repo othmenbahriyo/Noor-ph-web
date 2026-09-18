@@ -4,7 +4,7 @@ import contentStyles from './ContentBlock.module.css';
 import styles from './Screenshots.module.css';
 
 const SCREENSHOT_FILES = [
-  'screenshot3.png',
+  'screenshot3.webp',
   'screenshot-tajweed-makharej.webp',
   'screenshot-tajweed-noun-sakinah.webp',
   'screenshot-tajweed-waqf.webp',

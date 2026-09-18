@@ -133,7 +133,7 @@ export default function Hero() {
               <div className={styles.device3dContainer}>
                 <div className={`device-3d ${styles.device3d}`}>
                   <Image
-                    src="/images/welcome_image1.png"
+                    src="/images/welcome_image1.webp"
                     alt={t('deviceScreenAlt')}
                     className={styles.deviceScreen}
                     width={360}
@@ -183,7 +183,7 @@ export default function Hero() {
           <div className={styles.mobileDeviceContainer}>
             <div className={styles.mobileDeviceFrame}>
               <Image
-                src="/images/welcome_image2.png"
+                src="/images/welcome_image2.webp"
                 alt={t('mobileDeviceScreenAlt')}
                 className={styles.mobileDeviceScreen}
                 width={280}
