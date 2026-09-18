@@ -1,0 +1,112 @@
+.sectionTitle {
+  text-align: center;
+  margin-bottom: 12px;
+  position: relative;
+  padding: 0 15px;
+}
+
+.sectionTitle h2 {
+  font-size: 2.2rem;
+  color: var(--text-color);
+  margin-bottom: 15px;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+}
+
+.sectionTitle p {
+  font-size: 1.1rem;
+  color: var(--text-light);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.card {
+  background: var(--light-color);
+  border-radius: var(--border-radius-lg);
+  padding: 44px;
+  box-shadow: var(--shadow-sm);
+}
+
+/* Row layout — used both on the homepage (where it follows other
+   content) and on the dedicated /contact page (where it's the first
+   section and needs extra top padding to clear the sticky header) */
+.rowSection {
+  background: var(--white);
+  padding: 30px 0 var(--section-padding);
+}
+
+.rowSectionStandalone {
+  padding-top: 50px;
+}
+
+.rowGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+  margin-top: 44px;
+}
+
+.highlightList {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.highlightItem {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.highlightIcon {
+  width: 42px;
+  height: 42px;
+  min-width: 42px;
+  border-radius: 12px;
+  background: rgba(1, 62, 55, 0.08);
+  color: var(--primary-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+}
+
+.highlightItem h4 {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--text-color);
+  margin-bottom: 4px;
+}
+
+.highlightItem p {
+  font-size: 0.9rem;
+  color: var(--text-light);
+  line-height: 1.55;
+}
+
+.rowSection .card {
+  margin: 0;
+}
+
+@media (max-width: 900px) {
+  .rowGrid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .rowSection .card {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .rowSectionStandalone {
+    padding-top: 30px;
+  }
+
+  .card {
+    padding: 28px 22px;
+  }
+}

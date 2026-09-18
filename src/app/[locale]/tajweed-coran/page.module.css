@@ -1,0 +1,7 @@
+.main {
+  padding: 60px 0;
+}
+
+.main :global(.container) {
+  max-width: 900px;
+}

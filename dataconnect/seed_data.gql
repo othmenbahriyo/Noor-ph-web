@@ -1,0 +1,84 @@
+mutation CreateSeedData @transaction {
+  neighborhood_insertMany(data: [
+    {
+      id: "6ba7b810-9dad-11d1-80b4-00c04fd430c8",
+      name: "Sunnyvale",
+      zipCode: "94086"
+    },
+    {
+      id: "6ba7b811-9dad-11d1-80b4-00c04fd430c9",
+      name: "Downtown",
+      zipCode: "94087"
+    }
+  ])
+  user_insertMany(data: [
+    {
+      id: "550e8400-e29b-41d4-a716-446655440001",
+      email: "alice@example.com",
+      displayName: "Alice",
+      address: "123 Maple St",
+      neighborhoodId: "6ba7b810-9dad-11d1-80b4-00c04fd430c8"
+    },
+    {
+      id: "550e8400-e29b-41d4-a716-446655440002",
+      email: "bob@example.com",
+      displayName: "Bob",
+      address: "456 Oak Ave",
+      neighborhoodId: "6ba7b811-9dad-11d1-80b4-00c04fd430c9"
+    },
+    {
+      id: "550e8400-e29b-41d4-a716-446655440003",
+      email: "charlie@example.com",
+      displayName: "Charlie",
+      address: "789 Pine Rd",
+      neighborhoodId: "6ba7b810-9dad-11d1-80b4-00c04fd430c8"
+    }
+  ])
+  post_insertMany(data: [
+    {
+      id: "b1497920-80a9-4674-89c0-675e2439a001",
+      authorId: "550e8400-e29b-41d4-a716-446655440001",
+      neighborhoodId: "6ba7b810-9dad-11d1-80b4-00c04fd430c8",
+      content: "Hello neighborhood!",
+      type: "Announcement"
+    },
+    {
+      id: "b1497920-80a9-4674-89c0-675e2439a002",
+      authorId: "550e8400-e29b-41d4-a716-446655440002",
+      neighborhoodId: "6ba7b811-9dad-11d1-80b4-00c04fd430c9",
+      content: "Lost cat!",
+      type: "Help"
+    }
+  ])
+  comment_insertMany(data: [
+    {
+      id: "d9e8d7c6-b5a4-4321-9876-543210fedcba",
+      postId: "b1497920-80a9-4674-89c0-675e2439a001",
+      authorId: "550e8400-e29b-41d4-a716-446655440002",
+      text: "Welcome!"
+    }
+  ])
+  event_insertMany(data: [
+    {
+      id: "c1497920-80a9-4674-89c0-675e2439b001",
+      title: "Block Party",
+      dateTime: "2024-12-01T12:00:00Z",
+      location: "Central Park",
+      organizerId: "550e8400-e29b-41d4-a716-446655440001",
+      neighborhoodId: "6ba7b810-9dad-11d1-80b4-00c04fd430c8"
+    }
+  ])
+  group_insertMany(data: [
+    {
+      id: "a1497920-80a9-4674-89c0-675e2439c001",
+      name: "Gardeners",
+      neighborhoodId: "6ba7b810-9dad-11d1-80b4-00c04fd430c8"
+    }
+  ])
+  groupMember_insertMany(data: [
+    {
+      userId: "550e8400-e29b-41d4-a716-446655440001",
+      groupId: "a1497920-80a9-4674-89c0-675e2439c001"
+    }
+  ])
+}

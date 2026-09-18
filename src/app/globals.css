@@ -1,0 +1,136 @@
+:root {
+  /* Core palette — aligned with the Noor mobile app's ThemeService */
+  --primary-color: #013e37;
+  --primary-light: #014a42;
+  --primary-dark: #00322b;
+  --accent-color: #d4af37;
+  --accent-light: #eed971;
+  --text-color: #1a1a1a;
+  --text-light: #5c6b68;
+  --light-color: #f8f8f8;
+  --light-gray: #eef1f0;
+  --white: #ffffff;
+  --success-color: #00c853;
+  --error-color: #d32f2f;
+  --shadow: 0 12px 32px rgba(1, 62, 55, 0.08);
+  --shadow-sm: 0 2px 10px rgba(1, 62, 55, 0.06);
+  --shadow-md: 0 8px 24px rgba(1, 62, 55, 0.1);
+  --shadow-lg: 0 20px 48px rgba(1, 62, 55, 0.14);
+  --shadow-hover: 0 16px 36px rgba(1, 62, 55, 0.14);
+  --border-radius: 20px;
+  --border-radius-lg: 28px;
+  --border-radius-sm: 12px;
+  --border-radius-pill: 100px;
+  --transition: all 0.25s ease;
+  --section-padding: 110px;
+  --section-padding-mobile: 64px;
+
+  /* Hero / glassmorphism extensions */
+  --primary-gradient: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-light) 100%);
+  --accent-gradient: linear-gradient(135deg, var(--accent-color) 0%, var(--accent-light) 100%);
+  --glass-bg: rgba(255, 255, 255, 0.1);
+  --glass-border: rgba(255, 255, 255, 0.2);
+  --glass-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+  --text-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+
+  /* Fixed white for content placed on brand-color surfaces (primary-color/
+     -dark/-light gradients, filled buttons). Unlike --white, this never
+     flips dark in [data-theme='dark'] — those surfaces stay dark-toned in
+     both themes, so text on them must stay light in both too. */
+  --on-primary-text: #ffffff;
+  /* Fixed dark text for content placed on a fixed-white surface (e.g. a
+     white "store" button sitting on a brand-color hero) — pairs with a
+     background that intentionally does not follow --white into dark mode. */
+  --on-light-text: #013e37;
+
+  color-scheme: light;
+}
+
+/* Dark mode — aligned with the Noor mobile app's ThemeService dark palette */
+[data-theme='dark'] {
+  --primary-color: #0d1b2a;
+  --primary-light: #2a3f5f;
+  --primary-dark: #060e17;
+  --accent-color: #c9a227;
+  --accent-light: #e0b973;
+  --text-color: #eaeaea;
+  --text-light: #a3adb8;
+  --light-color: #0d1b2a;
+  --light-gray: #1b263b;
+  --white: #1e2a3a;
+  --success-color: #00e676;
+  --error-color: #ef5350;
+  --shadow: 0 12px 32px rgba(0, 0, 0, 0.35);
+  --shadow-sm: 0 2px 10px rgba(0, 0, 0, 0.25);
+  --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.32);
+  --shadow-lg: 0 20px 48px rgba(0, 0, 0, 0.4);
+  --shadow-hover: 0 16px 36px rgba(0, 0, 0, 0.38);
+  --glass-bg: rgba(255, 255, 255, 0.06);
+  --glass-border: rgba(255, 255, 255, 0.12);
+
+  color-scheme: dark;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font-app), 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html,
+body {
+  max-width: 100vw;
+}
+
+body {
+  color: var(--text-color);
+  background-color: var(--light-color);
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+a {
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+button {
+  font-family: inherit;
+}
+
+/* Shared layout utility */
+.container {
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* Alternating section backgrounds carry the scroll rhythm instead of
+   borders/shadows between blocks */
+.surface-tint {
+  background-color: var(--light-color);
+}
+
+/* Language-specific content (kept for parity with legacy markup that
+   may render both [lang="fr"] and [lang="en"] blocks) */
+[lang='fr'] {
+  display: block !important;
+}
+
+[lang='en'] {
+  display: block !important;
+}
+
+html[lang='fr'] [lang='en'] {
+  display: none !important;
+}
+
+html[lang='en'] [lang='fr'] {
+  display: none !important;
+}

@@ -1,0 +1,84 @@
+.main {
+  padding: 60px 0;
+}
+
+.contentBlock {
+  background: var(--white);
+  border-radius: var(--border-radius);
+  padding: 35px;
+  margin-bottom: 25px;
+  box-shadow: var(--shadow-md);
+}
+
+.contentBlock h2 {
+  color: var(--primary-color);
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.contentBlock p {
+  color: var(--text-light);
+  margin-bottom: 12px;
+}
+
+.stepsList {
+  list-style: none;
+  counter-reset: step-counter;
+}
+
+.stepsList li {
+  counter-increment: step-counter;
+  padding-left: 45px;
+  position: relative;
+  margin-bottom: 18px;
+  color: var(--text-light);
+}
+
+.stepsList li::before {
+  content: counter(step-counter);
+  position: absolute;
+  left: 0;
+  top: -2px;
+  width: 30px;
+  height: 30px;
+  background: var(--accent-color);
+  color: var(--primary-dark);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+}
+
+.stepsList strong {
+  color: var(--text-color);
+}
+
+.relatedFeatures {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.relatedFeatures a {
+  flex: 1;
+  min-width: 200px;
+  background: var(--white);
+  padding: 18px;
+  border-radius: var(--border-radius-sm);
+  text-decoration: none;
+  color: var(--primary-color);
+  font-weight: 600;
+  text-align: center;
+  transition: var(--transition);
+}
+
+.relatedFeatures a:hover {
+  background: var(--accent-light);
+}
+
+@media (max-width: 600px) {
+  .contentBlock {
+    padding: 22px;
+  }
+}

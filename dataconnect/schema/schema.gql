@@ -1,0 +1,57 @@
+type Neighborhood @table {
+  name: String!
+  zipCode: String!
+  description: String
+  moderator: User
+}
+
+type User @table {
+  email: String!
+  displayName: String!
+  address: String!
+  neighborhood: Neighborhood!
+  phoneNumber: String
+  profilePictureUrl: String
+}
+
+type Post @table {
+  author: User!
+  neighborhood: Neighborhood!
+  content: String!
+  type: String!
+  imageUrl: String
+  createdAt: Timestamp
+}
+
+type Comment @table {
+  post: Post!
+  author: User!
+  text: String!
+  createdAt: Timestamp
+}
+
+type Event @table {
+  title: String!
+  dateTime: Timestamp!
+  location: String!
+  organizer: User!
+  neighborhood: Neighborhood!
+  description: String
+  maxAttendees: Int
+}
+
+type Group @table {
+  name: String!
+  neighborhood: Neighborhood!
+  description: String
+}
+
+type EventRSVP @table(key: ["user", "event"]) {
+  user: User!
+  event: Event!
+}
+
+type GroupMember @table(key: ["user", "group"]) {
+  user: User!
+  group: Group!
+}

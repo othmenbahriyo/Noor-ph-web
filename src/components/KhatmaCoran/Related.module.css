@@ -1,0 +1,22 @@
+.relatedFeatures {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.relatedFeatures a {
+  flex: 1;
+  min-width: 200px;
+  background: var(--white);
+  padding: 18px;
+  border-radius: var(--border-radius-sm);
+  text-decoration: none;
+  color: var(--primary-color);
+  font-weight: 600;
+  text-align: center;
+  transition: var(--transition);
+}
+
+.relatedFeatures a:hover {
+  background: var(--accent-light);
+}

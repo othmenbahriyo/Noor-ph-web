@@ -1,0 +1,14 @@
+.screenshotGallery {
+  display: flex;
+  gap: 15px;
+  overflow-x: auto;
+  padding-bottom: 10px;
+}
+
+.screenshotGallery img {
+  border-radius: 12px;
+  box-shadow: var(--shadow-md);
+  height: 380px;
+  width: auto;
+  flex-shrink: 0;
+}

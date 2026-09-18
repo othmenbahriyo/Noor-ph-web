@@ -1,0 +1,89 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    function isAdmin() {
+      return request.auth != null &&
+        get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role == 'admin';
+    }
+
+    match /users/{uid} {
+      allow read: if request.auth != null && (request.auth.uid == uid || isAdmin());
+      // Un utilisateur peut créer/modifier son propre profil mais ne peut
+      // jamais changer son propre rôle — seule une Cloud Function admin
+      // (setUserRole) ou un autre admin peut le faire.
+      allow create: if request.auth != null && request.auth.uid == uid
+        && request.resource.data.role == 'user';
+      allow update: if request.auth != null && request.auth.uid == uid
+        && request.resource.data.role == resource.data.role;
+      allow update: if isAdmin();
+      allow delete: if request.auth != null && request.auth.uid == uid;
+    }
+
+    match /recitation_submissions/{submissionId} {
+      allow create: if request.auth != null
+        && request.resource.data.userId == request.auth.uid;
+
+      allow read: if request.auth != null
+        && (resource.data.userId == request.auth.uid || isAdmin());
+
+      // Le propriétaire peut mettre à jour librement tant qu'il ne touche
+      // pas au statut ni à l'audio corrigé (réservés à l'admin).
+      allow update: if request.auth != null
+        && resource.data.userId == request.auth.uid
+        && !request.resource.data.diff(resource.data).affectedKeys()
+              .hasAny(['status', 'correctedAudioObjectKey', 'reviewedBy', 'reviewedAt']);
+
+      allow update: if isAdmin();
+      allow delete: if isAdmin();
+
+      match /messages/{messageId} {
+        function submissionOwnerId() {
+          return get(/databases/$(database)/documents/recitation_submissions/$(submissionId)).data.userId;
+        }
+
+        allow read: if request.auth != null
+          && (submissionOwnerId() == request.auth.uid || isAdmin());
+
+        allow create: if request.auth != null
+          && request.resource.data.senderId == request.auth.uid
+          && (submissionOwnerId() == request.auth.uid || isAdmin());
+
+        // Marquer comme lu (coches façon WhatsApp) : seul le champ readBy
+        // peut changer, et uniquement pour y ajouter son propre uid.
+        allow update: if request.auth != null
+          && (submissionOwnerId() == request.auth.uid || isAdmin())
+          && request.resource.data.diff(resource.data).affectedKeys()
+                .hasOnly(['readBy'])
+          && request.resource.data.readBy.hasAll(resource.data.readBy)
+          && request.resource.data.readBy.hasAny([request.auth.uid]);
+
+        // Suppression douce d'un message (n'importe lequel) : réservée à
+        // l'admin, seul rôle modérateur de ce module.
+        allow update: if isAdmin();
+      }
+    }
+
+    match /admin_notifications/{docId} {
+      allow read: if isAdmin();
+      allow write: if false; // écrit uniquement par les Cloud Functions
+    }
+
+    // ── Collections legacy (pré-existantes, gate PIN côté client) ─────────
+    // Ces collections n'ont jamais eu de règles dédiées (accès ouvert par
+    // défaut avant l'ajout de ce fichier) : formulaire de contact et
+    // sondages, accessibles sans authentification Firebase, protégés côté
+    // UI par le code PIN admin (AdminSection). On préserve ce comportement
+    // à l'identique pour ne pas casser ces fonctionnalités existantes.
+    match /contact_messages/{messageId} {
+      allow read, create: if true;
+      allow update, delete: if false;
+    }
+
+    match /survey_responses/{responseId} {
+      allow read, create: if true;
+      allow update, delete: if false;
+    }
+  }
+}

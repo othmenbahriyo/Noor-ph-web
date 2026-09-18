@@ -1,0 +1,134 @@
+.wrapper {
+  margin-top: 50px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 18px;
+}
+
+.card {
+  background: var(--light-color);
+  border-radius: var(--border-radius);
+  padding: 22px 20px;
+  box-shadow: var(--shadow-sm);
+  transition: var(--transition);
+  display: flex;
+  flex-direction: column;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-hover);
+}
+
+.stars {
+  color: var(--accent-color);
+  font-size: 0.85rem;
+  margin-bottom: 10px;
+}
+
+.text {
+  font-size: 0.88rem;
+  line-height: 1.55;
+  color: var(--text-color);
+  margin-bottom: 16px;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  flex: 1;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.avatar {
+  width: 34px;
+  height: 34px;
+  min-width: 34px;
+  border-radius: 50%;
+  background: rgba(1, 62, 55, 0.08);
+  color: var(--primary-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 0.75rem;
+}
+
+.authorInfo h4 {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--text-color);
+}
+
+.authorInfo p {
+  font-size: 0.75rem;
+  color: var(--text-light);
+}
+
+.viewAllWrap {
+  display: flex;
+  justify-content: center;
+  margin-top: 36px;
+}
+
+.viewAllBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: var(--white);
+  color: var(--primary-color);
+  font-weight: 700;
+  font-size: 0.92rem;
+  padding: 12px 24px;
+  border: none;
+  border-radius: var(--border-radius-pill);
+  cursor: pointer;
+  box-shadow: var(--shadow-sm);
+  transition: var(--transition);
+  text-decoration: none;
+}
+
+.viewAllBtn i {
+  font-size: 0.8rem;
+  transition: transform 0.2s ease;
+}
+
+.viewAllBtn:hover {
+  background: var(--primary-color);
+  color: white;
+  box-shadow: var(--shadow-hover);
+}
+
+.viewAllBtn:hover i {
+  transform: translateX(3px);
+}
+
+@media (max-width: 1100px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 767px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 14px;
+  }
+
+  .card {
+    padding: 18px 16px;
+  }
+}
+
+@media (max-width: 500px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}

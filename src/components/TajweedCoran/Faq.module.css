@@ -1,0 +1,36 @@
+.faqBlock {
+  padding-bottom: 10px;
+}
+
+.faqItem {
+  border-bottom: 1px solid var(--light-gray);
+  padding: 15px 0;
+}
+
+.faqItem:last-child {
+  border-bottom: none;
+}
+
+.faqQuestion {
+  font-weight: 600;
+  color: var(--primary-color);
+  cursor: pointer;
+  background: none;
+  border: none;
+  padding: 0;
+  text-align: left;
+  font-size: 1rem;
+  width: 100%;
+  display: block;
+  font-family: inherit;
+}
+
+.faqQuestion:focus-visible {
+  outline: 3px solid var(--accent-color);
+  outline-offset: 2px;
+}
+
+.faqAnswer {
+  margin-top: 10px;
+  color: var(--text-light);
+}

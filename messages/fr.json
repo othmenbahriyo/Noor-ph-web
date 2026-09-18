@@ -1,0 +1,2301 @@
+{
+  "common": {
+    "nav": {
+      "features": "Fonctionnalités",
+      "screenshots": "Captures d'écran",
+      "reviews": "Avis",
+      "privacy": "Confidentialité",
+      "contact": "Contact",
+      "openMenu": "Ouvrir le menu de navigation",
+      "closeMenu": "Fermer le menu de navigation",
+      "toggleTheme": "Basculer le mode sombre",
+      "googlePlay": "Google Play",
+      "appStore": "App Store"
+    },
+    "languageSwitcher": {
+      "label": "Langue / Language",
+      "fr": "Français",
+      "en": "English"
+    },
+    "footer": {
+      "about": "Une application innovante pour apprendre à réciter le Saint Coran avec précision et facilité.",
+      "quickLinks": "Liens Rapides",
+      "resources": "Ressources",
+      "faq": "FAQ",
+      "support": "Support",
+      "contact": "Contact",
+      "location": "Paris, France",
+      "rights": "Tous droits réservés.",
+      "backToTop": "Retour en haut de la page"
+    },
+    "contactForm": {
+      "eyebrow": "Contactez-nous",
+      "title": "Contactez-nous",
+      "description": "Si vous avez des suggestions, des améliorations à proposer ou des remontées, n'hésitez pas à nous écrire. Nous vous répondrons rapidement.",
+      "highlights": [
+        {
+          "title": "Réponse rapide",
+          "text": "Notre équipe traite chaque message et vous répond généralement sous 48 heures. Qu'il s'agisse d'une question simple ou d'un problème technique, nous mettons un point d'honneur à ne laisser aucune demande sans réponse."
+        },
+        {
+          "title": "Une communauté à l'écoute",
+          "text": "Plus de 80 000 utilisateurs nous font déjà confiance ; votre retour aide à améliorer l'application pour tous. Chaque message compte et contribue à faire de Noor un outil toujours plus fidèle aux besoins de ses utilisateurs."
+        },
+        {
+          "title": "Vos idées façonnent l'app",
+          "text": "Beaucoup de fonctionnalités actuelles (Tajweed, Khatma, quiz...) sont nées de suggestions d'utilisateurs. Votre expérience quotidienne avec l'application est la meilleure source d'inspiration pour les évolutions à venir."
+        }
+      ],
+      "name": "Nom",
+      "namePlaceholder": "Votre nom",
+      "nameRequired": "Le nom est requis",
+      "email": "Email",
+      "emailPlaceholder": "vous@exemple.com",
+      "emailRequired": "L'email est requis",
+      "emailInvalid": "Email invalide",
+      "phone": "Téléphone (optionnel)",
+      "phonePlaceholder": "+33 6 12 34 56 78",
+      "subject": "Sujet",
+      "subjectPlaceholder": "Sélectionner un sujet...",
+      "subjectRequired": "Veuillez sélectionner un sujet",
+      "subjectOptions": {
+        "general": "Question générale",
+        "suggestion": "Suggestion",
+        "bug": "Signaler un bug",
+        "technical": "Problème technique",
+        "other": "Autre"
+      },
+      "platform": "Plateforme utilisée",
+      "platformPlaceholder": "Sélectionner une plateforme...",
+      "platformRequired": "Veuillez sélectionner une plateforme",
+      "platformOptions": {
+        "ios": "iOS",
+        "android": "Android",
+        "web": "Web"
+      },
+      "message": "Message",
+      "messagePlaceholder": "Écrivez votre message ici...",
+      "messageRequired": "Le message est requis",
+      "messageTooShort": "Le message doit contenir au moins 10 caractères",
+      "send": "Envoyer",
+      "sending": "Envoi en cours...",
+      "successMessage": "Votre message a bien été envoyé. Merci !",
+      "errorMessage": "Une erreur est survenue. Veuillez réessayer."
+    }
+  },
+  "home": {
+    "meta": {
+      "title": "Noor Phonetic Quran - Application d'Apprentissage du Coran",
+      "description": "Noor Phonetic Quran - Application gratuite pour apprendre à réciter, mémoriser (Hifz) et lire le Coran en entier (Khatma). Transcription phonétique, audio synchronisé, Tajweed colorée, plan de lecture quotidien, quiz et correction de récitation. 80K+ utilisateurs satisfaits. Disponible sur iOS et Android.",
+      "keywords": "Coran phonétique, apprendre Coran, Quran phonetics, récitation Coran, Tajweed, application Coran gratuite, Coran arabe français, transcription phonétique Coran, learn Quran, Quran app free, Khatma Coran, mémoriser le Coran, Hifz Coran, plan de lecture Coran, quiz Coran, correction récitation Coran, application mémorisation Coran",
+      "ogTitle": "Noor Phonetic Quran - Récitez le Coran avec phonétique",
+      "ogDescription": "Apprenez à réciter le Saint Coran même sans connaître l'arabe. Application gratuite avec phonétique précise, audio intégré et règles de Tajweed."
+    },
+    "hero": {
+      "statusBadge": "80K+ Utilisateurs Actifs",
+      "headlineHighlight": "Récitez",
+      "headline": "le Saint Coran, même sans connaître l'arabe",
+      "subheadline": "Grâce à une phonétique précise et intuitive, Noor Phonetic Quran rend chaque verset accessible à tous.",
+      "miniFeatures": {
+        "phonetics": "Phonétique Précise",
+        "audio": "Audio Intégré",
+        "tajweed": "Règles de Tajweed"
+      },
+      "ratingText": "Note parfaite sur Play Store et App Store",
+      "downloadOn": "Télécharger sur",
+      "usersBadgeLabel": "Utilisateurs",
+      "updateBadge": "Mis à jour récemment",
+      "deviceScreenAlt": "Noor Phonetic Quran - Interface de l'application montrant la phonétique du Coran",
+      "mobileDeviceScreenAlt": "Noor Phonetic Quran - Apprentissage du Coran avec transcription phonétique"
+    },
+    "why": {
+      "title": "Pourquoi Noor Phonetic Quran ?",
+      "subtitle": "Découvrez les raisons qui font de notre application un choix unique",
+      "items": [
+        {
+          "icon": "fa-heart",
+          "stepLabel": "Le frein",
+          "title": "Accessible à Tous",
+          "text": "Beaucoup de musulmans souhaitent lire le Coran mais sont freinés par la langue arabe. Notre application supprime cette barrière."
+        },
+        {
+          "icon": "fa-graduation-cap",
+          "stepLabel": "La méthode",
+          "title": "Apprentissage Facilité",
+          "text": "Une phonétique claire et intuitive permet à chacun d'apprendre à son rythme, sans stress ni frustration."
+        },
+        {
+          "icon": "fa-check-circle",
+          "stepLabel": "Le résultat",
+          "title": "Prononciation Correcte",
+          "text": "Guidés par des règles de Tajweed précises et un audio synchronisé, vous progressez vers une récitation authentique."
+        }
+      ]
+    },
+    "features": {
+      "title": "Caractéristiques Principales",
+      "subtitle": "Découvrez pourquoi Noor Phonetic Quran est l'application parfaite pour apprendre à réciter le Coran",
+      "items": [
+        {
+          "icon": "fa-book",
+          "title": "Transcription Phonétique",
+          "text": "Chaque verset est accompagné d'une transcription phonétique détaillée pour une prononciation correcte."
+        },
+        {
+          "icon": "fa-bookmark",
+          "title": "Règles de Tajweed",
+          "href": "/tajweed-coran",
+          "text": "Les couleurs et annotations guident votre récitation selon les règles correctes du Tajweed."
+        },
+        {
+          "icon": "fa-language",
+          "title": "Traductions Multilingues",
+          "text": "Accédez aux traductions en français et en anglais pour mieux comprendre le message divin."
+        },
+        {
+          "icon": "fa-headphones",
+          "title": "Audio Synchronisé",
+          "href": "/audio-coran",
+          "text": "Chaque verset est accompagné d'un audio pour entendre la prononciation correcte."
+        },
+        {
+          "icon": "fa-mobile-alt",
+          "title": "Interface Conviviale",
+          "text": "Navigation intuitive et personnalisation selon vos préférences."
+        },
+        {
+          "icon": "fa-graduation-cap",
+          "title": "Apprentissage Facilité",
+          "text": "Idéal pour les débutants ou ceux qui souhaitent améliorer leur récitation."
+        },
+        {
+          "icon": "fa-calendar-check",
+          "title": "Khatma du Coran",
+          "href": "/khatma-coran",
+          "text": "Planifiez et suivez votre lecture complète du Coran (Khatma) avec objectifs quotidiens, séries de jours (streak) et rappels de progression jusqu'à la fin."
+        },
+        {
+          "icon": "fa-calendar-day",
+          "title": "Plan de Lecture Quotidien",
+          "text": "Définissez un nombre de pages à lire chaque jour et suivez votre progression avec une checklist personnalisée, pour prendre l'habitude de lire le Coran régulièrement."
+        },
+        {
+          "icon": "fa-brain",
+          "title": "Mémorisation du Coran (Hifz)",
+          "href": "/memorisation-coran",
+          "text": "Mémorisez le Coran verset par verset avec répétition audio, mode mot-par-mot, quiz de révision, points, niveaux, badges et défis quotidiens pour rester motivé."
+        },
+        {
+          "icon": "fa-microphone-alt",
+          "title": "Correction de Récitation",
+          "href": "/correction-recitation-coran",
+          "text": "Enregistrez votre récitation et recevez une correction personnalisée pour progresser dans la justesse de votre prononciation et du Tajweed."
+        },
+        {
+          "icon": "fa-trophy",
+          "title": "Quiz Coranique",
+          "href": "/quiz-coran",
+          "text": "Testez vos connaissances du Coran avec un quiz ludique à plusieurs niveaux de difficulté, pour apprendre en vous amusant."
+        },
+        {
+          "icon": "fa-mobile-screen-button",
+          "title": "Widget Écran d'Accueil",
+          "text": "Affichez le verset du jour directement sur l'écran d'accueil de votre téléphone et gardez votre routine de lecture toujours à portée de vue."
+        }
+      ]
+    },
+    "videoDemo": {
+      "title": "Découvrez l'Application en Action",
+      "subtitle": "Regardez cette courte démo pour voir comment Noor Phonetic Quran fonctionne"
+    },
+    "screenshots": {
+      "title": "Captures d'Écran",
+      "subtitle": "Découvrez l'application en images",
+      "alts": [
+        "Noor Phonetic Quran - Liste des sourates du Coran",
+        "Noor Phonetic Quran - Récitation avec phonétique précise",
+        "Noor Phonetic Quran - Règles de Tajweed colorées",
+        "Noor Phonetic Quran - Audio synchronisé avec le texte",
+        "Noor Phonetic Quran - Traduction française du Coran",
+        "Noor Phonetic Quran - Mode apprentissage du Coran",
+        "Noor Phonetic Quran - Navigation par sourate",
+        "Noor Phonetic Quran - Versets avec transcription phonétique",
+        "Noor Phonetic Quran - Paramètres de l'application",
+        "Noor Phonetic Quran - Lecture continue du Coran",
+        "Noor Phonetic Quran - Interface moderne et intuitive"
+      ]
+    },
+    "faq": {
+      "title": "Questions Fréquentes",
+      "subtitle": "Trouvez rapidement des réponses à vos questions",
+      "items": [
+        {
+          "question": "L'application fonctionne-t-elle hors ligne ?",
+          "answer": "Oui, absolument ! Toutes les sourates du Coran sont disponibles hors ligne une fois l'application installée. Vous pouvez lire et réciter partout, sans connexion Internet."
+        },
+        {
+          "question": "Quelle phonétique utilisez-vous ?",
+          "answer": "Nous utilisons une phonétique anglaise simple et universelle, facile à lire pour tous. Une version en phonétique française est en cours de développement et sera bientôt disponible."
+        },
+        {
+          "question": "Le Coran est-il complet dans l'application ?",
+          "answer": "Oui ! L'application contient l'intégralité du Saint Coran avec ses 114 sourates, du début à la fin, avec transcription phonétique complète."
+        },
+        {
+          "question": "L'audio est-il disponible pour tous les versets ?",
+          "answer": "Oui, chaque verset est accompagné d'une récitation audio claire et lente, parfaite pour faciliter l'apprentissage et améliorer votre prononciation."
+        },
+        {
+          "question": "L'application est-elle gratuite ?",
+          "answer": "Oui, Noor Phonetic Quran est entièrement gratuite. Notre objectif est de rendre le Coran accessible à tous, sans aucune barrière financière."
+        },
+        {
+          "question": "Comment fonctionne la Khatma (lecture complète du Coran) ?",
+          "answer": "L'application vous permet de planifier une Khatma en choisissant un nombre de jours pour terminer le Coran. Vous suivez votre progression quotidienne, votre série de jours (streak) et recevez des rappels pour rester régulier jusqu'à la fin de votre lecture."
+        },
+        {
+          "question": "Peut-on mémoriser le Coran (Hifz) avec l'application ?",
+          "answer": "Oui, l'application propose un mode Mémorisation complet avec répétition audio verset par verset, mode mot-par-mot, quiz de révision, points, niveaux, badges et défis quotidiens pour vous aider à mémoriser le Coran efficacement."
+        },
+        {
+          "question": "Y a-t-il plusieurs récitateurs disponibles ?",
+          "answer": "Oui, vous pouvez choisir parmi plusieurs récitateurs du Coran et télécharger l'audio pour une écoute complète hors ligne, sans connexion Internet."
+        },
+        {
+          "question": "L'application propose-t-elle une correction de récitation ?",
+          "answer": "Oui, vous pouvez enregistrer votre récitation directement dans l'application et recevoir une correction personnalisée pour améliorer votre prononciation et le respect des règles de Tajweed."
+        },
+        {
+          "question": "Y aura-t-il de nouvelles fonctionnalités ?",
+          "answer": "Oui, nous travaillons constamment à l'amélioration de l'application. Plusieurs nouveautés sont prévues : phonétique française complète, mode Tajweed coloré étendu, mode apprentissage lettre par lettre, et bien plus encore !"
+        }
+      ]
+    },
+    "testimonials": {
+      "title": "Ce que disent nos utilisateurs",
+      "subtitle": "Découvrez les avis de notre communauté grandissante d'utilisateurs satisfaits",
+      "prevLabel": "Avis précédent",
+      "nextLabel": "Avis suivant",
+      "viewAllLabel": "Voir tous les avis",
+      "items": [
+        {
+          "initials": "SD",
+          "name": "Sidy DIOP",
+          "device": "16 juillet 2026",
+          "text": "très bonne application pour apprendre le coran même si on peut pas prononcer il suffit juste ďécouter ľaudio et revenir",
+          "rating": 5
+        },
+        {
+          "initials": "AB",
+          "name": "Amourlaye Beman",
+          "device": "25 mars 2026",
+          "text": "Très très bonne application. Qu'Allah vous bénisse éternellement pour cette action et vous inspire d'avantage à enrichir le contenu... vous pourriez déjà commencer à mettre la traduction des hadiths en français. Merci 🙏🥰👍",
+          "rating": 5
+        },
+        {
+          "initials": "YT",
+          "name": "Yaou Tchari",
+          "device": "6 juillet 2026",
+          "text": "c'est une très bonne application que je tant chercher depuis, il est facile à lire et mettre en place les erreurs qui tes font difficile.",
+          "rating": 5
+        },
+        {
+          "initials": "FA",
+          "name": "Fatima",
+          "device": "21 avril 2026",
+          "text": "j'ai découvert cette application comme cadeau,je suis refaite 😁, sincèrement.j'ai eu un petit souci qui a été résou très rapidement al hamdoulilah. vraiment une facilité pour apprendre, je la conseillerais a beaucoup gens. qu'Allah vous récompense🤲🏻🌹",
+          "rating": 5
+        },
+        {
+          "initials": "DH",
+          "name": "Djamila Hb",
+          "device": "30 juillet 2026",
+          "text": "très bien pour l'apprentissage de la lecture du coran qu'allah nous facilite",
+          "rating": 5
+        },
+        {
+          "initials": "NA",
+          "name": "Naoal",
+          "device": "12 mai 2026",
+          "text": "C'est vraiment bien pour ce qui ne savent pas lire l'écriture arabe car il y en a qui veulent apprendre le coran mais qui ne savent pas lire en Arabe Franchement c'est une appli a installer 👍",
+          "rating": 5
+        },
+        {
+          "initials": "ID",
+          "name": "Ibou Dieme",
+          "device": "8 janvier 2026",
+          "text": "cette application est juste extraordinaire si l'option 100 étoiles était dispo je l'aurai sûrement donné mais bref un petit problème à rectifier c'est qu'on ne peut pas télécharger les audios en cas quand on serai hors ligne j'suis sûr que l'application serai encore meilleur avec audio téléchargeable pour écouter en étant hors ligne",
+          "rating": 5
+        },
+        {
+          "initials": "YC",
+          "name": "Youssouf Cherif",
+          "device": "26 janvier 2026",
+          "text": "la meilleure application. ça m'aide beaucoup. Grâce à cette appli je peux aisément lire le saint coran et ça me fais du bien ✨. vraiment qu'Allah récompense aux centuples les concepteurs. c'est exceptionnel. je vous la recommande vivement. tellement de fonctionnalités qui vous permettront d'apprendre facilement le saint Coran avec un plan clair et structuré défini dans l'application.",
+          "rating": 5
+        },
+        {
+          "initials": "FF",
+          "name": "Faiza Faiza",
+          "device": "6 novembre 2024",
+          "text": "bonne application mais le problème c'est qu'elle s'arrête toute les deux minutes. Je l'ai désinstallé et réinstaller et le problème persiste. pourtant c'est exactement ce que je cherchais. Barak Allahou fikkunna",
+          "rating": 5
+        },
+        {
+          "initials": "LS",
+          "name": "Louis Sawadogo",
+          "device": "27 mars 2025",
+          "text": "c'est une très bonne application mais je n'arrive pas à lire hors ligne une fois télécharger. ET pourtant vous avez dit hors et j'ai constaté qu'il te faut la connexion pour avoir accès aux données. il faut que vous revoyez cela. Merci.",
+          "rating": 5
+        },
+        {
+          "initials": "YJ",
+          "name": "Yassin Jaounni",
+          "device": "23 novembre 2025",
+          "text": "cette application est extraordinaire car de bas je l'avait installer juste pour apprendre des sourate car je ne sait pas lire l'arabe et quand j'ai vue tt les fonctionnalités j'ai été choqué celle que j'aime le plus c'est qui vas gagner des millions sur l'islam tu peut apprendre l'arabe apprendre des invocation et y'as mm des récitateur qui lisent le Coran avec toi pour ta prononciation il donnent mm des technique pour apprendre le Coran facile c'est une pasta dinguerie je vs le conseil",
+          "rating": 5
+        },
+        {
+          "initials": "JB",
+          "name": "Jeff Bezos Mayele",
+          "device": "30 mai 2026",
+          "text": "une bonne application formidable. qui nous aide à lire les sourate et les comprendre, nous qui ne connait pas l'arabe",
+          "rating": 5
+        },
+        {
+          "initials": "AB",
+          "name": "Abdoulaye Bah",
+          "device": "5 mars 2025",
+          "text": "Une très bonne application pour ceux qui veulent apprendre ou lire le coran tout seul ! qu'Allah vous récompense par le bien et nous facilite tous l'apprentissage et la mémorisation du Saint Coran !",
+          "rating": 5
+        },
+        {
+          "initials": "DD",
+          "name": "dohona daouda coulibaly",
+          "device": "2 mars 2025",
+          "text": "L'affichage des pages est très très lent. Sinon je l'adore l'application. Mais l'affichage prends trop de temps. Avez vous des propositions pour palier à ce blem?",
+          "rating": 5
+        },
+        {
+          "initials": "YC",
+          "name": "yvan Cedric",
+          "device": "4 mars 2025",
+          "text": "Jazzak Allahou feekoum Très bonne application pour l'apprentissage pour les non arabophone. Juste qu'après la mise à jour, l'application ne permet plus de lire hors connexion.",
+          "rating": 5
+        },
+        {
+          "initials": "HN",
+          "name": "Horizons New",
+          "device": "23 août 2025",
+          "text": "Salam ahlykoum entièrement satisfait de cette application juste l'introduction mérite un 5 étoile 🌟 quelque amélioration serais sollicité quand au chargement des pages et le mieux serais de faire une version FR seul pour évite le temps de l'attente, une version nuit serais top pour la lecture du soir merci a vous pour votre travaille que dieu vous récompense",
+          "rating": 5
+        },
+        {
+          "initials": "DB",
+          "name": "dorra bn",
+          "device": "7 octobre 2025",
+          "text": "Une application utile et bien pensée ! Grâce à la translittération, j'ai pu améliorer ma lecture du Coran en peu de temps. Qu'Allah récompense les développeurs",
+          "rating": 5
+        },
+        {
+          "initials": "SM",
+          "name": "Sara ma langue",
+          "device": "5 mai 2025",
+          "text": "Une application que je ne cesse de recommander à celui ou celle qui voudrait lire, apprendre et comprendre le dans différentes langues. Machaallah travail bien fait. C'est ce que j'ai longtemps cherché. QU'ALLAH SWA vous bénisse.",
+          "rating": 5
+        },
+        {
+          "initials": "AA",
+          "name": "Adoum Ali Bezei",
+          "device": "20 mai 2026",
+          "text": "meilleur coran en phonétique, merci infiniment, je suis très reconnaissant",
+          "rating": 5
+        },
+        {
+          "initials": "BK",
+          "name": "Bakary Konaté",
+          "device": "19 mars 2025",
+          "text": "j'ai vraiment aimé l'application, mais j'aurais préféré que vous ajoutez les imams, comme ça on aurait choisi nous-même les imams avec qui on aimerait apprendre avec lui, ce que j'ai pas aimé trop, ça lisez verset par verset j'aurais préféré que ça lisez directement une sourate sans arrêt",
+          "rating": 5
+        },
+        {
+          "initials": "YB",
+          "name": "Yosra Bahri",
+          "device": "5 octobre 2025",
+          "text": "Application excellente ! Très utile, facile à utiliser et bien pensée. Je la recommande vivement ! 👏 Bravo au développeur pour ce beau travail, continuez comme ça, vous faites un excellent boulot ! 💪",
+          "rating": 5
+        },
+        {
+          "initials": "FO",
+          "name": "fatima ourja",
+          "device": "25 avril 2025",
+          "text": "Magnifique application , c'est exactement ce que je recherchais,qu'Allah Le très Haut vous récompense de la plus belle des récompenses . C est franchement une application qui mérite d'être rémunérée à juste titre .",
+          "rating": 5
+        },
+        {
+          "initials": "ND",
+          "name": "Nicolas DA COSTA CAMPOS CERCA",
+          "device": "20 avril 2025",
+          "text": "je conseil l'application pour l'apprentissage du tajwid qui est très facile pour les débutants et aussi pour celui qui veut ce perfectionner et très simple d'utilisation",
+          "rating": 5
+        },
+        {
+          "initials": "SR",
+          "name": "Sadrissi Regbayou",
+          "device": "11 mars 2025",
+          "text": "Bon.Mais on perd la dernière page auquel ont était .En plus elle ne permet pas de lire hors connexion.Ce serait plus intéressant s'il y avait sur les mêmes pages les sourate en arabe et la traduction en français.",
+          "rating": 5
+        },
+        {
+          "initials": "OA",
+          "name": "Oussama AZIZI",
+          "device": "12 octobre 2025",
+          "text": "Excellente application, avec phonétique claire, audio de qualité et règles de Tajwid en couleurs. Très bon outil pour faciliter l'apprentissage du Coran.",
+          "rating": 5
+        },
+        {
+          "initials": "BH",
+          "name": "Bahri Hamza",
+          "device": "27 septembre 2025",
+          "text": "Salam 'alaykoum, excellente application 🌟 facile à utiliser et très utile pour la lecture et l'apprentissage. Qu'Allah récompense les développeurs ❤️🤲",
+          "rating": 5
+        },
+        {
+          "initials": "HR",
+          "name": "Houssem RAISSI",
+          "device": "2 octobre 2024",
+          "text": "Elle offre une interface intuitive et agréable, facilitant la lecture et la navigation. Elle est idéale pour un accès rapide aux sourates .",
+          "rating": 5
+        },
+        {
+          "initials": "GB",
+          "name": "Gora Bar",
+          "device": "10 octobre 2025",
+          "text": "Une très bonne application. Très simple pour l'utilisation et ne contient pas des annonces. Bravo!",
+          "rating": 5
+        },
+        {
+          "initials": "SK",
+          "name": "Sekou Kante",
+          "device": "21 mars 2025",
+          "text": "C'est l'application que je cherchais mais hors connexion sa ne fonctionne pas j'ai téléchargé options hors connexion mais toujours sa va pas prier de réglé svp moi c'est phonétique qui me permet de lire le coran",
+          "rating": 5
+        },
+        {
+          "initials": "YF",
+          "name": "youssoupha FALL",
+          "device": "11 avril 2025",
+          "text": "Qu'Allah vous récompense après chaque clic sur L'application des montagnes de hassanates. Vous pourrez jamais imaginer le bien que vous avez fait pour tout ses musulmans qui n'ont pas fini l'école coranique. je viens de télécharger pour ma mère également que Dieu vous bénisse abondamment. Mille Merci ❤️",
+          "rating": 5
+        },
+        {
+          "initials": "TT",
+          "name": "toure traore aboubakar sidik",
+          "device": "29 novembre 2024",
+          "text": "Je Vous donne 3 étoiles parce que l'application n'enregistre pas les sourates pour une lecture hors connexion. Sinon il est facile à lire",
+          "rating": 5
+        },
+        {
+          "initials": "MG",
+          "name": "Mory Gbane",
+          "device": "29 juin 2025",
+          "text": "Bonne application mais seulement on peux pas télécharger les écritures une bonne fois pour toute il faut toujours rétélécharger. c'est un peu difficile",
+          "rating": 5
+        },
+        {
+          "initials": "FS",
+          "name": "Fatima Si Ahmed",
+          "device": "23 juillet 2025",
+          "text": "très grande facilité à lire le coran en phonétique peut importe où l'on est car pas besoin de connexion surtout quand vous ne voulez déranger personne votre téléphone suffit pas de 🕯 pas de lumière 😇🥰",
+          "rating": 5
+        },
+        {
+          "initials": "MF",
+          "name": "Mohamed Faye",
+          "device": "5 mars 2025",
+          "text": "Je vous donne 5 étoiles 🌟 parce que vous êtes meilleurs c'est magnifique ce que vous avez réalisé j'adore vraiment 😭❤️❤️❤️ qu ' Allah le tout miséricordieux te protège . Mais j'aurais aimé que le mode audio sois pour tout le sourate mais pas a un seul verset merci en avance",
+          "rating": 5
+        },
+        {
+          "initials": "MG",
+          "name": "Mohamed gaissir Bah",
+          "device": "4 mars 2026",
+          "text": "Salam à vous excellente application j'ai déjà lu plusieurs livre en phonétique mais j'avoue cette appli est la meilleure pour le moment, je suis presque un expert en phonétique et QuAllah vous récompense au centuple, je me régal vraiment 😇😇😇",
+          "rating": 5
+        },
+        {
+          "initials": "YK",
+          "name": "Yao Kouamé Enock",
+          "device": "13 décembre 2025",
+          "text": "c'est une très bonne application pour nous qui ne savons pas lire les lettres arabes. C'est exactement ce que je cherchais. Merci énormément aux développeurs. Bonne journée, qu'Allah nous guide sur le droit chemin.🤲📿",
+          "rating": 5
+        },
+        {
+          "initials": "FA",
+          "name": "Fatima",
+          "device": "2 janvier 2026",
+          "text": "l' application est bien dans l ensemble mais il manque à chaque fois la fin de chaque sourate donc on ne peut pas lire ou apprendre la sourate de notre choix je trouve ça tellement dommage",
+          "rating": 5
+        },
+        {
+          "initials": "MS",
+          "name": "Macolt Scot",
+          "device": "17 mars 2025",
+          "text": "Alhamdoulilah j'arrive à bien lire le Quran en phonétique, mais le téléchargement n'est pas achevé et il reste les pages en moins",
+          "rating": 5
+        },
+        {
+          "initials": "EH",
+          "name": "El Hadj Diallo",
+          "device": "1 avril 2025",
+          "text": "une très bonne application et nette et bien conçu la phonétique reflète la même chose avec les verset du coran même prononciation bravo l'équipe qui à fait ce bon pour la Oumma barrakalahou-FIK",
+          "rating": 5
+        },
+        {
+          "initials": "AM",
+          "name": "Abdelmadjid Mahamat",
+          "device": "25 avril 2025",
+          "text": "MachAllah! meilleure application pour celui qui veut réellement apprendre et lire sans difficulté.",
+          "rating": 5
+        },
+        {
+          "initials": "OS",
+          "name": "Ousmasim's Simen",
+          "device": "22 juillet 2026",
+          "text": "c'est magnifique et sa va m aidé énormément",
+          "rating": 5
+        },
+        {
+          "initials": "NS",
+          "name": "Nour Soum",
+          "device": "17 octobre 2025",
+          "text": "super intéressant, seulement le seul souci il faut chaque fois se connecter. essayer aussi la version hors ligne",
+          "rating": 5
+        },
+        {
+          "initials": "CB",
+          "name": "chiraz bahri",
+          "device": "19 octobre 2025",
+          "text": "Très belle application, simple et complète. Parfaite pour lire et écouter le Coran partout. بارك الله فيكم",
+          "rating": 5
+        },
+        {
+          "initials": "AA",
+          "name": "aicha Arouna",
+          "device": "29 juillet 2026",
+          "text": "Très bonne application je recommande cette application",
+          "rating": 5
+        },
+        {
+          "initials": "SZ",
+          "name": "Sadjid Zamoum",
+          "device": "2 août 2026",
+          "text": "incroyables rien à dire",
+          "rating": 5
+        },
+        {
+          "initials": "AD",
+          "name": "Almassane Diallo",
+          "device": "13 juillet 2026",
+          "text": "Merci beaucoup à l'équipe grâce à cette application et à vous j'ai beaucoup appris que le bon Dieu vous récompense",
+          "rating": 5
+        },
+        {
+          "initials": "HA",
+          "name": "Hadj",
+          "device": "5 novembre 2025",
+          "text": "application claire et sans pub. si vous pouvez ajouter un tafsir pour les sourates et l'application sera complète.",
+          "rating": 5
+        },
+        {
+          "initials": "YM",
+          "name": "Yacouba M'piè Samaké",
+          "device": "16 mai 2025",
+          "text": "Très bonne application qui me permet d'apprendre les sourates sans aucune connaissance de la langue arabe",
+          "rating": 5
+        },
+        {
+          "initials": "SM",
+          "name": "Saïdou Mohamed Bah",
+          "device": "24 août 2025",
+          "text": "Vraiment qu'Allah vous récompense de janatoul Firdaws, c'est la meilleure application, qu'Allah vous aide à améliorer l'application et qu'Il fasse que cela soit une sôdaquat' oul jarriyâh pour vous.",
+          "rating": 5
+        },
+        {
+          "initials": "TD",
+          "name": "Touwinde Doulkom",
+          "device": "24 mai 2025",
+          "text": "Ma shah Allah , une application simple et facile à exploiter qui te permet déprendre à lire le Saint Coran. merci aux concepteurs qu Allah vous récompense 🙏",
+          "rating": 5
+        },
+        {
+          "initials": "BD",
+          "name": "Bassirou Diarra",
+          "device": "5 avril 2026",
+          "text": "c'est vraiment pratique. Qu'Allah bénisse l'islam",
+          "rating": 5
+        },
+        {
+          "initials": "GK",
+          "name": "gloire Kyato",
+          "device": "10 avril 2026",
+          "text": "Elle est importante cette appli. je mets 5 étoiles.",
+          "rating": 5
+        },
+        {
+          "initials": "OO",
+          "name": "Olivier Olivier",
+          "device": "16 avril 2025",
+          "text": "Franchement le top des top une grande utilité pour la memorisation du coran même pour les Francophones",
+          "rating": 5
+        },
+        {
+          "initials": "DD",
+          "name": "Dian Diallo",
+          "device": "9 juin 2026",
+          "text": "Merci beaucoup........ une excellente application",
+          "rating": 5
+        },
+        {
+          "initials": "MM",
+          "name": "Mallam Mohamed AYOUBA",
+          "device": "10 septembre 2025",
+          "text": "Oui bien rédigé et c'est très facile pour apprendre à lire le Coran.... Merci bien",
+          "rating": 5
+        },
+        {
+          "initials": "FB",
+          "name": "Fatoumata Barry",
+          "device": "7 mars 2026",
+          "text": "super et facile pour apprendre le coran le seul hic ta trop de mise à jour...",
+          "rating": 5
+        },
+        {
+          "initials": "SK",
+          "name": "Soumaila Kaboré",
+          "device": "29 novembre 2025",
+          "text": "très bien, on voit et ça aide à bien prononcer les phrases en arabe",
+          "rating": 5
+        },
+        {
+          "initials": "OA",
+          "name": "Ouattara Almamy",
+          "device": "1 avril 2025",
+          "text": "Très explicite, Très compréhensible, Très instructif, Que Dieu nous donne la bonne compréhension 🙏",
+          "rating": 5
+        },
+        {
+          "initials": "AN",
+          "name": "Aude Name",
+          "device": "7 juin 2025",
+          "text": "Très cohérent, Bon pour apprendre le coran. Qu'Allah béni le créateur de l'application",
+          "rating": 5
+        },
+        {
+          "initials": "MJ",
+          "name": "maxero junior",
+          "device": "13 mars 2025",
+          "text": "C'est magnifique facile à manipuler et Sans pub",
+          "rating": 5
+        },
+        {
+          "initials": "FT",
+          "name": "Fatoumata Traoré",
+          "device": "18 mai 2025",
+          "text": "qu'Allah vous récompense de votre travail bien fait franchement c'est une bonne app,je veux que vous ajouter des rotations d'écran et aussi les signes prosternation merci",
+          "rating": 5
+        },
+        {
+          "initials": "AC",
+          "name": "Assia Chamoyan",
+          "device": "28 septembre 2025",
+          "text": "hyper utile, pratique et franchement intuitive. très belle interface bravo très qualitatif qu'Allah vous facilite vos projets et vous en récompense grandement",
+          "rating": 5
+        },
+        {
+          "initials": "KE",
+          "name": "Keita",
+          "device": "23 mai 2025",
+          "text": "Haouw, superbe application pour la lecture phonétique des sourates.J'adore vraiment cette application.",
+          "rating": 5
+        },
+        {
+          "initials": "IH",
+          "name": "Ibrahim Hamadou",
+          "device": "9 mars 2026",
+          "text": "svp réparé l'app besoin vraiment de cet app je continuais bien la lecture mais l'app a eu de problème",
+          "rating": 5
+        },
+        {
+          "initials": "AS",
+          "name": "Adamou Seyni Sonia",
+          "device": "14 mars 2025",
+          "text": "Salam moi je ne sais pourquoi quand je vais sur la sourate al kahaf c'est sur abassa :à sort je ne comprends vraiment pas d'où vient le problème et c'est une sourate que j'aime lire surtout les vendredi conformément à la souna ....sinon à part ce problème il n'y pas de souci avec lappli masha allah",
+          "rating": 5
+        },
+        {
+          "initials": "MD",
+          "name": "Mame diarra Ba",
+          "device": "14 février 2025",
+          "text": "C'est très efficace et très facile a apprendre le Quran",
+          "rating": 5
+        },
+        {
+          "initials": "SS",
+          "name": "SOUMAILA SAMASSI",
+          "device": "29 décembre 2024",
+          "text": "Macha'Allah 💕 une superbe application et c'est ce que je cherchais. L'application est au top. Baraka'Allahou feekoum et qu'Allah nous guide toujours. Amine",
+          "rating": 5
+        },
+        {
+          "initials": "AB",
+          "name": "Ali Baba Traoré",
+          "device": "1 août 2025",
+          "text": "Dieu merci c'est une bonne application à telecharger et partager. Qu'Allah vous accorde une bonne recompense dans ce monde et dans l'autre monde. Amine!",
+          "rating": 5
+        },
+        {
+          "initials": "MB",
+          "name": "Mohamed Baddo",
+          "device": "5 janvier 2026",
+          "text": "C'est très simple efficace et très très agréable",
+          "rating": 5
+        },
+        {
+          "initials": "AB",
+          "name": "Anthony Barraut",
+          "device": "5 octobre 2025",
+          "text": "EXCELLENTE application le créateur de l'application est d'une gentillesse remarquable je vous recommande l'application immédiatement sans hésitation 🌟🌟🌟🌟🌟🥳👌",
+          "rating": 5
+        },
+        {
+          "initials": "PM",
+          "name": "Parfait Mayela may",
+          "device": "27 mars 2025",
+          "text": "pourquoi il faut la connection ??? Mais cette application permet d'apprendre rapidement 🤲🤲🤲🥰🇬🇦",
+          "rating": 5
+        },
+        {
+          "initials": "MD",
+          "name": "Moustapha DRORI",
+          "device": "7 février 2026",
+          "text": "Très bonne application pour des meilleurs apprentissages",
+          "rating": 5
+        },
+        {
+          "initials": "AB",
+          "name": "Adamma Bae",
+          "device": "11 janvier 2025",
+          "text": "Merci bcp pour nous faciliter l'apprentissage",
+          "rating": 5
+        },
+        {
+          "initials": "MZ",
+          "name": "Malika Zaki",
+          "device": "7 avril 2026",
+          "text": "c'est la meilleure application de coran que j'ai jamais vue dans ma vie",
+          "rating": 5
+        },
+        {
+          "initials": "NC",
+          "name": "N'famoussa Camara",
+          "device": "8 mars 2025",
+          "text": "Cette application est vraiment intéressant pour moi et pour tout les musulmans qui veulent connaître et appliquée l'islam.",
+          "rating": 5
+        },
+        {
+          "initials": "MB",
+          "name": "Mariam Bah",
+          "device": "21 octobre 2025",
+          "text": "très efficace pour la prononciation",
+          "rating": 5
+        },
+        {
+          "initials": "NM",
+          "name": "Nouraya Mohamed",
+          "device": "5 avril 2026",
+          "text": "Merci beaucoup, ça m'aide vraiment... Machallah",
+          "rating": 5
+        },
+        {
+          "initials": "SD",
+          "name": "Sofiane D",
+          "device": "10 octobre 2025",
+          "text": "c'est juste dommage que on puisse pas choisir c'est sourate directement qu'il faut swipe",
+          "rating": 5
+        },
+        {
+          "initials": "MD",
+          "name": "Mouhamed Diagne",
+          "device": "24 juillet 2025",
+          "text": "trés trés bonne appli on apprend vite et bien",
+          "rating": 5
+        },
+        {
+          "initials": "BB",
+          "name": "Babouba Bibouba",
+          "device": "1 avril 2025",
+          "text": "très bon ,mais veuillez introduire l'option de la taille de police svp",
+          "rating": 5
+        },
+        {
+          "initials": "CC",
+          "name": "Coumba Camara",
+          "device": "26 juillet 2025",
+          "text": "c'est ce que je recherchais depuis des années que Dieu vous récompense de cette immense joie que vous m'avez apportée en le voyant 💖 c'est une très bonne application 👍 merci",
+          "rating": 5
+        },
+        {
+          "initials": "LS",
+          "name": "Lassane Sawadogo",
+          "device": "3 août 2025",
+          "text": "je cherchais ce phonétique depuis et alhamdoulilah je l'ai trouvé Merci",
+          "rating": 5
+        },
+        {
+          "initials": "MA",
+          "name": "mam",
+          "device": "14 mars 2026",
+          "text": "très bonne application juste j'aurais aimé que les hadiths soient en français",
+          "rating": 5
+        },
+        {
+          "initials": "MB",
+          "name": "Mohamadou Babanguida",
+          "device": "9 avril 2026",
+          "text": "Merci infiniment qu'Allah vous récompense",
+          "rating": 5
+        },
+        {
+          "initials": "TA",
+          "name": "Thierno amidou Diallo",
+          "device": "8 avril 2026",
+          "text": "j'aime bien cette application",
+          "rating": 5
+        },
+        {
+          "initials": "SA",
+          "name": "shahid ATOUKOU",
+          "device": "9 décembre 2024",
+          "text": "Très Super j'apprécie beaucoup cette application, merci pour le créateur de cette application",
+          "rating": 5
+        },
+        {
+          "initials": "MS",
+          "name": "Mamadi Savadogo",
+          "device": "9 mars 2026",
+          "text": "j'ai pas autre chose à dire si ce n'est Qu'Allah vous récompense. L'application est la meilleure que j'ai connu jusqu'à aujourd'hui.",
+          "rating": 5
+        },
+        {
+          "initials": "AC",
+          "name": "Alassane Camara",
+          "device": "26 décembre 2025",
+          "text": "as sallamou aleykoum je vous remercie c'est applications et bonne pour les musilm",
+          "rating": 5
+        },
+        {
+          "initials": "FL",
+          "name": "Frédéric Lankoandé",
+          "device": "1 août 2025",
+          "text": "très bonne application pour apprendre le saint Coran en Phonétique 👍",
+          "rating": 5
+        },
+        {
+          "initials": "LZ",
+          "name": "Loukmane Zongo",
+          "device": "26 juin 2025",
+          "text": "Machallah ! c'est le Coran que cherchais pour pouvoir apprendre ! pouvez-vous pas faire pour qu'on puis lire hors connexion ?",
+          "rating": 5
+        },
+        {
+          "initials": "IB",
+          "name": "Ibrahima Bâ",
+          "device": "2 septembre 2025",
+          "text": "C'est une bonne aplication je vous remercie que Dieu nous guide au bonne chemin 🤲🤲👆",
+          "rating": 5
+        },
+        {
+          "initials": "FA",
+          "name": "Fouzi Abdellatif",
+          "device": "5 mars 2026",
+          "text": "c'est la meilleure application en phonétique",
+          "rating": 5
+        },
+        {
+          "initials": "AS",
+          "name": "Aboubacar Sylla",
+          "device": "7 novembre 2025",
+          "text": "le tout (complet) ne s'affiche pas",
+          "rating": 5
+        },
+        {
+          "initials": "KM",
+          "name": "KACHALLA MEMBA",
+          "device": "20 mars 2025",
+          "text": "merci beaucoup pour cette facilité de lecture du Coran. qu'Allah vous récompense au Dounia comme au ahira",
+          "rating": 5
+        },
+        {
+          "initials": "BD",
+          "name": "Billal DABIDA",
+          "device": "2 avril 2025",
+          "text": "très très bonne application que Dieu le tout miséricordieux le très miséricordieux vous donne plus de sagesse.",
+          "rating": 5
+        },
+        {
+          "initials": "NN",
+          "name": "Nadjma Nkulu",
+          "device": "24 novembre 2025",
+          "text": "La illah ila Allah, elle est trop adaptée aux gens qui n'ont pas encore une maîtrise de l'arabe.",
+          "rating": 5
+        },
+        {
+          "initials": "TA",
+          "name": "thaibu Amici-langi",
+          "device": "7 août 2025",
+          "text": "Une très belle œuvre à portée de la main.",
+          "rating": 5
+        },
+        {
+          "initials": "HH",
+          "name": "hamza Hamza",
+          "device": "19 octobre 2025",
+          "text": "cette une application très utile et très pratique",
+          "rating": 5
+        },
+        {
+          "initials": "OA",
+          "name": "Oumarou Amadou",
+          "device": "7 novembre 2025",
+          "text": "faut améliorer sans internet pour Vu le lire",
+          "rating": 5
+        },
+        {
+          "initials": "AA",
+          "name": "Aboubakar Adamou",
+          "device": "18 août 2025",
+          "text": "très bonne appli, qu'ALLAH récompense les concepteurs",
+          "rating": 5
+        },
+        {
+          "initials": "SK",
+          "name": "Soiba Koné",
+          "device": "19 janvier 2026",
+          "text": "je recommande aux au frère musulmans ça m'aide beaucoup dans les tajwid aussi",
+          "rating": 5
+        },
+        {
+          "initials": "SN",
+          "name": "Sipas NIAKATE",
+          "device": "21 septembre 2025",
+          "text": "super appli s'approche vraiment de l'arabe",
+          "rating": 5
+        },
+        {
+          "initials": "HT",
+          "name": "Hamissou TCHAGBELE",
+          "device": "28 septembre 2024",
+          "text": "J'aime cette application je souhaite que par la grâce de Dieu vous ajoutez jusqu'à fin du Coran",
+          "rating": 5
+        },
+        {
+          "initials": "AA",
+          "name": "Abdul Abdullah",
+          "device": "21 novembre 2025",
+          "text": "c'est très très magnifique j'adore ça qu'Allah vous récompense.",
+          "rating": 5
+        },
+        {
+          "initials": "SA",
+          "name": "sawadogoalassane",
+          "device": "25 juin 2025",
+          "text": "magnifique, c'est tout ce que je voulais. Merci",
+          "rating": 5
+        },
+        {
+          "initials": "BT",
+          "name": "Bocar Thiam",
+          "device": "19 octobre 2025",
+          "text": "c'est une très bonne application pas de pub Machallah",
+          "rating": 5
+        },
+        {
+          "initials": "HN",
+          "name": "Harounahafiz Nonkane",
+          "device": "11 mars 2025",
+          "text": "Çhers frères et sœurs dans la foi je vous le conseille vivement elle est super cette application.QuAllah nous donnent la bonne compréhension.",
+          "rating": 5
+        },
+        {
+          "initials": "NT",
+          "name": "Nana Tanou",
+          "device": "1 avril 2025",
+          "text": "très bonne application, ça m'aide beaucoup 🥰",
+          "rating": 5
+        },
+        {
+          "initials": "IS",
+          "name": "Idrissa Samake",
+          "device": "5 août 2025",
+          "text": "Un excellent travail ! Merci",
+          "rating": 5
+        },
+        {
+          "initials": "SB",
+          "name": "Sarra Bahri (\"Anous Azouz Aychouha\")",
+          "device": "29 septembre 2024",
+          "text": "une bonne application bon courage et bon continuation 👏👏👏🌹🌹🌹🌹",
+          "rating": 5
+        },
+        {
+          "initials": "OA",
+          "name": "Omokayode Akanny",
+          "device": "29 mai 2025",
+          "text": "très bonne et utile application",
+          "rating": 5
+        },
+        {
+          "initials": "AG",
+          "name": "Abdoulaye Gningue",
+          "device": "16 janvier 2025",
+          "text": "Machallah, qu'Allah vous guide dans la paix et la droiture ,c'est une bon livre.",
+          "rating": 5
+        },
+        {
+          "initials": "SS",
+          "name": "Seynabou Senghor",
+          "device": "29 avril 2025",
+          "text": "Le mot merci ne suffira pas pour vous remercier qu'Allah vous récompense pour votre merveilleux travail ❤️🌹",
+          "rating": 5
+        },
+        {
+          "initials": "FS",
+          "name": "Fanta Souare",
+          "device": "2 juin 2025",
+          "text": "cette application est juste wahou merci qu'Allah met sa baraka sur vous et qu'il vous donnent la récompense au paradis amine yarab 🙏",
+          "rating": 5
+        },
+        {
+          "initials": "AD",
+          "name": "Abdoul djabar Danyoko",
+          "device": "26 juillet 2025",
+          "text": "c'est une très belle application. Mashallah !",
+          "rating": 5
+        },
+        {
+          "initials": "IC",
+          "name": "Idrissa Camara",
+          "device": "6 août 2025",
+          "text": "Je suis vraiment content de ce document. Vous avez permis à des millions de gens non arabes de connaître Allah. Pour ça, seul Allahou pourra vous récompenser. Je prie Qu'Allah vous accorde la vie facile ainsi qu'à vos familles et qu'Il nous accorde le paradis. amin !",
+          "rating": 5
+        },
+        {
+          "initials": "SK",
+          "name": "Souleymane Keïta",
+          "device": "1 octobre 2025",
+          "text": "Franchement j'adore beaucoup cette application, que dieux récompense et béni l'auteur de cette application et qu'il nous pardonne nos pêches et tout nos fautes conscient et inconscient et qu'il accepte tout tout nos prières insi qu'à nos familles et qu'il nous garde sur le droit chemin jusqu'à notre dernière souffle et surtout qu'il nous accorde ça miséricorde et nous accordez son paradis éternel Amine 🙏🙏🙏",
+          "rating": 5
+        },
+        {
+          "initials": "EM",
+          "name": "El Mn",
+          "device": "1 août 2026",
+          "text": "Je ne sais pas quoi dire 🫰🤌. C'est topr",
+          "rating": 5
+        },
+        {
+          "initials": "SS",
+          "name": "Setoute samate",
+          "device": "11 août 2025",
+          "text": "MachaAllah qu'Allah vous préserve très bonne application merci 🤲🤲🤲",
+          "rating": 5
+        },
+        {
+          "initials": "CD",
+          "name": "Cheick Diabate",
+          "device": "29 décembre 2024",
+          "text": "Incontestable vraiment très génial",
+          "rating": 5
+        },
+        {
+          "initials": "SD",
+          "name": "Sanogo Domba",
+          "device": "18 décembre 2025",
+          "text": "très favorite vous le développement de l'esprit humain",
+          "rating": 5
+        },
+        {
+          "initials": "MM",
+          "name": "mame marème bane",
+          "device": "8 mars 2026",
+          "text": "salam pourquoi l'application ne fonctionne plus",
+          "rating": 5
+        },
+        {
+          "initials": "DB",
+          "name": "Dalila Bahri",
+          "device": "27 décembre 2025",
+          "text": "super app, c'est très utile",
+          "rating": 5
+        },
+        {
+          "initials": "LY",
+          "name": "Landry Yarga",
+          "device": "10 décembre 2025",
+          "text": "Cette Application m'aide beaucoup merci 👌",
+          "rating": 5
+        },
+        {
+          "initials": "JK",
+          "name": "Jeanne Kikukama",
+          "device": "8 février 2026",
+          "text": "une très bonne application",
+          "rating": 5
+        },
+        {
+          "initials": "ZS",
+          "name": "Zeynab Sylla",
+          "device": "14 janvier 2026",
+          "text": "très Cool et facile",
+          "rating": 5
+        },
+        {
+          "initials": "AW",
+          "name": "Abdoul Wahab porgo",
+          "device": "10 janvier 2026",
+          "text": "très très intéressant",
+          "rating": 5
+        },
+        {
+          "initials": "YM",
+          "name": "Yohane Mouhali",
+          "device": "31 octobre 2025",
+          "text": "Merci beaucoup pour tout ça 👏👏👏👏👏",
+          "rating": 5
+        },
+        {
+          "initials": "FA",
+          "name": "Fousseni Arouna",
+          "device": "15 décembre 2025",
+          "text": "Maa shaa Allahu J'aime bien l'application",
+          "rating": 5
+        },
+        {
+          "initials": "DA",
+          "name": "Djamilatou Alim",
+          "device": "20 janvier 2026",
+          "text": "très bonne application Dieu merci Macha Allah",
+          "rating": 5
+        },
+        {
+          "initials": "AA",
+          "name": "Arminata Abdou",
+          "device": "26 mars 2025",
+          "text": "Merci beaucoup à vous 👏 j'adore",
+          "rating": 5
+        },
+        {
+          "initials": "HR",
+          "name": "Halima Radhwani",
+          "device": "26 septembre 2025",
+          "text": "au top l'application Allahoumma barek merci beaucoup 🤲",
+          "rating": 5
+        },
+        {
+          "initials": "MC",
+          "name": "Mahamoudou Coulibaly",
+          "device": "17 août 2025",
+          "text": "trop chic,trop chouette",
+          "rating": 5
+        },
+        {
+          "initials": "LD",
+          "name": "Lamine Dieye",
+          "device": "22 mars 2025",
+          "text": "Bon travail à vous que dieu vous bénisse l'application est important 🙏",
+          "rating": 5
+        },
+        {
+          "initials": "AB",
+          "name": "aimé boussoukou",
+          "device": "25 octobre 2025",
+          "text": "Allah Akbar cette application est très bénéfique",
+          "rating": 5
+        },
+        {
+          "initials": "IM",
+          "name": "Ibrahim Mbaye",
+          "device": "29 octobre 2024",
+          "text": "C très bon a apprendre",
+          "rating": 5
+        },
+        {
+          "initials": "TT",
+          "name": "Tassala Toure",
+          "device": "21 mars 2025",
+          "text": "MashaAllah j'ai bcp aimé qu'Allah vous bénisse pour l'effort que vous fournissez pour la communauté musulmane 🤲barakallahu feekum🤲",
+          "rating": 5
+        },
+        {
+          "initials": "MD",
+          "name": "Mohamed Diawara",
+          "device": "27 juin 2025",
+          "text": "j'aime beaucoup merci a tous",
+          "rating": 5
+        },
+        {
+          "initials": "FA",
+          "name": "Ferjani Ali",
+          "device": "5 novembre 2025",
+          "text": "meilleurs applications yr rjab bon continuation 😍😍🥰",
+          "rating": 5
+        },
+        {
+          "initials": "MA",
+          "name": "moustapha ahmed",
+          "device": "22 août 2025",
+          "text": "Magnifique application qu'allah vous recompase pour ca",
+          "rating": 5
+        },
+        {
+          "initials": "MB",
+          "name": "Mariam Barry",
+          "device": "4 octobre 2025",
+          "text": "très bonne application ☺ je recommande",
+          "rating": 5
+        },
+        {
+          "initials": "DO",
+          "name": "Dramane Ouattara",
+          "device": "19 juillet 2025",
+          "text": "cette application est la meilleure de tout les temps",
+          "rating": 5
+        },
+        {
+          "initials": "AG",
+          "name": "Assane Gnamou",
+          "device": "17 mai 2025",
+          "text": "facile à utiliser",
+          "rating": 5
+        },
+        {
+          "initials": "AL",
+          "name": "Amadou Lee",
+          "device": "27 novembre 2025",
+          "text": "une très bonne application",
+          "rating": 5
+        },
+        {
+          "initials": "OD",
+          "name": "Ousseynou DIOP",
+          "device": "22 mars 2025",
+          "text": "inimaginable merci beaucoup",
+          "rating": 5
+        },
+        {
+          "initials": "ZJ",
+          "name": "Zakaria Jose Kone",
+          "device": "4 mars 2026",
+          "text": "très bonne cette application",
+          "rating": 5
+        },
+        {
+          "initials": "MD",
+          "name": "Mr dof Dof",
+          "device": "24 juin 2025",
+          "text": "trop de fautes de comparé à un vrai coran",
+          "rating": 5
+        },
+        {
+          "initials": "OM",
+          "name": "Omar Manè",
+          "device": "4 mars 2025",
+          "text": "Vraiment extraordinaire machalla",
+          "rating": 5
+        },
+        {
+          "initials": "KI",
+          "name": "Koné Idris",
+          "device": "29 mai 2025",
+          "text": "très bonne application",
+          "rating": 5
+        },
+        {
+          "initials": "KK",
+          "name": "kourouma kaman",
+          "device": "25 septembre 2025",
+          "text": "très bonne application",
+          "rating": 5
+        },
+        {
+          "initials": "OD",
+          "name": "Ousseynou DIOP",
+          "device": "28 juillet 2025",
+          "text": "j'adore c'est très bien",
+          "rating": 5
+        },
+        {
+          "initials": "MM",
+          "name": "Mr MANANGA",
+          "device": "19 février 2026",
+          "text": "meilleur guide spirituel",
+          "rating": 5
+        },
+        {
+          "initials": "TM",
+          "name": "Tyz Man86",
+          "device": "8 décembre 2025",
+          "text": "vous devez améliorer quelques points",
+          "rating": 5
+        },
+        {
+          "initials": "SI",
+          "name": "Samba Ichrach",
+          "device": "8 novembre 2025",
+          "text": "rien à dire j'ai ce que je cherchais",
+          "rating": 5
+        },
+        {
+          "initials": "RB",
+          "name": "Rasta Barou",
+          "device": "7 octobre 2025",
+          "text": "j'ai aimé beaucoup",
+          "rating": 5
+        },
+        {
+          "initials": "NG",
+          "name": "Nadia GbaneDIABY",
+          "device": "10 novembre 2025",
+          "text": "Alhamdoulillah !Merveilleusement bénéfique !!!",
+          "rating": 5
+        },
+        {
+          "initials": "DM",
+          "name": "DaoudaDiallo Malide",
+          "device": "20 mars 2025",
+          "text": "je beaucoup apprécié",
+          "rating": 5
+        },
+        {
+          "initials": "SB",
+          "name": "Saitama Black God 777",
+          "device": "23 novembre 2024",
+          "text": "Marshallah c'est ce que la plupart recherche",
+          "rating": 5
+        },
+        {
+          "initials": "MS",
+          "name": "Mamoudou Sylla",
+          "device": "2 novembre 2024",
+          "text": "HALHAMDOULILAHY JE VOUS REMERCIE BEAUCOUP ÇA FAIT LONGTEMPS QUE JE CHERCHAIS ÇA SUR LE NET JAI ENFIN TROUVER QUE DIEU VOUS BÉNIE VOUS ET VÔTRE FAMILLE MERCI INFINIMENT !",
+          "rating": 5
+        },
+        {
+          "initials": "IK",
+          "name": "Ibrahim Konsigui",
+          "device": "18 novembre 2025",
+          "text": "les versets ce refuse de télécharger",
+          "rating": 5
+        },
+        {
+          "initials": "YK",
+          "name": "Youss Kouadio",
+          "device": "22 octobre 2025",
+          "text": "très bon l'application",
+          "rating": 5
+        },
+        {
+          "initials": "AB",
+          "name": "Alhasko Bob",
+          "device": "2 mai 2025",
+          "text": "la meilleure application du monde",
+          "rating": 5
+        }
+      ]
+    },
+    "cta": {
+      "title": "Commencez votre voyage d'apprentissage aujourd'hui",
+      "subtitle": "Téléchargez Noor Phonetic Quran gratuitement et transformez votre expérience de récitation du Coran.",
+      "downloadOn": "Télécharger sur"
+    }
+  },
+  "cgu": {
+    "meta": {
+      "title": "Conditions Générales d'Utilisation - Noor Phonetic Quran",
+      "description": "Conditions générales d'utilisation de Noor Phonetic Quran : accès au service, compte utilisateur, abonnement Premium, propriété intellectuelle, responsabilité et droit applicable.",
+      "keywords": "CGU Noor Phonetic Quran, conditions générales d'utilisation, conditions d'utilisation application Coran"
+    },
+    "appName": "Noor Phonetic Quran",
+    "pageTitle": "CONDITIONS GÉNÉRALES D'UTILISATION",
+    "updateDate": "Dernière mise à jour : 31 juillet 2026",
+    "intro1": "Les présentes Conditions Générales d'Utilisation (\"CGU\") régissent l'accès et l'utilisation de l'application mobile Noor Phonetic Quran (\"l'Application\", \"nous\", \"notre\" ou \"nos\"), éditée à titre individuel et disponible sur Google Play et l'App Store. En téléchargeant, installant ou utilisant l'Application, vous acceptez d'être lié par les présentes CGU. Si vous n'acceptez pas ces conditions, veuillez ne pas utiliser l'Application.",
+    "intro2Before": "Pour toute information sur le traitement de vos données personnelles, veuillez consulter notre",
+    "intro2LinkText": "Politique de Confidentialité",
+    "intro2After": ", qui complète les présentes CGU.",
+    "summary": {
+      "heading": "RÉSUMÉ DES POINTS CLÉS",
+      "intro": "Ce résumé fournit les points clés de nos CGU, mais nous vous invitons à lire l'intégralité du document via la table des matières ci-dessous.",
+      "points": [
+        {
+          "question": "Que propose l'Application ?",
+          "answer": "Un ensemble d'outils gratuits et payants pour lire, apprendre et mémoriser le Coran : lecture phonétique et en arabe (lectures Hafs et Warsh), tajweed, mémorisation gamifiée, suivi de khatma, correction de récitation par enregistrement audio, quiz, radio/TV islamiques en direct et un widget \"verset du jour\" sur l'écran d'accueil."
+        },
+        {
+          "question": "Ai-je besoin d'un compte ?",
+          "answer": "Non, l'essentiel de l'Application est utilisable sans compte. Un compte optionnel (email, Google ou Apple) permet de synchroniser votre progression et votre abonnement Premium."
+        },
+        {
+          "question": "L'Application est-elle payante ?",
+          "answer": "L'Application est gratuite avec des publicités. Un abonnement Premium optionnel, géré via Google Play ou l'App Store, supprime la publicité et débloque des fonctionnalités avancées."
+        },
+        {
+          "question": "Puis-je enregistrer ma voix ?",
+          "answer": "Oui, la fonction de correction de récitation enregistre votre voix localement pour analyser votre prononciation. Voir la section dédiée pour le détail du fonctionnement et de vos responsabilités."
+        },
+        {
+          "question": "Qui est responsable du contenu religieux ?",
+          "answer": "Nous mettons tout en œuvre pour la fiabilité des textes, traductions et translittérations, mais l'Application est un outil pédagogique et ne remplace pas un enseignement traditionnel auprès d'un enseignant qualifié."
+        },
+        {
+          "question": "Comment nous contacter ?",
+          "answer": "Via le formulaire de contact intégré à l'Application ou par email à othmeneb@gmail.com."
+        }
+      ]
+    },
+    "toc": {
+      "heading": "TABLE DES MATIÈRES",
+      "items": [
+        {
+          "id": "service",
+          "label": "1. LE SERVICE"
+        },
+        {
+          "id": "eligibility",
+          "label": "2. ÉLIGIBILITÉ"
+        },
+        {
+          "id": "account",
+          "label": "3. COMPTE UTILISATEUR"
+        },
+        {
+          "id": "premium",
+          "label": "4. ABONNEMENT PREMIUM ET ACHATS INTÉGRÉS"
+        },
+        {
+          "id": "recitation",
+          "label": "5. CORRECTION DE RÉCITATION ET ENREGISTREMENTS AUDIO"
+        },
+        {
+          "id": "conduct",
+          "label": "6. RÈGLES D'UTILISATION"
+        },
+        {
+          "id": "ip",
+          "label": "7. PROPRIÉTÉ INTELLECTUELLE"
+        },
+        {
+          "id": "religious-content",
+          "label": "8. CONTENU RELIGIEUX ET ÉDUCATIF"
+        },
+        {
+          "id": "accessibility",
+          "label": "9. ACCESSIBILITÉ"
+        },
+        {
+          "id": "ads",
+          "label": "10. PUBLICITÉ ET SERVICES TIERS"
+        },
+        {
+          "id": "availability",
+          "label": "11. DISPONIBILITÉ ET MODIFICATIONS DU SERVICE"
+        },
+        {
+          "id": "termination",
+          "label": "12. SUSPENSION ET RÉSILIATION"
+        },
+        {
+          "id": "disclaimer",
+          "label": "13. LIMITATION DE RESPONSABILITÉ"
+        },
+        {
+          "id": "law",
+          "label": "14. DROIT APPLICABLE ET LITIGES"
+        },
+        {
+          "id": "updates",
+          "label": "15. MODIFICATION DES CGU"
+        },
+        {
+          "id": "contact",
+          "label": "16. NOUS CONTACTER"
+        }
+      ]
+    },
+    "sections": {
+      "service": {
+        "heading": "1. LE SERVICE",
+        "intro": "Noor Phonetic Quran est une application mobile permettant de lire, apprendre et mémoriser le Coran, notamment via :",
+        "items": [
+          "la lecture du Coran en translittération phonétique et en arabe (lectures Hafs et Warsh), avec traductions et audio ;",
+          "des cours de prononciation et de tajweed, avec correction de récitation par enregistrement audio ;",
+          "un module de mémorisation gamifié (niveaux, badges, défis quotidiens) et un plan d'apprentissage quotidien ;",
+          "un suivi de khatma (lecture complète du Coran) et un programme spécial Ramadan ;",
+          "des adhkar quotidiens, un quiz de connaissances islamiques, une radio et des chaînes TV islamiques en direct ;",
+          "un widget \"verset du jour\" affichable sur l'écran d'accueil de votre appareil (iOS et Android)."
+        ],
+        "outro": "Ces fonctionnalités peuvent évoluer, être ajoutées ou retirées au fil des mises à jour de l'Application, sans que cela ne constitue une modification substantielle des présentes CGU."
+      },
+      "eligibility": {
+        "heading": "2. ÉLIGIBILITÉ",
+        "body": "L'Application s'adresse à toute personne souhaitant apprendre ou pratiquer la lecture du Coran. Si vous êtes mineur, l'utilisation de l'Application doit se faire sous la supervision d'un parent ou tuteur légal, notamment pour toute fonctionnalité impliquant un achat intégré."
+      },
+      "account": {
+        "heading": "3. COMPTE UTILISATEUR",
+        "brief": "En bref",
+        "briefText": "Un compte est optionnel et sert uniquement à synchroniser votre progression et votre abonnement.",
+        "body": "La majorité des fonctionnalités de l'Application est accessible sans création de compte. Vous pouvez créer un compte optionnel par email, via Google ou via Apple, afin de conserver votre progression (mémorisation, khatma, plan quotidien) et votre statut Premium en cas de changement d'appareil. Vous êtes responsable de la confidentialité de vos identifiants et de toute activité effectuée depuis votre compte. Vous pouvez demander la suppression de votre compte et des données associées à tout moment en nous contactant (voir section 16) ou depuis les réglages de l'Application lorsque cette option y est disponible."
+      },
+      "premium": {
+        "heading": "4. ABONNEMENT PREMIUM ET ACHATS INTÉGRÉS",
+        "brief": "En bref",
+        "briefText": "L'Application est gratuite avec publicité ; l'abonnement Premium (géré par Google Play ou l'App Store) supprime la publicité et débloque des fonctionnalités avancées.",
+        "body": "Les achats intégrés (notamment l'abonnement Premium) sont traités directement par Google Play ou l'App Store selon votre plateforme, conformément à leurs propres conditions d'utilisation et politiques de facturation. La facturation, le renouvellement automatique, l'annulation et le remboursement d'un abonnement sont gérés depuis les réglages de votre compte Google Play ou Apple ID — nous n'avons pas accès à vos moyens de paiement et ne pouvons pas déclencher de remboursement directement. Le contenu et le périmètre exact des avantages Premium sont décrits dans l'Application au moment de l'achat et peuvent évoluer avec les mises à jour."
+      },
+      "recitation": {
+        "heading": "5. CORRECTION DE RÉCITATION ET ENREGISTREMENTS AUDIO",
+        "brief": "En bref",
+        "briefText": "Vos enregistrements de récitation sont utilisés pour vous fournir un retour sur votre prononciation ; ne partagez que ce que vous êtes à l'aise de transmettre.",
+        "bodyBefore": "La fonctionnalité de correction de récitation vous permet d'enregistrer votre voix pendant votre lecture du Coran afin de recevoir un retour personnalisé (automatisé et/ou par un examinateur, selon la version de la fonctionnalité active dans l'Application). En utilisant cette fonctionnalité, vous consentez à l'enregistrement et au traitement de votre voix aux fins d'analyse de prononciation et d'amélioration de votre apprentissage. Vous ne devez pas soumettre d'enregistrement contenant des propos illicites, diffamatoires ou portant atteinte aux droits de tiers. Le détail du traitement, du stockage et de la durée de conservation de ces enregistrements est précisé dans notre",
+        "linkText": "Politique de Confidentialité",
+        "bodyAfter": "."
+      },
+      "conduct": {
+        "heading": "6. RÈGLES D'UTILISATION",
+        "intro": "En utilisant l'Application, vous vous engagez à ne pas :",
+        "items": [
+          "utiliser l'Application à des fins illégales ou contraires aux présentes CGU ;",
+          "tenter d'accéder sans autorisation à nos systèmes, de les perturber ou de contourner leurs mesures de sécurité ;",
+          "décompiler, désassembler ou tenter d'extraire le code source de l'Application, sauf dans la mesure où la loi l'autorise expressément ;",
+          "reproduire, redistribuer ou exploiter commercialement tout ou partie du contenu de l'Application sans autorisation préalable ;",
+          "utiliser des outils automatisés (bots, scrapers) pour accéder à l'Application ou en extraire des données."
+        ]
+      },
+      "ip": {
+        "heading": "7. PROPRIÉTÉ INTELLECTUELLE",
+        "body": "L'Application, son code, son design, ses illustrations et les contenus pédagogiques qui lui sont propres (cours de tajweed, structuration du plan d'apprentissage, etc.) sont protégés par le droit de la propriété intellectuelle et restent notre propriété ou celle de nos concédants. Le texte coranique lui-même appartient au patrimoine commun et n'est revendiqué par personne ; les traductions, translittérations phonétiques, récitations audio et contenus de tafsir intégrés proviennent de sources tierces identifiées dans l'Application ou de partenaires (récitateurs, éditeurs de traduction) et sont utilisés conformément aux autorisations obtenues. Aucune disposition des présentes CGU ne vous confère de droit sur ces éléments au-delà d'un usage personnel et non commercial de l'Application."
+      },
+      "religiousContent": {
+        "heading": "8. CONTENU RELIGIEUX ET ÉDUCATIF",
+        "brief": "En bref",
+        "briefText": "L'Application est un outil pédagogique d'accompagnement, pas un substitut à un enseignement traditionnel.",
+        "body": "Nous mettons tout en œuvre pour assurer l'exactitude du texte coranique, des traductions, des translittérations phonétiques et des règles de tajweed présentées dans l'Application, notamment en nous appuyant sur des sources reconnues. Toutefois, la translittération phonétique est par nature une approximation destinée à faciliter l'apprentissage et ne remplace pas l'apprentissage de la lecture de l'arabe coranique auprès d'un enseignant qualifié. De même, le retour fourni par la fonctionnalité de correction de récitation est un outil d'aide à l'apprentissage et ne garantit pas une validation religieuse de votre récitation."
+      },
+      "accessibility": {
+        "heading": "9. ACCESSIBILITÉ",
+        "brief": "En bref",
+        "briefText": "Nous travaillons à rendre l'Application utilisable par le plus grand nombre, y compris pour les personnes en situation de handicap.",
+        "body": "L'Application intègre des informations d'accessibilité (libellés et rôles Semantics) sur ses principaux écrans et contrôles afin de faciliter la navigation avec les lecteurs d'écran natifs de votre appareil (VoiceOver sur iOS, TalkBack sur Android). Elle respecte par ailleurs la taille de police définie dans les réglages d'accessibilité de votre système d'exploitation pour l'affichage des textes. Ces efforts d'accessibilité sont continus et peuvent ne pas couvrir uniformément l'ensemble des écrans et fonctionnalités à un instant donné. Si vous rencontrez une difficulté d'accessibilité en utilisant l'Application, nous vous invitons à nous en faire part via le formulaire de contact (voir section 16) afin que nous puissions l'améliorer."
+      },
+      "ads": {
+        "heading": "10. PUBLICITÉ ET SERVICES TIERS",
+        "body1Before": "L'Application intègre des services techniques tiers (mesure d'audience, diagnostic technique, régie publicitaire, achats intégrés) décrits en détail dans notre",
+        "linkText": "Politique de Confidentialité",
+        "body1After": ". Ces services sont soumis à leurs propres conditions d'utilisation, que nous vous invitons à consulter.",
+        "body2": "Certaines publicités sont entièrement optionnelles : vous pouvez volontairement choisir de regarder une publicité récompensée (\"rewarded ad\") depuis le menu de soutien de l'Application, si vous souhaitez nous soutenir sans passer par l'abonnement Premium. Cette publicité optionnelle ne s'affiche jamais sans votre action explicite."
+      },
+      "availability": {
+        "heading": "11. DISPONIBILITÉ ET MODIFICATIONS DU SERVICE",
+        "body": "Nous nous efforçons de maintenir l'Application accessible et fonctionnelle, sans garantir une disponibilité continue ou sans erreur. Certaines fonctionnalités nécessitent une connexion internet (téléchargement audio, radio/TV en direct, synchronisation de compte) et peuvent être indisponibles hors connexion ou en cas de panne d'un service tiers. Nous pouvons ajouter, modifier ou retirer des fonctionnalités de l'Application à tout moment, notamment pour des raisons techniques, légales ou liées à l'évolution de nos partenariats de contenu."
+      },
+      "termination": {
+        "heading": "12. SUSPENSION ET RÉSILIATION",
+        "body": "Vous pouvez cesser d'utiliser l'Application à tout moment en la désinstallant. Nous nous réservons le droit de suspendre ou de résilier votre accès à l'Application, notamment en cas de non-respect des présentes CGU, sans que cela n'affecte les achats déjà effectués via Google Play ou l'App Store, dont la gestion relève de ces plateformes."
+      },
+      "disclaimer": {
+        "heading": "13. LIMITATION DE RESPONSABILITÉ",
+        "body": "Dans la limite permise par la loi applicable, l'Application est fournie \"en l'état\" et \"selon disponibilité\", sans garantie d'aucune sorte, expresse ou implicite. Nous ne pourrons être tenus responsables des dommages indirects, incidents ou consécutifs résultant de l'utilisation ou de l'impossibilité d'utiliser l'Application, y compris en cas d'indisponibilité temporaire, de perte de données de progression, ou d'erreur dans un contenu tiers (traduction, audio, tafsir) intégré à l'Application. Rien dans les présentes CGU n'exclut une responsabilité qui ne peut être légalement exclue (par exemple en cas de faute intentionnelle ou de négligence grave)."
+      },
+      "law": {
+        "heading": "14. DROIT APPLICABLE ET LITIGES",
+        "body": "Les présentes CGU sont régies par le droit français, sans préjudice des dispositions impératives de protection des consommateurs qui pourraient s'appliquer dans votre pays de résidence. En cas de litige, une solution amiable sera recherchée en priorité en nous contactant directement (voir section 16) avant toute action judiciaire."
+      },
+      "updates": {
+        "heading": "15. MODIFICATION DES CGU",
+        "brief": "En bref",
+        "briefText": "Nous pouvons mettre à jour ces CGU pour refléter l'évolution de l'Application ou de la réglementation.",
+        "body": "Nous pouvons modifier les présentes CGU de temps à autre, notamment lors de l'ajout de nouvelles fonctionnalités. La version mise à jour sera indiquée par une nouvelle date de \"Dernière mise à jour\" en haut de cette page et sera effective dès sa publication. En cas de modification substantielle, nous vous en informerons par un avis dans l'Application. La poursuite de l'utilisation de l'Application après publication des modifications vaut acceptation des CGU mises à jour."
+      },
+      "contact": {
+        "heading": "16. NOUS CONTACTER",
+        "bodyBefore": "Pour toute question relative aux présentes CGU, vous pouvez nous contacter via le formulaire de contact intégré à l'Application, ou par email à",
+        "email": "othmeneb@gmail.com",
+        "bodyAfter": "."
+      }
+    },
+    "footer": "© 2026 Noor Phonetic Quran. Tous droits réservés."
+  },
+  "contactPage": {
+    "meta": {
+      "title": "Contact - Noor Phonetic Quran",
+      "description": "Une question sur l'application Noor Phonetic Quran, une suggestion pour la phonétique du Coran ou un problème technique ? Contactez notre équipe, réponse sous 48 heures."
+    }
+  },
+  "reviews": {
+    "meta": {
+      "title": "Avis des utilisateurs - Noor Phonetic Quran",
+      "description": "Découvrez plus de 160 avis vérifiés d'utilisateurs de Noor Phonetic Quran, l'application pour apprendre à réciter, mémoriser et lire le Coran en phonétique, avec une note moyenne de 5 étoiles."
+    },
+    "eyebrow": "Avis vérifiés",
+    "title": "Ce que disent nos utilisateurs",
+    "subtitle": "Découvrez les avis de notre communauté grandissante d'utilisateurs satisfaits",
+    "ratingCountLabel": "sur %COUNT% avis",
+    "loadMoreLabel": "Voir plus d'avis"
+  },
+  "audioCoran": {
+    "meta": {
+      "title": "Audio du Coran Synchronisé : Plusieurs Récitateurs et Écoute Hors Ligne | Noor Phonetic Quran",
+      "description": "Écoutez le Coran avec un audio synchronisé verset par verset, choisissez parmi plusieurs récitateurs et téléchargez l'audio pour une écoute hors ligne avec Noor Phonetic Quran. Gratuit sur iOS et Android.",
+      "keywords": "audio Coran, récitation Coran audio, plusieurs récitateurs Coran, Coran audio hors ligne, télécharger Coran audio, écouter le Coran, audio synchronisé Coran, récitateurs Coran application",
+      "ogTitle": "Audio du Coran Synchronisé : Plusieurs Récitateurs et Écoute Hors Ligne",
+      "ogDescription": "Audio synchronisé verset par verset, plusieurs récitateurs et téléchargement hors ligne. Application gratuite Noor Phonetic Quran."
+    },
+    "breadcrumb": {
+      "home": "Accueil",
+      "current": "Audio du Coran"
+    },
+    "hero": {
+      "title": "Audio du Coran Synchronisé : Plusieurs Récitateurs, Écoute Hors Ligne",
+      "subtitle": "Chaque verset est accompagné d'un audio synchronisé pour entendre la prononciation correcte, avec le choix du récitateur et la possibilité de télécharger l'audio pour une écoute sans connexion.",
+      "backLink": "Retour à l'accueil",
+      "googlePlay": "Google Play",
+      "appStore": "App Store"
+    },
+    "intro": {
+      "title": "Une écoute pensée pour l'apprentissage",
+      "paragraph1": "Entendre la bonne prononciation est essentiel pour apprendre à réciter le Coran correctement. Noor Phonetic Quran associe chaque verset à un audio synchronisé, pour que vous puissiez suivre le texte, sa phonétique et l'écoute en même temps.",
+      "paragraph2": "Vous n'êtes pas limité à un seul récitateur ni à une connexion Internet permanente : choisissez votre voix préférée et téléchargez l'audio pour l'emporter partout avec vous."
+    },
+    "features": {
+      "title": "Ce que propose l'audio du Coran",
+      "items": [
+        {
+          "title": "Audio synchronisé verset par verset",
+          "description": "chaque verset est lu à voix haute au moment où vous le lisez, pour corriger votre prononciation en temps réel."
+        },
+        {
+          "title": "Plusieurs récitateurs au choix",
+          "description": "sélectionnez le récitateur qui vous convient le mieux parmi ceux disponibles dans l'application."
+        },
+        {
+          "title": "Écoute par verset, sourate ou plage de sourates",
+          "description": "choisissez précisément la portion du Coran que vous souhaitez écouter."
+        },
+        {
+          "title": "Vitesse de lecture réglable",
+          "description": "ralentissez l'audio de 0.7x à 1x pour mieux détacher chaque mot lorsque vous apprenez."
+        },
+        {
+          "title": "Téléchargement pour écoute hors ligne",
+          "description": "téléchargez l'audio à l'avance pour écouter le Coran sans connexion Internet, où que vous soyez."
+        }
+      ]
+    },
+    "screenshots": {
+      "title": "Aperçu de l'audio du Coran",
+      "alts": [
+        "Noor Phonetic Quran - Barre de lecture audio synchronisée",
+        "Noor Phonetic Quran - Sélection d'une plage de versets et téléchargement hors ligne",
+        "Noor Phonetic Quran - Sélection d'une plage de sourates et réglage de la vitesse",
+        "Noor Phonetic Quran - Choix du récitateur"
+      ]
+    },
+    "faq": {
+      "title": "Questions fréquentes sur l'audio du Coran",
+      "items": [
+        {
+          "question": "L'audio est-il synchronisé avec le texte ?",
+          "answer": "Oui, chaque verset est accompagné d'un audio synchronisé pour entendre la prononciation correcte pendant que vous suivez le texte et sa transcription phonétique."
+        },
+        {
+          "question": "Combien de récitateurs sont disponibles ?",
+          "answer": "Vous pouvez choisir parmi plusieurs récitateurs du Coran directement dans les réglages de lecture audio, selon vos préférences d'écoute."
+        },
+        {
+          "question": "Peut-on écouter le Coran hors ligne ?",
+          "answer": "Oui, vous pouvez télécharger l'audio d'un verset, d'une sourate ou d'une plage de sourates pour une écoute complète sans connexion Internet."
+        },
+        {
+          "question": "Peut-on changer la vitesse de lecture de l'audio ?",
+          "answer": "Oui, la vitesse de lecture est réglable de 0.7x à 1x pour adapter l'écoute à votre niveau d'apprentissage."
+        }
+      ]
+    },
+    "related": {
+      "title": "Découvrez aussi",
+      "tajweed": "Règles de Tajweed",
+      "memorization": "Mémoriser le Coran (Hifz)",
+      "allFeatures": "Toutes les fonctionnalités"
+    }
+  },
+  "privacyPolicy": {
+    "title": "Noor Phonetic Quran",
+    "heading": "POLITIQUE DE CONFIDENTIALITÉ",
+    "lastUpdated": "Dernière mise à jour : 28 juillet 2026",
+    "intro1": "Cette notice de confidentialité pour Noor Phonetic Quran (\"nous\", \"notre\" ou \"nos\") décrit comment et pourquoi nous collectons, stockons, utilisons et/ou partageons certaines informations lorsque vous utilisez notre application mobile Noor Phonetic Quran (\"Services\").",
+    "intro2": "Cette politique de confidentialité complète nos <cguLink>Conditions Générales d'Utilisation</cguLink>, qui régissent plus largement l'accès et l'utilisation de nos Services.",
+    "intro3": "Des questions ou des préoccupations ? Lire cette notice de confidentialité vous aidera à comprendre vos droits et choix en matière de confidentialité. Si vous n'êtes pas d'accord avec nos politiques et pratiques, veuillez ne pas utiliser nos Services. Si vous avez encore des questions ou des préoccupations, veuillez nous contacter à l'adresse suivante : <mailLink>othmeneb@gmail.com</mailLink>.",
+    "summary": {
+      "heading": "RÉSUMÉ DES POINTS CLÉS",
+      "intro": "Ce résumé fournit les points clés de notre notice de confidentialité, mais vous pouvez obtenir plus de détails sur chacun de ces sujets en utilisant notre table des matières ci-dessous.",
+      "q1": {
+        "title": "Quelles informations personnelles traitons-nous ?",
+        "text": "Nous ne collectons aucune information d'identité directe (nom, email) sauf si vous créez un compte optionnel, utilisez la correction de récitation ou nous contactez volontairement via le formulaire de contact. L'application utilise aussi des services techniques (statistiques d'usage anonymisées, suivi des plantages, achats intégrés) qui traitent des identifiants techniques de votre appareil. Voir la section \"Quelles informations collectons-nous ?\" pour le détail."
+      },
+      "q2": {
+        "title": "Traitons-nous des informations personnelles sensibles ?",
+        "text": "Si vous utilisez la fonctionnalité optionnelle de correction de récitation, votre enregistrement vocal (donnée pouvant être considérée comme sensible/biométrique) est stocké de façon sécurisée pour vous fournir un retour sur votre prononciation. En dehors de cette fonctionnalité optionnelle, nous ne traitons aucune information personnelle sensible."
+      },
+      "q3": {
+        "title": "Recevons-nous des informations de la part de tiers ?",
+        "text": "Non, nous ne recevons aucune information de tiers en dehors des services techniques listés ci-dessous (Firebase, Google AdMob, stores d'applications)."
+      },
+      "q4": {
+        "title": "Comment traitons-nous vos informations ?",
+        "text": "Nous traitons vos informations pour faire fonctionner l'application, mesurer son usage de façon agrégée, diagnostiquer les problèmes techniques, gérer les abonnements et répondre à vos messages de contact."
+      },
+      "q5": {
+        "title": "Dans quelles situations et avec quelles parties partageons-nous des informations personnelles ?",
+        "text": "Nous partageons certaines données techniques avec nos prestataires (Google Firebase, Google AdMob) qui agissent comme sous-traitants pour le fonctionnement de l'application. Nous ne vendons aucune donnée."
+      },
+      "q6": {
+        "title": "Quels sont vos droits ?",
+        "text": "Selon votre localisation, vous pouvez avoir un droit d'accès, de rectification, d'opposition et de suppression de vos données. Voir la section \"Quels sont vos droits en matière de confidentialité ?\"."
+      },
+      "q7": {
+        "title": "Comment exercer vos droits ?",
+        "text": "Le moyen le plus simple est de nous contacter à <mailLink>othmeneb@gmail.com</mailLink>. Nous répondrons à votre demande conformément à la loi applicable."
+      }
+    },
+    "toc": {
+      "heading": "TABLE DES MATIÈRES",
+      "items": {
+        "collect": "QUELLES INFORMATIONS COLLECTONS-NOUS ?",
+        "process": "COMMENT TRAITONS-NOUS VOS INFORMATIONS ?",
+        "legal": "SUR QUELLES BASES JURIDIQUES NOUS APPUYONS-NOUS POUR TRAITER VOS INFORMATIONS PERSONNELLES ?",
+        "share": "QUAND ET AVEC QUI PARTAGEONS-NOUS VOS INFORMATIONS PERSONNELLES ?",
+        "keep": "COMBIEN DE TEMPS CONSERVONS-NOUS VOS INFORMATIONS ?",
+        "rights": "QUELS SONT VOS DROITS EN MATIÈRE DE CONFIDENTIALITÉ ?",
+        "dnt": "CONTRÔLES DES FONCTIONNALITÉS \"DO-NOT-TRACK\"",
+        "usRights": "LES RÉSIDENTS DES ÉTATS-UNIS ONT-ILS DES DROITS SPÉCIFIQUES EN MATIÈRE DE CONFIDENTIALITÉ ?",
+        "updates": "METTONS-NOUS À JOUR CETTE NOTICE ?",
+        "contact": "COMMENT NOUS CONTACTER À PROPOS DE CETTE NOTICE ?",
+        "access": "COMMENT CONSULTER, METTRE À JOUR OU SUPPRIMER LES DONNÉES QUE NOUS COLLECTONS ?"
+      }
+    },
+    "sections": {
+      "collect": {
+        "heading": "QUELLES INFORMATIONS COLLECTONS-NOUS ?",
+        "disclosedTitle": "Informations personnelles que vous nous divulguez",
+        "disclosedIntro": "<strong>En bref</strong> : Nous collectons les informations personnelles que vous nous fournissez volontairement, par exemple lorsque vous créez un compte, utilisez la correction de récitation ou notre formulaire de contact.",
+        "disclosedContact": "Si vous nous contactez via le formulaire de contact intégré à l'application, nous collectons votre nom, votre adresse email et le contenu de votre message, ainsi que des informations techniques associées (plateforme, langue, version de l'application, type d'appareil, fuseau horaire) afin de pouvoir vous répondre et diagnostiquer d'éventuels problèmes.",
+        "disclosedAccount": "Si vous créez un compte optionnel, nous collectons votre adresse email (connexion par email) ou les informations transmises par Google ou Apple lors d'une connexion via ces services (identifiant de compte, nom et adresse email si vous choisissez de les partager), afin de créer et sécuriser votre profil et de synchroniser votre progression et votre abonnement Premium.",
+        "audioTitle": "Enregistrements audio (correction de récitation)",
+        "audioIntro": "<strong>En bref</strong> : Si vous utilisez la correction de récitation, votre enregistrement vocal est envoyé de façon sécurisée sur nos serveurs (Google Firebase Storage) afin qu'il puisse être analysé et/ou relu par un examinateur.",
+        "audioDetail": "La voix peut être considérée comme une donnée biométrique ou sensible selon la réglementation applicable. Lorsque vous utilisez la fonctionnalité de correction de récitation, votre enregistrement audio est stocké dans un espace dédié à votre compte (Google Firebase Storage), accessible uniquement par vous-même et par les examinateurs autorisés à traiter votre soumission, aux seules fins de vous fournir un retour sur votre prononciation. Ces enregistrements ne sont ni utilisés à des fins publicitaires, ni partagés avec des tiers en dehors des prestataires techniques nécessaires à leur stockage (Google Firebase). Vous pouvez demander la suppression de vos enregistrements à tout moment en nous contactant (voir section \"Comment nous contacter\").",
+        "autoTitle": "Données collectées automatiquement",
+        "autoIntro": "Comme la plupart des applications, Noor Phonetic Quran utilise des services techniques tiers qui collectent automatiquement certaines données d'usage et d'appareil :",
+        "table": {
+          "headers": {
+            "service": "Service",
+            "purpose": "Finalité",
+            "data": "Données concernées"
+          },
+          "rows": {
+            "analytics": {
+              "service": "Google Firebase Analytics",
+              "purpose": "Mesure d'audience et d'usage des fonctionnalités (écrans consultés, actions dans l'app comme la lecture, la mémorisation ou le quiz), sous forme agrégée et anonymisée",
+              "data": "Identifiant publicitaire/d'installation, statistiques d'usage, langue, statut premium"
+            },
+            "crashlytics": {
+              "service": "Google Firebase Crashlytics",
+              "purpose": "Diagnostic technique des plantages de l'application afin de corriger les bugs",
+              "data": "Rapports de plantage, informations techniques sur l'appareil et le système d'exploitation"
+            },
+            "auth": {
+              "service": "Google Firebase Authentication",
+              "purpose": "Création et sécurisation de votre compte optionnel (email, Google, Apple), synchronisation de votre progression et de votre abonnement",
+              "data": "Adresse email, identifiant de compte, méthode de connexion utilisée"
+            },
+            "storage": {
+              "service": "Google Firebase Storage",
+              "purpose": "Stockage sécurisé de vos enregistrements audio si vous utilisez la correction de récitation",
+              "data": "Fichiers audio de votre voix, associés à votre identifiant de compte"
+            },
+            "purchases": {
+              "service": "Google Play / App Store (achats intégrés)",
+              "purpose": "Gestion de l'abonnement premium (suppression de la publicité)",
+              "data": "Statut et identifiant d'achat, gérés directement par Google/Apple"
+            },
+            "admob": {
+              "service": "Google AdMob",
+              "purpose": "Affichage de publicités pour les utilisateurs non premium (bannières, interstitiels) ainsi que de publicités récompensées (\"rewarded ads\") que vous pouvez choisir de regarder volontairement pour nous soutenir sans souscrire à l'abonnement Premium",
+              "data": "Identifiant publicitaire de l'appareil, données d'interaction avec les publicités"
+            }
+          }
+        },
+        "att": "Sur iOS, l'affichage de publicités personnalisées peut s'accompagner d'une demande d'autorisation \"App Tracking Transparency\" (ATT) proposée par le système d'exploitation. Vous pouvez refuser cette autorisation à tout moment depuis les réglages de confidentialité de votre appareil (Réglages > Confidentialité et sécurité > Suivi) ; l'application reste pleinement fonctionnelle si vous refusez.",
+        "noLocation": "Nous ne collectons pas votre localisation précise ; l'application ne demande pas d'autorisation d'accès à la géolocalisation."
+      },
+      "process": {
+        "heading": "COMMENT TRAITONS-NOUS VOS INFORMATIONS ?",
+        "summary": "<strong>En bref</strong> : Nous traitons vos informations pour faire fonctionner l'application, répondre à vos demandes, améliorer nos Services et gérer votre abonnement le cas échéant.",
+        "detail": "Nous traitons les données décrites ci-dessus afin de : (i) fournir et maintenir les fonctionnalités de l'application (lecture, mémorisation, khatma, quiz, correction de récitation), (ii) répondre à vos messages envoyés via le formulaire de contact, (iii) diagnostiquer et corriger les problèmes techniques, (iv) mesurer l'usage agrégé des fonctionnalités afin de prioriser nos développements, (v) gérer l'abonnement premium et l'affichage publicitaire pour les utilisateurs non premium."
+      },
+      "legal": {
+        "heading": "SUR QUELLES BASES JURIDIQUES NOUS APPUYONS-NOUS POUR TRAITER VOS INFORMATIONS PERSONNELLES ?",
+        "summary": "<strong>En bref</strong> : Nous ne traitons vos informations personnelles que lorsque nous estimons que cela est nécessaire et que nous avons une raison légale valable (c'est-à-dire une base juridique) de le faire en vertu de la loi applicable.",
+        "euTitle": "Si vous vous trouvez dans l'UE ou au Royaume-Uni, cette section s'applique à vous.",
+        "euIntro": "Le Règlement général sur la protection des données (RGPD) et le RGPD du Royaume-Uni nous obligent à expliquer les bases juridiques valides sur lesquelles nous nous appuyons pour traiter vos informations personnelles :",
+        "euList": {
+          "consent": "<strong>Consentement</strong> : pour l'affichage de publicités personnalisées et la mesure d'audience, recueilli via le bandeau de consentement au premier lancement de l'application.",
+          "contract": "<strong>Exécution d'un contrat</strong> : pour la gestion de votre abonnement premium.",
+          "legitimate": "<strong>Intérêt légitime</strong> : pour le diagnostic technique (Crashlytics) et le traitement de vos messages de contact."
+        },
+        "canadaTitle": "Si vous vous trouvez au Canada, cette section s'applique à vous.",
+        "canadaText": "Nous pouvons traiter vos informations si vous nous avez donné une autorisation spécifique, ou dans certains cas légalement définis (loi sur la protection de la vie privée). Nous pouvons également traiter vos informations si cela est raisonnable et pour des fins qu'une personne raisonnable jugerait appropriées, par exemple pour répondre à vos demandes de contact."
+      },
+      "share": {
+        "heading": "QUAND ET AVEC QUI PARTAGEONS-NOUS VOS INFORMATIONS PERSONNELLES ?",
+        "summary": "<strong>En bref</strong> : Nous partageons des informations uniquement avec les prestataires techniques nécessaires au fonctionnement de l'application (Google Firebase, Google AdMob), les magasins d'applications (Google Play, App Store) pour la gestion des achats, et si la loi nous y oblige. Nous ne vendons jamais vos données à des tiers."
+      },
+      "keep": {
+        "heading": "COMBIEN DE TEMPS CONSERVONS-NOUS VOS INFORMATIONS ?",
+        "summary": "<strong>En bref</strong> : Nous conservons vos informations aussi longtemps que nécessaire aux finalités décrites dans cette notice, sauf si la loi exige une durée de conservation plus longue.",
+        "detail": "Les messages envoyés via le formulaire de contact sont conservés le temps de traiter votre demande puis archivés ou supprimés. Les données statistiques agrégées (Firebase Analytics) sont conservées selon les paramètres par défaut de Google Firebase."
+      },
+      "rights": {
+        "heading": "QUELS SONT VOS DROITS EN MATIÈRE DE CONFIDENTIALITÉ ?",
+        "summary": "<strong>En bref</strong> : Selon votre pays de résidence, vous pouvez avoir le droit de demander l'accès, la rectification ou la suppression de vos informations personnelles, de retirer votre consentement au traitement, et de vous opposer à certains traitements.",
+        "detail": "Vous pouvez à tout moment retirer votre consentement à la mesure d'audience et à la publicité personnalisée depuis les réglages de confidentialité disponibles dans l'application (Réglages > Confidentialité)."
+      },
+      "dnt": {
+        "heading": "CONTRÔLES DES FONCTIONNALITÉS \"DO-NOT-TRACK\"",
+        "text": "La plupart des navigateurs web et certains systèmes d'exploitation et applications mobiles incluent une fonctionnalité \"Do-Not-Track\" (\"DNT\") ou un paramètre que vous pouvez activer pour signaler votre préférence de confidentialité. À ce stade, aucune norme technologique uniforme pour reconnaître et mettre en œuvre les signaux DNT n'a été finalisée. En tant que tel, nous ne répondons actuellement pas aux signaux de navigateur DNT. Si une norme pour le suivi en ligne est adoptée que nous devons suivre à l'avenir, nous vous en informerons dans une version révisée de cette notice de confidentialité."
+      },
+      "usRights": {
+        "heading": "LES RÉSIDENTS DES ÉTATS-UNIS ONT-ILS DES DROITS SPÉCIFIQUES EN MATIÈRE DE CONFIDENTIALITÉ ?",
+        "summary": "<strong>En bref</strong> : Si vous êtes un résident des États-Unis, vous bénéficiez de certains droits spécifiques en ce qui concerne l'accès à vos informations personnelles, selon l'État dans lequel vous résidez. Vous pouvez exercer ces droits en nous contactant à l'adresse indiquée ci-dessous."
+      },
+      "updates": {
+        "heading": "METTONS-NOUS À JOUR CETTE NOTICE ?",
+        "summary": "<strong>En bref</strong> : Oui, nous mettrons à jour cette notice si nécessaire pour rester en conformité avec les lois pertinentes.",
+        "detail": "Nous pouvons mettre à jour cette notice de confidentialité de temps à autre. La version mise à jour sera indiquée par une date de \"Révision\" mise à jour et sera effective dès qu'elle sera accessible. Si nous apportons des modifications importantes à cette notice de confidentialité, nous pouvons vous en informer soit en publiant un avis bien visible de ces modifications, soit en vous envoyant directement une notification. Nous vous encourageons à consulter fréquemment cette notice de confidentialité pour être informé de la manière dont nous protégeons vos informations."
+      },
+      "contact": {
+        "heading": "COMMENT NOUS CONTACTER À PROPOS DE CETTE NOTICE ?",
+        "text": "Si vous avez des questions ou des commentaires à propos de cette notice, vous pouvez nous envoyer un courriel à <mailLink>othmeneb@gmail.com</mailLink>."
+      },
+      "access": {
+        "heading": "COMMENT CONSULTER, METTRE À JOUR OU SUPPRIMER LES DONNÉES QUE NOUS COLLECTONS ?",
+        "text": "En fonction des lois applicables dans votre pays, vous pouvez avoir le droit de demander l'accès aux informations personnelles que nous détenons à votre sujet, de les modifier ou de les supprimer. Pour cela, il vous suffit de nous contacter à <mailLink>othmeneb@gmail.com</mailLink> ; nous traiterons votre demande dans les meilleurs délais."
+      }
+    },
+    "footer": "© 2026 Noor Phonetic Quran. Tous droits réservés."
+  },
+  "correctionRecitation": {
+    "meta": {
+      "title": "Correction de Récitation du Coran : Enregistrez-vous et Progressez | Noor Phonetic Quran",
+      "description": "Enregistrez votre récitation du Coran et recevez une correction personnalisée avec Noor Phonetic Quran : amélioration de la prononciation et du respect des règles de Tajweed. Gratuit sur iOS et Android.",
+      "keywords": "correction récitation Coran, améliorer sa récitation, correction Tajweed, enregistrer sa récitation, application correction Coran, apprendre à réciter le Coran correctement",
+      "ogTitle": "Correction de Récitation du Coran : Enregistrez-vous et Progressez",
+      "ogDescription": "Enregistrez votre récitation et recevez une correction personnalisée pour progresser en prononciation et en Tajweed. Application gratuite Noor Phonetic Quran."
+    },
+    "breadcrumb": {
+      "home": "Accueil",
+      "current": "Correction de récitation"
+    },
+    "hero": {
+      "title": "Correction de Récitation du Coran : Enregistrez-vous et Progressez",
+      "subtitle": "Enregistrez votre récitation directement dans l'application et recevez une correction personnalisée pour améliorer votre prononciation et le respect des règles de Tajweed."
+    },
+    "intro": {
+      "title": "Pourquoi corriger sa récitation ?",
+      "paragraph1": "Réciter juste ne se limite pas à lire correctement la phonétique : le respect des règles de Tajweed (allongements, liaisons, points de sortie des lettres) demande souvent un retour extérieur pour identifier ce qui doit être amélioré.",
+      "paragraph2": "Avec Noor Phonetic Quran, vous pouvez vous enregistrer directement dans l'application et recevoir une correction personnalisée, sans avoir besoin de trouver un professeur disponible en permanence."
+    },
+    "steps": {
+      "title": "Comment fonctionne la correction de récitation ?",
+      "items": [
+        {
+          "title": "Choisissez un passage",
+          "text": "sélectionnez la sourate et les versets que vous souhaitez réciter."
+        },
+        {
+          "title": "Enregistrez votre récitation",
+          "text": "directement depuis l'application, sans matériel supplémentaire."
+        },
+        {
+          "title": "Envoyez votre enregistrement",
+          "text": "votre récitation est mise en file d'attente pour être écoutée."
+        },
+        {
+          "title": "Recevez votre correction",
+          "text": "une réponse personnalisée vous indique les points à améliorer, directement dans l'application."
+        },
+        {
+          "title": "Progressez au fil des enregistrements",
+          "text": "répétez l'exercice régulièrement pour affiner votre prononciation et votre Tajweed."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Questions fréquentes sur la correction de récitation",
+      "items": [
+        {
+          "question": "La correction de récitation est-elle gratuite ?",
+          "answer": "Un premier enregistrement est gratuit. Au-delà, la fonctionnalité fait partie de l'offre premium de l'application."
+        },
+        {
+          "question": "Combien de temps faut-il pour recevoir une correction ?",
+          "answer": "Votre enregistrement est mis en file d'attente pour être écouté et corrigé, avec une réponse personnalisée directement dans l'application."
+        },
+        {
+          "question": "Puis-je réenregistrer plusieurs fois le même passage ?",
+          "answer": "Oui, vous pouvez répéter l'exercice aussi souvent que vous le souhaitez pour progresser sur un même passage."
+        }
+      ]
+    },
+    "related": {
+      "title": "Découvrez aussi",
+      "tajweed": "Règles de Tajweed",
+      "memorisation": "Mémoriser le Coran (Hifz)",
+      "allFeatures": "Toutes les fonctionnalités"
+    }
+  },
+  "khatmaCoran": {
+    "meta": {
+      "title": "Khatma du Coran : Application pour Planifier et Suivre sa Lecture Complète | Noor Phonetic Quran",
+      "description": "Planifiez votre Khatma (lecture complète du Coran) avec l'application Noor Phonetic Quran : objectifs quotidiens, suivi de progression, séries de jours (streak) et rappels. Gratuit sur iOS et Android.",
+      "keywords": "Khatma Coran, khatma application, lire le Coran en entier, plan de lecture Coran, objectif Khatma Ramadan, suivi lecture Coran, terminer le Coran",
+      "ogTitle": "Khatma du Coran : Planifiez et Suivez votre Lecture Complète",
+      "ogDescription": "Planifiez votre Khatma avec objectifs quotidiens, suivi de progression et rappels. Application gratuite Noor Phonetic Quran."
+    },
+    "breadcrumb": {
+      "home": "Accueil",
+      "current": "Khatma du Coran"
+    },
+    "hero": {
+      "title": "Khatma du Coran : Planifiez et Terminez votre Lecture Complète",
+      "subtitle": "Fixez-vous un objectif de jours, suivez votre progression quotidienne et gardez votre série de lecture (streak) jusqu'à la dernière page du Saint Coran, avec des rappels pour rester régulier.",
+      "googlePlay": "Google Play",
+      "appStore": "App Store"
+    },
+    "intro": {
+      "title": "Qu'est-ce qu'une Khatma ?",
+      "paragraph1": "La Khatma désigne la lecture complète du Coran, du début (Al-Fatiha) à la fin (An-Nas). De nombreux musulmans réalisent une Khatma pendant le mois de Ramadan, mais elle peut aussi être entreprise à n'importe quel moment de l'année, sur la durée de votre choix.",
+      "paragraph2": "Terminer le Coran demande de la constance : sans plan de lecture ni suivi, il est facile de perdre le fil ou d'abandonner en cours de route. C'est exactement ce que résout la fonctionnalité Khatma de Noor Phonetic Quran."
+    },
+    "features": {
+      "title": "Comment fonctionne la Khatma dans l'application ?",
+      "items": [
+        {
+          "title": "Choisissez la durée de votre Khatma",
+          "description": "par exemple 30 jours pour le Ramadan, ou une durée personnalisée adaptée à votre rythme."
+        },
+        {
+          "title": "Suivez votre objectif quotidien",
+          "description": "l'application calcule automatiquement le nombre de pages à lire chaque jour pour terminer dans les temps."
+        },
+        {
+          "title": "Gardez votre série de lecture (streak)",
+          "description": "chaque jour où vous atteignez votre objectif prolonge votre streak, une motivation supplémentaire pour rester régulier."
+        },
+        {
+          "title": "Recevez des rappels",
+          "description": "des notifications vous aident à ne pas oublier votre lecture du jour."
+        },
+        {
+          "title": "Célébrez la fin de votre Khatma",
+          "description": "un récapitulatif de votre parcours (jours pris, meilleur streak) s'affiche une fois le Coran terminé."
+        }
+      ]
+    },
+    "screenshots": {
+      "title": "Aperçu de la fonctionnalité Khatma",
+      "alts": [
+        "Noor Phonetic Quran - Choix du plan de Khatma (30, 60, 90 jours ou Ramadan)",
+        "Noor Phonetic Quran - Suivi de progression de la Khatma avec streak",
+        "Noor Phonetic Quran - Indicateur Khatma affiché pendant la lecture"
+      ]
+    },
+    "faq": {
+      "title": "Questions fréquentes sur la Khatma",
+      "items": [
+        {
+          "question": "Qu'est-ce qu'une Khatma du Coran ?",
+          "answer": "Une Khatma désigne la lecture complète du Coran, du début à la fin, généralement réalisée sur une période définie (souvent pendant le mois de Ramadan, mais aussi tout au long de l'année)."
+        },
+        {
+          "question": "Comment planifier une Khatma avec l'application ?",
+          "answer": "Choisissez un nombre de jours pour terminer le Coran (par exemple 30 jours pour le Ramadan), l'application calcule automatiquement votre objectif de pages quotidien et suit votre progression jour après jour."
+        },
+        {
+          "question": "Que se passe-t-il si je manque un jour de lecture ?",
+          "answer": "L'application ajuste votre objectif quotidien restant pour vous permettre de rattraper votre retard et terminer votre Khatma dans les temps, tout en suivant votre série de jours consécutifs (streak)."
+        },
+        {
+          "question": "Puis-je faire une Khatma en dehors du Ramadan ?",
+          "answer": "Oui, vous pouvez démarrer une Khatma à tout moment de l'année, avec la durée de votre choix."
+        },
+        {
+          "question": "La fonctionnalité Khatma est-elle gratuite ?",
+          "answer": "Oui, comme l'ensemble des fonctionnalités principales de Noor Phonetic Quran, la Khatma est entièrement gratuite."
+        }
+      ]
+    },
+    "related": {
+      "title": "Découvrez aussi",
+      "memorization": "Mémoriser le Coran (Hifz)",
+      "audio": "Audio du Coran",
+      "allFeatures": "Toutes les fonctionnalités"
+    }
+  },
+  "tajweedCoran": {
+    "meta": {
+      "title": "Règles de Tajweed du Coran : Apprentissage Coloré et Détaillé | Noor Phonetic Quran",
+      "description": "Apprenez les règles de Tajweed du Coran avec Noor Phonetic Quran : couleurs et annotations pendant la lecture, points d'articulation des lettres (Makharej), règles du Noun Sâkinah et du Waqf. Gratuit sur iOS et Android.",
+      "keywords": "règles Tajweed, Tajweed Coran, apprendre le Tajweed, Tajweed coloré, Makharej lettres arabes, Noun Sakinah Tanwin, Waqf Ibtida, application Tajweed gratuite",
+      "ogTitle": "Règles de Tajweed du Coran : Apprentissage Coloré et Détaillé",
+      "ogDescription": "Couleurs et annotations pendant la lecture, points d'articulation, règles du Noun Sâkinah et du Waqf. Application gratuite Noor Phonetic Quran."
+    },
+    "breadcrumb": {
+      "home": "Accueil",
+      "current": "Règles de Tajweed"
+    },
+    "hero": {
+      "title": "Règles de Tajweed du Coran : Apprentissage Coloré et Détaillé",
+      "subtitle": "Le texte du Coran s'affiche coloré et annoté selon les règles de Tajweed, accompagné de guides détaillés sur les points d'articulation, le Noun Sâkinah et les règles d'arrêt et de reprise.",
+      "backLink": "Retour à l'accueil",
+      "googlePlay": "Google Play",
+      "appStore": "App Store"
+    },
+    "intro": {
+      "title": "Pourquoi le Tajweed est important",
+      "paragraph1": "Le Tajweed est l'ensemble des règles qui garantissent une récitation correcte du Coran : prononciation précise de chaque lettre, allongements, liaisons, et endroits où l'on peut s'arrêter ou reprendre sa lecture. Réciter sans respecter le Tajweed peut altérer le sens du texte.",
+      "paragraph2": "Noor Phonetic Quran rend ces règles visibles et compréhensibles, avec des couleurs pendant la lecture et des guides détaillés pour approfondir chaque notion."
+    },
+    "features": {
+      "title": "Ce que propose l'apprentissage du Tajweed",
+      "items": [
+        {
+          "title": "Texte coloré et annoté",
+          "description": "les couleurs et annotations guident votre récitation directement sur le texte du Coran, selon les règles correctes du Tajweed."
+        },
+        {
+          "title": "Points d'articulation (Makharej)",
+          "description": "apprenez la prononciation correcte de chaque lettre arabe à partir de son point d'articulation, avec des schémas anatomiques."
+        },
+        {
+          "title": "Noun Sâkinah et Tanwîn",
+          "description": "les 4 règles régissant le noun sâkinah et le tanwîn (Izhâr, Idghâm, Iqlâb, Ikhfâ') expliquées et comparées visuellement."
+        },
+        {
+          "title": "Waqf et Ibtidā",
+          "description": "les règles qui identifient les endroits où l'arrêt et la reprise de la récitation sont permis, pour préserver le sens du texte."
+        }
+      ]
+    },
+    "screenshots": {
+      "title": "Aperçu des règles de Tajweed",
+      "alts": [
+        "Noor Phonetic Quran - Règles de Tajweed colorées pendant la lecture",
+        "Noor Phonetic Quran - Points d'articulation des lettres arabes (Makharej)",
+        "Noor Phonetic Quran - Règles du Noun Sâkinah et Tanwîn",
+        "Noor Phonetic Quran - Règles de Waqf et Ibtidā (arrêt et reprise)"
+      ]
+    },
+    "faq": {
+      "title": "Questions fréquentes sur le Tajweed",
+      "items": [
+        {
+          "question": "Qu'est-ce que le Tajweed ?",
+          "answer": "Le Tajweed est l'ensemble des règles qui régissent la prononciation correcte du Coran : allongements, liaisons, points d'articulation des lettres et règles d'arrêt et de reprise de la récitation."
+        },
+        {
+          "question": "Comment l'application enseigne-t-elle le Tajweed ?",
+          "answer": "Le texte du Coran est coloré et annoté selon les règles de Tajweed pendant la lecture, et des guides détaillés expliquent chaque règle : points d'articulation, Noun Sâkinah et Tanwîn, ainsi que les règles de Waqf et d'Ibtidā."
+        },
+        {
+          "question": "Le Tajweed est-il adapté aux débutants ?",
+          "answer": "Oui, chaque règle est expliquée avec des définitions simples, des exemples et des comparaisons visuelles pour faciliter l'apprentissage, même sans connaissances préalables."
+        }
+      ]
+    },
+    "related": {
+      "title": "Découvrez aussi",
+      "audio": "Audio du Coran",
+      "memorization": "Mémoriser le Coran (Hifz)",
+      "allFeatures": "Toutes les fonctionnalités"
+    }
+  },
+  "quizCoran": {
+    "meta": {
+      "title": "Quiz Coranique : Testez vos Connaissances du Coran en Vous Amusant | Noor Phonetic Quran",
+      "description": "Testez vos connaissances du Coran avec le Quiz coranique de Noor Phonetic Quran : 21 questions, échelle de gains, jokers 50:50, sondage du public et appel à un ami. Gratuit sur iOS et Android.",
+      "keywords": "quiz Coran, quiz coranique, jeu questions Coran, tester ses connaissances Coran, quiz islam, application quiz Coran gratuite, questions Coran et réponses",
+      "ogTitle": "Quiz Coranique : Testez vos Connaissances du Coran en Vous Amusant",
+      "ogDescription": "21 questions, échelle de gains, jokers 50:50, sondage du public et appel à un ami. Application gratuite Noor Phonetic Quran."
+    },
+    "breadcrumb": {
+      "home": "Accueil",
+      "current": "Quiz Coranique"
+    },
+    "hero": {
+      "title": "Quiz Coranique : Testez vos Connaissances en Vous Amusant",
+      "subtitle": "21 questions, une échelle de gains progressive et trois jokers (50:50, sondage du public, appel à un ami) pour apprendre le Coran de façon ludique.",
+      "backLink": "Retour à l'accueil",
+      "googlePlay": "Google Play",
+      "appStore": "App Store"
+    },
+    "intro": {
+      "title": "Un quiz pour apprendre en s'amusant",
+      "paragraph1": "Le Quiz coranique de Noor Phonetic Quran s'inspire du format \"Qui veut gagner des millions\" : une série de questions sur le Coran, l'histoire islamique et les sourates, avec une échelle de gains qui augmente à chaque bonne réponse.",
+      "paragraph2": "C'est une façon ludique de réviser ou de découvrir des connaissances sur le Coran, seul ou en famille, sans pression — vous pouvez vous arrêter à tout moment en gardant votre score."
+    },
+    "features": {
+      "title": "Comment fonctionne le quiz ?",
+      "items": [
+        {
+          "title": "Répondez à 21 questions",
+          "description": "des questions à choix multiples de difficulté croissante sur le Coran et l'histoire islamique."
+        },
+        {
+          "title": "Suivez l'échelle de gains",
+          "description": "chaque bonne réponse vous fait progresser sur une échelle allant de 100 points à 1 million."
+        },
+        {
+          "title": "Utilisez vos jokers",
+          "description": "le 50:50 élimine deux mauvaises réponses, le sondage du public affiche l'avis des autres joueurs, et l'appel à un ami vous suggère une réponse."
+        },
+        {
+          "title": "Arrêtez-vous quand vous voulez",
+          "description": "le bouton \"Walk Away\" vous permet de conserver vos gains à tout moment plutôt que de risquer de tout perdre."
+        }
+      ]
+    },
+    "screenshots": {
+      "title": "Aperçu du Quiz coranique",
+      "alts": [
+        "Noor Phonetic Quran - Écran d'accueil du Quiz coranique",
+        "Noor Phonetic Quran - Question du quiz avec échelle de gains",
+        "Noor Phonetic Quran - Joker sondage du public dans le quiz",
+        "Noor Phonetic Quran - Joker appel à un ami dans le quiz"
+      ]
+    },
+    "faq": {
+      "title": "Questions fréquentes sur le Quiz coranique",
+      "items": [
+        {
+          "question": "Combien de questions comporte le quiz ?",
+          "answer": "Le quiz comporte 21 questions à choix multiples, avec une difficulté croissante au fil de la partie."
+        },
+        {
+          "question": "Que se passe-t-il si je réponds mal à une question ?",
+          "answer": "Selon votre progression, vous conservez le dernier palier de gains garanti atteint, comme dans le format \"Qui veut gagner des millions\"."
+        },
+        {
+          "question": "Le quiz coranique est-il gratuit ?",
+          "answer": "Oui, le Quiz coranique fait partie des fonctionnalités gratuites de Noor Phonetic Quran."
+        }
+      ]
+    },
+    "related": {
+      "title": "Découvrez aussi",
+      "khatma": "Khatma du Coran",
+      "audio": "Audio du Coran",
+      "allFeatures": "Toutes les fonctionnalités"
+    }
+  },
+  "memorisationCoran": {
+    "meta": {
+      "title": "Mémoriser le Coran (Hifz) : Application avec Répétition Audio et Quiz | Noor Phonetic Quran",
+      "description": "Mémorisez le Coran (Hifz) avec l'application Noor Phonetic Quran : répétition audio verset par verset, mode mot-par-mot, quiz de révision, points, niveaux et badges. Gratuit sur iOS et Android.",
+      "keywords": "mémoriser le Coran, Hifz Coran, application mémorisation Coran, apprendre le Coran par coeur, mémorisation verset par verset, Hifz application gratuite",
+      "ogTitle": "Mémoriser le Coran (Hifz) : Répétition Audio, Quiz et Suivi de Progression",
+      "ogDescription": "Mémorisez le Coran avec répétition audio, mode mot-par-mot, quiz et défis quotidiens. Application gratuite Noor Phonetic Quran."
+    },
+    "breadcrumb": {
+      "home": "Accueil",
+      "current": "Mémorisation du Coran"
+    },
+    "hero": {
+      "title": "Mémoriser le Coran (Hifz) : Répétition Audio, Quiz et Suivi de Progression",
+      "subtitle": "Apprenez le Coran par cœur verset par verset grâce à la répétition audio, au mode mot-par-mot et aux quiz de révision, avec un système de points et de badges pour rester motivé chaque jour.",
+      "backLink": "Retour à l'accueil",
+      "googlePlay": "Google Play",
+      "appStore": "App Store"
+    },
+    "intro": {
+      "title": "Qu'est-ce que le Hifz ?",
+      "paragraph1": "Le Hifz désigne la mémorisation du Coran, verset par verset et sourate par sourate. C'est un parcours exigeant qui demande de la répétition régulière, de bonnes méthodes d'apprentissage et un moyen fiable de vérifier ce qui est déjà bien mémorisé.",
+      "paragraph2": "Noor Phonetic Quran a été conçu pour accompagner ce parcours avec des outils concrets : audio, répétition, révision active et gamification, plutôt que la seule lecture répétée d'un mushaf."
+    },
+    "features": {
+      "title": "Comment mémoriser le Coran avec l'application ?",
+      "items": [
+        {
+          "title": "Écoutez et répétez",
+          "description": "chaque verset dispose d'une répétition audio pour ancrer la mémorisation par l'écoute."
+        },
+        {
+          "title": "Utilisez le mode mot-par-mot",
+          "description": "décomposez les versets les plus longs pour les mémoriser progressivement."
+        },
+        {
+          "title": "Testez-vous avec les quiz de révision",
+          "description": "vérifiez régulièrement que les versets appris restent bien mémorisés."
+        },
+        {
+          "title": "Gagnez des points et des badges",
+          "description": "chaque verset mémorisé rapporte des points, fait progresser votre niveau et débloque des badges."
+        },
+        {
+          "title": "Relevez des défis quotidiens",
+          "description": "des objectifs journaliers vous encouragent à mémoriser un peu chaque jour, sans surcharge."
+        }
+      ]
+    },
+    "screenshots": {
+      "title": "Aperçu du plan de mémorisation",
+      "alts": [
+        "Noor Phonetic Quran - Étapes du plan de mémorisation quotidien",
+        "Noor Phonetic Quran - Checklist de mémorisation avec streak",
+        "Noor Phonetic Quran - Indicateur du plan quotidien affiché pendant la lecture"
+      ]
+    },
+    "faq": {
+      "title": "Questions fréquentes sur la mémorisation du Coran",
+      "items": [
+        {
+          "question": "Combien de temps faut-il pour mémoriser le Coran ?",
+          "answer": "Cela dépend du rythme de chacun. L'application vous permet d'avancer à votre propre rythme, verset par verset, sans pression de délai."
+        },
+        {
+          "question": "Le mode mémorisation fonctionne-t-il hors ligne ?",
+          "answer": "Une fois les sourates chargées, la répétition audio et les quiz de révision restent disponibles sans connexion Internet."
+        },
+        {
+          "question": "La fonctionnalité Mémorisation est-elle gratuite ?",
+          "answer": "Oui, comme l'ensemble des fonctionnalités principales de Noor Phonetic Quran, le mode Mémorisation est entièrement gratuit."
+        }
+      ]
+    },
+    "related": {
+      "title": "Découvrez aussi",
+      "khatma": "Khatma du Coran",
+      "tajweed": "Règles de Tajweed",
+      "allFeatures": "Toutes les fonctionnalités"
+    }
+  }
+}

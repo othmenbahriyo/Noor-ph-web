@@ -1,0 +1,23 @@
+.faqBlock details {
+  border-bottom: 1px solid var(--light-gray);
+  padding: 15px 0;
+}
+
+.faqBlock details:last-child {
+  border-bottom: none;
+}
+
+.faqBlock summary {
+  font-weight: 600;
+  color: var(--primary-color);
+  cursor: pointer;
+}
+
+.faqBlock summary:focus-visible {
+  outline: 3px solid var(--accent-color);
+  outline-offset: 2px;
+}
+
+.faqBlock p {
+  margin-top: 10px;
+}

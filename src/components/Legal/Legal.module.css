@@ -1,0 +1,138 @@
+.page {
+  background-color: var(--light-color);
+  padding: 130px 0 90px;
+}
+
+.wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.container {
+  background-color: var(--white);
+  padding: 44px;
+  border-radius: var(--border-radius-lg);
+  box-shadow: var(--shadow-sm);
+}
+
+.appName {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 0.5em;
+  color: var(--primary-color);
+}
+
+.pageTitle {
+  border-bottom: 2px solid var(--primary-color);
+  padding-bottom: 5px;
+  margin-top: 20px;
+  color: var(--text-color);
+}
+
+.updateDate {
+  text-align: center;
+  color: var(--text-light);
+  margin-bottom: 30px;
+}
+
+.container h2 {
+  color: var(--text-color);
+  margin-top: 1.5em;
+  border-bottom: 2px solid var(--primary-color);
+  padding-bottom: 5px;
+  margin-top: 40px;
+}
+
+.container h3 {
+  color: var(--text-color);
+  margin-top: 1.5em;
+}
+
+.container p {
+  margin: 1em 0;
+}
+
+.container ul {
+  margin: 1em 0;
+  padding-left: 1.5em;
+}
+
+.container li {
+  margin-bottom: 0.5em;
+}
+
+.container a {
+  color: var(--primary-color);
+  text-decoration: underline;
+}
+
+.container a:hover {
+  color: var(--primary-light);
+}
+
+.summary {
+  background-color: rgba(1, 62, 55, 0.06);
+  padding: 24px;
+  border-radius: var(--border-radius);
+  margin-bottom: 30px;
+  border-left: 5px solid var(--primary-color);
+}
+
+.keyPoint {
+  margin-bottom: 15px;
+}
+
+.keyPoint strong {
+  color: var(--primary-color);
+}
+
+.toc {
+  background-color: var(--light-gray);
+  padding: 24px;
+  border-radius: var(--border-radius);
+  margin: 30px 0;
+}
+
+.toc ul {
+  list-style-type: none;
+  padding-left: 15px;
+}
+
+.toc li {
+  margin-bottom: 8px;
+}
+
+.toc a {
+  text-decoration: none;
+  color: var(--primary-light);
+}
+
+.toc a:hover {
+  text-decoration: underline;
+}
+
+.contact {
+  background-color: rgba(212, 175, 55, 0.1);
+  padding: 24px;
+  border-radius: var(--border-radius);
+  margin-top: 40px;
+  border-left: 5px solid var(--accent-color);
+}
+
+.legalFooter {
+  text-align: center;
+  margin-top: 50px;
+  color: var(--text-light);
+  font-size: 0.9em;
+}
+
+@media (max-width: 600px) {
+  .page {
+    padding: 90px 0 60px;
+  }
+
+  .container {
+    padding: 22px;
+  }
+}
