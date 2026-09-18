@@ -1438,6 +1438,11 @@
       "title": "Bugun o'rganish sayohatingizni boshlang",
       "subtitle": "Noor Phonetic Quran'ni bepul yuklab oling va Qur'on tilovati tajribangizni o'zgartiring.",
       "downloadOn": "Yuklab oling"
+    },
+    "blogPreview": {
+      "title": "Bizning so'nggi maqolalarimiz",
+      "subtitle": "Qur'on ta'limingizda rivojlanish uchun amaliy qo'llanmalar",
+      "viewAll": "Barcha maqolalarni ko'rish"
     }
   },
   "cgu": {
@@ -1680,7 +1685,8 @@
     "title": "Blog",
     "subtitle": "O'z sur'atingizda rivojlanishingiz uchun Tajvid, Qur'onni yodlash va tilovat haqida amaliy qo'llanmalar va maslahatlar.",
     "backToList": "Blogga qaytish",
-    "readMore": "Maqolani o'qish"
+    "readMore": "Maqolani o'qish",
+    "tryFeature": "Ilovada bu funksiyani kashf eting"
   },
   "audioCoran": {
     "meta": {
@@ -2171,7 +2177,8 @@
       "title": "Shuningdek ko'ring",
       "audio": "Qur'on Audiosi",
       "memorization": "Qur'onni Yodlash (Hifz)",
-      "allFeatures": "Barcha funksiyalar"
+      "allFeatures": "Barcha funksiyalar",
+      "blogArticle": "Tajvid qoidalarining to'liq qo'llanmasi"
     }
   },
   "quizCoran": {
@@ -2330,7 +2337,8 @@
       "title": "Shuningdek ko'ring",
       "khatma": "Qur'on Khatmasi",
       "tajweed": "Tajweed Qoidalari",
-      "allFeatures": "Barcha funksiyalar"
+      "allFeatures": "Barcha funksiyalar",
+      "blogArticle": "Qur'onni yodlashning 10 usuli"
     }
   }
 }

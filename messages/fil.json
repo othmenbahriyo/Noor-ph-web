@@ -1438,6 +1438,11 @@
       "title": "Simulan ang Iyong Paglalakbay sa Pag-aaral Ngayon",
       "subtitle": "I-download nang libre ang Noor Phonetic Quran at baguhin ang iyong karanasan sa pagbigkas ng Quran.",
       "downloadOn": "I-download sa"
+    },
+    "blogPreview": {
+      "title": "Ang Aming Pinakabagong mga Artikulo",
+      "subtitle": "Praktikal na gabay para sumulong sa iyong pag-aaral ng Quran",
+      "viewAll": "Tingnan ang lahat ng artikulo"
     }
   },
   "cgu": {
@@ -1680,7 +1685,8 @@
     "title": "Blog",
     "subtitle": "Praktikal na gabay at mga tip tungkol sa Tajweed, pagsasaulo ng Quran, at pagbigkas, upang makasulong ka sa sarili mong bilis.",
     "backToList": "Bumalik sa blog",
-    "readMore": "Basahin ang artikulo"
+    "readMore": "Basahin ang artikulo",
+    "tryFeature": "Tuklasin ang tampok na ito sa app"
   },
   "audioCoran": {
     "meta": {
@@ -2171,7 +2177,8 @@
       "title": "Tuklasin Din",
       "audio": "Audio ng Quran",
       "memorization": "Isaulo ang Quran (Hifz)",
-      "allFeatures": "Lahat ng Tampok"
+      "allFeatures": "Lahat ng Tampok",
+      "blogArticle": "Kumpletong Gabay sa mga Panuntunan ng Tajweed"
     }
   },
   "quizCoran": {
@@ -2330,7 +2337,8 @@
       "title": "Tuklasin Din",
       "khatma": "Khatma ng Quran",
       "tajweed": "Mga Tuntunin ng Tajweed",
-      "allFeatures": "Lahat ng Tampok"
+      "allFeatures": "Lahat ng Tampok",
+      "blogArticle": "10 Paraan para Isaulo ang Quran"
     }
   }
 }

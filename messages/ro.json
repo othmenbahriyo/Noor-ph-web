@@ -1438,6 +1438,11 @@
       "title": "Începeți-vă astăzi călătoria de învățare",
       "subtitle": "Descărcați Noor Phonetic Quran gratuit și transformați-vă experiența de recitare a Coranului.",
       "downloadOn": "Descărcați pe"
+    },
+    "blogPreview": {
+      "title": "Cele mai recente articole",
+      "subtitle": "Ghiduri practice pentru a progresa în învățarea Coranului",
+      "viewAll": "Vezi toate articolele"
     }
   },
   "cgu": {
@@ -1680,7 +1685,8 @@
     "title": "Blog",
     "subtitle": "Ghiduri și sfaturi practice despre Tajwid, memorarea Coranului și recitare, pentru a progresa în ritmul tău.",
     "backToList": "Înapoi la blog",
-    "readMore": "Citește articolul"
+    "readMore": "Citește articolul",
+    "tryFeature": "Descoperă această funcție în aplicație"
   },
   "audioCoran": {
     "meta": {
@@ -2171,7 +2177,8 @@
       "title": "Descoperiți și",
       "audio": "Audio al Coranului",
       "memorization": "Memorarea Coranului (Hifz)",
-      "allFeatures": "Toate funcționalitățile"
+      "allFeatures": "Toate funcționalitățile",
+      "blogArticle": "Ghid complet al regulilor de Tajwid"
     }
   },
   "quizCoran": {
@@ -2330,7 +2337,8 @@
       "title": "Descoperiți și",
       "khatma": "Khatma Coranului",
       "tajweed": "Reguli de Tajweed",
-      "allFeatures": "Toate funcționalitățile"
+      "allFeatures": "Toate funcționalitățile",
+      "blogArticle": "10 metode pentru a memora Coranul"
     }
   }
 }

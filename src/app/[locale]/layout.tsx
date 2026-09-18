@@ -47,6 +47,12 @@ export default async function LocaleLayout({
     <html lang={locale} dir={dir} className={cairo.variable}>
       <head>
         <link href="/fontawesome/css/all.min.css" rel="stylesheet" />
+        <link
+          rel="alternate"
+          type="application/rss+xml"
+          title="Noor Phonetic Quran - Blog"
+          href="/rss.xml"
+        />
         <script
           // Runs before first paint to avoid a light-mode flash: applies the
           // saved theme (or the OS preference on first visit) synchronously,

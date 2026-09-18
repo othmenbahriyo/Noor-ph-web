@@ -201,6 +201,29 @@
   color: var(--primary-color);
 }
 
+.relatedFeatureLink {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 36px;
+  padding: 20px 24px;
+  background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary-light) 100%);
+  color: var(--on-primary-text);
+  border-radius: var(--border-radius);
+  text-decoration: none;
+  font-weight: 700;
+  transition: var(--transition);
+}
+
+.relatedFeatureLink:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-hover);
+}
+
+.relatedFeatureLink i {
+  font-size: 1.3rem;
+}
+
 .articleFooter {
   margin-top: 40px;
   padding-top: 24px;

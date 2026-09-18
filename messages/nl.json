@@ -1438,6 +1438,11 @@
       "title": "Begin vandaag nog aan uw leerreis",
       "subtitle": "Download Noor Phonetic Quran gratis en verander uw ervaring met het reciteren van de Koran.",
       "downloadOn": "Downloaden op"
+    },
+    "blogPreview": {
+      "title": "Onze nieuwste artikelen",
+      "subtitle": "Praktische gidsen om vooruitgang te boeken met de Koran",
+      "viewAll": "Bekijk alle artikelen"
     }
   },
   "cgu": {
@@ -1680,7 +1685,8 @@
     "title": "Blog",
     "subtitle": "Praktische gidsen en tips over Tajweed, het memoriseren van de Koran en recitatie, om in je eigen tempo vooruitgang te boeken.",
     "backToList": "Terug naar blog",
-    "readMore": "Lees artikel"
+    "readMore": "Lees artikel",
+    "tryFeature": "Ontdek deze functie in de app"
   },
   "audioCoran": {
     "meta": {
@@ -2171,7 +2177,8 @@
       "title": "Ontdek ook",
       "audio": "Audio van de Koran",
       "memorization": "De Koran Uit het Hoofd Leren (Hifz)",
-      "allFeatures": "Alle functies"
+      "allFeatures": "Alle functies",
+      "blogArticle": "Volledige gids voor de Tajweed-regels"
     }
   },
   "quizCoran": {
@@ -2330,7 +2337,8 @@
       "title": "Ontdek ook",
       "khatma": "Khatma van de Koran",
       "tajweed": "Tajweed-regels",
-      "allFeatures": "Alle functies"
+      "allFeatures": "Alle functies",
+      "blogArticle": "10 methoden om de Koran uit het hoofd te leren"
     }
   }
 }

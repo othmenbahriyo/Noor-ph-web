@@ -1438,6 +1438,11 @@
       "title": "Öğrenme Yolculuğunuza Bugün Başlayın",
       "subtitle": "Noor Phonetic Quran'ı ücretsiz indirin ve Kur'an kıraati deneyiminizi dönüştürün.",
       "downloadOn": "İndirin:"
+    },
+    "blogPreview": {
+      "title": "En Son Makalelerimiz",
+      "subtitle": "Kur'an öğreniminizde ilerlemeniz için pratik rehberler",
+      "viewAll": "Tüm makaleleri görüntüle"
     }
   },
   "cgu": {
@@ -1680,7 +1685,8 @@
     "title": "Blog",
     "subtitle": "Kendi hızınızda ilerlemeniz için Tecvid, Kuran ezberleme ve tilavet hakkında pratik rehberler ve ipuçları.",
     "backToList": "Bloga dön",
-    "readMore": "Makaleyi oku"
+    "readMore": "Makaleyi oku",
+    "tryFeature": "Bu özelliği uygulamada keşfedin"
   },
   "audioCoran": {
     "meta": {
@@ -2171,7 +2177,8 @@
       "title": "Ayrıca Keşfedin",
       "audio": "Kur'an Sesi",
       "memorization": "Kur'an'ı Ezberleyin (Hıfz)",
-      "allFeatures": "Tüm Özellikler"
+      "allFeatures": "Tüm Özellikler",
+      "blogArticle": "Tecvid Kurallarının Tam Rehberi"
     }
   },
   "quizCoran": {
@@ -2330,7 +2337,8 @@
       "title": "Ayrıca Keşfedin",
       "khatma": "Kur'an Hatimi",
       "tajweed": "Tecvid Kuralları",
-      "allFeatures": "Tüm Özellikler"
+      "allFeatures": "Tüm Özellikler",
+      "blogArticle": "Kur'an'ı Ezberlemenin 10 Yöntemi"
     }
   }
 }

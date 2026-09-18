@@ -10,6 +10,7 @@ import Features from '@/components/Home/Features';
 import VideoDemo from '@/components/Home/VideoDemo';
 import Screenshots from '@/components/Home/Screenshots';
 import Faq from '@/components/Home/Faq';
+import BlogPreview from '@/components/Home/BlogPreview';
 import Testimonials from '@/components/Home/Testimonials';
 import { routing } from '@/i18n/routing';
 import { buildLocaleUrls } from '@/i18n/seo';
@@ -183,6 +184,7 @@ export default async function Home({
         <VideoDemo />
         <Screenshots />
         <Faq />
+        <BlogPreview />
         <Testimonials />
         <ContactSection />
       </main>

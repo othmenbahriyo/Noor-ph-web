@@ -1438,6 +1438,11 @@
       "title": "Beginnen Sie Ihre Lernreise noch heute",
       "subtitle": "Laden Sie Noor Phonetic Quran kostenlos herunter und verändern Sie Ihr Koran-Rezitationserlebnis.",
       "downloadOn": "Herunterladen bei"
+    },
+    "blogPreview": {
+      "title": "Unsere neuesten Artikel",
+      "subtitle": "Praktische Anleitungen für Ihr Koranstudium",
+      "viewAll": "Alle Artikel ansehen"
     }
   },
   "cgu": {
@@ -1680,7 +1685,8 @@
     "title": "Blog",
     "subtitle": "Praktische Anleitungen und Tipps zu Tajweed, dem Auswendiglernen des Korans und der Rezitation, damit Sie in Ihrem eigenen Tempo Fortschritte machen.",
     "backToList": "Zurück zum Blog",
-    "readMore": "Artikel lesen"
+    "readMore": "Artikel lesen",
+    "tryFeature": "Diese Funktion in der App entdecken"
   },
   "audioCoran": {
     "meta": {
@@ -2171,7 +2177,8 @@
       "title": "Entdecken Sie auch",
       "audio": "Koran-Audio",
       "memorization": "Koran auswendig lernen (Hifz)",
-      "allFeatures": "Alle Funktionen"
+      "allFeatures": "Alle Funktionen",
+      "blogArticle": "Vollständiger Leitfaden zu den Tajweed-Regeln"
     }
   },
   "quizCoran": {
@@ -2330,7 +2337,8 @@
       "title": "Entdecken Sie auch",
       "khatma": "Khatma des Korans",
       "tajweed": "Tajweed-Regeln",
-      "allFeatures": "Alle Funktionen"
+      "allFeatures": "Alle Funktionen",
+      "blogArticle": "10 Methoden zum Auswendiglernen des Korans"
     }
   }
 }

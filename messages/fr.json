@@ -291,6 +291,11 @@
         }
       ]
     },
+    "blogPreview": {
+      "title": "Nos derniers articles",
+      "subtitle": "Guides pratiques pour progresser dans votre apprentissage du Coran",
+      "viewAll": "Voir tous les articles"
+    },
     "testimonials": {
       "title": "Ce que disent nos utilisateurs",
       "subtitle": "Découvrez les avis de notre communauté grandissante d'utilisateurs satisfaits",
@@ -1680,7 +1685,8 @@
     "title": "Blog",
     "subtitle": "Guides et conseils pratiques sur le Tajweed, la mémorisation du Coran et la récitation, pour progresser à votre rythme.",
     "backToList": "Retour au blog",
-    "readMore": "Lire l'article"
+    "readMore": "Lire l'article",
+    "tryFeature": "Découvrir cette fonctionnalité dans l'application"
   },
   "audioCoran": {
     "meta": {
@@ -2171,7 +2177,8 @@
       "title": "Découvrez aussi",
       "audio": "Audio du Coran",
       "memorization": "Mémoriser le Coran (Hifz)",
-      "allFeatures": "Toutes les fonctionnalités"
+      "allFeatures": "Toutes les fonctionnalités",
+      "blogArticle": "Guide complet des règles de Tajweed"
     }
   },
   "quizCoran": {
@@ -2330,7 +2337,8 @@
       "title": "Découvrez aussi",
       "khatma": "Khatma du Coran",
       "tajweed": "Règles de Tajweed",
-      "allFeatures": "Toutes les fonctionnalités"
+      "allFeatures": "Toutes les fonctionnalités",
+      "blogArticle": "10 méthodes pour mémoriser le Coran"
     }
   }
 }

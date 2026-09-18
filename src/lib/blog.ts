@@ -61,3 +61,11 @@ export function getAllBlogPosts(locale: string): BlogPostMeta[] {
     .filter((post): post is BlogPost => post !== null)
     .sort((a, b) => (a.date < b.date ? 1 : -1));
 }
+
+// Links each article to the app feature page it's most relevant to, so blog
+// readers arriving from search can reach the higher-intent product pages
+// (CTA, FAQ, HowTo schema) instead of dead-ending on the article.
+export const BLOG_POST_RELATED_PAGE: Record<string, string> = {
+  'regles-de-tajweed-guide-complet': '/tajweed-coran',
+  'methodes-memoriser-coran-facilement': '/memorisation-coran',
+};

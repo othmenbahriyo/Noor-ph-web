@@ -1,4 +1,5 @@
 import { getTranslations, getLocale } from 'next-intl/server';
+import { Link } from '@/i18n/navigation';
 import styles from './Footer.module.css';
 import BackToTop from './BackToTop';
 
@@ -78,6 +79,9 @@ export default async function Footer() {
             <ul>
               <li>
                 <a href={`${homePrefix}/#faq`}>{t('faq')}</a>
+              </li>
+              <li>
+                <Link href="/blog">{tNav('blog')}</Link>
               </li>
               <li>
                 <a href={privacyHref}>{tNav('privacy')}</a>

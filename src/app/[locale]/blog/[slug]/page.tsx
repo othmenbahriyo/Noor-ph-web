@@ -4,7 +4,7 @@ import { getTranslations, setRequestLocale } from 'next-intl/server';
 import Header from '@/components/Header/Header';
 import Footer from '@/components/Footer/Footer';
 import BlogArticle from '@/components/Blog/BlogArticle';
-import { getAllBlogSlugs, getBlogPost } from '@/lib/blog';
+import { BLOG_POST_RELATED_PAGE, getAllBlogSlugs, getBlogPost } from '@/lib/blog';
 import { routing } from '@/i18n/routing';
 import { buildLocaleUrls } from '@/i18n/seo';
 
@@ -127,6 +127,8 @@ export default async function BlogArticlePage({
         homeLabel={tNav('home')}
         blogLabel={tBlog('title')}
         backLabel={tBlog('backToList')}
+        relatedPageHref={BLOG_POST_RELATED_PAGE[slug]}
+        relatedPageLabel={tBlog('tryFeature')}
       />
       <Footer />
     </>

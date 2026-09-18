@@ -8,9 +8,18 @@ interface BlogArticleProps {
   homeLabel: string;
   blogLabel: string;
   backLabel: string;
+  relatedPageHref?: string;
+  relatedPageLabel: string;
 }
 
-export default function BlogArticle({ post, homeLabel, blogLabel, backLabel }: BlogArticleProps) {
+export default function BlogArticle({
+  post,
+  homeLabel,
+  blogLabel,
+  backLabel,
+  relatedPageHref,
+  relatedPageLabel,
+}: BlogArticleProps) {
   return (
     <>
       <section className={styles.hero}>
@@ -30,6 +39,13 @@ export default function BlogArticle({ post, homeLabel, blogLabel, backLabel }: B
             <div className={styles.articleContent}>
               <MDXRemote source={post.content} />
             </div>
+
+            {relatedPageHref && (
+              <Link href={relatedPageHref} className={styles.relatedFeatureLink}>
+                <i className="fas fa-mobile-screen-button" />
+                {relatedPageLabel}
+              </Link>
+            )}
 
             <div className={styles.articleFooter}>
               <Link href="/blog" className={styles.backLink}>

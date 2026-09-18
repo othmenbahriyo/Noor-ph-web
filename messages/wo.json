@@ -1438,6 +1438,11 @@
       "title": "Tàmbalee sa dem-dikk ci jàng tey",
       "subtitle": "Wàcce Noor Phonetic Quran ci neen te soppi sa jaar-jaar ci ñaan Alxuraan.",
       "downloadOn": "Wàcce ci"
+    },
+    "blogPreview": {
+      "title": "Sunuy xibaar yu mujj",
+      "subtitle": "Gindaay yu njëkk ngir dugg ci njàngum Alxuraan",
+      "viewAll": "Gis xibaar yépp"
     }
   },
   "cgu": {
@@ -1680,7 +1685,8 @@
     "title": "Blog",
     "subtitle": "Njàngale ak digal yu am solo ci Tajwiid, fàttaliku Alkuraan, ak liggéeyukaay, ngir nga man a jëm kanam ci sa aju.",
     "backToList": "Dellu ci blog bi",
-    "readMore": "Jàng xibaar bi"
+    "readMore": "Jàng xibaar bi",
+    "tryFeature": "Gis mébétum bii ci app bi"
   },
   "audioCoran": {
     "meta": {
@@ -2171,7 +2177,8 @@
       "title": "Xam it",
       "audio": "Audio Alxuraan",
       "memorization": "Tey Alxuraan (Hifz)",
-      "allFeatures": "Ay xarala yépp"
+      "allFeatures": "Ay xarala yépp",
+      "blogArticle": "Gindaay bu mat ci yoonu Tajwiid"
     }
   },
   "quizCoran": {
@@ -2330,7 +2337,8 @@
       "title": "Xam it",
       "khatma": "Khatma Alxuraan",
       "tajweed": "Yoon yu Tajweed",
-      "allFeatures": "Ay xarala yépp"
+      "allFeatures": "Ay xarala yépp",
+      "blogArticle": "Fukki fenn ngir fàttaliku Alxuraan"
     }
   }
 }

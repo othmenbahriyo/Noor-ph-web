@@ -1438,6 +1438,11 @@
           "rating": 5
         }
       ]
+    },
+    "blogPreview": {
+      "title": "最新文章",
+      "subtitle": "帮助您在古兰经学习中取得进步的实用指南",
+      "viewAll": "查看所有文章"
     }
   },
   "cgu": {
@@ -1680,7 +1685,8 @@
     "title": "博客",
     "subtitle": "关于塔吉威德、古兰经背诵和诵读的实用指南与建议，助您按照自己的节奏取得进步。",
     "backToList": "返回博客",
-    "readMore": "阅读文章"
+    "readMore": "阅读文章",
+    "tryFeature": "在应用中探索此功能"
   },
   "audioCoran": {
     "meta": {
@@ -2171,7 +2177,8 @@
       "title": "同时了解",
       "audio": "古兰经音频",
       "memorization": "背诵古兰经（哈费兹）",
-      "allFeatures": "所有功能"
+      "allFeatures": "所有功能",
+      "blogArticle": "塔吉维德规则完整指南"
     }
   },
   "quizCoran": {
@@ -2330,7 +2337,8 @@
       "title": "同时了解",
       "khatma": "古兰经卡塔姆",
       "tajweed": "塔吉维德规则",
-      "allFeatures": "所有功能"
+      "allFeatures": "所有功能",
+      "blogArticle": "记忆古兰经的10种方法"
     }
   }
 }

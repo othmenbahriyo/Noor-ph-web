@@ -1438,6 +1438,11 @@
       "title": "Mulai perjalanan belajar Anda hari ini",
       "subtitle": "Unduh Noor Phonetic Quran secara gratis dan ubah pengalaman membaca Al-Qur'an Anda.",
       "downloadOn": "Unduh di"
+    },
+    "blogPreview": {
+      "title": "Artikel Terbaru Kami",
+      "subtitle": "Panduan praktis untuk membantu Anda belajar Al-Quran",
+      "viewAll": "Lihat semua artikel"
     }
   },
   "cgu": {
@@ -1680,7 +1685,8 @@
     "title": "Blog",
     "subtitle": "Panduan dan tips praktis tentang Tajwid, hafalan Al-Qur'an, dan tilawah, agar Anda dapat maju sesuai kecepatan Anda sendiri.",
     "backToList": "Kembali ke blog",
-    "readMore": "Baca artikel"
+    "readMore": "Baca artikel",
+    "tryFeature": "Temukan fitur ini di aplikasi"
   },
   "audioCoran": {
     "meta": {
@@ -2171,7 +2177,8 @@
       "title": "Temukan juga",
       "audio": "Audio Al-Qur'an",
       "memorization": "Menghafal Al-Qur'an (Hifz)",
-      "allFeatures": "Semua fitur"
+      "allFeatures": "Semua fitur",
+      "blogArticle": "Panduan Lengkap Hukum Tajwid"
     }
   },
   "quizCoran": {
@@ -2330,7 +2337,8 @@
       "title": "Temukan juga",
       "khatma": "Khataman Al-Qur'an",
       "tajweed": "Kaidah Tajwid",
-      "allFeatures": "Semua fitur"
+      "allFeatures": "Semua fitur",
+      "blogArticle": "10 Metode Menghafal Al-Quran"
     }
   }
 }

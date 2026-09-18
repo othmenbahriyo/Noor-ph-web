@@ -1438,6 +1438,11 @@
       "title": "今日から学習の旅を始めましょう",
       "subtitle": "Noor Phonetic Quranを無料でダウンロードして、クルアーン朗誦の体験を変えましょう。",
       "downloadOn": "ダウンロードはこちら"
+    },
+    "blogPreview": {
+      "title": "最新記事",
+      "subtitle": "クルアーン学習を進めるための実践ガイド",
+      "viewAll": "すべての記事を見る"
     }
   },
   "cgu": {
@@ -1680,7 +1685,8 @@
     "title": "ブログ",
     "subtitle": "タジュウィード、クルアーンの暗記、朗誦に関する実践的なガイドとヒントで、自分のペースで上達できます。",
     "backToList": "ブログに戻る",
-    "readMore": "記事を読む"
+    "readMore": "記事を読む",
+    "tryFeature": "アプリでこの機能を見る"
   },
   "audioCoran": {
     "meta": {
@@ -2171,7 +2177,8 @@
       "title": "こちらもご覧ください",
       "audio": "クルアーンの音声",
       "memorization": "クルアーンの暗記（ハフズ）",
-      "allFeatures": "すべての機能"
+      "allFeatures": "すべての機能",
+      "blogArticle": "タジュウィード規則完全ガイド"
     }
   },
   "quizCoran": {
@@ -2330,7 +2337,8 @@
       "title": "こちらもご覧ください",
       "khatma": "クルアーンのハトマ",
       "tajweed": "タジュウィードのルール",
-      "allFeatures": "すべての機能"
+      "allFeatures": "すべての機能",
+      "blogArticle": "クルアーンを暗記する10の方法"
     }
   }
 }

@@ -14,6 +14,7 @@ export default async function Related() {
           <Link href="/khatma-coran">{t('khatma')}</Link>
           <Link href="/tajweed-coran">{t('tajweed')}</Link>
           <Link href="/#features">{t('allFeatures')}</Link>
+          <Link href="/blog/methodes-memoriser-coran-facilement">{t('blogArticle')}</Link>
         </div>
       </div>
     </div>

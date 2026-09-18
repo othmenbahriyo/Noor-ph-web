@@ -1438,6 +1438,11 @@
       "title": "Anza safari yako ya kujifunza leo",
       "subtitle": "Pakua Noor Phonetic Quran bure na ubadilishe uzoefu wako wa kusoma Qur'ani.",
       "downloadOn": "Pakua kwenye"
+    },
+    "blogPreview": {
+      "title": "Makala Zetu za Hivi Karibuni",
+      "subtitle": "Miongozo ya vitendo kukusaidia kuendelea na masomo ya Qur'ani",
+      "viewAll": "Angalia makala zote"
     }
   },
   "cgu": {
@@ -1680,7 +1685,8 @@
     "title": "Blogu",
     "subtitle": "Miongozo na vidokezo vya vitendo kuhusu Tajwid, kuhifadhi Qur'ani, na usomaji, ili uweze kuendelea kwa kasi yako mwenyewe.",
     "backToList": "Rudi kwenye blogu",
-    "readMore": "Soma makala"
+    "readMore": "Soma makala",
+    "tryFeature": "Gundua kipengele hiki katika programu"
   },
   "audioCoran": {
     "meta": {
@@ -2171,7 +2177,8 @@
       "title": "Gundua pia",
       "audio": "Sauti ya Qur'ani",
       "memorization": "Kuhifadhi Qur'ani (Hifz)",
-      "allFeatures": "Vipengele vyote"
+      "allFeatures": "Vipengele vyote",
+      "blogArticle": "Mwongozo Kamili wa Kanuni za Tajweed"
     }
   },
   "quizCoran": {
@@ -2330,7 +2337,8 @@
       "title": "Gundua pia",
       "khatma": "Khatma ya Qur'ani",
       "tajweed": "Kanuni za Tajweed",
-      "allFeatures": "Vipengele vyote"
+      "allFeatures": "Vipengele vyote",
+      "blogArticle": "Mbinu 10 za Kuhifadhi Qur'ani"
     }
   }
 }

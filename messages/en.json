@@ -363,6 +363,11 @@
       "title": "Start your learning journey today",
       "subtitle": "Download Noor Phonetic Quran for free and transform your Quran recitation experience.",
       "downloadOn": "Download on"
+    },
+    "blogPreview": {
+      "title": "Our Latest Articles",
+      "subtitle": "Practical guides to help you progress in your Quran learning",
+      "viewAll": "View all articles"
     }
   },
   "cgu": {
@@ -605,7 +610,8 @@
     "title": "Blog",
     "subtitle": "Practical guides and tips on Tajweed, Quran memorization, and recitation, to help you progress at your own pace.",
     "backToList": "Back to blog",
-    "readMore": "Read article"
+    "readMore": "Read article",
+    "tryFeature": "Discover this feature in the app"
   },
   "audioCoran": {
     "meta": {
@@ -1096,7 +1102,8 @@
       "title": "Découvrez aussi",
       "audio": "Audio du Coran",
       "memorization": "Mémoriser le Coran (Hifz)",
-      "allFeatures": "Toutes les fonctionnalités"
+      "allFeatures": "Toutes les fonctionnalités",
+      "blogArticle": "Complete Guide to Tajweed Rules"
     }
   },
   "quizCoran": {
@@ -1255,7 +1262,8 @@
       "title": "Découvrez aussi",
       "khatma": "Khatma du Coran",
       "tajweed": "Règles de Tajweed",
-      "allFeatures": "Toutes les fonctionnalités"
+      "allFeatures": "Toutes les fonctionnalités",
+      "blogArticle": "10 Methods to Memorize the Quran"
     }
   }
 }
