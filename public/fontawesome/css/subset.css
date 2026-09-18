@@ -1,0 +1,169 @@
+/*!
+ * Font Awesome Free 7.3.1 subset by @fontawesome - https://fontawesome.com
+ * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+ * Copyright 2026 Fonticons, Inc.
+ * Trimmed to only the icons this site uses, generated from the full
+ * package's all.css (see node_modules/@fortawesome/fontawesome-free).
+ */
+@font-face {
+  font-family: "Font Awesome 7 Free";
+  font-style: normal;
+  font-weight: 900;
+  font-display: block;
+  src: url("../webfonts/fa-solid-900.woff2");
+}
+@font-face {
+  font-family: "Font Awesome 7 Brands";
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url("../webfonts/fa-brands-400.woff2");
+}
+
+.fas,
+.fab,
+.fa {
+  --_fa-family: var(--fa-family, var(--fa-style-family, 'Font Awesome 7 Free'));
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: var(--fa-display, inline-block);
+  font-family: var(--_fa-family);
+  font-feature-settings: normal;
+  font-style: normal;
+  font-synthesis: none;
+  font-variant: normal;
+  font-weight: var(--fa-style, 900);
+  line-height: 1;
+  text-align: center;
+  text-rendering: auto;
+  width: var(--fa-width, 1.25em);
+}
+
+:is(.fas, .fab, .fa)::before {
+  content: var(--fa)/"";
+}
+
+@supports not (content: ""/"") {
+  :is(.fas, .fab, .fa)::before {
+    content: var(--fa);
+  }
+}
+
+.fas {
+  --fa-family: var(--fa-family-classic, 'Font Awesome 7 Free');
+  --fa-style: 900;
+}
+
+.fab {
+  --fa-family: var(--fa-family-brands, 'Font Awesome 7 Brands');
+  --fa-style: 400;
+}
+
+.fa-android {
+  --fa: "\f17b";
+}
+.fa-apple {
+  --fa: "\f179";
+}
+.fa-arrow-left {
+  --fa: "\f060";
+}
+.fa-arrow-right {
+  --fa: "\f061";
+}
+.fa-arrow-up {
+  --fa: "\f062";
+}
+.fa-bars {
+  --fa: "\f0c9";
+}
+.fa-bolt {
+  --fa: "\f0e7";
+}
+.fa-book-open {
+  --fa: "\f518";
+}
+.fa-book-quran {
+  --fa: "\f687";
+}
+.fa-book-reader {
+  --fa: "\f5da";
+}
+.fa-brain {
+  --fa: "\f5dc";
+}
+.fa-bug {
+  --fa: "\f188";
+}
+.fa-check {
+  --fa: "\f00c";
+}
+.fa-chevron-down {
+  --fa: "\f078";
+}
+.fa-chevron-right {
+  --fa: "\f054";
+}
+.fa-circle-question {
+  --fa: "\f059";
+}
+.fa-comment {
+  --fa: "\f075";
+}
+.fa-comment-dots {
+  --fa: "\f4ad";
+}
+.fa-ellipsis {
+  --fa: "\f141";
+}
+.fa-envelope {
+  --fa: "\f0e0";
+}
+.fa-globe {
+  --fa: "\f0ac";
+}
+.fa-google-play {
+  --fa: "\f3ab";
+}
+.fa-headphones {
+  --fa: "\f025";
+}
+.fa-language {
+  --fa: "\f1ab";
+}
+.fa-lightbulb {
+  --fa: "\f0eb";
+}
+.fa-mobile-alt {
+  --fa: "\f3cd";
+}
+.fa-mobile-screen-button {
+  --fa: "\f3cd";
+}
+.fa-moon {
+  --fa: "\f186";
+}
+.fa-paper-plane {
+  --fa: "\f1d8";
+}
+.fa-screwdriver-wrench {
+  --fa: "\f7d9";
+}
+.fa-search {
+  --fa: "\f002";
+}
+.fa-star {
+  --fa: "\f005";
+}
+.fa-sun {
+  --fa: "\f185";
+}
+.fa-sync-alt {
+  --fa: "\f2f1";
+}
+.fa-times {
+  --fa: "\f00d";
+}
+.fa-users {
+  --fa: "\f0c0";
+}

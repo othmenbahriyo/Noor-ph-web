@@ -46,7 +46,7 @@ export default async function LocaleLayout({
   return (
     <html lang={locale} dir={dir} className={cairo.variable}>
       <head>
-        <link href="/fontawesome/css/all.min.css" rel="stylesheet" />
+        <link href="/fontawesome/css/subset.css" rel="stylesheet" />
         <link
           rel="alternate"
           type="application/rss+xml"
