@@ -1686,7 +1686,9 @@
     "subtitle": "Njàngale ak digal yu am solo ci Tajwiid, fàttaliku Alkuraan, ak liggéeyukaay, ngir nga man a jëm kanam ci sa aju.",
     "backToList": "Dellu ci blog bi",
     "readMore": "Jàng xibaar bi",
-    "tryFeature": "Gis mébétum bii ci app bi"
+    "tryFeature": "Gis mébétum bii ci app bi",
+    "searchPlaceholder": "Seet ab xibaar...",
+    "noResults": "Amul benn xibaar bu mel ni seetu la."
   },
   "audioCoran": {
     "meta": {

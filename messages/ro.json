@@ -1686,7 +1686,9 @@
     "subtitle": "Ghiduri și sfaturi practice despre Tajwid, memorarea Coranului și recitare, pentru a progresa în ritmul tău.",
     "backToList": "Înapoi la blog",
     "readMore": "Citește articolul",
-    "tryFeature": "Descoperă această funcție în aplicație"
+    "tryFeature": "Descoperă această funcție în aplicație",
+    "searchPlaceholder": "Caută un articol...",
+    "noResults": "Niciun articol nu corespunde căutării tale."
   },
   "audioCoran": {
     "meta": {

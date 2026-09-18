@@ -1686,7 +1686,9 @@
     "subtitle": "关于塔吉威德、古兰经背诵和诵读的实用指南与建议，助您按照自己的节奏取得进步。",
     "backToList": "返回博客",
     "readMore": "阅读文章",
-    "tryFeature": "在应用中探索此功能"
+    "tryFeature": "在应用中探索此功能",
+    "searchPlaceholder": "搜索文章...",
+    "noResults": "没有符合您搜索条件的文章。"
   },
   "audioCoran": {
     "meta": {

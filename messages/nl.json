@@ -1686,7 +1686,9 @@
     "subtitle": "Praktische gidsen en tips over Tajweed, het memoriseren van de Koran en recitatie, om in je eigen tempo vooruitgang te boeken.",
     "backToList": "Terug naar blog",
     "readMore": "Lees artikel",
-    "tryFeature": "Ontdek deze functie in de app"
+    "tryFeature": "Ontdek deze functie in de app",
+    "searchPlaceholder": "Zoek een artikel...",
+    "noResults": "Geen artikel komt overeen met uw zoekopdracht."
   },
   "audioCoran": {
     "meta": {

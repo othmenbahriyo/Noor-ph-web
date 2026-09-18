@@ -1686,7 +1686,9 @@
     "subtitle": "Kendi hızınızda ilerlemeniz için Tecvid, Kuran ezberleme ve tilavet hakkında pratik rehberler ve ipuçları.",
     "backToList": "Bloga dön",
     "readMore": "Makaleyi oku",
-    "tryFeature": "Bu özelliği uygulamada keşfedin"
+    "tryFeature": "Bu özelliği uygulamada keşfedin",
+    "searchPlaceholder": "Bir makale ara...",
+    "noResults": "Aramanızla eşleşen makale yok."
   },
   "audioCoran": {
     "meta": {

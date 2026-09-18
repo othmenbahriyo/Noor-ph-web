@@ -611,7 +611,9 @@
     "subtitle": "Practical guides and tips on Tajweed, Quran memorization, and recitation, to help you progress at your own pace.",
     "backToList": "Back to blog",
     "readMore": "Read article",
-    "tryFeature": "Discover this feature in the app"
+    "tryFeature": "Discover this feature in the app",
+    "searchPlaceholder": "Search an article...",
+    "noResults": "No article matches your search."
   },
   "audioCoran": {
     "meta": {

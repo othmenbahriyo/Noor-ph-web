@@ -24,63 +24,10 @@
   margin: 0 auto;
 }
 
-.grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 24px;
-  max-width: 900px;
-  margin: 0 auto 36px;
-}
-
-.card {
-  display: flex;
-  flex-direction: column;
-  background: var(--light-color);
-  border-radius: var(--border-radius-lg);
-  overflow: hidden;
-  text-decoration: none;
-  color: inherit;
-  transition: var(--transition);
-}
-
-.card:hover {
-  transform: translateY(-4px);
-  box-shadow: var(--shadow-hover);
-}
-
-.cardIcon {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 90px;
-  background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary-light) 100%);
-  color: var(--on-primary-text);
-  font-size: 1.8rem;
-}
-
-.cardBody {
-  padding: 20px 22px;
-}
-
-.cardCategory {
-  display: block;
-  font-size: 0.72rem;
-  font-weight: 700;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  color: var(--accent-color);
-  margin-bottom: 8px;
-}
-
-.cardTitle {
-  color: var(--primary-color);
-  font-size: 1.05rem;
-  line-height: 1.4;
-}
-
 .viewAll {
   display: flex;
   justify-content: center;
+  margin-top: 36px;
 }
 
 .viewAllLink {

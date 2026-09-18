@@ -1686,7 +1686,9 @@
     "subtitle": "Praktische Anleitungen und Tipps zu Tajweed, dem Auswendiglernen des Korans und der Rezitation, damit Sie in Ihrem eigenen Tempo Fortschritte machen.",
     "backToList": "Zurück zum Blog",
     "readMore": "Artikel lesen",
-    "tryFeature": "Diese Funktion in der App entdecken"
+    "tryFeature": "Diese Funktion in der App entdecken",
+    "searchPlaceholder": "Artikel suchen...",
+    "noResults": "Kein Artikel entspricht Ihrer Suche."
   },
   "audioCoran": {
     "meta": {

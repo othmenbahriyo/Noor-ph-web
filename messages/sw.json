@@ -1686,7 +1686,9 @@
     "subtitle": "Miongozo na vidokezo vya vitendo kuhusu Tajwid, kuhifadhi Qur'ani, na usomaji, ili uweze kuendelea kwa kasi yako mwenyewe.",
     "backToList": "Rudi kwenye blogu",
     "readMore": "Soma makala",
-    "tryFeature": "Gundua kipengele hiki katika programu"
+    "tryFeature": "Gundua kipengele hiki katika programu",
+    "searchPlaceholder": "Tafuta makala...",
+    "noResults": "Hakuna makala inayolingana na utafutaji wako."
   },
   "audioCoran": {
     "meta": {

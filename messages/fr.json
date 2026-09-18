@@ -1686,7 +1686,9 @@
     "subtitle": "Guides et conseils pratiques sur le Tajweed, la mémorisation du Coran et la récitation, pour progresser à votre rythme.",
     "backToList": "Retour au blog",
     "readMore": "Lire l'article",
-    "tryFeature": "Découvrir cette fonctionnalité dans l'application"
+    "tryFeature": "Découvrir cette fonctionnalité dans l'application",
+    "searchPlaceholder": "Rechercher un article...",
+    "noResults": "Aucun article ne correspond à votre recherche."
   },
   "audioCoran": {
     "meta": {

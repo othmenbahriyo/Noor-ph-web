@@ -1686,7 +1686,9 @@
     "subtitle": "Praktikal na gabay at mga tip tungkol sa Tajweed, pagsasaulo ng Quran, at pagbigkas, upang makasulong ka sa sarili mong bilis.",
     "backToList": "Bumalik sa blog",
     "readMore": "Basahin ang artikulo",
-    "tryFeature": "Tuklasin ang tampok na ito sa app"
+    "tryFeature": "Tuklasin ang tampok na ito sa app",
+    "searchPlaceholder": "Maghanap ng artikulo...",
+    "noResults": "Walang artikulong tumugma sa iyong paghahanap."
   },
   "audioCoran": {
     "meta": {

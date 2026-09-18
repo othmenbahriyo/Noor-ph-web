@@ -1686,7 +1686,9 @@
     "subtitle": "O'z sur'atingizda rivojlanishingiz uchun Tajvid, Qur'onni yodlash va tilovat haqida amaliy qo'llanmalar va maslahatlar.",
     "backToList": "Blogga qaytish",
     "readMore": "Maqolani o'qish",
-    "tryFeature": "Ilovada bu funksiyani kashf eting"
+    "tryFeature": "Ilovada bu funksiyani kashf eting",
+    "searchPlaceholder": "Maqola qidirish...",
+    "noResults": "Qidiruvingizga mos maqola topilmadi."
   },
   "audioCoran": {
     "meta": {

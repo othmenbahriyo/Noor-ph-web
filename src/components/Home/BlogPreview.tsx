@@ -1,6 +1,7 @@
 import { getTranslations, getLocale } from 'next-intl/server';
 import { Link } from '@/i18n/navigation';
 import { getAllBlogPosts } from '@/lib/blog';
+import blogStyles from '../Blog/Blog.module.css';
 import styles from './BlogPreview.module.css';
 
 const CATEGORY_ICONS: Record<string, string> = {
@@ -12,10 +13,13 @@ function iconFor(category: string) {
   return CATEGORY_ICONS[category] ?? 'fa-book-open';
 }
 
+const HOME_PREVIEW_LIMIT = 8;
+
 export default async function BlogPreview() {
   const locale = await getLocale();
   const t = await getTranslations('home.blogPreview');
-  const posts = getAllBlogPosts(locale).slice(0, 2);
+  const tBlog = await getTranslations('blog');
+  const posts = getAllBlogPosts(locale).slice(0, HOME_PREVIEW_LIMIT);
 
   if (posts.length === 0) return null;
 
@@ -27,15 +31,23 @@ export default async function BlogPreview() {
           <p>{t('subtitle')}</p>
         </div>
 
-        <div className={styles.grid}>
+        <div className={blogStyles.grid}>
           {posts.map((post) => (
-            <Link key={post.slug} href={`/blog/${post.slug}`} className={styles.card}>
-              <div className={styles.cardIcon}>
+            <Link key={post.slug} href={`/blog/${post.slug}`} className={blogStyles.card}>
+              <div className={blogStyles.cardIcon}>
                 <i className={`fas ${iconFor(post.category)}`} />
               </div>
-              <div className={styles.cardBody}>
-                <span className={styles.cardCategory}>{post.category}</span>
-                <h3 className={styles.cardTitle}>{post.title}</h3>
+              <div className={blogStyles.cardBody}>
+                <span className={blogStyles.cardCategory}>{post.category}</span>
+                <h3 className={blogStyles.cardTitle}>{post.title}</h3>
+                <p className={blogStyles.cardDescription}>{post.description}</p>
+                <div className={blogStyles.cardFooter}>
+                  <span className={blogStyles.cardDate}>{post.date}</span>
+                  <span className={blogStyles.cardReadMore}>
+                    {tBlog('readMore')}
+                    <i className="fas fa-arrow-right" />
+                  </span>
+                </div>
               </div>
             </Link>
           ))}

@@ -1686,7 +1686,9 @@
     "subtitle": "Guide e consigli pratici sul Tajwid, la memorizzazione del Corano e la recitazione, per progredire al tuo ritmo.",
     "backToList": "Torna al blog",
     "readMore": "Leggi l'articolo",
-    "tryFeature": "Scopri questa funzione nell'app"
+    "tryFeature": "Scopri questa funzione nell'app",
+    "searchPlaceholder": "Cerca un articolo...",
+    "noResults": "Nessun articolo corrisponde alla tua ricerca."
   },
   "audioCoran": {
     "meta": {

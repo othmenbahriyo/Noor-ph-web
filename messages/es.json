@@ -1686,7 +1686,9 @@
     "subtitle": "Guías y consejos prácticos sobre el Tayvid, la memorización del Corán y la recitación, para progresar a tu propio ritmo.",
     "backToList": "Volver al blog",
     "readMore": "Leer el artículo",
-    "tryFeature": "Descubre esta función en la aplicación"
+    "tryFeature": "Descubre esta función en la aplicación",
+    "searchPlaceholder": "Buscar un artículo...",
+    "noResults": "Ningún artículo coincide con tu búsqueda."
   },
   "audioCoran": {
     "meta": {

@@ -64,6 +64,42 @@
   padding: var(--section-padding) 0;
 }
 
+.searchWrap {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  max-width: 480px;
+  margin: 0 auto 40px;
+  background: var(--white);
+  border-radius: var(--border-radius-pill);
+  padding: 14px 22px;
+  box-shadow: var(--shadow-sm);
+}
+
+.searchWrap i {
+  color: var(--text-light);
+}
+
+.searchInput {
+  flex: 1;
+  border: none;
+  background: none;
+  outline: none;
+  font-size: 0.95rem;
+  color: var(--text-color);
+  font-family: inherit;
+}
+
+.searchInput::placeholder {
+  color: var(--text-light);
+}
+
+.searchEmpty {
+  text-align: center;
+  color: var(--text-light);
+  padding: 40px 0;
+}
+
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));

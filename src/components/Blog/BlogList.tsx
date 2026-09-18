@@ -1,5 +1,6 @@
 import { Link } from '@/i18n/navigation';
 import type { BlogPostMeta } from '@/lib/blog';
+import BlogSearchGrid from './BlogSearchGrid';
 import styles from './Blog.module.css';
 
 interface BlogListProps {
@@ -7,19 +8,20 @@ interface BlogListProps {
   subtitle: string;
   homeLabel: string;
   readMoreLabel: string;
+  searchPlaceholder: string;
+  noResultsLabel: string;
   posts: BlogPostMeta[];
 }
 
-const CATEGORY_ICONS: Record<string, string> = {
-  Tajweed: 'fa-book-quran',
-  Hifz: 'fa-brain',
-};
-
-function iconFor(category: string) {
-  return CATEGORY_ICONS[category] ?? 'fa-book-open';
-}
-
-export default function BlogList({ title, subtitle, homeLabel, readMoreLabel, posts }: BlogListProps) {
+export default function BlogList({
+  title,
+  subtitle,
+  homeLabel,
+  readMoreLabel,
+  searchPlaceholder,
+  noResultsLabel,
+  posts,
+}: BlogListProps) {
   return (
     <>
       <section className={styles.hero}>
@@ -34,27 +36,12 @@ export default function BlogList({ title, subtitle, homeLabel, readMoreLabel, po
 
       <section className={styles.listSection}>
         <div className="container">
-          <div className={styles.grid}>
-            {posts.map((post) => (
-              <Link key={post.slug} href={`/blog/${post.slug}`} className={styles.card}>
-                <div className={styles.cardIcon}>
-                  <i className={`fas ${iconFor(post.category)}`} />
-                </div>
-                <div className={styles.cardBody}>
-                  <span className={styles.cardCategory}>{post.category}</span>
-                  <h2 className={styles.cardTitle}>{post.title}</h2>
-                  <p className={styles.cardDescription}>{post.description}</p>
-                  <div className={styles.cardFooter}>
-                    <span className={styles.cardDate}>{post.date}</span>
-                    <span className={styles.cardReadMore}>
-                      {readMoreLabel}
-                      <i className="fas fa-arrow-right" />
-                    </span>
-                  </div>
-                </div>
-              </Link>
-            ))}
-          </div>
+          <BlogSearchGrid
+            posts={posts}
+            readMoreLabel={readMoreLabel}
+            searchPlaceholder={searchPlaceholder}
+            noResultsLabel={noResultsLabel}
+          />
         </div>
       </section>
     </>

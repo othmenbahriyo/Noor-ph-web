@@ -1686,7 +1686,9 @@
     "subtitle": "Panduan dan tips praktis tentang Tajwid, hafalan Al-Qur'an, dan tilawah, agar Anda dapat maju sesuai kecepatan Anda sendiri.",
     "backToList": "Kembali ke blog",
     "readMore": "Baca artikel",
-    "tryFeature": "Temukan fitur ini di aplikasi"
+    "tryFeature": "Temukan fitur ini di aplikasi",
+    "searchPlaceholder": "Cari artikel...",
+    "noResults": "Tidak ada artikel yang cocok dengan pencarian Anda."
   },
   "audioCoran": {
     "meta": {

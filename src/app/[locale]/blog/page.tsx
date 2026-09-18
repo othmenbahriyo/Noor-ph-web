@@ -53,6 +53,8 @@ export default async function BlogPage({
         subtitle={t('subtitle')}
         homeLabel={tNav('home')}
         readMoreLabel={t('readMore')}
+        searchPlaceholder={t('searchPlaceholder')}
+        noResultsLabel={t('noResults')}
         posts={posts}
       />
       <Footer />

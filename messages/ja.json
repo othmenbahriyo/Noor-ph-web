@@ -1686,7 +1686,9 @@
     "subtitle": "タジュウィード、クルアーンの暗記、朗誦に関する実践的なガイドとヒントで、自分のペースで上達できます。",
     "backToList": "ブログに戻る",
     "readMore": "記事を読む",
-    "tryFeature": "アプリでこの機能を見る"
+    "tryFeature": "アプリでこの機能を見る",
+    "searchPlaceholder": "記事を検索...",
+    "noResults": "検索に一致する記事がありません。"
   },
   "audioCoran": {
     "meta": {
