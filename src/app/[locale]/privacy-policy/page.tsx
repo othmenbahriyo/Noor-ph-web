@@ -1,32 +1,47 @@
 import type { Metadata } from 'next';
-import { setRequestLocale } from 'next-intl/server';
+import { getTranslations, setRequestLocale } from 'next-intl/server';
 import Header from '@/components/Header/Header';
 import Footer from '@/components/Footer/Footer';
 import PrivacyPolicyContent from '@/components/Legal/PrivacyPolicyContent';
 import { routing } from '@/i18n/routing';
+import { buildLocaleUrls } from '@/i18n/seo';
 
-const SITE_URL = 'https://noor-phonetic-quran.com';
+const PAGE_PATH = '/privacy-policy';
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
 }
 
-export async function generateMetadata(): Promise<Metadata> {
-  const canonicalUrl = `${SITE_URL}/privacy-policy`;
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'privacyPolicy.meta' });
+  const { canonicalUrl, languages } = buildLocaleUrls(locale, PAGE_PATH);
 
   return {
-    title: 'Politique de Confidentialité - Noor Phonetic Quran',
-    description:
-      'Politique de confidentialité de Noor Phonetic Quran : données collectées (analytics, achats, formulaire de contact), finalités, partage avec des tiers et vos droits.',
+    title: t('title'),
+    description: t('description'),
     robots: 'index, follow',
     alternates: {
       canonical: canonicalUrl,
-      languages: {
-        fr: canonicalUrl,
-        en: canonicalUrl,
-        'x-default': canonicalUrl,
-      },
+      languages,
     },
+  };
+}
+
+function buildJsonLd(locale: string, breadcrumbLabels: { home: string; page: string }) {
+  const { canonicalUrl, languages } = buildLocaleUrls(locale, PAGE_PATH);
+
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: breadcrumbLabels.home, item: languages[locale] },
+      { '@type': 'ListItem', position: 2, name: breadcrumbLabels.page, item: canonicalUrl },
+    ],
   };
 }
 
@@ -37,9 +52,18 @@ export default async function PrivacyPolicyPage({
 }) {
   const { locale } = await params;
   setRequestLocale(locale);
+  const tNav = await getTranslations('common.nav');
+  const jsonLd = buildJsonLd(locale, {
+    home: tNav('home'),
+    page: tNav('pages.privacyPolicy'),
+  });
 
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <Header />
       <PrivacyPolicyContent />
       <Footer />

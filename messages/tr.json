@@ -1,0 +1,2323 @@
+{
+  "common": {
+    "nav": {
+      "features": "Özellikler",
+      "screenshots": "Ekran Görüntüleri",
+      "reviews": "Yorumlar",
+      "privacy": "Gizlilik",
+      "contact": "İletişim",
+      "openMenu": "Gezinme menüsünü aç",
+      "closeMenu": "Gezinme menüsünü kapat",
+      "toggleTheme": "Koyu modu değiştir",
+      "googlePlay": "Google Play",
+      "appStore": "App Store",
+      "home": "Ana Sayfa",
+      "reviewsBreadcrumb": "Yorumlar",
+      "contactBreadcrumb": "İletişim",
+      "pages": {
+        "audioCoran": "Kuran Sesi",
+        "khatmaCoran": "Kuran Hatmi",
+        "memorisationCoran": "Kuran Ezberleme",
+        "quizCoran": "Kuran Testi",
+        "tajweedCoran": "Tecvid Kuralları",
+        "correctionRecitation": "Tilavet Düzeltme",
+        "privacyPolicy": "Gizlilik Politikası",
+        "cgu": "Kullanım Koşulları"
+      }
+    },
+    "languageSwitcher": {
+      "label": "Dil seçin",
+      "searchPlaceholder": "Dil ara...",
+      "close": "Kapat",
+      "noResults": "Dil bulunamadı"
+    },
+    "footer": {
+      "about": "Kur'an-ı Kerim'i doğru ve kolay bir şekilde okumayı öğrenmek için yenilikçi bir uygulama.",
+      "quickLinks": "Hızlı Bağlantılar",
+      "resources": "Kaynaklar",
+      "faq": "SSS",
+      "support": "Destek",
+      "contact": "İletişim",
+      "location": "Paris, Fransa",
+      "rights": "Tüm hakları saklıdır.",
+      "backToTop": "Sayfanın başına dön"
+    },
+    "contactForm": {
+      "eyebrow": "Bize Ulaşın",
+      "title": "Bize Ulaşın",
+      "description": "Önerileriniz, geliştirme fikirleriniz veya bildirmek istediğiniz bir sorun varsa bize yazmaktan çekinmeyin. Size hızlıca yanıt vereceğiz.",
+      "highlights": [
+        {
+          "title": "Hızlı Yanıt",
+          "text": "Ekibimiz her mesajı inceler ve genellikle 48 saat içinde yanıt verir. İster basit bir soru ister teknik bir sorun olsun, hiçbir talebi yanıtsız bırakmamayı ilke ediniyoruz."
+        },
+        {
+          "title": "Dinleyen Bir Topluluk",
+          "text": "80.000'den fazla kullanıcı bize güveniyor; geri bildirimleriniz uygulamayı herkes için geliştirmemize yardımcı oluyor. Her mesaj değerlidir ve Noor'u kullanıcılarının ihtiyaçlarına daha da uygun bir araç haline getirmemize katkı sağlar."
+        },
+        {
+          "title": "Fikirleriniz Uygulamayı Şekillendiriyor",
+          "text": "Mevcut özelliklerin birçoğu (Tecvid, Hatim, quiz...) kullanıcı önerilerinden doğdu. Uygulamayla günlük deneyiminiz, gelecekteki geliştirmeler için en iyi ilham kaynağıdır."
+        }
+      ],
+      "name": "Ad",
+      "namePlaceholder": "Adınız",
+      "nameRequired": "Ad alanı zorunludur",
+      "email": "E-posta",
+      "emailPlaceholder": "siz@ornek.com",
+      "emailRequired": "E-posta alanı zorunludur",
+      "emailInvalid": "Geçersiz e-posta",
+      "phone": "Telefon (isteğe bağlı)",
+      "phonePlaceholder": "+90 5xx xxx xx xx",
+      "subject": "Konu",
+      "subjectPlaceholder": "Bir konu seçin...",
+      "subjectRequired": "Lütfen bir konu seçin",
+      "subjectOptions": {
+        "general": "Genel soru",
+        "suggestion": "Öneri",
+        "bug": "Hata bildir",
+        "technical": "Teknik sorun",
+        "other": "Diğer"
+      },
+      "platform": "Kullanılan platform",
+      "platformPlaceholder": "Bir platform seçin...",
+      "platformRequired": "Lütfen bir platform seçin",
+      "platformOptions": {
+        "ios": "iOS",
+        "android": "Android",
+        "web": "Web"
+      },
+      "message": "Mesaj",
+      "messagePlaceholder": "Mesajınızı buraya yazın...",
+      "messageRequired": "Mesaj alanı zorunludur",
+      "messageTooShort": "Mesaj en az 10 karakter içermelidir",
+      "send": "Gönder",
+      "sending": "Gönderiliyor...",
+      "successMessage": "Mesajınız başarıyla gönderildi. Teşekkür ederiz!",
+      "errorMessage": "Bir hata oluştu. Lütfen tekrar deneyin."
+    }
+  },
+  "home": {
+    "meta": {
+      "title": "Noor Phonetic Quran - Kur'an Öğrenme Uygulaması",
+      "description": "Noor Phonetic Quran - Kur'an'ı okumayı, ezberlemeyi (Hıfz) ve tamamını okumayı (Hatim) öğrenmek için ücretsiz uygulama. Fonetik transkripsiyon, senkronize ses, renkli Tecvid, günlük okuma planı, quiz ve kıraat düzeltme. 80 binden fazla memnun kullanıcı. iOS ve Android'de mevcuttur.",
+      "keywords": "fonetik Kur'an, Kur'an öğren, Quran phonetics, Kur'an kıraati, Tecvid, ücretsiz Kur'an uygulaması, Arapça Türkçe Kur'an, Kur'an fonetik transkripsiyon, learn Quran, Quran app free, Kur'an Hatim, Kur'an ezberleme, Hıfz Kur'an, Kur'an okuma planı, Kur'an quiz, kıraat düzeltme uygulaması, Kur'an ezberleme uygulaması",
+      "ogTitle": "Noor Phonetic Quran - Kur'an'ı fonetikle okuyun",
+      "ogDescription": "Arapça bilmeseniz bile Kur'an-ı Kerim'i okumayı öğrenin. Doğru fonetik, entegre ses ve Tecvid kurallarıyla ücretsiz uygulama."
+    },
+    "hero": {
+      "statusBadge": "80K+ Aktif Kullanıcı",
+      "headlineHighlight": "Okuyun",
+      "headline": "Arapça bilmeseniz bile Kur'an-ı Kerim'i",
+      "subheadline": "Kesin ve sezgisel bir fonetik sayesinde, Noor Phonetic Quran her ayeti herkes için erişilebilir kılar.",
+      "miniFeatures": {
+        "phonetics": "Hassas Fonetik",
+        "audio": "Entegre Ses",
+        "tajweed": "Tecvid Kuralları"
+      },
+      "ratingText": "Play Store ve App Store'da tam puan",
+      "downloadOn": "İndirin:",
+      "usersBadgeLabel": "Kullanıcı",
+      "updateBadge": "Yakın zamanda güncellendi",
+      "deviceScreenAlt": "Noor Phonetic Quran - Kur'an fonetiğini gösteren uygulama arayüzü",
+      "mobileDeviceScreenAlt": "Noor Phonetic Quran - Fonetik transkripsiyonla Kur'an öğrenme"
+    },
+    "languages": {
+      "title": "Kendi Dilinizde Kullanılabilir",
+      "subtitle": "Noor Phonetic Quran uygulaması, dünyanın dört bir yanındaki Müslümanlara eşlik etmek için 20 dile çevrilmiştir."
+    },
+    "why": {
+      "title": "Neden Noor Phonetic Quran?",
+      "subtitle": "Uygulamamızı benzersiz bir seçim yapan nedenleri keşfedin",
+      "items": [
+        {
+          "icon": "fa-heart",
+          "stepLabel": "Engel",
+          "title": "Herkes İçin Erişilebilir",
+          "text": "Birçok Müslüman Kur'an okumak ister ama Arapça dili onları engeller. Uygulamamız bu engeli ortadan kaldırır."
+        },
+        {
+          "icon": "fa-graduation-cap",
+          "stepLabel": "Yöntem",
+          "title": "Kolaylaştırılmış Öğrenme",
+          "text": "Açık ve sezgisel bir fonetik, herkesin stressiz ve sıkıntısız bir şekilde kendi hızında öğrenmesini sağlar."
+        },
+        {
+          "icon": "fa-check-circle",
+          "stepLabel": "Sonuç",
+          "title": "Doğru Telaffuz",
+          "text": "Hassas Tecvid kuralları ve senkronize sesle yönlendirilerek, gerçek bir kıraate doğru ilerlersiniz."
+        }
+      ]
+    },
+    "features": {
+      "title": "Ana Özellikler",
+      "subtitle": "Noor Phonetic Quran'ın neden Kur'an okumayı öğrenmek için mükemmel bir uygulama olduğunu keşfedin",
+      "items": [
+        {
+          "icon": "fa-book",
+          "title": "Fonetik Transkripsiyon",
+          "text": "Her ayet, doğru telaffuz için detaylı bir fonetik transkripsiyonla birlikte sunulur."
+        },
+        {
+          "icon": "fa-bookmark",
+          "title": "Tecvid Kuralları",
+          "href": "/tajweed-coran",
+          "text": "Renkler ve notlar, doğru Tecvid kurallarına göre kıraatinizi yönlendirir."
+        },
+        {
+          "icon": "fa-language",
+          "title": "Çok Dilli Çeviriler",
+          "text": "İlahi mesajı daha iyi anlamak için Fransızca ve İngilizce çevirilere erişin."
+        },
+        {
+          "icon": "fa-headphones",
+          "title": "Senkronize Ses",
+          "href": "/audio-coran",
+          "text": "Her ayet, doğru telaffuzu duyabilmeniz için sesle birlikte sunulur."
+        },
+        {
+          "icon": "fa-mobile-alt",
+          "title": "Kullanıcı Dostu Arayüz",
+          "text": "Sezgisel gezinme ve tercihlerinize göre kişiselleştirme."
+        },
+        {
+          "icon": "fa-graduation-cap",
+          "title": "Kolaylaştırılmış Öğrenme",
+          "text": "Yeni başlayanlar veya kıraatini geliştirmek isteyenler için idealdir."
+        },
+        {
+          "icon": "fa-calendar-check",
+          "title": "Kur'an Hatimi",
+          "href": "/khatma-coran",
+          "text": "Kur'an'ın tamamını (Hatim) günlük hedefler, gün serileri (streak) ve sona kadar ilerleme hatırlatmalarıyla planlayın ve takip edin."
+        },
+        {
+          "icon": "fa-calendar-day",
+          "title": "Günlük Okuma Planı",
+          "text": "Her gün okuyacağınız sayfa sayısını belirleyin ve kişiselleştirilmiş bir kontrol listesiyle ilerlemenizi takip ederek Kur'an'ı düzenli okuma alışkanlığı kazanın."
+        },
+        {
+          "icon": "fa-brain",
+          "title": "Kur'an Ezberleme (Hıfz)",
+          "href": "/memorisation-coran",
+          "text": "Ses tekrarı, kelime kelime mod, tekrar quizleri, puanlar, seviyeler, rozetler ve motive kalmanız için günlük görevlerle Kur'an'ı ayet ayet ezberleyin."
+        },
+        {
+          "icon": "fa-microphone-alt",
+          "title": "Kıraat Düzeltme",
+          "href": "/correction-recitation-coran",
+          "text": "Kıraatinizi kaydedin ve telaffuzunuzun ve Tecvid'in doğruluğunda ilerlemek için kişiselleştirilmiş bir düzeltme alın."
+        },
+        {
+          "icon": "fa-trophy",
+          "title": "Kur'an Quizi",
+          "href": "/quiz-coran",
+          "text": "Eğlenerek öğrenmek için birden fazla zorluk seviyesine sahip eğlenceli bir quizle Kur'an bilginizi test edin."
+        },
+        {
+          "icon": "fa-mobile-screen-button",
+          "title": "Ana Ekran Widget'ı",
+          "text": "Günün ayetini doğrudan telefonunuzun ana ekranında gösterin ve okuma rutininizi her zaman göz önünde tutun."
+        }
+      ]
+    },
+    "videoDemo": {
+      "title": "Uygulamayı Eylemde Keşfedin",
+      "subtitle": "Noor Phonetic Quran'ın nasıl çalıştığını görmek için bu kısa tanıtımı izleyin"
+    },
+    "screenshots": {
+      "title": "Ekran Görüntüleri",
+      "subtitle": "Uygulamayı görsellerle keşfedin",
+      "alts": [
+        "Noor Phonetic Quran - Kur'an surelerinin listesi",
+        "Noor Phonetic Quran - Hassas fonetikle kıraat",
+        "Noor Phonetic Quran - Renkli Tecvid kuralları",
+        "Noor Phonetic Quran - Metinle senkronize ses",
+        "Noor Phonetic Quran - Kur'an'ın Fransızca çevirisi",
+        "Noor Phonetic Quran - Kur'an öğrenme modu",
+        "Noor Phonetic Quran - Sureye göre gezinme",
+        "Noor Phonetic Quran - Fonetik transkripsiyonlu ayetler",
+        "Noor Phonetic Quran - Uygulama ayarları",
+        "Noor Phonetic Quran - Kesintisiz Kur'an okuma",
+        "Noor Phonetic Quran - Modern ve sezgisel arayüz"
+      ]
+    },
+    "faq": {
+      "title": "Sıkça Sorulan Sorular",
+      "subtitle": "Sorularınızın yanıtlarını hızlıca bulun",
+      "items": [
+        {
+          "question": "Uygulama çevrimdışı çalışıyor mu?",
+          "answer": "Evet, kesinlikle! Uygulama yüklendikten sonra Kur'an'ın tüm sureleri çevrimdışı olarak kullanılabilir. İnternet bağlantısı olmadan her yerde okuyup kıraat edebilirsiniz."
+        },
+        {
+          "question": "Hangi fonetiği kullanıyorsunuz?",
+          "answer": "Herkes için okunması kolay, basit ve evrensel bir İngilizce fonetik kullanıyoruz. Fransızca fonetik sürümü geliştirme aşamasındadır ve yakında kullanıma sunulacaktır."
+        },
+        {
+          "question": "Kur'an uygulamada tam mı?",
+          "answer": "Evet! Uygulama, baştan sona 114 suresiyle birlikte Kur'an-ı Kerim'in tamamını, tam fonetik transkripsiyonuyla içerir."
+        },
+        {
+          "question": "Ses tüm ayetler için mevcut mu?",
+          "answer": "Evet, her ayet, öğrenmeyi kolaylaştırmak ve telaffuzunuzu geliştirmek için mükemmel, net ve yavaş bir sesli kıraatle birlikte sunulur."
+        },
+        {
+          "question": "Uygulama ücretsiz mi?",
+          "answer": "Evet, Noor Phonetic Quran tamamen ücretsizdir. Amacımız, hiçbir mali engel olmadan Kur'an'ı herkes için erişilebilir kılmaktır."
+        },
+        {
+          "question": "Hatim (Kur'an'ın tamamını okuma) nasıl çalışır?",
+          "answer": "Uygulama, Kur'an'ı bitirmek için bir gün sayısı seçerek bir Hatim planlamanıza olanak tanır. Günlük ilerlemenizi, gün serinizi (streak) takip eder ve okumanızın sonuna kadar düzenli kalmanız için hatırlatmalar alırsınız."
+        },
+        {
+          "question": "Uygulamayla Kur'an'ı (Hıfz) ezberleyebilir miyim?",
+          "answer": "Evet, uygulama, Kur'an'ı etkili bir şekilde ezberlemenize yardımcı olmak için ayet ayet ses tekrarı, kelime kelime mod, tekrar quizleri, puanlar, seviyeler, rozetler ve günlük görevlerle eksiksiz bir Ezberleme modu sunar."
+        },
+        {
+          "question": "Birden fazla hafız mevcut mu?",
+          "answer": "Evet, birçok Kur'an hafızı arasından seçim yapabilir ve internet bağlantısı olmadan tam bir dinleme için sesi indirebilirsiniz."
+        },
+        {
+          "question": "Uygulama bir kıraat düzeltmesi sunuyor mu?",
+          "answer": "Evet, kıraatinizi doğrudan uygulama içinde kaydedebilir ve telaffuzunuzu ve Tecvid kurallarına uyumunuzu geliştirmek için kişiselleştirilmiş bir düzeltme alabilirsiniz."
+        },
+        {
+          "question": "Yeni özellikler gelecek mi?",
+          "answer": "Evet, uygulamayı sürekli geliştirmek için çalışıyoruz. Birçok yenilik planlanıyor: tam Fransızca fonetik, genişletilmiş renkli Tecvid modu, harf harf öğrenme modu ve çok daha fazlası!"
+        }
+      ]
+    },
+    "testimonials": {
+      "title": "Kullanıcılarımız Ne Diyor",
+      "subtitle": "Büyüyen memnun kullanıcı topluluğumuzun yorumlarını keşfedin",
+      "prevLabel": "Önceki yorum",
+      "nextLabel": "Sonraki yorum",
+      "viewAllLabel": "Tüm yorumları gör",
+      "items": [
+        {
+          "initials": "SD",
+          "name": "Sidy DIOP",
+          "device": "16 Temmuz 2026",
+          "text": "Kur'an öğrenmek için çok güzel bir uygulama, telaffuz edemeseniz bile sesi dinleyip tekrar etmeniz yeterli",
+          "rating": 5
+        },
+        {
+          "initials": "AB",
+          "name": "Amourlaye Beman",
+          "device": "25 Mart 2026",
+          "text": "Çok çok iyi bir uygulama. Allah sizi bu çabanız için sonsuza dek mübarek kılsın ve içeriği zenginleştirmeniz için size daha fazla ilham versin... hadislerin Fransızca çevirisini eklemeye başlayabilirsiniz. Teşekkürler 🙏🥰👍",
+          "rating": 5
+        },
+        {
+          "initials": "YT",
+          "name": "Yaou Tchari",
+          "device": "6 Temmuz 2026",
+          "text": "Uzun zamandır aradığım çok iyi bir uygulama, okuması kolay ve zorlanılan hataları düzeltmeyi kolaylaştırıyor.",
+          "rating": 5
+        },
+        {
+          "initials": "FA",
+          "name": "Fatima",
+          "device": "21 Nisan 2026",
+          "text": "Bu uygulamayı hediye olarak keşfettim, kendimi yenilenmiş hissediyorum 😁, gerçekten. Küçük bir sorunum vardı ama çok hızlı çözüldü elhamdülillah. Öğrenmek için gerçekten kolaylık sağlıyor, birçok kişiye tavsiye ederim. Allah sizi mükafatlandırsın 🤲🏻🌹",
+          "rating": 5
+        },
+        {
+          "initials": "DH",
+          "name": "Djamila Hb",
+          "device": "30 Temmuz 2026",
+          "text": "Kur'an okumayı öğrenmek için çok iyi, Allah bizlere kolaylık versin",
+          "rating": 5
+        },
+        {
+          "initials": "NA",
+          "name": "Naoal",
+          "device": "12 Mayıs 2026",
+          "text": "Arapça yazıyı okuyamayanlar için gerçekten çok iyi, çünkü Kur'an öğrenmek isteyip Arapça okuyamayan birçok kişi var. Kesinlikle kurulması gereken bir uygulama 👍",
+          "rating": 5
+        },
+        {
+          "initials": "ID",
+          "name": "Ibou Dieme",
+          "device": "8 Ocak 2026",
+          "text": "Bu uygulama gerçekten olağanüstü, 100 yıldız seçeneği olsaydı kesinlikle verirdim ama düzeltilmesi gereken küçük bir sorun var: çevrimdışıyken sesleri indiremiyoruz, indirilebilir sesle uygulamanın çevrimdışıyken dinlemek için daha da iyi olacağından eminim",
+          "rating": 5
+        },
+        {
+          "initials": "YC",
+          "name": "Youssouf Cherif",
+          "device": "26 Ocak 2026",
+          "text": "En iyi uygulama. Bana çok yardımcı oluyor. Bu uygulama sayesinde Kur'an-ı Kerim'i kolayca okuyabiliyorum ve bu bana iyi geliyor ✨. Gerçekten Allah tasarımcıları kat kat mükafatlandırsın. Olağanüstü. Şiddetle tavsiye ederim. Uygulamada tanımlanmış açık ve yapılandırılmış bir planla Kur'an-ı Kerim'i kolayca öğrenmenizi sağlayacak o kadar çok özellik var ki.",
+          "rating": 5
+        },
+        {
+          "initials": "FF",
+          "name": "Faiza Faiza",
+          "device": "6 Kasım 2024",
+          "text": "İyi uygulama ama sorun her iki dakikada bir durması. Kaldırıp tekrar yükledim ama sorun devam ediyor. Yine de tam olarak aradığım şey buydu. Barak Allahu fikkunna",
+          "rating": 5
+        },
+        {
+          "initials": "LS",
+          "name": "Louis Sawadogo",
+          "device": "27 Mart 2025",
+          "text": "Çok iyi bir uygulama ama indirdikten sonra çevrimdışı okuyamıyorum. Oysa çevrimdışı dediniz ama verilere erişmek için bağlantı gerektiğini fark ettim. Bunu gözden geçirmelisiniz. Teşekkürler.",
+          "rating": 5
+        },
+        {
+          "initials": "YJ",
+          "name": "Yassin Jaounni",
+          "device": "23 Kasım 2025",
+          "text": "Bu uygulama olağanüstü çünkü başlangıçta sadece Arapça okuyamadığım için sureleri öğrenmek için kurmuştum ve tüm özellikleri gördüğümde çok şaşırdım, en çok sevdiğim İslam üzerine milyonlar kazandıran şey Arapça öğrenebilmeniz, dualar öğrenebilmeniz ve hatta telaffuzunuz için sizinle birlikte Kur'an okuyan hafızlar bile var, Kur'an'ı kolayca öğrenmek için teknikler bile veriyorlar, gerçekten muhteşem, tavsiye ederim",
+          "rating": 5
+        },
+        {
+          "initials": "JB",
+          "name": "Jeff Bezos Mayele",
+          "device": "30 Mayıs 2026",
+          "text": "Harika, iyi bir uygulama. Arapça bilmeyenlerin sureleri okuyup anlamasına yardımcı oluyor",
+          "rating": 5
+        },
+        {
+          "initials": "AB",
+          "name": "Abdoulaye Bah",
+          "device": "5 Mart 2025",
+          "text": "Kur'an'ı tek başına öğrenmek veya okumak isteyenler için çok iyi bir uygulama! Allah sizi hayırla mükafatlandırsın ve Kur'an-ı Kerim'i öğrenmeyi ve ezberlemeyi bizlere kolaylaştırsın!",
+          "rating": 5
+        },
+        {
+          "initials": "DD",
+          "name": "dohona daouda coulibaly",
+          "device": "2 Mart 2025",
+          "text": "Sayfaların görüntülenmesi çok çok yavaş. Yoksa uygulamayı çok seviyorum. Ama görüntüleme çok uzun sürüyor. Bu soruna çözüm öneriniz var mı?",
+          "rating": 5
+        },
+        {
+          "initials": "YC",
+          "name": "yvan Cedric",
+          "device": "4 Mart 2025",
+          "text": "Jazzak Allahu feekoum Arapça bilmeyenler için öğrenme açısından çok iyi bir uygulama. Sadece güncellemeden sonra uygulama artık çevrimdışı okumaya izin vermiyor.",
+          "rating": 5
+        },
+        {
+          "initials": "HN",
+          "name": "Horizons New",
+          "device": "23 Ağustos 2025",
+          "text": "Selamünaleyküm, bu uygulamadan tamamen memnunum, sadece giriş 5 yıldızı hak ediyor 🌟 sayfa yükleme konusunda bazı iyileştirmeler istenebilir ve bekleme süresini önlemek için sadece FR sürümü yapmak en iyisi olur, akşam okumaları için gece modu harika olurdu, emeğiniz için teşekkürler Allah sizi mükafatlandırsın",
+          "rating": 5
+        },
+        {
+          "initials": "DB",
+          "name": "dorra bn",
+          "device": "7 Ekim 2025",
+          "text": "Yararlı ve iyi düşünülmüş bir uygulama! Transliterasyon sayesinde kısa sürede Kur'an okumamı geliştirebildim. Allah geliştiricileri mükafatlandırsın",
+          "rating": 5
+        },
+        {
+          "initials": "SM",
+          "name": "Sara ma langue",
+          "device": "5 Mayıs 2025",
+          "text": "Farklı dillerde okumak, öğrenmek ve anlamak isteyen herkese tavsiye etmeye devam ettiğim bir uygulama. Maşallah çok iyi bir iş. Uzun zamandır aradığım şey buydu. ALLAH SWT sizi mübarek kılsın.",
+          "rating": 5
+        },
+        {
+          "initials": "AA",
+          "name": "Adoum Ali Bezei",
+          "device": "20 Mayıs 2026",
+          "text": "En iyi fonetik Kur'an, sonsuz teşekkürler, çok minnettarım",
+          "rating": 5
+        },
+        {
+          "initials": "BK",
+          "name": "Bakary Konaté",
+          "device": "19 Mart 2025",
+          "text": "Uygulamayı gerçekten çok sevdim ama imamları eklemenizi tercih ederdim, böylece birlikte öğrenmek istediğimiz imamları kendimiz seçebilirdik, en sevmediğim şey ise ayet ayet okuması, bir sureyi durmadan doğrudan okumasını tercih ederdim",
+          "rating": 5
+        },
+        {
+          "initials": "YB",
+          "name": "Yosra Bahri",
+          "device": "5 Ekim 2025",
+          "text": "Mükemmel uygulama! Çok yararlı, kullanımı kolay ve iyi düşünülmüş. Şiddetle tavsiye ederim! 👏 Bu güzel iş için geliştiriciyi tebrik ederim, böyle devam edin, mükemmel bir iş çıkarıyorsunuz! 💪",
+          "rating": 5
+        },
+        {
+          "initials": "FO",
+          "name": "fatima ourja",
+          "device": "25 Nisan 2025",
+          "text": "Muhteşem uygulama, tam olarak aradığım şey buydu, Yüce Allah sizi en güzel mükafatlarla mükafatlandırsın. Gerçekten hak edilmiş bir ödemeyi hak eden bir uygulama.",
+          "rating": 5
+        },
+        {
+          "initials": "ND",
+          "name": "Nicolas DA COSTA CAMPOS CERCA",
+          "device": "20 Nisan 2025",
+          "text": "Yeni başlayanlar için çok kolay olan ve kendini geliştirmek isteyenler için de çok basit kullanımlı olan bu uygulamayı tecvid öğrenmek için tavsiye ederim",
+          "rating": 5
+        },
+        {
+          "initials": "SR",
+          "name": "Sadrissi Regbayou",
+          "device": "11 Mart 2025",
+          "text": "İyi ama kaldığımız son sayfayı kaybediyoruz. Ayrıca çevrimdışı okumaya izin vermiyor. Aynı sayfalarda Arapça sure ve Fransızca çevirisi olsaydı daha ilginç olurdu.",
+          "rating": 5
+        },
+        {
+          "initials": "OA",
+          "name": "Oussama AZIZI",
+          "device": "12 Ekim 2025",
+          "text": "Net fonetik, kaliteli ses ve renkli Tecvid kurallarıyla mükemmel uygulama. Kur'an öğrenimini kolaylaştırmak için çok iyi bir araç.",
+          "rating": 5
+        },
+        {
+          "initials": "BH",
+          "name": "Bahri Hamza",
+          "device": "27 Eylül 2025",
+          "text": "Selamünaleyküm, mükemmel uygulama 🌟 kullanımı kolay ve okuma ile öğrenme için çok yararlı. Allah geliştiricileri mükafatlandırsın ❤️🤲",
+          "rating": 5
+        },
+        {
+          "initials": "HR",
+          "name": "Houssem RAISSI",
+          "device": "2 Ekim 2024",
+          "text": "Okuma ve gezinmeyi kolaylaştıran sezgisel ve keyifli bir arayüz sunuyor. Surelere hızlı erişim için ideal.",
+          "rating": 5
+        },
+        {
+          "initials": "GB",
+          "name": "Gora Bar",
+          "device": "10 Ekim 2025",
+          "text": "Çok iyi bir uygulama. Kullanımı çok basit ve reklam içermiyor. Tebrikler!",
+          "rating": 5
+        },
+        {
+          "initials": "SK",
+          "name": "Sekou Kante",
+          "device": "21 Mart 2025",
+          "text": "Aradığım uygulama buydu ama çevrimdışı çalışmıyor, çevrimdışı seçeneğini indirdim ama yine de olmuyor, lütfen düzeltin, Kur'an'ı okumamı sağlayan fonetik benim için önemli",
+          "rating": 5
+        },
+        {
+          "initials": "YF",
+          "name": "youssoupha FALL",
+          "device": "11 Nisan 2025",
+          "text": "Allah sizi uygulamadaki her tıklamadan sonra hasenat dağları ile mükafatlandırsın. Kur'an okulunu bitirmemiş tüm Müslümanlar için yaptığınız iyiliği asla hayal edemezsiniz. Annem için de indirdim, Allah sizi bolca mübarek kılsın. Çok teşekkürler ❤️",
+          "rating": 5
+        },
+        {
+          "initials": "TT",
+          "name": "toure traore aboubakar sidik",
+          "device": "29 Kasım 2024",
+          "text": "Size 3 yıldız veriyorum çünkü uygulama sureleri çevrimdışı okuma için kaydetmiyor. Yoksa okuması kolay",
+          "rating": 5
+        },
+        {
+          "initials": "MG",
+          "name": "Mory Gbane",
+          "device": "29 Haziran 2025",
+          "text": "İyi uygulama ama yazıları kalıcı olarak indiremiyoruz, her zaman yeniden indirmek gerekiyor. Bu biraz zor",
+          "rating": 5
+        },
+        {
+          "initials": "FS",
+          "name": "Fatima Si Ahmed",
+          "device": "23 Temmuz 2025",
+          "text": "Nerede olursanız olun Kur'an'ı fonetikle okumak için çok büyük bir kolaylık, çünkü bağlantıya ihtiyaç yok, özellikle kimseyi rahatsız etmek istemediğinizde telefonunuz yeterli, mum yok, ışık yok 😇🥰",
+          "rating": 5
+        },
+        {
+          "initials": "MF",
+          "name": "Mohamed Faye",
+          "device": "5 Mart 2025",
+          "text": "Size 5 yıldız veriyorum 🌟 çünkü en iyisisiniz, yaptığınız şey muhteşem, gerçekten bayıldım 😭❤️❤️❤️ Rahman ve Rahim olan Allah seni korusun. Ama ses modunun tek bir ayet için değil tüm sure için olmasını isterdim, şimdiden teşekkürler",
+          "rating": 5
+        },
+        {
+          "initials": "MG",
+          "name": "Mohamed gaissir Bah",
+          "device": "4 Mart 2026",
+          "text": "Selamünaleyküm, mükemmel uygulama, fonetikle birçok kitap okudum ama itiraf ediyorum ki şu anda bu uygulama en iyisi, neredeyse fonetik konusunda uzman oluyorum ve Allah sizi kat kat mükafatlandırsın, gerçekten çok keyif alıyorum 😇😇😇",
+          "rating": 5
+        },
+        {
+          "initials": "YK",
+          "name": "Yao Kouamé Enock",
+          "device": "13 Aralık 2025",
+          "text": "Arapça harfleri okuyamayan bizler için çok iyi bir uygulama. Tam olarak aradığım şey buydu. Geliştiricilere çok teşekkürler. İyi günler, Allah bizi doğru yola iletsin.🤲📿",
+          "rating": 5
+        },
+        {
+          "initials": "FA",
+          "name": "Fatima",
+          "device": "2 Ocak 2026",
+          "text": "Uygulama genel olarak iyi ama her seferinde her surenin sonu eksik, bu yüzden seçtiğimiz sureyi okuyup öğrenemiyoruz, bunu çok yazık buluyorum",
+          "rating": 5
+        },
+        {
+          "initials": "MS",
+          "name": "Macolt Scot",
+          "device": "17 Mart 2025",
+          "text": "Elhamdülillah Kur'an'ı fonetikle iyi okuyabiliyorum ama indirme tamamlanmıyor ve eksik sayfalar kalıyor",
+          "rating": 5
+        },
+        {
+          "initials": "EH",
+          "name": "El Hadj Diallo",
+          "device": "1 Nisan 2025",
+          "text": "Çok iyi ve temiz, iyi tasarlanmış bir uygulama, fonetik Kur'an ayetleriyle aynı telaffuzu yansıtıyor, ümmet için bu iyiliği yapan ekibi tebrik ederim barakallahu fik",
+          "rating": 5
+        },
+        {
+          "initials": "AM",
+          "name": "Abdelmadjid Mahamat",
+          "device": "25 Nisan 2025",
+          "text": "Maşallah! Gerçekten zorlanmadan öğrenmek ve okumak isteyenler için en iyi uygulama.",
+          "rating": 5
+        },
+        {
+          "initials": "OS",
+          "name": "Ousmasim's Simen",
+          "device": "22 Temmuz 2026",
+          "text": "Muhteşem ve bana çok yardımcı olacak",
+          "rating": 5
+        },
+        {
+          "initials": "NS",
+          "name": "Nour Soum",
+          "device": "17 Ekim 2025",
+          "text": "Süper ilginç, tek sorun her seferinde bağlanmak gerekiyor. Çevrimdışı sürümü de deneyin",
+          "rating": 5
+        },
+        {
+          "initials": "CB",
+          "name": "chiraz bahri",
+          "device": "19 Ekim 2025",
+          "text": "Çok güzel, basit ve eksiksiz bir uygulama. Her yerde Kur'an okumak ve dinlemek için mükemmel. بارك الله فيكم",
+          "rating": 5
+        },
+        {
+          "initials": "AA",
+          "name": "aicha Arouna",
+          "device": "29 Temmuz 2026",
+          "text": "Çok iyi bir uygulama, bu uygulamayı tavsiye ederim",
+          "rating": 5
+        },
+        {
+          "initials": "SZ",
+          "name": "Sadjid Zamoum",
+          "device": "2 Ağustos 2026",
+          "text": "İnanılmaz, söyleyecek söz yok",
+          "rating": 5
+        },
+        {
+          "initials": "AD",
+          "name": "Almassane Diallo",
+          "device": "13 Temmuz 2026",
+          "text": "Bu uygulama ve sizler sayesinde çok şey öğrendim, ekibe çok teşekkürler, Allah sizi mükafatlandırsın",
+          "rating": 5
+        },
+        {
+          "initials": "HA",
+          "name": "Hadj",
+          "device": "5 Kasım 2025",
+          "text": "Net ve reklamsız uygulama. Surelere bir tefsir ekleyebilirseniz uygulama eksiksiz olur.",
+          "rating": 5
+        },
+        {
+          "initials": "YM",
+          "name": "Yacouba M'piè Samaké",
+          "device": "16 Mayıs 2025",
+          "text": "Arapça dili hakkında hiçbir bilgim olmadan sureleri öğrenmemi sağlayan çok iyi bir uygulama",
+          "rating": 5
+        },
+        {
+          "initials": "SM",
+          "name": "Saïdou Mohamed Bah",
+          "device": "24 Ağustos 2025",
+          "text": "Gerçekten Allah sizi Cennetü'l-Firdevs ile mükafatlandırsın, en iyi uygulama, Allah uygulamayı geliştirmenize yardımcı olsun ve bunu sizin için sadaka-i cariye kılsın.",
+          "rating": 5
+        },
+        {
+          "initials": "TD",
+          "name": "Touwinde Doulkom",
+          "device": "24 Mayıs 2025",
+          "text": "Maşallah, Kur'an-ı Kerim'i okumayı öğrenmenizi sağlayan basit ve kullanımı kolay bir uygulama. Tasarımcılara teşekkürler, Allah sizi mükafatlandırsın 🙏",
+          "rating": 5
+        },
+        {
+          "initials": "BD",
+          "name": "Bassirou Diarra",
+          "device": "5 Nisan 2026",
+          "text": "Gerçekten pratik. Allah İslam'ı mübarek kılsın",
+          "rating": 5
+        },
+        {
+          "initials": "GK",
+          "name": "gloire Kyato",
+          "device": "10 Nisan 2026",
+          "text": "Bu uygulama önemli. 5 yıldız veriyorum.",
+          "rating": 5
+        },
+        {
+          "initials": "OO",
+          "name": "Olivier Olivier",
+          "device": "16 Nisan 2025",
+          "text": "Gerçekten en iyisi, Fransızca konuşanlar için bile Kur'an ezberlemede büyük fayda sağlıyor",
+          "rating": 5
+        },
+        {
+          "initials": "DD",
+          "name": "Dian Diallo",
+          "device": "9 Haziran 2026",
+          "text": "Çok teşekkürler........ mükemmel bir uygulama",
+          "rating": 5
+        },
+        {
+          "initials": "MM",
+          "name": "Mallam Mohamed AYOUBA",
+          "device": "10 Eylül 2025",
+          "text": "Evet iyi hazırlanmış ve Kur'an okumayı öğrenmek için çok kolay.... Çok teşekkürler",
+          "rating": 5
+        },
+        {
+          "initials": "FB",
+          "name": "Fatoumata Barry",
+          "device": "7 Mart 2026",
+          "text": "Kur'an öğrenmek için harika ve kolay, tek sorun çok fazla güncelleme olması...",
+          "rating": 5
+        },
+        {
+          "initials": "SK",
+          "name": "Soumaila Kaboré",
+          "device": "29 Kasım 2025",
+          "text": "Çok iyi, görüyoruz ve Arapça cümleleri doğru telaffuz etmeye yardımcı oluyor",
+          "rating": 5
+        },
+        {
+          "initials": "OA",
+          "name": "Ouattara Almamy",
+          "device": "1 Nisan 2025",
+          "text": "Çok açık, çok anlaşılır, çok öğretici, Allah bize doğru anlayışı versin 🙏",
+          "rating": 5
+        },
+        {
+          "initials": "AN",
+          "name": "Aude Name",
+          "device": "7 Haziran 2025",
+          "text": "Çok tutarlı, Kur'an öğrenmek için iyi. Allah uygulamanın yaratıcısını mübarek kılsın",
+          "rating": 5
+        },
+        {
+          "initials": "MJ",
+          "name": "maxero junior",
+          "device": "13 Mart 2025",
+          "text": "Kullanımı kolay ve reklamsız, muhteşem",
+          "rating": 5
+        },
+        {
+          "initials": "FT",
+          "name": "Fatoumata Traoré",
+          "device": "18 Mayıs 2025",
+          "text": "Allah yaptığınız iş için sizi mükafatlandırsın, gerçekten iyi bir uygulama, ekran döndürme ve secde işaretlerini de eklemenizi isterim, teşekkürler",
+          "rating": 5
+        },
+        {
+          "initials": "AC",
+          "name": "Assia Chamoyan",
+          "device": "28 Eylül 2025",
+          "text": "Son derece yararlı, pratik ve gerçekten sezgisel. Çok güzel arayüz, tebrikler, çok kaliteli, Allah projelerinizi kolaylaştırsın ve sizi bol bol mükafatlandırsın",
+          "rating": 5
+        },
+        {
+          "initials": "KE",
+          "name": "Keita",
+          "device": "23 Mayıs 2025",
+          "text": "Vay be, surelerin fonetik okuması için harika bir uygulama. Bu uygulamaya gerçekten bayılıyorum.",
+          "rating": 5
+        },
+        {
+          "initials": "IH",
+          "name": "Ibrahim Hamadou",
+          "device": "9 Mart 2026",
+          "text": "Lütfen uygulamayı onarın, bu uygulamaya gerçekten ihtiyacım var, okumaya iyi devam ediyordum ama uygulamada bir sorun oluştu",
+          "rating": 5
+        },
+        {
+          "initials": "AS",
+          "name": "Adamou Seyni Sonia",
+          "device": "14 Mart 2025",
+          "text": "Selam, ben Kehf suresine gittiğimde neden Abese suresine yönlendirdiğini anlamıyorum, sorunun nereden geldiğini gerçekten anlamıyorum ve bu sünnete uygun olarak özellikle cuma günleri okumayı sevdiğim bir sure... yoksa bu sorun dışında uygulamada başka bir sıkıntı yok maşallah",
+          "rating": 5
+        },
+        {
+          "initials": "MD",
+          "name": "Mame diarra Ba",
+          "device": "14 Şubat 2025",
+          "text": "Kur'an'ı öğrenmek için çok etkili ve çok kolay",
+          "rating": 5
+        },
+        {
+          "initials": "SS",
+          "name": "SOUMAILA SAMASSI",
+          "device": "29 Aralık 2024",
+          "text": "Maşallah 💕 harika bir uygulama ve aradığım şey buydu. Uygulama zirvede. Barakallahu feekum ve Allah bizi her zaman doğru yola iletsin. Amin",
+          "rating": 5
+        },
+        {
+          "initials": "AB",
+          "name": "Ali Baba Traoré",
+          "device": "1 Ağustos 2025",
+          "text": "Allah'a şükür bu indirilip paylaşılacak iyi bir uygulama. Allah bu dünyada ve öbür dünyada size iyi bir mükafat versin. Amin!",
+          "rating": 5
+        },
+        {
+          "initials": "MB",
+          "name": "Mohamed Baddo",
+          "device": "5 Ocak 2026",
+          "text": "Çok basit, etkili ve çok çok keyifli",
+          "rating": 5
+        },
+        {
+          "initials": "AB",
+          "name": "Anthony Barraut",
+          "device": "5 Ekim 2025",
+          "text": "MÜKEMMEL uygulama, uygulamanın yaratıcısı olağanüstü bir nezakete sahip, uygulamayı hiç tereddüt etmeden hemen tavsiye ederim 🌟🌟🌟🌟🌟🥳👌",
+          "rating": 5
+        },
+        {
+          "initials": "PM",
+          "name": "Parfait Mayela may",
+          "device": "27 Mart 2025",
+          "text": "Neden bağlantı gerekiyor??? Ama bu uygulama hızlı öğrenmeyi sağlıyor 🤲🤲🤲🥰🇬🇦",
+          "rating": 5
+        },
+        {
+          "initials": "MD",
+          "name": "Moustapha DRORI",
+          "device": "7 Şubat 2026",
+          "text": "Daha iyi öğrenme için çok iyi bir uygulama",
+          "rating": 5
+        },
+        {
+          "initials": "AB",
+          "name": "Adamma Bae",
+          "device": "11 Ocak 2025",
+          "text": "Öğrenmemizi kolaylaştırdığınız için çok teşekkürler",
+          "rating": 5
+        },
+        {
+          "initials": "MZ",
+          "name": "Malika Zaki",
+          "device": "7 Nisan 2026",
+          "text": "Hayatımda gördüğüm en iyi Kur'an uygulaması",
+          "rating": 5
+        },
+        {
+          "initials": "NC",
+          "name": "N'famoussa Camara",
+          "device": "8 Mart 2025",
+          "text": "Bu uygulama benim için ve İslam'ı tanımak ve uygulamak isteyen tüm Müslümanlar için gerçekten ilginç.",
+          "rating": 5
+        },
+        {
+          "initials": "MB",
+          "name": "Mariam Bah",
+          "device": "21 Ekim 2025",
+          "text": "Telaffuz için çok etkili",
+          "rating": 5
+        },
+        {
+          "initials": "NM",
+          "name": "Nouraya Mohamed",
+          "device": "5 Nisan 2026",
+          "text": "Çok teşekkürler, gerçekten yardımcı oluyor... Maşallah",
+          "rating": 5
+        },
+        {
+          "initials": "SD",
+          "name": "Sofiane D",
+          "device": "10 Ekim 2025",
+          "text": "Sureyi doğrudan seçemememiz, kaydırmamız gerekmesi çok yazık",
+          "rating": 5
+        },
+        {
+          "initials": "MD",
+          "name": "Mouhamed Diagne",
+          "device": "24 Temmuz 2025",
+          "text": "Çok çok iyi bir uygulama, hızlı ve iyi öğreniyoruz",
+          "rating": 5
+        },
+        {
+          "initials": "BB",
+          "name": "Babouba Bibouba",
+          "device": "1 Nisan 2025",
+          "text": "Çok iyi, ama lütfen yazı tipi boyutu seçeneğini ekleyin",
+          "rating": 5
+        },
+        {
+          "initials": "CC",
+          "name": "Coumba Camara",
+          "device": "26 Temmuz 2025",
+          "text": "Yıllardır aradığım şey buydu, Allah gördüğümde bana getirdiğiniz bu büyük sevinç için sizi mükafatlandırsın 💖 çok iyi bir uygulama 👍 teşekkürler",
+          "rating": 5
+        },
+        {
+          "initials": "LS",
+          "name": "Lassane Sawadogo",
+          "device": "3 Ağustos 2025",
+          "text": "Bu fonetiği uzun zamandır arıyordum ve elhamdülillah buldum, teşekkürler",
+          "rating": 5
+        },
+        {
+          "initials": "MA",
+          "name": "mam",
+          "device": "14 Mart 2026",
+          "text": "Çok iyi uygulama, sadece hadislerin Fransızca olmasını isterdim",
+          "rating": 5
+        },
+        {
+          "initials": "MB",
+          "name": "Mohamadou Babanguida",
+          "device": "9 Nisan 2026",
+          "text": "Sonsuz teşekkürler, Allah sizi mükafatlandırsın",
+          "rating": 5
+        },
+        {
+          "initials": "TA",
+          "name": "Thierno amidou Diallo",
+          "device": "8 Nisan 2026",
+          "text": "Bu uygulamayı çok seviyorum",
+          "rating": 5
+        },
+        {
+          "initials": "SA",
+          "name": "shahid ATOUKOU",
+          "device": "9 Aralık 2024",
+          "text": "Çok süper, bu uygulamayı çok beğeniyorum, uygulamanın yaratıcısına teşekkürler",
+          "rating": 5
+        },
+        {
+          "initials": "MS",
+          "name": "Mamadi Savadogo",
+          "device": "9 Mart 2026",
+          "text": "Allah sizi mükafatlandırsın demekten başka söyleyecek bir şeyim yok. Uygulama, bugüne kadar bildiğim en iyisi.",
+          "rating": 5
+        },
+        {
+          "initials": "AC",
+          "name": "Alassane Camara",
+          "device": "26 Aralık 2025",
+          "text": "Esselamünaleyküm, teşekkür ederim, bu uygulama Müslümanlar için iyi",
+          "rating": 5
+        },
+        {
+          "initials": "FL",
+          "name": "Frédéric Lankoandé",
+          "device": "1 Ağustos 2025",
+          "text": "Kur'an-ı Kerim'i Fonetikle öğrenmek için çok iyi uygulama 👍",
+          "rating": 5
+        },
+        {
+          "initials": "LZ",
+          "name": "Loukmane Zongo",
+          "device": "26 Haziran 2025",
+          "text": "Maşallah! Öğrenmek için aradığım Kur'an buydu! Çevrimdışı okuyabilmemiz için bir şey yapamaz mısınız?",
+          "rating": 5
+        },
+        {
+          "initials": "IB",
+          "name": "Ibrahima Bâ",
+          "device": "2 Eylül 2025",
+          "text": "İyi bir uygulama, teşekkür ederim, Allah bizi doğru yola iletsin 🤲🤲👆",
+          "rating": 5
+        },
+        {
+          "initials": "FA",
+          "name": "Fouzi Abdellatif",
+          "device": "5 Mart 2026",
+          "text": "Fonetik olarak en iyi uygulama",
+          "rating": 5
+        },
+        {
+          "initials": "AS",
+          "name": "Aboubacar Sylla",
+          "device": "7 Kasım 2025",
+          "text": "Tamamı (eksiksiz) görünmüyor",
+          "rating": 5
+        },
+        {
+          "initials": "KM",
+          "name": "KACHALLA MEMBA",
+          "device": "20 Mart 2025",
+          "text": "Kur'an okuma kolaylığı için çok teşekkürler, Allah sizi hem dünyada hem ahirette mükafatlandırsın",
+          "rating": 5
+        },
+        {
+          "initials": "BD",
+          "name": "Billal DABIDA",
+          "device": "2 Nisan 2025",
+          "text": "Çok çok iyi bir uygulama, Rahman ve Rahim olan Allah size daha fazla hikmet versin.",
+          "rating": 5
+        },
+        {
+          "initials": "NN",
+          "name": "Nadjma Nkulu",
+          "device": "24 Kasım 2025",
+          "text": "La ilahe illallah, Arapçaya henüz hakim olmayan insanlar için çok uygun.",
+          "rating": 5
+        },
+        {
+          "initials": "TA",
+          "name": "thaibu Amici-langi",
+          "device": "7 Ağustos 2025",
+          "text": "Elimizin altında çok güzel bir eser.",
+          "rating": 5
+        },
+        {
+          "initials": "HH",
+          "name": "hamza Hamza",
+          "device": "19 Ekim 2025",
+          "text": "Bu çok yararlı ve çok pratik bir uygulama",
+          "rating": 5
+        },
+        {
+          "initials": "OA",
+          "name": "Oumarou Amadou",
+          "device": "7 Kasım 2025",
+          "text": "İnternetsiz okuyabilmek için iyileştirme yapılmalı",
+          "rating": 5
+        },
+        {
+          "initials": "AA",
+          "name": "Aboubakar Adamou",
+          "device": "18 Ağustos 2025",
+          "text": "Çok iyi uygulama, Allah tasarımcıları mükafatlandırsın",
+          "rating": 5
+        },
+        {
+          "initials": "SK",
+          "name": "Soiba Koné",
+          "device": "19 Ocak 2026",
+          "text": "Müslüman kardeşlerime tavsiye ederim, tecvid konusunda da bana çok yardımcı oluyor",
+          "rating": 5
+        },
+        {
+          "initials": "SN",
+          "name": "Sipas NIAKATE",
+          "device": "21 Eylül 2025",
+          "text": "Süper uygulama, gerçekten Arapçaya yaklaşıyor",
+          "rating": 5
+        },
+        {
+          "initials": "HT",
+          "name": "Hamissou TCHAGBELE",
+          "device": "28 Eylül 2024",
+          "text": "Bu uygulamayı seviyorum, Allah'ın lütfuyla Kur'an'ın sonuna kadar eklemenizi diliyorum",
+          "rating": 5
+        },
+        {
+          "initials": "AA",
+          "name": "Abdul Abdullah",
+          "device": "21 Kasım 2025",
+          "text": "Çok çok muhteşem, buna bayılıyorum, Allah sizi mükafatlandırsın.",
+          "rating": 5
+        },
+        {
+          "initials": "SA",
+          "name": "sawadogoalassane",
+          "device": "25 Haziran 2025",
+          "text": "Muhteşem, istediğim her şey bu. Teşekkürler",
+          "rating": 5
+        },
+        {
+          "initials": "BT",
+          "name": "Bocar Thiam",
+          "device": "19 Ekim 2025",
+          "text": "Reklamsız çok iyi bir uygulama, maşallah",
+          "rating": 5
+        },
+        {
+          "initials": "HN",
+          "name": "Harounahafiz Nonkane",
+          "device": "11 Mart 2025",
+          "text": "İman kardeşlerim, bu uygulamayı şiddetle tavsiye ederim, harika bir uygulama. Allah bize doğru anlayışı versin.",
+          "rating": 5
+        },
+        {
+          "initials": "NT",
+          "name": "Nana Tanou",
+          "device": "1 Nisan 2025",
+          "text": "Çok iyi uygulama, bana çok yardımcı oluyor 🥰",
+          "rating": 5
+        },
+        {
+          "initials": "IS",
+          "name": "Idrissa Samake",
+          "device": "5 Ağustos 2025",
+          "text": "Mükemmel bir iş! Teşekkürler",
+          "rating": 5
+        },
+        {
+          "initials": "SB",
+          "name": "Sarra Bahri (\"Anous Azouz Aychouha\")",
+          "device": "29 Eylül 2024",
+          "text": "İyi bir uygulama, cesaretiniz ve devamlılığınız için tebrikler 👏👏👏🌹🌹🌹🌹",
+          "rating": 5
+        },
+        {
+          "initials": "OA",
+          "name": "Omokayode Akanny",
+          "device": "29 Mayıs 2025",
+          "text": "Çok iyi ve yararlı bir uygulama",
+          "rating": 5
+        },
+        {
+          "initials": "AG",
+          "name": "Abdoulaye Gningue",
+          "device": "16 Ocak 2025",
+          "text": "Maşallah, Allah sizi huzur ve doğruluk içinde yönlendirsin, bu iyi bir kitap.",
+          "rating": 5
+        },
+        {
+          "initials": "SS",
+          "name": "Seynabou Senghor",
+          "device": "29 Nisan 2025",
+          "text": "Teşekkür kelimesi size teşekkür etmek için yeterli olmayacak, Allah harika işiniz için sizi mükafatlandırsın ❤️🌹",
+          "rating": 5
+        },
+        {
+          "initials": "FS",
+          "name": "Fanta Souare",
+          "device": "2 Haziran 2025",
+          "text": "Bu uygulama gerçekten harika, Allah bereketini üzerinize koysun ve cennette mükafat versin amin ya rabbi 🙏",
+          "rating": 5
+        },
+        {
+          "initials": "AD",
+          "name": "Abdoul djabar Danyoko",
+          "device": "26 Temmuz 2025",
+          "text": "Çok güzel bir uygulama. Maşallah!",
+          "rating": 5
+        },
+        {
+          "initials": "IC",
+          "name": "Idrissa Camara",
+          "device": "6 Ağustos 2025",
+          "text": "Bu belgeden gerçekten memnunum. Arapça bilmeyen milyonlarca insanın Allah'ı tanımasını sağladınız. Bunun için sadece Allah size mükafat verebilir. Allah'ın size ve ailelerinize kolay bir hayat vermesini ve bize cenneti nasip etmesini diliyorum. Amin!",
+          "rating": 5
+        },
+        {
+          "initials": "SK",
+          "name": "Souleymane Keïta",
+          "device": "1 Ekim 2025",
+          "text": "Bu uygulamaya gerçekten çok bayılıyorum, Allah bu uygulamanın yazarını mükafatlandırsın ve mübarek kılsın, bilinçli ve bilinçsiz tüm günahlarımızı ve hatalarımızı bağışlasın, tüm dualarımızı ve ailelerimizinkileri kabul etsin ve son nefesimize kadar bizi doğru yolda tutsun, en önemlisi bize rahmetini ve ebedi cennetini nasip etsin Amin 🙏🙏🙏",
+          "rating": 5
+        },
+        {
+          "initials": "EM",
+          "name": "El Mn",
+          "device": "1 Ağustos 2026",
+          "text": "Ne diyeceğimi bilemiyorum 🫰🤌. Bu harika",
+          "rating": 5
+        },
+        {
+          "initials": "SS",
+          "name": "Setoute samate",
+          "device": "11 Ağustos 2025",
+          "text": "Maşallah Allah sizi korusun, çok iyi uygulama, teşekkürler 🤲🤲🤲",
+          "rating": 5
+        },
+        {
+          "initials": "CD",
+          "name": "Cheick Diabate",
+          "device": "29 Aralık 2024",
+          "text": "Tartışılmaz derecede muhteşem",
+          "rating": 5
+        },
+        {
+          "initials": "SD",
+          "name": "Sanogo Domba",
+          "device": "18 Aralık 2025",
+          "text": "İnsan zihninin gelişimi için çok elverişli",
+          "rating": 5
+        },
+        {
+          "initials": "MM",
+          "name": "mame marème bane",
+          "device": "8 Mart 2026",
+          "text": "Selam, uygulama neden artık çalışmıyor",
+          "rating": 5
+        },
+        {
+          "initials": "DB",
+          "name": "Dalila Bahri",
+          "device": "27 Aralık 2025",
+          "text": "Süper uygulama, çok yararlı",
+          "rating": 5
+        },
+        {
+          "initials": "LY",
+          "name": "Landry Yarga",
+          "device": "10 Aralık 2025",
+          "text": "Bu Uygulama bana çok yardımcı oluyor, teşekkürler 👌",
+          "rating": 5
+        },
+        {
+          "initials": "JK",
+          "name": "Jeanne Kikukama",
+          "device": "8 Şubat 2026",
+          "text": "Çok iyi bir uygulama",
+          "rating": 5
+        },
+        {
+          "initials": "ZS",
+          "name": "Zeynab Sylla",
+          "device": "14 Ocak 2026",
+          "text": "Çok Cool ve kolay",
+          "rating": 5
+        },
+        {
+          "initials": "AW",
+          "name": "Abdoul Wahab porgo",
+          "device": "10 Ocak 2026",
+          "text": "Çok çok ilginç",
+          "rating": 5
+        },
+        {
+          "initials": "YM",
+          "name": "Yohane Mouhali",
+          "device": "31 Ekim 2025",
+          "text": "Tüm bunlar için çok teşekkürler 👏👏👏👏👏",
+          "rating": 5
+        },
+        {
+          "initials": "FA",
+          "name": "Fousseni Arouna",
+          "device": "15 Aralık 2025",
+          "text": "Maşallah, uygulamayı çok seviyorum",
+          "rating": 5
+        },
+        {
+          "initials": "DA",
+          "name": "Djamilatou Alim",
+          "device": "20 Ocak 2026",
+          "text": "Çok iyi uygulama, Allah'a şükür maşallah",
+          "rating": 5
+        },
+        {
+          "initials": "AA",
+          "name": "Arminata Abdou",
+          "device": "26 Mart 2025",
+          "text": "Size çok teşekkürler 👏 bayılıyorum",
+          "rating": 5
+        },
+        {
+          "initials": "HR",
+          "name": "Halima Radhwani",
+          "device": "26 Eylül 2025",
+          "text": "Uygulama zirvede, Allahümme barik, çok teşekkürler 🤲",
+          "rating": 5
+        },
+        {
+          "initials": "MC",
+          "name": "Mahamoudou Coulibaly",
+          "device": "17 Ağustos 2025",
+          "text": "Çok şık, çok güzel",
+          "rating": 5
+        },
+        {
+          "initials": "LD",
+          "name": "Lamine Dieye",
+          "device": "22 Mart 2025",
+          "text": "İyi iş çıkardınız, Allah sizi mübarek kılsın, bu uygulama önemli 🙏",
+          "rating": 5
+        },
+        {
+          "initials": "AB",
+          "name": "aimé boussoukou",
+          "device": "25 Ekim 2025",
+          "text": "Allahu Ekber, bu uygulama çok faydalı",
+          "rating": 5
+        },
+        {
+          "initials": "IM",
+          "name": "Ibrahim Mbaye",
+          "device": "29 Ekim 2024",
+          "text": "Öğrenmek için çok iyi",
+          "rating": 5
+        },
+        {
+          "initials": "TT",
+          "name": "Tassala Toure",
+          "device": "21 Mart 2025",
+          "text": "Maşallah çok beğendim, Allah Müslüman topluluğu için gösterdiğiniz çaba nedeniyle sizi mübarek kılsın 🤲barakallahu feekum🤲",
+          "rating": 5
+        },
+        {
+          "initials": "MD",
+          "name": "Mohamed Diawara",
+          "device": "27 Haziran 2025",
+          "text": "Çok seviyorum, herkese teşekkürler",
+          "rating": 5
+        },
+        {
+          "initials": "FA",
+          "name": "Ferjani Ali",
+          "device": "5 Kasım 2025",
+          "text": "En iyi uygulamalar, devamını getirin 😍😍🥰",
+          "rating": 5
+        },
+        {
+          "initials": "MA",
+          "name": "moustapha ahmed",
+          "device": "22 Ağustos 2025",
+          "text": "Muhteşem uygulama, Allah bunun için sizi mükafatlandırsın",
+          "rating": 5
+        },
+        {
+          "initials": "MB",
+          "name": "Mariam Barry",
+          "device": "4 Ekim 2025",
+          "text": "Çok iyi uygulama ☺ tavsiye ederim",
+          "rating": 5
+        },
+        {
+          "initials": "DO",
+          "name": "Dramane Ouattara",
+          "device": "19 Temmuz 2025",
+          "text": "Bu uygulama tüm zamanların en iyisi",
+          "rating": 5
+        },
+        {
+          "initials": "AG",
+          "name": "Assane Gnamou",
+          "device": "17 Mayıs 2025",
+          "text": "Kullanımı kolay",
+          "rating": 5
+        },
+        {
+          "initials": "AL",
+          "name": "Amadou Lee",
+          "device": "27 Kasım 2025",
+          "text": "Çok iyi bir uygulama",
+          "rating": 5
+        },
+        {
+          "initials": "OD",
+          "name": "Ousseynou DIOP",
+          "device": "22 Mart 2025",
+          "text": "Hayal edilemez, çok teşekkürler",
+          "rating": 5
+        },
+        {
+          "initials": "ZJ",
+          "name": "Zakaria Jose Kone",
+          "device": "4 Mart 2026",
+          "text": "Bu uygulama çok iyi",
+          "rating": 5
+        },
+        {
+          "initials": "MD",
+          "name": "Mr dof Dof",
+          "device": "24 Haziran 2025",
+          "text": "Gerçek bir Kur'an'a kıyasla çok fazla hata var",
+          "rating": 5
+        },
+        {
+          "initials": "OM",
+          "name": "Omar Manè",
+          "device": "4 Mart 2025",
+          "text": "Gerçekten olağanüstü, maşallah",
+          "rating": 5
+        },
+        {
+          "initials": "KI",
+          "name": "Koné Idris",
+          "device": "29 Mayıs 2025",
+          "text": "Çok iyi bir uygulama",
+          "rating": 5
+        },
+        {
+          "initials": "KK",
+          "name": "kourouma kaman",
+          "device": "25 Eylül 2025",
+          "text": "Çok iyi bir uygulama",
+          "rating": 5
+        },
+        {
+          "initials": "OD",
+          "name": "Ousseynou DIOP",
+          "device": "28 Temmuz 2025",
+          "text": "Bayılıyorum, çok iyi",
+          "rating": 5
+        },
+        {
+          "initials": "MM",
+          "name": "Mr MANANGA",
+          "device": "19 Şubat 2026",
+          "text": "En iyi manevi rehber",
+          "rating": 5
+        },
+        {
+          "initials": "TM",
+          "name": "Tyz Man86",
+          "device": "8 Aralık 2025",
+          "text": "Bazı noktaları geliştirmeniz gerekiyor",
+          "rating": 5
+        },
+        {
+          "initials": "SI",
+          "name": "Samba Ichrach",
+          "device": "8 Kasım 2025",
+          "text": "Söyleyecek bir şey yok, aradığım şeye sahibim",
+          "rating": 5
+        },
+        {
+          "initials": "RB",
+          "name": "Rasta Barou",
+          "device": "7 Ekim 2025",
+          "text": "Çok beğendim",
+          "rating": 5
+        },
+        {
+          "initials": "NG",
+          "name": "Nadia GbaneDIABY",
+          "device": "10 Kasım 2025",
+          "text": "Elhamdülillah! Muhteşem derecede faydalı!!!",
+          "rating": 5
+        },
+        {
+          "initials": "DM",
+          "name": "DaoudaDiallo Malide",
+          "device": "20 Mart 2025",
+          "text": "Çok beğendim",
+          "rating": 5
+        },
+        {
+          "initials": "SB",
+          "name": "Saitama Black God 777",
+          "device": "23 Kasım 2024",
+          "text": "Maşallah, çoğu kişinin aradığı şey bu",
+          "rating": 5
+        },
+        {
+          "initials": "MS",
+          "name": "Mamoudou Sylla",
+          "device": "2 Kasım 2024",
+          "text": "ELHAMDÜLİLLAH ÇOK TEŞEKKÜR EDERİM, UZUN ZAMANDIR İNTERNETTE ARIYORDUM, SONUNDA BULDUM, ALLAH SİZİ VE AİLENİZİ MÜBAREK KILSIN, SONSUZ TEŞEKKÜRLER!",
+          "rating": 5
+        },
+        {
+          "initials": "IK",
+          "name": "Ibrahim Konsigui",
+          "device": "18 Kasım 2025",
+          "text": "Ayetler indirilmeyi reddediyor",
+          "rating": 5
+        },
+        {
+          "initials": "YK",
+          "name": "Youss Kouadio",
+          "device": "22 Ekim 2025",
+          "text": "Uygulama çok iyi",
+          "rating": 5
+        },
+        {
+          "initials": "AB",
+          "name": "Alhasko Bob",
+          "device": "2 Mayıs 2025",
+          "text": "Dünyanın en iyi uygulaması",
+          "rating": 5
+        }
+      ]
+    },
+    "cta": {
+      "title": "Öğrenme Yolculuğunuza Bugün Başlayın",
+      "subtitle": "Noor Phonetic Quran'ı ücretsiz indirin ve Kur'an kıraati deneyiminizi dönüştürün.",
+      "downloadOn": "İndirin:"
+    }
+  },
+  "cgu": {
+    "meta": {
+      "title": "Kullanım Koşulları - Noor Phonetic Quran",
+      "description": "Noor Phonetic Quran kullanım koşulları: hizmete erişim, kullanıcı hesabı, Premium abonelik, fikri mülkiyet, sorumluluk ve uygulanacak hukuk.",
+      "keywords": "Noor Phonetic Quran kullanım koşulları, genel kullanım koşulları, Kur'an uygulaması kullanım koşulları"
+    },
+    "appName": "Noor Phonetic Quran",
+    "pageTitle": "GENEL KULLANIM KOŞULLARI",
+    "updateDate": "Son güncelleme: 31 Temmuz 2026",
+    "intro1": "İşbu Genel Kullanım Koşulları (\"Koşullar\"), Google Play ve App Store'da bireysel olarak yayınlanan ve sunulan Noor Phonetic Quran (\"Uygulama\", \"biz\", \"bizim\") mobil uygulamasına erişimi ve kullanımını düzenler. Uygulamayı indirerek, yükleyerek veya kullanarak işbu Koşullar'a bağlı kalmayı kabul etmiş olursunuz. Bu koşulları kabul etmiyorsanız lütfen Uygulamayı kullanmayın.",
+    "intro2Before": "Kişisel verilerinizin işlenmesi hakkında her türlü bilgi için lütfen",
+    "intro2LinkText": "Gizlilik Politikamıza",
+    "intro2After": " bakın; bu politika işbu Koşulları tamamlar.",
+    "summary": {
+      "heading": "ANA NOKTALARIN ÖZETİ",
+      "intro": "Bu özet, Koşullarımızın ana noktalarını sunar; ancak belgenin tamamını aşağıdaki içindekiler tablosu üzerinden okumanızı öneririz.",
+      "points": [
+        {
+          "question": "Uygulama ne sunuyor?",
+          "answer": "Kur'an'ı okumak, öğrenmek ve ezberlemek için ücretsiz ve ücretli bir dizi araç: fonetik ve Arapça okuma (Hafs ve Verş kıraatleri), tecvid, oyunlaştırılmış ezberleme, hatim takibi, ses kaydıyla kıraat düzeltme, quiz, canlı İslami radyo/TV ve ana ekranda bir \"günün ayeti\" widget'ı."
+        },
+        {
+          "question": "Bir hesaba ihtiyacım var mı?",
+          "answer": "Hayır, Uygulamanın büyük bölümü hesap olmadan kullanılabilir. İsteğe bağlı bir hesap (e-posta, Google veya Apple) ilerlemenizi ve Premium aboneliğinizi senkronize etmenizi sağlar."
+        },
+        {
+          "question": "Uygulama ücretli mi?",
+          "answer": "Uygulama reklamlarla birlikte ücretsizdir. Google Play veya App Store üzerinden yönetilen isteğe bağlı bir Premium abonelik, reklamları kaldırır ve gelişmiş özelliklerin kilidini açar."
+        },
+        {
+          "question": "Sesimi kaydedebilir miyim?",
+          "answer": "Evet, kıraat düzeltme özelliği, telaffuzunuzu analiz etmek için sesinizi yerel olarak kaydeder. İşleyiş detayları ve sorumluluklarınız için ilgili bölüme bakın."
+        },
+        {
+          "question": "Dini içerikten kim sorumludur?",
+          "answer": "Metinlerin, çevirilerin ve transliterasyonların güvenilirliği için elimizden geleni yapıyoruz, ancak Uygulama pedagojik bir araçtır ve nitelikli bir öğretmenle yapılan geleneksel eğitimin yerini tutmaz."
+        },
+        {
+          "question": "Bizimle nasıl iletişime geçebilirim?",
+          "answer": "Uygulamaya entegre iletişim formu üzerinden veya othmeneb@gmail.com adresine e-posta göndererek."
+        }
+      ]
+    },
+    "toc": {
+      "heading": "İÇİNDEKİLER",
+      "items": [
+        {
+          "id": "service",
+          "label": "1. HİZMET"
+        },
+        {
+          "id": "eligibility",
+          "label": "2. UYGUNLUK"
+        },
+        {
+          "id": "account",
+          "label": "3. KULLANICI HESABI"
+        },
+        {
+          "id": "premium",
+          "label": "4. PREMIUM ABONELİK VE UYGULAMA İÇİ SATIN ALMALAR"
+        },
+        {
+          "id": "recitation",
+          "label": "5. KIRAAT DÜZELTME VE SES KAYITLARI"
+        },
+        {
+          "id": "conduct",
+          "label": "6. KULLANIM KURALLARI"
+        },
+        {
+          "id": "ip",
+          "label": "7. FİKRİ MÜLKİYET"
+        },
+        {
+          "id": "religious-content",
+          "label": "8. DİNİ VE EĞİTİMSEL İÇERİK"
+        },
+        {
+          "id": "accessibility",
+          "label": "9. ERİŞİLEBİLİRLİK"
+        },
+        {
+          "id": "ads",
+          "label": "10. REKLAM VE ÜÇÜNCÜ TARAF HİZMETLER"
+        },
+        {
+          "id": "availability",
+          "label": "11. HİZMETİN KULLANILABİLİRLİĞİ VE DEĞİŞİKLİKLERİ"
+        },
+        {
+          "id": "termination",
+          "label": "12. ASKIYA ALMA VE FESİH"
+        },
+        {
+          "id": "disclaimer",
+          "label": "13. SORUMLULUK SINIRLAMASI"
+        },
+        {
+          "id": "law",
+          "label": "14. UYGULANACAK HUKUK VE UYUŞMAZLIKLAR"
+        },
+        {
+          "id": "updates",
+          "label": "15. KOŞULLARIN DEĞİŞTİRİLMESİ"
+        },
+        {
+          "id": "contact",
+          "label": "16. BİZİMLE İLETİŞİME GEÇİN"
+        }
+      ]
+    },
+    "sections": {
+      "service": {
+        "heading": "1. HİZMET",
+        "intro": "Noor Phonetic Quran, Kur'an'ı okumaya, öğrenmeye ve ezberlemeye yarayan bir mobil uygulamadır, özellikle:",
+        "items": [
+          "fonetik transliterasyon ve Arapça (Hafs ve Verş kıraatleri) ile Kur'an okuma, çeviriler ve sesle birlikte;",
+          "ses kaydıyla kıraat düzeltmesi içeren telaffuz ve tecvid dersleri;",
+          "oyunlaştırılmış bir ezberleme modülü (seviyeler, rozetler, günlük görevler) ve günlük bir öğrenme planı;",
+          "bir hatim takibi (Kur'an'ın tamamını okuma) ve özel bir Ramazan programı;",
+          "günlük zikirler, İslami bilgi quizi, canlı İslami radyo ve TV kanalları;",
+          "cihazınızın ana ekranında (iOS ve Android) görüntülenebilen bir \"günün ayeti\" widget'ı."
+        ],
+        "outro": "Bu özellikler, Uygulamanın güncellemeleriyle birlikte değişebilir, eklenebilir veya kaldırılabilir; bu durum işbu Koşullar üzerinde önemli bir değişiklik teşkil etmez."
+      },
+      "eligibility": {
+        "heading": "2. UYGUNLUK",
+        "body": "Uygulama, Kur'an okumayı öğrenmek veya uygulamak isteyen herkese yöneliktir. Reşit değilseniz, özellikle uygulama içi satın alma içeren herhangi bir özellik için Uygulamanın kullanımı bir ebeveyn veya yasal vasi gözetiminde yapılmalıdır."
+      },
+      "account": {
+        "heading": "3. KULLANICI HESABI",
+        "brief": "Özetle",
+        "briefText": "Bir hesap isteğe bağlıdır ve yalnızca ilerlemenizi ve aboneliğinizi senkronize etmeye yarar.",
+        "body": "Uygulamanın çoğu özelliğine hesap oluşturmadan erişilebilir. Cihaz değişikliği durumunda ilerlemenizi (ezberleme, hatim, günlük plan) ve Premium durumunuzu korumak için e-posta, Google veya Apple üzerinden isteğe bağlı bir hesap oluşturabilirsiniz. Kimlik bilgilerinizin gizliliğinden ve hesabınızdan gerçekleştirilen her türlü faaliyetten siz sorumlusunuz. Bizimle iletişime geçerek (bkz. bölüm 16) veya bu seçeneğin mevcut olduğu durumlarda Uygulama ayarlarından hesabınızın ve ilişkili verilerin silinmesini her zaman talep edebilirsiniz."
+      },
+      "premium": {
+        "heading": "4. PREMIUM ABONELİK VE UYGULAMA İÇİ SATIN ALMALAR",
+        "brief": "Özetle",
+        "briefText": "Uygulama reklamlarla birlikte ücretsizdir; Premium abonelik (Google Play veya App Store tarafından yönetilir) reklamları kaldırır ve gelişmiş özelliklerin kilidini açar.",
+        "body": "Uygulama içi satın almalar (özellikle Premium abonelik), platformunuza bağlı olarak doğrudan Google Play veya App Store tarafından, kendi kullanım koşulları ve faturalandırma politikalarına uygun şekilde işlenir. Bir aboneliğin faturalandırılması, otomatik yenilenmesi, iptali ve iadesi Google Play veya Apple ID hesap ayarlarınızdan yönetilir — ödeme yöntemlerinize erişimimiz yoktur ve doğrudan iade başlatamayız. Premium avantajların içeriği ve tam kapsamı, satın alma sırasında Uygulama içinde belirtilir ve güncellemelerle değişebilir."
+      },
+      "recitation": {
+        "heading": "5. KIRAAT DÜZELTME VE SES KAYITLARI",
+        "brief": "Özetle",
+        "briefText": "Kıraat kayıtlarınız telaffuzunuz hakkında geri bildirim sağlamak için kullanılır; yalnızca paylaşmakta rahat olduğunuz içeriği paylaşın.",
+        "bodyBefore": "Kıraat düzeltme özelliği, kişiselleştirilmiş bir geri bildirim almak için Kur'an okurken sesinizi kaydetmenizi sağlar (Uygulamada aktif olan özellik sürümüne bağlı olarak otomatik ve/veya bir denetleyici tarafından). Bu özelliği kullanarak, telaffuz analizi ve öğreniminizin geliştirilmesi amacıyla sesinizin kaydedilmesine ve işlenmesine onay vermiş olursunuz. Yasadışı, iftira niteliğinde veya üçüncü tarafların haklarına zarar veren içerikler barındıran kayıtlar göndermemelisiniz. Bu kayıtların işlenmesi, saklanması ve saklama süresi hakkındaki detaylar",
+        "linkText": "Gizlilik Politikamızda",
+        "bodyAfter": " belirtilmiştir."
+      },
+      "conduct": {
+        "heading": "6. KULLANIM KURALLARI",
+        "intro": "Uygulamayı kullanarak, aşağıdakileri yapmamayı taahhüt edersiniz:",
+        "items": [
+          "Uygulamayı yasadışı amaçlarla veya işbu Koşullara aykırı şekilde kullanmak;",
+          "sistemlerimize izinsiz erişmeye çalışmak, onları bozmak veya güvenlik önlemlerini atlatmak;",
+          "yasanın açıkça izin verdiği ölçüde hariç olmak üzere, Uygulamanın kaynak kodunu tersine mühendislikle çözmek, parçalarına ayırmak veya çıkarmaya çalışmak;",
+          "ön izin olmaksızın Uygulama içeriğinin tamamını veya bir kısmını çoğaltmak, yeniden dağıtmak veya ticari olarak kullanmak;",
+          "Uygulamaya erişmek veya veri çıkarmak için otomatik araçlar (bot, scraper) kullanmak."
+        ]
+      },
+      "ip": {
+        "heading": "7. FİKRİ MÜLKİYET",
+        "body": "Uygulama, kodu, tasarımı, illüstrasyonları ve kendine özgü pedagojik içerikleri (tecvid dersleri, öğrenme planının yapılandırılması vb.) fikri mülkiyet hukuku ile korunmaktadır ve bize veya lisans verenlerimize aittir. Kur'an metninin kendisi ortak mirasa aittir ve kimse tarafından sahiplenilmemektedir; entegre edilen çeviriler, fonetik transliterasyonlar, sesli kıraatler ve tefsir içerikleri, Uygulamada belirtilen üçüncü taraf kaynaklardan veya ortaklardan (hafızlar, çeviri yayıncıları) gelmektedir ve elde edilen izinlere uygun şekilde kullanılmaktadır. İşbu Koşulların hiçbir hükmü, Uygulamanın kişisel ve ticari olmayan kullanımının ötesinde bu unsurlar üzerinde size bir hak vermez."
+      },
+      "religiousContent": {
+        "heading": "8. DİNİ VE EĞİTİMSEL İÇERİK",
+        "brief": "Özetle",
+        "briefText": "Uygulama, geleneksel bir eğitimin yerini tutmayan, destekleyici bir pedagojik araçtır.",
+        "body": "Uygulamada sunulan Kur'an metninin, çevirilerin, fonetik transliterasyonların ve tecvid kurallarının doğruluğunu sağlamak için, özellikle tanınmış kaynaklara dayanarak elimizden geleni yapıyoruz. Bununla birlikte, fonetik transliterasyon doğası gereği öğrenimi kolaylaştırmaya yönelik bir yaklaşımdır ve nitelikli bir öğretmenden Kur'an Arapçasını okumayı öğrenmenin yerini tutmaz. Aynı şekilde, kıraat düzeltme özelliğinin sağladığı geri bildirim, öğrenime yardımcı bir araçtır ve kıraatinizin dini olarak onaylandığını garanti etmez."
+      },
+      "accessibility": {
+        "heading": "9. ERİŞİLEBİLİRLİK",
+        "brief": "Özetle",
+        "briefText": "Uygulamayı, engelli bireyler dahil olmak üzere mümkün olduğunca çok kişi tarafından kullanılabilir hale getirmek için çalışıyoruz.",
+        "body": "Uygulama, cihazınızın yerel ekran okuyucularıyla (iOS'ta VoiceOver, Android'de TalkBack) gezinmeyi kolaylaştırmak amacıyla ana ekranlarında ve kontrollerinde erişilebilirlik bilgileri (etiketler ve Semantics rolleri) içerir. Ayrıca, metinlerin görüntülenmesi için işletim sisteminizin erişilebilirlik ayarlarında tanımlanan yazı tipi boyutuna uyar. Bu erişilebilirlik çalışmaları süreklidir ve belirli bir anda tüm ekranları ve özellikleri eşit şekilde kapsamayabilir. Uygulamayı kullanırken bir erişilebilirlik sorunuyla karşılaşırsanız, geliştirebilmemiz için lütfen iletişim formu (bkz. bölüm 16) aracılığıyla bize bildirin."
+      },
+      "ads": {
+        "heading": "10. REKLAM VE ÜÇÜNCÜ TARAF HİZMETLER",
+        "body1Before": "Uygulama, Gizlilik Politikamızda ayrıntılı olarak açıklanan üçüncü taraf teknik hizmetleri (kitle ölçümü, teknik tanılama, reklam yönetimi, uygulama içi satın almalar) içerir; bkz.",
+        "linkText": "Gizlilik Politikamız",
+        "body1After": ". Bu hizmetler kendi kullanım koşullarına tabidir ve bunları incelemenizi öneririz.",
+        "body2": "Bazı reklamlar tamamen isteğe bağlıdır: Premium abonelikten geçmeden bizi desteklemek isterseniz, Uygulamanın destek menüsünden gönüllü olarak ödüllü bir reklam (\"rewarded ad\") izlemeyi seçebilirsiniz. Bu isteğe bağlı reklam, açık eyleminiz olmadan asla görüntülenmez."
+      },
+      "availability": {
+        "heading": "11. HİZMETİN KULLANILABİLİRLİĞİ VE DEĞİŞİKLİKLERİ",
+        "body": "Uygulamayı erişilebilir ve işlevsel tutmak için çaba gösteriyoruz, ancak kesintisiz veya hatasız bir kullanılabilirlik garanti etmiyoruz. Bazı özellikler internet bağlantısı gerektirir (ses indirme, canlı radyo/TV, hesap senkronizasyonu) ve çevrimdışıyken veya bir üçüncü taraf hizmetinde arıza olması durumunda kullanılamayabilir. Uygulamanın özelliklerini, özellikle teknik, yasal nedenlerle veya içerik ortaklıklarımızın gelişimine bağlı olarak, herhangi bir zamanda ekleyebilir, değiştirebilir veya kaldırabiliriz."
+      },
+      "termination": {
+        "heading": "12. ASKIYA ALMA VE FESİH",
+        "body": "Uygulamayı kaldırarak istediğiniz zaman kullanmayı bırakabilirsiniz. İşbu Koşullara uyulmaması durumunda dahil olmak üzere, Uygulamaya erişiminizi askıya alma veya feshetme hakkımızı saklı tutarız; bu durum, yönetimi bu platformlara ait olan Google Play veya App Store üzerinden zaten yapılmış satın almaları etkilemez."
+      },
+      "disclaimer": {
+        "heading": "13. SORUMLULUK SINIRLAMASI",
+        "body": "Uygulanacak hukukun izin verdiği ölçüde, Uygulama açık veya zımni hiçbir garanti olmaksızın \"olduğu gibi\" ve \"mevcudiyetine göre\" sunulmaktadır. Geçici kullanılamama, ilerleme verilerinin kaybı veya Uygulamaya entegre edilmiş üçüncü taraf içeriğindeki (çeviri, ses, tefsir) hatalar dahil olmak üzere, Uygulamanın kullanımından veya kullanılamamasından kaynaklanan dolaylı, arızi veya sonuç niteliğindeki zararlardan sorumlu tutulamayız. İşbu Koşullarda hiçbir şey, yasal olarak hariç tutulamayacak bir sorumluluğu (örneğin kasıtlı kusur veya ağır ihmal durumunda) hariç tutmaz."
+      },
+      "law": {
+        "heading": "14. UYGULANACAK HUKUK VE UYUŞMAZLIKLAR",
+        "body": "İşbu Koşullar, ikamet ettiğiniz ülkede uygulanabilecek emredici tüketici koruma hükümleri saklı kalmak kaydıyla, Fransız hukukuna tabidir. Bir uyuşmazlık durumunda, her türlü yargı yoluna başvurmadan önce doğrudan bizimle iletişime geçilerek (bkz. bölüm 16) öncelikle dostane bir çözüm aranacaktır."
+      },
+      "updates": {
+        "heading": "15. KOŞULLARIN DEĞİŞTİRİLMESİ",
+        "brief": "Özetle",
+        "briefText": "Uygulamanın veya mevzuatın gelişimini yansıtmak için işbu Koşulları güncelleyebiliriz.",
+        "body": "İşbu Koşulları, özellikle yeni özellikler eklendiğinde zaman zaman değiştirebiliriz. Güncellenmiş sürüm, bu sayfanın üst kısmında yeni bir \"Son güncelleme\" tarihiyle belirtilecek ve yayınlandığı anda yürürlüğe girecektir. Önemli bir değişiklik durumunda, sizi Uygulama içinde bir bildirimle bilgilendireceğiz. Değişikliklerin yayınlanmasından sonra Uygulamayı kullanmaya devam etmeniz, güncellenmiş Koşulları kabul ettiğiniz anlamına gelir."
+      },
+      "contact": {
+        "heading": "16. BİZİMLE İLETİŞİME GEÇİN",
+        "bodyBefore": "İşbu Koşullarla ilgili her türlü soru için, Uygulamaya entegre iletişim formu üzerinden veya",
+        "email": "othmeneb@gmail.com",
+        "bodyAfter": " adresine e-posta göndererek bizimle iletişime geçebilirsiniz."
+      }
+    },
+    "footer": "© 2026 Noor Phonetic Quran. Tüm hakları saklıdır."
+  },
+  "contactPage": {
+    "meta": {
+      "title": "İletişim - Noor Phonetic Quran",
+      "description": "Noor Phonetic Quran uygulaması hakkında bir sorunuz, Kur'an fonetiği için bir öneriniz veya teknik bir sorununuz mu var? Ekibimizle iletişime geçin, 48 saat içinde yanıt."
+    }
+  },
+  "reviews": {
+    "meta": {
+      "title": "Kullanıcı Yorumları - Noor Phonetic Quran",
+      "description": "Kur'an'ı fonetikle okumayı, ezberlemeyi ve okumayı öğrenmek için uygulama Noor Phonetic Quran'ın 160'tan fazla onaylı kullanıcı yorumunu, ortalama 5 yıldız puanla keşfedin."
+    },
+    "eyebrow": "Onaylı Yorumlar",
+    "title": "Kullanıcılarımız Ne Diyor",
+    "subtitle": "Büyüyen memnun kullanıcı topluluğumuzun yorumlarını keşfedin",
+    "ratingCountLabel": "%COUNT% yorumdan",
+    "loadMoreLabel": "Daha fazla yorum gör"
+  },
+  "audioCoran": {
+    "meta": {
+      "title": "Senkronize Kur'an Sesi: Birden Fazla Hafız ve Çevrimdışı Dinleme | Noor Phonetic Quran",
+      "description": "Ayet ayet senkronize sesle Kur'an'ı dinleyin, birden fazla hafız arasından seçim yapın ve Noor Phonetic Quran ile çevrimdışı dinleme için sesi indirin. iOS ve Android'de ücretsiz.",
+      "keywords": "Kur'an sesi, sesli Kur'an kıraati, birden fazla Kur'an hafızı, çevrimdışı Kur'an sesi, Kur'an sesi indir, Kur'an dinle, senkronize Kur'an sesi, Kur'an hafız uygulaması",
+      "ogTitle": "Senkronize Kur'an Sesi: Birden Fazla Hafız ve Çevrimdışı Dinleme",
+      "ogDescription": "Ayet ayet senkronize ses, birden fazla hafız ve çevrimdışı indirme. Ücretsiz Noor Phonetic Quran uygulaması."
+    },
+    "breadcrumb": {
+      "home": "Ana Sayfa",
+      "current": "Kur'an Sesi"
+    },
+    "hero": {
+      "title": "Senkronize Kur'an Sesi: Birden Fazla Hafız, Çevrimdışı Dinleme",
+      "subtitle": "Her ayet, doğru telaffuzu duymak için senkronize bir sesle birlikte sunulur; hafız seçimi ve bağlantısız dinleme için ses indirme imkanı vardır.",
+      "backLink": "Ana sayfaya dön",
+      "googlePlay": "Google Play",
+      "appStore": "App Store"
+    },
+    "intro": {
+      "title": "Öğrenim İçin Tasarlanmış Bir Dinleme",
+      "paragraph1": "Doğru telaffuzu duymak, Kur'an'ı doğru bir şekilde okumayı öğrenmek için gereklidir. Noor Phonetic Quran, metni, fonetiğini ve dinlemeyi aynı anda takip edebilmeniz için her ayeti senkronize bir sesle ilişkilendirir.",
+      "paragraph2": "Tek bir hafızla veya sürekli internet bağlantısıyla sınırlı değilsiniz: tercih ettiğiniz sesi seçin ve her yerde yanınızda taşımak için sesi indirin."
+    },
+    "features": {
+      "title": "Kur'an Sesi Ne Sunuyor",
+      "items": [
+        {
+          "title": "Ayet ayet senkronize ses",
+          "description": "her ayet, siz okurken telaffuzunuzu gerçek zamanlı düzeltmek için sesli olarak okunur."
+        },
+        {
+          "title": "Seçilebilen birden fazla hafız",
+          "description": "uygulamada mevcut olanlar arasından size en uygun hafızı seçin."
+        },
+        {
+          "title": "Ayet, sure veya sure aralığı bazında dinleme",
+          "description": "Kur'an'ın dinlemek istediğiniz kısmını tam olarak seçin."
+        },
+        {
+          "title": "Ayarlanabilir okuma hızı",
+          "description": "öğrenirken her kelimeyi daha iyi ayırt etmek için sesi 0.7x'ten 1x'e kadar yavaşlatın."
+        },
+        {
+          "title": "Çevrimdışı dinleme için indirme",
+          "description": "nerede olursanız olun Kur'an'ı internet bağlantısı olmadan dinlemek için sesi önceden indirin."
+        }
+      ]
+    },
+    "screenshots": {
+      "title": "Kur'an Sesine Genel Bakış",
+      "alts": [
+        "Noor Phonetic Quran - Senkronize ses çalma çubuğu",
+        "Noor Phonetic Quran - Ayet aralığı seçimi ve çevrimdışı indirme",
+        "Noor Phonetic Quran - Sure aralığı seçimi ve hız ayarı",
+        "Noor Phonetic Quran - Hafız seçimi"
+      ]
+    },
+    "faq": {
+      "title": "Kur'an Sesi Hakkında Sıkça Sorulan Sorular",
+      "items": [
+        {
+          "question": "Ses metinle senkronize mi?",
+          "answer": "Evet, her ayet, metni ve fonetik transkripsiyonunu takip ederken doğru telaffuzu duymak için senkronize bir sesle birlikte sunulur."
+        },
+        {
+          "question": "Kaç hafız mevcut?",
+          "answer": "Dinleme tercihlerinize göre, doğrudan ses çalma ayarlarından birden fazla Kur'an hafızı arasından seçim yapabilirsiniz."
+        },
+        {
+          "question": "Kur'an'ı çevrimdışı dinleyebilir miyim?",
+          "answer": "Evet, internet bağlantısı olmadan tam bir dinleme için bir ayetin, bir surenin veya bir sure aralığının sesini indirebilirsiniz."
+        },
+        {
+          "question": "Sesin çalma hızını değiştirebilir miyim?",
+          "answer": "Evet, dinlemeyi öğrenim seviyenize göre uyarlamak için çalma hızı 0.7x'ten 1x'e kadar ayarlanabilir."
+        }
+      ]
+    },
+    "related": {
+      "title": "Ayrıca Keşfedin",
+      "tajweed": "Tecvid Kuralları",
+      "memorization": "Kur'an'ı Ezberleyin (Hıfz)",
+      "allFeatures": "Tüm Özellikler"
+    }
+  },
+  "privacyPolicy": {
+    "title": "Noor Phonetic Quran",
+    "heading": "GİZLİLİK POLİTİKASI",
+    "lastUpdated": "Son güncelleme: 28 Temmuz 2026",
+    "intro1": "Noor Phonetic Quran (\"biz\", \"bizim\") için bu gizlilik bildirimi, Noor Phonetic Quran (\"Hizmetler\") mobil uygulamamızı kullandığınızda belirli bilgileri nasıl ve neden topladığımızı, sakladığımızı, kullandığımızı ve/veya paylaştığımızı açıklar.",
+    "intro2": "Bu gizlilik politikası, Hizmetlerimize erişimi ve kullanımını daha geniş kapsamda düzenleyen <cguLink>Genel Kullanım Koşullarımızı</cguLink> tamamlar.",
+    "intro3": "Sorularınız veya endişeleriniz mi var? Bu gizlilik bildirimini okumak, gizlilik haklarınızı ve seçeneklerinizi anlamanıza yardımcı olacaktır. Politikalarımızı ve uygulamalarımızı kabul etmiyorsanız, lütfen Hizmetlerimizi kullanmayın. Hala sorularınız veya endişeleriniz varsa, lütfen bizimle şu adresten iletişime geçin: <mailLink>othmeneb@gmail.com</mailLink>.",
+    "summary": {
+      "heading": "ANA NOKTALARIN ÖZETİ",
+      "intro": "Bu özet, gizlilik bildirimimizin ana noktalarını sunar, ancak aşağıdaki içindekiler tablomuzu kullanarak bu konuların her biri hakkında daha fazla ayrıntı edinebilirsiniz.",
+      "q1": {
+        "title": "Hangi kişisel bilgileri işliyoruz?",
+        "text": "İsteğe bağlı bir hesap oluşturmadığınız, kıraat düzeltmeyi kullanmadığınız veya iletişim formu aracılığıyla gönüllü olarak bizimle iletişime geçmediğiniz sürece hiçbir doğrudan kimlik bilgisi (ad, e-posta) toplamıyoruz. Uygulama ayrıca cihazınızın teknik tanımlayıcılarını işleyen teknik hizmetler (anonimleştirilmiş kullanım istatistikleri, çökme takibi, uygulama içi satın almalar) kullanır. Ayrıntılar için \"Hangi bilgileri topluyoruz?\" bölümüne bakın."
+      },
+      "q2": {
+        "title": "Hassas kişisel bilgiler işliyor muyuz?",
+        "text": "İsteğe bağlı kıraat düzeltme özelliğini kullanırsanız, ses kaydınız (hassas/biyometrik veri olarak kabul edilebilir) telaffuzunuz hakkında geri bildirim sağlamak için güvenli bir şekilde saklanır. Bu isteğe bağlı özellik dışında, hiçbir hassas kişisel bilgi işlemiyoruz."
+      },
+      "q3": {
+        "title": "Üçüncü taraflardan bilgi alıyor muyuz?",
+        "text": "Hayır, aşağıda listelenen teknik hizmetler (Firebase, Google AdMob, uygulama mağazaları) dışında üçüncü taraflardan hiçbir bilgi almıyoruz."
+      },
+      "q4": {
+        "title": "Bilgilerinizi nasıl işliyoruz?",
+        "text": "Bilgilerinizi uygulamayı çalıştırmak, kullanımını toplu olarak ölçmek, teknik sorunları teşhis etmek, abonelikleri yönetmek ve iletişim mesajlarınıza yanıt vermek için işliyoruz."
+      },
+      "q5": {
+        "title": "Kişisel bilgileri hangi durumlarda ve hangi taraflarla paylaşıyoruz?",
+        "text": "Uygulamanın çalışması için alt yüklenici olarak hizmet veren sağlayıcılarımızla (Google Firebase, Google AdMob) belirli teknik verileri paylaşıyoruz. Hiçbir veriyi satmıyoruz."
+      },
+      "q6": {
+        "title": "Haklarınız nelerdir?",
+        "text": "Konumunuza bağlı olarak, verilerinize erişim, düzeltme, itiraz ve silme hakkına sahip olabilirsiniz. \"Gizlilik konusundaki haklarınız nelerdir?\" bölümüne bakın."
+      },
+      "q7": {
+        "title": "Haklarınızı nasıl kullanabilirsiniz?",
+        "text": "En kolay yol <mailLink>othmeneb@gmail.com</mailLink> adresinden bizimle iletişime geçmektir. Talebinize uygulanacak hukuka göre yanıt vereceğiz."
+      }
+    },
+    "toc": {
+      "heading": "İÇİNDEKİLER",
+      "items": {
+        "collect": "HANGİ BİLGİLERİ TOPLUYORUZ?",
+        "process": "BİLGİLERİNİZİ NASIL İŞLİYORUZ?",
+        "legal": "KİŞİSEL BİLGİLERİNİZİ İŞLEMEK İÇİN HANGİ HUKUKİ DAYANAKLARA GÜVENİYORUZ?",
+        "share": "KİŞİSEL BİLGİLERİNİZİ NE ZAMAN VE KİMLERLE PAYLAŞIYORUZ?",
+        "keep": "BİLGİLERİNİZİ NE KADAR SÜRE SAKLIYORUZ?",
+        "rights": "GİZLİLİK KONUSUNDA HAKLARINIZ NELERDİR?",
+        "dnt": "\"DO-NOT-TRACK\" ÖZELLİKLERİNİN KONTROLLERİ",
+        "usRights": "AMERİKA BİRLEŞİK DEVLETLERİ SAKİNLERİNİN ÖZEL GİZLİLİK HAKLARI VAR MI?",
+        "updates": "BU BİLDİRİMİ GÜNCELLİYOR MUYUZ?",
+        "contact": "BU BİLDİRİM HAKKINDA BİZİMLE NASIL İLETİŞİME GEÇİLİR?",
+        "access": "TOPLADIĞIMIZ VERİLERİ NASIL GÖRÜNTÜLEYEBİLİR, GÜNCELLEYEBİLİR VEYA SİLEBİLİRSİNİZ?"
+      }
+    },
+    "sections": {
+      "collect": {
+        "heading": "HANGİ BİLGİLERİ TOPLUYORUZ?",
+        "disclosedTitle": "Bize açıkladığınız kişisel bilgiler",
+        "disclosedIntro": "<strong>Özetle</strong>: Örneğin bir hesap oluşturduğunuzda, kıraat düzeltmeyi veya iletişim formumuzu kullandığınızda bize gönüllü olarak sağladığınız kişisel bilgileri topluyoruz.",
+        "disclosedContact": "Uygulamaya entegre iletişim formu aracılığıyla bizimle iletişime geçerseniz, size yanıt verebilmek ve olası sorunları teşhis edebilmek için adınızı, e-posta adresinizi ve mesajınızın içeriğini, bunun yanı sıra ilişkili teknik bilgileri (platform, dil, uygulama sürümü, cihaz türü, saat dilimi) topluyoruz.",
+        "disclosedAccount": "İsteğe bağlı bir hesap oluşturursanız, profilinizi oluşturmak ve güvenceye almak, ilerlemenizi ve Premium aboneliğinizi senkronize etmek için e-posta adresinizi (e-posta ile giriş) veya bu hizmetler üzerinden giriş yaparken Google veya Apple tarafından iletilen bilgileri (hesap kimliği, paylaşmayı seçerseniz ad ve e-posta adresi) topluyoruz.",
+        "audioTitle": "Ses kayıtları (kıraat düzeltme)",
+        "audioIntro": "<strong>Özetle</strong>: Kıraat düzeltmeyi kullanırsanız, ses kaydınız analiz edilebilmesi ve/veya bir denetleyici tarafından tekrar dinlenebilmesi için sunucularımıza (Google Firebase Storage) güvenli bir şekilde gönderilir.",
+        "audioDetail": "Ses, geçerli mevzuata bağlı olarak biyometrik veya hassas veri olarak kabul edilebilir. Kıraat düzeltme özelliğini kullandığınızda, ses kaydınız, yalnızca size telaffuzunuz hakkında geri bildirim sağlamak amacıyla, yalnızca sizin ve gönderiminizi işlemeye yetkili denetleyicilerin erişebildiği hesabınıza özel bir alanda (Google Firebase Storage) saklanır. Bu kayıtlar ne reklam amaçlı kullanılır ne de saklanmaları için gerekli teknik sağlayıcılar (Google Firebase) dışında üçüncü taraflarla paylaşılır. Kayıtlarınızın silinmesini bizimle iletişime geçerek (bkz. \"Bizimle nasıl iletişime geçilir\" bölümü) her zaman talep edebilirsiniz.",
+        "autoTitle": "Otomatik olarak toplanan veriler",
+        "autoIntro": "Çoğu uygulama gibi, Noor Phonetic Quran, belirli kullanım ve cihaz verilerini otomatik olarak toplayan üçüncü taraf teknik hizmetler kullanır:",
+        "table": {
+          "headers": {
+            "service": "Hizmet",
+            "purpose": "Amaç",
+            "data": "İlgili Veriler"
+          },
+          "rows": {
+            "analytics": {
+              "service": "Google Firebase Analytics",
+              "purpose": "Toplu ve anonimleştirilmiş biçimde kitle ve özellik kullanım ölçümü (görüntülenen ekranlar, okuma, ezberleme veya quiz gibi uygulama içi eylemler)",
+              "data": "Reklam/yükleme tanımlayıcısı, kullanım istatistikleri, dil, premium durumu"
+            },
+            "crashlytics": {
+              "service": "Google Firebase Crashlytics",
+              "purpose": "Hataları düzeltmek için uygulama çökmelerinin teknik teşhisi",
+              "data": "Çökme raporları, cihaz ve işletim sistemi hakkındaki teknik bilgiler"
+            },
+            "auth": {
+              "service": "Google Firebase Authentication",
+              "purpose": "İsteğe bağlı hesabınızın (e-posta, Google, Apple) oluşturulması ve güvenceye alınması, ilerlemenizin ve aboneliğinizin senkronizasyonu",
+              "data": "E-posta adresi, hesap kimliği, kullanılan giriş yöntemi"
+            },
+            "storage": {
+              "service": "Google Firebase Storage",
+              "purpose": "Kıraat düzeltmeyi kullanmanız durumunda ses kayıtlarınızın güvenli şekilde saklanması",
+              "data": "Hesap kimliğinizle ilişkilendirilmiş sesinizin ses dosyaları"
+            },
+            "purchases": {
+              "service": "Google Play / App Store (uygulama içi satın almalar)",
+              "purpose": "Premium abonelik yönetimi (reklamların kaldırılması)",
+              "data": "Doğrudan Google/Apple tarafından yönetilen satın alma durumu ve kimliği"
+            },
+            "admob": {
+              "service": "Google AdMob",
+              "purpose": "Premium olmayan kullanıcılar için reklam gösterimi (bannerlar, geçiş reklamları) ve Premium aboneliğe geçmeden bizi desteklemek için gönüllü olarak izlemeyi seçebileceğiniz ödüllü reklamlar (\"rewarded ads\")",
+              "data": "Cihazın reklam tanımlayıcısı, reklamlarla etkileşim verileri"
+            }
+          }
+        },
+        "att": "iOS'ta, kişiselleştirilmiş reklamların gösterimi, işletim sistemi tarafından sunulan bir \"App Tracking Transparency\" (ATT) izin talebiyle birlikte olabilir. Bu izni cihazınızın gizlilik ayarlarından (Ayarlar > Gizlilik ve Güvenlik > İzleme) her zaman reddedebilirsiniz; reddetmeniz durumunda uygulama tamamen işlevsel kalır.",
+        "noLocation": "Kesin konumunuzu toplamıyoruz; uygulama konum erişim izni istemez."
+      },
+      "process": {
+        "heading": "BİLGİLERİNİZİ NASIL İŞLİYORUZ?",
+        "summary": "<strong>Özetle</strong>: Bilgilerinizi uygulamayı çalıştırmak, taleplerinize yanıt vermek, Hizmetlerimizi geliştirmek ve varsa aboneliğinizi yönetmek için işliyoruz.",
+        "detail": "Yukarıda açıklanan verileri şu amaçlarla işliyoruz: (i) uygulamanın özelliklerini (okuma, ezberleme, hatim, quiz, kıraat düzeltme) sağlamak ve sürdürmek, (ii) iletişim formu aracılığıyla gönderilen mesajlarınıza yanıt vermek, (iii) teknik sorunları teşhis etmek ve düzeltmek, (iv) geliştirmelerimize öncelik vermek için özelliklerin toplu kullanımını ölçmek, (v) premium aboneliği ve premium olmayan kullanıcılar için reklam gösterimini yönetmek."
+      },
+      "legal": {
+        "heading": "KİŞİSEL BİLGİLERİNİZİ İŞLEMEK İÇİN HANGİ HUKUKİ DAYANAKLARA GÜVENİYORUZ?",
+        "summary": "<strong>Özetle</strong>: Kişisel bilgilerinizi yalnızca gerekli olduğunu düşündüğümüzde ve bunu yapmak için geçerli hukuka göre geçerli bir hukuki nedenimiz (yani hukuki dayanağımız) olduğunda işliyoruz.",
+        "euTitle": "AB'de veya Birleşik Krallık'ta bulunuyorsanız, bu bölüm sizin için geçerlidir.",
+        "euIntro": "Genel Veri Koruma Yönetmeliği (GDPR) ve Birleşik Krallık GDPR'ı, kişisel bilgilerinizi işlemek için dayandığımız geçerli hukuki dayanakları açıklamamızı gerektirir:",
+        "euList": {
+          "consent": "<strong>Rıza</strong>: kişiselleştirilmiş reklamların gösterimi ve kitle ölçümü için, uygulamanın ilk açılışında onay banner'ı aracılığıyla toplanır.",
+          "contract": "<strong>Bir sözleşmenin ifası</strong>: premium aboneliğinizin yönetimi için.",
+          "legitimate": "<strong>Meşru menfaat</strong>: teknik teşhis (Crashlytics) ve iletişim mesajlarınızın işlenmesi için."
+        },
+        "canadaTitle": "Kanada'da bulunuyorsanız, bu bölüm sizin için geçerlidir.",
+        "canadaText": "Bize özel bir izin vermişseniz veya yasal olarak tanımlanmış belirli durumlarda (mahremiyetin korunmasına ilişkin kanun) bilgilerinizi işleyebiliriz. Ayrıca, örneğin iletişim taleplerinize yanıt vermek gibi makul bir kişinin uygun bulacağı amaçlar için de bilgilerinizi işleyebiliriz."
+      },
+      "share": {
+        "heading": "KİŞİSEL BİLGİLERİNİZİ NE ZAMAN VE KİMLERLE PAYLAŞIYORUZ?",
+        "summary": "<strong>Özetle</strong>: Bilgileri yalnızca uygulamanın çalışması için gerekli teknik sağlayıcılarla (Google Firebase, Google AdMob), satın alma yönetimi için uygulama mağazalarıyla (Google Play, App Store) ve yasa bizi zorunlu kıldığında paylaşıyoruz. Verilerinizi asla üçüncü taraflara satmıyoruz."
+      },
+      "keep": {
+        "heading": "BİLGİLERİNİZİ NE KADAR SÜRE SAKLIYORUZ?",
+        "summary": "<strong>Özetle</strong>: Bilgilerinizi, yasa daha uzun bir saklama süresi gerektirmedikçe, bu bildirimde açıklanan amaçlar için gerekli olduğu sürece saklıyoruz.",
+        "detail": "İletişim formu aracılığıyla gönderilen mesajlar, talebinizin işlenmesi için gerekli süre boyunca saklanır, ardından arşivlenir veya silinir. Toplu istatistiksel veriler (Firebase Analytics), Google Firebase'in varsayılan ayarlarına göre saklanır."
+      },
+      "rights": {
+        "heading": "GİZLİLİK KONUSUNDA HAKLARINIZ NELERDİR?",
+        "summary": "<strong>Özetle</strong>: İkamet ettiğiniz ülkeye bağlı olarak, kişisel bilgilerinize erişim, düzeltme veya silme talep etme, işleme yönelik rızanızı geri çekme ve belirli işlemlere itiraz etme hakkına sahip olabilirsiniz.",
+        "detail": "Uygulama içinde bulunan gizlilik ayarlarından (Ayarlar > Gizlilik) kitle ölçümüne ve kişiselleştirilmiş reklamlara verdiğiniz rızayı her zaman geri çekebilirsiniz."
+      },
+      "dnt": {
+        "heading": "\"DO-NOT-TRACK\" ÖZELLİKLERİNİN KONTROLLERİ",
+        "text": "Çoğu web tarayıcısı ve bazı işletim sistemleri ile mobil uygulamalar, gizlilik tercihinizi belirtmek için etkinleştirebileceğiniz bir \"Do-Not-Track\" (\"DNT\") özelliği veya ayarı içerir. Bu aşamada, DNT sinyallerini tanımak ve uygulamak için birleşik bir teknolojik standart henüz sonuçlandırılmamıştır. Bu nedenle, şu anda DNT tarayıcı sinyallerine yanıt vermiyoruz. Gelecekte takip etmemiz gereken çevrimiçi izleme için bir standart benimsenirse, bu gizlilik bildiriminin revize edilmiş bir sürümünde sizi bilgilendireceğiz."
+      },
+      "usRights": {
+        "heading": "AMERİKA BİRLEŞİK DEVLETLERİ SAKİNLERİNİN ÖZEL GİZLİLİK HAKLARI VAR MI?",
+        "summary": "<strong>Özetle</strong>: Amerika Birleşik Devletleri'nde ikamet ediyorsanız, ikamet ettiğiniz eyalete bağlı olarak kişisel bilgilerinize erişim konusunda bazı özel haklardan yararlanırsınız. Bu hakları aşağıda belirtilen adresten bizimle iletişime geçerek kullanabilirsiniz."
+      },
+      "updates": {
+        "heading": "BU BİLDİRİMİ GÜNCELLİYOR MUYUZ?",
+        "summary": "<strong>Özetle</strong>: Evet, ilgili yasalara uygunluğumuzu sürdürmek için gerektiğinde bu bildirimi güncelleyeceğiz.",
+        "detail": "Bu gizlilik bildirimini zaman zaman güncelleyebiliriz. Güncellenmiş sürüm, güncellenmiş bir \"Revizyon\" tarihiyle belirtilecek ve erişilebilir olduğu anda yürürlüğe girecektir. Bu gizlilik bildiriminde önemli değişiklikler yaparsak, bu değişiklikleri göz önünde bir bildirim yayınlayarak veya doğrudan size bir bildirim göndererek sizi bilgilendirebiliriz. Bilgilerinizi nasıl koruduğumuz hakkında bilgi sahibi olmak için bu gizlilik bildirimini sık sık incelemenizi öneririz."
+      },
+      "contact": {
+        "heading": "BU BİLDİRİM HAKKINDA BİZİMLE NASIL İLETİŞİME GEÇİLİR?",
+        "text": "Bu bildirim hakkında sorularınız veya yorumlarınız varsa, bize <mailLink>othmeneb@gmail.com</mailLink> adresinden e-posta gönderebilirsiniz."
+      },
+      "access": {
+        "heading": "TOPLADIĞIMIZ VERİLERİ NASIL GÖRÜNTÜLEYEBİLİR, GÜNCELLEYEBİLİR VEYA SİLEBİLİRSİNİZ?",
+        "text": "Ülkenizde geçerli yasalara bağlı olarak, hakkınızda tuttuğumuz kişisel bilgilere erişim talep etme, bunları değiştirme veya silme hakkına sahip olabilirsiniz. Bunun için <mailLink>othmeneb@gmail.com</mailLink> adresinden bizimle iletişime geçmeniz yeterlidir; talebinizi en kısa sürede işleme alacağız."
+      }
+    },
+    "footer": "© 2026 Noor Phonetic Quran. Tüm hakları saklıdır.",
+    "meta": {
+      "title": "Gizlilik Politikası - Noor Phonetic Quran",
+      "description": "Noor Phonetic Quran gizlilik politikası: toplanan veriler (analitik, satın almalar, iletişim formu), amaçlar, üçüncü taraflarla paylaşım ve haklarınız."
+    }
+  },
+  "correctionRecitation": {
+    "meta": {
+      "title": "Kur'an Kıraat Düzeltme: Kendinizi Kaydedin ve İlerleyin | Noor Phonetic Quran",
+      "description": "Kur'an kıraatinizi kaydedin ve Noor Phonetic Quran ile kişiselleştirilmiş bir düzeltme alın: telaffuz ve Tecvid kurallarına uyumda gelişme. iOS ve Android'de ücretsiz.",
+      "keywords": "Kur'an kıraat düzeltme, kıraatini geliştir, Tecvid düzeltme, kıraatini kaydet, Kur'an düzeltme uygulaması, Kur'an'ı doğru okumayı öğren",
+      "ogTitle": "Kur'an Kıraat Düzeltme: Kendinizi Kaydedin ve İlerleyin",
+      "ogDescription": "Kıraatinizi kaydedin ve telaffuz ile Tecvid'de ilerlemek için kişiselleştirilmiş bir düzeltme alın. Ücretsiz Noor Phonetic Quran uygulaması."
+    },
+    "breadcrumb": {
+      "home": "Ana Sayfa",
+      "current": "Kıraat Düzeltme"
+    },
+    "hero": {
+      "title": "Kur'an Kıraat Düzeltme: Kendinizi Kaydedin ve İlerleyin",
+      "subtitle": "Kıraatinizi doğrudan uygulama içinde kaydedin ve telaffuzunuzu ve Tecvid kurallarına uyumunuzu geliştirmek için kişiselleştirilmiş bir düzeltme alın."
+    },
+    "intro": {
+      "title": "Kıraatini Neden Düzeltmeli?",
+      "paragraph1": "Doğru okumak, sadece fonetiği doğru okumakla sınırlı değildir: Tecvid kurallarına (uzatmalar, bağlantılar, harflerin çıkış noktaları) uyum, genellikle geliştirilmesi gereken noktaları belirlemek için dışarıdan bir geri bildirim gerektirir.",
+      "paragraph2": "Noor Phonetic Quran ile, her zaman ulaşılabilir bir öğretmen bulmaya gerek kalmadan, doğrudan uygulama içinde kendinizi kaydedebilir ve kişiselleştirilmiş bir düzeltme alabilirsiniz."
+    },
+    "steps": {
+      "title": "Kıraat Düzeltme Nasıl Çalışır?",
+      "items": [
+        {
+          "title": "Bir bölüm seçin",
+          "text": "okumak istediğiniz sureyi ve ayetleri seçin."
+        },
+        {
+          "title": "Kıraatinizi kaydedin",
+          "text": "ek bir ekipman olmadan doğrudan uygulamadan."
+        },
+        {
+          "title": "Kaydınızı gönderin",
+          "text": "kıraatiniz dinlenmek üzere bekleme sırasına alınır."
+        },
+        {
+          "title": "Düzeltmenizi alın",
+          "text": "kişiselleştirilmiş bir yanıt, doğrudan uygulama içinde geliştirilmesi gereken noktaları size gösterir."
+        },
+        {
+          "title": "Kayıtlar boyunca ilerleyin",
+          "text": "telaffuzunuzu ve Tecvid'inizi geliştirmek için alıştırmayı düzenli olarak tekrarlayın."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Kıraat Düzeltme Hakkında Sıkça Sorulan Sorular",
+      "items": [
+        {
+          "question": "Kıraat düzeltme ücretsiz mi?",
+          "answer": "İlk kayıt ücretsizdir. Bunun ötesinde, özellik uygulamanın premium teklifinin bir parçasıdır."
+        },
+        {
+          "question": "Bir düzeltme almak ne kadar sürer?",
+          "answer": "Kaydınız, doğrudan uygulama içinde kişiselleştirilmiş bir yanıtla dinlenmek ve düzeltilmek üzere bekleme sırasına alınır."
+        },
+        {
+          "question": "Aynı bölümü birden fazla kez yeniden kaydedebilir miyim?",
+          "answer": "Evet, aynı bölümde ilerlemek için alıştırmayı istediğiniz kadar tekrarlayabilirsiniz."
+        }
+      ]
+    },
+    "related": {
+      "title": "Ayrıca Keşfedin",
+      "tajweed": "Tecvid Kuralları",
+      "memorisation": "Kur'an'ı Ezberleyin (Hıfz)",
+      "allFeatures": "Tüm Özellikler"
+    }
+  },
+  "khatmaCoran": {
+    "meta": {
+      "title": "Kur'an Hatimi: Tam Okumanızı Planlamak ve Takip Etmek İçin Uygulama | Noor Phonetic Quran",
+      "description": "Noor Phonetic Quran uygulamasıyla Hatiminizi (Kur'an'ın tamamını okuma) planlayın: günlük hedefler, ilerleme takibi, gün serileri (streak) ve hatırlatmalar. iOS ve Android'de ücretsiz.",
+      "keywords": "Kur'an Hatimi, hatim uygulaması, Kur'an'ı tamamen oku, Kur'an okuma planı, Ramazan Hatim hedefi, Kur'an okuma takibi, Kur'an'ı bitir",
+      "ogTitle": "Kur'an Hatimi: Tam Okumanızı Planlayın ve Takip Edin",
+      "ogDescription": "Günlük hedefler, ilerleme takibi ve hatırlatmalarla Hatiminizi planlayın. Ücretsiz Noor Phonetic Quran uygulaması."
+    },
+    "breadcrumb": {
+      "home": "Ana Sayfa",
+      "current": "Kur'an Hatimi"
+    },
+    "hero": {
+      "title": "Kur'an Hatimi: Tam Okumanızı Planlayın ve Bitirin",
+      "subtitle": "Kendinize bir gün hedefi belirleyin, günlük ilerlemenizi takip edin ve düzenli kalmanız için hatırlatmalarla birlikte Kur'an-ı Kerim'in son sayfasına kadar okuma serinizi (streak) koruyun.",
+      "googlePlay": "Google Play",
+      "appStore": "App Store"
+    },
+    "intro": {
+      "title": "Hatim Nedir?",
+      "paragraph1": "Hatim, Kur'an'ın baştan (Fatiha) sona (Nas) kadar tamamının okunması anlamına gelir. Birçok Müslüman Ramazan ayında bir Hatim gerçekleştirir, ancak yılın herhangi bir zamanında, kendi seçtiğiniz sürede de yapılabilir.",
+      "paragraph2": "Kur'an'ı bitirmek istikrar gerektirir: bir okuma planı ve takip olmadan, yolu kaybetmek veya yarı yolda bırakmak kolaydır. Noor Phonetic Quran'ın Hatim özelliği tam olarak bunu çözer."
+    },
+    "features": {
+      "title": "Uygulamada Hatim Nasıl Çalışır?",
+      "items": [
+        {
+          "title": "Hatiminizin süresini seçin",
+          "description": "örneğin Ramazan için 30 gün veya kendi hızınıza uygun özel bir süre."
+        },
+        {
+          "title": "Günlük hedefinizi takip edin",
+          "description": "uygulama, zamanında bitirmek için her gün okunması gereken sayfa sayısını otomatik olarak hesaplar."
+        },
+        {
+          "title": "Okuma serinizi (streak) koruyun",
+          "description": "hedefinize ulaştığınız her gün serinizi uzatır; düzenli kalmak için ek bir motivasyon sağlar."
+        },
+        {
+          "title": "Hatırlatmalar alın",
+          "description": "bildirimler, günün okumasını unutmamanıza yardımcı olur."
+        },
+        {
+          "title": "Hatiminizin sonunu kutlayın",
+          "description": "Kur'an tamamlandığında yolculuğunuzun bir özeti (geçen günler, en iyi seri) görüntülenir."
+        }
+      ]
+    },
+    "screenshots": {
+      "title": "Hatim Özelliğine Genel Bakış",
+      "alts": [
+        "Noor Phonetic Quran - Hatim planı seçimi (30, 60, 90 gün veya Ramazan)",
+        "Noor Phonetic Quran - Seri (streak) ile Hatim ilerleme takibi",
+        "Noor Phonetic Quran - Okuma sırasında görüntülenen Hatim göstergesi"
+      ]
+    },
+    "faq": {
+      "title": "Hatim Hakkında Sıkça Sorulan Sorular",
+      "items": [
+        {
+          "question": "Kur'an Hatimi nedir?",
+          "answer": "Hatim, genellikle belirli bir dönemde (çoğunlukla Ramazan ayında, ama aynı zamanda yıl boyunca) gerçekleştirilen, Kur'an'ın baştan sona tamamının okunmasıdır."
+        },
+        {
+          "question": "Uygulamayla bir Hatim nasıl planlanır?",
+          "answer": "Kur'an'ı bitirmek için bir gün sayısı seçin (örneğin Ramazan için 30 gün), uygulama günlük sayfa hedefinizi otomatik olarak hesaplar ve ilerlemenizi gün gün takip eder."
+        },
+        {
+          "question": "Bir okuma gününü kaçırırsam ne olur?",
+          "answer": "Uygulama, ardışık gün serinizi (streak) takip ederken, gecikmenizi telafi etmenizi ve Hatiminizi zamanında bitirmenizi sağlamak için kalan günlük hedefinizi ayarlar."
+        },
+        {
+          "question": "Ramazan dışında bir Hatim yapabilir miyim?",
+          "answer": "Evet, yılın herhangi bir zamanında, seçtiğiniz sürede bir Hatim başlatabilirsiniz."
+        },
+        {
+          "question": "Hatim özelliği ücretsiz mi?",
+          "answer": "Evet, Noor Phonetic Quran'ın tüm ana özellikleri gibi, Hatim de tamamen ücretsizdir."
+        }
+      ]
+    },
+    "related": {
+      "title": "Ayrıca Keşfedin",
+      "memorization": "Kur'an'ı Ezberleyin (Hıfz)",
+      "audio": "Kur'an Sesi",
+      "allFeatures": "Tüm Özellikler"
+    }
+  },
+  "tajweedCoran": {
+    "meta": {
+      "title": "Kur'an Tecvid Kuralları: Renkli ve Detaylı Öğrenim | Noor Phonetic Quran",
+      "description": "Noor Phonetic Quran ile Kur'an tecvid kurallarını öğrenin: okuma sırasında renkler ve notlar, harflerin çıkış noktaları (Mahariç), Nun Sakin ve Vakf kuralları. iOS ve Android'de ücretsiz.",
+      "keywords": "tecvid kuralları, Kur'an tecvidi, tecvid öğren, renkli tecvid, Arapça harflerin mahariçi, Nun Sakin Tenvin, Vakf İbtida, ücretsiz tecvid uygulaması",
+      "ogTitle": "Kur'an Tecvid Kuralları: Renkli ve Detaylı Öğrenim",
+      "ogDescription": "Okuma sırasında renkler ve notlar, çıkış noktaları, Nun Sakin ve Vakf kuralları. Ücretsiz Noor Phonetic Quran uygulaması."
+    },
+    "breadcrumb": {
+      "home": "Ana Sayfa",
+      "current": "Tecvid Kuralları"
+    },
+    "hero": {
+      "title": "Kur'an Tecvid Kuralları: Renkli ve Detaylı Öğrenim",
+      "subtitle": "Kur'an metni, tecvid kurallarına göre renklendirilmiş ve not düşülmüş olarak görüntülenir; çıkış noktaları, Nun Sakin ve durma-devam etme kuralları hakkında detaylı rehberlerle desteklenir.",
+      "backLink": "Ana sayfaya dön",
+      "googlePlay": "Google Play",
+      "appStore": "App Store"
+    },
+    "intro": {
+      "title": "Tecvid Neden Önemlidir",
+      "paragraph1": "Tecvid, Kur'an'ın doğru bir şekilde okunmasını garanti eden kurallar bütünüdür: her harfin hassas telaffuzu, uzatmalar, bağlantılar ve okumanın durdurulabileceği veya yeniden başlanabileceği yerler. Tecvid'e uymadan okumak metnin anlamını bozabilir.",
+      "paragraph2": "Noor Phonetic Quran, okuma sırasında renklerle ve her kavramı derinleştirmek için detaylı rehberlerle bu kuralları görünür ve anlaşılır kılar."
+    },
+    "features": {
+      "title": "Tecvid Öğrenimi Ne Sunuyor",
+      "items": [
+        {
+          "title": "Renkli ve not düşülmüş metin",
+          "description": "renkler ve notlar, doğru Tecvid kurallarına göre kıraatinizi doğrudan Kur'an metni üzerinde yönlendirir."
+        },
+        {
+          "title": "Çıkış noktaları (Mahariç)",
+          "description": "anatomik şemalarla, her Arapça harfin çıkış noktasından yola çıkarak doğru telaffuzunu öğrenin."
+        },
+        {
+          "title": "Nun Sakin ve Tenvin",
+          "description": "nun sakin ve tenvini yöneten 4 kural (İzhar, İdgam, İklab, İhfa) görsel olarak açıklanmış ve karşılaştırılmıştır."
+        },
+        {
+          "title": "Vakf ve İbtida",
+          "description": "metnin anlamını korumak için, kıraatin durdurulmasına ve yeniden başlanmasına izin verilen yerleri belirleyen kurallar."
+        }
+      ]
+    },
+    "screenshots": {
+      "title": "Tecvid Kurallarına Genel Bakış",
+      "alts": [
+        "Noor Phonetic Quran - Okuma sırasında renkli Tecvid kuralları",
+        "Noor Phonetic Quran - Arapça harflerin çıkış noktaları (Mahariç)",
+        "Noor Phonetic Quran - Nun Sakin ve Tenvin kuralları",
+        "Noor Phonetic Quran - Vakf ve İbtida kuralları (durma ve devam etme)"
+      ]
+    },
+    "faq": {
+      "title": "Tecvid Hakkında Sıkça Sorulan Sorular",
+      "items": [
+        {
+          "question": "Tecvid nedir?",
+          "answer": "Tecvid, Kur'an'ın doğru telaffuzunu yöneten kurallar bütünüdür: uzatmalar, bağlantılar, harflerin çıkış noktaları ve kıraatin durdurulması ile yeniden başlanması kuralları."
+        },
+        {
+          "question": "Uygulama Tecvidi nasıl öğretiyor?",
+          "answer": "Kur'an metni, okuma sırasında Tecvid kurallarına göre renklendirilir ve not düşülür; detaylı rehberler her kuralı açıklar: çıkış noktaları, Nun Sakin ve Tenvin, ayrıca Vakf ve İbtida kuralları."
+        },
+        {
+          "question": "Tecvid yeni başlayanlar için uygun mu?",
+          "answer": "Evet, her kural, önceden bilgi sahibi olmadan bile öğrenimi kolaylaştırmak için basit tanımlar, örnekler ve görsel karşılaştırmalarla açıklanır."
+        }
+      ]
+    },
+    "related": {
+      "title": "Ayrıca Keşfedin",
+      "audio": "Kur'an Sesi",
+      "memorization": "Kur'an'ı Ezberleyin (Hıfz)",
+      "allFeatures": "Tüm Özellikler"
+    }
+  },
+  "quizCoran": {
+    "meta": {
+      "title": "Kur'an Quizi: Eğlenerek Kur'an Bilginizi Test Edin | Noor Phonetic Quran",
+      "description": "Noor Phonetic Quran'ın Kur'an Quizi ile Kur'an bilginizi test edin: 21 soru, kazanç skalası, 50:50 joker, seyirci anketi ve arkadaşını ara. iOS ve Android'de ücretsiz.",
+      "keywords": "Kur'an quizi, Kur'an testi, Kur'an soru oyunu, Kur'an bilgini test et, İslam quizi, ücretsiz Kur'an quiz uygulaması, Kur'an soru ve cevapları",
+      "ogTitle": "Kur'an Quizi: Eğlenerek Kur'an Bilginizi Test Edin",
+      "ogDescription": "21 soru, kazanç skalası, 50:50 joker, seyirci anketi ve arkadaşını ara. Ücretsiz Noor Phonetic Quran uygulaması."
+    },
+    "breadcrumb": {
+      "home": "Ana Sayfa",
+      "current": "Kur'an Quizi"
+    },
+    "hero": {
+      "title": "Kur'an Quizi: Eğlenerek Bilginizi Test Edin",
+      "subtitle": "Kur'an'ı eğlenceli bir şekilde öğrenmek için 21 soru, aşamalı bir kazanç skalası ve üç joker (50:50, seyirci anketi, arkadaşını ara).",
+      "backLink": "Ana sayfaya dön",
+      "googlePlay": "Google Play",
+      "appStore": "App Store"
+    },
+    "intro": {
+      "title": "Eğlenerek Öğrenmek İçin Bir Quiz",
+      "paragraph1": "Noor Phonetic Quran'ın Kur'an Quizi, \"Kim Milyoner Olmak İster\" formatından ilham alır: Kur'an, İslam tarihi ve sureler üzerine, her doğru cevapta artan bir kazanç skalasıyla bir dizi soru.",
+      "paragraph2": "Tek başınıza veya ailenizle, baskı olmadan Kur'an bilginizi tekrar etmenin veya keşfetmenin eğlenceli bir yoludur — puanınızı koruyarak istediğiniz zaman durabilirsiniz."
+    },
+    "features": {
+      "title": "Quiz Nasıl Çalışır?",
+      "items": [
+        {
+          "title": "21 soruyu yanıtlayın",
+          "description": "Kur'an ve İslam tarihi üzerine giderek zorlaşan çoktan seçmeli sorular."
+        },
+        {
+          "title": "Kazanç skalasını takip edin",
+          "description": "her doğru cevap, 100 puandan 1 milyona kadar uzanan bir skalada ilerlemenizi sağlar."
+        },
+        {
+          "title": "Jokerlerinizi kullanın",
+          "description": "50:50 iki yanlış cevabı eler, seyirci anketi diğer oyuncuların görüşünü gösterir ve arkadaşını ara size bir cevap önerir."
+        },
+        {
+          "title": "İstediğiniz zaman durun",
+          "description": "\"Çekil\" düğmesi, her şeyi kaybetme riskine girmek yerine kazançlarınızı istediğiniz zaman korumanızı sağlar."
+        }
+      ]
+    },
+    "screenshots": {
+      "title": "Kur'an Quizine Genel Bakış",
+      "alts": [
+        "Noor Phonetic Quran - Kur'an Quizi ana ekranı",
+        "Noor Phonetic Quran - Kazanç skalasıyla quiz sorusu",
+        "Noor Phonetic Quran - Quizde seyirci anketi jokeri",
+        "Noor Phonetic Quran - Quizde arkadaşını ara jokeri"
+      ]
+    },
+    "faq": {
+      "title": "Kur'an Quizi Hakkında Sıkça Sorulan Sorular",
+      "items": [
+        {
+          "question": "Quiz kaç soru içeriyor?",
+          "answer": "Quiz, oyun ilerledikçe zorluğu artan 21 çoktan seçmeli soru içerir."
+        },
+        {
+          "question": "Bir soruyu yanlış cevaplarsam ne olur?",
+          "answer": "İlerlemenize bağlı olarak, \"Kim Milyoner Olmak İster\" formatındaki gibi ulaştığınız son garantili kazanç basamağını korursunuz."
+        },
+        {
+          "question": "Kur'an quizi ücretsiz mi?",
+          "answer": "Evet, Kur'an Quizi, Noor Phonetic Quran'ın ücretsiz özelliklerinden biridir."
+        }
+      ]
+    },
+    "related": {
+      "title": "Ayrıca Keşfedin",
+      "khatma": "Kur'an Hatimi",
+      "audio": "Kur'an Sesi",
+      "allFeatures": "Tüm Özellikler"
+    }
+  },
+  "memorisationCoran": {
+    "meta": {
+      "title": "Kur'an'ı Ezberleyin (Hıfz): Ses Tekrarı ve Quiz İçeren Uygulama | Noor Phonetic Quran",
+      "description": "Noor Phonetic Quran uygulamasıyla Kur'an'ı (Hıfz) ezberleyin: ayet ayet ses tekrarı, kelime kelime mod, tekrar quizleri, puanlar, seviyeler ve rozetler. iOS ve Android'de ücretsiz.",
+      "keywords": "Kur'an ezberle, Hıfz Kur'an, Kur'an ezberleme uygulaması, Kur'an'ı ezbere öğren, ayet ayet ezberleme, ücretsiz Hıfz uygulaması",
+      "ogTitle": "Kur'an'ı Ezberleyin (Hıfz): Ses Tekrarı, Quiz ve İlerleme Takibi",
+      "ogDescription": "Ses tekrarı, kelime kelime mod, quiz ve günlük görevlerle Kur'an'ı ezberleyin. Ücretsiz Noor Phonetic Quran uygulaması."
+    },
+    "breadcrumb": {
+      "home": "Ana Sayfa",
+      "current": "Kur'an Ezberleme"
+    },
+    "hero": {
+      "title": "Kur'an'ı Ezberleyin (Hıfz): Ses Tekrarı, Quiz ve İlerleme Takibi",
+      "subtitle": "Ses tekrarı, kelime kelime mod ve tekrar quizleri sayesinde Kur'an'ı ayet ayet ezbere öğrenin; her gün motive kalmanız için bir puan ve rozet sistemiyle desteklenir.",
+      "backLink": "Ana sayfaya dön",
+      "googlePlay": "Google Play",
+      "appStore": "App Store"
+    },
+    "intro": {
+      "title": "Hıfz Nedir?",
+      "paragraph1": "Hıfz, Kur'an'ın ayet ayet ve sure sure ezberlenmesi anlamına gelir. Düzenli tekrar, iyi öğrenme yöntemleri ve zaten iyi ezberlenmiş olanı doğrulamak için güvenilir bir yöntem gerektiren zorlu bir yolculuktur.",
+      "paragraph2": "Noor Phonetic Quran, bir mushafı sürekli tekrar tekrar okumak yerine, ses, tekrar, aktif tekrar ve oyunlaştırma gibi somut araçlarla bu yolculuğa eşlik etmek için tasarlanmıştır."
+    },
+    "features": {
+      "title": "Uygulamayla Kur'an Nasıl Ezberlenir?",
+      "items": [
+        {
+          "title": "Dinleyin ve tekrar edin",
+          "description": "her ayetin, dinleyerek ezberlemeyi pekiştirmek için bir ses tekrarı vardır."
+        },
+        {
+          "title": "Kelime kelime modu kullanın",
+          "description": "en uzun ayetleri kademeli olarak ezberlemek için parçalara ayırın."
+        },
+        {
+          "title": "Tekrar quizleriyle kendinizi test edin",
+          "description": "öğrenilen ayetlerin iyi ezberlenmiş kalıp kalmadığını düzenli olarak kontrol edin."
+        },
+        {
+          "title": "Puan ve rozet kazanın",
+          "description": "ezberlenen her ayet puan kazandırır, seviyenizi ilerletir ve rozetlerin kilidini açar."
+        },
+        {
+          "title": "Günlük görevleri tamamlayın",
+          "description": "günlük hedefler, aşırı yüklenmeden her gün biraz ezberlemeniz için sizi teşvik eder."
+        }
+      ]
+    },
+    "screenshots": {
+      "title": "Ezberleme Planına Genel Bakış",
+      "alts": [
+        "Noor Phonetic Quran - Günlük ezberleme planının adımları",
+        "Noor Phonetic Quran - Seri (streak) ile ezberleme kontrol listesi",
+        "Noor Phonetic Quran - Okuma sırasında görüntülenen günlük plan göstergesi"
+      ]
+    },
+    "faq": {
+      "title": "Kur'an Ezberleme Hakkında Sıkça Sorulan Sorular",
+      "items": [
+        {
+          "question": "Kur'an'ı ezberlemek ne kadar sürer?",
+          "answer": "Bu, kişinin hızına bağlıdır. Uygulama, süre baskısı olmadan, ayet ayet kendi hızınızda ilerlemenizi sağlar."
+        },
+        {
+          "question": "Ezberleme modu çevrimdışı çalışıyor mu?",
+          "answer": "Sureler yüklendikten sonra, ses tekrarı ve tekrar quizleri internet bağlantısı olmadan kullanılabilir kalır."
+        },
+        {
+          "question": "Ezberleme özelliği ücretsiz mi?",
+          "answer": "Evet, Noor Phonetic Quran'ın tüm ana özellikleri gibi, Ezberleme modu da tamamen ücretsizdir."
+        }
+      ]
+    },
+    "related": {
+      "title": "Ayrıca Keşfedin",
+      "khatma": "Kur'an Hatimi",
+      "tajweed": "Tecvid Kuralları",
+      "allFeatures": "Tüm Özellikler"
+    }
+  }
+}

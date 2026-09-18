@@ -1,0 +1,2323 @@
+{
+  "common": {
+    "nav": {
+      "features": "Imkoniyatlar",
+      "screenshots": "Skrinshotlar",
+      "reviews": "Sharhlar",
+      "privacy": "Maxfiylik",
+      "contact": "Aloqa",
+      "openMenu": "Navigatsiya menyusini ochish",
+      "closeMenu": "Navigatsiya menyusini yopish",
+      "toggleTheme": "Tungi rejimni almashtirish",
+      "googlePlay": "Google Play",
+      "appStore": "App Store",
+      "home": "Bosh sahifa",
+      "reviewsBreadcrumb": "Sharhlar",
+      "contactBreadcrumb": "Aloqa",
+      "pages": {
+        "audioCoran": "Qur'on audio",
+        "khatmaCoran": "Qur'on xatmi",
+        "memorisationCoran": "Qur'onni yodlash",
+        "quizCoran": "Qur'on viktorinasi",
+        "tajweedCoran": "Tajvid qoidalari",
+        "correctionRecitation": "Qiroatni to'g'irlash",
+        "privacyPolicy": "Maxfiylik siyosati",
+        "cgu": "Foydalanish shartlari"
+      }
+    },
+    "languageSwitcher": {
+      "label": "Tilni tanlang",
+      "searchPlaceholder": "Til qidirish...",
+      "close": "Yopish",
+      "noResults": "Til topilmadi"
+    },
+    "footer": {
+      "about": "Muqaddas Qur'onni aniqlik va qulaylik bilan tilovat qilishni o'rgatuvchi innovatsion ilova.",
+      "quickLinks": "Tezkor havolalar",
+      "resources": "Manbalar",
+      "faq": "Ko'p beriladigan savollar",
+      "support": "Yordam",
+      "contact": "Aloqa",
+      "location": "Parij, Fransiya",
+      "rights": "Barcha huquqlar himoyalangan.",
+      "backToTop": "Sahifa boshiga qaytish"
+    },
+    "contactForm": {
+      "eyebrow": "Biz bilan bog'laning",
+      "title": "Biz bilan bog'laning",
+      "description": "Agar sizda takliflar, yaxshilash bo'yicha fikrlar yoki muammolar bo'lsa, bizga yozishdan tortinmang. Sizga tezda javob beramiz.",
+      "highlights": [
+        {
+          "title": "Tezkor javob",
+          "text": "Jamoamiz har bir xabarni ko'rib chiqadi va odatda 48 soat ichida javob beradi. Oddiy savol bo'ladimi yoki texnik muammo, biz hech qanday so'rovni javobsiz qoldirmaslikka harakat qilamiz."
+        },
+        {
+          "title": "Fikringizni tinglaydigan jamoa",
+          "text": "80 000 dan ortiq foydalanuvchi bizga ishonadi; sizning fikringiz ilovani hamma uchun yaxshilashga yordam beradi. Har bir xabar muhim va Noorni foydalanuvchilar ehtiyojiga yanada mos vositaga aylantirishga hissa qo'shadi."
+        },
+        {
+          "title": "Sizning g'oyalaringiz ilovani shakllantiradi",
+          "text": "Hozirgi ko'plab funksiyalar (Tajweed, Khatma, viktorina...) foydalanuvchilar takliflaridan tug'ilgan. Ilova bilan har kungi tajribangiz kelajakdagi yangilanishlar uchun eng yaxshi ilhom manbaidir."
+        }
+      ],
+      "name": "Ism",
+      "namePlaceholder": "Ismingiz",
+      "nameRequired": "Ism kiritilishi shart",
+      "email": "Email",
+      "emailPlaceholder": "siz@misol.com",
+      "emailRequired": "Email kiritilishi shart",
+      "emailInvalid": "Email noto'g'ri",
+      "phone": "Telefon (ixtiyoriy)",
+      "phonePlaceholder": "+998 90 123 45 67",
+      "subject": "Mavzu",
+      "subjectPlaceholder": "Mavzuni tanlang...",
+      "subjectRequired": "Iltimos, mavzuni tanlang",
+      "subjectOptions": {
+        "general": "Umumiy savol",
+        "suggestion": "Taklif",
+        "bug": "Xatolik haqida xabar berish",
+        "technical": "Texnik muammo",
+        "other": "Boshqa"
+      },
+      "platform": "Foydalanilayotgan platforma",
+      "platformPlaceholder": "Platformani tanlang...",
+      "platformRequired": "Iltimos, platformani tanlang",
+      "platformOptions": {
+        "ios": "iOS",
+        "android": "Android",
+        "web": "Web"
+      },
+      "message": "Xabar",
+      "messagePlaceholder": "Xabaringizni shu yerga yozing...",
+      "messageRequired": "Xabar kiritilishi shart",
+      "messageTooShort": "Xabar kamida 10 ta belgidan iborat bo'lishi kerak",
+      "send": "Yuborish",
+      "sending": "Yuborilmoqda...",
+      "successMessage": "Xabaringiz muvaffaqiyatli yuborildi. Rahmat!",
+      "errorMessage": "Xatolik yuz berdi. Iltimos, qayta urinib ko'ring."
+    }
+  },
+  "home": {
+    "meta": {
+      "title": "Noor Phonetic Quran - Qur'on O'rganish Ilovasi",
+      "description": "Noor Phonetic Quran - Qur'onni tilovat qilish, yodlash (Hifz) va to'liq o'qishni (Khatma) o'rgatuvchi bepul ilova. Fonetik transkripsiya, sinxron audio, rangli Tajweed, kunlik o'qish rejasi, viktorina va tilovat tuzatish. 80 ming+ mamnun foydalanuvchi. iOS va Android'da mavjud.",
+      "keywords": "fonetik Qur'on, Qur'on o'rganish, Quran phonetics, Qur'on tilovati, Tajweed, bepul Qur'on ilovasi, arab fransuz Qur'oni, Qur'on fonetik transkripsiyasi, learn Quran, Quran app free, Khatma Qur'on, Qur'onni yodlash, Hifz Qur'on, Qur'on o'qish rejasi, Qur'on viktorinasi, tilovat tuzatish, Qur'on yodlash ilovasi",
+      "ogTitle": "Noor Phonetic Quran - Qur'onni fonetika bilan tilovat qiling",
+      "ogDescription": "Arab tilini bilmasangiz ham Muqaddas Qur'onni tilovat qilishni o'rganing. Aniq fonetika, o'rnatilgan audio va Tajweed qoidalari bilan bepul ilova."
+    },
+    "hero": {
+      "statusBadge": "80 ming+ Faol Foydalanuvchi",
+      "headlineHighlight": "Tilovat qiling",
+      "headline": "Muqaddas Qur'onni, hatto arab tilini bilmasangiz ham",
+      "subheadline": "Aniq va tushunarli fonetika yordamida Noor Phonetic Quran har bir oyatni hammaga qulay qiladi.",
+      "miniFeatures": {
+        "phonetics": "Aniq Fonetika",
+        "audio": "O'rnatilgan Audio",
+        "tajweed": "Tajweed Qoidalari"
+      },
+      "ratingText": "Play Store va App Store'da mukammal reyting",
+      "downloadOn": "Yuklab oling",
+      "usersBadgeLabel": "Foydalanuvchilar",
+      "updateBadge": "Yaqinda yangilangan",
+      "deviceScreenAlt": "Noor Phonetic Quran - Qur'on fonetikasini ko'rsatuvchi ilova interfeysi",
+      "mobileDeviceScreenAlt": "Noor Phonetic Quran - Fonetik transkripsiya bilan Qur'on o'rganish"
+    },
+    "languages": {
+      "title": "Sizning tilingizda mavjud",
+      "subtitle": "Noor Phonetic Quran ilovasi butun dunyo musulmonlariga xizmat qilish uchun 20 tilga tarjima qilingan."
+    },
+    "why": {
+      "title": "Nega Noor Phonetic Quran?",
+      "subtitle": "Ilovamizni noyob tanlov qiladigan sabablarni bilib oling",
+      "items": [
+        {
+          "icon": "fa-heart",
+          "stepLabel": "To'siq",
+          "title": "Hammaga Qulay",
+          "text": "Ko'p musulmonlar Qur'onni o'qishni xohlaydi, lekin arab tili ularga to'siq bo'ladi. Ilovamiz ushbu to'siqni yo'q qiladi."
+        },
+        {
+          "icon": "fa-graduation-cap",
+          "stepLabel": "Usul",
+          "title": "Qulay O'rganish",
+          "text": "Aniq va tushunarli fonetika har kimga o'z sur'atida, stress va xafagarchiliksiz o'rganish imkonini beradi."
+        },
+        {
+          "icon": "fa-check-circle",
+          "stepLabel": "Natija",
+          "title": "To'g'ri Talaffuz",
+          "text": "Aniq Tajweed qoidalari va sinxron audio yordamida siz haqiqiy tilovat sari ilgarilaysiz."
+        }
+      ]
+    },
+    "features": {
+      "title": "Asosiy Xususiyatlar",
+      "subtitle": "Nega Noor Phonetic Quran Qur'onni tilovat qilishni o'rganish uchun mukammal ilova ekanligini bilib oling",
+      "items": [
+        {
+          "icon": "fa-book",
+          "title": "Fonetik Transkripsiya",
+          "text": "Har bir oyat to'g'ri talaffuz uchun batafsil fonetik transkripsiya bilan birga keladi."
+        },
+        {
+          "icon": "fa-bookmark",
+          "title": "Tajweed Qoidalari",
+          "href": "/tajweed-coran",
+          "text": "Ranglar va izohlar tilovatingizni to'g'ri Tajweed qoidalariga muvofiq yo'naltiradi."
+        },
+        {
+          "icon": "fa-language",
+          "title": "Ko'p Tilli Tarjimalar",
+          "text": "Ilohiy xabarni yaxshiroq tushunish uchun fransuzcha va inglizcha tarjimalarga kirish."
+        },
+        {
+          "icon": "fa-headphones",
+          "title": "Sinxron Audio",
+          "href": "/audio-coran",
+          "text": "Har bir oyat to'g'ri talaffuzni eshitish uchun audio bilan birga keladi."
+        },
+        {
+          "icon": "fa-mobile-alt",
+          "title": "Qulay Interfeys",
+          "text": "Intuitiv navigatsiya va sozlamalaringizga moslashtirish."
+        },
+        {
+          "icon": "fa-graduation-cap",
+          "title": "Qulay O'rganish",
+          "text": "Boshlovchilar yoki tilovatini yaxshilamoqchi bo'lganlar uchun ideal."
+        },
+        {
+          "icon": "fa-calendar-check",
+          "title": "Qur'on Khatmasi",
+          "href": "/khatma-coran",
+          "text": "Qur'onni to'liq o'qishni (Khatma) kunlik maqsadlar, ketma-ket kunlar (streak) va oxirigacha ilg'or eslatmalar bilan rejalashtiring va kuzating."
+        },
+        {
+          "icon": "fa-calendar-day",
+          "title": "Kunlik O'qish Rejasi",
+          "text": "Har kuni o'qiladigan sahifalar sonini belgilang va shaxsiylashtirilgan ro'yxat bilan taraqqiyotingizni kuzating, Qur'onni muntazam o'qish odatini shakllantiring."
+        },
+        {
+          "icon": "fa-brain",
+          "title": "Qur'onni Yodlash (Hifz)",
+          "href": "/memorisation-coran",
+          "text": "Qur'onni oyat-boyat audio takrorlash, so'zma-so'z rejim, takrorlash viktorinalari, ballar, darajalar, nishonlar va kunlik topshiriqlar bilan yodlang, motivatsiyangizni saqlang."
+        },
+        {
+          "icon": "fa-microphone-alt",
+          "title": "Tilovat Tuzatish",
+          "href": "/correction-recitation-coran",
+          "text": "Tilovatingizni yozib oling va talaffuz hamda Tajweed'dagi to'g'riligingizni yaxshilash uchun shaxsiylashtirilgan tuzatish oling."
+        },
+        {
+          "icon": "fa-trophy",
+          "title": "Qur'on Viktorinasi",
+          "href": "/quiz-coran",
+          "text": "Turli qiyinlik darajalariga ega qiziqarli viktorina bilan Qur'on bilimingizni sinab ko'ring va o'ynab turib o'rganing."
+        },
+        {
+          "icon": "fa-mobile-screen-button",
+          "title": "Bosh Ekran Vidjeti",
+          "text": "Kunning oyatini to'g'ridan-to'g'ri telefoningiz bosh ekranida ko'rsating va o'qish odatingizni doim ko'z oldingizda saqlang."
+        }
+      ]
+    },
+    "videoDemo": {
+      "title": "Ilovani Amalda Ko'ring",
+      "subtitle": "Noor Phonetic Quran qanday ishlashini ko'rish uchun ushbu qisqa demoni tomosha qiling"
+    },
+    "screenshots": {
+      "title": "Skrinshotlar",
+      "subtitle": "Ilovani rasmlarda kashf eting",
+      "alts": [
+        "Noor Phonetic Quran - Qur'on suralari ro'yxati",
+        "Noor Phonetic Quran - Aniq fonetika bilan tilovat",
+        "Noor Phonetic Quran - Rangli Tajweed qoidalari",
+        "Noor Phonetic Quran - Matn bilan sinxron audio",
+        "Noor Phonetic Quran - Qur'onning fransuzcha tarjimasi",
+        "Noor Phonetic Quran - Qur'on o'rganish rejimi",
+        "Noor Phonetic Quran - Sura bo'yicha navigatsiya",
+        "Noor Phonetic Quran - Fonetik transkripsiyali oyatlar",
+        "Noor Phonetic Quran - Ilova sozlamalari",
+        "Noor Phonetic Quran - Qur'onni uzluksiz o'qish",
+        "Noor Phonetic Quran - Zamonaviy va intuitiv interfeys"
+      ]
+    },
+    "faq": {
+      "title": "Ko'p Beriladigan Savollar",
+      "subtitle": "Savollaringizga tezda javob toping",
+      "items": [
+        {
+          "question": "Ilova internetsiz ishlaydimi?",
+          "answer": "Ha, albatta! Ilova o'rnatilgandan so'ng barcha Qur'on suralari internetsiz ham mavjud bo'ladi. Istalgan joyda, internet aloqasisiz o'qishingiz va tilovat qilishingiz mumkin."
+        },
+        {
+          "question": "Qaysi fonetikadan foydalanasiz?",
+          "answer": "Biz hamma uchun o'qish oson bo'lgan oddiy va universal ingliz fonetikasidan foydalanamiz. Fransuzcha fonetika versiyasi ustida ish olib borilmoqda va tez orada mavjud bo'ladi."
+        },
+        {
+          "question": "Qur'on ilovada to'liqmi?",
+          "answer": "Ha! Ilova Muqaddas Qur'onning barcha 114 ta surasini boshidan oxirigacha to'liq fonetik transkripsiyasi bilan o'z ichiga oladi."
+        },
+        {
+          "question": "Audio barcha oyatlar uchun mavjudmi?",
+          "answer": "Ha, har bir oyat o'rganishni osonlashtirish va talaffuzingizni yaxshilash uchun aniq va sekin audio tilovat bilan birga keladi."
+        },
+        {
+          "question": "Ilova bepulmi?",
+          "answer": "Ha, Noor Phonetic Quran to'liq bepul. Maqsadimiz Qur'onni hech qanday moliyaviy to'siqsiz hammaga qulay qilishdir."
+        },
+        {
+          "question": "Khatma (Qur'onni to'liq o'qish) qanday ishlaydi?",
+          "answer": "Ilova sizga Qur'onni tugatish uchun kunlar sonini tanlab, Khatma rejalashtirish imkonini beradi. Kunlik taraqqiyotingizni, ketma-ket kunlaringizni (streak) kuzatib borasiz va o'qishingiz tugaguncha muntazam bo'lish uchun eslatmalar olasiz."
+        },
+        {
+          "question": "Ilova bilan Qur'onni (Hifz) yodlash mumkinmi?",
+          "answer": "Ha, ilova oyat-boyat audio takrorlash, so'zma-so'z rejim, takrorlash viktorinalari, ballar, darajalar, nishonlar va kunlik topshiriqlar bilan to'liq Yodlash rejimini taklif qiladi, bu Qur'onni samarali yodlashga yordam beradi."
+        },
+        {
+          "question": "Bir nechta qori mavjudmi?",
+          "answer": "Ha, siz bir nechta Qur'on qorisi orasidan tanlashingiz va internetsiz to'liq tinglash uchun audioni yuklab olishingiz mumkin."
+        },
+        {
+          "question": "Ilova tilovat tuzatishni taklif qiladimi?",
+          "answer": "Ha, siz tilovatingizni to'g'ridan-to'g'ri ilovada yozib olishingiz va talaffuzingiz hamda Tajweed qoidalariga rioya qilishingizni yaxshilash uchun shaxsiylashtirilgan tuzatish olishingiz mumkin."
+        },
+        {
+          "question": "Yangi funksiyalar bo'ladimi?",
+          "answer": "Ha, biz ilovani doimiy takomillashtirish ustida ishlaymiz. Bir nechta yangiliklar rejalashtirilgan: to'liq fransuzcha fonetika, kengaytirilgan rangli Tajweed rejimi, harf-baharf o'rganish rejimi va boshqa ko'p narsalar!"
+        }
+      ]
+    },
+    "testimonials": {
+      "title": "Foydalanuvchilarimiz nima deydi",
+      "subtitle": "O'sib borayotgan mamnun foydalanuvchilar jamoamizning fikrlarini bilib oling",
+      "prevLabel": "Oldingi sharh",
+      "nextLabel": "Keyingi sharh",
+      "viewAllLabel": "Barcha sharhlarni ko'rish",
+      "items": [
+        {
+          "initials": "SD",
+          "name": "Sidy DIOP",
+          "device": "2026-yil 16-iyul",
+          "text": "Qur'onni o'rganish uchun juda yaxshi ilova, talaffuz qila olmasangiz ham audioni tinglab, qayta-qayta takrorlash yetarli",
+          "rating": 5
+        },
+        {
+          "initials": "AB",
+          "name": "Amourlaye Beman",
+          "device": "2026-yil 25-mart",
+          "text": "Juda-juda yaxshi ilova. Alloh sizni bu ish uchun abadiy barakalasin va mazmunni boyitishga yanada ilhomlantirsin... hadislar tarjimasini fransuz tilida qo'shishni boshlasangiz bo'lardi. Rahmat 🙏🥰👍",
+          "rating": 5
+        },
+        {
+          "initials": "YT",
+          "name": "Yaou Tchari",
+          "device": "2026-yil 6-iyul",
+          "text": "Men uzoq vaqtdan beri qidirgan juda yaxshi ilova, o'qish oson va sizga qiyin bo'lgan xatolarni tuzatish oson.",
+          "rating": 5
+        },
+        {
+          "initials": "FA",
+          "name": "Fatima",
+          "device": "2026-yil 21-aprel",
+          "text": "Bu ilovani sovg'a sifatida topdim, chindan ham o'zgardim 😁, samimiy aytsam. Kichik bir muammom bo'ldi, u tez orada alhamdulillah hal bo'ldi. Haqiqatan ham o'rganish uchun qulay, ko'p odamlarga tavsiya qilaman. Alloh sizga mukofot bersin 🤲🏻🌹",
+          "rating": 5
+        },
+        {
+          "initials": "DH",
+          "name": "Djamila Hb",
+          "device": "2026-yil 30-iyul",
+          "text": "Qur'on tilovatini o'rganish uchun juda yaxshi, Alloh bizga oson qilsin",
+          "rating": 5
+        },
+        {
+          "initials": "NA",
+          "name": "Naoal",
+          "device": "2026-yil 12-may",
+          "text": "Arab yozuvini o'qiy olmaydiganlar uchun bu haqiqatan ham juda yaxshi, chunki Qur'onni o'rganmoqchi bo'lgan, lekin arabcha o'qiy olmaydigan odamlar ko'p. Rostdan ham o'rnatishga arziydigan ilova 👍",
+          "rating": 5
+        },
+        {
+          "initials": "ID",
+          "name": "Ibou Dieme",
+          "device": "2026-yil 8-yanvar",
+          "text": "Bu ilova shunchaki ajoyib, agar 100 yulduz varianti bo'lganida, albatta shuni bergan bo'lardim, lekin tuzatilishi kerak bo'lgan kichik muammo bor: internetsiz bo'lganda audiolarni yuklab olib bo'lmaydi, ishonchim komilki, internetsiz tinglash uchun yuklab olinadigan audio bo'lsa, ilova yanada yaxshiroq bo'lardi",
+          "rating": 5
+        },
+        {
+          "initials": "YC",
+          "name": "Youssouf Cherif",
+          "device": "2026-yil 26-yanvar",
+          "text": "Eng yaxshi ilova. Menga juda ko'p yordam beradi. Ushbu ilova tufayli men Muqaddas Qur'onni oson o'qiy olaman va bu menga yaxshi kayfiyat beradi ✨. Haqiqatan ham Alloh yaratuvchilarga yuzlab marta mukofot bersin. Bu ajoyib. Sizga qattiq tavsiya qilaman. Ilovada aniq va tuzilgan reja bilan Muqaddas Qur'onni oson o'rganishga imkon beruvchi juda ko'p funksiyalar bor.",
+          "rating": 5
+        },
+        {
+          "initials": "FF",
+          "name": "Faiza Faiza",
+          "device": "2024-yil 6-noyabr",
+          "text": "Yaxshi ilova, lekin muammo shundaki, u har ikki daqiqada to'xtab qoladi. Men uni o'chirib, qayta o'rnatdim, lekin muammo davom etmoqda. Aynan men izlagan narsa edi. Barak Allohu fikkunna",
+          "rating": 5
+        },
+        {
+          "initials": "LS",
+          "name": "Louis Sawadogo",
+          "device": "2025-yil 27-mart",
+          "text": "Bu juda yaxshi ilova, lekin yuklab olgandan keyin internetsiz o'qiy olmayapman. Siz internetsiz deb aytgan edingiz, ammo ma'lumotlarga kirish uchun internet kerakligini payqadim. Buni qayta ko'rib chiqishingiz kerak. Rahmat.",
+          "rating": 5
+        },
+        {
+          "initials": "YJ",
+          "name": "Yassin Jaounni",
+          "device": "2025-yil 23-noyabr",
+          "text": "Bu ilova ajoyib, chunki avvaliga men uni faqat suralarni o'rganish uchun o'rnatgandim, chunki arabcha o'qiy olmayman, lekin barcha funksiyalarni ko'rganimda hayratda qoldim, eng yoqtirgani islom haqida millionlar yutish mumkin bo'lgan qism, arab tilini o'rganish, dualarni o'rganish mumkin, hatto siz bilan birga Qur'on o'qiydigan qorilar ham bor, talaffuzingiz uchun, ular Qur'onni oson o'rganish uchun texnikalar ham beradi, bu ajoyib narsa, tavsiya qilaman",
+          "rating": 5
+        },
+        {
+          "initials": "JB",
+          "name": "Jeff Bezos Mayele",
+          "device": "2026-yil 30-may",
+          "text": "Ajoyib va yaxshi ilova. Arab tilini bilmaydigan bizlarga suralarni o'qish va tushunishga yordam beradi",
+          "rating": 5
+        },
+        {
+          "initials": "AB",
+          "name": "Abdoulaye Bah",
+          "device": "2025-yil 5-mart",
+          "text": "Qur'onni yolg'iz o'rganmoqchi yoki o'qimoqchi bo'lganlar uchun juda yaxshi ilova! Alloh sizga yaxshilik bilan mukofot bersin va bizga Muqaddas Qur'onni o'rganish hamda yodlashni oson qilsin!",
+          "rating": 5
+        },
+        {
+          "initials": "DD",
+          "name": "dohona daouda coulibaly",
+          "device": "2025-yil 2-mart",
+          "text": "Sahifalarning ko'rsatilishi juda-juda sekin. Aks holda ilovani yaxshi ko'raman. Lekin ko'rsatish juda ko'p vaqt oladi. Bu muammoni hal qilish uchun takliflaringiz bormi?",
+          "rating": 5
+        },
+        {
+          "initials": "YC",
+          "name": "yvan Cedric",
+          "device": "2025-yil 4-mart",
+          "text": "Jazak Allohu feekum. Arab tilida so'zlashmaydiganlar uchun o'rganishda juda yaxshi ilova. Faqat yangilanishdan keyin ilova endi internetsiz o'qishga ruxsat bermayapti.",
+          "rating": 5
+        },
+        {
+          "initials": "HN",
+          "name": "Horizons New",
+          "device": "2025-yil 23-avgust",
+          "text": "Assalomu alaykum, bu ilovadan to'liq mamnunman, faqat kirish qismi 5 yulduzga loyiq 🌟 sahifalarni yuklashda biroz yaxshilanish talab qilinadi va kutish vaqtini kamaytirish uchun alohida FR versiyasi yaratish yaxshiroq bo'lardi, tungi versiya kechqurun o'qish uchun ajoyib bo'lardi, mehnatingiz uchun rahmat, Alloh sizga mukofot bersin",
+          "rating": 5
+        },
+        {
+          "initials": "DB",
+          "name": "dorra bn",
+          "device": "2025-yil 7-oktabr",
+          "text": "Foydali va yaxshi o'ylangan ilova! Translitteratsiya tufayli qisqa vaqt ichida Qur'on o'qishimni yaxshilay oldim. Alloh dasturchilarga mukofot bersin",
+          "rating": 5
+        },
+        {
+          "initials": "SM",
+          "name": "Sara ma langue",
+          "device": "2025-yil 5-may",
+          "text": "Turli tillarda o'qimoqchi, o'rganmoqchi va tushunmoqchi bo'lgan har kimga tavsiya qilishdan to'xtamayman. Masha'Alloh, yaxshi bajarilgan ish. Bu men uzoq vaqt izlagan narsa. Alloh subhanahu va ta'olo sizni barakasin.",
+          "rating": 5
+        },
+        {
+          "initials": "AA",
+          "name": "Adoum Ali Bezei",
+          "device": "2026-yil 20-may",
+          "text": "Eng yaxshi fonetik Qur'on, cheksiz rahmat, juda minnatdorman",
+          "rating": 5
+        },
+        {
+          "initials": "BK",
+          "name": "Bakary Konaté",
+          "device": "2025-yil 19-mart",
+          "text": "Ilovani chindan ham yoqtirdim, lekin imomlarni ham qo'shsangiz yaxshi bo'lardi, shunda biz o'zimiz o'rganmoqchi bo'lgan imomni tanlagan bo'lardik, yoqtirmagan narsam - oyat-boyat o'qiladi, sura to'xtovsiz o'qilsa yaxshiroq bo'lardi",
+          "rating": 5
+        },
+        {
+          "initials": "YB",
+          "name": "Yosra Bahri",
+          "device": "2025-yil 5-oktabr",
+          "text": "Ajoyib ilova! Juda foydali, ishlatish oson va yaxshi o'ylangan. Qattiq tavsiya qilaman! 👏 Bu ajoyib ish uchun dasturchiga tabriklar, shunday davom eting, siz ajoyib ish qilyapsiz! 💪",
+          "rating": 5
+        },
+        {
+          "initials": "FO",
+          "name": "fatima ourja",
+          "device": "2025-yil 25-aprel",
+          "text": "Ajoyib ilova, aynan izlagan narsam edi, Alloh Taolo sizga eng go'zal mukofotni bersin. Bu haqiqatan ham munosib to'lovga loyiq ilova.",
+          "rating": 5
+        },
+        {
+          "initials": "ND",
+          "name": "Nicolas DA COSTA CAMPOS CERCA",
+          "device": "2025-yil 20-aprel",
+          "text": "Boshlovchilar uchun ham, mukammallashtirmoqchi bo'lganlar uchun ham juda oson bo'lgan tajvid o'rganish uchun ilovani tavsiya qilaman, foydalanish juda sodda",
+          "rating": 5
+        },
+        {
+          "initials": "SR",
+          "name": "Sadrissi Regbayou",
+          "device": "2025-yil 11-mart",
+          "text": "Yaxshi. Lekin biz turgan oxirgi sahifani yo'qotamiz. Bundan tashqari internetsiz o'qishga ruxsat bermaydi. Bir sahifada arab tilidagi sura va fransuzcha tarjima bo'lsa, yanada qiziqarli bo'lardi.",
+          "rating": 5
+        },
+        {
+          "initials": "OA",
+          "name": "Oussama AZIZI",
+          "device": "2025-yil 12-oktabr",
+          "text": "Aniq fonetika, sifatli audio va rangli tajvid qoidalari bilan ajoyib ilova. Qur'onni o'rganishni osonlashtirish uchun juda yaxshi vosita.",
+          "rating": 5
+        },
+        {
+          "initials": "BH",
+          "name": "Bahri Hamza",
+          "device": "2025-yil 27-sentabr",
+          "text": "Assalomu alaykum, ajoyib ilova 🌟 ishlatish oson va o'qish hamda o'rganish uchun juda foydali. Alloh dasturchilarga mukofot bersin ❤️🤲",
+          "rating": 5
+        },
+        {
+          "initials": "HR",
+          "name": "Houssem RAISSI",
+          "device": "2024-yil 2-oktabr",
+          "text": "U intuitiv va yoqimli interfeysga ega bo'lib, o'qish va navigatsiyani osonlashtiradi. Suralarga tezkor kirish uchun ideal.",
+          "rating": 5
+        },
+        {
+          "initials": "GB",
+          "name": "Gora Bar",
+          "device": "2025-yil 10-oktabr",
+          "text": "Juda yaxshi ilova. Foydalanish juda oddiy va reklamalarsiz. Ajoyib!",
+          "rating": 5
+        },
+        {
+          "initials": "SK",
+          "name": "Sekou Kante",
+          "device": "2025-yil 21-mart",
+          "text": "Bu men izlagan ilova, lekin internetsiz ishlamaydi, internetsiz variantini yuklab oldim, lekin baribir ishlamayapti, iltimos tuzating, men uchun Qur'onni o'qish imkonini beruvchi narsa - bu fonetika",
+          "rating": 5
+        },
+        {
+          "initials": "YF",
+          "name": "youssoupha FALL",
+          "device": "2025-yil 11-aprel",
+          "text": "Alloh sizga bu ilovadagi har bir bosishdan keyin hasanot tog'lari bilan mukofot bersin. Siz arab maktabini tugatmagan barcha musulmonlarga qilgan yaxshiligingizni hech qachon tasavvur qila olmaysiz. Onam uchun ham yuklab oldim, Alloh sizni mo'l-ko'l barakalasin. Katta rahmat ❤️",
+          "rating": 5
+        },
+        {
+          "initials": "TT",
+          "name": "toure traore aboubakar sidik",
+          "device": "2024-yil 29-noyabr",
+          "text": "3 yulduz beraman, chunki ilova suralarni internetsiz o'qish uchun saqlamaydi. Aks holda o'qish oson",
+          "rating": 5
+        },
+        {
+          "initials": "MG",
+          "name": "Mory Gbane",
+          "device": "2025-yil 29-iyun",
+          "text": "Yaxshi ilova, lekin matnlarni bir marta va butunlay yuklab bo'lmaydi, doim qayta yuklash kerak. Bu biroz qiyin",
+          "rating": 5
+        },
+        {
+          "initials": "FS",
+          "name": "Fatima Si Ahmed",
+          "device": "2025-yil 23-iyul",
+          "text": "Qur'onni fonetikada qayerda bo'lsangiz ham o'qish juda oson, chunki internet kerak emas, ayniqsa hech kimni bezovta qilmoqchi bo'lmaganingizda, telefoningiz yetarli, na sham, na yorug'lik kerak 😇🥰",
+          "rating": 5
+        },
+        {
+          "initials": "MF",
+          "name": "Mohamed Faye",
+          "device": "2025-yil 5-mart",
+          "text": "Sizga 5 yulduz beraman 🌟, chunki siz eng yaxshisiz, qilgan ishingiz ajoyib, chindan ham yaxshi ko'raman 😭❤️❤️❤️ Rahmon Alloh sizni asrasin. Lekin audio rejimi faqat bir oyat uchun emas, butun sura uchun bo'lishini xohlagan bo'lardim, oldindan rahmat",
+          "rating": 5
+        },
+        {
+          "initials": "MG",
+          "name": "Mohamed gaissir Bah",
+          "device": "2026-yil 4-mart",
+          "text": "Assalomu alaykum, ajoyib ilova, men allaqachon fonetikada bir nechta kitob o'qiganman, lekin bu ilova hozircha eng yaxshisi ekanini tan olaman, men deyarli fonetika bo'yicha mutaxassisman va Alloh sizga yuzlab marta mukofot bersin, chindan ham zavqlanmoqdaman 😇😇😇",
+          "rating": 5
+        },
+        {
+          "initials": "YK",
+          "name": "Yao Kouamé Enock",
+          "device": "2025-yil 13-dekabr",
+          "text": "Bu arab harflarini o'qiy olmaydigan bizlar uchun juda yaxshi ilova. Aynan izlagan narsam. Dasturchilarga katta rahmat. Xayrli kun, Alloh bizni to'g'ri yo'lga boshlasin.🤲📿",
+          "rating": 5
+        },
+        {
+          "initials": "FA",
+          "name": "Fatima",
+          "device": "2026-yil 2-yanvar",
+          "text": "Ilova umuman yaxshi, lekin har safar har bir suraning oxiri yo'q, shuning uchun tanlagan suramizni o'qiy yoki o'rgana olmaymiz, bu juda achinarli",
+          "rating": 5
+        },
+        {
+          "initials": "MS",
+          "name": "Macolt Scot",
+          "device": "2025-yil 17-mart",
+          "text": "Alhamdulillah, Qur'onni fonetikada yaxshi o'qiy olyapman, lekin yuklab olish tugallanmagan va bir nechta sahifalar yetishmayapti",
+          "rating": 5
+        },
+        {
+          "initials": "EH",
+          "name": "El Hadj Diallo",
+          "device": "2025-yil 1-aprel",
+          "text": "Juda yaxshi, aniq va yaxshi ishlab chiqilgan ilova, fonetika Qur'on oyatlari bilan bir xil talaffuzni aks ettiradi, Ummat uchun bu yaxshi ishni qilgan jamoaga tabriklar, barakallahu feek",
+          "rating": 5
+        },
+        {
+          "initials": "AM",
+          "name": "Abdelmadjid Mahamat",
+          "device": "2025-yil 25-aprel",
+          "text": "Masha'Alloh! Haqiqatan ham qiynalmasdan o'rganish va o'qishni xohlaganlar uchun eng yaxshi ilova.",
+          "rating": 5
+        },
+        {
+          "initials": "OS",
+          "name": "Ousmasim's Simen",
+          "device": "2026-yil 22-iyul",
+          "text": "Ajoyib va menga juda katta yordam beradi",
+          "rating": 5
+        },
+        {
+          "initials": "NS",
+          "name": "Nour Soum",
+          "device": "2025-yil 17-oktabr",
+          "text": "Juda qiziqarli, yagona muammo har safar internetga ulanish kerakligi. Internetsiz versiyasini ham sinab ko'ring",
+          "rating": 5
+        },
+        {
+          "initials": "CB",
+          "name": "chiraz bahri",
+          "device": "2025-yil 19-oktabr",
+          "text": "Juda chiroyli, sodda va to'liq ilova. Qur'onni hamma joyda o'qish va tinglash uchun mukammal. بارك الله فيكم",
+          "rating": 5
+        },
+        {
+          "initials": "AA",
+          "name": "aicha Arouna",
+          "device": "2026-yil 29-iyul",
+          "text": "Juda yaxshi ilova, ushbu ilovani tavsiya qilaman",
+          "rating": 5
+        },
+        {
+          "initials": "SZ",
+          "name": "Sadjid Zamoum",
+          "device": "2026-yil 2-avgust",
+          "text": "Ishonib bo'lmaydigan darajada yaxshi, aytadigan gap yo'q",
+          "rating": 5
+        },
+        {
+          "initials": "AD",
+          "name": "Almassane Diallo",
+          "device": "2026-yil 13-iyul",
+          "text": "Jamoaga katta rahmat, bu ilova va siz tufayli ko'p narsa o'rgandim, Alloh sizga mukofot bersin",
+          "rating": 5
+        },
+        {
+          "initials": "HA",
+          "name": "Hadj",
+          "device": "2025-yil 5-noyabr",
+          "text": "Aniq va reklamasiz ilova. Agar suralar uchun tafsir qo'shsangiz, ilova to'liq bo'ladi.",
+          "rating": 5
+        },
+        {
+          "initials": "YM",
+          "name": "Yacouba M'piè Samaké",
+          "device": "2025-yil 16-may",
+          "text": "Arab tilini umuman bilmasdan suralarni o'rganish imkonini beruvchi juda yaxshi ilova",
+          "rating": 5
+        },
+        {
+          "initials": "SM",
+          "name": "Saïdou Mohamed Bah",
+          "device": "2025-yil 24-avgust",
+          "text": "Chindan ham Alloh sizga jannatul Firdavsdan mukofot bersin, bu eng yaxshi ilova, Alloh ilovani yaxshilashda sizga yordam bersin va bu siz uchun sadaqai jariya bo'lsin.",
+          "rating": 5
+        },
+        {
+          "initials": "TD",
+          "name": "Touwinde Doulkom",
+          "device": "2025-yil 24-may",
+          "text": "Masha'Alloh, Muqaddas Qur'onni o'qishni o'rganish imkonini beruvchi sodda va oson ilova. Yaratuvchilarga rahmat, Alloh sizga mukofot bersin 🙏",
+          "rating": 5
+        },
+        {
+          "initials": "BD",
+          "name": "Bassirou Diarra",
+          "device": "2026-yil 5-aprel",
+          "text": "Chindan ham amaliy. Alloh islomni barakasin",
+          "rating": 5
+        },
+        {
+          "initials": "GK",
+          "name": "gloire Kyato",
+          "device": "2026-yil 10-aprel",
+          "text": "Bu ilova muhim. 5 yulduz qo'yaman.",
+          "rating": 5
+        },
+        {
+          "initials": "OO",
+          "name": "Olivier Olivier",
+          "device": "2025-yil 16-aprel",
+          "text": "Chindan ham eng yaxshisi, hatto frankofonlar uchun ham Qur'onni yodlashda katta foyda beradi",
+          "rating": 5
+        },
+        {
+          "initials": "DD",
+          "name": "Dian Diallo",
+          "device": "2026-yil 9-iyun",
+          "text": "Katta rahmat........ ajoyib ilova",
+          "rating": 5
+        },
+        {
+          "initials": "MM",
+          "name": "Mallam Mohamed AYOUBA",
+          "device": "2025-yil 10-sentabr",
+          "text": "Ha, yaxshi tuzilgan va Qur'onni o'qishni o'rganish juda oson.... Katta rahmat",
+          "rating": 5
+        },
+        {
+          "initials": "FB",
+          "name": "Fatoumata Barry",
+          "device": "2026-yil 7-mart",
+          "text": "Qur'onni o'rganish uchun ajoyib va oson, yagona kamchilik - juda ko'p yangilanish",
+          "rating": 5
+        },
+        {
+          "initials": "SK",
+          "name": "Soumaila Kaboré",
+          "device": "2025-yil 29-noyabr",
+          "text": "Juda yaxshi, ko'rinadi va arab jumlalarini to'g'ri talaffuz qilishga yordam beradi",
+          "rating": 5
+        },
+        {
+          "initials": "OA",
+          "name": "Ouattara Almamy",
+          "device": "2025-yil 1-aprel",
+          "text": "Juda aniq, juda tushunarli, juda ma'lumot beruvchi, Alloh bizga to'g'ri tushunchani bersin 🙏",
+          "rating": 5
+        },
+        {
+          "initials": "AN",
+          "name": "Aude Name",
+          "device": "2025-yil 7-iyun",
+          "text": "Juda izchil, Qur'onni o'rganish uchun yaxshi. Alloh ilova yaratuvchisini barakasin",
+          "rating": 5
+        },
+        {
+          "initials": "MJ",
+          "name": "maxero junior",
+          "device": "2025-yil 13-mart",
+          "text": "Ajoyib, ishlatish oson va reklamasiz",
+          "rating": 5
+        },
+        {
+          "initials": "FT",
+          "name": "Fatoumata Traoré",
+          "device": "2025-yil 18-may",
+          "text": "Alloh sizga yaxshi bajargan ishingiz uchun mukofot bersin, chindan ham yaxshi ilova, ekran aylanishini va sajda belgilarini ham qo'shishingizni istardim, rahmat",
+          "rating": 5
+        },
+        {
+          "initials": "AC",
+          "name": "Assia Chamoyan",
+          "device": "2025-yil 28-sentabr",
+          "text": "Juda foydali, amaliy va chindan ham intuitiv. Juda chiroyli interfeys, ajoyib sifat, Alloh loyihalaringizni osonlashtirsin va sizga katta mukofot bersin",
+          "rating": 5
+        },
+        {
+          "initials": "KE",
+          "name": "Keita",
+          "device": "2025-yil 23-may",
+          "text": "Vau, suralarni fonetik o'qish uchun ajoyib ilova. Ushbu ilovani chindan ham yaxshi ko'raman.",
+          "rating": 5
+        },
+        {
+          "initials": "IH",
+          "name": "Ibrahim Hamadou",
+          "device": "2026-yil 9-mart",
+          "text": "Iltimos, ilovani tuzating, bu ilova chindan ham kerak, o'qishni yaxshi davom ettirayotgan edim, lekin ilovada muammo yuz berdi",
+          "rating": 5
+        },
+        {
+          "initials": "AS",
+          "name": "Adamou Seyni Sonia",
+          "device": "2025-yil 14-mart",
+          "text": "Assalomu alaykum, bilmadim nega Kahf surasiga o'tganimda Abasa surasiga chiqib qoladi, muammo qayerdan kelayotganini tushunmayapman va bu men juma kunlari sunnaga muvofiq o'qishni yaxshi ko'radigan sura... aks holda bu muammodan tashqari ilovada muammo yo'q, masha'Alloh",
+          "rating": 5
+        },
+        {
+          "initials": "MD",
+          "name": "Mame diarra Ba",
+          "device": "2025-yil 14-fevral",
+          "text": "Qur'onni o'rganish uchun juda samarali va juda oson",
+          "rating": 5
+        },
+        {
+          "initials": "SS",
+          "name": "SOUMAILA SAMASSI",
+          "device": "2024-yil 29-dekabr",
+          "text": "Masha'Alloh 💕 ajoyib ilova va bu men izlagan narsa. Ilova eng yaxshisi. Barakallohu feekum va Alloh bizni doim to'g'ri yo'lga boshlasin. Omin",
+          "rating": 5
+        },
+        {
+          "initials": "AB",
+          "name": "Ali Baba Traoré",
+          "device": "2025-yil 1-avgust",
+          "text": "Alhamdulillah, bu yuklab olish va ulashish uchun yaxshi ilova. Alloh sizga bu dunyoda va oxiratda yaxshi mukofot bersin. Omin!",
+          "rating": 5
+        },
+        {
+          "initials": "MB",
+          "name": "Mohamed Baddo",
+          "device": "2026-yil 5-yanvar",
+          "text": "Juda sodda, samarali va juda-juda yoqimli",
+          "rating": 5
+        },
+        {
+          "initials": "AB",
+          "name": "Anthony Barraut",
+          "device": "2025-yil 5-oktabr",
+          "text": "AJOYIB ilova, ilova yaratuvchisi ajoyib mehribonlikka ega, ilovani hech ikkilanmasdan darhol tavsiya qilaman 🌟🌟🌟🌟🌟🥳👌",
+          "rating": 5
+        },
+        {
+          "initials": "PM",
+          "name": "Parfait Mayela may",
+          "device": "2025-yil 27-mart",
+          "text": "Nega internet kerak??? Lekin bu ilova tez o'rganish imkonini beradi 🤲🤲🤲🥰",
+          "rating": 5
+        },
+        {
+          "initials": "MD",
+          "name": "Moustapha DRORI",
+          "device": "2026-yil 7-fevral",
+          "text": "Yaxshiroq o'rganish uchun juda yaxshi ilova",
+          "rating": 5
+        },
+        {
+          "initials": "AB",
+          "name": "Adamma Bae",
+          "device": "2025-yil 11-yanvar",
+          "text": "O'rganishni osonlashtirganingiz uchun katta rahmat",
+          "rating": 5
+        },
+        {
+          "initials": "MZ",
+          "name": "Malika Zaki",
+          "device": "2026-yil 7-aprel",
+          "text": "Bu hayotimda ko'rgan eng yaxshi Qur'on ilovasi",
+          "rating": 5
+        },
+        {
+          "initials": "NC",
+          "name": "N'famoussa Camara",
+          "device": "2025-yil 8-mart",
+          "text": "Bu ilova men uchun va islomni bilmoqchi hamda amal qilmoqchi bo'lgan barcha musulmonlar uchun chindan ham qiziqarli.",
+          "rating": 5
+        },
+        {
+          "initials": "MB",
+          "name": "Mariam Bah",
+          "device": "2025-yil 21-oktabr",
+          "text": "Talaffuz uchun juda samarali",
+          "rating": 5
+        },
+        {
+          "initials": "NM",
+          "name": "Nouraya Mohamed",
+          "device": "2026-yil 5-aprel",
+          "text": "Katta rahmat, bu menga chindan ham yordam beryapti... Masha'Alloh",
+          "rating": 5
+        },
+        {
+          "initials": "SD",
+          "name": "Sofiane D",
+          "device": "2025-yil 10-oktabr",
+          "text": "Faqat achinarlisi, suralarni to'g'ridan-to'g'ri tanlab bo'lmaydi, sirg'anish kerak",
+          "rating": 5
+        },
+        {
+          "initials": "MD",
+          "name": "Mouhamed Diagne",
+          "device": "2025-yil 24-iyul",
+          "text": "Juda-juda yaxshi ilova, tez va yaxshi o'rganamiz",
+          "rating": 5
+        },
+        {
+          "initials": "BB",
+          "name": "Babouba Bibouba",
+          "device": "2025-yil 1-aprel",
+          "text": "Juda yaxshi, lekin iltimos shrift o'lchamini o'zgartirish variantini kiriting",
+          "rating": 5
+        },
+        {
+          "initials": "CC",
+          "name": "Coumba Camara",
+          "device": "2025-yil 26-iyul",
+          "text": "Bu men yillar davomida izlagan narsa, Alloh sizga buni ko'rganimda hosil bo'lgan katta quvonch uchun mukofot bersin 💖, bu juda yaxshi ilova 👍 rahmat",
+          "rating": 5
+        },
+        {
+          "initials": "LS",
+          "name": "Lassane Sawadogo",
+          "device": "2025-yil 3-avgust",
+          "text": "Men bu fonetikani uzoq vaqtdan beri izlardim va alhamdulillah topdim. Rahmat",
+          "rating": 5
+        },
+        {
+          "initials": "MA",
+          "name": "mam",
+          "device": "2026-yil 14-mart",
+          "text": "Juda yaxshi ilova, faqat hadislar fransuz tilida bo'lishini xohlagan bo'lardim",
+          "rating": 5
+        },
+        {
+          "initials": "MB",
+          "name": "Mohamadou Babanguida",
+          "device": "2026-yil 9-aprel",
+          "text": "Cheksiz rahmat, Alloh sizga mukofot bersin",
+          "rating": 5
+        },
+        {
+          "initials": "TA",
+          "name": "Thierno amidou Diallo",
+          "device": "2026-yil 8-aprel",
+          "text": "Bu ilovani yaxshi ko'raman",
+          "rating": 5
+        },
+        {
+          "initials": "SA",
+          "name": "shahid ATOUKOU",
+          "device": "2024-yil 9-dekabr",
+          "text": "Juda ajoyib, bu ilovani juda qadrlayman, ilova yaratuvchisiga rahmat",
+          "rating": 5
+        },
+        {
+          "initials": "MS",
+          "name": "Mamadi Savadogo",
+          "device": "2026-yil 9-mart",
+          "text": "Aytadigan boshqa gap yo'q, faqat Alloh sizga mukofot bersin. Bu bugungi kungacha bilgan eng yaxshi ilova.",
+          "rating": 5
+        },
+        {
+          "initials": "AC",
+          "name": "Alassane Camara",
+          "device": "2025-yil 26-dekabr",
+          "text": "Assalomu alaykum, rahmat aytaman, bu ilova musulmonlar uchun yaxshi",
+          "rating": 5
+        },
+        {
+          "initials": "FL",
+          "name": "Frédéric Lankoandé",
+          "device": "2025-yil 1-avgust",
+          "text": "Muqaddas Qur'onni fonetikada o'rganish uchun juda yaxshi ilova 👍",
+          "rating": 5
+        },
+        {
+          "initials": "LZ",
+          "name": "Loukmane Zongo",
+          "device": "2025-yil 26-iyun",
+          "text": "Masha'Alloh! Bu men o'rganish uchun izlagan Qur'on! Internetsiz o'qish imkonini yarata olasizmi?",
+          "rating": 5
+        },
+        {
+          "initials": "IB",
+          "name": "Ibrahima Bâ",
+          "device": "2025-yil 2-sentabr",
+          "text": "Bu yaxshi ilova, rahmat aytaman, Alloh bizni to'g'ri yo'lga boshlasin 🤲🤲👆",
+          "rating": 5
+        },
+        {
+          "initials": "FA",
+          "name": "Fouzi Abdellatif",
+          "device": "2026-yil 5-mart",
+          "text": "Bu fonetikadagi eng yaxshi ilova",
+          "rating": 5
+        },
+        {
+          "initials": "AS",
+          "name": "Aboubacar Sylla",
+          "device": "2025-yil 7-noyabr",
+          "text": "To'liq (butun) qism ko'rsatilmayapti",
+          "rating": 5
+        },
+        {
+          "initials": "KM",
+          "name": "KACHALLA MEMBA",
+          "device": "2025-yil 20-mart",
+          "text": "Qur'onni o'qishni bunday osonlashtirganingiz uchun katta rahmat. Alloh sizga bu dunyoda ham, oxiratda ham mukofot bersin",
+          "rating": 5
+        },
+        {
+          "initials": "BD",
+          "name": "Billal DABIDA",
+          "device": "2025-yil 2-aprel",
+          "text": "Juda-juda yaxshi ilova, Rahmon va Rahim Alloh sizga ko'proq hikmat bersin.",
+          "rating": 5
+        },
+        {
+          "initials": "NN",
+          "name": "Nadjma Nkulu",
+          "device": "2025-yil 24-noyabr",
+          "text": "La ilaha illalloh, bu arab tilini hali yaxshi bilmaydigan odamlarga juda mos.",
+          "rating": 5
+        },
+        {
+          "initials": "TA",
+          "name": "thaibu Amici-langi",
+          "device": "2025-yil 7-avgust",
+          "text": "Qo'l ostida bo'lgan juda go'zal asar.",
+          "rating": 5
+        },
+        {
+          "initials": "HH",
+          "name": "hamza Hamza",
+          "device": "2025-yil 19-oktabr",
+          "text": "Bu juda foydali va juda amaliy ilova",
+          "rating": 5
+        },
+        {
+          "initials": "OA",
+          "name": "Oumarou Amadou",
+          "device": "2025-yil 7-noyabr",
+          "text": "Internetsiz o'qish imkonini yaxshilash kerak",
+          "rating": 5
+        },
+        {
+          "initials": "AA",
+          "name": "Aboubakar Adamou",
+          "device": "2025-yil 18-avgust",
+          "text": "Juda yaxshi ilova, Alloh yaratuvchilarga mukofot bersin",
+          "rating": 5
+        },
+        {
+          "initials": "SK",
+          "name": "Soiba Koné",
+          "device": "2026-yil 19-yanvar",
+          "text": "Musulmon birodarlarga tavsiya qilaman, bu menga tajvidda ham juda yordam beradi",
+          "rating": 5
+        },
+        {
+          "initials": "SN",
+          "name": "Sipas NIAKATE",
+          "device": "2025-yil 21-sentabr",
+          "text": "Ajoyib ilova, chindan ham arab tiliga yaqin",
+          "rating": 5
+        },
+        {
+          "initials": "HT",
+          "name": "Hamissou TCHAGBELE",
+          "device": "2024-yil 28-sentabr",
+          "text": "Bu ilovani yaxshi ko'raman, Alloh inoyati bilan Qur'onning oxirigacha qo'shishingizni istayman",
+          "rating": 5
+        },
+        {
+          "initials": "AA",
+          "name": "Abdul Abdullah",
+          "device": "2025-yil 21-noyabr",
+          "text": "Bu juda-juda ajoyib, buni yaxshi ko'raman, Alloh sizga mukofot bersin.",
+          "rating": 5
+        },
+        {
+          "initials": "SA",
+          "name": "sawadogoalassane",
+          "device": "2025-yil 25-iyun",
+          "text": "Ajoyib, bu men xohlagan hamma narsa. Rahmat",
+          "rating": 5
+        },
+        {
+          "initials": "BT",
+          "name": "Bocar Thiam",
+          "device": "2025-yil 19-oktabr",
+          "text": "Bu reklamasiz juda yaxshi ilova, Masha'Alloh",
+          "rating": 5
+        },
+        {
+          "initials": "HN",
+          "name": "Harounahafiz Nonkane",
+          "device": "2025-yil 11-mart",
+          "text": "Din birodar va singillar, buni sizga qattiq tavsiya qilaman, bu ajoyib ilova. Alloh bizga to'g'ri tushunchani bersin.",
+          "rating": 5
+        },
+        {
+          "initials": "NT",
+          "name": "Nana Tanou",
+          "device": "2025-yil 1-aprel",
+          "text": "Juda yaxshi ilova, menga juda yordam beradi 🥰",
+          "rating": 5
+        },
+        {
+          "initials": "IS",
+          "name": "Idrissa Samake",
+          "device": "2025-yil 5-avgust",
+          "text": "Ajoyib ish! Rahmat",
+          "rating": 5
+        },
+        {
+          "initials": "SB",
+          "name": "Sarra Bahri (\"Anous Azouz Aychouha\")",
+          "device": "2024-yil 29-sentabr",
+          "text": "Yaxshi ilova, omad va davom eting 👏👏👏🌹🌹🌹🌹",
+          "rating": 5
+        },
+        {
+          "initials": "OA",
+          "name": "Omokayode Akanny",
+          "device": "2025-yil 29-may",
+          "text": "Juda yaxshi va foydali ilova",
+          "rating": 5
+        },
+        {
+          "initials": "AG",
+          "name": "Abdoulaye Gningue",
+          "device": "2025-yil 16-yanvar",
+          "text": "Masha'Alloh, Alloh sizni tinchlik va to'g'rilikda boshlasin, bu yaxshi kitob.",
+          "rating": 5
+        },
+        {
+          "initials": "SS",
+          "name": "Seynabou Senghor",
+          "device": "2025-yil 29-aprel",
+          "text": "Rahmat so'zi sizga minnatdorchilik bildirish uchun yetarli emas, Alloh sizga ajoyib ishingiz uchun mukofot bersin ❤️🌹",
+          "rating": 5
+        },
+        {
+          "initials": "FS",
+          "name": "Fanta Souare",
+          "device": "2025-yil 2-iyun",
+          "text": "Bu ilova shunchaki ajoyib, Alloh sizga barakasini bersin va jannatda mukofot bersin, omin ya rab 🙏",
+          "rating": 5
+        },
+        {
+          "initials": "AD",
+          "name": "Abdoul djabar Danyoko",
+          "device": "2025-yil 26-iyul",
+          "text": "Bu juda chiroyli ilova. Masha'Alloh!",
+          "rating": 5
+        },
+        {
+          "initials": "IC",
+          "name": "Idrissa Camara",
+          "device": "2025-yil 6-avgust",
+          "text": "Bu hujjatdan chindan ham xursandman. Siz millionlab arab bo'lmaganlarga Allohni bilish imkonini berdingiz. Buning uchun faqat Alloh sizga mukofot bera oladi. Alloh sizga va oilangizga oson hayot va bizga jannat berishini so'rayman. Omin!",
+          "rating": 5
+        },
+        {
+          "initials": "SK",
+          "name": "Souleymane Keïta",
+          "device": "2025-yil 1-oktabr",
+          "text": "Chindan ham bu ilovani juda yaxshi ko'raman, Alloh bu ilova muallifini mukofotlasin va barakasin, bizning ongli va ongsiz gunohlarimizni kechirsin, bizning va oilalarimizning barcha ibodatlarini qabul qilsin, oxirgi nafasimizgacha bizni to'g'ri yo'lda saqlasin va eng muhimi, bizga o'z rahmatini va abadiy jannatini bersin. Omin 🙏🙏🙏",
+          "rating": 5
+        },
+        {
+          "initials": "EM",
+          "name": "El Mn",
+          "device": "2026-yil 1-avgust",
+          "text": "Nima deyishni bilmayman 🫰🤌. Bu ajoyib",
+          "rating": 5
+        },
+        {
+          "initials": "SS",
+          "name": "Setoute samate",
+          "device": "2025-yil 11-avgust",
+          "text": "Masha'Alloh, Alloh sizni asrasin, juda yaxshi ilova, rahmat 🤲🤲🤲",
+          "rating": 5
+        },
+        {
+          "initials": "CD",
+          "name": "Cheick Diabate",
+          "device": "2024-yil 29-dekabr",
+          "text": "Shubhasiz, chindan ham ajoyib",
+          "rating": 5
+        },
+        {
+          "initials": "SD",
+          "name": "Sanogo Domba",
+          "device": "2025-yil 18-dekabr",
+          "text": "Inson ruhining rivojlanishini juda ma'qullayman",
+          "rating": 5
+        },
+        {
+          "initials": "MM",
+          "name": "mame marème bane",
+          "device": "2026-yil 8-mart",
+          "text": "Assalomu alaykum, ilova nega ishlamayapti",
+          "rating": 5
+        },
+        {
+          "initials": "DB",
+          "name": "Dalila Bahri",
+          "device": "2025-yil 27-dekabr",
+          "text": "Ajoyib ilova, juda foydali",
+          "rating": 5
+        },
+        {
+          "initials": "LY",
+          "name": "Landry Yarga",
+          "device": "2025-yil 10-dekabr",
+          "text": "Bu ilova menga ko'p yordam beradi, rahmat 👌",
+          "rating": 5
+        },
+        {
+          "initials": "JK",
+          "name": "Jeanne Kikukama",
+          "device": "2026-yil 8-fevral",
+          "text": "Juda yaxshi ilova",
+          "rating": 5
+        },
+        {
+          "initials": "ZS",
+          "name": "Zeynab Sylla",
+          "device": "2026-yil 14-yanvar",
+          "text": "Juda ajoyib va oson",
+          "rating": 5
+        },
+        {
+          "initials": "AW",
+          "name": "Abdoul Wahab porgo",
+          "device": "2026-yil 10-yanvar",
+          "text": "Juda-juda qiziqarli",
+          "rating": 5
+        },
+        {
+          "initials": "YM",
+          "name": "Yohane Mouhali",
+          "device": "2025-yil 31-oktabr",
+          "text": "Bularning barchasi uchun katta rahmat 👏👏👏👏👏",
+          "rating": 5
+        },
+        {
+          "initials": "FA",
+          "name": "Fousseni Arouna",
+          "device": "2025-yil 15-dekabr",
+          "text": "Masha'Alloh, ilovani yaxshi ko'raman",
+          "rating": 5
+        },
+        {
+          "initials": "DA",
+          "name": "Djamilatou Alim",
+          "device": "2026-yil 20-yanvar",
+          "text": "Juda yaxshi ilova, Allohga shukur, Masha'Alloh",
+          "rating": 5
+        },
+        {
+          "initials": "AA",
+          "name": "Arminata Abdou",
+          "device": "2025-yil 26-mart",
+          "text": "Sizga katta rahmat 👏 juda yoqdi",
+          "rating": 5
+        },
+        {
+          "initials": "HR",
+          "name": "Halima Radhwani",
+          "device": "2025-yil 26-sentabr",
+          "text": "Ilova ajoyib, Allohumma barik, katta rahmat 🤲",
+          "rating": 5
+        },
+        {
+          "initials": "MC",
+          "name": "Mahamoudou Coulibaly",
+          "device": "2025-yil 17-avgust",
+          "text": "Juda zo'r, juda ajoyib",
+          "rating": 5
+        },
+        {
+          "initials": "LD",
+          "name": "Lamine Dieye",
+          "device": "2025-yil 22-mart",
+          "text": "Yaxshi ish qildingiz, Alloh sizni barakasin, bu ilova muhim 🙏",
+          "rating": 5
+        },
+        {
+          "initials": "AB",
+          "name": "aimé boussoukou",
+          "device": "2025-yil 25-oktabr",
+          "text": "Allohu akbar, bu ilova juda foydali",
+          "rating": 5
+        },
+        {
+          "initials": "IM",
+          "name": "Ibrahim Mbaye",
+          "device": "2024-yil 29-oktabr",
+          "text": "O'rganish uchun juda yaxshi",
+          "rating": 5
+        },
+        {
+          "initials": "TT",
+          "name": "Tassala Toure",
+          "device": "2025-yil 21-mart",
+          "text": "Masha'Alloh, juda yoqdi, Alloh musulmon jamoasi uchun qilayotgan sa'y-harakatlaringiz uchun sizni barakasin 🤲barakallahu feekum🤲",
+          "rating": 5
+        },
+        {
+          "initials": "MD",
+          "name": "Mohamed Diawara",
+          "device": "2025-yil 27-iyun",
+          "text": "Juda yoqdi, hammaga rahmat",
+          "rating": 5
+        },
+        {
+          "initials": "FA",
+          "name": "Ferjani Ali",
+          "device": "2025-yil 5-noyabr",
+          "text": "Eng yaxshi ilovalar, davom eting 😍😍🥰",
+          "rating": 5
+        },
+        {
+          "initials": "MA",
+          "name": "moustapha ahmed",
+          "device": "2025-yil 22-avgust",
+          "text": "Ajoyib ilova, Alloh buning uchun sizga mukofot bersin",
+          "rating": 5
+        },
+        {
+          "initials": "MB",
+          "name": "Mariam Barry",
+          "device": "2025-yil 4-oktabr",
+          "text": "Juda yaxshi ilova ☺ tavsiya qilaman",
+          "rating": 5
+        },
+        {
+          "initials": "DO",
+          "name": "Dramane Ouattara",
+          "device": "2025-yil 19-iyul",
+          "text": "Bu barcha davrlarning eng yaxshi ilovasi",
+          "rating": 5
+        },
+        {
+          "initials": "AG",
+          "name": "Assane Gnamou",
+          "device": "2025-yil 17-may",
+          "text": "Ishlatish oson",
+          "rating": 5
+        },
+        {
+          "initials": "AL",
+          "name": "Amadou Lee",
+          "device": "2025-yil 27-noyabr",
+          "text": "Juda yaxshi ilova",
+          "rating": 5
+        },
+        {
+          "initials": "OD",
+          "name": "Ousseynou DIOP",
+          "device": "2025-yil 22-mart",
+          "text": "Tasavvur qilib bo'lmaydigan darajada yaxshi, katta rahmat",
+          "rating": 5
+        },
+        {
+          "initials": "ZJ",
+          "name": "Zakaria Jose Kone",
+          "device": "2026-yil 4-mart",
+          "text": "Bu ilova juda yaxshi",
+          "rating": 5
+        },
+        {
+          "initials": "MD",
+          "name": "Mr dof Dof",
+          "device": "2025-yil 24-iyun",
+          "text": "Haqiqiy Qur'on bilan solishtirganda juda ko'p xatolar bor",
+          "rating": 5
+        },
+        {
+          "initials": "OM",
+          "name": "Omar Manè",
+          "device": "2025-yil 4-mart",
+          "text": "Chindan ham ajoyib, masha'Alloh",
+          "rating": 5
+        },
+        {
+          "initials": "KI",
+          "name": "Koné Idris",
+          "device": "2025-yil 29-may",
+          "text": "Juda yaxshi ilova",
+          "rating": 5
+        },
+        {
+          "initials": "KK",
+          "name": "kourouma kaman",
+          "device": "2025-yil 25-sentabr",
+          "text": "Juda yaxshi ilova",
+          "rating": 5
+        },
+        {
+          "initials": "OD",
+          "name": "Ousseynou DIOP",
+          "device": "2025-yil 28-iyul",
+          "text": "Juda yoqtiraman, bu juda yaxshi",
+          "rating": 5
+        },
+        {
+          "initials": "MM",
+          "name": "Mr MANANGA",
+          "device": "2026-yil 19-fevral",
+          "text": "Eng yaxshi ma'naviy yo'lboshchi",
+          "rating": 5
+        },
+        {
+          "initials": "TM",
+          "name": "Tyz Man86",
+          "device": "2025-yil 8-dekabr",
+          "text": "Ba'zi jihatlarni yaxshilashingiz kerak",
+          "rating": 5
+        },
+        {
+          "initials": "SI",
+          "name": "Samba Ichrach",
+          "device": "2025-yil 8-noyabr",
+          "text": "Aytadigan gap yo'q, izlagan narsamni topdim",
+          "rating": 5
+        },
+        {
+          "initials": "RB",
+          "name": "Rasta Barou",
+          "device": "2025-yil 7-oktabr",
+          "text": "Juda yoqdi",
+          "rating": 5
+        },
+        {
+          "initials": "NG",
+          "name": "Nadia GbaneDIABY",
+          "device": "2025-yil 10-noyabr",
+          "text": "Alhamdulillah! Ajoyib darajada foydali!!!",
+          "rating": 5
+        },
+        {
+          "initials": "DM",
+          "name": "DaoudaDiallo Malide",
+          "device": "2025-yil 20-mart",
+          "text": "Juda yoqdi",
+          "rating": 5
+        },
+        {
+          "initials": "SB",
+          "name": "Saitama Black God 777",
+          "device": "2024-yil 23-noyabr",
+          "text": "Masha'Alloh, bu ko'pchilik izlaydigan narsa",
+          "rating": 5
+        },
+        {
+          "initials": "MS",
+          "name": "Mamoudou Sylla",
+          "device": "2024-yil 2-noyabr",
+          "text": "ALHAMDULILLAH, SIZGA KATTA RAHMAT AYTAMAN, BUNI INTERNETDA UZOQ VAQT IZLAGANMAN, NIHOYAT TOPDIM, ALLOH SIZNI VA OILANGIZNI BARAKASIN, CHEKSIZ RAHMAT!",
+          "rating": 5
+        },
+        {
+          "initials": "IK",
+          "name": "Ibrahim Konsigui",
+          "device": "2025-yil 18-noyabr",
+          "text": "Oyatlar yuklanishdan bosh tortmoqda",
+          "rating": 5
+        },
+        {
+          "initials": "YK",
+          "name": "Youss Kouadio",
+          "device": "2025-yil 22-oktabr",
+          "text": "Ilova juda yaxshi",
+          "rating": 5
+        },
+        {
+          "initials": "AB",
+          "name": "Alhasko Bob",
+          "device": "2025-yil 2-may",
+          "text": "Dunyodagi eng yaxshi ilova",
+          "rating": 5
+        }
+      ]
+    },
+    "cta": {
+      "title": "Bugun o'rganish sayohatingizni boshlang",
+      "subtitle": "Noor Phonetic Quran'ni bepul yuklab oling va Qur'on tilovati tajribangizni o'zgartiring.",
+      "downloadOn": "Yuklab oling"
+    }
+  },
+  "cgu": {
+    "meta": {
+      "title": "Foydalanish Shartlari - Noor Phonetic Quran",
+      "description": "Noor Phonetic Quran foydalanish shartlari: xizmatdan foydalanish, foydalanuvchi hisobi, Premium obuna, intellektual mulk, javobgarlik va qo'llaniladigan huquq.",
+      "keywords": "Noor Phonetic Quran foydalanish shartlari, umumiy foydalanish shartlari, Qur'on ilovasidan foydalanish shartlari"
+    },
+    "appName": "Noor Phonetic Quran",
+    "pageTitle": "FOYDALANISH SHARTLARI",
+    "updateDate": "Oxirgi yangilanish: 2026-yil 31-iyul",
+    "intro1": "Ushbu Foydalanish Shartlari (\"Shartlar\") Noor Phonetic Quran mobil ilovasidan (\"Ilova\", \"biz\", \"bizning\") foydalanish va unga kirishni tartibga soladi. Ilova shaxsiy tarzda nashr etilgan va Google Play hamda App Store'da mavjud. Ilovani yuklab olish, o'rnatish yoki undan foydalanish orqali siz ushbu Shartlarga rioya qilishga rozilik bildirasiz. Agar siz ushbu shartlarga rozi bo'lmasangiz, iltimos, Ilovadan foydalanmang.",
+    "intro2Before": "Shaxsiy ma'lumotlaringizni qayta ishlash haqida to'liq ma'lumot uchun bizning",
+    "intro2LinkText": "Maxfiylik Siyosati",
+    "intro2After": "bilan tanishing, u ushbu Shartlarni to'ldiradi.",
+    "summary": {
+      "heading": "ASOSIY NUQTALAR XULOSASI",
+      "intro": "Ushbu xulosa Shartlarimizning asosiy nuqtalarini taqdim etadi, lekin biz sizni quyidagi mundarija orqali hujjatning to'liq matnini o'qishga taklif qilamiz.",
+      "points": [
+        {
+          "question": "Ilova nima taklif qiladi?",
+          "answer": "Qur'onni o'qish, o'rganish va yodlash uchun bepul va pullik vositalar to'plami: fonetik va arab tilida o'qish (Hafs va Warsh qiroatlari), tajvid, o'yinlashtirilgan yodlash, khatma kuzatuvi, audio yozib olish orqali tilovat tuzatish, viktorina, jonli islomiy radio/TV va bosh ekranda \"kunning oyati\" vidjeti."
+        },
+        {
+          "question": "Hisob kerakmi?",
+          "answer": "Yo'q, Ilovaning asosiy qismidan hisobsiz ham foydalanish mumkin. Ixtiyoriy hisob (email, Google yoki Apple) taraqqiyotingiz va Premium obunangizni sinxronlashtirish imkonini beradi."
+        },
+        {
+          "question": "Ilova pullikmi?",
+          "answer": "Ilova reklamalar bilan bepul. Google Play yoki App Store orqali boshqariladigan ixtiyoriy Premium obuna reklamani olib tashlaydi va ilg'or funksiyalarni ochadi."
+        },
+        {
+          "question": "Ovozimni yozib olsam bo'ladimi?",
+          "answer": "Ha, tilovat tuzatish funksiyasi talaffuzingizni tahlil qilish uchun ovozingizni mahalliy ravishda yozib oladi. Ishlash tafsilotlari va sizning javobgarligingiz haqida tegishli bo'limga qarang."
+        },
+        {
+          "question": "Diniy mazmun uchun kim javobgar?",
+          "answer": "Biz matnlar, tarjimalar va translitteratsiyalarning ishonchliligini ta'minlash uchun barcha choralarni ko'ramiz, ammo Ilova ta'lim vositasi bo'lib, malakali o'qituvchi bilan an'anaviy ta'limning o'rnini bosmaydi."
+        },
+        {
+          "question": "Biz bilan qanday bog'lanish mumkin?",
+          "answer": "Ilovaga o'rnatilgan aloqa formasi orqali yoki othmeneb@gmail.com elektron pochtasi orqali."
+        }
+      ]
+    },
+    "toc": {
+      "heading": "MUNDARIJA",
+      "items": [
+        {
+          "id": "service",
+          "label": "1. XIZMAT"
+        },
+        {
+          "id": "eligibility",
+          "label": "2. MOSLIK"
+        },
+        {
+          "id": "account",
+          "label": "3. FOYDALANUVCHI HISOBI"
+        },
+        {
+          "id": "premium",
+          "label": "4. PREMIUM OBUNA VA ILOVA ICHI XARIDLAR"
+        },
+        {
+          "id": "recitation",
+          "label": "5. TILOVAT TUZATISH VA AUDIO YOZUVLAR"
+        },
+        {
+          "id": "conduct",
+          "label": "6. FOYDALANISH QOIDALARI"
+        },
+        {
+          "id": "ip",
+          "label": "7. INTELLEKTUAL MULK"
+        },
+        {
+          "id": "religious-content",
+          "label": "8. DINIY VA TA'LIMIY MAZMUN"
+        },
+        {
+          "id": "accessibility",
+          "label": "9. QULAYLIK"
+        },
+        {
+          "id": "ads",
+          "label": "10. REKLAMA VA UCHINCHI TOMON XIZMATLARI"
+        },
+        {
+          "id": "availability",
+          "label": "11. XIZMATNING MAVJUDLIGI VA O'ZGARISHLARI"
+        },
+        {
+          "id": "termination",
+          "label": "12. TO'XTATISH VA BEKOR QILISH"
+        },
+        {
+          "id": "disclaimer",
+          "label": "13. JAVOBGARLIKNI CHEKLASH"
+        },
+        {
+          "id": "law",
+          "label": "14. QO'LLANILADIGAN HUQUQ VA NIZOLAR"
+        },
+        {
+          "id": "updates",
+          "label": "15. SHARTLARNI O'ZGARTIRISH"
+        },
+        {
+          "id": "contact",
+          "label": "16. BIZ BILAN BOG'LANISH"
+        }
+      ]
+    },
+    "sections": {
+      "service": {
+        "heading": "1. XIZMAT",
+        "intro": "Noor Phonetic Quran - Qur'onni o'qish, o'rganish va yodlash imkonini beruvchi mobil ilova, xususan quyidagilar orqali:",
+        "items": [
+          "Qur'onni fonetik translitteratsiyada va arab tilida o'qish (Hafs va Warsh qiroatlari), tarjimalar va audio bilan;",
+          "audio yozib olish orqali tilovat tuzatish bilan talaffuz va tajvid darslari;",
+          "o'yinlashtirilgan yodlash moduli (darajalar, nishonlar, kunlik topshiriqlar) va kunlik o'rganish rejasi;",
+          "khatma kuzatuvi (Qur'onni to'liq o'qish) va maxsus Ramazon dasturi;",
+          "kunlik azkorlar, islomiy bilimlar viktorinasi, jonli islomiy radio va TV kanallari;",
+          "qurilmangizning (iOS va Android) bosh ekranida ko'rsatilishi mumkin bo'lgan \"kunning oyati\" vidjeti."
+        ],
+        "outro": "Bu funksiyalar Ilova yangilanishlari davomida o'zgarishi, qo'shilishi yoki olib tashlanishi mumkin, bu ushbu Shartlarga sezilarli o'zgartirish kiritish deb hisoblanmaydi."
+      },
+      "eligibility": {
+        "heading": "2. MOSLIK",
+        "body": "Ilova Qur'on tilovatini o'rganish yoki amaliyot qilishni istagan har qanday shaxs uchun mo'ljallangan. Agar siz voyaga yetmagan bo'lsangiz, Ilovadan foydalanish ota-ona yoki qonuniy vasiy nazorati ostida amalga oshirilishi kerak, ayniqsa ilova ichi xaridni o'z ichiga olgan har qanday funksiya uchun."
+      },
+      "account": {
+        "heading": "3. FOYDALANUVCHI HISOBI",
+        "brief": "Qisqacha",
+        "briefText": "Hisob ixtiyoriy bo'lib, faqat taraqqiyotingiz va obunangizni sinxronlashtirish uchun xizmat qiladi.",
+        "body": "Ilova funksiyalarining aksariyati hisob yaratmasdan ham foydalanish mumkin. Siz taraqqiyotingizni (yodlash, khatma, kunlik reja) va Premium statusingizni qurilma almashtirilganda saqlab qolish uchun email, Google yoki Apple orqali ixtiyoriy hisob yaratishingiz mumkin. Siz login ma'lumotlaringizning maxfiyligi va hisobingiz orqali amalga oshirilgan har qanday faoliyat uchun javobgarsiz. Siz istalgan vaqtda biz bilan bog'lanib (16-bo'limga qarang) yoki bu variant mavjud bo'lganda Ilova sozlamalaridan hisobingiz va tegishli ma'lumotlarni o'chirishni so'rashingiz mumkin."
+      },
+      "premium": {
+        "heading": "4. PREMIUM OBUNA VA ILOVA ICHI XARIDLAR",
+        "brief": "Qisqacha",
+        "briefText": "Ilova reklamalar bilan bepul; Premium obuna (Google Play yoki App Store tomonidan boshqariladi) reklamani olib tashlaydi va ilg'or funksiyalarni ochadi.",
+        "body": "Ilova ichi xaridlar (xususan Premium obuna) platformangizga qarab to'g'ridan-to'g'ri Google Play yoki App Store tomonidan, ularning o'z foydalanish shartlari va to'lov siyosatlariga muvofiq amalga oshiriladi. To'lov, avtomatik yangilash, bekor qilish va obunani qaytarish Google Play yoki Apple ID hisobingiz sozlamalaridan boshqariladi — bizda to'lov vositalaringizga kirish imkoni yo'q va to'g'ridan-to'g'ri qaytarishni amalga oshira olmaymiz. Premium afzalliklarining mazmuni va aniq doirasi xarid vaqtida Ilovada tasvirlangan bo'lib, yangilanishlar bilan o'zgarishi mumkin."
+      },
+      "recitation": {
+        "heading": "5. TILOVAT TUZATISH VA AUDIO YOZUVLAR",
+        "brief": "Qisqacha",
+        "briefText": "Tilovat yozuvlaringiz talaffuzingiz haqida sizga fikr-mulohaza berish uchun ishlatiladi; faqat topshirishga qulay bo'lgan narsani ulashing.",
+        "bodyBefore": "Tilovat tuzatish funksiyasi Qur'on o'qishingiz davomida ovozingizni yozib olish va shaxsiylashtirilgan fikr-mulohaza olish imkonini beradi (Ilovada faol bo'lgan funksiya versiyasiga qarab avtomatlashtirilgan va/yoki tekshiruvchi tomonidan). Ushbu funksiyadan foydalanish orqali siz talaffuzni tahlil qilish va o'rganishingizni yaxshilash maqsadida ovozingizni yozib olish va qayta ishlashga rozilik bildirasiz. Siz noqonuniy, tuhmat xarakteridagi yoki uchinchi tomon huquqlarini buzuvchi ma'lumotlarni o'z ichiga olgan yozuvni yubormasligingiz kerak. Bu yozuvlarni qayta ishlash, saqlash va saqlash muddati tafsilotlari bizning",
+        "linkText": "Maxfiylik Siyosati",
+        "bodyAfter": "da ko'rsatilgan."
+      },
+      "conduct": {
+        "heading": "6. FOYDALANISH QOIDALARI",
+        "intro": "Ilovadan foydalanib, siz quyidagilarni qilmaslikka rozilik bildirasiz:",
+        "items": [
+          "Ilovadan noqonuniy maqsadlarda yoki ushbu Shartlarga zid ravishda foydalanish;",
+          "tizimlarimizga ruxsatsiz kirishga urinish, ularni buzish yoki xavfsizlik choralarini chetlab o'tish;",
+          "qonun aniq ruxsat bergan holatlar bundan mustasno, Ilovaning manba kodini dekompilyatsiya qilish, disassemble qilish yoki chiqarib olishga urinish;",
+          "oldindan ruxsatsiz Ilova tarkibining barchasini yoki bir qismini ko'paytirish, qayta tarqatish yoki tijorat maqsadida foydalanish;",
+          "Ilovaga kirish yoki undan ma'lumot olish uchun avtomatlashtirilgan vositalardan (botlar, skraperlar) foydalanish."
+        ]
+      },
+      "ip": {
+        "heading": "7. INTELLEKTUAL MULK",
+        "body": "Ilova, uning kodi, dizayni, illyustratsiyalari va o'ziga xos ta'lim mazmuni (tajvid darslari, o'rganish rejasi tuzilishi va boshqalar) intellektual mulk huquqi bilan himoyalangan bo'lib, bizning yoki litsenziya beruvchilarimizning mulki bo'lib qoladi. Qur'on matnining o'zi umumiy merosga tegishli va hech kim tomonidan da'vo qilinmaydi; tarjimalar, fonetik translitteratsiyalar, audio tilovatlar va integratsiyalangan tafsir mazmunlari Ilovada aniqlangan uchinchi tomon manbalaridan yoki hamkorlardan (qorilar, tarjima noshirlari) kelib chiqadi va olingan ruxsatlarga muvofiq foydalaniladi. Ushbu Shartlarning hech bir qoidasi sizga Ilovadan shaxsiy va tijorat bo'lmagan foydalanishdan tashqari ushbu elementlar bo'yicha hech qanday huquq bermaydi."
+      },
+      "religiousContent": {
+        "heading": "8. DINIY VA TA'LIMIY MAZMUN",
+        "brief": "Qisqacha",
+        "briefText": "Ilova - ta'lim yordamchi vositasi, an'anaviy ta'limning o'rnini bosmaydi.",
+        "body": "Biz Ilovada taqdim etilgan Qur'on matni, tarjimalar, fonetik translitteratsiyalar va tajvid qoidalarining to'g'riligini ta'minlash uchun barcha choralarni ko'ramiz, xususan tan olingan manbalarga tayanib. Biroq, fonetik translitteratsiya tabiatan o'rganishni osonlashtirish uchun mo'ljallangan taxminiy yaqinlashish bo'lib, malakali o'qituvchi bilan Qur'on arab tilini o'qishni o'rganishning o'rnini bosmaydi. Xuddi shunday, tilovat tuzatish funksiyasi tomonidan berilgan fikr-mulohaza o'rganishga yordam beruvchi vosita bo'lib, tilovatingizning diniy tasdig'ini kafolatlamaydi."
+      },
+      "accessibility": {
+        "heading": "9. QULAYLIK",
+        "brief": "Qisqacha",
+        "briefText": "Biz Ilovani nogironligi bo'lgan shaxslar uchun ham imkon qadar ko'proq odam foydalana oladigan qilishga harakat qilamiz.",
+        "body": "Ilova qurilmangizning tabiiy ekran o'quvchilari (iOS'da VoiceOver, Android'da TalkBack) bilan navigatsiyani osonlashtirish uchun asosiy ekranlari va boshqaruv elementlarida qulaylik ma'lumotlarini (Semantics yorliqlari va rollari) o'z ichiga oladi. Bundan tashqari, u matnlarni ko'rsatish uchun operatsion tizimingizning qulaylik sozlamalarida belgilangan shrift o'lchamiga rioya qiladi. Ushbu qulaylik sa'y-harakatlari davom etmoqda va istalgan vaqtda barcha ekranlar va funksiyalarni bir xilda qamrab olmasligi mumkin. Agar Ilovadan foydalanishda qulaylik bilan bog'liq muammoga duch kelsangiz, biz uni yaxshilashimiz uchun aloqa formasi orqali (16-bo'limga qarang) xabar berishingizni so'raymiz."
+      },
+      "ads": {
+        "heading": "10. REKLAMA VA UCHINCHI TOMON XIZMATLARI",
+        "body1Before": "Ilova bizning",
+        "linkText": "Maxfiylik Siyosati",
+        "body1After": "da batafsil tasvirlangan uchinchi tomon texnik xizmatlarini (auditoriya o'lchovi, texnik diagnostika, reklama tarmog'i, ilova ichi xaridlar) o'z ichiga oladi. Bu xizmatlar o'z foydalanish shartlariga bo'ysunadi, ular bilan tanishishingizni tavsiya qilamiz.",
+        "body2": "Ba'zi reklamalar to'liq ixtiyoriy: Premium obunaga o'tmasdan bizni qo'llab-quvvatlamoqchi bo'lsangiz, Ilovaning qo'llab-quvvatlash menyusidan mukofotli reklamani (\"rewarded ad\") ixtiyoriy ravishda ko'rishni tanlashingiz mumkin. Bu ixtiyoriy reklama sizning aniq harakatingizsiz hech qachon ko'rsatilmaydi."
+      },
+      "availability": {
+        "heading": "11. XIZMATNING MAVJUDLIGI VA O'ZGARISHLARI",
+        "body": "Biz Ilovani mavjud va ishlaydigan holatda saqlashga harakat qilamiz, lekin uzluksiz yoki xatosiz mavjudlikni kafolatlamaymiz. Ba'zi funksiyalar internet aloqasini talab qiladi (audio yuklab olish, jonli radio/TV, hisob sinxronlashtirish) va internetsiz yoki uchinchi tomon xizmati ishdan chiqqan hollarda mavjud bo'lmasligi mumkin. Biz istalgan vaqtda, xususan texnik, huquqiy sabablarga yoki mazmun hamkorligimiz taraqqiyotiga bog'liq ravishda Ilova funksiyalarini qo'shishimiz, o'zgartirishimiz yoki olib tashlashimiz mumkin."
+      },
+      "termination": {
+        "heading": "12. TO'XTATISH VA BEKOR QILISH",
+        "body": "Siz Ilovani o'chirib, istalgan vaqtda undan foydalanishni to'xtatishingiz mumkin. Biz, xususan ushbu Shartlarga rioya qilinmagan hollarda, Ilovaga kirishingizni to'xtatish yoki bekor qilish huquqini o'zimizda saqlab qolamiz, bu Google Play yoki App Store orqali allaqachon amalga oshirilgan xaridlarga ta'sir qilmaydi, ularni boshqarish ushbu platformalar zimmasidadir."
+      },
+      "disclaimer": {
+        "heading": "13. JAVOBGARLIKNI CHEKLASH",
+        "body": "Qo'llaniladigan qonun ruxsat bergan chegarada, Ilova hech qanday aniq yoki bilvosita kafolatsiz \"bor holida\" va \"mavjudlikka qarab\" taqdim etiladi. Biz Ilovadan foydalanish yoki foydalana olmaslik natijasida yuzaga kelgan bilvosita, tasodifiy yoki keyingi zararlar uchun, shu jumladan vaqtinchalik mavjud emaslik, taraqqiyot ma'lumotlarining yo'qolishi yoki Ilovaga integratsiyalangan uchinchi tomon mazmunidagi (tarjima, audio, tafsir) xato holatlarida javobgar bo'la olmaymiz. Ushbu Shartlarda hech narsa qonuniy ravishda istisno qilib bo'lmaydigan javobgarlikni istisno qilmaydi (masalan, qasddan xatti-harakat yoki jiddiy beparvolik holatida)."
+      },
+      "law": {
+        "heading": "14. QO'LLANILADIGAN HUQUQ VA NIZOLAR",
+        "body": "Ushbu Shartlar, yashash mamlakatingizda qo'llanilishi mumkin bo'lgan majburiy iste'molchilarni himoya qilish qoidalariga zarar yetkazmagan holda, Fransiya qonuni bilan tartibga solinadi. Nizo yuzaga kelgan taqdirda, har qanday sud jarayonidan oldin bizga to'g'ridan-to'g'ri murojaat qilish orqali (16-bo'limga qarang) birinchi navbatda o'zaro kelishuv izlanadi."
+      },
+      "updates": {
+        "heading": "15. SHARTLARNI O'ZGARTIRISH",
+        "brief": "Qisqacha",
+        "briefText": "Biz Ilovaning yoki qonunchilikning rivojlanishini aks ettirish uchun ushbu Shartlarni yangilashimiz mumkin.",
+        "body": "Biz vaqti-vaqti bilan, xususan yangi funksiyalar qo'shilganda, ushbu Shartlarni o'zgartirishimiz mumkin. Yangilangan versiya ushbu sahifa yuqorisida yangi \"Oxirgi yangilanish\" sanasi bilan ko'rsatiladi va nashr etilishi bilan kuchga kiradi. Sezilarli o'zgartirish bo'lgan taqdirda, biz sizga Ilovadagi xabarnoma orqali ma'lum qilamiz. O'zgarishlar nashr etilgandan keyin Ilovadan foydalanishni davom ettirish yangilangan Shartlarni qabul qilish deb hisoblanadi."
+      },
+      "contact": {
+        "heading": "16. BIZ BILAN BOG'LANISH",
+        "bodyBefore": "Ushbu Shartlarga oid har qanday savol bo'yicha siz Ilovaga o'rnatilgan aloqa formasi orqali yoki elektron pochta orqali biz bilan bog'lanishingiz mumkin:",
+        "email": "othmeneb@gmail.com",
+        "bodyAfter": "."
+      }
+    },
+    "footer": "© 2026 Noor Phonetic Quran. Barcha huquqlar himoyalangan."
+  },
+  "contactPage": {
+    "meta": {
+      "title": "Aloqa - Noor Phonetic Quran",
+      "description": "Noor Phonetic Quran ilovasi haqida savol, Qur'on fonetikasi bo'yicha taklif yoki texnik muammo bormi? Jamoamiz bilan bog'laning, 48 soat ichida javob beramiz."
+    }
+  },
+  "reviews": {
+    "meta": {
+      "title": "Foydalanuvchilar sharhlari - Noor Phonetic Quran",
+      "description": "Qur'onni fonetik tarzda tilovat qilish, yodlash va o'qishni o'rgatuvchi Noor Phonetic Quran ilovasining 160 dan ortiq tasdiqlangan foydalanuvchi sharhlarini, o'rtacha 5 yulduz reyting bilan bilib oling."
+    },
+    "eyebrow": "Tasdiqlangan sharhlar",
+    "title": "Foydalanuvchilarimiz nima deydi",
+    "subtitle": "O'sib borayotgan mamnun foydalanuvchilar jamoamizning fikrlarini bilib oling",
+    "ratingCountLabel": "%COUNT% ta sharhdan",
+    "loadMoreLabel": "Ko'proq sharh ko'rish"
+  },
+  "audioCoran": {
+    "meta": {
+      "title": "Sinxron Qur'on Audiosi: Bir Nechta Qori va Internetsiz Tinglash | Noor Phonetic Quran",
+      "description": "Noor Phonetic Quran bilan Qur'onni oyat-boyat sinxron audio bilan tinglang, bir nechta qori orasidan tanlang va internetsiz tinglash uchun audioni yuklab oling. iOS va Android'da bepul.",
+      "keywords": "Qur'on audiosi, Qur'on tilovati audiosi, bir nechta Qur'on qorisi, internetsiz Qur'on audiosi, Qur'on audiosini yuklab olish, Qur'onni tinglash, sinxron Qur'on audiosi, Qur'on qorilar ilovasi",
+      "ogTitle": "Sinxron Qur'on Audiosi: Bir Nechta Qori va Internetsiz Tinglash",
+      "ogDescription": "Oyat-boyat sinxron audio, bir nechta qori va internetsiz yuklab olish. Bepul Noor Phonetic Quran ilovasi."
+    },
+    "breadcrumb": {
+      "home": "Bosh sahifa",
+      "current": "Qur'on Audiosi"
+    },
+    "hero": {
+      "title": "Sinxron Qur'on Audiosi: Bir Nechta Qori, Internetsiz Tinglash",
+      "subtitle": "Har bir oyat to'g'ri talaffuzni eshitish uchun sinxron audio bilan birga keladi, qori tanlash va internetsiz tinglash uchun audioni yuklab olish imkoniyati bilan.",
+      "backLink": "Bosh sahifaga qaytish",
+      "googlePlay": "Google Play",
+      "appStore": "App Store"
+    },
+    "intro": {
+      "title": "O'rganish uchun mo'ljallangan tinglash",
+      "paragraph1": "To'g'ri talaffuzni eshitish Qur'onni to'g'ri tilovat qilishni o'rganish uchun muhimdir. Noor Phonetic Quran har bir oyatni sinxron audio bilan bog'laydi, shunda siz matnni, uning fonetikasini va tinglashni bir vaqtda kuzatishingiz mumkin.",
+      "paragraph2": "Siz faqat bitta qori yoki doimiy internet aloqasi bilan cheklanmaysiz: sevimli ovozingizni tanlang va audioni yuklab olib, uni hamma joyda o'zingiz bilan olib yuring."
+    },
+    "features": {
+      "title": "Qur'on audiosi nimalarni taklif qiladi",
+      "items": [
+        {
+          "title": "Oyat-boyat sinxron audio",
+          "description": "har bir oyat siz uni o'qigan paytda ovoz chiqarib o'qiladi, talaffuzingizni real vaqtda tuzatish uchun."
+        },
+        {
+          "title": "Tanlash uchun bir nechta qori",
+          "description": "ilovada mavjud qorilar orasidan sizga eng mos kelganini tanlang."
+        },
+        {
+          "title": "Oyat, sura yoki suralar oralig'i bo'yicha tinglash",
+          "description": "eshitmoqchi bo'lgan Qur'on qismini aniq tanlang."
+        },
+        {
+          "title": "Sozlanadigan o'qish tezligi",
+          "description": "o'rganayotganingizda har bir so'zni yaxshiroq ajratish uchun audioni 0.7x dan 1x gacha sekinlashtiring."
+        },
+        {
+          "title": "Internetsiz tinglash uchun yuklab olish",
+          "description": "qayerda bo'lsangiz ham Qur'onni internetsiz tinglash uchun audioni oldindan yuklab oling."
+        }
+      ]
+    },
+    "screenshots": {
+      "title": "Qur'on audiosiga umumiy nazar",
+      "alts": [
+        "Noor Phonetic Quran - Sinxron audio o'qish paneli",
+        "Noor Phonetic Quran - Oyatlar oralig'ini tanlash va internetsiz yuklab olish",
+        "Noor Phonetic Quran - Suralar oralig'ini tanlash va tezlikni sozlash",
+        "Noor Phonetic Quran - Qori tanlash"
+      ]
+    },
+    "faq": {
+      "title": "Qur'on audiosi haqida ko'p beriladigan savollar",
+      "items": [
+        {
+          "question": "Audio matn bilan sinxronlashtirilganmi?",
+          "answer": "Ha, matn va uning fonetik transkripsiyasini kuzatib borayotganingizda to'g'ri talaffuzni eshitish uchun har bir oyat sinxron audio bilan birga keladi."
+        },
+        {
+          "question": "Nechta qori mavjud?",
+          "answer": "Siz tinglash sozlamalaringizga qarab, to'g'ridan-to'g'ri audio o'qish sozlamalaridan bir nechta Qur'on qorisi orasidan tanlashingiz mumkin."
+        },
+        {
+          "question": "Qur'onni internetsiz tinglash mumkinmi?",
+          "answer": "Ha, siz to'liq internetsiz tinglash uchun bitta oyat, sura yoki suralar oralig'ining audiosini yuklab olishingiz mumkin."
+        },
+        {
+          "question": "Audio o'qish tezligini o'zgartirish mumkinmi?",
+          "answer": "Ha, tinglashni o'rganish darajangizga moslashtirish uchun o'qish tezligi 0.7x dan 1x gacha sozlanishi mumkin."
+        }
+      ]
+    },
+    "related": {
+      "title": "Shuningdek ko'ring",
+      "tajweed": "Tajweed Qoidalari",
+      "memorization": "Qur'onni Yodlash (Hifz)",
+      "allFeatures": "Barcha funksiyalar"
+    }
+  },
+  "privacyPolicy": {
+    "title": "Noor Phonetic Quran",
+    "heading": "MAXFIYLIK SIYOSATI",
+    "lastUpdated": "Oxirgi yangilanish: 2026-yil 28-iyul",
+    "intro1": "Noor Phonetic Quran (\"biz\", \"bizning\") uchun ushbu maxfiylik bildirishnomasi Noor Phonetic Quran mobil ilovamizdan (\"Xizmatlar\") foydalanganingizda ma'lum ma'lumotlarni qanday va nima uchun to'plashimiz, saqlashimiz, ishlatishimiz va/yoki ulashishimizni tasvirlaydi.",
+    "intro2": "Ushbu maxfiylik siyosati bizning Xizmatlarimizga kirish va foydalanishni kengroq tartibga soluvchi <cguLink>Foydalanish Shartlarimizni</cguLink> to'ldiradi.",
+    "intro3": "Savollaringiz yoki xavotirlaringiz bormi? Ushbu maxfiylik bildirishnomasini o'qish sizga maxfiylik bo'yicha huquqlaringiz va tanlovlaringizni tushunishga yordam beradi. Agar siz bizning siyosatlarimiz va amaliyotlarimiz bilan rozi bo'lmasangiz, iltimos, Xizmatlarimizdan foydalanmang. Agar sizda hali ham savollar yoki xavotirlar bo'lsa, iltimos, biz bilan quyidagi manzil orqali bog'laning: <mailLink>othmeneb@gmail.com</mailLink>.",
+    "summary": {
+      "heading": "ASOSIY NUQTALAR XULOSASI",
+      "intro": "Ushbu xulosa maxfiylik bildirishnomamizning asosiy nuqtalarini taqdim etadi, lekin siz quyidagi mundarijamiz yordamida ushbu mavzularning har biri haqida ko'proq tafsilotlarga ega bo'lishingiz mumkin.",
+      "q1": {
+        "title": "Qanday shaxsiy ma'lumotlarni qayta ishlaymiz?",
+        "text": "Agar siz ixtiyoriy hisob yaratmasangiz, tilovat tuzatishdan foydalanmasangiz yoki bizga aloqa formasi orqali ixtiyoriy ravishda murojaat qilmasangiz, biz hech qanday to'g'ridan-to'g'ri identifikatsiya ma'lumotlarini (ism, email) to'plamaymiz. Ilova, shuningdek, qurilmangizning texnik identifikatorlarini qayta ishlaydigan texnik xizmatlardan (anonimlashtirilgan foydalanish statistikasi, ishdan chiqishlarni kuzatish, ilova ichi xaridlar) foydalanadi. Tafsilotlar uchun \"Qanday ma'lumotlarni to'playmiz?\" bo'limiga qarang."
+      },
+      "q2": {
+        "title": "Nozik shaxsiy ma'lumotlarni qayta ishlaymizmi?",
+        "text": "Agar siz ixtiyoriy tilovat tuzatish funksiyasidan foydalansangiz, ovoz yozuvingiz (nozik/biometrik ma'lumot deb hisoblanishi mumkin) talaffuzingiz haqida fikr-mulohaza berish uchun xavfsiz saqlanadi. Ushbu ixtiyoriy funksiyadan tashqari, biz hech qanday nozik shaxsiy ma'lumotni qayta ishlamaymiz."
+      },
+      "q3": {
+        "title": "Uchinchi tomonlardan ma'lumot olamizmi?",
+        "text": "Yo'q, biz quyida sanab o'tilgan texnik xizmatlardan (Firebase, Google AdMob, ilovalar do'konlari) tashqari uchinchi tomonlardan hech qanday ma'lumot olmaymiz."
+      },
+      "q4": {
+        "title": "Ma'lumotlaringizni qanday qayta ishlaymiz?",
+        "text": "Biz ma'lumotlaringizni ilovani ishlatish, uning foydalanilishini yig'ma tarzda o'lchash, texnik muammolarni tashxislash, obunalarni boshqarish va aloqa xabarlaringizga javob berish uchun qayta ishlaymiz."
+      },
+      "q5": {
+        "title": "Qaysi holatlarda va qaysi tomonlar bilan shaxsiy ma'lumotlarni ulashamiz?",
+        "text": "Biz ba'zi texnik ma'lumotlarni ilovaning ishlashi uchun subpudratchi sifatida ishlaydigan ta'minotchilarimiz (Google Firebase, Google AdMob) bilan ulashamiz. Biz hech qanday ma'lumotni sotmaymiz."
+      },
+      "q6": {
+        "title": "Sizning huquqlaringiz qanday?",
+        "text": "Joylashuvingizga qarab, ma'lumotlaringizga kirish, tuzatish, e'tiroz bildirish va o'chirish huquqiga ega bo'lishingiz mumkin. \"Maxfiylik bo'yicha huquqlaringiz qanday?\" bo'limiga qarang."
+      },
+      "q7": {
+        "title": "Huquqlaringizni qanday amalga oshirasiz?",
+        "text": "Eng oson yo'li - biz bilan <mailLink>othmeneb@gmail.com</mailLink> orqali bog'lanish. Biz so'rovingizga qo'llaniladigan qonunga muvofiq javob beramiz."
+      }
+    },
+    "toc": {
+      "heading": "MUNDARIJA",
+      "items": {
+        "collect": "QANDAY MA'LUMOTLARNI TO'PLAYMIZ?",
+        "process": "MA'LUMOTLARINGIZNI QANDAY QAYTA ISHLAYMIZ?",
+        "legal": "SHAXSIY MA'LUMOTLARINGIZNI QAYTA ISHLASH UCHUN QANDAY HUQUQIY ASOSLARGA TAYANAMIZ?",
+        "share": "SHAXSIY MA'LUMOTLARINGIZNI QACHON VA KIM BILAN ULASHAMIZ?",
+        "keep": "MA'LUMOTLARINGIZNI QANCHA VAQT SAQLAYMIZ?",
+        "rights": "MAXFIYLIK BO'YICHA HUQUQLARINGIZ QANDAY?",
+        "dnt": "\"DO-NOT-TRACK\" FUNKSIYALARINI BOSHQARISH",
+        "usRights": "AQSH REZIDENTLARI MAXFIYLIK BO'YICHA MAXSUS HUQUQLARGA EGAMI?",
+        "updates": "USHBU BILDIRISHNOMANI YANGILAYMIZMI?",
+        "contact": "USHBU BILDIRISHNOMA HAQIDA BIZ BILAN QANDAY BOG'LANISH MUMKIN?",
+        "access": "TO'PLAYOTGAN MA'LUMOTLARIMIZNI QANDAY KO'RISH, YANGILASH YOKI O'CHIRISH MUMKIN?"
+      }
+    },
+    "sections": {
+      "collect": {
+        "heading": "QANDAY MA'LUMOTLARNI TO'PLAYMIZ?",
+        "disclosedTitle": "Siz bizga oshkor qiladigan shaxsiy ma'lumotlar",
+        "disclosedIntro": "<strong>Qisqacha</strong>: Biz siz ixtiyoriy ravishda bizga taqdim etgan shaxsiy ma'lumotlarni to'playmiz, masalan, hisob yaratganingizda, tilovat tuzatishdan foydalanganingizda yoki aloqa formamizni ishlatganingizda.",
+        "disclosedContact": "Agar siz ilovaga o'rnatilgan aloqa formasi orqali biz bilan bog'lansangiz, biz ismingizni, email manzilingizni va xabaringiz mazmunini, shuningdek tegishli texnik ma'lumotlarni (platforma, til, ilova versiyasi, qurilma turi, vaqt zonasi) sizga javob berish va mumkin bo'lgan muammolarni tashxislash uchun to'playmiz.",
+        "disclosedAccount": "Agar siz ixtiyoriy hisob yaratsangiz, biz email manzilingizni (email orqali kirish) yoki ushbu xizmatlar orqali kirish paytida Google yoki Apple tomonidan uzatilgan ma'lumotlarni (hisob identifikatori, ism va email manzil, agar ularni ulashishni tanlasangiz) profilingizni yaratish va xavfsizligini ta'minlash hamda taraqqiyotingiz va Premium obunangizni sinxronlashtirish uchun to'playmiz.",
+        "audioTitle": "Audio yozuvlar (tilovat tuzatish)",
+        "audioIntro": "<strong>Qisqacha</strong>: Agar siz tilovat tuzatishdan foydalansangiz, ovoz yozuvingiz tahlil qilinishi va/yoki tekshiruvchi tomonidan qayta tinglanishi uchun serverlarimizga (Google Firebase Storage) xavfsiz tarzda yuboriladi.",
+        "audioDetail": "Ovoz qo'llaniladigan qonunchilikka qarab biometrik yoki nozik ma'lumot sifatida qaralishi mumkin. Tilovat tuzatish funksiyasidan foydalanganingizda, audio yozuvingiz hisobingizga bag'ishlangan joyda (Google Firebase Storage) saqlanadi, unga faqat siz o'zingiz va topshirig'ingizni qayta ishlashga ruxsat berilgan tekshiruvchilar, faqat talaffuzingiz haqida fikr-mulohaza berish maqsadida kirishlari mumkin. Bu yozuvlar na reklama maqsadida ishlatiladi, na ularni saqlash uchun zarur bo'lgan texnik ta'minotchilardan (Google Firebase) tashqari uchinchi tomonlar bilan ulashiladi. Siz istalgan vaqtda biz bilan bog'lanib (\"Biz bilan qanday bog'lanish mumkin\" bo'limiga qarang) yozuvlaringizni o'chirishni so'rashingiz mumkin.",
+        "autoTitle": "Avtomatik to'planadigan ma'lumotlar",
+        "autoIntro": "Ko'pgina ilovalar singari, Noor Phonetic Quran ba'zi foydalanish va qurilma ma'lumotlarini avtomatik ravishda to'playdigan uchinchi tomon texnik xizmatlaridan foydalanadi:",
+        "table": {
+          "headers": {
+            "service": "Xizmat",
+            "purpose": "Maqsad",
+            "data": "Tegishli ma'lumotlar"
+          },
+          "rows": {
+            "analytics": {
+              "service": "Google Firebase Analytics",
+              "purpose": "Auditoriya va funksiyalardan foydalanishni o'lchash (ko'rilgan ekranlar, o'qish, yodlash yoki viktorina kabi ilova ichidagi harakatlar), yig'ma va anonimlashtirilgan shaklda",
+              "data": "Reklama/o'rnatish identifikatori, foydalanish statistikasi, til, premium holati"
+            },
+            "crashlytics": {
+              "service": "Google Firebase Crashlytics",
+              "purpose": "Xatolarni tuzatish uchun ilova ishdan chiqishlarini texnik tashxislash",
+              "data": "Ishdan chiqish hisobotlari, qurilma va operatsion tizim haqidagi texnik ma'lumotlar"
+            },
+            "auth": {
+              "service": "Google Firebase Authentication",
+              "purpose": "Ixtiyoriy hisobingizni (email, Google, Apple) yaratish va xavfsizligini ta'minlash, taraqqiyotingiz va obunangizni sinxronlashtirish",
+              "data": "Email manzili, hisob identifikatori, foydalanilgan kirish usuli"
+            },
+            "storage": {
+              "service": "Google Firebase Storage",
+              "purpose": "Tilovat tuzatishdan foydalansangiz, audio yozuvlaringizni xavfsiz saqlash",
+              "data": "Ovozingizning audio fayllari, hisob identifikatoringiz bilan bog'langan"
+            },
+            "purchases": {
+              "service": "Google Play / App Store (ilova ichi xaridlar)",
+              "purpose": "Premium obunani boshqarish (reklamani olib tashlash)",
+              "data": "Xarid holati va identifikatori, to'g'ridan-to'g'ri Google/Apple tomonidan boshqariladi"
+            },
+            "admob": {
+              "service": "Google AdMob",
+              "purpose": "Premium bo'lmagan foydalanuvchilar uchun reklamalarni ko'rsatish (bannerlar, interstitiallar), shuningdek Premium obunaga yozilmasdan bizni qo'llab-quvvatlash uchun ixtiyoriy ravishda ko'rishni tanlashingiz mumkin bo'lgan mukofotli reklamalar (\"rewarded ads\")",
+              "data": "Qurilmaning reklama identifikatori, reklamalar bilan o'zaro ta'sir ma'lumotlari"
+            }
+          }
+        },
+        "att": "iOS'da shaxsiylashtirilgan reklamalarni ko'rsatish operatsion tizim tomonidan taklif qilinadigan \"App Tracking Transparency\" (ATT) ruxsati so'rovi bilan birga kelishi mumkin. Siz bu ruxsatni istalgan vaqtda qurilmangizning maxfiylik sozlamalaridan (Sozlamalar > Maxfiylik va xavfsizlik > Kuzatuv) rad etishingiz mumkin; agar rad etsangiz ham ilova to'liq ishlaydi.",
+        "noLocation": "Biz aniq joylashuvingizni to'plamaymiz; ilova geolokatsiyaga kirish ruxsatini so'ramaydi."
+      },
+      "process": {
+        "heading": "MA'LUMOTLARINGIZNI QANDAY QAYTA ISHLAYMIZ?",
+        "summary": "<strong>Qisqacha</strong>: Biz ma'lumotlaringizni ilovani ishlatish, so'rovlaringizga javob berish, Xizmatlarimizni yaxshilash va zarur bo'lganda obunangizni boshqarish uchun qayta ishlaymiz.",
+        "detail": "Biz yuqorida tavsiflangan ma'lumotlarni quyidagi maqsadlarda qayta ishlaymiz: (i) ilova funksiyalarini (o'qish, yodlash, khatma, viktorina, tilovat tuzatish) taqdim etish va saqlash, (ii) aloqa formasi orqali yuborilgan xabarlaringizga javob berish, (iii) texnik muammolarni tashxislash va tuzatish, (iv) rivojlanishimizni ustuvorlashtirish uchun funksiyalardan yig'ma foydalanishni o'lchash, (v) premium obunani va premium bo'lmagan foydalanuvchilar uchun reklama ko'rsatishni boshqarish."
+      },
+      "legal": {
+        "heading": "SHAXSIY MA'LUMOTLARINGIZNI QAYTA ISHLASH UCHUN QANDAY HUQUQIY ASOSLARGA TAYANAMIZ?",
+        "summary": "<strong>Qisqacha</strong>: Biz shaxsiy ma'lumotlaringizni faqat bu zarur deb hisoblasak va qo'llaniladigan qonunga muvofiq buni qilish uchun qonuniy asosga ega bo'lsak qayta ishlaymiz.",
+        "euTitle": "Agar siz EI yoki Buyuk Britaniyada bo'lsangiz, bu bo'lim sizga tegishli.",
+        "euIntro": "Ma'lumotlarni himoya qilish umumiy reglamenti (GDPR) va Buyuk Britaniyaning GDPR'i bizni shaxsiy ma'lumotlaringizni qayta ishlash uchun tayangan qonuniy asoslarni tushuntirishga majbur qiladi:",
+        "euList": {
+          "consent": "<strong>Rozilik</strong>: shaxsiylashtirilgan reklamalarni ko'rsatish va auditoriyani o'lchash uchun, ilovaning birinchi ishga tushirilishida rozilik banneri orqali olinadi.",
+          "contract": "<strong>Shartnomani bajarish</strong>: premium obunangizni boshqarish uchun.",
+          "legitimate": "<strong>Qonuniy manfaat</strong>: texnik tashxis (Crashlytics) va aloqa xabarlaringizni qayta ishlash uchun."
+        },
+        "canadaTitle": "Agar siz Kanadada bo'lsangiz, bu bo'lim sizga tegishli.",
+        "canadaText": "Agar siz bizga aniq ruxsat bergan bo'lsangiz yoki qonun bilan belgilangan ba'zi hollarda (maxfiylikni himoya qilish to'g'risidagi qonun) biz ma'lumotlaringizni qayta ishlashimiz mumkin. Biz shuningdek, oqilona shaxs mos deb hisoblaydigan maqsadlar uchun, masalan aloqa so'rovlaringizga javob berish uchun ma'lumotlaringizni qayta ishlashimiz mumkin."
+      },
+      "share": {
+        "heading": "SHAXSIY MA'LUMOTLARINGIZNI QACHON VA KIM BILAN ULASHAMIZ?",
+        "summary": "<strong>Qisqacha</strong>: Biz ma'lumotlarni faqat ilovaning ishlashi uchun zarur bo'lgan texnik ta'minotchilar (Google Firebase, Google AdMob), xaridlarni boshqarish uchun ilovalar do'konlari (Google Play, App Store) bilan va qonun talab qilganda ulashamiz. Biz hech qachon ma'lumotlaringizni uchinchi tomonlarga sotmaymiz."
+      },
+      "keep": {
+        "heading": "MA'LUMOTLARINGIZNI QANCHA VAQT SAQLAYMIZ?",
+        "summary": "<strong>Qisqacha</strong>: Biz ma'lumotlaringizni ushbu bildirishnomada tavsiflangan maqsadlar uchun zarur bo'lgan muddatgacha saqlaymiz, agar qonun uzoqroq saqlash muddatini talab qilmasa.",
+        "detail": "Aloqa formasi orqali yuborilgan xabarlar so'rovingizni qayta ishlash vaqtigacha saqlanadi, so'ngra arxivlanadi yoki o'chiriladi. Yig'ma statistik ma'lumotlar (Firebase Analytics) Google Firebase'ning standart sozlamalariga muvofiq saqlanadi."
+      },
+      "rights": {
+        "heading": "MAXFIYLIK BO'YICHA HUQUQLARINGIZ QANDAY?",
+        "summary": "<strong>Qisqacha</strong>: Yashash mamlakatingizga qarab, siz shaxsiy ma'lumotlaringizga kirish, ularni tuzatish yoki o'chirish, qayta ishlashga rozilikni bekor qilish va ba'zi qayta ishlashlarga e'tiroz bildirish huquqiga ega bo'lishingiz mumkin.",
+        "detail": "Siz istalgan vaqtda auditoriyani o'lchash va shaxsiylashtirilgan reklamaga rozilikni ilovada mavjud maxfiylik sozlamalaridan (Sozlamalar > Maxfiylik) bekor qilishingiz mumkin."
+      },
+      "dnt": {
+        "heading": "\"DO-NOT-TRACK\" FUNKSIYALARINI BOSHQARISH",
+        "text": "Ko'pgina veb-brauzerlar va ba'zi operatsion tizimlar hamda mobil ilovalar maxfiylik afzalligingizni bildirish uchun yoqishingiz mumkin bo'lgan \"Do-Not-Track\" (\"DNT\") funksiyasi yoki sozlamasini o'z ichiga oladi. Hozircha DNT signallarini tan olish va amalga oshirish uchun yagona texnologik standart yakunlanmagan. Shu sababli, biz hozirda DNT brauzer signallariga javob bermaymiz. Agar kelajakda biz amal qilishimiz kerak bo'lgan onlayn kuzatuv bo'yicha standart qabul qilinsa, biz sizga ushbu maxfiylik bildirishnomasining qayta ko'rib chiqilgan versiyasida xabar beramiz."
+      },
+      "usRights": {
+        "heading": "AQSH REZIDENTLARI MAXFIYLIK BO'YICHA MAXSUS HUQUQLARGA EGAMI?",
+        "summary": "<strong>Qisqacha</strong>: Agar siz AQSH rezidenti bo'lsangiz, yashaydigan shtatingizga qarab shaxsiy ma'lumotlaringizga kirish bo'yicha ba'zi maxsus huquqlardan foydalanasiz. Siz quyida ko'rsatilgan manzil orqali biz bilan bog'lanib, ushbu huquqlarni amalga oshirishingiz mumkin."
+      },
+      "updates": {
+        "heading": "USHBU BILDIRISHNOMANI YANGILAYMIZMI?",
+        "summary": "<strong>Qisqacha</strong>: Ha, biz tegishli qonunlarga muvofiqligimizni saqlash uchun zarur bo'lganda ushbu bildirishnomani yangilaymiz.",
+        "detail": "Biz vaqti-vaqti bilan ushbu maxfiylik bildirishnomasini yangilashimiz mumkin. Yangilangan versiya yangilangan \"Ko'rib chiqish\" sanasi bilan ko'rsatiladi va kirish imkoni paydo bo'lishi bilan kuchga kiradi. Agar ushbu maxfiylik bildirishnomasiga muhim o'zgartirishlar kiritsak, biz sizga bu o'zgarishlar haqida ko'rinadigan xabar joylashtirish orqali yoki to'g'ridan-to'g'ri xabarnoma yuborish orqali ma'lum qilishimiz mumkin. Biz ma'lumotlaringizni qanday himoya qilishimiz haqida xabardor bo'lish uchun ushbu maxfiylik bildirishnomasini tez-tez ko'rib chiqishingizni tavsiya qilamiz."
+      },
+      "contact": {
+        "heading": "USHBU BILDIRISHNOMA HAQIDA BIZ BILAN QANDAY BOG'LANISH MUMKIN?",
+        "text": "Agar ushbu bildirishnoma haqida savollaringiz yoki fikrlaringiz bo'lsa, siz bizga <mailLink>othmeneb@gmail.com</mailLink> orqali xat yuborishingiz mumkin."
+      },
+      "access": {
+        "heading": "TO'PLAYOTGAN MA'LUMOTLARIMIZNI QANDAY KO'RISH, YANGILASH YOKI O'CHIRISH MUMKIN?",
+        "text": "Mamlakatingizda qo'llaniladigan qonunlarga qarab, siz sizga oid saqlayotgan shaxsiy ma'lumotlarimizga kirishni, ularni o'zgartirishni yoki o'chirishni so'rash huquqiga ega bo'lishingiz mumkin. Buning uchun bizga <mailLink>othmeneb@gmail.com</mailLink> orqali bog'lanishingiz kifoya; biz so'rovingizni imkon qadar tezroq qayta ishlaymiz."
+      }
+    },
+    "footer": "© 2026 Noor Phonetic Quran. Barcha huquqlar himoyalangan.",
+    "meta": {
+      "title": "Maxfiylik siyosati - Noor Phonetic Quran",
+      "description": "Noor Phonetic Quran maxfiylik siyosati: to'planadigan ma'lumotlar (tahlil, xaridlar, aloqa shakli), maqsadlar, uchinchi shaxslar bilan almashish va sizning huquqlaringiz."
+    }
+  },
+  "correctionRecitation": {
+    "meta": {
+      "title": "Qur'on Tilovatini Tuzatish: Yozib Oling va Rivojlaning | Noor Phonetic Quran",
+      "description": "Noor Phonetic Quran bilan Qur'on tilovatingizni yozib oling va shaxsiylashtirilgan tuzatish oling: talaffuz va Tajweed qoidalariga rioya qilishni yaxshilash. iOS va Android'da bepul.",
+      "keywords": "Qur'on tilovatini tuzatish, tilovatni yaxshilash, Tajweed tuzatish, tilovatni yozib olish, Qur'on tuzatish ilovasi, Qur'onni to'g'ri tilovat qilishni o'rganish",
+      "ogTitle": "Qur'on Tilovatini Tuzatish: Yozib Oling va Rivojlaning",
+      "ogDescription": "Tilovatingizni yozib oling va talaffuz hamda Tajweed'da rivojlanish uchun shaxsiylashtirilgan tuzatish oling. Bepul Noor Phonetic Quran ilovasi."
+    },
+    "breadcrumb": {
+      "home": "Bosh sahifa",
+      "current": "Tilovat tuzatish"
+    },
+    "hero": {
+      "title": "Qur'on Tilovatini Tuzatish: Yozib Oling va Rivojlaning",
+      "subtitle": "Tilovatingizni to'g'ridan-to'g'ri ilovada yozib oling va talaffuzingiz hamda Tajweed qoidalariga rioya qilishingizni yaxshilash uchun shaxsiylashtirilgan tuzatish oling."
+    },
+    "intro": {
+      "title": "Nega tilovatni tuzatish kerak?",
+      "paragraph1": "To'g'ri tilovat qilish faqat fonetikani to'g'ri o'qish bilan cheklanmaydi: Tajweed qoidalariga (cho'zishlar, birikmalar, harflarning chiqish nuqtalari) rioya qilish ko'pincha nima yaxshilanishi kerakligini aniqlash uchun tashqi fikr-mulohazani talab qiladi.",
+      "paragraph2": "Noor Phonetic Quran bilan siz to'g'ridan-to'g'ri ilovada yozib olishingiz va doim mavjud bo'lgan o'qituvchi topish zaruratisiz shaxsiylashtirilgan tuzatish olishingiz mumkin."
+    },
+    "steps": {
+      "title": "Tilovat tuzatish qanday ishlaydi?",
+      "items": [
+        {
+          "title": "Parchani tanlang",
+          "text": "tilovat qilmoqchi bo'lgan sura va oyatlarni tanlang."
+        },
+        {
+          "title": "Tilovatingizni yozib oling",
+          "text": "to'g'ridan-to'g'ri ilovadan, qo'shimcha jihozlarsiz."
+        },
+        {
+          "title": "Yozuvingizni yuboring",
+          "text": "tilovatingiz tinglanishi uchun navbatga qo'yiladi."
+        },
+        {
+          "title": "Tuzatishingizni oling",
+          "text": "shaxsiylashtirilgan javob to'g'ridan-to'g'ri ilovada yaxshilanishi kerak bo'lgan nuqtalarni ko'rsatadi."
+        },
+        {
+          "title": "Yozuvlar davomida rivojlaning",
+          "text": "talaffuzingiz va Tajweed'ingizni takomillashtirish uchun mashqni muntazam takrorlang."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Tilovat tuzatish haqida ko'p beriladigan savollar",
+      "items": [
+        {
+          "question": "Tilovat tuzatish bepulmi?",
+          "answer": "Birinchi yozuv bepul. Undan keyin, funksiya ilovaning premium taklifiga kiradi."
+        },
+        {
+          "question": "Tuzatish olish uchun qancha vaqt kerak?",
+          "answer": "Yozuvingiz to'g'ridan-to'g'ri ilovada shaxsiylashtirilgan javob bilan tinglanish va tuzatilish uchun navbatga qo'yiladi."
+        },
+        {
+          "question": "Bir xil parchani bir necha marta qayta yozib olsam bo'ladimi?",
+          "answer": "Ha, siz bir xil parchada rivojlanish uchun mashqni istagancha takrorlashingiz mumkin."
+        }
+      ]
+    },
+    "related": {
+      "title": "Shuningdek ko'ring",
+      "tajweed": "Tajweed Qoidalari",
+      "memorisation": "Qur'onni Yodlash (Hifz)",
+      "allFeatures": "Barcha funksiyalar"
+    }
+  },
+  "khatmaCoran": {
+    "meta": {
+      "title": "Qur'on Khatmasi: To'liq O'qishni Rejalashtirish va Kuzatish uchun Ilova | Noor Phonetic Quran",
+      "description": "Noor Phonetic Quran ilovasi bilan Khatmangizni (Qur'onni to'liq o'qish) rejalashtiring: kunlik maqsadlar, taraqqiyot kuzatuvi, ketma-ket kunlar (streak) va eslatmalar. iOS va Android'da bepul.",
+      "keywords": "Qur'on khatmasi, khatma ilovasi, Qur'onni to'liq o'qish, Qur'on o'qish rejasi, Ramazon khatma maqsadi, Qur'on o'qish kuzatuvi, Qur'onni tugatish",
+      "ogTitle": "Qur'on Khatmasi: To'liq O'qishingizni Rejalashtiring va Kuzating",
+      "ogDescription": "Kunlik maqsadlar, taraqqiyot kuzatuvi va eslatmalar bilan Khatmangizni rejalashtiring. Bepul Noor Phonetic Quran ilovasi."
+    },
+    "breadcrumb": {
+      "home": "Bosh sahifa",
+      "current": "Qur'on Khatmasi"
+    },
+    "hero": {
+      "title": "Qur'on Khatmasi: To'liq O'qishingizni Rejalashtiring va Tugating",
+      "subtitle": "O'zingizga kunlar maqsadini belgilang, kunlik taraqqiyotingizni kuzating va muntazam bo'lish uchun eslatmalar bilan Muqaddas Qur'onning oxirgi sahifasigacha o'qish ketma-ketligingizni (streak) saqlang.",
+      "googlePlay": "Google Play",
+      "appStore": "App Store"
+    },
+    "intro": {
+      "title": "Khatma nima?",
+      "paragraph1": "Khatma - Qur'onni boshidan (Al-Fotiha) oxirigacha (An-Nas) to'liq o'qishni bildiradi. Ko'plab musulmonlar Ramazon oyida Khatma amalga oshiradilar, lekin u yil davomida istalgan vaqtda, siz tanlagan muddatda ham amalga oshirilishi mumkin.",
+      "paragraph2": "Qur'onni tugatish izchillikni talab qiladi: o'qish rejasi va kuzatuvsiz, yo'lni yo'qotish yoki yarim yo'lda to'xtatib qo'yish oson. Noor Phonetic Quran'ning Khatma funksiyasi aynan shu muammoni hal qiladi."
+    },
+    "features": {
+      "title": "Ilovada Khatma qanday ishlaydi?",
+      "items": [
+        {
+          "title": "Khatmangiz davomiyligini tanlang",
+          "description": "masalan Ramazon uchun 30 kun, yoki sur'atingizga moslashtirilgan shaxsiy muddat."
+        },
+        {
+          "title": "Kunlik maqsadingizni kuzating",
+          "description": "ilova o'z vaqtida tugatish uchun har kuni o'qilishi kerak bo'lgan sahifalar sonini avtomatik hisoblaydi."
+        },
+        {
+          "title": "O'qish ketma-ketligingizni (streak) saqlang",
+          "description": "maqsadingizga erishgan har bir kun streak'ingizni uzaytiradi, muntazam bo'lish uchun qo'shimcha motivatsiya."
+        },
+        {
+          "title": "Eslatmalar oling",
+          "description": "bildirishnomalar kunlik o'qishingizni unutmasligingizga yordam beradi."
+        },
+        {
+          "title": "Khatmangiz yakunini nishonlang",
+          "description": "Qur'on tugagach, sayohatingiz (olingan kunlar, eng yaxshi streak) haqida qisqacha ma'lumot ko'rsatiladi."
+        }
+      ]
+    },
+    "screenshots": {
+      "title": "Khatma funksiyasiga umumiy nazar",
+      "alts": [
+        "Noor Phonetic Quran - Khatma rejasini tanlash (30, 60, 90 kun yoki Ramazon)",
+        "Noor Phonetic Quran - Streak bilan Khatma taraqqiyoti kuzatuvi",
+        "Noor Phonetic Quran - O'qish paytida ko'rsatiladigan Khatma ko'rsatkichi"
+      ]
+    },
+    "faq": {
+      "title": "Khatma haqida ko'p beriladigan savollar",
+      "items": [
+        {
+          "question": "Qur'on Khatmasi nima?",
+          "answer": "Khatma - Qur'onni boshidan oxirigacha to'liq o'qishni bildiradi, odatda belgilangan davr ichida (ko'pincha Ramazon oyida, lekin yil davomida ham) amalga oshiriladi."
+        },
+        {
+          "question": "Ilova bilan Khatmani qanday rejalashtirish mumkin?",
+          "answer": "Qur'onni tugatish uchun kunlar sonini tanlang (masalan Ramazon uchun 30 kun), ilova avtomatik ravishda kunlik sahifa maqsadingizni hisoblaydi va taraqqiyotingizni kundan-kunga kuzatib boradi."
+        },
+        {
+          "question": "Agar o'qish kunini o'tkazib yuborsam, nima bo'ladi?",
+          "answer": "Ilova, ketma-ket kunlaringizni (streak) kuzatib borishda, orqada qolganingizni qoplab, Khatmangizni o'z vaqtida tugatish imkonini berish uchun qolgan kunlik maqsadingizni sozlaydi."
+        },
+        {
+          "question": "Ramazondan tashqarida Khatma qilsam bo'ladimi?",
+          "answer": "Ha, siz yil davomida istalgan vaqtda, tanlagan muddatingiz bilan Khatma boshlashingiz mumkin."
+        },
+        {
+          "question": "Khatma funksiyasi bepulmi?",
+          "answer": "Ha, Noor Phonetic Quran'ning barcha asosiy funksiyalari singari, Khatma ham to'liq bepul."
+        }
+      ]
+    },
+    "related": {
+      "title": "Shuningdek ko'ring",
+      "memorization": "Qur'onni Yodlash (Hifz)",
+      "audio": "Qur'on Audiosi",
+      "allFeatures": "Barcha funksiyalar"
+    }
+  },
+  "tajweedCoran": {
+    "meta": {
+      "title": "Qur'on Tajweed Qoidalari: Rangli va Batafsil O'rganish | Noor Phonetic Quran",
+      "description": "Noor Phonetic Quran bilan Qur'on Tajweed qoidalarini o'rganing: o'qish paytida ranglar va izohlar, harflarning chiqish nuqtalari (Makharej), Noun Sâkinah va Waqf qoidalari. iOS va Android'da bepul.",
+      "keywords": "Tajweed qoidalari, Qur'on Tajweed, Tajweed o'rganish, rangli Tajweed, arab harflari Makharej, Noun Sakinah Tanwin, Waqf Ibtida, bepul Tajweed ilovasi",
+      "ogTitle": "Qur'on Tajweed Qoidalari: Rangli va Batafsil O'rganish",
+      "ogDescription": "O'qish paytida ranglar va izohlar, chiqish nuqtalari, Noun Sâkinah va Waqf qoidalari. Bepul Noor Phonetic Quran ilovasi."
+    },
+    "breadcrumb": {
+      "home": "Bosh sahifa",
+      "current": "Tajweed Qoidalari"
+    },
+    "hero": {
+      "title": "Qur'on Tajweed Qoidalari: Rangli va Batafsil O'rganish",
+      "subtitle": "Qur'on matni Tajweed qoidalariga muvofiq rangli va izohli ko'rsatiladi, chiqish nuqtalari, Noun Sâkinah va to'xtash-davom ettirish qoidalari bo'yicha batafsil qo'llanmalar bilan birga.",
+      "backLink": "Bosh sahifaga qaytish",
+      "googlePlay": "Google Play",
+      "appStore": "App Store"
+    },
+    "intro": {
+      "title": "Nega Tajweed muhim",
+      "paragraph1": "Tajweed - Qur'onning to'g'ri tilovat qilinishini kafolatlaydigan qoidalar to'plami: har bir harfning aniq talaffuzi, cho'zishlar, birikmalar va o'qishni to'xtatish yoki davom ettirish mumkin bo'lgan joylar. Tajweed'ga rioya qilmasdan tilovat qilish matn ma'nosini o'zgartirishi mumkin.",
+      "paragraph2": "Noor Phonetic Quran bu qoidalarni o'qish paytida ranglar va har bir tushunchani chuqurroq o'rganish uchun batafsil qo'llanmalar bilan ko'zga ko'rinadigan va tushunarli qiladi."
+    },
+    "features": {
+      "title": "Tajweed o'rganish nimalarni taklif qiladi",
+      "items": [
+        {
+          "title": "Rangli va izohli matn",
+          "description": "ranglar va izohlar tilovatingizni to'g'ridan-to'g'ri Qur'on matnida, to'g'ri Tajweed qoidalariga muvofiq yo'naltiradi."
+        },
+        {
+          "title": "Chiqish nuqtalari (Makharej)",
+          "description": "har bir arab harfining chiqish nuqtasidan kelib chiqib, to'g'ri talaffuzini anatomik sxemalar bilan o'rganing."
+        },
+        {
+          "title": "Noun Sâkinah va Tanwîn",
+          "description": "noun sâkinah va tanwîn'ni tartibga soluvchi 4 qoida (Izhâr, Idghâm, Iqlâb, Ikhfâ') tushuntirilgan va vizual solishtirilgan."
+        },
+        {
+          "title": "Waqf va Ibtidā",
+          "description": "matn ma'nosini saqlash uchun tilovatni to'xtatish va davom ettirishga ruxsat berilgan joylarni aniqlaydigan qoidalar."
+        }
+      ]
+    },
+    "screenshots": {
+      "title": "Tajweed qoidalariga umumiy nazar",
+      "alts": [
+        "Noor Phonetic Quran - O'qish paytida rangli Tajweed qoidalari",
+        "Noor Phonetic Quran - Arab harflarining chiqish nuqtalari (Makharej)",
+        "Noor Phonetic Quran - Noun Sâkinah va Tanwîn qoidalari",
+        "Noor Phonetic Quran - Waqf va Ibtidā qoidalari (to'xtash va davom ettirish)"
+      ]
+    },
+    "faq": {
+      "title": "Tajweed haqida ko'p beriladigan savollar",
+      "items": [
+        {
+          "question": "Tajweed nima?",
+          "answer": "Tajweed - Qur'onning to'g'ri talaffuzini tartibga soluvchi qoidalar to'plami: cho'zishlar, birikmalar, harflarning chiqish nuqtalari va tilovatni to'xtatish hamda davom ettirish qoidalari."
+        },
+        {
+          "question": "Ilova Tajweed'ni qanday o'rgatadi?",
+          "answer": "Qur'on matni o'qish paytida Tajweed qoidalariga muvofiq rangli va izohli ko'rsatiladi, batafsil qo'llanmalar esa har bir qoidani tushuntiradi: chiqish nuqtalari, Noun Sâkinah va Tanwîn, shuningdek Waqf va Ibtidā qoidalari."
+        },
+        {
+          "question": "Tajweed boshlovchilar uchun moslashtirilganmi?",
+          "answer": "Ha, har bir qoida oldindan bilim talab qilmasdan o'rganishni osonlashtirish uchun sodda ta'riflar, misollar va vizual solishtirishlar bilan tushuntiriladi."
+        }
+      ]
+    },
+    "related": {
+      "title": "Shuningdek ko'ring",
+      "audio": "Qur'on Audiosi",
+      "memorization": "Qur'onni Yodlash (Hifz)",
+      "allFeatures": "Barcha funksiyalar"
+    }
+  },
+  "quizCoran": {
+    "meta": {
+      "title": "Qur'on Viktorinasi: Bilimlaringizni O'ynab Sinang | Noor Phonetic Quran",
+      "description": "Noor Phonetic Quran'ning Qur'on Viktorinasi bilan Qur'on bilimingizni sinang: 21 savol, yutuqlar shkalasi, 50:50 jokerlar, tomoshabinlar so'rovi va do'stga qo'ng'iroq. iOS va Android'da bepul.",
+      "keywords": "Qur'on viktorinasi, Qur'on savol-javob o'yini, Qur'on bilimini sinash, islom viktorinasi, bepul Qur'on viktorinasi ilovasi, Qur'on savol va javoblari",
+      "ogTitle": "Qur'on Viktorinasi: Bilimlaringizni O'ynab Sinang",
+      "ogDescription": "21 savol, yutuqlar shkalasi, 50:50 jokerlar, tomoshabinlar so'rovi va do'stga qo'ng'iroq. Bepul Noor Phonetic Quran ilovasi."
+    },
+    "breadcrumb": {
+      "home": "Bosh sahifa",
+      "current": "Qur'on Viktorinasi"
+    },
+    "hero": {
+      "title": "Qur'on Viktorinasi: Bilimlaringizni O'ynab Sinang",
+      "subtitle": "21 savol, o'sib boruvchi yutuqlar shkalasi va Qur'onni qiziqarli tarzda o'rganish uchun uchta joker (50:50, tomoshabinlar so'rovi, do'stga qo'ng'iroq).",
+      "backLink": "Bosh sahifaga qaytish",
+      "googlePlay": "Google Play",
+      "appStore": "App Store"
+    },
+    "intro": {
+      "title": "O'ynab o'rganish uchun viktorina",
+      "paragraph1": "Noor Phonetic Quran'ning Qur'on Viktorinasi \"Kim millioner bo'lishni xohlaydi\" formatidan ilhomlanadi: har bir to'g'ri javobda ortib boruvchi yutuqlar shkalasi bilan Qur'on, islom tarixi va suralar haqida bir qator savollar.",
+      "paragraph2": "Bu yolg'iz yoki oila davrasida, bosimsiz Qur'on haqidagi bilimlarni takrorlash yoki kashf etishning qiziqarli usuli — siz ballaringizni saqlab, istalgan vaqtda to'xtashingiz mumkin."
+    },
+    "features": {
+      "title": "Viktorina qanday ishlaydi?",
+      "items": [
+        {
+          "title": "21 savolga javob bering",
+          "description": "Qur'on va islom tarixi bo'yicha qiyinlik darajasi ortib boruvchi ko'p variantli savollar."
+        },
+        {
+          "title": "Yutuqlar shkalasini kuzating",
+          "description": "har bir to'g'ri javob sizni 100 balldan 1 millionga yetadigan shkala bo'ylab rivojlantiradi."
+        },
+        {
+          "title": "Jokerlaringizdan foydalaning",
+          "description": "50:50 ikkita noto'g'ri javobni yo'q qiladi, tomoshabinlar so'rovi boshqa o'yinchilarning fikrini ko'rsatadi va do'stga qo'ng'iroq sizga javob taklif qiladi."
+        },
+        {
+          "title": "Istalgan vaqtda to'xtang",
+          "description": "\"Walk Away\" tugmasi hammasini yo'qotish xavfi o'rniga yutuqlaringizni istalgan vaqtda saqlab qolish imkonini beradi."
+        }
+      ]
+    },
+    "screenshots": {
+      "title": "Qur'on Viktorinasiga umumiy nazar",
+      "alts": [
+        "Noor Phonetic Quran - Qur'on Viktorinasi bosh ekrani",
+        "Noor Phonetic Quran - Yutuqlar shkalasi bilan viktorina savoli",
+        "Noor Phonetic Quran - Viktorinada tomoshabinlar so'rovi jokeri",
+        "Noor Phonetic Quran - Viktorinada do'stga qo'ng'iroq jokeri"
+      ]
+    },
+    "faq": {
+      "title": "Qur'on Viktorinasi haqida ko'p beriladigan savollar",
+      "items": [
+        {
+          "question": "Viktorinada nechta savol bor?",
+          "answer": "Viktorina o'yin davomida qiyinlik darajasi ortib boruvchi 21 ta ko'p variantli savoldan iborat."
+        },
+        {
+          "question": "Agar savolga noto'g'ri javob bersam, nima bo'ladi?",
+          "answer": "Taraqqiyotingizga qarab, siz \"Kim millioner bo'lishni xohlaydi\" formatidagi kabi erishilgan oxirgi kafolatlangan yutuq darajasini saqlab qolasiz."
+        },
+        {
+          "question": "Qur'on viktorinasi bepulmi?",
+          "answer": "Ha, Qur'on Viktorinasi Noor Phonetic Quran'ning bepul funksiyalari qatoriga kiradi."
+        }
+      ]
+    },
+    "related": {
+      "title": "Shuningdek ko'ring",
+      "khatma": "Qur'on Khatmasi",
+      "audio": "Qur'on Audiosi",
+      "allFeatures": "Barcha funksiyalar"
+    }
+  },
+  "memorisationCoran": {
+    "meta": {
+      "title": "Qur'onni Yodlash (Hifz): Audio Takrorlash va Viktorina bilan Ilova | Noor Phonetic Quran",
+      "description": "Noor Phonetic Quran ilovasi bilan Qur'onni (Hifz) yodlang: oyat-boyat audio takrorlash, so'zma-so'z rejim, takrorlash viktorinalari, ballar, darajalar va nishonlar. iOS va Android'da bepul.",
+      "keywords": "Qur'onni yodlash, Hifz Qur'on, Qur'on yodlash ilovasi, Qur'onni yoddan o'rganish, oyat-boyat yodlash, bepul Hifz ilovasi",
+      "ogTitle": "Qur'onni Yodlash (Hifz): Audio Takrorlash, Viktorina va Taraqqiyot Kuzatuvi",
+      "ogDescription": "Audio takrorlash, so'zma-so'z rejim, viktorina va kunlik topshiriqlar bilan Qur'onni yodlang. Bepul Noor Phonetic Quran ilovasi."
+    },
+    "breadcrumb": {
+      "home": "Bosh sahifa",
+      "current": "Qur'onni Yodlash"
+    },
+    "hero": {
+      "title": "Qur'onni Yodlash (Hifz): Audio Takrorlash, Viktorina va Taraqqiyot Kuzatuvi",
+      "subtitle": "Audio takrorlash, so'zma-so'z rejim va takrorlash viktorinalari yordamida Qur'onni oyat-boyat yoddan o'rganing, har kuni motivatsiyangizni saqlash uchun ballar va nishonlar tizimi bilan.",
+      "backLink": "Bosh sahifaga qaytish",
+      "googlePlay": "Google Play",
+      "appStore": "App Store"
+    },
+    "intro": {
+      "title": "Hifz nima?",
+      "paragraph1": "Hifz - Qur'onni oyat-boyat va sura-basura yodlashni bildiradi. Bu muntazam takrorlash, yaxshi o'rganish usullari va allaqachon yaxshi yodlangan narsani tekshirishning ishonchli yo'lini talab qiladigan talabchan sayohatdir.",
+      "paragraph2": "Noor Phonetic Quran ushbu sayohatga mushafni oddiy takroriy o'qish o'rniga aniq vositalar bilan hamrohlik qilish uchun yaratilgan: audio, takrorlash, faol takrorlash va o'yinlashtirish."
+    },
+    "features": {
+      "title": "Ilova bilan Qur'onni qanday yodlash mumkin?",
+      "items": [
+        {
+          "title": "Tinglang va takrorlang",
+          "description": "har bir oyat tinglash orqali yodlashni mustahkamlash uchun audio takrorlashga ega."
+        },
+        {
+          "title": "So'zma-so'z rejimdan foydalaning",
+          "description": "eng uzun oyatlarni bosqichma-bosqich yodlash uchun bo'laklarga bo'ling."
+        },
+        {
+          "title": "Takrorlash viktorinalari bilan o'zingizni sinang",
+          "description": "o'rgangan oyatlaringiz yaxshi yodlanganligini muntazam tekshiring."
+        },
+        {
+          "title": "Ball va nishonlar to'plang",
+          "description": "har bir yodlangan oyat ball keltiradi, darajangizni oshiradi va nishonlarni ochadi."
+        },
+        {
+          "title": "Kunlik topshiriqlarni bajaring",
+          "description": "kunlik maqsadlar sizni ortiqcha yuklamasdan har kuni bir oz yodlashga undaydi."
+        }
+      ]
+    },
+    "screenshots": {
+      "title": "Yodlash rejasiga umumiy nazar",
+      "alts": [
+        "Noor Phonetic Quran - Kunlik yodlash rejasi bosqichlari",
+        "Noor Phonetic Quran - Streak bilan yodlash ro'yxati",
+        "Noor Phonetic Quran - O'qish paytida ko'rsatiladigan kunlik reja ko'rsatkichi"
+      ]
+    },
+    "faq": {
+      "title": "Qur'onni yodlash haqida ko'p beriladigan savollar",
+      "items": [
+        {
+          "question": "Qur'onni yodlash uchun qancha vaqt kerak?",
+          "answer": "Bu har kimning sur'atiga bog'liq. Ilova sizga muddat bosimisiz, oyat-boyat o'z sur'atingizda ilgarilashingiz imkonini beradi."
+        },
+        {
+          "question": "Yodlash rejimi internetsiz ishlaydimi?",
+          "answer": "Suralar yuklab olingandan so'ng, audio takrorlash va takrorlash viktorinalari internetsiz ham mavjud bo'lib qoladi."
+        },
+        {
+          "question": "Yodlash funksiyasi bepulmi?",
+          "answer": "Ha, Noor Phonetic Quran'ning barcha asosiy funksiyalari singari, Yodlash rejimi ham to'liq bepul."
+        }
+      ]
+    },
+    "related": {
+      "title": "Shuningdek ko'ring",
+      "khatma": "Qur'on Khatmasi",
+      "tajweed": "Tajweed Qoidalari",
+      "allFeatures": "Barcha funksiyalar"
+    }
+  }
+}

@@ -1,0 +1,2323 @@
+{
+  "common": {
+    "nav": {
+      "features": "Funcționalități",
+      "screenshots": "Capturi de ecran",
+      "reviews": "Recenzii",
+      "privacy": "Confidențialitate",
+      "contact": "Contact",
+      "openMenu": "Deschide meniul de navigare",
+      "closeMenu": "Închide meniul de navigare",
+      "toggleTheme": "Comută modul întunecat",
+      "googlePlay": "Google Play",
+      "appStore": "App Store",
+      "home": "Acasă",
+      "reviewsBreadcrumb": "Recenzii",
+      "contactBreadcrumb": "Contact",
+      "pages": {
+        "audioCoran": "Audio Coran",
+        "khatmaCoran": "Khatma Coran",
+        "memorisationCoran": "Memorarea Coranului",
+        "quizCoran": "Quiz Coranic",
+        "tajweedCoran": "Reguli de Tajweed",
+        "correctionRecitation": "Corectarea Recitării",
+        "privacyPolicy": "Politica de Confidențialitate",
+        "cgu": "Termeni de Utilizare"
+      }
+    },
+    "languageSwitcher": {
+      "label": "Alege limba",
+      "searchPlaceholder": "Caută o limbă...",
+      "close": "Închide",
+      "noResults": "Nicio limbă găsită"
+    },
+    "footer": {
+      "about": "O aplicație inovatoare pentru a învăța să recitați Sfântul Coran cu precizie și ușurință.",
+      "quickLinks": "Linkuri Rapide",
+      "resources": "Resurse",
+      "faq": "Întrebări frecvente",
+      "support": "Suport",
+      "contact": "Contact",
+      "location": "Paris, Franța",
+      "rights": "Toate drepturile rezervate.",
+      "backToTop": "Înapoi sus"
+    },
+    "contactForm": {
+      "eyebrow": "Contactați-ne",
+      "title": "Contactați-ne",
+      "description": "Dacă aveți sugestii, îmbunătățiri de propus sau nelămuriri, nu ezitați să ne scrieți. Vă vom răspunde rapid.",
+      "highlights": [
+        {
+          "title": "Răspuns rapid",
+          "text": "Echipa noastră tratează fiecare mesaj și vă răspunde de obicei în 48 de ore. Fie că este vorba de o întrebare simplă sau de o problemă tehnică, ne facem o prioritate din a nu lăsa nicio cerere fără răspuns."
+        },
+        {
+          "title": "O comunitate atentă",
+          "text": "Peste 80.000 de utilizatori au deja încredere în noi; feedback-ul dumneavoastră ajută la îmbunătățirea aplicației pentru toți. Fiecare mesaj contează și contribuie la a face din Noor un instrument din ce în ce mai fidel nevoilor utilizatorilor săi."
+        },
+        {
+          "title": "Ideile voastre modelează aplicația",
+          "text": "Multe dintre funcționalitățile actuale (Tajweed, Khatma, quiz...) s-au născut din sugestiile utilizatorilor. Experiența voastră zilnică cu aplicația este cea mai bună sursă de inspirație pentru evoluțiile viitoare."
+        }
+      ],
+      "name": "Nume",
+      "namePlaceholder": "Numele dumneavoastră",
+      "nameRequired": "Numele este obligatoriu",
+      "email": "Email",
+      "emailPlaceholder": "dumneavoastra@exemplu.com",
+      "emailRequired": "Emailul este obligatoriu",
+      "emailInvalid": "Email invalid",
+      "phone": "Telefon (opțional)",
+      "phonePlaceholder": "+40 7xx xxx xxx",
+      "subject": "Subiect",
+      "subjectPlaceholder": "Selectați un subiect...",
+      "subjectRequired": "Vă rugăm să selectați un subiect",
+      "subjectOptions": {
+        "general": "Întrebare generală",
+        "suggestion": "Sugestie",
+        "bug": "Raportați un bug",
+        "technical": "Problemă tehnică",
+        "other": "Altele"
+      },
+      "platform": "Platforma utilizată",
+      "platformPlaceholder": "Selectați o platformă...",
+      "platformRequired": "Vă rugăm să selectați o platformă",
+      "platformOptions": {
+        "ios": "iOS",
+        "android": "Android",
+        "web": "Web"
+      },
+      "message": "Mesaj",
+      "messagePlaceholder": "Scrieți mesajul dumneavoastră aici...",
+      "messageRequired": "Mesajul este obligatoriu",
+      "messageTooShort": "Mesajul trebuie să conțină cel puțin 10 caractere",
+      "send": "Trimite",
+      "sending": "Se trimite...",
+      "successMessage": "Mesajul dumneavoastră a fost trimis cu succes. Mulțumim!",
+      "errorMessage": "A apărut o eroare. Vă rugăm să încercați din nou."
+    }
+  },
+  "home": {
+    "meta": {
+      "title": "Noor Phonetic Quran - Aplicație de Învățare a Coranului",
+      "description": "Noor Phonetic Quran - Aplicație gratuită pentru a învăța să recitați, memorați (Hifz) și citiți Coranul integral (Khatma). Transcriere fonetică, audio sincronizat, Tajweed colorat, plan zilnic de citire, quiz și corectare a recitării. Peste 80.000 de utilizatori mulțumiți. Disponibilă pe iOS și Android.",
+      "keywords": "Coran fonetic, învață Coranul, Quran phonetics, recitarea Coranului, Tajweed, aplicație gratuită Coran, Coran arabă română, transcriere fonetică Coran, learn Quran, Quran app free, Khatma Coran, memorarea Coranului, Hifz Coran, plan de citire Coran, quiz Coran, corectarea recitării Coranului, aplicație memorare Coran",
+      "ogTitle": "Noor Phonetic Quran - Recitați Coranul cu fonetică",
+      "ogDescription": "Învățați să recitați Sfântul Coran chiar și fără să cunoașteți araba. Aplicație gratuită cu fonetică precisă, audio integrat și reguli de Tajweed."
+    },
+    "hero": {
+      "statusBadge": "Peste 80.000 de Utilizatori Activi",
+      "headlineHighlight": "Recitați",
+      "headline": "Sfântul Coran, chiar și fără să cunoașteți araba",
+      "subheadline": "Datorită unei fonetici precise și intuitive, Noor Phonetic Quran face fiecare verset accesibil tuturor.",
+      "miniFeatures": {
+        "phonetics": "Fonetică Precisă",
+        "audio": "Audio Integrat",
+        "tajweed": "Reguli de Tajweed"
+      },
+      "ratingText": "Notă perfectă pe Play Store și App Store",
+      "downloadOn": "Descărcați pe",
+      "usersBadgeLabel": "Utilizatori",
+      "updateBadge": "Actualizat recent",
+      "deviceScreenAlt": "Noor Phonetic Quran - Interfața aplicației care arată fonetica Coranului",
+      "mobileDeviceScreenAlt": "Noor Phonetic Quran - Învățarea Coranului cu transcriere fonetică"
+    },
+    "languages": {
+      "title": "Disponibilă în limba dumneavoastră",
+      "subtitle": "Aplicația Noor Phonetic Quran este tradusă în 20 de limbi pentru a însoți musulmanii din întreaga lume."
+    },
+    "why": {
+      "title": "De ce Noor Phonetic Quran?",
+      "subtitle": "Descoperiți motivele care fac din aplicația noastră o alegere unică",
+      "items": [
+        {
+          "icon": "fa-heart",
+          "stepLabel": "Obstacolul",
+          "title": "Accesibilă Tuturor",
+          "text": "Mulți musulmani doresc să citească Coranul, dar sunt împiedicați de limba arabă. Aplicația noastră elimină această barieră."
+        },
+        {
+          "icon": "fa-graduation-cap",
+          "stepLabel": "Metoda",
+          "title": "Învățare Facilitată",
+          "text": "O fonetică clară și intuitivă permite fiecăruia să învețe în ritmul propriu, fără stres sau frustrare."
+        },
+        {
+          "icon": "fa-check-circle",
+          "stepLabel": "Rezultatul",
+          "title": "Pronunție Corectă",
+          "text": "Ghidați de reguli precise de Tajweed și un audio sincronizat, progresați către o recitare autentică."
+        }
+      ]
+    },
+    "features": {
+      "title": "Caracteristici Principale",
+      "subtitle": "Descoperiți de ce Noor Phonetic Quran este aplicația perfectă pentru a învăța să recitați Coranul",
+      "items": [
+        {
+          "icon": "fa-book",
+          "title": "Transcriere Fonetică",
+          "text": "Fiecare verset este însoțit de o transcriere fonetică detaliată pentru o pronunție corectă."
+        },
+        {
+          "icon": "fa-bookmark",
+          "title": "Reguli de Tajweed",
+          "href": "/tajweed-coran",
+          "text": "Culorile și adnotările vă ghidează recitarea conform regulilor corecte de Tajweed."
+        },
+        {
+          "icon": "fa-language",
+          "title": "Traduceri Multilingve",
+          "text": "Accesați traducerile în franceză și engleză pentru a înțelege mai bine mesajul divin."
+        },
+        {
+          "icon": "fa-headphones",
+          "title": "Audio Sincronizat",
+          "href": "/audio-coran",
+          "text": "Fiecare verset este însoțit de un audio pentru a auzi pronunția corectă."
+        },
+        {
+          "icon": "fa-mobile-alt",
+          "title": "Interfață Prietenoasă",
+          "text": "Navigare intuitivă și personalizare conform preferințelor dumneavoastră."
+        },
+        {
+          "icon": "fa-graduation-cap",
+          "title": "Învățare Facilitată",
+          "text": "Ideală pentru începători sau pentru cei care doresc să-și îmbunătățească recitarea."
+        },
+        {
+          "icon": "fa-calendar-check",
+          "title": "Khatma Coranului",
+          "href": "/khatma-coran",
+          "text": "Planificați și urmăriți citirea completă a Coranului (Khatma) cu obiective zilnice, serii de zile (streak) și mementouri de progres până la final."
+        },
+        {
+          "icon": "fa-calendar-day",
+          "title": "Plan de Citire Zilnic",
+          "text": "Stabiliți un număr de pagini de citit în fiecare zi și urmăriți-vă progresul cu o listă de verificare personalizată, pentru a lua obiceiul de a citi Coranul în mod regulat."
+        },
+        {
+          "icon": "fa-brain",
+          "title": "Memorarea Coranului (Hifz)",
+          "href": "/memorisation-coran",
+          "text": "Memorați Coranul verset cu verset cu repetiție audio, mod cuvânt-cu-cuvânt, quiz de recapitulare, puncte, niveluri, insigne și provocări zilnice pentru a rămâne motivați."
+        },
+        {
+          "icon": "fa-microphone-alt",
+          "title": "Corectarea Recitării",
+          "href": "/correction-recitation-coran",
+          "text": "Înregistrați-vă recitarea și primiți o corectare personalizată pentru a progresa în acuratețea pronunției și a Tajweed-ului."
+        },
+        {
+          "icon": "fa-trophy",
+          "title": "Quiz Coranic",
+          "href": "/quiz-coran",
+          "text": "Testați-vă cunoștințele despre Coran cu un quiz distractiv cu mai multe niveluri de dificultate, pentru a învăța distrându-vă."
+        },
+        {
+          "icon": "fa-mobile-screen-button",
+          "title": "Widget pe Ecranul de Start",
+          "text": "Afișați versetul zilei direct pe ecranul de start al telefonului și păstrați-vă rutina de citire mereu la îndemână."
+        }
+      ]
+    },
+    "videoDemo": {
+      "title": "Descoperiți Aplicația în Acțiune",
+      "subtitle": "Urmăriți acest scurt demo pentru a vedea cum funcționează Noor Phonetic Quran"
+    },
+    "screenshots": {
+      "title": "Capturi de Ecran",
+      "subtitle": "Descoperiți aplicația în imagini",
+      "alts": [
+        "Noor Phonetic Quran - Lista surelor Coranului",
+        "Noor Phonetic Quran - Recitare cu fonetică precisă",
+        "Noor Phonetic Quran - Reguli de Tajweed colorate",
+        "Noor Phonetic Quran - Audio sincronizat cu textul",
+        "Noor Phonetic Quran - Traducere în franceză a Coranului",
+        "Noor Phonetic Quran - Mod de învățare a Coranului",
+        "Noor Phonetic Quran - Navigare pe sure",
+        "Noor Phonetic Quran - Versete cu transcriere fonetică",
+        "Noor Phonetic Quran - Setările aplicației",
+        "Noor Phonetic Quran - Citire continuă a Coranului",
+        "Noor Phonetic Quran - Interfață modernă și intuitivă"
+      ]
+    },
+    "faq": {
+      "title": "Întrebări Frecvente",
+      "subtitle": "Găsiți rapid răspunsuri la întrebările dumneavoastră",
+      "items": [
+        {
+          "question": "Funcționează aplicația fără conexiune la internet?",
+          "answer": "Da, absolut! Toate surele Coranului sunt disponibile offline odată ce aplicația este instalată. Puteți citi și recita oriunde, fără conexiune la internet."
+        },
+        {
+          "question": "Ce fonetică utilizați?",
+          "answer": "Utilizăm o fonetică engleză simplă și universală, ușor de citit pentru toată lumea. O versiune în fonetică franceză este în curs de dezvoltare și va fi disponibilă în curând."
+        },
+        {
+          "question": "Coranul este complet în aplicație?",
+          "answer": "Da! Aplicația conține Sfântul Coran în întregime, cu cele 114 sure, de la început până la sfârșit, cu transcriere fonetică completă."
+        },
+        {
+          "question": "Audio este disponibil pentru toate versetele?",
+          "answer": "Da, fiecare verset este însoțit de o recitare audio clară și lentă, perfectă pentru a facilita învățarea și a îmbunătăți pronunția."
+        },
+        {
+          "question": "Aplicația este gratuită?",
+          "answer": "Da, Noor Phonetic Quran este complet gratuită. Obiectivul nostru este să facem Coranul accesibil tuturor, fără nicio barieră financiară."
+        },
+        {
+          "question": "Cum funcționează Khatma (citirea completă a Coranului)?",
+          "answer": "Aplicația vă permite să planificați o Khatma alegând un număr de zile pentru a termina Coranul. Vă urmăriți progresul zilnic, seria de zile (streak) și primiți mementouri pentru a rămâne constanți până la finalul citirii."
+        },
+        {
+          "question": "Se poate memora Coranul (Hifz) cu aplicația?",
+          "answer": "Da, aplicația oferă un mod de Memorare complet, cu repetiție audio verset cu verset, mod cuvânt-cu-cuvânt, quiz de recapitulare, puncte, niveluri, insigne și provocări zilnice pentru a vă ajuta să memorați Coranul eficient."
+        },
+        {
+          "question": "Există mai mulți recitatori disponibili?",
+          "answer": "Da, puteți alege dintre mai mulți recitatori ai Coranului și puteți descărca audio pentru o ascultare completă offline, fără conexiune la internet."
+        },
+        {
+          "question": "Oferă aplicația o corectare a recitării?",
+          "answer": "Da, vă puteți înregistra recitarea direct în aplicație și puteți primi o corectare personalizată pentru a vă îmbunătăți pronunția și respectarea regulilor de Tajweed."
+        },
+        {
+          "question": "Vor exista noi funcționalități?",
+          "answer": "Da, lucrăm constant la îmbunătățirea aplicației. Sunt planificate mai multe noutăți: fonetică franceză completă, mod Tajweed colorat extins, mod de învățare literă cu literă și multe altele!"
+        }
+      ]
+    },
+    "testimonials": {
+      "title": "Ce spun utilizatorii noștri",
+      "subtitle": "Descoperiți recenziile comunității noastre în creștere de utilizatori mulțumiți",
+      "prevLabel": "Recenzia anterioară",
+      "nextLabel": "Recenzia următoare",
+      "viewAllLabel": "Vezi toate recenziile",
+      "items": [
+        {
+          "initials": "SD",
+          "name": "Sidy DIOP",
+          "device": "16 iulie 2026",
+          "text": "aplicație foarte bună pentru a învăța Coranul chiar dacă nu poți pronunța, e suficient doar să asculți audio-ul și să revii",
+          "rating": 5
+        },
+        {
+          "initials": "AB",
+          "name": "Amourlaye Beman",
+          "device": "25 martie 2026",
+          "text": "Aplicație foarte foarte bună. Allah să vă binecuvânteze veșnic pentru această acțiune și să vă inspire să îmbogățiți conținutul... ați putea deja să începeți să adăugați traducerea hadith-urilor în franceză. Mulțumesc 🙏🥰👍",
+          "rating": 5
+        },
+        {
+          "initials": "YT",
+          "name": "Yaou Tchari",
+          "device": "6 iulie 2026",
+          "text": "este o aplicație foarte bună pe care o căutam de mult timp, este ușor de citit și rezolvă greșelile care îți fac dificultăți.",
+          "rating": 5
+        },
+        {
+          "initials": "FA",
+          "name": "Fatima",
+          "device": "21 aprilie 2026",
+          "text": "am descoperit această aplicație ca un cadou, m-am regăsit 😁, sincer. am avut o mică problemă care a fost rezolvată foarte repede al hamdoulilah. cu adevărat o ușurință pentru a învăța, aș recomanda-o multor oameni. Allah să vă răsplătească🤲🏻🌹",
+          "rating": 5
+        },
+        {
+          "initials": "DH",
+          "name": "Djamila Hb",
+          "device": "30 iulie 2026",
+          "text": "foarte bună pentru învățarea citirii Coranului, Allah să ne ușureze",
+          "rating": 5
+        },
+        {
+          "initials": "NA",
+          "name": "Naoal",
+          "device": "12 mai 2026",
+          "text": "Este cu adevărat bună pentru cei care nu știu să citească scrierea arabă, pentru că sunt cei care vor să învețe Coranul dar nu știu să citească în arabă. Sincer, este o aplicație de instalat 👍",
+          "rating": 5
+        },
+        {
+          "initials": "ID",
+          "name": "Ibou Dieme",
+          "device": "8 ianuarie 2026",
+          "text": "această aplicație este pur și simplu extraordinară, dacă opțiunea de 100 de stele ar fi disponibilă, aș fi dat-o cu siguranță, dar o mică problemă de rectificat este că nu se pot descărca audio-urile pentru cazul offline, sunt sigur că aplicația ar fi și mai bună cu audio descărcabil pentru a asculta fiind offline",
+          "rating": 5
+        },
+        {
+          "initials": "YC",
+          "name": "Youssouf Cherif",
+          "device": "26 ianuarie 2026",
+          "text": "cea mai bună aplicație. mă ajută mult. Datorită acestei aplicații pot citi cu ușurință Sfântul Coran și îmi face bine ✨. cu adevărat Allah să răsplătească din plin creatorii. este excepțional. o recomand cu tărie. atât de multe funcționalități care vă vor permite să învățați ușor Sfântul Coran cu un plan clar și structurat definit în aplicație.",
+          "rating": 5
+        },
+        {
+          "initials": "FF",
+          "name": "Faiza Faiza",
+          "device": "6 noiembrie 2024",
+          "text": "aplicație bună dar problema este că se oprește la fiecare două minute. Am dezinstalat-o și reinstalat-o și problema persistă. totuși este exact ce căutam. Barak Allahou fikkunna",
+          "rating": 5
+        },
+        {
+          "initials": "LS",
+          "name": "Louis Sawadogo",
+          "device": "27 martie 2025",
+          "text": "este o aplicație foarte bună dar nu reușesc să citesc offline odată descărcat. Și totuși ați spus offline și am constatat că ai nevoie de conexiune pentru a avea acces la date. trebuie să revedeți asta. Mulțumesc.",
+          "rating": 5
+        },
+        {
+          "initials": "YJ",
+          "name": "Yassin Jaounni",
+          "device": "23 noiembrie 2025",
+          "text": "această aplicație este extraordinară pentru că de la început am instalat-o doar pentru a învăța niște sure pentru că nu știu să citesc araba și când am văzut toate funcționalitățile am fost șocat, ceea ce îmi place cel mai mult este că poți învăța araba, învăța invocații și sunt chiar recitatori care citesc Coranul cu tine pentru pronunția ta, dau chiar tehnici pentru a învăța Coranul ușor, este o nebunie, vi-l recomand",
+          "rating": 5
+        },
+        {
+          "initials": "JB",
+          "name": "Jeff Bezos Mayele",
+          "device": "30 mai 2026",
+          "text": "o aplicație bună și minunată. care ne ajută să citim surele și să le înțelegem, pe noi care nu cunoaștem araba",
+          "rating": 5
+        },
+        {
+          "initials": "AB",
+          "name": "Abdoulaye Bah",
+          "device": "5 martie 2025",
+          "text": "O aplicație foarte bună pentru cei care vor să învețe sau să citească Coranul singuri! Allah să vă răsplătească cu bine și să ne ușureze tuturor învățarea și memorarea Sfântului Coran!",
+          "rating": 5
+        },
+        {
+          "initials": "DD",
+          "name": "dohona daouda coulibaly",
+          "device": "2 martie 2025",
+          "text": "Afișarea paginilor este foarte foarte lentă. În rest, ador aplicația. Dar afișarea durează prea mult timp. Aveți propuneri pentru a remedia această problemă?",
+          "rating": 5
+        },
+        {
+          "initials": "YC",
+          "name": "yvan Cedric",
+          "device": "4 martie 2025",
+          "text": "Jazzak Allahou feekoum Foarte bună aplicație pentru învățarea pentru non-arabofoni. Doar că după actualizare, aplicația nu mai permite citirea fără conexiune.",
+          "rating": 5
+        },
+        {
+          "initials": "HN",
+          "name": "Horizons New",
+          "device": "23 august 2025",
+          "text": "Salam alaikum, complet mulțumit de această aplicație, doar introducerea merită 5 stele 🌟 câteva îmbunătățiri ar fi binevenite la încărcarea paginilor și cel mai bine ar fi să faceți o versiune doar FR pentru a evita timpul de așteptare, o versiune de noapte ar fi grozavă pentru citirea de seară, mulțumesc pentru munca voastră, Dumnezeu să vă răsplătească",
+          "rating": 5
+        },
+        {
+          "initials": "DB",
+          "name": "dorra bn",
+          "device": "7 octombrie 2025",
+          "text": "O aplicație utilă și bine gândită! Datorită transliterării, mi-am putut îmbunătăți citirea Coranului în puțin timp. Allah să răsplătească dezvoltatorii",
+          "rating": 5
+        },
+        {
+          "initials": "SM",
+          "name": "Sara ma langue",
+          "device": "5 mai 2025",
+          "text": "O aplicație pe care nu încetez să o recomand celui sau celei care ar dori să citească, să învețe și să înțeleagă în diferite limbi. Machaallah, muncă bine făcută. Este ceea ce am căutat mult timp. ALLAH SWA să vă binecuvânteze.",
+          "rating": 5
+        },
+        {
+          "initials": "AA",
+          "name": "Adoum Ali Bezei",
+          "device": "20 mai 2026",
+          "text": "cel mai bun Coran în fonetică, mulțumesc infinit, sunt foarte recunoscător",
+          "rating": 5
+        },
+        {
+          "initials": "BK",
+          "name": "Bakary Konaté",
+          "device": "19 martie 2025",
+          "text": "mi-a plăcut mult aplicația, dar aș fi preferat să adăugați imamii, ca să putem alege noi înșine imamii cu care am dori să învățăm, ceea ce nu mi-a plăcut prea mult este că citește verset cu verset, aș fi preferat să citească direct o sură fără oprire",
+          "rating": 5
+        },
+        {
+          "initials": "YB",
+          "name": "Yosra Bahri",
+          "device": "5 octombrie 2025",
+          "text": "Aplicație excelentă! Foarte utilă, ușor de folosit și bine gândită. O recomand cu tărie! 👏 Bravo dezvoltatorului pentru această muncă frumoasă, continuați așa, faceți o treabă excelentă! 💪",
+          "rating": 5
+        },
+        {
+          "initials": "FO",
+          "name": "fatima ourja",
+          "device": "25 aprilie 2025",
+          "text": "Aplicație superbă, este exact ce căutam, Allah Preaînaltul să vă răsplătească cu cea mai frumoasă răsplată. Este sincer o aplicație care merită să fie remunerată pe bună dreptate.",
+          "rating": 5
+        },
+        {
+          "initials": "ND",
+          "name": "Nicolas DA COSTA CAMPOS CERCA",
+          "device": "20 aprilie 2025",
+          "text": "recomand aplicația pentru învățarea tajwid-ului care este foarte ușoară pentru începători și de asemenea pentru cel care vrea să se perfecționeze și foarte simplă de utilizat",
+          "rating": 5
+        },
+        {
+          "initials": "SR",
+          "name": "Sadrissi Regbayou",
+          "device": "11 martie 2025",
+          "text": "Bun. Dar pierdem ultima pagină la care eram. În plus, nu permite citirea fără conexiune. Ar fi mai interesant dacă ar exista pe aceleași pagini surele în arabă și traducerea în franceză.",
+          "rating": 5
+        },
+        {
+          "initials": "OA",
+          "name": "Oussama AZIZI",
+          "device": "12 octombrie 2025",
+          "text": "Aplicație excelentă, cu fonetică clară, audio de calitate și reguli de Tajwid în culori. Instrument foarte bun pentru a facilita învățarea Coranului.",
+          "rating": 5
+        },
+        {
+          "initials": "BH",
+          "name": "Bahri Hamza",
+          "device": "27 septembrie 2025",
+          "text": "Salam alaikum, aplicație excelentă 🌟 ușor de folosit și foarte utilă pentru citire și învățare. Allah să răsplătească dezvoltatorii ❤️🤲",
+          "rating": 5
+        },
+        {
+          "initials": "HR",
+          "name": "Houssem RAISSI",
+          "device": "2 octombrie 2024",
+          "text": "Oferă o interfață intuitivă și plăcută, facilitând citirea și navigarea. Este ideală pentru un acces rapid la sure.",
+          "rating": 5
+        },
+        {
+          "initials": "GB",
+          "name": "Gora Bar",
+          "device": "10 octombrie 2025",
+          "text": "O aplicație foarte bună. Foarte simplă de utilizat și nu conține reclame. Bravo!",
+          "rating": 5
+        },
+        {
+          "initials": "SK",
+          "name": "Sekou Kante",
+          "device": "21 martie 2025",
+          "text": "Este aplicația pe care o căutam dar offline nu funcționează, am descărcat opțiunile offline dar tot nu merge, vă rog reglați, pentru mine fonetica este cea care îmi permite să citesc Coranul",
+          "rating": 5
+        },
+        {
+          "initials": "YF",
+          "name": "youssoupha FALL",
+          "device": "11 aprilie 2025",
+          "text": "Allah să vă răsplătească după fiecare click pe aplicație cu munți de hassanat. Nu vă puteți imagina niciodată binele pe care l-ați făcut pentru toți acei musulmani care nu au terminat școala coranică. tocmai am descărcat-o și pentru mama mea, Dumnezeu să vă binecuvânteze din belșug. Mii de mulțumiri ❤️",
+          "rating": 5
+        },
+        {
+          "initials": "TT",
+          "name": "toure traore aboubakar sidik",
+          "device": "29 noiembrie 2024",
+          "text": "Vă dau 3 stele pentru că aplicația nu salvează surele pentru citire offline. În rest este ușor de citit",
+          "rating": 5
+        },
+        {
+          "initials": "MG",
+          "name": "Mory Gbane",
+          "device": "29 iunie 2025",
+          "text": "Aplicație bună dar doar că nu se pot descărca scrierile o dată pentru totdeauna, trebuie mereu re-descărcat. e puțin dificil",
+          "rating": 5
+        },
+        {
+          "initials": "FS",
+          "name": "Fatima Si Ahmed",
+          "device": "23 iulie 2025",
+          "text": "foarte mare ușurință să citești Coranul în fonetică oriunde te-ai afla pentru că nu ai nevoie de conexiune, mai ales când nu vrei să deranjezi pe nimeni, telefonul tău e suficient, fără lumânare 🕯 fără lumină 😇🥰",
+          "rating": 5
+        },
+        {
+          "initials": "MF",
+          "name": "Mohamed Faye",
+          "device": "5 martie 2025",
+          "text": "Vă dau 5 stele 🌟 pentru că sunteți cei mai buni, este superb ce ați realizat, ador cu adevărat 😭❤️❤️❤️ Allah cel Milostiv să te protejeze. Dar mi-ar fi plăcut ca modul audio să fie pentru toată sura, nu doar pentru un singur verset, mulțumesc dinainte",
+          "rating": 5
+        },
+        {
+          "initials": "MG",
+          "name": "Mohamed gaissir Bah",
+          "device": "4 martie 2026",
+          "text": "Salam vouă, aplicație excelentă, am citit deja mai multe cărți în fonetică dar recunosc că această aplicație este cea mai bună până acum, sunt aproape un expert în fonetică și Allah să vă răsplătească din plin, mă bucur cu adevărat 😇😇😇",
+          "rating": 5
+        },
+        {
+          "initials": "YK",
+          "name": "Yao Kouamé Enock",
+          "device": "13 decembrie 2025",
+          "text": "este o aplicație foarte bună pentru noi care nu știm să citim literele arabe. Este exact ce căutam. Mulțumesc enorm dezvoltatorilor. O zi bună, Allah să ne ghideze pe calea cea dreaptă.🤲📿",
+          "rating": 5
+        },
+        {
+          "initials": "FA",
+          "name": "Fatima",
+          "device": "2 ianuarie 2026",
+          "text": "aplicația este bună în ansamblu dar lipsește de fiecare dată sfârșitul fiecărei sure, așa că nu putem citi sau învăța sura la alegere, găsesc asta foarte păcat",
+          "rating": 5
+        },
+        {
+          "initials": "MS",
+          "name": "Macolt Scot",
+          "device": "17 martie 2025",
+          "text": "Alhamdoulilah reușesc să citesc bine Coranul în fonetică, dar descărcarea nu este finalizată și lipsesc pagini",
+          "rating": 5
+        },
+        {
+          "initials": "EH",
+          "name": "El Hadj Diallo",
+          "device": "1 aprilie 2025",
+          "text": "o aplicație foarte bună, clară și bine concepută, fonetica reflectă exact aceleași lucruri cu versetele Coranului, aceeași pronunție, bravo echipei care a făcut acest bine pentru Umma, barakallahu-fik",
+          "rating": 5
+        },
+        {
+          "initials": "AM",
+          "name": "Abdelmadjid Mahamat",
+          "device": "25 aprilie 2025",
+          "text": "MashAllah! cea mai bună aplicație pentru cel care vrea cu adevărat să învețe și să citească fără dificultate.",
+          "rating": 5
+        },
+        {
+          "initials": "OS",
+          "name": "Ousmasim's Simen",
+          "device": "22 iulie 2026",
+          "text": "este superb și mă va ajuta enorm",
+          "rating": 5
+        },
+        {
+          "initials": "NS",
+          "name": "Nour Soum",
+          "device": "17 octombrie 2025",
+          "text": "foarte interesant, singura problemă este că trebuie mereu să te conectezi. încercați și versiunea offline",
+          "rating": 5
+        },
+        {
+          "initials": "CB",
+          "name": "chiraz bahri",
+          "device": "19 octombrie 2025",
+          "text": "Aplicație foarte frumoasă, simplă și completă. Perfectă pentru a citi și asculta Coranul oriunde. بارك الله فيكم",
+          "rating": 5
+        },
+        {
+          "initials": "AA",
+          "name": "aicha Arouna",
+          "device": "29 iulie 2026",
+          "text": "Aplicație foarte bună, recomand această aplicație",
+          "rating": 5
+        },
+        {
+          "initials": "SZ",
+          "name": "Sadjid Zamoum",
+          "device": "2 august 2026",
+          "text": "incredibil, nimic de zis",
+          "rating": 5
+        },
+        {
+          "initials": "AD",
+          "name": "Almassane Diallo",
+          "device": "13 iulie 2026",
+          "text": "Mulțumesc mult echipei, datorită acestei aplicații și vouă am învățat multe, Bunul Dumnezeu să vă răsplătească",
+          "rating": 5
+        },
+        {
+          "initials": "HA",
+          "name": "Hadj",
+          "device": "5 noiembrie 2025",
+          "text": "aplicație clară și fără reclame. dacă puteți adăuga un tafsir pentru sure, aplicația va fi completă.",
+          "rating": 5
+        },
+        {
+          "initials": "YM",
+          "name": "Yacouba M'piè Samaké",
+          "device": "16 mai 2025",
+          "text": "Aplicație foarte bună care îmi permite să învăț surele fără nicio cunoștință a limbii arabe",
+          "rating": 5
+        },
+        {
+          "initials": "SM",
+          "name": "Saïdou Mohamed Bah",
+          "device": "24 august 2025",
+          "text": "Cu adevărat Allah să vă răsplătească cu janatoul Firdaws, este cea mai bună aplicație, Allah să vă ajute să îmbunătățiți aplicația și să facă din aceasta o sadaqa jariyah pentru voi.",
+          "rating": 5
+        },
+        {
+          "initials": "TD",
+          "name": "Touwinde Doulkom",
+          "device": "24 mai 2025",
+          "text": "Ma shah Allah, o aplicație simplă și ușor de folosit care te ajută să înveți să citești Sfântul Coran. mulțumesc dezvoltatorilor, Allah să vă răsplătească 🙏",
+          "rating": 5
+        },
+        {
+          "initials": "BD",
+          "name": "Bassirou Diarra",
+          "device": "5 aprilie 2026",
+          "text": "este cu adevărat practică. Allah să binecuvânteze islamul",
+          "rating": 5
+        },
+        {
+          "initials": "GK",
+          "name": "gloire Kyato",
+          "device": "10 aprilie 2026",
+          "text": "Este importantă această aplicație. dau 5 stele.",
+          "rating": 5
+        },
+        {
+          "initials": "OO",
+          "name": "Olivier Olivier",
+          "device": "16 aprilie 2025",
+          "text": "Sincer, cea mai bună dintre cele mai bune, de mare utilitate pentru memorarea Coranului chiar și pentru francofoni",
+          "rating": 5
+        },
+        {
+          "initials": "DD",
+          "name": "Dian Diallo",
+          "device": "9 iunie 2026",
+          "text": "Mulțumesc mult........ o aplicație excelentă",
+          "rating": 5
+        },
+        {
+          "initials": "MM",
+          "name": "Mallam Mohamed AYOUBA",
+          "device": "10 septembrie 2025",
+          "text": "Da, bine redactată și este foarte ușor să înveți să citești Coranul.... Mulțumesc mult",
+          "rating": 5
+        },
+        {
+          "initials": "FB",
+          "name": "Fatoumata Barry",
+          "device": "7 martie 2026",
+          "text": "super și ușor pentru a învăța Coranul, singura problemă e că are prea multe actualizări...",
+          "rating": 5
+        },
+        {
+          "initials": "SK",
+          "name": "Soumaila Kaboré",
+          "device": "29 noiembrie 2025",
+          "text": "foarte bine, se vede și ajută să pronunți bine frazele în arabă",
+          "rating": 5
+        },
+        {
+          "initials": "OA",
+          "name": "Ouattara Almamy",
+          "device": "1 aprilie 2025",
+          "text": "Foarte explicit, foarte ușor de înțeles, foarte instructiv, Dumnezeu să ne dea buna înțelegere 🙏",
+          "rating": 5
+        },
+        {
+          "initials": "AN",
+          "name": "Aude Name",
+          "device": "7 iunie 2025",
+          "text": "Foarte coerent, bun pentru a învăța Coranul. Allah să binecuvânteze creatorul aplicației",
+          "rating": 5
+        },
+        {
+          "initials": "MJ",
+          "name": "maxero junior",
+          "device": "13 martie 2025",
+          "text": "Este superb, ușor de folosit și fără reclame",
+          "rating": 5
+        },
+        {
+          "initials": "FT",
+          "name": "Fatoumata Traoré",
+          "device": "18 mai 2025",
+          "text": "Allah să vă răsplătească pentru munca bine făcută, sincer este o aplicație bună, aș vrea să adăugați rotații de ecran și de asemenea semnele de prosternare, mulțumesc",
+          "rating": 5
+        },
+        {
+          "initials": "AC",
+          "name": "Assia Chamoyan",
+          "device": "28 septembrie 2025",
+          "text": "extrem de utilă, practică și sincer intuitivă. interfață foarte frumoasă, bravo, foarte calitativă, Allah să vă ușureze proiectele și să vă răsplătească din plin",
+          "rating": 5
+        },
+        {
+          "initials": "KE",
+          "name": "Keita",
+          "device": "23 mai 2025",
+          "text": "Wow, aplicație superbă pentru citirea fonetică a surelor. Chiar ador această aplicație.",
+          "rating": 5
+        },
+        {
+          "initials": "IH",
+          "name": "Ibrahim Hamadou",
+          "device": "9 martie 2026",
+          "text": "vă rog reparați aplicația, chiar am nevoie de ea, continuam bine citirea dar aplicația a avut o problemă",
+          "rating": 5
+        },
+        {
+          "initials": "AS",
+          "name": "Adamou Seyni Sonia",
+          "device": "14 martie 2025",
+          "text": "Salam, eu nu știu de ce când merg la sura Al-Kahf ajunge la Abasa, nu înțeleg deloc de unde vine problema și este o sură pe care îmi place să o citesc mai ales vinerea conform sunnei... altfel, în afară de această problemă, nu există nicio problemă cu aplicația, mashaAllah",
+          "rating": 5
+        },
+        {
+          "initials": "MD",
+          "name": "Mame diarra Ba",
+          "device": "14 februarie 2025",
+          "text": "Este foarte eficientă și foarte ușor de învățat Coranul",
+          "rating": 5
+        },
+        {
+          "initials": "SS",
+          "name": "SOUMAILA SAMASSI",
+          "device": "29 decembrie 2024",
+          "text": "MashaAllah 💕 o aplicație superbă și este ceea ce căutam. Aplicația este la nivel maxim. Barakallahu feekoum și Allah să ne ghideze mereu. Amin",
+          "rating": 5
+        },
+        {
+          "initials": "AB",
+          "name": "Ali Baba Traoré",
+          "device": "1 august 2025",
+          "text": "Slavă Domnului, este o aplicație bună de descărcat și distribuit. Allah să vă acorde o răsplată bună în această lume și în cealaltă. Amin!",
+          "rating": 5
+        },
+        {
+          "initials": "MB",
+          "name": "Mohamed Baddo",
+          "device": "5 ianuarie 2026",
+          "text": "Este foarte simplă, eficientă și foarte plăcută",
+          "rating": 5
+        },
+        {
+          "initials": "AB",
+          "name": "Anthony Barraut",
+          "device": "5 octombrie 2025",
+          "text": "Aplicație EXCELENTĂ, creatorul aplicației dă dovadă de o bunătate remarcabilă, recomand aplicația imediat fără nicio ezitare 🌟🌟🌟🌟🌟🥳👌",
+          "rating": 5
+        },
+        {
+          "initials": "PM",
+          "name": "Parfait Mayela may",
+          "device": "27 martie 2025",
+          "text": "de ce e nevoie de conexiune??? Dar această aplicație permite să înveți rapid 🤲🤲🤲🥰🇬🇦",
+          "rating": 5
+        },
+        {
+          "initials": "MD",
+          "name": "Moustapha DRORI",
+          "device": "7 februarie 2026",
+          "text": "Aplicație foarte bună pentru o învățare mai bună",
+          "rating": 5
+        },
+        {
+          "initials": "AB",
+          "name": "Adamma Bae",
+          "device": "11 ianuarie 2025",
+          "text": "Mulțumesc mult că ne ușurați învățarea",
+          "rating": 5
+        },
+        {
+          "initials": "MZ",
+          "name": "Malika Zaki",
+          "device": "7 aprilie 2026",
+          "text": "este cea mai bună aplicație de Coran pe care am văzut-o vreodată în viața mea",
+          "rating": 5
+        },
+        {
+          "initials": "NC",
+          "name": "N'famoussa Camara",
+          "device": "8 martie 2025",
+          "text": "Această aplicație este cu adevărat interesantă pentru mine și pentru toți musulmanii care vor să cunoască și să aplice islamul.",
+          "rating": 5
+        },
+        {
+          "initials": "MB",
+          "name": "Mariam Bah",
+          "device": "21 octombrie 2025",
+          "text": "foarte eficientă pentru pronunție",
+          "rating": 5
+        },
+        {
+          "initials": "NM",
+          "name": "Nouraya Mohamed",
+          "device": "5 aprilie 2026",
+          "text": "Mulțumesc mult, mă ajută cu adevărat... Mashallah",
+          "rating": 5
+        },
+        {
+          "initials": "SD",
+          "name": "Sofiane D",
+          "device": "10 octombrie 2025",
+          "text": "e păcat doar că nu poți alege direct sura, trebuie să dai swipe",
+          "rating": 5
+        },
+        {
+          "initials": "MD",
+          "name": "Mouhamed Diagne",
+          "device": "24 iulie 2025",
+          "text": "foarte foarte bună aplicație, se învață repede și bine",
+          "rating": 5
+        },
+        {
+          "initials": "BB",
+          "name": "Babouba Bibouba",
+          "device": "1 aprilie 2025",
+          "text": "foarte bun, dar vă rog introduceți opțiunea de mărime a fontului",
+          "rating": 5
+        },
+        {
+          "initials": "CC",
+          "name": "Coumba Camara",
+          "device": "26 iulie 2025",
+          "text": "este ceea ce căutam de ani de zile, Dumnezeu să vă răsplătească pentru această imensă bucurie pe care mi-ați adus-o văzând-o 💖 este o aplicație foarte bună 👍 mulțumesc",
+          "rating": 5
+        },
+        {
+          "initials": "LS",
+          "name": "Lassane Sawadogo",
+          "device": "3 august 2025",
+          "text": "căutam această fonetică de mult timp și alhamdoulilah am găsit-o, mulțumesc",
+          "rating": 5
+        },
+        {
+          "initials": "MA",
+          "name": "mam",
+          "device": "14 martie 2026",
+          "text": "aplicație foarte bună, doar că mi-ar fi plăcut ca hadith-urile să fie în franceză",
+          "rating": 5
+        },
+        {
+          "initials": "MB",
+          "name": "Mohamadou Babanguida",
+          "device": "9 aprilie 2026",
+          "text": "Mulțumesc infinit, Allah să vă răsplătească",
+          "rating": 5
+        },
+        {
+          "initials": "TA",
+          "name": "Thierno amidou Diallo",
+          "device": "8 aprilie 2026",
+          "text": "îmi place mult această aplicație",
+          "rating": 5
+        },
+        {
+          "initials": "SA",
+          "name": "shahid ATOUKOU",
+          "device": "9 decembrie 2024",
+          "text": "Foarte super, apreciez mult această aplicație, mulțumesc creatorului acestei aplicații",
+          "rating": 5
+        },
+        {
+          "initials": "MS",
+          "name": "Mamadi Savadogo",
+          "device": "9 martie 2026",
+          "text": "nu am altceva de spus decât Allah să vă răsplătească. Aplicația este cea mai bună pe care am cunoscut-o până azi.",
+          "rating": 5
+        },
+        {
+          "initials": "AC",
+          "name": "Alassane Camara",
+          "device": "26 decembrie 2025",
+          "text": "as-salamu alaikum, vă mulțumesc, este o aplicație bună și pentru musulmani",
+          "rating": 5
+        },
+        {
+          "initials": "FL",
+          "name": "Frédéric Lankoandé",
+          "device": "1 august 2025",
+          "text": "foarte bună aplicație pentru a învăța Sfântul Coran în fonetică 👍",
+          "rating": 5
+        },
+        {
+          "initials": "LZ",
+          "name": "Loukmane Zongo",
+          "device": "26 iunie 2025",
+          "text": "Mashallah! este Coranul pe care îl căutam ca să pot învăța! nu se poate face ceva ca să putem citi offline?",
+          "rating": 5
+        },
+        {
+          "initials": "IB",
+          "name": "Ibrahima Bâ",
+          "device": "2 septembrie 2025",
+          "text": "Este o aplicație bună, vă mulțumesc, Dumnezeu să ne ghideze pe calea cea bună 🤲🤲👆",
+          "rating": 5
+        },
+        {
+          "initials": "FA",
+          "name": "Fouzi Abdellatif",
+          "device": "5 martie 2026",
+          "text": "este cea mai bună aplicație în fonetică",
+          "rating": 5
+        },
+        {
+          "initials": "AS",
+          "name": "Aboubacar Sylla",
+          "device": "7 noiembrie 2025",
+          "text": "totul (complet) nu se afișează",
+          "rating": 5
+        },
+        {
+          "initials": "KM",
+          "name": "KACHALLA MEMBA",
+          "device": "20 martie 2025",
+          "text": "mulțumesc mult pentru această ușurință de citire a Coranului. Allah să vă răsplătească și în această lume și în cealaltă",
+          "rating": 5
+        },
+        {
+          "initials": "BD",
+          "name": "Billal DABIDA",
+          "device": "2 aprilie 2025",
+          "text": "foarte foarte bună aplicație, Dumnezeu Preamilostivul, Îndurătorul, să vă dea mai multă înțelepciune.",
+          "rating": 5
+        },
+        {
+          "initials": "NN",
+          "name": "Nadjma Nkulu",
+          "device": "24 noiembrie 2025",
+          "text": "La ilaha illa Allah, este foarte potrivită pentru oamenii care nu au încă o stăpânire a limbii arabe.",
+          "rating": 5
+        },
+        {
+          "initials": "TA",
+          "name": "thaibu Amici-langi",
+          "device": "7 august 2025",
+          "text": "O operă foarte frumoasă la îndemână.",
+          "rating": 5
+        },
+        {
+          "initials": "HH",
+          "name": "hamza Hamza",
+          "device": "19 octombrie 2025",
+          "text": "aceasta este o aplicație foarte utilă și foarte practică",
+          "rating": 5
+        },
+        {
+          "initials": "OA",
+          "name": "Oumarou Amadou",
+          "device": "7 noiembrie 2025",
+          "text": "trebuie îmbunătățit fără internet pentru a-l citi",
+          "rating": 5
+        },
+        {
+          "initials": "AA",
+          "name": "Aboubakar Adamou",
+          "device": "18 august 2025",
+          "text": "foarte bună aplicație, Allah să răsplătească creatorii",
+          "rating": 5
+        },
+        {
+          "initials": "SK",
+          "name": "Soiba Koné",
+          "device": "19 ianuarie 2026",
+          "text": "recomand fraților musulmani, mă ajută mult și la tajwid",
+          "rating": 5
+        },
+        {
+          "initials": "SN",
+          "name": "Sipas NIAKATE",
+          "device": "21 septembrie 2025",
+          "text": "aplicație super, se apropie cu adevărat de araba",
+          "rating": 5
+        },
+        {
+          "initials": "HT",
+          "name": "Hamissou TCHAGBELE",
+          "device": "28 septembrie 2024",
+          "text": "Îmi place această aplicație, doresc ca prin harul lui Dumnezeu să adăugați până la sfârșitul Coranului",
+          "rating": 5
+        },
+        {
+          "initials": "AA",
+          "name": "Abdul Abdullah",
+          "device": "21 noiembrie 2025",
+          "text": "este foarte foarte superb, ador asta, Allah să vă răsplătească.",
+          "rating": 5
+        },
+        {
+          "initials": "SA",
+          "name": "sawadogoalassane",
+          "device": "25 iunie 2025",
+          "text": "superb, este tot ce voiam. Mulțumesc",
+          "rating": 5
+        },
+        {
+          "initials": "BT",
+          "name": "Bocar Thiam",
+          "device": "19 octombrie 2025",
+          "text": "este o aplicație foarte bună, fără reclame, Mashallah",
+          "rating": 5
+        },
+        {
+          "initials": "HN",
+          "name": "Harounahafiz Nonkane",
+          "device": "11 martie 2025",
+          "text": "Dragi frați și surori în credință, v-o recomand cu tărie, este super această aplicație. Allah să ne dea buna înțelegere.",
+          "rating": 5
+        },
+        {
+          "initials": "NT",
+          "name": "Nana Tanou",
+          "device": "1 aprilie 2025",
+          "text": "aplicație foarte bună, mă ajută mult 🥰",
+          "rating": 5
+        },
+        {
+          "initials": "IS",
+          "name": "Idrissa Samake",
+          "device": "5 august 2025",
+          "text": "O muncă excelentă! Mulțumesc",
+          "rating": 5
+        },
+        {
+          "initials": "SB",
+          "name": "Sarra Bahri (\"Anous Azouz Aychouha\")",
+          "device": "29 septembrie 2024",
+          "text": "o aplicație bună, curaj și succes în continuare 👏👏👏🌹🌹🌹🌹",
+          "rating": 5
+        },
+        {
+          "initials": "OA",
+          "name": "Omokayode Akanny",
+          "device": "29 mai 2025",
+          "text": "aplicație foarte bună și utilă",
+          "rating": 5
+        },
+        {
+          "initials": "AG",
+          "name": "Abdoulaye Gningue",
+          "device": "16 ianuarie 2025",
+          "text": "Mashallah, Allah să vă ghideze în pace și dreptate, este o carte bună.",
+          "rating": 5
+        },
+        {
+          "initials": "SS",
+          "name": "Seynabou Senghor",
+          "device": "29 aprilie 2025",
+          "text": "Cuvântul mulțumesc nu va fi suficient pentru a vă mulțumi, Allah să vă răsplătească pentru minunata voastră muncă ❤️🌹",
+          "rating": 5
+        },
+        {
+          "initials": "FS",
+          "name": "Fanta Souare",
+          "device": "2 iunie 2025",
+          "text": "această aplicație este pur și simplu uau, mulțumesc, Allah să vă pună baraka sa și să vă dea răsplata în paradis, amin ya rab 🙏",
+          "rating": 5
+        },
+        {
+          "initials": "AD",
+          "name": "Abdoul djabar Danyoko",
+          "device": "26 iulie 2025",
+          "text": "este o aplicație foarte frumoasă. Mashallah!",
+          "rating": 5
+        },
+        {
+          "initials": "IC",
+          "name": "Idrissa Camara",
+          "device": "6 august 2025",
+          "text": "Sunt cu adevărat mulțumit de acest document. Ați permis milioanelor de oameni non-arabi să-L cunoască pe Allah. Pentru asta, doar Allah vă poate răsplăti. Mă rog ca Allah să vă acorde o viață ușoară, vouă și familiilor voastre, și să ne acorde paradisul. Amin!",
+          "rating": 5
+        },
+        {
+          "initials": "SK",
+          "name": "Souleymane Keïta",
+          "device": "1 octombrie 2025",
+          "text": "Sincer, ador foarte mult această aplicație, Dumnezeu să răsplătească și să binecuvânteze autorul acestei aplicații și să ne ierte păcatele și toate greșelile conștiente și inconștiente și să accepte toate rugăciunile noastre și ale familiilor noastre și să ne țină pe calea cea dreaptă până la ultima suflare și mai ales să ne acorde mila Sa și paradisul Său etern. Amin 🙏🙏🙏",
+          "rating": 5
+        },
+        {
+          "initials": "EM",
+          "name": "El Mn",
+          "device": "1 august 2026",
+          "text": "Nu știu ce să spun 🫰🤌. Este top",
+          "rating": 5
+        },
+        {
+          "initials": "SS",
+          "name": "Setoute samate",
+          "device": "11 august 2025",
+          "text": "MashaAllah, Allah să vă protejeze, foarte bună aplicație, mulțumesc 🤲🤲🤲",
+          "rating": 5
+        },
+        {
+          "initials": "CD",
+          "name": "Cheick Diabate",
+          "device": "29 decembrie 2024",
+          "text": "Incontestabil, cu adevărat genial",
+          "rating": 5
+        },
+        {
+          "initials": "SD",
+          "name": "Sanogo Domba",
+          "device": "18 decembrie 2025",
+          "text": "foarte favorabilă dezvoltării spiritului uman",
+          "rating": 5
+        },
+        {
+          "initials": "MM",
+          "name": "mame marème bane",
+          "device": "8 martie 2026",
+          "text": "salam, de ce nu mai funcționează aplicația",
+          "rating": 5
+        },
+        {
+          "initials": "DB",
+          "name": "Dalila Bahri",
+          "device": "27 decembrie 2025",
+          "text": "aplicație super, este foarte utilă",
+          "rating": 5
+        },
+        {
+          "initials": "LY",
+          "name": "Landry Yarga",
+          "device": "10 decembrie 2025",
+          "text": "Această aplicație mă ajută mult, mulțumesc 👌",
+          "rating": 5
+        },
+        {
+          "initials": "JK",
+          "name": "Jeanne Kikukama",
+          "device": "8 februarie 2026",
+          "text": "o aplicație foarte bună",
+          "rating": 5
+        },
+        {
+          "initials": "ZS",
+          "name": "Zeynab Sylla",
+          "device": "14 ianuarie 2026",
+          "text": "foarte tare și ușoară",
+          "rating": 5
+        },
+        {
+          "initials": "AW",
+          "name": "Abdoul Wahab porgo",
+          "device": "10 ianuarie 2026",
+          "text": "foarte foarte interesant",
+          "rating": 5
+        },
+        {
+          "initials": "YM",
+          "name": "Yohane Mouhali",
+          "device": "31 octombrie 2025",
+          "text": "Mulțumesc mult pentru toate acestea 👏👏👏👏👏",
+          "rating": 5
+        },
+        {
+          "initials": "FA",
+          "name": "Fousseni Arouna",
+          "device": "15 decembrie 2025",
+          "text": "Maa shaa Allah, îmi place mult aplicația",
+          "rating": 5
+        },
+        {
+          "initials": "DA",
+          "name": "Djamilatou Alim",
+          "device": "20 ianuarie 2026",
+          "text": "foarte bună aplicație, slavă Domnului, Mashallah",
+          "rating": 5
+        },
+        {
+          "initials": "AA",
+          "name": "Arminata Abdou",
+          "device": "26 martie 2025",
+          "text": "Mulțumesc mult vouă 👏 ador",
+          "rating": 5
+        },
+        {
+          "initials": "HR",
+          "name": "Halima Radhwani",
+          "device": "26 septembrie 2025",
+          "text": "aplicație la nivel maxim, Allahumma barik, mulțumesc mult 🤲",
+          "rating": 5
+        },
+        {
+          "initials": "MC",
+          "name": "Mahamoudou Coulibaly",
+          "device": "17 august 2025",
+          "text": "foarte tare, foarte drăguță",
+          "rating": 5
+        },
+        {
+          "initials": "LD",
+          "name": "Lamine Dieye",
+          "device": "22 martie 2025",
+          "text": "Bună treabă, Dumnezeu să vă binecuvânteze, aplicația este importantă 🙏",
+          "rating": 5
+        },
+        {
+          "initials": "AB",
+          "name": "aimé boussoukou",
+          "device": "25 octombrie 2025",
+          "text": "Allah Akbar, această aplicație este foarte benefică",
+          "rating": 5
+        },
+        {
+          "initials": "IM",
+          "name": "Ibrahim Mbaye",
+          "device": "29 octombrie 2024",
+          "text": "E foarte bun de învățat",
+          "rating": 5
+        },
+        {
+          "initials": "TT",
+          "name": "Tassala Toure",
+          "device": "21 martie 2025",
+          "text": "MashaAllah mi-a plăcut mult, Allah să vă binecuvânteze pentru efortul pe care îl depuneți pentru comunitatea musulmană 🤲barakallahu feekum🤲",
+          "rating": 5
+        },
+        {
+          "initials": "MD",
+          "name": "Mohamed Diawara",
+          "device": "27 iunie 2025",
+          "text": "îmi place mult, mulțumesc tuturor",
+          "rating": 5
+        },
+        {
+          "initials": "FA",
+          "name": "Ferjani Ali",
+          "device": "5 noiembrie 2025",
+          "text": "cea mai bună aplicație, succes în continuare 😍😍🥰",
+          "rating": 5
+        },
+        {
+          "initials": "MA",
+          "name": "moustapha ahmed",
+          "device": "22 august 2025",
+          "text": "Aplicație superbă, Allah să vă răsplătească pentru asta",
+          "rating": 5
+        },
+        {
+          "initials": "MB",
+          "name": "Mariam Barry",
+          "device": "4 octombrie 2025",
+          "text": "foarte bună aplicație ☺ recomand",
+          "rating": 5
+        },
+        {
+          "initials": "DO",
+          "name": "Dramane Ouattara",
+          "device": "19 iulie 2025",
+          "text": "această aplicație este cea mai bună dintotdeauna",
+          "rating": 5
+        },
+        {
+          "initials": "AG",
+          "name": "Assane Gnamou",
+          "device": "17 mai 2025",
+          "text": "ușor de folosit",
+          "rating": 5
+        },
+        {
+          "initials": "AL",
+          "name": "Amadou Lee",
+          "device": "27 noiembrie 2025",
+          "text": "o aplicație foarte bună",
+          "rating": 5
+        },
+        {
+          "initials": "OD",
+          "name": "Ousseynou DIOP",
+          "device": "22 martie 2025",
+          "text": "de neimaginat, mulțumesc mult",
+          "rating": 5
+        },
+        {
+          "initials": "ZJ",
+          "name": "Zakaria Jose Kone",
+          "device": "4 martie 2026",
+          "text": "foarte bună această aplicație",
+          "rating": 5
+        },
+        {
+          "initials": "MD",
+          "name": "Mr dof Dof",
+          "device": "24 iunie 2025",
+          "text": "prea multe greșeli comparativ cu un Coran adevărat",
+          "rating": 5
+        },
+        {
+          "initials": "OM",
+          "name": "Omar Manè",
+          "device": "4 martie 2025",
+          "text": "Cu adevărat extraordinar, mashaAllah",
+          "rating": 5
+        },
+        {
+          "initials": "KI",
+          "name": "Koné Idris",
+          "device": "29 mai 2025",
+          "text": "foarte bună aplicație",
+          "rating": 5
+        },
+        {
+          "initials": "KK",
+          "name": "kourouma kaman",
+          "device": "25 septembrie 2025",
+          "text": "foarte bună aplicație",
+          "rating": 5
+        },
+        {
+          "initials": "OD",
+          "name": "Ousseynou DIOP",
+          "device": "28 iulie 2025",
+          "text": "ador, este foarte bine",
+          "rating": 5
+        },
+        {
+          "initials": "MM",
+          "name": "Mr MANANGA",
+          "device": "19 februarie 2026",
+          "text": "cel mai bun ghid spiritual",
+          "rating": 5
+        },
+        {
+          "initials": "TM",
+          "name": "Tyz Man86",
+          "device": "8 decembrie 2025",
+          "text": "trebuie să îmbunătățiți câteva puncte",
+          "rating": 5
+        },
+        {
+          "initials": "SI",
+          "name": "Samba Ichrach",
+          "device": "8 noiembrie 2025",
+          "text": "nimic de spus, am ce căutam",
+          "rating": 5
+        },
+        {
+          "initials": "RB",
+          "name": "Rasta Barou",
+          "device": "7 octombrie 2025",
+          "text": "mi-a plăcut mult",
+          "rating": 5
+        },
+        {
+          "initials": "NG",
+          "name": "Nadia GbaneDIABY",
+          "device": "10 noiembrie 2025",
+          "text": "Alhamdoulillah! Extraordinar de benefică!!!",
+          "rating": 5
+        },
+        {
+          "initials": "DM",
+          "name": "DaoudaDiallo Malide",
+          "device": "20 martie 2025",
+          "text": "mi-a plăcut mult",
+          "rating": 5
+        },
+        {
+          "initials": "SB",
+          "name": "Saitama Black God 777",
+          "device": "23 noiembrie 2024",
+          "text": "Mashallah, este ceea ce caută majoritatea",
+          "rating": 5
+        },
+        {
+          "initials": "MS",
+          "name": "Mamoudou Sylla",
+          "device": "2 noiembrie 2024",
+          "text": "ALHAMDULILLAH VĂ MULȚUMESC MULT, DE MULT TIMP CĂUTAM ASTA PE NET ȘI ÎN SFÂRȘIT AM GĂSIT, DUMNEZEU SĂ VĂ BINECUVÂNTEZE PE VOI ȘI FAMILIA VOASTRĂ, MULȚUMESC INFINIT!",
+          "rating": 5
+        },
+        {
+          "initials": "IK",
+          "name": "Ibrahim Konsigui",
+          "device": "18 noiembrie 2025",
+          "text": "versetele refuză să se descarce",
+          "rating": 5
+        },
+        {
+          "initials": "YK",
+          "name": "Youss Kouadio",
+          "device": "22 octombrie 2025",
+          "text": "foarte bună aplicația",
+          "rating": 5
+        },
+        {
+          "initials": "AB",
+          "name": "Alhasko Bob",
+          "device": "2 mai 2025",
+          "text": "cea mai bună aplicație din lume",
+          "rating": 5
+        }
+      ]
+    },
+    "cta": {
+      "title": "Începeți-vă astăzi călătoria de învățare",
+      "subtitle": "Descărcați Noor Phonetic Quran gratuit și transformați-vă experiența de recitare a Coranului.",
+      "downloadOn": "Descărcați pe"
+    }
+  },
+  "cgu": {
+    "meta": {
+      "title": "Termeni și Condiții de Utilizare - Noor Phonetic Quran",
+      "description": "Termenii și condițiile de utilizare Noor Phonetic Quran: acces la serviciu, cont de utilizator, abonament Premium, proprietate intelectuală, responsabilitate și drept aplicabil.",
+      "keywords": "Termeni Noor Phonetic Quran, termeni și condiții de utilizare, condiții de utilizare aplicație Coran"
+    },
+    "appName": "Noor Phonetic Quran",
+    "pageTitle": "TERMENI ȘI CONDIȚII DE UTILIZARE",
+    "updateDate": "Ultima actualizare: 31 iulie 2026",
+    "intro1": "Acești Termeni și Condiții de Utilizare (\"Termeni\") reglementează accesul și utilizarea aplicației mobile Noor Phonetic Quran (\"Aplicația\", \"noi\", \"al nostru\" sau \"ai noștri\"), publicată individual și disponibilă pe Google Play și App Store. Descărcând, instalând sau utilizând Aplicația, sunteți de acord să respectați acești Termeni. Dacă nu sunteți de acord cu acești termeni, vă rugăm să nu utilizați Aplicația.",
+    "intro2Before": "Pentru orice informație privind prelucrarea datelor dumneavoastră personale, vă rugăm să consultați",
+    "intro2LinkText": "Politica de Confidențialitate",
+    "intro2After": ", care completează acești Termeni.",
+    "summary": {
+      "heading": "REZUMATUL PUNCTELOR CHEIE",
+      "intro": "Acest rezumat oferă punctele cheie ale Termenilor noștri, dar vă invităm să citiți întregul document prin cuprinsul de mai jos.",
+      "points": [
+        {
+          "question": "Ce oferă Aplicația?",
+          "answer": "Un set de instrumente gratuite și plătite pentru a citi, învăța și memora Coranul: citire fonetică și în arabă (lecturile Hafs și Warsh), tajweed, memorare gamificată, urmărirea khatma, corectarea recitării prin înregistrare audio, quiz, radio/TV islamice în direct și un widget \"versetul zilei\" pe ecranul de start."
+        },
+        {
+          "question": "Am nevoie de un cont?",
+          "answer": "Nu, cea mai mare parte a Aplicației poate fi utilizată fără cont. Un cont opțional (email, Google sau Apple) permite sincronizarea progresului și a abonamentului Premium."
+        },
+        {
+          "question": "Aplicația este plătită?",
+          "answer": "Aplicația este gratuită cu reclame. Un abonament Premium opțional, gestionat prin Google Play sau App Store, elimină reclamele și deblochează funcționalități avansate."
+        },
+        {
+          "question": "Îmi pot înregistra vocea?",
+          "answer": "Da, funcția de corectare a recitării înregistrează vocea dumneavoastră local pentru a analiza pronunția. Vezi secțiunea dedicată pentru detalii despre funcționare și responsabilitățile dumneavoastră."
+        },
+        {
+          "question": "Cine este responsabil pentru conținutul religios?",
+          "answer": "Depunem toate eforturile pentru fiabilitatea textelor, traducerilor și transliterărilor, dar Aplicația este un instrument pedagogic și nu înlocuiește o învățare tradițională alături de un profesor calificat."
+        },
+        {
+          "question": "Cum ne puteți contacta?",
+          "answer": "Prin formularul de contact integrat în Aplicație sau prin email la othmeneb@gmail.com."
+        }
+      ]
+    },
+    "toc": {
+      "heading": "CUPRINS",
+      "items": [
+        {
+          "id": "service",
+          "label": "1. SERVICIUL"
+        },
+        {
+          "id": "eligibility",
+          "label": "2. ELIGIBILITATE"
+        },
+        {
+          "id": "account",
+          "label": "3. CONT DE UTILIZATOR"
+        },
+        {
+          "id": "premium",
+          "label": "4. ABONAMENT PREMIUM ȘI ACHIZIȚII INTEGRATE"
+        },
+        {
+          "id": "recitation",
+          "label": "5. CORECTAREA RECITĂRII ȘI ÎNREGISTRĂRI AUDIO"
+        },
+        {
+          "id": "conduct",
+          "label": "6. REGULI DE UTILIZARE"
+        },
+        {
+          "id": "ip",
+          "label": "7. PROPRIETATE INTELECTUALĂ"
+        },
+        {
+          "id": "religious-content",
+          "label": "8. CONȚINUT RELIGIOS ȘI EDUCAȚIONAL"
+        },
+        {
+          "id": "accessibility",
+          "label": "9. ACCESIBILITATE"
+        },
+        {
+          "id": "ads",
+          "label": "10. PUBLICITATE ȘI SERVICII TERȚE"
+        },
+        {
+          "id": "availability",
+          "label": "11. DISPONIBILITATE ȘI MODIFICĂRI ALE SERVICIULUI"
+        },
+        {
+          "id": "termination",
+          "label": "12. SUSPENDARE ȘI REZILIERE"
+        },
+        {
+          "id": "disclaimer",
+          "label": "13. LIMITAREA RĂSPUNDERII"
+        },
+        {
+          "id": "law",
+          "label": "14. LEGEA APLICABILĂ ȘI LITIGII"
+        },
+        {
+          "id": "updates",
+          "label": "15. MODIFICAREA TERMENILOR"
+        },
+        {
+          "id": "contact",
+          "label": "16. CONTACTAȚI-NE"
+        }
+      ]
+    },
+    "sections": {
+      "service": {
+        "heading": "1. SERVICIUL",
+        "intro": "Noor Phonetic Quran este o aplicație mobilă care permite citirea, învățarea și memorarea Coranului, în special prin:",
+        "items": [
+          "citirea Coranului în transliterare fonetică și în arabă (lecturile Hafs și Warsh), cu traduceri și audio;",
+          "cursuri de pronunție și de tajweed, cu corectarea recitării prin înregistrare audio;",
+          "un modul de memorare gamificat (niveluri, insigne, provocări zilnice) și un plan de învățare zilnic;",
+          "o urmărire a khatma (citirea completă a Coranului) și un program special de Ramadan;",
+          "adhkar zilnice, un quiz de cunoștințe islamice, un radio și canale TV islamice în direct;",
+          "un widget \"versetul zilei\" ce poate fi afișat pe ecranul de start al dispozitivului dumneavoastră (iOS și Android)."
+        ],
+        "outro": "Aceste funcționalități pot evolua, pot fi adăugate sau eliminate în cadrul actualizărilor Aplicației, fără ca aceasta să constituie o modificare substanțială a acestor Termeni."
+      },
+      "eligibility": {
+        "heading": "2. ELIGIBILITATE",
+        "body": "Aplicația se adresează oricărei persoane care dorește să învețe sau să practice citirea Coranului. Dacă sunteți minor, utilizarea Aplicației trebuie să se facă sub supravegherea unui părinte sau tutore legal, în special pentru orice funcționalitate care implică o achiziție integrată."
+      },
+      "account": {
+        "heading": "3. CONT DE UTILIZATOR",
+        "brief": "Pe scurt",
+        "briefText": "Un cont este opțional și servește doar la sincronizarea progresului și a abonamentului dumneavoastră.",
+        "body": "Majoritatea funcționalităților Aplicației este accesibilă fără crearea unui cont. Puteți crea un cont opțional prin email, prin Google sau prin Apple, pentru a vă păstra progresul (memorare, khatma, plan zilnic) și statutul Premium în caz de schimbare a dispozitivului. Sunteți responsabil pentru confidențialitatea acreditărilor dumneavoastră și pentru orice activitate efectuată din contul dumneavoastră. Puteți solicita ștergerea contului și a datelor asociate în orice moment, contactându-ne (vezi secțiunea 16) sau din setările Aplicației atunci când această opțiune este disponibilă acolo."
+      },
+      "premium": {
+        "heading": "4. ABONAMENT PREMIUM ȘI ACHIZIȚII INTEGRATE",
+        "brief": "Pe scurt",
+        "briefText": "Aplicația este gratuită cu reclame; abonamentul Premium (gestionat de Google Play sau App Store) elimină reclamele și deblochează funcționalități avansate.",
+        "body": "Achizițiile integrate (în special abonamentul Premium) sunt procesate direct de Google Play sau App Store, în funcție de platforma dumneavoastră, conform propriilor lor condiții de utilizare și politici de facturare. Facturarea, reînnoirea automată, anularea și rambursarea unui abonament sunt gestionate din setările contului dumneavoastră Google Play sau Apple ID — noi nu avem acces la mijloacele dumneavoastră de plată și nu putem declanșa direct o rambursare. Conținutul și sfera exactă a avantajelor Premium sunt descrise în Aplicație la momentul achiziției și pot evolua odată cu actualizările."
+      },
+      "recitation": {
+        "heading": "5. CORECTAREA RECITĂRII ȘI ÎNREGISTRĂRI AUDIO",
+        "brief": "Pe scurt",
+        "briefText": "Înregistrările dumneavoastră de recitare sunt utilizate pentru a vă oferi un feedback asupra pronunției; distribuiți doar ceea ce vă simțiți confortabil să transmiteți.",
+        "bodyBefore": "Funcționalitatea de corectare a recitării vă permite să vă înregistrați vocea în timpul citirii Coranului pentru a primi un feedback personalizat (automatizat și/sau de la un examinator, în funcție de versiunea funcționalității active în Aplicație). Utilizând această funcționalitate, sunteți de acord cu înregistrarea și prelucrarea vocii dumneavoastră în scopul analizei pronunției și îmbunătățirii învățării dumneavoastră. Nu trebuie să trimiteți o înregistrare care conține afirmații ilegale, defăimătoare sau care încalcă drepturile terților. Detaliile privind prelucrarea, stocarea și durata de păstrare a acestor înregistrări sunt precizate în",
+        "linkText": "Politica de Confidențialitate",
+        "bodyAfter": "."
+      },
+      "conduct": {
+        "heading": "6. REGULI DE UTILIZARE",
+        "intro": "Utilizând Aplicația, vă angajați să nu:",
+        "items": [
+          "utilizați Aplicația în scopuri ilegale sau contrare acestor Termeni;",
+          "încercați să accesați fără autorizare sistemele noastre, să le perturbați sau să eludați măsurile lor de securitate;",
+          "decompilați, dezasamblați sau încercați să extrageți codul sursă al Aplicației, cu excepția cazurilor permise expres de lege;",
+          "reproduceți, redistribuiți sau exploatați comercial tot sau o parte din conținutul Aplicației fără autorizare prealabilă;",
+          "utilizați instrumente automatizate (boți, scrapere) pentru a accesa Aplicația sau pentru a extrage date din aceasta."
+        ]
+      },
+      "ip": {
+        "heading": "7. PROPRIETATE INTELECTUALĂ",
+        "body": "Aplicația, codul său, designul, ilustrațiile și conținuturile pedagogice care îi sunt proprii (cursuri de tajweed, structurarea planului de învățare etc.) sunt protejate prin dreptul proprietății intelectuale și rămân proprietatea noastră sau a licențiatorilor noștri. Textul coranic în sine aparține patrimoniului comun și nu este revendicat de nimeni; traducerile, transliterările fonetice, recitările audio și conținuturile de tafsir integrate provin din surse terțe identificate în Aplicație sau de la parteneri (recitatori, editori de traducere) și sunt utilizate conform autorizațiilor obținute. Nicio dispoziție a acestor Termeni nu vă conferă vreun drept asupra acestor elemente dincolo de o utilizare personală și necomercială a Aplicației."
+      },
+      "religiousContent": {
+        "heading": "8. CONȚINUT RELIGIOS ȘI EDUCAȚIONAL",
+        "brief": "Pe scurt",
+        "briefText": "Aplicația este un instrument pedagogic de însoțire, nu un substitut pentru o învățare tradițională.",
+        "body": "Depunem toate eforturile pentru a asigura acuratețea textului coranic, a traducerilor, a transliterărilor fonetice și a regulilor de tajweed prezentate în Aplicație, bazându-ne în special pe surse recunoscute. Totuși, transliterarea fonetică este prin natura sa o aproximare destinată să faciliteze învățarea și nu înlocuiește învățarea citirii arabei coranice alături de un profesor calificat. De asemenea, feedback-ul oferit de funcționalitatea de corectare a recitării este un instrument de ajutor pentru învățare și nu garantează o validare religioasă a recitării dumneavoastră."
+      },
+      "accessibility": {
+        "heading": "9. ACCESIBILITATE",
+        "brief": "Pe scurt",
+        "briefText": "Lucrăm pentru a face Aplicația utilizabilă de cât mai multe persoane, inclusiv pentru persoanele cu dizabilități.",
+        "body": "Aplicația integrează informații de accesibilitate (etichete și roluri Semantics) pe ecranele și controalele sale principale pentru a facilita navigarea cu cititoarele de ecran native ale dispozitivului dumneavoastră (VoiceOver pe iOS, TalkBack pe Android). De asemenea, respectă mărimea fontului definită în setările de accesibilitate ale sistemului dumneavoastră de operare pentru afișarea textelor. Aceste eforturi de accesibilitate sunt continue și pot să nu acopere uniform toate ecranele și funcționalitățile la un moment dat. Dacă întâmpinați o dificultate de accesibilitate utilizând Aplicația, vă invităm să ne informați prin formularul de contact (vezi secțiunea 16) pentru a o putea îmbunătăți."
+      },
+      "ads": {
+        "heading": "10. PUBLICITATE ȘI SERVICII TERȚE",
+        "body1Before": "Aplicația integrează servicii tehnice terțe (măsurarea audienței, diagnostic tehnic, regie publicitară, achiziții integrate) descrise în detaliu în",
+        "linkText": "Politica de Confidențialitate",
+        "body1After": ". Aceste servicii sunt supuse propriilor condiții de utilizare, pe care vă invităm să le consultați.",
+        "body2": "Anumite reclame sunt complet opționale: puteți alege voluntar să vizionați o reclamă recompensată (\"rewarded ad\") din meniul de susținere al Aplicației, dacă doriți să ne susțineți fără a trece prin abonamentul Premium. Această reclamă opțională nu se afișează niciodată fără acțiunea dumneavoastră explicită."
+      },
+      "availability": {
+        "heading": "11. DISPONIBILITATE ȘI MODIFICĂRI ALE SERVICIULUI",
+        "body": "Ne străduim să menținem Aplicația accesibilă și funcțională, fără a garanta o disponibilitate continuă sau lipsită de erori. Anumite funcționalități necesită o conexiune la internet (descărcare audio, radio/TV în direct, sincronizarea contului) și pot fi indisponibile fără conexiune sau în cazul unei defecțiuni a unui serviciu terț. Putem adăuga, modifica sau elimina funcționalități ale Aplicației în orice moment, în special din motive tehnice, legale sau legate de evoluția parteneriatelor noastre de conținut."
+      },
+      "termination": {
+        "heading": "12. SUSPENDARE ȘI REZILIERE",
+        "body": "Puteți înceta să utilizați Aplicația în orice moment dezinstalând-o. Ne rezervăm dreptul de a suspenda sau de a rezilia accesul dumneavoastră la Aplicație, în special în caz de nerespectare a acestor Termeni, fără ca aceasta să afecteze achizițiile deja efectuate prin Google Play sau App Store, a căror gestionare este de resortul acestor platforme."
+      },
+      "disclaimer": {
+        "heading": "13. LIMITAREA RĂSPUNDERII",
+        "body": "În limita permisă de legea aplicabilă, Aplicația este furnizată \"ca atare\" și \"în funcție de disponibilitate\", fără nicio garanție de niciun fel, expresă sau implicită. Nu putem fi trași la răspundere pentru daunele indirecte, incidentale sau subsecvente rezultate din utilizarea sau imposibilitatea de a utiliza Aplicația, inclusiv în caz de indisponibilitate temporară, de pierdere a datelor de progres sau de eroare într-un conținut terț (traducere, audio, tafsir) integrat în Aplicație. Nimic din acești Termeni nu exclude o răspundere care nu poate fi exclusă legal (de exemplu în caz de vinovăție intenționată sau neglijență gravă)."
+      },
+      "law": {
+        "heading": "14. LEGEA APLICABILĂ ȘI LITIGII",
+        "body": "Acești Termeni sunt guvernați de legea franceză, fără a aduce atingere dispozițiilor imperative de protecție a consumatorilor care s-ar putea aplica în țara dumneavoastră de reședință. În caz de litigiu, se va căuta cu prioritate o soluție amiabilă contactându-ne direct (vezi secțiunea 16) înainte de orice acțiune judiciară."
+      },
+      "updates": {
+        "heading": "15. MODIFICAREA TERMENILOR",
+        "brief": "Pe scurt",
+        "briefText": "Putem actualiza acești Termeni pentru a reflecta evoluția Aplicației sau a reglementărilor.",
+        "body": "Putem modifica acești Termeni din când în când, în special la adăugarea de noi funcționalități. Versiunea actualizată va fi indicată printr-o nouă dată de \"Ultima actualizare\" în partea de sus a acestei pagini și va fi efectivă imediat ce va fi publicată. În caz de modificare substanțială, vă vom informa printr-o notificare în Aplicație. Continuarea utilizării Aplicației după publicarea modificărilor înseamnă acceptarea Termenilor actualizați."
+      },
+      "contact": {
+        "heading": "16. CONTACTAȚI-NE",
+        "bodyBefore": "Pentru orice întrebare privind acești Termeni, ne puteți contacta prin formularul de contact integrat în Aplicație, sau prin email la",
+        "email": "othmeneb@gmail.com",
+        "bodyAfter": "."
+      }
+    },
+    "footer": "© 2026 Noor Phonetic Quran. Toate drepturile rezervate."
+  },
+  "contactPage": {
+    "meta": {
+      "title": "Contact - Noor Phonetic Quran",
+      "description": "O întrebare despre aplicația Noor Phonetic Quran, o sugestie pentru fonetica Coranului sau o problemă tehnică? Contactați echipa noastră, răspuns în 48 de ore."
+    }
+  },
+  "reviews": {
+    "meta": {
+      "title": "Recenziile utilizatorilor - Noor Phonetic Quran",
+      "description": "Descoperiți peste 160 de recenzii verificate ale utilizatorilor Noor Phonetic Quran, aplicația pentru a învăța să recitați, memorați și citiți Coranul în fonetică, cu o notă medie de 5 stele."
+    },
+    "eyebrow": "Recenzii verificate",
+    "title": "Ce spun utilizatorii noștri",
+    "subtitle": "Descoperiți recenziile comunității noastre în creștere de utilizatori mulțumiți",
+    "ratingCountLabel": "din %COUNT% recenzii",
+    "loadMoreLabel": "Vezi mai multe recenzii"
+  },
+  "audioCoran": {
+    "meta": {
+      "title": "Audio al Coranului Sincronizat: Mai Mulți Recitatori și Ascultare Offline | Noor Phonetic Quran",
+      "description": "Ascultați Coranul cu un audio sincronizat verset cu verset, alegeți dintre mai mulți recitatori și descărcați audio pentru o ascultare offline cu Noor Phonetic Quran. Gratuit pe iOS și Android.",
+      "keywords": "audio Coran, recitare Coran audio, mai mulți recitatori Coran, Coran audio offline, descarcă Coran audio, ascultă Coranul, audio sincronizat Coran, recitatori Coran aplicație",
+      "ogTitle": "Audio al Coranului Sincronizat: Mai Mulți Recitatori și Ascultare Offline",
+      "ogDescription": "Audio sincronizat verset cu verset, mai mulți recitatori și descărcare offline. Aplicație gratuită Noor Phonetic Quran."
+    },
+    "breadcrumb": {
+      "home": "Acasă",
+      "current": "Audio al Coranului"
+    },
+    "hero": {
+      "title": "Audio al Coranului Sincronizat: Mai Mulți Recitatori, Ascultare Offline",
+      "subtitle": "Fiecare verset este însoțit de un audio sincronizat pentru a auzi pronunția corectă, cu posibilitatea de a alege recitatorul și de a descărca audio pentru o ascultare fără conexiune.",
+      "backLink": "Înapoi acasă",
+      "googlePlay": "Google Play",
+      "appStore": "App Store"
+    },
+    "intro": {
+      "title": "O ascultare gândită pentru învățare",
+      "paragraph1": "A auzi pronunția corectă este esențial pentru a învăța să recitați Coranul corect. Noor Phonetic Quran asociază fiecărui verset un audio sincronizat, astfel încât să puteți urmări textul, fonetica sa și ascultarea în același timp.",
+      "paragraph2": "Nu sunteți limitat la un singur recitator sau la o conexiune permanentă la internet: alegeți vocea preferată și descărcați audio pentru a-l lua cu dumneavoastră oriunde."
+    },
+    "features": {
+      "title": "Ce oferă audio-ul Coranului",
+      "items": [
+        {
+          "title": "Audio sincronizat verset cu verset",
+          "description": "fiecare verset este citit cu voce tare în momentul în care îl citiți, pentru a vă corecta pronunția în timp real."
+        },
+        {
+          "title": "Mai mulți recitatori la alegere",
+          "description": "selectați recitatorul care vi se potrivește cel mai bine dintre cei disponibili în aplicație."
+        },
+        {
+          "title": "Ascultare pe verset, sură sau interval de sure",
+          "description": "alegeți exact porțiunea din Coran pe care doriți să o ascultați."
+        },
+        {
+          "title": "Viteză de redare reglabilă",
+          "description": "încetiniți audio-ul de la 0,7x la 1x pentru a distinge mai bine fiecare cuvânt atunci când învățați."
+        },
+        {
+          "title": "Descărcare pentru ascultare offline",
+          "description": "descărcați audio-ul în avans pentru a asculta Coranul fără conexiune la internet, oriunde v-ați afla."
+        }
+      ]
+    },
+    "screenshots": {
+      "title": "Prezentare a audio-ului Coranului",
+      "alts": [
+        "Noor Phonetic Quran - Bară de redare audio sincronizată",
+        "Noor Phonetic Quran - Selectarea unui interval de versete și descărcare offline",
+        "Noor Phonetic Quran - Selectarea unui interval de sure și reglarea vitezei",
+        "Noor Phonetic Quran - Alegerea recitatorului"
+      ]
+    },
+    "faq": {
+      "title": "Întrebări frecvente despre audio-ul Coranului",
+      "items": [
+        {
+          "question": "Audio-ul este sincronizat cu textul?",
+          "answer": "Da, fiecare verset este însoțit de un audio sincronizat pentru a auzi pronunția corectă în timp ce urmăriți textul și transcrierea sa fonetică."
+        },
+        {
+          "question": "Câți recitatori sunt disponibili?",
+          "answer": "Puteți alege dintre mai mulți recitatori ai Coranului direct din setările de redare audio, conform preferințelor dumneavoastră de ascultare."
+        },
+        {
+          "question": "Se poate asculta Coranul offline?",
+          "answer": "Da, puteți descărca audio-ul unui verset, al unei sure sau al unui interval de sure pentru o ascultare completă fără conexiune la internet."
+        },
+        {
+          "question": "Se poate schimba viteza de redare a audio-ului?",
+          "answer": "Da, viteza de redare este reglabilă de la 0,7x la 1x pentru a adapta ascultarea la nivelul dumneavoastră de învățare."
+        }
+      ]
+    },
+    "related": {
+      "title": "Descoperiți și",
+      "tajweed": "Reguli de Tajweed",
+      "memorization": "Memorarea Coranului (Hifz)",
+      "allFeatures": "Toate funcționalitățile"
+    }
+  },
+  "privacyPolicy": {
+    "title": "Noor Phonetic Quran",
+    "heading": "POLITICA DE CONFIDENȚIALITATE",
+    "lastUpdated": "Ultima actualizare: 28 iulie 2026",
+    "intro1": "Această notificare de confidențialitate pentru Noor Phonetic Quran (\"noi\", \"al nostru\" sau \"ai noștri\") descrie cum și de ce colectăm, stocăm, utilizăm și/sau partajăm anumite informații atunci când utilizați aplicația noastră mobilă Noor Phonetic Quran (\"Serviciile\").",
+    "intro2": "Această politică de confidențialitate completează <cguLink>Termenii și Condițiile de Utilizare</cguLink>, care reglementează mai amplu accesul și utilizarea Serviciilor noastre.",
+    "intro3": "Întrebări sau nelămuriri? Citirea acestei notificări de confidențialitate vă va ajuta să înțelegeți drepturile și opțiunile dumneavoastră privind confidențialitatea. Dacă nu sunteți de acord cu politicile și practicile noastre, vă rugăm să nu utilizați Serviciile noastre. Dacă mai aveți întrebări sau nelămuriri, vă rugăm să ne contactați la adresa: <mailLink>othmeneb@gmail.com</mailLink>.",
+    "summary": {
+      "heading": "REZUMATUL PUNCTELOR CHEIE",
+      "intro": "Acest rezumat oferă punctele cheie ale notificării noastre de confidențialitate, dar puteți obține mai multe detalii despre fiecare dintre aceste subiecte utilizând cuprinsul de mai jos.",
+      "q1": {
+        "title": "Ce informații personale prelucrăm?",
+        "text": "Nu colectăm nicio informație de identitate directă (nume, email) decât dacă vă creați un cont opțional, utilizați corectarea recitării sau ne contactați voluntar prin formularul de contact. Aplicația utilizează, de asemenea, servicii tehnice (statistici de utilizare anonimizate, urmărirea blocajelor, achiziții integrate) care prelucrează identificatori tehnici ai dispozitivului dumneavoastră. Vezi secțiunea \"Ce informații colectăm?\" pentru detalii."
+      },
+      "q2": {
+        "title": "Prelucrăm informații personale sensibile?",
+        "text": "Dacă utilizați funcționalitatea opțională de corectare a recitării, înregistrarea dumneavoastră vocală (date care pot fi considerate sensibile/biometrice) este stocată în mod securizat pentru a vă oferi un feedback asupra pronunției dumneavoastră. În afara acestei funcționalități opționale, nu prelucrăm nicio informație personală sensibilă."
+      },
+      "q3": {
+        "title": "Primim informații de la terți?",
+        "text": "Nu, nu primim nicio informație de la terți în afara serviciilor tehnice enumerate mai jos (Firebase, Google AdMob, magazinele de aplicații)."
+      },
+      "q4": {
+        "title": "Cum prelucrăm informațiile dumneavoastră?",
+        "text": "Prelucrăm informațiile dumneavoastră pentru a face aplicația funcțională, a măsura utilizarea sa în mod agregat, a diagnostica problemele tehnice, a gestiona abonamentele și a răspunde la mesajele dumneavoastră de contact."
+      },
+      "q5": {
+        "title": "În ce situații și cu ce părți partajăm informații personale?",
+        "text": "Partajăm anumite date tehnice cu furnizorii noștri (Google Firebase, Google AdMob) care acționează ca subcontractanți pentru funcționarea aplicației. Nu vindem nicio dată."
+      },
+      "q6": {
+        "title": "Care sunt drepturile dumneavoastră?",
+        "text": "În funcție de locația dumneavoastră, puteți avea un drept de acces, de rectificare, de opoziție și de ștergere a datelor dumneavoastră. Vezi secțiunea \"Care sunt drepturile dumneavoastră privind confidențialitatea?\"."
+      },
+      "q7": {
+        "title": "Cum vă exercitați drepturile?",
+        "text": "Cel mai simplu mod este să ne contactați la <mailLink>othmeneb@gmail.com</mailLink>. Vom răspunde cererii dumneavoastră conform legii aplicabile."
+      }
+    },
+    "toc": {
+      "heading": "CUPRINS",
+      "items": {
+        "collect": "CE INFORMAȚII COLECTĂM?",
+        "process": "CUM PRELUCRĂM INFORMAȚIILE DUMNEAVOASTRĂ?",
+        "legal": "PE CE BAZE JURIDICE NE BAZĂM PENTRU A PRELUCRA INFORMAȚIILE DUMNEAVOASTRĂ PERSONALE?",
+        "share": "CÂND ȘI CU CINE PARTAJĂM INFORMAȚIILE DUMNEAVOASTRĂ PERSONALE?",
+        "keep": "CÂT TIMP PĂSTRĂM INFORMAȚIILE DUMNEAVOASTRĂ?",
+        "rights": "CARE SUNT DREPTURILE DUMNEAVOASTRĂ PRIVIND CONFIDENȚIALITATEA?",
+        "dnt": "CONTROALE ALE FUNCȚIONALITĂȚILOR \"DO-NOT-TRACK\"",
+        "usRights": "AU REZIDENȚII STATELOR UNITE DREPTURI SPECIFICE PRIVIND CONFIDENȚIALITATEA?",
+        "updates": "ACTUALIZĂM ACEASTĂ NOTIFICARE?",
+        "contact": "CUM NE PUTEȚI CONTACTA ÎN LEGĂTURĂ CU ACEASTĂ NOTIFICARE?",
+        "access": "CUM PUTEȚI CONSULTA, ACTUALIZA SAU ȘTERGE DATELE PE CARE LE COLECTĂM?"
+      }
+    },
+    "sections": {
+      "collect": {
+        "heading": "CE INFORMAȚII COLECTĂM?",
+        "disclosedTitle": "Informații personale pe care ni le divulgați",
+        "disclosedIntro": "<strong>Pe scurt</strong>: Colectăm informațiile personale pe care ni le furnizați voluntar, de exemplu atunci când vă creați un cont, utilizați corectarea recitării sau formularul nostru de contact.",
+        "disclosedContact": "Dacă ne contactați prin formularul de contact integrat în aplicație, colectăm numele dumneavoastră, adresa de email și conținutul mesajului dumneavoastră, precum și informații tehnice asociate (platformă, limbă, versiune a aplicației, tip de dispozitiv, fus orar) pentru a vă putea răspunde și diagnostica eventualele probleme.",
+        "disclosedAccount": "Dacă vă creați un cont opțional, colectăm adresa dumneavoastră de email (conectare prin email) sau informațiile transmise de Google sau Apple în timpul unei conectări prin aceste servicii (identificator de cont, nume și adresă de email dacă alegeți să le partajați), pentru a crea și securiza profilul dumneavoastră și a sincroniza progresul și abonamentul Premium.",
+        "audioTitle": "Înregistrări audio (corectarea recitării)",
+        "audioIntro": "<strong>Pe scurt</strong>: Dacă utilizați corectarea recitării, înregistrarea dumneavoastră vocală este trimisă în mod securizat pe serverele noastre (Google Firebase Storage) pentru a putea fi analizată și/sau reascultată de un examinator.",
+        "audioDetail": "Vocea poate fi considerată o dată biometrică sau sensibilă în funcție de reglementarea aplicabilă. Atunci când utilizați funcționalitatea de corectare a recitării, înregistrarea dumneavoastră audio este stocată într-un spațiu dedicat contului dumneavoastră (Google Firebase Storage), accesibil doar dumneavoastră și examinatorilor autorizați să prelucreze trimiterea dumneavoastră, în scopul unic de a vă oferi un feedback asupra pronunției dumneavoastră. Aceste înregistrări nu sunt utilizate în scopuri publicitare, nici partajate cu terți în afara furnizorilor tehnici necesari stocării lor (Google Firebase). Puteți solicita ștergerea înregistrărilor dumneavoastră în orice moment contactându-ne (vezi secțiunea \"Cum ne puteți contacta\").",
+        "autoTitle": "Date colectate automat",
+        "autoIntro": "Ca majoritatea aplicațiilor, Noor Phonetic Quran utilizează servicii tehnice terțe care colectează automat anumite date de utilizare și despre dispozitiv:",
+        "table": {
+          "headers": {
+            "service": "Serviciu",
+            "purpose": "Scop",
+            "data": "Date vizate"
+          },
+          "rows": {
+            "analytics": {
+              "service": "Google Firebase Analytics",
+              "purpose": "Măsurarea audienței și a utilizării funcționalităților (ecrane vizualizate, acțiuni în aplicație precum citirea, memorarea sau quiz-ul), sub formă agregată și anonimizată",
+              "data": "Identificator publicitar/de instalare, statistici de utilizare, limbă, statut premium"
+            },
+            "crashlytics": {
+              "service": "Google Firebase Crashlytics",
+              "purpose": "Diagnostic tehnic al blocajelor aplicației pentru a corecta erorile",
+              "data": "Rapoarte de blocare, informații tehnice despre dispozitiv și sistemul de operare"
+            },
+            "auth": {
+              "service": "Google Firebase Authentication",
+              "purpose": "Crearea și securizarea contului dumneavoastră opțional (email, Google, Apple), sincronizarea progresului și a abonamentului dumneavoastră",
+              "data": "Adresă de email, identificator de cont, metodă de conectare utilizată"
+            },
+            "storage": {
+              "service": "Google Firebase Storage",
+              "purpose": "Stocarea securizată a înregistrărilor dumneavoastră audio dacă utilizați corectarea recitării",
+              "data": "Fișiere audio ale vocii dumneavoastră, asociate identificatorului dumneavoastră de cont"
+            },
+            "purchases": {
+              "service": "Google Play / App Store (achiziții integrate)",
+              "purpose": "Gestionarea abonamentului premium (eliminarea reclamelor)",
+              "data": "Statut și identificator de achiziție, gestionate direct de Google/Apple"
+            },
+            "admob": {
+              "service": "Google AdMob",
+              "purpose": "Afișarea de reclame pentru utilizatorii non-premium (bannere, interstițiale) precum și reclame recompensate (\"rewarded ads\") pe care puteți alege să le vizionați voluntar pentru a ne susține fără a vă abona la Premium",
+              "data": "Identificator publicitar al dispozitivului, date de interacțiune cu reclamele"
+            }
+          }
+        },
+        "att": "Pe iOS, afișarea reclamelor personalizate poate fi însoțită de o cerere de autorizare \"App Tracking Transparency\" (ATT) propusă de sistemul de operare. Puteți refuza această autorizare în orice moment din setările de confidențialitate ale dispozitivului dumneavoastră (Setări > Confidențialitate și securitate > Urmărire); aplicația rămâne pe deplin funcțională dacă refuzați.",
+        "noLocation": "Nu colectăm locația dumneavoastră precisă; aplicația nu solicită autorizație de acces la geolocalizare."
+      },
+      "process": {
+        "heading": "CUM PRELUCRĂM INFORMAȚIILE DUMNEAVOASTRĂ?",
+        "summary": "<strong>Pe scurt</strong>: Prelucrăm informațiile dumneavoastră pentru a face aplicația funcțională, a răspunde cererilor dumneavoastră, a ne îmbunătăți Serviciile și a gestiona abonamentul dumneavoastră, dacă este cazul.",
+        "detail": "Prelucrăm datele descrise mai sus pentru a: (i) furniza și menține funcționalitățile aplicației (citire, memorare, khatma, quiz, corectarea recitării), (ii) răspunde mesajelor dumneavoastră trimise prin formularul de contact, (iii) diagnostica și corecta problemele tehnice, (iv) măsura utilizarea agregată a funcționalităților pentru a prioritiza dezvoltările noastre, (v) gestiona abonamentul premium și afișarea publicitară pentru utilizatorii non-premium."
+      },
+      "legal": {
+        "heading": "PE CE BAZE JURIDICE NE BAZĂM PENTRU A PRELUCRA INFORMAȚIILE DUMNEAVOASTRĂ PERSONALE?",
+        "summary": "<strong>Pe scurt</strong>: Prelucrăm informațiile dumneavoastră personale doar atunci când considerăm că este necesar și că avem un motiv legal valabil (adică o bază juridică) pentru a face acest lucru în temeiul legii aplicabile.",
+        "euTitle": "Dacă vă aflați în UE sau în Regatul Unit, această secțiune vi se aplică.",
+        "euIntro": "Regulamentul General privind Protecția Datelor (GDPR) și GDPR-ul Regatului Unit ne obligă să explicăm bazele juridice valide pe care ne bazăm pentru a prelucra informațiile dumneavoastră personale:",
+        "euList": {
+          "consent": "<strong>Consimțământ</strong>: pentru afișarea de reclame personalizate și măsurarea audienței, colectat prin bannerul de consimțământ la prima lansare a aplicației.",
+          "contract": "<strong>Executarea unui contract</strong>: pentru gestionarea abonamentului dumneavoastră premium.",
+          "legitimate": "<strong>Interes legitim</strong>: pentru diagnosticul tehnic (Crashlytics) și prelucrarea mesajelor dumneavoastră de contact."
+        },
+        "canadaTitle": "Dacă vă aflați în Canada, această secțiune vi se aplică.",
+        "canadaText": "Putem prelucra informațiile dumneavoastră dacă ne-ați dat o autorizație specifică, sau în anumite cazuri definite legal (legea privind protecția vieții private). Putem prelucra, de asemenea, informațiile dumneavoastră dacă acest lucru este rezonabil și în scopuri pe care o persoană rezonabilă le-ar considera adecvate, de exemplu pentru a răspunde cererilor dumneavoastră de contact."
+      },
+      "share": {
+        "heading": "CÂND ȘI CU CINE PARTAJĂM INFORMAȚIILE DUMNEAVOASTRĂ PERSONALE?",
+        "summary": "<strong>Pe scurt</strong>: Partajăm informații doar cu furnizorii tehnici necesari funcționării aplicației (Google Firebase, Google AdMob), magazinele de aplicații (Google Play, App Store) pentru gestionarea achizițiilor, și dacă legea ne obligă. Nu vindem niciodată datele dumneavoastră unor terți."
+      },
+      "keep": {
+        "heading": "CÂT TIMP PĂSTRĂM INFORMAȚIILE DUMNEAVOASTRĂ?",
+        "summary": "<strong>Pe scurt</strong>: Păstrăm informațiile dumneavoastră atât timp cât este necesar pentru scopurile descrise în această notificare, cu excepția cazului în care legea impune o durată de păstrare mai lungă.",
+        "detail": "Mesajele trimise prin formularul de contact sunt păstrate pe durata procesării cererii dumneavoastră, apoi arhivate sau șterse. Datele statistice agregate (Firebase Analytics) sunt păstrate conform parametrilor impliciți ai Google Firebase."
+      },
+      "rights": {
+        "heading": "CARE SUNT DREPTURILE DUMNEAVOASTRĂ PRIVIND CONFIDENȚIALITATEA?",
+        "summary": "<strong>Pe scurt</strong>: În funcție de țara dumneavoastră de reședință, puteți avea dreptul de a solicita accesul, rectificarea sau ștergerea informațiilor dumneavoastră personale, de a vă retrage consimțământul la prelucrare și de a vă opune anumitor prelucrări.",
+        "detail": "Vă puteți retrage în orice moment consimțământul pentru măsurarea audienței și publicitatea personalizată din setările de confidențialitate disponibile în aplicație (Setări > Confidențialitate)."
+      },
+      "dnt": {
+        "heading": "CONTROALE ALE FUNCȚIONALITĂȚILOR \"DO-NOT-TRACK\"",
+        "text": "Majoritatea browserelor web și anumite sisteme de operare și aplicații mobile includ o funcționalitate \"Do-Not-Track\" (\"DNT\") sau o setare pe care o puteți activa pentru a semnala preferința dumneavoastră privind confidențialitatea. În acest stadiu, nu a fost finalizat niciun standard tehnologic uniform pentru recunoașterea și implementarea semnalelor DNT. Ca atare, nu răspundem în prezent semnalelor de browser DNT. Dacă un standard pentru urmărirea online este adoptat și trebuie să îl urmăm în viitor, vă vom informa printr-o versiune revizuită a acestei notificări de confidențialitate."
+      },
+      "usRights": {
+        "heading": "AU REZIDENȚII STATELOR UNITE DREPTURI SPECIFICE PRIVIND CONFIDENȚIALITATEA?",
+        "summary": "<strong>Pe scurt</strong>: Dacă sunteți rezident al Statelor Unite, beneficiați de anumite drepturi specifice privind accesul la informațiile dumneavoastră personale, în funcție de statul în care locuiți. Puteți exercita aceste drepturi contactându-ne la adresa indicată mai jos."
+      },
+      "updates": {
+        "heading": "ACTUALIZĂM ACEASTĂ NOTIFICARE?",
+        "summary": "<strong>Pe scurt</strong>: Da, vom actualiza această notificare dacă este necesar pentru a rămâne în conformitate cu legile relevante.",
+        "detail": "Putem actualiza această notificare de confidențialitate din când în când. Versiunea actualizată va fi indicată printr-o dată de \"Revizuire\" actualizată și va fi efectivă imediat ce va fi accesibilă. Dacă aducem modificări importante acestei notificări de confidențialitate, vă putem informa fie publicând o notificare vizibilă a acestor modificări, fie trimițându-vă direct o notificare. Vă încurajăm să consultați frecvent această notificare de confidențialitate pentru a fi informat despre modul în care vă protejăm informațiile."
+      },
+      "contact": {
+        "heading": "CUM NE PUTEȚI CONTACTA ÎN LEGĂTURĂ CU ACEASTĂ NOTIFICARE?",
+        "text": "Dacă aveți întrebări sau comentarii despre această notificare, ne puteți trimite un email la <mailLink>othmeneb@gmail.com</mailLink>."
+      },
+      "access": {
+        "heading": "CUM PUTEȚI CONSULTA, ACTUALIZA SAU ȘTERGE DATELE PE CARE LE COLECTĂM?",
+        "text": "În funcție de legile aplicabile în țara dumneavoastră, puteți avea dreptul de a solicita accesul la informațiile personale pe care le deținem despre dumneavoastră, de a le modifica sau de a le șterge. Pentru aceasta, este suficient să ne contactați la <mailLink>othmeneb@gmail.com</mailLink>; vom procesa cererea dumneavoastră cât mai curând posibil."
+      }
+    },
+    "footer": "© 2026 Noor Phonetic Quran. Toate drepturile rezervate.",
+    "meta": {
+      "title": "Politica de Confidențialitate - Noor Phonetic Quran",
+      "description": "Politica de confidențialitate Noor Phonetic Quran: date colectate (analiză, achiziții, formular de contact), scopuri, partajare cu terți și drepturile dumneavoastră."
+    }
+  },
+  "correctionRecitation": {
+    "meta": {
+      "title": "Corectarea Recitării Coranului: Înregistrați-vă și Progresați | Noor Phonetic Quran",
+      "description": "Înregistrați-vă recitarea Coranului și primiți o corectare personalizată cu Noor Phonetic Quran: îmbunătățirea pronunției și a respectării regulilor de Tajweed. Gratuit pe iOS și Android.",
+      "keywords": "corectarea recitării Coranului, îmbunătățește-ți recitarea, corectare Tajweed, înregistrează-ți recitarea, aplicație corectare Coran, învață să recitezi Coranul corect",
+      "ogTitle": "Corectarea Recitării Coranului: Înregistrați-vă și Progresați",
+      "ogDescription": "Înregistrați-vă recitarea și primiți o corectare personalizată pentru a progresa în pronunție și în Tajweed. Aplicație gratuită Noor Phonetic Quran."
+    },
+    "breadcrumb": {
+      "home": "Acasă",
+      "current": "Corectarea recitării"
+    },
+    "hero": {
+      "title": "Corectarea Recitării Coranului: Înregistrați-vă și Progresați",
+      "subtitle": "Înregistrați-vă recitarea direct în aplicație și primiți o corectare personalizată pentru a vă îmbunătăți pronunția și respectarea regulilor de Tajweed."
+    },
+    "intro": {
+      "title": "De ce să corectăm recitarea?",
+      "paragraph1": "A recita corect nu se limitează la a citi corect fonetica: respectarea regulilor de Tajweed (alungiri, legături, punctele de articulare ale literelor) necesită adesea un feedback extern pentru a identifica ceea ce trebuie îmbunătățit.",
+      "paragraph2": "Cu Noor Phonetic Quran, vă puteți înregistra direct în aplicație și primiți o corectare personalizată, fără să fie nevoie să găsiți un profesor disponibil permanent."
+    },
+    "steps": {
+      "title": "Cum funcționează corectarea recitării?",
+      "items": [
+        {
+          "title": "Alegeți un pasaj",
+          "text": "selectați sura și versetele pe care doriți să le recitați."
+        },
+        {
+          "title": "Înregistrați-vă recitarea",
+          "text": "direct din aplicație, fără echipament suplimentar."
+        },
+        {
+          "title": "Trimiteți înregistrarea dumneavoastră",
+          "text": "recitarea dumneavoastră este pusă în coada de așteptare pentru a fi ascultată."
+        },
+        {
+          "title": "Primiți corectarea dumneavoastră",
+          "text": "un răspuns personalizat vă indică punctele de îmbunătățit, direct în aplicație."
+        },
+        {
+          "title": "Progresați cu fiecare înregistrare",
+          "text": "repetați exercițiul în mod regulat pentru a vă rafina pronunția și Tajweed-ul."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Întrebări frecvente despre corectarea recitării",
+      "items": [
+        {
+          "question": "Corectarea recitării este gratuită?",
+          "answer": "O primă înregistrare este gratuită. Dincolo de aceasta, funcționalitatea face parte din oferta premium a aplicației."
+        },
+        {
+          "question": "Cât timp durează primirea unei corectări?",
+          "answer": "Înregistrarea dumneavoastră este pusă în coada de așteptare pentru a fi ascultată și corectată, cu un răspuns personalizat direct în aplicație."
+        },
+        {
+          "question": "Pot să reînregistrez de mai multe ori același pasaj?",
+          "answer": "Da, puteți repeta exercițiul de câte ori doriți pentru a progresa pe un anumit pasaj."
+        }
+      ]
+    },
+    "related": {
+      "title": "Descoperiți și",
+      "tajweed": "Reguli de Tajweed",
+      "memorisation": "Memorarea Coranului (Hifz)",
+      "allFeatures": "Toate funcționalitățile"
+    }
+  },
+  "khatmaCoran": {
+    "meta": {
+      "title": "Khatma Coranului: Aplicație pentru a Planifica și Urmări Lectura Completă | Noor Phonetic Quran",
+      "description": "Planificați-vă Khatma (citirea completă a Coranului) cu aplicația Noor Phonetic Quran: obiective zilnice, urmărirea progresului, serii de zile (streak) și mementouri. Gratuit pe iOS și Android.",
+      "keywords": "Khatma Coran, aplicație khatma, citește Coranul integral, plan de citire Coran, obiectiv Khatma Ramadan, urmărirea citirii Coranului, termină Coranul",
+      "ogTitle": "Khatma Coranului: Planificați și Urmăriți Lectura Completă",
+      "ogDescription": "Planificați-vă Khatma cu obiective zilnice, urmărirea progresului și mementouri. Aplicație gratuită Noor Phonetic Quran."
+    },
+    "breadcrumb": {
+      "home": "Acasă",
+      "current": "Khatma Coranului"
+    },
+    "hero": {
+      "title": "Khatma Coranului: Planificați și Finalizați Lectura Completă",
+      "subtitle": "Stabiliți-vă un obiectiv de zile, urmăriți-vă progresul zilnic și păstrați-vă seria de citire (streak) până la ultima pagină a Sfântului Coran, cu mementouri pentru a rămâne constant.",
+      "googlePlay": "Google Play",
+      "appStore": "App Store"
+    },
+    "intro": {
+      "title": "Ce este o Khatma?",
+      "paragraph1": "Khatma desemnează citirea completă a Coranului, de la început (Al-Fatiha) până la sfârșit (An-Nas). Mulți musulmani realizează o Khatma în timpul lunii Ramadan, dar aceasta poate fi întreprinsă și în orice alt moment al anului, pe durata la alegere.",
+      "paragraph2": "Terminarea Coranului necesită constanță: fără un plan de citire sau o urmărire, este ușor să pierzi șirul sau să abandonezi pe parcurs. Exact asta rezolvă funcționalitatea Khatma din Noor Phonetic Quran."
+    },
+    "features": {
+      "title": "Cum funcționează Khatma în aplicație?",
+      "items": [
+        {
+          "title": "Alegeți durata Khatma-ei dumneavoastră",
+          "description": "de exemplu 30 de zile pentru Ramadan, sau o durată personalizată adaptată ritmului dumneavoastră."
+        },
+        {
+          "title": "Urmăriți-vă obiectivul zilnic",
+          "description": "aplicația calculează automat numărul de pagini de citit în fiecare zi pentru a termina la timp."
+        },
+        {
+          "title": "Păstrați-vă seria de citire (streak)",
+          "description": "fiecare zi în care vă atingeți obiectivul vă prelungește streak-ul, o motivație suplimentară pentru a rămâne constant."
+        },
+        {
+          "title": "Primiți mementouri",
+          "description": "notificările vă ajută să nu uitați citirea zilei."
+        },
+        {
+          "title": "Sărbătoriți finalul Khatma-ei dumneavoastră",
+          "description": "un rezumat al parcursului dumneavoastră (zile parcurse, cel mai bun streak) se afișează odată Coranul terminat."
+        }
+      ]
+    },
+    "screenshots": {
+      "title": "Prezentare a funcționalității Khatma",
+      "alts": [
+        "Noor Phonetic Quran - Alegerea planului Khatma (30, 60, 90 de zile sau Ramadan)",
+        "Noor Phonetic Quran - Urmărirea progresului Khatma cu streak",
+        "Noor Phonetic Quran - Indicator Khatma afișat în timpul citirii"
+      ]
+    },
+    "faq": {
+      "title": "Întrebări frecvente despre Khatma",
+      "items": [
+        {
+          "question": "Ce este o Khatma a Coranului?",
+          "answer": "O Khatma desemnează citirea completă a Coranului, de la început până la sfârșit, realizată de obicei într-o perioadă definită (adesea în timpul lunii Ramadan, dar și pe tot parcursul anului)."
+        },
+        {
+          "question": "Cum se planifică o Khatma cu aplicația?",
+          "answer": "Alegeți un număr de zile pentru a termina Coranul (de exemplu 30 de zile pentru Ramadan), aplicația calculează automat obiectivul dumneavoastră zilnic de pagini și urmărește progresul dumneavoastră zi de zi."
+        },
+        {
+          "question": "Ce se întâmplă dacă ratez o zi de citire?",
+          "answer": "Aplicația vă ajustează obiectivul zilnic rămas pentru a vă permite să recuperați întârzierea și să vă terminați Khatma la timp, urmărind în același timp seria dumneavoastră de zile consecutive (streak)."
+        },
+        {
+          "question": "Pot face o Khatma în afara Ramadanului?",
+          "answer": "Da, puteți începe o Khatma în orice moment al anului, cu durata la alegere."
+        },
+        {
+          "question": "Funcționalitatea Khatma este gratuită?",
+          "answer": "Da, ca și ansamblul funcționalităților principale ale Noor Phonetic Quran, Khatma este complet gratuită."
+        }
+      ]
+    },
+    "related": {
+      "title": "Descoperiți și",
+      "memorization": "Memorarea Coranului (Hifz)",
+      "audio": "Audio al Coranului",
+      "allFeatures": "Toate funcționalitățile"
+    }
+  },
+  "tajweedCoran": {
+    "meta": {
+      "title": "Regulile de Tajweed ale Coranului: Învățare Colorată și Detaliată | Noor Phonetic Quran",
+      "description": "Învățați regulile de Tajweed ale Coranului cu Noor Phonetic Quran: culori și adnotări în timpul citirii, puncte de articulare a literelor (Makharej), regulile Noun Sâkinah și Waqf. Gratuit pe iOS și Android.",
+      "keywords": "reguli Tajweed, Tajweed Coran, învață Tajweed, Tajweed colorat, Makharej litere arabe, Noun Sakinah Tanwin, Waqf Ibtida, aplicație Tajweed gratuită",
+      "ogTitle": "Regulile de Tajweed ale Coranului: Învățare Colorată și Detaliată",
+      "ogDescription": "Culori și adnotări în timpul citirii, puncte de articulare, regulile Noun Sâkinah și Waqf. Aplicație gratuită Noor Phonetic Quran."
+    },
+    "breadcrumb": {
+      "home": "Acasă",
+      "current": "Reguli de Tajweed"
+    },
+    "hero": {
+      "title": "Regulile de Tajweed ale Coranului: Învățare Colorată și Detaliată",
+      "subtitle": "Textul Coranului se afișează colorat și adnotat conform regulilor de Tajweed, însoțit de ghiduri detaliate despre punctele de articulare, Noun Sâkinah și regulile de oprire și reluare.",
+      "backLink": "Înapoi acasă",
+      "googlePlay": "Google Play",
+      "appStore": "App Store"
+    },
+    "intro": {
+      "title": "De ce este important Tajweed",
+      "paragraph1": "Tajweed reprezintă ansamblul de reguli care garantează o recitare corectă a Coranului: pronunție precisă a fiecărei litere, alungiri, legături și locurile unde se poate opri sau relua citirea. A recita fără a respecta Tajweed poate altera sensul textului.",
+      "paragraph2": "Noor Phonetic Quran face aceste reguli vizibile și înțelese, cu culori în timpul citirii și ghiduri detaliate pentru a aprofunda fiecare noțiune."
+    },
+    "features": {
+      "title": "Ce oferă învățarea Tajweed-ului",
+      "items": [
+        {
+          "title": "Text colorat și adnotat",
+          "description": "culorile și adnotările vă ghidează recitarea direct pe textul Coranului, conform regulilor corecte de Tajweed."
+        },
+        {
+          "title": "Puncte de articulare (Makharej)",
+          "description": "învățați pronunția corectă a fiecărei litere arabe pornind de la punctul său de articulare, cu scheme anatomice."
+        },
+        {
+          "title": "Noun Sâkinah și Tanwîn",
+          "description": "cele 4 reguli care guvernează noun sâkinah și tanwîn (Izhâr, Idghâm, Iqlâb, Ikhfâ') explicate și comparate vizual."
+        },
+        {
+          "title": "Waqf și Ibtidā",
+          "description": "regulile care identifică locurile unde oprirea și reluarea recitării sunt permise, pentru a păstra sensul textului."
+        }
+      ]
+    },
+    "screenshots": {
+      "title": "Prezentare a regulilor de Tajweed",
+      "alts": [
+        "Noor Phonetic Quran - Reguli de Tajweed colorate în timpul citirii",
+        "Noor Phonetic Quran - Puncte de articulare a literelor arabe (Makharej)",
+        "Noor Phonetic Quran - Regulile Noun Sâkinah și Tanwîn",
+        "Noor Phonetic Quran - Regulile de Waqf și Ibtidā (oprire și reluare)"
+      ]
+    },
+    "faq": {
+      "title": "Întrebări frecvente despre Tajweed",
+      "items": [
+        {
+          "question": "Ce este Tajweed?",
+          "answer": "Tajweed reprezintă ansamblul de reguli care guvernează pronunția corectă a Coranului: alungiri, legături, punctele de articulare a literelor și regulile de oprire și reluare a recitării."
+        },
+        {
+          "question": "Cum predă aplicația Tajweed-ul?",
+          "answer": "Textul Coranului este colorat și adnotat conform regulilor de Tajweed în timpul citirii, iar ghiduri detaliate explică fiecare regulă: puncte de articulare, Noun Sâkinah și Tanwîn, precum și regulile de Waqf și Ibtidā."
+        },
+        {
+          "question": "Este Tajweed-ul potrivit pentru începători?",
+          "answer": "Da, fiecare regulă este explicată cu definiții simple, exemple și comparații vizuale pentru a facilita învățarea, chiar și fără cunoștințe prealabile."
+        }
+      ]
+    },
+    "related": {
+      "title": "Descoperiți și",
+      "audio": "Audio al Coranului",
+      "memorization": "Memorarea Coranului (Hifz)",
+      "allFeatures": "Toate funcționalitățile"
+    }
+  },
+  "quizCoran": {
+    "meta": {
+      "title": "Quiz Coranic: Testați-vă Cunoștințele despre Coran Distrându-vă | Noor Phonetic Quran",
+      "description": "Testați-vă cunoștințele despre Coran cu Quiz-ul coranic al Noor Phonetic Quran: 21 de întrebări, scală de câștiguri, jokeri 50:50, sondajul publicului și apel la un prieten. Gratuit pe iOS și Android.",
+      "keywords": "quiz Coran, quiz coranic, joc întrebări Coran, testează-ți cunoștințele despre Coran, quiz islam, aplicație quiz Coran gratuită, întrebări Coran și răspunsuri",
+      "ogTitle": "Quiz Coranic: Testați-vă Cunoștințele despre Coran Distrându-vă",
+      "ogDescription": "21 de întrebări, scală de câștiguri, jokeri 50:50, sondajul publicului și apel la un prieten. Aplicație gratuită Noor Phonetic Quran."
+    },
+    "breadcrumb": {
+      "home": "Acasă",
+      "current": "Quiz Coranic"
+    },
+    "hero": {
+      "title": "Quiz Coranic: Testați-vă Cunoștințele Distrându-vă",
+      "subtitle": "21 de întrebări, o scală de câștiguri progresivă și trei jokeri (50:50, sondajul publicului, apel la un prieten) pentru a învăța Coranul într-un mod distractiv.",
+      "backLink": "Înapoi acasă",
+      "googlePlay": "Google Play",
+      "appStore": "App Store"
+    },
+    "intro": {
+      "title": "Un quiz pentru a învăța distrându-te",
+      "paragraph1": "Quiz-ul coranic al Noor Phonetic Quran se inspiră din formatul \"Vrei să fii milionar\": o serie de întrebări despre Coran, istoria islamică și sure, cu o scală de câștiguri care crește la fiecare răspuns corect.",
+      "paragraph2": "Este o modalitate distractivă de a recapitula sau de a descoperi cunoștințe despre Coran, singur sau în familie, fără presiune — vă puteți opri în orice moment păstrându-vă scorul."
+    },
+    "features": {
+      "title": "Cum funcționează quiz-ul?",
+      "items": [
+        {
+          "title": "Răspundeți la 21 de întrebări",
+          "description": "întrebări cu variante multiple, de dificultate crescândă, despre Coran și istoria islamică."
+        },
+        {
+          "title": "Urmăriți scala de câștiguri",
+          "description": "fiecare răspuns corect vă face să progresați pe o scală de la 100 de puncte la 1 milion."
+        },
+        {
+          "title": "Folosiți-vă jokerii",
+          "description": "jokerul 50:50 elimină două răspunsuri greșite, sondajul publicului afișează părerea celorlalți jucători, iar apelul la un prieten vă sugerează un răspuns."
+        },
+        {
+          "title": "Opriți-vă când doriți",
+          "description": "butonul \"Walk Away\" vă permite să vă păstrați câștigurile în orice moment în loc să riscați să pierdeți totul."
+        }
+      ]
+    },
+    "screenshots": {
+      "title": "Prezentare a Quiz-ului coranic",
+      "alts": [
+        "Noor Phonetic Quran - Ecranul de start al Quiz-ului coranic",
+        "Noor Phonetic Quran - Întrebare din quiz cu scală de câștiguri",
+        "Noor Phonetic Quran - Jokerul sondajul publicului în quiz",
+        "Noor Phonetic Quran - Jokerul apel la un prieten în quiz"
+      ]
+    },
+    "faq": {
+      "title": "Întrebări frecvente despre Quiz-ul coranic",
+      "items": [
+        {
+          "question": "Câte întrebări conține quiz-ul?",
+          "answer": "Quiz-ul conține 21 de întrebări cu variante multiple, cu o dificultate crescândă pe parcursul jocului."
+        },
+        {
+          "question": "Ce se întâmplă dacă răspund greșit la o întrebare?",
+          "answer": "În funcție de progresul dumneavoastră, păstrați ultimul prag de câștig garantat atins, ca în formatul \"Vrei să fii milionar\"."
+        },
+        {
+          "question": "Quiz-ul coranic este gratuit?",
+          "answer": "Da, Quiz-ul coranic face parte din funcționalitățile gratuite ale Noor Phonetic Quran."
+        }
+      ]
+    },
+    "related": {
+      "title": "Descoperiți și",
+      "khatma": "Khatma Coranului",
+      "audio": "Audio al Coranului",
+      "allFeatures": "Toate funcționalitățile"
+    }
+  },
+  "memorisationCoran": {
+    "meta": {
+      "title": "Memorarea Coranului (Hifz): Aplicație cu Repetiție Audio și Quiz | Noor Phonetic Quran",
+      "description": "Memorați Coranul (Hifz) cu aplicația Noor Phonetic Quran: repetiție audio verset cu verset, mod cuvânt-cu-cuvânt, quiz de recapitulare, puncte, niveluri și insigne. Gratuit pe iOS și Android.",
+      "keywords": "memorează Coranul, Hifz Coran, aplicație memorare Coran, învață Coranul pe de rost, memorare verset cu verset, Hifz aplicație gratuită",
+      "ogTitle": "Memorarea Coranului (Hifz): Repetiție Audio, Quiz și Urmărirea Progresului",
+      "ogDescription": "Memorați Coranul cu repetiție audio, mod cuvânt-cu-cuvânt, quiz și provocări zilnice. Aplicație gratuită Noor Phonetic Quran."
+    },
+    "breadcrumb": {
+      "home": "Acasă",
+      "current": "Memorarea Coranului"
+    },
+    "hero": {
+      "title": "Memorarea Coranului (Hifz): Repetiție Audio, Quiz și Urmărirea Progresului",
+      "subtitle": "Învățați Coranul pe de rost, verset cu verset, datorită repetiției audio, modului cuvânt-cu-cuvânt și quiz-urilor de recapitulare, cu un sistem de puncte și insigne pentru a rămâne motivați în fiecare zi.",
+      "backLink": "Înapoi acasă",
+      "googlePlay": "Google Play",
+      "appStore": "App Store"
+    },
+    "intro": {
+      "title": "Ce este Hifz?",
+      "paragraph1": "Hifz desemnează memorarea Coranului, verset cu verset și sură cu sură. Este un parcurs solicitant care necesită repetiție regulată, metode bune de învățare și un mijloc fiabil de a verifica ceea ce este deja bine memorat.",
+      "paragraph2": "Noor Phonetic Quran a fost conceput pentru a însoți acest parcurs cu instrumente concrete: audio, repetiție, recapitulare activă și gamificare, în loc de simpla citire repetată a unui mushaf."
+    },
+    "features": {
+      "title": "Cum să memorați Coranul cu aplicația?",
+      "items": [
+        {
+          "title": "Ascultați și repetați",
+          "description": "fiecare verset dispune de o repetiție audio pentru a ancora memorarea prin ascultare."
+        },
+        {
+          "title": "Utilizați modul cuvânt-cu-cuvânt",
+          "description": "descompuneți versetele cele mai lungi pentru a le memora progresiv."
+        },
+        {
+          "title": "Testați-vă cu quiz-urile de recapitulare",
+          "description": "verificați în mod regulat că versetele învățate rămân bine memorate."
+        },
+        {
+          "title": "Câștigați puncte și insigne",
+          "description": "fiecare verset memorat aduce puncte, vă crește nivelul și deblochează insigne."
+        },
+        {
+          "title": "Acceptați provocări zilnice",
+          "description": "obiective zilnice vă încurajează să memorați puțin în fiecare zi, fără suprasolicitare."
+        }
+      ]
+    },
+    "screenshots": {
+      "title": "Prezentare a planului de memorare",
+      "alts": [
+        "Noor Phonetic Quran - Etapele planului de memorare zilnic",
+        "Noor Phonetic Quran - Listă de verificare a memorării cu streak",
+        "Noor Phonetic Quran - Indicator al planului zilnic afișat în timpul citirii"
+      ]
+    },
+    "faq": {
+      "title": "Întrebări frecvente despre memorarea Coranului",
+      "items": [
+        {
+          "question": "Cât timp durează memorarea Coranului?",
+          "answer": "Depinde de ritmul fiecăruia. Aplicația vă permite să avansați în propriul ritm, verset cu verset, fără presiunea unui termen."
+        },
+        {
+          "question": "Funcționează modul de memorare offline?",
+          "answer": "Odată ce surele sunt încărcate, repetiția audio și quiz-urile de recapitulare rămân disponibile fără conexiune la internet."
+        },
+        {
+          "question": "Funcționalitatea Memorare este gratuită?",
+          "answer": "Da, ca și ansamblul funcționalităților principale ale Noor Phonetic Quran, modul Memorare este complet gratuit."
+        }
+      ]
+    },
+    "related": {
+      "title": "Descoperiți și",
+      "khatma": "Khatma Coranului",
+      "tajweed": "Reguli de Tajweed",
+      "allFeatures": "Toate funcționalitățile"
+    }
+  }
+}

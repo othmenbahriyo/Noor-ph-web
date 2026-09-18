@@ -75,11 +75,7 @@
   gap: 12px;
 }
 
-/* Language switcher */
-.languageSwitcher {
-  position: relative;
-}
-
+/* Language switcher trigger — opens LanguageModal */
 .langBtn {
   display: flex;
   align-items: center;
@@ -100,17 +96,8 @@
   color: var(--on-primary-text);
 }
 
-.langBtn i.fa-globe {
-  font-size: 1.1rem;
-}
-
 .langBtn i.fa-chevron-down {
   font-size: 0.8rem;
-  transition: transform 0.3s ease;
-}
-
-.langBtn.active i.fa-chevron-down {
-  transform: rotate(180deg);
 }
 
 .currentLang {
@@ -118,102 +105,39 @@
   letter-spacing: 0.5px;
 }
 
-.langDropdown {
-  position: absolute;
-  top: calc(100% + 10px);
-  right: 0;
-  background: var(--white);
-  border-radius: var(--border-radius-sm);
-  box-shadow: var(--shadow-md);
-  min-width: 180px;
-  opacity: 0;
-  visibility: hidden;
-  transform: translateY(-10px);
-  transition: var(--transition);
-  overflow: hidden;
-  z-index: 100;
-}
-
-.langDropdown.active {
-  opacity: 1;
-  visibility: visible;
-  transform: translateY(0);
-}
-
-.langOption {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  padding: 12px 16px;
-  color: var(--text-color);
-  text-decoration: none;
-  transition: var(--transition);
-  font-weight: 500;
-}
-
-.langOption:hover {
-  background: var(--primary-color);
-  color: var(--on-primary-text);
-}
-
-.langOption.active {
-  background: var(--light-gray);
-  color: var(--primary-color);
-}
-
 .langFlag {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   line-height: 1;
 }
 
-/* Mobile language switcher (inside mobile navbar) */
+/* Mobile language switcher trigger (inside mobile navbar) — opens the same
+   LanguageModal as the desktop button */
 .mobileLangSwitcher {
   margin-top: auto;
-  padding-top: 20px;
-  border-top: 2px solid var(--light-gray);
-}
-
-.mobileLangTitle {
-  font-size: 0.9rem;
-  color: var(--text-light);
-  margin-bottom: 15px;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-}
-
-.mobileLangOptions {
-  display: flex;
-  gap: 10px;
-}
-
-.mobileLangBtn {
-  flex: 1;
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 8px;
-  padding: 12px;
-  background: var(--light-color);
-  border: 2px solid transparent;
-  border-radius: 12px;
+  gap: 10px;
+  width: 100%;
+  padding-top: 20px;
+  border-top: 2px solid var(--light-gray);
+  background: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
   font-size: 0.95rem;
   font-weight: 600;
   color: var(--text-color);
   cursor: pointer;
-  transition: var(--transition);
-  text-decoration: none;
+  text-align: left;
 }
 
-.mobileLangBtn:hover,
-.mobileLangBtn.active {
-  background: var(--primary-color);
-  color: var(--on-primary-text);
-  border-color: var(--primary-color);
+.mobileLangSwitcher span:nth-child(2) {
+  flex: 1;
 }
 
-.mobileLangBtn .langFlag {
-  font-size: 1.3rem;
+.mobileLangSwitcher i {
+  color: var(--text-light);
+  font-size: 0.85rem;
 }
 
 .mobileThemeRow {
@@ -296,7 +220,7 @@
     display: block;
   }
 
-  .languageSwitcher {
+  .headerActions .langBtn {
     display: none;
   }
 }

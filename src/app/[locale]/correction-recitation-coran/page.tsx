@@ -8,6 +8,7 @@ import Steps from '@/components/CorrectionRecitation/Steps';
 import Faq from '@/components/CorrectionRecitation/Faq';
 import Related from '@/components/CorrectionRecitation/Related';
 import { routing } from '@/i18n/routing';
+import { buildLocaleUrls } from '@/i18n/seo';
 import contentStyles from '@/components/CorrectionRecitation/Content.module.css';
 
 const SITE_URL = 'https://noor-phonetic-quran.com';
@@ -24,8 +25,7 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'correctionRecitation.meta' });
-
-  const canonicalUrl = `${SITE_URL}${PAGE_PATH}`;
+  const { canonicalUrl, languages, ogLocale } = buildLocaleUrls(locale, PAGE_PATH);
 
   return {
     title: t('title'),
@@ -35,11 +35,7 @@ export async function generateMetadata({
     robots: 'index, follow, max-image-preview:large',
     alternates: {
       canonical: canonicalUrl,
-      languages: {
-        fr: canonicalUrl,
-        en: canonicalUrl,
-        'x-default': canonicalUrl,
-      },
+      languages,
     },
     icons: {
       icon: '/images/logo.webp',
@@ -51,14 +47,14 @@ export async function generateMetadata({
       description: t('ogDescription'),
       url: canonicalUrl,
       siteName: 'Noor Phonetic Quran',
-      locale: 'fr_FR',
+      locale: ogLocale,
       type: 'website',
       images: [
         {
           url: `${SITE_URL}/images/noor.png`,
           width: 1200,
           height: 630,
-          alt: "Noor Phonetic Quran - Application d'apprentissage du Coran",
+          alt: t('ogTitle'),
         },
       ],
     },
@@ -71,18 +67,19 @@ export async function generateMetadata({
   };
 }
 
-function buildJsonLd(faqItems: { question: string; answer: string }[]) {
+function buildJsonLd(
+  locale: string,
+  faqItems: { question: string; answer: string }[],
+  breadcrumbLabels: { home: string; page: string },
+) {
+  const { canonicalUrl, languages } = buildLocaleUrls(locale, PAGE_PATH);
+
   const breadcrumb = {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Accueil', item: `${SITE_URL}/` },
-      {
-        '@type': 'ListItem',
-        position: 2,
-        name: 'Correction de récitation',
-        item: `${SITE_URL}${PAGE_PATH}`,
-      },
+      { '@type': 'ListItem', position: 1, name: breadcrumbLabels.home, item: languages[locale] },
+      { '@type': 'ListItem', position: 2, name: breadcrumbLabels.page, item: canonicalUrl },
     ],
   };
 
@@ -112,7 +109,11 @@ export default async function CorrectionRecitationPage({
 
   const tFaq = await getTranslations({ locale, namespace: 'correctionRecitation.faq' });
   const faqItems = tFaq.raw('items') as { question: string; answer: string }[];
-  const jsonLd = buildJsonLd(faqItems);
+  const tNav = await getTranslations('common.nav');
+  const jsonLd = buildJsonLd(locale, faqItems, {
+    home: tNav('home'),
+    page: tNav('pages.correctionRecitation'),
+  });
 
   return (
     <>

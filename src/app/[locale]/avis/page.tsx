@@ -5,8 +5,7 @@ import Footer from '@/components/Footer/Footer';
 import ReviewsPageContent from '@/components/Reviews/ReviewsPageContent';
 import type { Testimonial } from '@/components/TestimonialCarousel/TestimonialsGrid';
 import { routing } from '@/i18n/routing';
-
-const SITE_URL = 'https://noor-phonetic-quran.com';
+import { buildLocaleUrls } from '@/i18n/seo';
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
@@ -19,7 +18,7 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'reviews.meta' });
-  const canonicalUrl = `${SITE_URL}/avis`;
+  const { canonicalUrl, languages } = buildLocaleUrls(locale, '/avis');
 
   return {
     title: t('title'),
@@ -27,11 +26,7 @@ export async function generateMetadata({
     robots: 'index, follow',
     alternates: {
       canonical: canonicalUrl,
-      languages: {
-        fr: canonicalUrl,
-        en: canonicalUrl,
-        'x-default': canonicalUrl,
-      },
+      languages,
     },
   };
 }
@@ -42,8 +37,12 @@ export async function generateMetadata({
 // handful anyway.
 const REVIEW_SAMPLE_SIZE = 15;
 
-function buildJsonLd(locale: string, items: Testimonial[]) {
-  const canonicalUrl = `${SITE_URL}/avis`;
+function buildJsonLd(
+  locale: string,
+  items: Testimonial[],
+  breadcrumbLabels: { home: string; reviews: string },
+) {
+  const { canonicalUrl, languages } = buildLocaleUrls(locale, '/avis');
   const ratingSum = items.reduce((sum, item) => sum + (item.rating ?? 5), 0);
   const ratingValue = (ratingSum / (items.length || 1)).toFixed(1);
 
@@ -54,13 +53,13 @@ function buildJsonLd(locale: string, items: Testimonial[]) {
       {
         '@type': 'ListItem',
         position: 1,
-        name: locale === 'en' ? 'Home' : 'Accueil',
-        item: locale === 'en' ? `${SITE_URL}/en` : `${SITE_URL}/`,
+        name: breadcrumbLabels.home,
+        item: languages[locale],
       },
       {
         '@type': 'ListItem',
         position: 2,
-        name: locale === 'en' ? 'Reviews' : 'Avis',
+        name: breadcrumbLabels.reviews,
         item: canonicalUrl,
       },
     ],
@@ -109,8 +108,12 @@ export default async function ReviewsPage({
 
   const t = await getTranslations('reviews');
   const tTestimonials = await getTranslations('home.testimonials');
+  const tNav = await getTranslations('common.nav');
   const items = tTestimonials.raw('items') as Testimonial[];
-  const jsonLd = buildJsonLd(locale, items);
+  const jsonLd = buildJsonLd(locale, items, {
+    home: tNav('home'),
+    reviews: tNav('reviewsBreadcrumb'),
+  });
 
   return (
     <>

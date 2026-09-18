@@ -1,0 +1,2323 @@
+{
+  "common": {
+    "nav": {
+      "features": "Functies",
+      "screenshots": "Schermafbeeldingen",
+      "reviews": "Beoordelingen",
+      "privacy": "Privacy",
+      "contact": "Contact",
+      "openMenu": "Navigatiemenu openen",
+      "closeMenu": "Navigatiemenu sluiten",
+      "toggleTheme": "Donkere modus in-/uitschakelen",
+      "googlePlay": "Google Play",
+      "appStore": "App Store",
+      "home": "Home",
+      "reviewsBreadcrumb": "Beoordelingen",
+      "contactBreadcrumb": "Contact",
+      "pages": {
+        "audioCoran": "Koran Audio",
+        "khatmaCoran": "Koran Khatma",
+        "memorisationCoran": "Koran Memoriseren",
+        "quizCoran": "Koran Quiz",
+        "tajweedCoran": "Tajweed Regels",
+        "correctionRecitation": "Recitatiecorrectie",
+        "privacyPolicy": "Privacybeleid",
+        "cgu": "Gebruiksvoorwaarden"
+      }
+    },
+    "languageSwitcher": {
+      "label": "Taal kiezen",
+      "searchPlaceholder": "Zoek een taal...",
+      "close": "Sluiten",
+      "noResults": "Geen taal gevonden"
+    },
+    "footer": {
+      "about": "Een innovatieve app om de Heilige Koran met precisie en gemak te leren reciteren.",
+      "quickLinks": "Snelle Links",
+      "resources": "Bronnen",
+      "faq": "Veelgestelde vragen",
+      "support": "Ondersteuning",
+      "contact": "Contact",
+      "location": "Parijs, Frankrijk",
+      "rights": "Alle rechten voorbehouden.",
+      "backToTop": "Terug naar boven"
+    },
+    "contactForm": {
+      "eyebrow": "Neem contact met ons op",
+      "title": "Neem contact met ons op",
+      "description": "Als u suggesties, verbeteringen of opmerkingen heeft, aarzel dan niet om ons te schrijven. Wij reageren snel.",
+      "highlights": [
+        {
+          "title": "Snelle reactie",
+          "text": "Ons team behandelt elk bericht en reageert doorgaans binnen 48 uur. Of het nu gaat om een eenvoudige vraag of een technisch probleem, wij zetten er een eer in geen enkel verzoek onbeantwoord te laten."
+        },
+        {
+          "title": "Een luisterende gemeenschap",
+          "text": "Meer dan 80.000 gebruikers vertrouwen ons al hun mening toe; uw feedback helpt de app voor iedereen te verbeteren. Elk bericht telt en draagt bij aan het maken van Noor tot een instrument dat steeds beter aansluit bij de behoeften van zijn gebruikers."
+        },
+        {
+          "title": "Uw ideeën vormen de app",
+          "text": "Veel huidige functies (Tajweed, Khatma, quiz...) zijn ontstaan uit suggesties van gebruikers. Uw dagelijkse ervaring met de app is de beste inspiratiebron voor toekomstige ontwikkelingen."
+        }
+      ],
+      "name": "Naam",
+      "namePlaceholder": "Uw naam",
+      "nameRequired": "Naam is verplicht",
+      "email": "E-mail",
+      "emailPlaceholder": "u@voorbeeld.com",
+      "emailRequired": "E-mail is verplicht",
+      "emailInvalid": "Ongeldig e-mailadres",
+      "phone": "Telefoon (optioneel)",
+      "phonePlaceholder": "+31 6 12 34 56 78",
+      "subject": "Onderwerp",
+      "subjectPlaceholder": "Selecteer een onderwerp...",
+      "subjectRequired": "Selecteer een onderwerp",
+      "subjectOptions": {
+        "general": "Algemene vraag",
+        "suggestion": "Suggestie",
+        "bug": "Bug melden",
+        "technical": "Technisch probleem",
+        "other": "Overig"
+      },
+      "platform": "Gebruikt platform",
+      "platformPlaceholder": "Selecteer een platform...",
+      "platformRequired": "Selecteer een platform",
+      "platformOptions": {
+        "ios": "iOS",
+        "android": "Android",
+        "web": "Web"
+      },
+      "message": "Bericht",
+      "messagePlaceholder": "Schrijf hier uw bericht...",
+      "messageRequired": "Bericht is verplicht",
+      "messageTooShort": "Het bericht moet minstens 10 tekens bevatten",
+      "send": "Versturen",
+      "sending": "Bezig met verzenden...",
+      "successMessage": "Uw bericht is succesvol verzonden. Dank u wel!",
+      "errorMessage": "Er is een fout opgetreden. Probeer het opnieuw."
+    }
+  },
+  "home": {
+    "meta": {
+      "title": "Noor Phonetic Quran - App om de Koran te Leren",
+      "description": "Noor Phonetic Quran - Gratis app om de Koran te leren reciteren, uit het hoofd te leren (Hifz) en volledig te lezen (Khatma). Fonetische transcriptie, gesynchroniseerde audio, gekleurde Tajweed, dagelijks leesplan, quiz en recitatiecorrectie. 80K+ tevreden gebruikers. Beschikbaar op iOS en Android.",
+      "keywords": "fonetische Koran, Koran leren, Quran phonetics, Koran recitatie, Tajweed, gratis Koran-app, Koran Arabisch Nederlands, fonetische transcriptie Koran, learn Quran, Quran app free, Khatma Koran, Koran uit het hoofd leren, Hifz Koran, leesplan Koran, quiz Koran, correctie recitatie Koran, app Koran memoriseren",
+      "ogTitle": "Noor Phonetic Quran - Reciteer de Koran met fonetiek",
+      "ogDescription": "Leer de Heilige Koran reciteren, zelfs zonder Arabisch te kennen. Gratis app met nauwkeurige fonetiek, ingebouwde audio en Tajweed-regels."
+    },
+    "hero": {
+      "statusBadge": "80K+ Actieve Gebruikers",
+      "headlineHighlight": "Reciteer",
+      "headline": "de Heilige Koran, zelfs zonder Arabisch te kennen",
+      "subheadline": "Dankzij een nauwkeurige en intuïtieve fonetiek maakt Noor Phonetic Quran elk vers voor iedereen toegankelijk.",
+      "miniFeatures": {
+        "phonetics": "Nauwkeurige Fonetiek",
+        "audio": "Ingebouwde Audio",
+        "tajweed": "Tajweed-regels"
+      },
+      "ratingText": "Perfecte score op Play Store en App Store",
+      "downloadOn": "Downloaden op",
+      "usersBadgeLabel": "Gebruikers",
+      "updateBadge": "Recent bijgewerkt",
+      "deviceScreenAlt": "Noor Phonetic Quran - App-interface met de fonetiek van de Koran",
+      "mobileDeviceScreenAlt": "Noor Phonetic Quran - De Koran leren met fonetische transcriptie"
+    },
+    "languages": {
+      "title": "Beschikbaar in uw taal",
+      "subtitle": "De app Noor Phonetic Quran is vertaald in 20 talen om moslims over de hele wereld te begeleiden."
+    },
+    "why": {
+      "title": "Waarom Noor Phonetic Quran?",
+      "subtitle": "Ontdek de redenen die van onze app een unieke keuze maken",
+      "items": [
+        {
+          "icon": "fa-heart",
+          "stepLabel": "De drempel",
+          "title": "Voor Iedereen Toegankelijk",
+          "text": "Veel moslims willen de Koran lezen, maar worden tegengehouden door de Arabische taal. Onze app haalt deze drempel weg."
+        },
+        {
+          "icon": "fa-graduation-cap",
+          "stepLabel": "De methode",
+          "title": "Vereenvoudigd Leren",
+          "text": "Een duidelijke en intuïtieve fonetiek stelt iedereen in staat om in zijn eigen tempo te leren, zonder stress of frustratie."
+        },
+        {
+          "icon": "fa-check-circle",
+          "stepLabel": "Het resultaat",
+          "title": "Correcte Uitspraak",
+          "text": "Geleid door nauwkeurige Tajweed-regels en gesynchroniseerde audio, evolueert u naar een authentieke recitatie."
+        }
+      ]
+    },
+    "features": {
+      "title": "Belangrijkste Kenmerken",
+      "subtitle": "Ontdek waarom Noor Phonetic Quran de perfecte app is om de Koran te leren reciteren",
+      "items": [
+        {
+          "icon": "fa-book",
+          "title": "Fonetische Transcriptie",
+          "text": "Elk vers wordt vergezeld van een gedetailleerde fonetische transcriptie voor een correcte uitspraak."
+        },
+        {
+          "icon": "fa-bookmark",
+          "title": "Tajweed-regels",
+          "href": "/tajweed-coran",
+          "text": "Kleuren en annotaties begeleiden uw recitatie volgens de juiste regels van de Tajweed."
+        },
+        {
+          "icon": "fa-language",
+          "title": "Meertalige Vertalingen",
+          "text": "Krijg toegang tot vertalingen in het Frans en het Engels om de goddelijke boodschap beter te begrijpen."
+        },
+        {
+          "icon": "fa-headphones",
+          "title": "Gesynchroniseerde Audio",
+          "href": "/audio-coran",
+          "text": "Elk vers wordt vergezeld van audio om de correcte uitspraak te horen."
+        },
+        {
+          "icon": "fa-mobile-alt",
+          "title": "Gebruiksvriendelijke Interface",
+          "text": "Intuïtieve navigatie en personalisatie naar uw voorkeuren."
+        },
+        {
+          "icon": "fa-graduation-cap",
+          "title": "Vereenvoudigd Leren",
+          "text": "Ideaal voor beginners of voor wie zijn recitatie wil verbeteren."
+        },
+        {
+          "icon": "fa-calendar-check",
+          "title": "Khatma van de Koran",
+          "href": "/khatma-coran",
+          "text": "Plan en volg uw volledige lezing van de Koran (Khatma) met dagelijkse doelen, dagreeksen (streak) en voortgangsherinneringen tot het einde."
+        },
+        {
+          "icon": "fa-calendar-day",
+          "title": "Dagelijks Leesplan",
+          "text": "Bepaal een aantal pagina's om elke dag te lezen en volg uw voortgang met een persoonlijke checklist, om de gewoonte te ontwikkelen om regelmatig de Koran te lezen."
+        },
+        {
+          "icon": "fa-brain",
+          "title": "De Koran Uit het Hoofd Leren (Hifz)",
+          "href": "/memorisation-coran",
+          "text": "Leer de Koran vers voor vers uit het hoofd met audioherhaling, woord-voor-woordmodus, herhalingsquiz, punten, niveaus, badges en dagelijkse uitdagingen om gemotiveerd te blijven."
+        },
+        {
+          "icon": "fa-microphone-alt",
+          "title": "Recitatiecorrectie",
+          "href": "/correction-recitation-coran",
+          "text": "Neem uw recitatie op en ontvang persoonlijke correctie om vooruitgang te boeken in de juistheid van uw uitspraak en Tajweed."
+        },
+        {
+          "icon": "fa-trophy",
+          "title": "Koranquiz",
+          "href": "/quiz-coran",
+          "text": "Test uw kennis van de Koran met een speelse quiz op verschillende moeilijkheidsniveaus, om al lerend plezier te hebben."
+        },
+        {
+          "icon": "fa-mobile-screen-button",
+          "title": "Startscherm-widget",
+          "text": "Toon het vers van de dag rechtstreeks op het startscherm van uw telefoon en houd uw leesroutine altijd binnen handbereik."
+        }
+      ]
+    },
+    "videoDemo": {
+      "title": "Ontdek de App in Actie",
+      "subtitle": "Bekijk deze korte demo om te zien hoe Noor Phonetic Quran werkt"
+    },
+    "screenshots": {
+      "title": "Schermafbeeldingen",
+      "subtitle": "Ontdek de app in beeld",
+      "alts": [
+        "Noor Phonetic Quran - Lijst van de soera's van de Koran",
+        "Noor Phonetic Quran - Recitatie met nauwkeurige fonetiek",
+        "Noor Phonetic Quran - Gekleurde Tajweed-regels",
+        "Noor Phonetic Quran - Audio gesynchroniseerd met de tekst",
+        "Noor Phonetic Quran - Franse vertaling van de Koran",
+        "Noor Phonetic Quran - Leermodus van de Koran",
+        "Noor Phonetic Quran - Navigatie per soera",
+        "Noor Phonetic Quran - Verzen met fonetische transcriptie",
+        "Noor Phonetic Quran - App-instellingen",
+        "Noor Phonetic Quran - Doorlopend lezen van de Koran",
+        "Noor Phonetic Quran - Moderne en intuïtieve interface"
+      ]
+    },
+    "faq": {
+      "title": "Veelgestelde Vragen",
+      "subtitle": "Vind snel antwoorden op uw vragen",
+      "items": [
+        {
+          "question": "Werkt de app offline?",
+          "answer": "Ja, absoluut! Alle soera's van de Koran zijn offline beschikbaar zodra de app is geïnstalleerd. U kunt overal lezen en reciteren, zonder internetverbinding."
+        },
+        {
+          "question": "Welke fonetiek gebruikt u?",
+          "answer": "Wij gebruiken een eenvoudige en universele Engelse fonetiek, gemakkelijk leesbaar voor iedereen. Een versie met Franse fonetiek is in ontwikkeling en komt binnenkort beschikbaar."
+        },
+        {
+          "question": "Is de Koran volledig in de app?",
+          "answer": "Ja! De app bevat de volledige Heilige Koran met zijn 114 soera's, van begin tot eind, met volledige fonetische transcriptie."
+        },
+        {
+          "question": "Is audio beschikbaar voor alle verzen?",
+          "answer": "Ja, elk vers wordt vergezeld van een duidelijke en langzame audiorecitatie, perfect om het leren te vergemakkelijken en uw uitspraak te verbeteren."
+        },
+        {
+          "question": "Is de app gratis?",
+          "answer": "Ja, Noor Phonetic Quran is volledig gratis. Ons doel is de Koran voor iedereen toegankelijk te maken, zonder financiële drempels."
+        },
+        {
+          "question": "Hoe werkt de Khatma (volledige lezing van de Koran)?",
+          "answer": "Met de app kunt u een Khatma plannen door een aantal dagen te kiezen om de Koran te voltooien. U volgt uw dagelijkse voortgang, uw dagreeks (streak) en ontvangt herinneringen om regelmatig te blijven tot het einde van uw lezing."
+        },
+        {
+          "question": "Kan men de Koran uit het hoofd leren (Hifz) met de app?",
+          "answer": "Ja, de app biedt een volledige memorisatiemodus met audioherhaling vers voor vers, woord-voor-woordmodus, herhalingsquiz, punten, niveaus, badges en dagelijkse uitdagingen om u te helpen de Koran effectief uit het hoofd te leren."
+        },
+        {
+          "question": "Zijn er meerdere reciteerders beschikbaar?",
+          "answer": "Ja, u kunt kiezen uit meerdere reciteerders van de Koran en de audio downloaden voor volledig offline luisteren, zonder internetverbinding."
+        },
+        {
+          "question": "Biedt de app recitatiecorrectie aan?",
+          "answer": "Ja, u kunt uw recitatie rechtstreeks in de app opnemen en persoonlijke correctie ontvangen om uw uitspraak en de naleving van de Tajweed-regels te verbeteren."
+        },
+        {
+          "question": "Komen er nieuwe functies?",
+          "answer": "Ja, wij werken voortdurend aan de verbetering van de app. Er zijn verschillende nieuwigheden gepland: volledige Franse fonetiek, uitgebreide gekleurde Tajweed-modus, letter-voor-lettermodus, en nog veel meer!"
+        }
+      ]
+    },
+    "testimonials": {
+      "title": "Wat onze gebruikers zeggen",
+      "subtitle": "Ontdek de beoordelingen van onze groeiende gemeenschap van tevreden gebruikers",
+      "prevLabel": "Vorige beoordeling",
+      "nextLabel": "Volgende beoordeling",
+      "viewAllLabel": "Bekijk alle beoordelingen",
+      "items": [
+        {
+          "initials": "SD",
+          "name": "Sidy DIOP",
+          "device": "16 juli 2026",
+          "text": "heel goede app om de koran te leren, zelfs als je niet goed kunt uitspreken hoef je alleen maar naar de audio te luisteren en terug te komen",
+          "rating": 5
+        },
+        {
+          "initials": "AB",
+          "name": "Amourlaye Beman",
+          "device": "25 maart 2026",
+          "text": "Heel erg goede app. Moge Allah jullie eeuwig zegenen voor deze actie en jullie nog meer inspireren om de inhoud te verrijken... jullie zouden al kunnen beginnen met het toevoegen van de vertaling van hadith in het Frans. Dank je wel 🙏🥰👍",
+          "rating": 5
+        },
+        {
+          "initials": "YT",
+          "name": "Yaou Tchari",
+          "device": "6 juli 2026",
+          "text": "het is een hele goede app die ik al lang zocht, hij is makkelijk te lezen en toont de fouten die je moeilijk maken",
+          "rating": 5
+        },
+        {
+          "initials": "FA",
+          "name": "Fatima",
+          "device": "21 april 2026",
+          "text": "ik heb deze app ontdekt als cadeau, ik ben er helemaal weg van 😁, echt waar. ik had een klein probleem dat heel snel is opgelost al hamdoulillah. echt een makkelijke manier om te leren, ik zou het aan veel mensen aanraden. moge Allah jullie belonen🤲🏻🌹",
+          "rating": 5
+        },
+        {
+          "initials": "DH",
+          "name": "Djamila Hb",
+          "device": "30 juli 2026",
+          "text": "heel goed om te leren de koran te lezen, moge allah het ons makkelijk maken",
+          "rating": 5
+        },
+        {
+          "initials": "NA",
+          "name": "Naoal",
+          "device": "12 mei 2026",
+          "text": "Het is echt goed voor mensen die het Arabische schrift niet kunnen lezen, want er zijn er die de koran willen leren maar geen Arabisch kunnen lezen. Eerlijk gezegd is dit een app die je moet installeren 👍",
+          "rating": 5
+        },
+        {
+          "initials": "ID",
+          "name": "Ibou Dieme",
+          "device": "8 januari 2026",
+          "text": "deze app is gewoon buitengewoon, als de optie 100 sterren beschikbaar was had ik die zeker gegeven, maar goed, één klein probleem om te verhelpen: je kunt de audio niet downloaden voor als je offline bent, ik ben er zeker van dat de app nog beter zou zijn met downloadbare audio om offline te beluisteren",
+          "rating": 5
+        },
+        {
+          "initials": "YC",
+          "name": "Youssouf Cherif",
+          "device": "26 januari 2026",
+          "text": "de beste app. het helpt me enorm. dankzij deze app kan ik de heilige koran gemakkelijk lezen en dat doet me goed ✨. moge Allah de ontwerpers honderdvoudig belonen. het is uitzonderlijk. ik beveel het van harte aan. zoveel functies waarmee je de heilige Koran gemakkelijk kunt leren met een duidelijk en gestructureerd plan in de app.",
+          "rating": 5
+        },
+        {
+          "initials": "FF",
+          "name": "Faiza Faiza",
+          "device": "6 november 2024",
+          "text": "goede app maar het probleem is dat hij om de twee minuten stopt. ik heb hem verwijderd en opnieuw geïnstalleerd en het probleem blijft. terwijl het precies is wat ik zocht. Barak Allahou fikkunna",
+          "rating": 5
+        },
+        {
+          "initials": "LS",
+          "name": "Louis Sawadogo",
+          "device": "27 maart 2025",
+          "text": "het is een hele goede app maar ik kan niet offline lezen zodra iets gedownload is. en toch zei je offline, en ik heb gemerkt dat je verbinding nodig hebt om toegang te krijgen tot de gegevens. dit moeten jullie herzien. Dank je.",
+          "rating": 5
+        },
+        {
+          "initials": "YJ",
+          "name": "Yassin Jaounni",
+          "device": "23 november 2025",
+          "text": "deze app is buitengewoon want ik had hem in het begin alleen geïnstalleerd om soera's te leren omdat ik geen Arabisch kan lezen, en toen ik alle functies zag was ik verrast, wat ik het meest waardeer is dat je Arabisch kunt leren, smeekbedes kunt leren en er zijn zelfs reciteerders die de Koran met je meelezen voor je uitspraak, ze geven zelfs technieken om de Koran makkelijk te leren, het is echt geweldig, ik raad het jullie aan",
+          "rating": 5
+        },
+        {
+          "initials": "JB",
+          "name": "Jeff Bezos Mayele",
+          "device": "30 mei 2026",
+          "text": "een goede geweldige app. die ons helpt de soera's te lezen en te begrijpen, wij die geen Arabisch kennen",
+          "rating": 5
+        },
+        {
+          "initials": "AB",
+          "name": "Abdoulaye Bah",
+          "device": "5 maart 2025",
+          "text": "Een hele goede app voor wie de koran alleen wil leren of lezen! moge Allah jullie belonen met het goede en ons allen het leren en memoriseren van de Heilige Koran vergemakkelijken!",
+          "rating": 5
+        },
+        {
+          "initials": "DD",
+          "name": "dohona daouda coulibaly",
+          "device": "2 maart 2025",
+          "text": "De weergave van de pagina's is erg traag. Verder vind ik de app geweldig. Maar het laden duurt te lang. Hebben jullie ideeën om dit probleem op te lossen?",
+          "rating": 5
+        },
+        {
+          "initials": "YC",
+          "name": "yvan Cedric",
+          "device": "4 maart 2025",
+          "text": "Jazzak Allahou feekoum. Hele goede app om te leren voor niet-Arabischsprekenden. Alleen sinds de update kan de app niet meer offline gelezen worden.",
+          "rating": 5
+        },
+        {
+          "initials": "HN",
+          "name": "Horizons New",
+          "device": "23 augustus 2025",
+          "text": "Salam alaykoem, volledig tevreden over deze app, alleen al de introductie verdient 5 sterren 🌟 een kleine verbetering zou welkom zijn bij het laden van de pagina's en het zou beter zijn om een aparte FR-versie te maken om wachttijd te vermijden, een nachtversie zou top zijn voor het lezen 's avonds, dank jullie voor jullie werk, moge God jullie belonen",
+          "rating": 5
+        },
+        {
+          "initials": "DB",
+          "name": "dorra bn",
+          "device": "7 oktober 2025",
+          "text": "Een nuttige en goed doordachte app! Dankzij de transliteratie heb ik mijn Koranlezing in korte tijd kunnen verbeteren. Moge Allah de ontwikkelaars belonen",
+          "rating": 5
+        },
+        {
+          "initials": "SM",
+          "name": "Sara ma langue",
+          "device": "5 mei 2025",
+          "text": "Een app die ik blijf aanbevelen aan iedereen die wil lezen, leren en begrijpen in verschillende talen. Machaallah, goed gedaan werk. Dit is wat ik al lang zocht. Moge ALLAH SWT jullie zegenen.",
+          "rating": 5
+        },
+        {
+          "initials": "AA",
+          "name": "Adoum Ali Bezei",
+          "device": "20 mei 2026",
+          "text": "beste koran in fonetiek, heel erg bedankt, ik ben zeer dankbaar",
+          "rating": 5
+        },
+        {
+          "initials": "BK",
+          "name": "Bakary Konaté",
+          "device": "19 maart 2025",
+          "text": "ik vond de app echt leuk, maar ik had liever gehad dat jullie imams zouden toevoegen, zodat we zelf konden kiezen met welke imam we willen leren, wat ik niet zo leuk vond is dat het vers voor vers leest, ik had liever gehad dat het direct een hele soera zonder pauze leest",
+          "rating": 5
+        },
+        {
+          "initials": "YB",
+          "name": "Yosra Bahri",
+          "device": "5 oktober 2025",
+          "text": "Uitstekende app! Heel nuttig, makkelijk te gebruiken en goed doordacht. Ik raad het van harte aan! 👏 Bravo aan de ontwikkelaar voor dit mooie werk, ga zo door, jullie leveren uitstekend werk! 💪",
+          "rating": 5
+        },
+        {
+          "initials": "FO",
+          "name": "fatima ourja",
+          "device": "25 april 2025",
+          "text": "Prachtige app, precies wat ik zocht, moge Allah de Allerhoogste jullie belonen met de mooiste beloningen. Dit is echt een app die een eerlijke vergoeding verdient.",
+          "rating": 5
+        },
+        {
+          "initials": "ND",
+          "name": "Nicolas DA COSTA CAMPOS CERCA",
+          "device": "20 april 2025",
+          "text": "ik raad de app aan voor het leren van tajwid, wat heel makkelijk is voor beginners en ook voor wie zich wil verbeteren, en heel eenvoudig in gebruik",
+          "rating": 5
+        },
+        {
+          "initials": "SR",
+          "name": "Sadrissi Regbayou",
+          "device": "11 maart 2025",
+          "text": "Goed. Maar je verliest de laatste pagina waar je was. Bovendien kun je niet offline lezen. Het zou interessanter zijn als er op dezelfde pagina's de soera in het Arabisch en de Franse vertaling zouden staan.",
+          "rating": 5
+        },
+        {
+          "initials": "OA",
+          "name": "Oussama AZIZI",
+          "device": "12 oktober 2025",
+          "text": "Uitstekende app, met duidelijke fonetiek, kwaliteitsvolle audio en gekleurde Tajwid-regels. Heel goed hulpmiddel om het leren van de Koran te vergemakkelijken.",
+          "rating": 5
+        },
+        {
+          "initials": "BH",
+          "name": "Bahri Hamza",
+          "device": "27 september 2025",
+          "text": "Salam aleikoum, uitstekende app 🌟 makkelijk te gebruiken en heel nuttig voor het lezen en leren. Moge Allah de ontwikkelaars belonen ❤️🤲",
+          "rating": 5
+        },
+        {
+          "initials": "HR",
+          "name": "Houssem RAISSI",
+          "device": "2 oktober 2024",
+          "text": "Het biedt een intuïtieve en aangename interface, wat het lezen en navigeren vergemakkelijkt. Ideaal voor snelle toegang tot de soera's.",
+          "rating": 5
+        },
+        {
+          "initials": "GB",
+          "name": "Gora Bar",
+          "device": "10 oktober 2025",
+          "text": "Een hele goede app. Heel eenvoudig in gebruik en zonder advertenties. Bravo!",
+          "rating": 5
+        },
+        {
+          "initials": "SK",
+          "name": "Sekou Kante",
+          "device": "21 maart 2025",
+          "text": "Dit is de app die ik zocht, maar offline werkt het niet, ik heb de offline optie gedownload maar het lukt nog steeds niet, gelieve dit op te lossen, ik gebruik de fonetiek om de koran te lezen",
+          "rating": 5
+        },
+        {
+          "initials": "YF",
+          "name": "youssoupha FALL",
+          "device": "11 april 2025",
+          "text": "Moge Allah jullie na elke klik op de app belonen met bergen hasanat. Jullie kunnen je niet voorstellen hoeveel goeds jullie hebben gedaan voor alle moslims die de koranschool niet hebben afgemaakt. ik heb hem net ook voor mijn moeder gedownload, moge God jullie overvloedig zegenen. Duizend keer dank ❤️",
+          "rating": 5
+        },
+        {
+          "initials": "TT",
+          "name": "toure traore aboubakar sidik",
+          "device": "29 november 2024",
+          "text": "Ik geef 3 sterren omdat de app de soera's niet opslaat voor offline lezen. Verder is het makkelijk te lezen",
+          "rating": 5
+        },
+        {
+          "initials": "MG",
+          "name": "Mory Gbane",
+          "device": "29 juni 2025",
+          "text": "Goede app maar je kunt de teksten niet één keer voorgoed downloaden, je moet steeds opnieuw downloaden. dat is een beetje lastig",
+          "rating": 5
+        },
+        {
+          "initials": "FS",
+          "name": "Fatima Si Ahmed",
+          "device": "23 juli 2025",
+          "text": "heel gemakkelijk om de koran in fonetiek te lezen waar je ook bent, want je hebt geen verbinding nodig, vooral als je niemand wilt storen, alleen je telefoon volstaat, geen kaars 🕯 geen licht nodig 😇🥰",
+          "rating": 5
+        },
+        {
+          "initials": "MF",
+          "name": "Mohamed Faye",
+          "device": "5 maart 2025",
+          "text": "Ik geef jullie 5 sterren 🌟 omdat jullie de besten zijn, prachtig wat jullie hebben gerealiseerd, ik hou er echt van 😭❤️❤️❤️ moge Allah de Barmhartige je beschermen. Maar ik had graag gehad dat de audiomodus voor de hele soera was en niet voor slechts één vers, alvast bedankt",
+          "rating": 5
+        },
+        {
+          "initials": "MG",
+          "name": "Mohamed gaissir Bah",
+          "device": "4 maart 2026",
+          "text": "Salam, uitstekende app, ik heb al meerdere boeken in fonetiek gelezen maar ik geef toe dat deze app op dit moment de beste is, ik ben bijna een expert in fonetiek en moge Allah jullie honderdvoudig belonen, ik geniet er echt van 😇😇😇",
+          "rating": 5
+        },
+        {
+          "initials": "YK",
+          "name": "Yao Kouamé Enock",
+          "device": "13 december 2025",
+          "text": "het is een hele goede app voor ons die de Arabische letters niet kunnen lezen. Dit is precies wat ik zocht. Heel erg bedankt aan de ontwikkelaars. Fijne dag, moge Allah ons op het rechte pad leiden. 🤲📿",
+          "rating": 5
+        },
+        {
+          "initials": "FA",
+          "name": "Fatima",
+          "device": "2 januari 2026",
+          "text": "de app is over het algemeen goed maar telkens mist het einde van elke soera, dus je kunt niet de soera van je keuze lezen of leren, ik vind dat echt jammer",
+          "rating": 5
+        },
+        {
+          "initials": "MS",
+          "name": "Macolt Scot",
+          "device": "17 maart 2025",
+          "text": "Alhamdoulillah, ik lukt erin de Koran goed te lezen in fonetiek, maar het downloaden is niet voltooid en er ontbreken nog pagina's",
+          "rating": 5
+        },
+        {
+          "initials": "EH",
+          "name": "El Hadj Diallo",
+          "device": "1 april 2025",
+          "text": "een hele goede en nette app, goed ontworpen, de fonetiek komt precies overeen met de verzen van de koran, dezelfde uitspraak, bravo aan het team dat dit goede werk voor de Oemma heeft gemaakt barrakalahou-FIK",
+          "rating": 5
+        },
+        {
+          "initials": "AM",
+          "name": "Abdelmadjid Mahamat",
+          "device": "25 april 2025",
+          "text": "MashAllah! beste app voor wie echt wil leren en zonder moeite wil lezen.",
+          "rating": 5
+        },
+        {
+          "initials": "OS",
+          "name": "Ousmasim's Simen",
+          "device": "22 juli 2026",
+          "text": "het is prachtig en het gaat me enorm helpen",
+          "rating": 5
+        },
+        {
+          "initials": "NS",
+          "name": "Nour Soum",
+          "device": "17 oktober 2025",
+          "text": "super interessant, alleen moet je je telkens verbinden. probeer ook de offline versie",
+          "rating": 5
+        },
+        {
+          "initials": "CB",
+          "name": "chiraz bahri",
+          "device": "19 oktober 2025",
+          "text": "Hele mooie app, eenvoudig en compleet. Perfect om overal de Koran te lezen en te beluisteren. بارك الله فيكم",
+          "rating": 5
+        },
+        {
+          "initials": "AA",
+          "name": "aicha Arouna",
+          "device": "29 juli 2026",
+          "text": "Hele goede app, ik beveel deze app aan",
+          "rating": 5
+        },
+        {
+          "initials": "SZ",
+          "name": "Sadjid Zamoum",
+          "device": "2 augustus 2026",
+          "text": "ongelooflijk, niets meer aan toe te voegen",
+          "rating": 5
+        },
+        {
+          "initials": "AD",
+          "name": "Almassane Diallo",
+          "device": "13 juli 2026",
+          "text": "Heel erg bedankt aan het team, dankzij deze app en jullie heb ik veel geleerd, moge God jullie belonen",
+          "rating": 5
+        },
+        {
+          "initials": "HA",
+          "name": "Hadj",
+          "device": "5 november 2025",
+          "text": "duidelijke app zonder reclame. als jullie een tafsir voor de soera's kunnen toevoegen, is de app compleet.",
+          "rating": 5
+        },
+        {
+          "initials": "YM",
+          "name": "Yacouba M'piè Samaké",
+          "device": "16 mei 2025",
+          "text": "Hele goede app waarmee ik de soera's kan leren zonder enige kennis van de Arabische taal",
+          "rating": 5
+        },
+        {
+          "initials": "SM",
+          "name": "Saïdou Mohamed Bah",
+          "device": "24 augustus 2025",
+          "text": "Echt, moge Allah jullie belonen met Jannatoul Firdaws, dit is de beste app, moge Allah jullie helpen de app te verbeteren en het een sadaqah jariyah voor jullie laten zijn.",
+          "rating": 5
+        },
+        {
+          "initials": "TD",
+          "name": "Touwinde Doulkom",
+          "device": "24 mei 2025",
+          "text": "Masha Allah, een eenvoudige en makkelijk te gebruiken app waarmee je leert de Heilige Koran te lezen. dank aan de ontwerpers, moge Allah jullie belonen 🙏",
+          "rating": 5
+        },
+        {
+          "initials": "BD",
+          "name": "Bassirou Diarra",
+          "device": "5 april 2026",
+          "text": "het is echt praktisch. Moge Allah de islam zegenen",
+          "rating": 5
+        },
+        {
+          "initials": "GK",
+          "name": "gloire Kyato",
+          "device": "10 april 2026",
+          "text": "Deze app is belangrijk. ik geef 5 sterren.",
+          "rating": 5
+        },
+        {
+          "initials": "OO",
+          "name": "Olivier Olivier",
+          "device": "16 april 2025",
+          "text": "Eerlijk gezegd de top van de top, heel nuttig voor het memoriseren van de koran, zelfs voor Franstaligen",
+          "rating": 5
+        },
+        {
+          "initials": "DD",
+          "name": "Dian Diallo",
+          "device": "9 juni 2026",
+          "text": "Heel erg bedankt........ een uitstekende app",
+          "rating": 5
+        },
+        {
+          "initials": "MM",
+          "name": "Mallam Mohamed AYOUBA",
+          "device": "10 september 2025",
+          "text": "Ja, goed opgesteld en heel makkelijk om de Koran te leren lezen.... Heel erg bedankt",
+          "rating": 5
+        },
+        {
+          "initials": "FB",
+          "name": "Fatoumata Barry",
+          "device": "7 maart 2026",
+          "text": "super en makkelijk om de koran te leren, het enige nadeel is dat er te veel updates zijn...",
+          "rating": 5
+        },
+        {
+          "initials": "SK",
+          "name": "Soumaila Kaboré",
+          "device": "29 november 2025",
+          "text": "heel goed, je ziet het en het helpt om de Arabische zinnen goed uit te spreken",
+          "rating": 5
+        },
+        {
+          "initials": "OA",
+          "name": "Ouattara Almamy",
+          "device": "1 april 2025",
+          "text": "Heel duidelijk, heel begrijpelijk, heel leerzaam, moge God ons het juiste begrip geven 🙏",
+          "rating": 5
+        },
+        {
+          "initials": "AN",
+          "name": "Aude Name",
+          "device": "7 juni 2025",
+          "text": "Heel coherent, goed om de koran te leren. Moge Allah de maker van de app zegenen",
+          "rating": 5
+        },
+        {
+          "initials": "MJ",
+          "name": "maxero junior",
+          "device": "13 maart 2025",
+          "text": "Prachtig, makkelijk te gebruiken en zonder reclame",
+          "rating": 5
+        },
+        {
+          "initials": "FT",
+          "name": "Fatoumata Traoré",
+          "device": "18 mei 2025",
+          "text": "moge Allah jullie belonen voor jullie goed uitgevoerde werk, eerlijk gezegd een goede app, ik zou graag hebben dat jullie schermrotatie toevoegen en ook de tekens voor prosternatie, dank je",
+          "rating": 5
+        },
+        {
+          "initials": "AC",
+          "name": "Assia Chamoyan",
+          "device": "28 september 2025",
+          "text": "super nuttig, praktisch en echt intuïtief. heel mooie interface, bravo, heel kwalitatief, moge Allah jullie projecten vergemakkelijken en jullie er rijkelijk voor belonen",
+          "rating": 5
+        },
+        {
+          "initials": "KE",
+          "name": "Keita",
+          "device": "23 mei 2025",
+          "text": "Wow, prachtige app voor het fonetisch lezen van de soera's. Ik hou echt van deze app.",
+          "rating": 5
+        },
+        {
+          "initials": "IH",
+          "name": "Ibrahim Hamadou",
+          "device": "9 maart 2026",
+          "text": "gelieve de app te repareren, ik heb hem echt nodig, ik was goed bezig met lezen maar de app kreeg een probleem",
+          "rating": 5
+        },
+        {
+          "initials": "AS",
+          "name": "Adamou Seyni Sonia",
+          "device": "14 maart 2025",
+          "text": "Salam, ik weet niet waarom, maar als ik naar soera al-kahf ga, komt hij op abasa uit, ik begrijp echt niet waar het probleem vandaan komt, en het is een soera die ik graag lees, vooral op vrijdag zoals de soennah voorschrijft.... verder heb ik met de app geen enkel probleem masha Allah",
+          "rating": 5
+        },
+        {
+          "initials": "MD",
+          "name": "Mame diarra Ba",
+          "device": "14 februari 2025",
+          "text": "Het is heel doeltreffend en heel makkelijk om de Koran te leren",
+          "rating": 5
+        },
+        {
+          "initials": "SS",
+          "name": "SOUMAILA SAMASSI",
+          "device": "29 december 2024",
+          "text": "Masha'Allah 💕 een prachtige app en het is precies wat ik zocht. De app is top. Barakallahoe feekoem en moge Allah ons altijd leiden. Amin",
+          "rating": 5
+        },
+        {
+          "initials": "AB",
+          "name": "Ali Baba Traoré",
+          "device": "1 augustus 2025",
+          "text": "Godzijdank, dit is een goede app om te downloaden en te delen. Moge Allah jullie een goede beloning schenken in deze wereld en in de andere. Amin!",
+          "rating": 5
+        },
+        {
+          "initials": "MB",
+          "name": "Mohamed Baddo",
+          "device": "5 januari 2026",
+          "text": "Het is heel eenvoudig, doeltreffend en heel aangenaam",
+          "rating": 5
+        },
+        {
+          "initials": "AB",
+          "name": "Anthony Barraut",
+          "device": "5 oktober 2025",
+          "text": "UITSTEKENDE app, de maker van de app is opmerkelijk vriendelijk, ik beveel de app onmiddellijk aan zonder aarzeling 🌟🌟🌟🌟🌟🥳👌",
+          "rating": 5
+        },
+        {
+          "initials": "PM",
+          "name": "Parfait Mayela may",
+          "device": "27 maart 2025",
+          "text": "waarom is een verbinding nodig??? Maar deze app maakt het mogelijk om snel te leren 🤲🤲🤲🥰🇬🇦",
+          "rating": 5
+        },
+        {
+          "initials": "MD",
+          "name": "Moustapha DRORI",
+          "device": "7 februari 2026",
+          "text": "Hele goede app voor beter leren",
+          "rating": 5
+        },
+        {
+          "initials": "AB",
+          "name": "Adamma Bae",
+          "device": "11 januari 2025",
+          "text": "Heel erg bedankt om het leren voor ons te vergemakkelijken",
+          "rating": 5
+        },
+        {
+          "initials": "MZ",
+          "name": "Malika Zaki",
+          "device": "7 april 2026",
+          "text": "het is de beste koran-app die ik ooit in mijn leven heb gezien",
+          "rating": 5
+        },
+        {
+          "initials": "NC",
+          "name": "N'famoussa Camara",
+          "device": "8 maart 2025",
+          "text": "Deze app is echt interessant voor mij en voor alle moslims die de islam willen kennen en toepassen.",
+          "rating": 5
+        },
+        {
+          "initials": "MB",
+          "name": "Mariam Bah",
+          "device": "21 oktober 2025",
+          "text": "heel doeltreffend voor de uitspraak",
+          "rating": 5
+        },
+        {
+          "initials": "NM",
+          "name": "Nouraya Mohamed",
+          "device": "5 april 2026",
+          "text": "Heel erg bedankt, het helpt me echt... Machallah",
+          "rating": 5
+        },
+        {
+          "initials": "SD",
+          "name": "Sofiane D",
+          "device": "10 oktober 2025",
+          "text": "het is gewoon jammer dat je niet direct de soera kunt kiezen, je moet swipen",
+          "rating": 5
+        },
+        {
+          "initials": "MD",
+          "name": "Mouhamed Diagne",
+          "device": "24 juli 2025",
+          "text": "hele goede app, je leert snel en goed",
+          "rating": 5
+        },
+        {
+          "initials": "BB",
+          "name": "Babouba Bibouba",
+          "device": "1 april 2025",
+          "text": "heel goed, maar voer alstublieft een lettergrootte-optie in",
+          "rating": 5
+        },
+        {
+          "initials": "CC",
+          "name": "Coumba Camara",
+          "device": "26 juli 2025",
+          "text": "dit is wat ik al jaren zocht, moge God jullie belonen voor de enorme vreugde die jullie me hebben gebracht toen ik het zag 💖 het is een hele goede app 👍 dank je",
+          "rating": 5
+        },
+        {
+          "initials": "LS",
+          "name": "Lassane Sawadogo",
+          "device": "3 augustus 2025",
+          "text": "ik zocht deze fonetiek al lang en alhamdoulillah ik heb het gevonden, dank je",
+          "rating": 5
+        },
+        {
+          "initials": "MA",
+          "name": "mam",
+          "device": "14 maart 2026",
+          "text": "hele goede app, alleen had ik graag gehad dat de hadith in het Frans waren",
+          "rating": 5
+        },
+        {
+          "initials": "MB",
+          "name": "Mohamadou Babanguida",
+          "device": "9 april 2026",
+          "text": "Heel erg bedankt, moge Allah jullie belonen",
+          "rating": 5
+        },
+        {
+          "initials": "TA",
+          "name": "Thierno amidou Diallo",
+          "device": "8 april 2026",
+          "text": "ik vind deze app heel leuk",
+          "rating": 5
+        },
+        {
+          "initials": "SA",
+          "name": "shahid ATOUKOU",
+          "device": "9 december 2024",
+          "text": "Heel super, ik waardeer deze app zeer, dank aan de maker van deze app",
+          "rating": 5
+        },
+        {
+          "initials": "MS",
+          "name": "Mamadi Savadogo",
+          "device": "9 maart 2026",
+          "text": "ik heb niets anders te zeggen dan moge Allah jullie belonen. De app is de beste die ik tot nu toe heb gekend.",
+          "rating": 5
+        },
+        {
+          "initials": "AC",
+          "name": "Alassane Camara",
+          "device": "26 december 2025",
+          "text": "as salamu alaikum, ik dank jullie, dit is een goede app voor moslims",
+          "rating": 5
+        },
+        {
+          "initials": "FL",
+          "name": "Frédéric Lankoandé",
+          "device": "1 augustus 2025",
+          "text": "hele goede app om de heilige Koran fonetisch te leren 👍",
+          "rating": 5
+        },
+        {
+          "initials": "LZ",
+          "name": "Loukmane Zongo",
+          "device": "26 juni 2025",
+          "text": "Machallah! dit is de Koran die ik zocht om te kunnen leren! kunnen jullie ervoor zorgen dat we offline kunnen lezen?",
+          "rating": 5
+        },
+        {
+          "initials": "IB",
+          "name": "Ibrahima Bâ",
+          "device": "2 september 2025",
+          "text": "Het is een goede app, ik dank jullie, moge God ons op het goede pad leiden 🤲🤲👆",
+          "rating": 5
+        },
+        {
+          "initials": "FA",
+          "name": "Fouzi Abdellatif",
+          "device": "5 maart 2026",
+          "text": "het is de beste app in fonetiek",
+          "rating": 5
+        },
+        {
+          "initials": "AS",
+          "name": "Aboubacar Sylla",
+          "device": "7 november 2025",
+          "text": "alles (compleet) wordt niet weergegeven",
+          "rating": 5
+        },
+        {
+          "initials": "KM",
+          "name": "KACHALLA MEMBA",
+          "device": "20 maart 2025",
+          "text": "heel erg bedankt voor dit gemak om de Koran te lezen. moge Allah jullie belonen in deze wereld en in het hiernamaals",
+          "rating": 5
+        },
+        {
+          "initials": "BD",
+          "name": "Billal DABIDA",
+          "device": "2 april 2025",
+          "text": "hele goede app, moge God de Barmhartige, de Genadevolle jullie meer wijsheid geven.",
+          "rating": 5
+        },
+        {
+          "initials": "NN",
+          "name": "Nadjma Nkulu",
+          "device": "24 november 2025",
+          "text": "La ilaha illallah, deze app is erg geschikt voor mensen die nog geen beheersing van het Arabisch hebben.",
+          "rating": 5
+        },
+        {
+          "initials": "TA",
+          "name": "thaibu Amici-langi",
+          "device": "7 augustus 2025",
+          "text": "Een heel mooi werk binnen handbereik.",
+          "rating": 5
+        },
+        {
+          "initials": "HH",
+          "name": "hamza Hamza",
+          "device": "19 oktober 2025",
+          "text": "dit is een hele nuttige en praktische app",
+          "rating": 5
+        },
+        {
+          "initials": "OA",
+          "name": "Oumarou Amadou",
+          "device": "7 november 2025",
+          "text": "moet verbeteren zonder internet om het te kunnen lezen",
+          "rating": 5
+        },
+        {
+          "initials": "AA",
+          "name": "Aboubakar Adamou",
+          "device": "18 augustus 2025",
+          "text": "hele goede app, moge ALLAH de ontwerpers belonen",
+          "rating": 5
+        },
+        {
+          "initials": "SK",
+          "name": "Soiba Koné",
+          "device": "19 januari 2026",
+          "text": "ik beveel het aan bij mijn moslimbroeders, het helpt me ook veel met de tajwid",
+          "rating": 5
+        },
+        {
+          "initials": "SN",
+          "name": "Sipas NIAKATE",
+          "device": "21 september 2025",
+          "text": "super app, komt echt dicht bij het Arabisch",
+          "rating": 5
+        },
+        {
+          "initials": "HT",
+          "name": "Hamissou TCHAGBELE",
+          "device": "28 september 2024",
+          "text": "Ik hou van deze app, ik hoop dat jullie door de genade van God tot het einde van de Koran toevoegen",
+          "rating": 5
+        },
+        {
+          "initials": "AA",
+          "name": "Abdul Abdullah",
+          "device": "21 november 2025",
+          "text": "het is echt heel prachtig, ik hou hiervan, moge Allah jullie belonen.",
+          "rating": 5
+        },
+        {
+          "initials": "SA",
+          "name": "sawadogoalassane",
+          "device": "25 juni 2025",
+          "text": "prachtig, het is alles wat ik wilde. Dank je",
+          "rating": 5
+        },
+        {
+          "initials": "BT",
+          "name": "Bocar Thiam",
+          "device": "19 oktober 2025",
+          "text": "het is een hele goede app zonder reclame Machallah",
+          "rating": 5
+        },
+        {
+          "initials": "HN",
+          "name": "Harounahafiz Nonkane",
+          "device": "11 maart 2025",
+          "text": "Beste broeders en zusters in het geloof, ik raad het jullie sterk aan, deze app is geweldig. Moge Allah ons het juiste begrip geven.",
+          "rating": 5
+        },
+        {
+          "initials": "NT",
+          "name": "Nana Tanou",
+          "device": "1 april 2025",
+          "text": "hele goede app, het helpt me erg veel 🥰",
+          "rating": 5
+        },
+        {
+          "initials": "IS",
+          "name": "Idrissa Samake",
+          "device": "5 augustus 2025",
+          "text": "Uitstekend werk! Dank je",
+          "rating": 5
+        },
+        {
+          "initials": "SB",
+          "name": "Sarra Bahri (\"Anous Azouz Aychouha\")",
+          "device": "29 september 2024",
+          "text": "een goede app, veel succes en ga zo door 👏👏👏🌹🌹🌹🌹",
+          "rating": 5
+        },
+        {
+          "initials": "OA",
+          "name": "Omokayode Akanny",
+          "device": "29 mei 2025",
+          "text": "hele goede en nuttige app",
+          "rating": 5
+        },
+        {
+          "initials": "AG",
+          "name": "Abdoulaye Gningue",
+          "device": "16 januari 2025",
+          "text": "Machallah, moge Allah jullie leiden in vrede en rechtschapenheid, dit is een goed boek.",
+          "rating": 5
+        },
+        {
+          "initials": "SS",
+          "name": "Seynabou Senghor",
+          "device": "29 april 2025",
+          "text": "Het woord dank is niet genoeg om jullie te bedanken, moge Allah jullie belonen voor jullie geweldige werk ❤️🌹",
+          "rating": 5
+        },
+        {
+          "initials": "FS",
+          "name": "Fanta Souare",
+          "device": "2 juni 2025",
+          "text": "deze app is gewoon wow, dank je, moge Allah zijn zegen over jullie leggen en jullie de beloning van het paradijs geven amine ya rab 🙏",
+          "rating": 5
+        },
+        {
+          "initials": "AD",
+          "name": "Abdoul djabar Danyoko",
+          "device": "26 juli 2025",
+          "text": "het is een hele mooie app. Mashallah!",
+          "rating": 5
+        },
+        {
+          "initials": "IC",
+          "name": "Idrissa Camara",
+          "device": "6 augustus 2025",
+          "text": "Ik ben echt blij met dit document. Jullie hebben miljoenen niet-Arabische mensen in staat gesteld Allah te leren kennen. Daarvoor kan alleen Allah jullie belonen. Ik bid dat Allah jullie en jullie families een gemakkelijk leven schenkt en ons het paradijs schenkt. amin!",
+          "rating": 5
+        },
+        {
+          "initials": "SK",
+          "name": "Souleymane Keïta",
+          "device": "1 oktober 2025",
+          "text": "Eerlijk gezegd hou ik enorm veel van deze app, moge God de auteur van deze app belonen en zegenen en moge Hij ons onze zonden en al onze bewuste en onbewuste fouten vergeven, en moge Hij al onze gebeden aanvaarden, ook die voor onze families, en moge Hij ons op het rechte pad houden tot onze laatste adem, en vooral moge Hij ons zijn barmhartigheid schenken en ons zijn eeuwige paradijs geven, Amin 🙏🙏🙏",
+          "rating": 5
+        },
+        {
+          "initials": "EM",
+          "name": "El Mn",
+          "device": "1 augustus 2026",
+          "text": "Ik weet niet wat ik moet zeggen 🫰🤌. Het is top",
+          "rating": 5
+        },
+        {
+          "initials": "SS",
+          "name": "Setoute samate",
+          "device": "11 augustus 2025",
+          "text": "MachaAllah, moge Allah jullie beschermen, hele goede app, dank je 🤲🤲🤲",
+          "rating": 5
+        },
+        {
+          "initials": "CD",
+          "name": "Cheick Diabate",
+          "device": "29 december 2024",
+          "text": "Onbetwistbaar, echt geweldig",
+          "rating": 5
+        },
+        {
+          "initials": "SD",
+          "name": "Sanogo Domba",
+          "device": "18 december 2025",
+          "text": "erg goed voor de ontwikkeling van de menselijke geest",
+          "rating": 5
+        },
+        {
+          "initials": "MM",
+          "name": "mame marème bane",
+          "device": "8 maart 2026",
+          "text": "salam, waarom werkt de app niet meer",
+          "rating": 5
+        },
+        {
+          "initials": "DB",
+          "name": "Dalila Bahri",
+          "device": "27 december 2025",
+          "text": "super app, heel nuttig",
+          "rating": 5
+        },
+        {
+          "initials": "LY",
+          "name": "Landry Yarga",
+          "device": "10 december 2025",
+          "text": "Deze app helpt me enorm, dank je 👌",
+          "rating": 5
+        },
+        {
+          "initials": "JK",
+          "name": "Jeanne Kikukama",
+          "device": "8 februari 2026",
+          "text": "een hele goede app",
+          "rating": 5
+        },
+        {
+          "initials": "ZS",
+          "name": "Zeynab Sylla",
+          "device": "14 januari 2026",
+          "text": "heel cool en makkelijk",
+          "rating": 5
+        },
+        {
+          "initials": "AW",
+          "name": "Abdoul Wahab porgo",
+          "device": "10 januari 2026",
+          "text": "heel erg interessant",
+          "rating": 5
+        },
+        {
+          "initials": "YM",
+          "name": "Yohane Mouhali",
+          "device": "31 oktober 2025",
+          "text": "Heel erg bedankt voor dit alles 👏👏👏👏👏",
+          "rating": 5
+        },
+        {
+          "initials": "FA",
+          "name": "Fousseni Arouna",
+          "device": "15 december 2025",
+          "text": "Masha Allah, ik hou echt van deze app",
+          "rating": 5
+        },
+        {
+          "initials": "DA",
+          "name": "Djamilatou Alim",
+          "device": "20 januari 2026",
+          "text": "hele goede app, godzijdank Macha Allah",
+          "rating": 5
+        },
+        {
+          "initials": "AA",
+          "name": "Arminata Abdou",
+          "device": "26 maart 2025",
+          "text": "Heel erg bedankt aan jullie 👏 ik hou ervan",
+          "rating": 5
+        },
+        {
+          "initials": "HR",
+          "name": "Halima Radhwani",
+          "device": "26 september 2025",
+          "text": "top app, Allahoemma barek, heel erg bedankt 🤲",
+          "rating": 5
+        },
+        {
+          "initials": "MC",
+          "name": "Mahamoudou Coulibaly",
+          "device": "17 augustus 2025",
+          "text": "heel chic, heel gaaf",
+          "rating": 5
+        },
+        {
+          "initials": "LD",
+          "name": "Lamine Dieye",
+          "device": "22 maart 2025",
+          "text": "Goed werk van jullie, moge God jullie zegenen, de app is belangrijk 🙏",
+          "rating": 5
+        },
+        {
+          "initials": "AB",
+          "name": "aimé boussoukou",
+          "device": "25 oktober 2025",
+          "text": "Allahoe Akbar, deze app is heel heilzaam",
+          "rating": 5
+        },
+        {
+          "initials": "IM",
+          "name": "Ibrahim Mbaye",
+          "device": "29 oktober 2024",
+          "text": "Heel goed om van te leren",
+          "rating": 5
+        },
+        {
+          "initials": "TT",
+          "name": "Tassala Toure",
+          "device": "21 maart 2025",
+          "text": "MashaAllah, ik hou er heel veel van, moge Allah jullie zegenen voor de inspanning die jullie leveren voor de moslimgemeenschap 🤲barakallahu feekum🤲",
+          "rating": 5
+        },
+        {
+          "initials": "MD",
+          "name": "Mohamed Diawara",
+          "device": "27 juni 2025",
+          "text": "ik hou er heel veel van, dank aan iedereen",
+          "rating": 5
+        },
+        {
+          "initials": "FA",
+          "name": "Ferjani Ali",
+          "device": "5 november 2025",
+          "text": "beste apps, ga zo door 😍😍🥰",
+          "rating": 5
+        },
+        {
+          "initials": "MA",
+          "name": "moustapha ahmed",
+          "device": "22 augustus 2025",
+          "text": "Prachtige app, moge Allah jullie hiervoor belonen",
+          "rating": 5
+        },
+        {
+          "initials": "MB",
+          "name": "Mariam Barry",
+          "device": "4 oktober 2025",
+          "text": "hele goede app ☺ ik beveel het aan",
+          "rating": 5
+        },
+        {
+          "initials": "DO",
+          "name": "Dramane Ouattara",
+          "device": "19 juli 2025",
+          "text": "dit is de beste app aller tijden",
+          "rating": 5
+        },
+        {
+          "initials": "AG",
+          "name": "Assane Gnamou",
+          "device": "17 mei 2025",
+          "text": "makkelijk in gebruik",
+          "rating": 5
+        },
+        {
+          "initials": "AL",
+          "name": "Amadou Lee",
+          "device": "27 november 2025",
+          "text": "een hele goede app",
+          "rating": 5
+        },
+        {
+          "initials": "OD",
+          "name": "Ousseynou DIOP",
+          "device": "22 maart 2025",
+          "text": "ongelooflijk, heel erg bedankt",
+          "rating": 5
+        },
+        {
+          "initials": "ZJ",
+          "name": "Zakaria Jose Kone",
+          "device": "4 maart 2026",
+          "text": "deze app is heel goed",
+          "rating": 5
+        },
+        {
+          "initials": "MD",
+          "name": "Mr dof Dof",
+          "device": "24 juni 2025",
+          "text": "te veel fouten in vergelijking met een echte koran",
+          "rating": 5
+        },
+        {
+          "initials": "OM",
+          "name": "Omar Manè",
+          "device": "4 maart 2025",
+          "text": "Echt buitengewoon, machallah",
+          "rating": 5
+        },
+        {
+          "initials": "KI",
+          "name": "Koné Idris",
+          "device": "29 mei 2025",
+          "text": "hele goede app",
+          "rating": 5
+        },
+        {
+          "initials": "KK",
+          "name": "kourouma kaman",
+          "device": "25 september 2025",
+          "text": "hele goede app",
+          "rating": 5
+        },
+        {
+          "initials": "OD",
+          "name": "Ousseynou DIOP",
+          "device": "28 juli 2025",
+          "text": "ik hou ervan, het is heel goed",
+          "rating": 5
+        },
+        {
+          "initials": "MM",
+          "name": "Mr MANANGA",
+          "device": "19 februari 2026",
+          "text": "beste spirituele gids",
+          "rating": 5
+        },
+        {
+          "initials": "TM",
+          "name": "Tyz Man86",
+          "device": "8 december 2025",
+          "text": "jullie moeten enkele punten verbeteren",
+          "rating": 5
+        },
+        {
+          "initials": "SI",
+          "name": "Samba Ichrach",
+          "device": "8 november 2025",
+          "text": "niets meer aan toe te voegen, ik heb wat ik zocht",
+          "rating": 5
+        },
+        {
+          "initials": "RB",
+          "name": "Rasta Barou",
+          "device": "7 oktober 2025",
+          "text": "ik heb er erg van gehouden",
+          "rating": 5
+        },
+        {
+          "initials": "NG",
+          "name": "Nadia GbaneDIABY",
+          "device": "10 november 2025",
+          "text": "Alhamdoulillah! Wonderbaarlijk heilzaam!!!",
+          "rating": 5
+        },
+        {
+          "initials": "DM",
+          "name": "DaoudaDiallo Malide",
+          "device": "20 maart 2025",
+          "text": "ik heb het erg gewaardeerd",
+          "rating": 5
+        },
+        {
+          "initials": "SB",
+          "name": "Saitama Black God 777",
+          "device": "23 november 2024",
+          "text": "Mashallah, dit is wat de meesten zoeken",
+          "rating": 5
+        },
+        {
+          "initials": "MS",
+          "name": "Mamoudou Sylla",
+          "device": "2 november 2024",
+          "text": "ALHAMDOULILLAH, IK DANK JULLIE ZEER, IK ZOCHT DIT AL LANG OP HET INTERNET EN HEB HET EINDELIJK GEVONDEN, MOGE GOD JOU EN JE FAMILIE ZEGENEN, HEEL ERG BEDANKT!",
+          "rating": 5
+        },
+        {
+          "initials": "IK",
+          "name": "Ibrahim Konsigui",
+          "device": "18 november 2025",
+          "text": "de verzen weigeren te downloaden",
+          "rating": 5
+        },
+        {
+          "initials": "YK",
+          "name": "Youss Kouadio",
+          "device": "22 oktober 2025",
+          "text": "hele goede app",
+          "rating": 5
+        },
+        {
+          "initials": "AB",
+          "name": "Alhasko Bob",
+          "device": "2 mei 2025",
+          "text": "de beste app ter wereld",
+          "rating": 5
+        }
+      ]
+    },
+    "cta": {
+      "title": "Begin vandaag nog aan uw leerreis",
+      "subtitle": "Download Noor Phonetic Quran gratis en verander uw ervaring met het reciteren van de Koran.",
+      "downloadOn": "Downloaden op"
+    }
+  },
+  "cgu": {
+    "meta": {
+      "title": "Algemene Gebruiksvoorwaarden - Noor Phonetic Quran",
+      "description": "Algemene gebruiksvoorwaarden van Noor Phonetic Quran: toegang tot de dienst, gebruikersaccount, Premium-abonnement, intellectueel eigendom, aansprakelijkheid en toepasselijk recht.",
+      "keywords": "Gebruiksvoorwaarden Noor Phonetic Quran, algemene gebruiksvoorwaarden, gebruiksvoorwaarden Koran-app"
+    },
+    "appName": "Noor Phonetic Quran",
+    "pageTitle": "ALGEMENE GEBRUIKSVOORWAARDEN",
+    "updateDate": "Laatst bijgewerkt: 31 juli 2026",
+    "intro1": "Deze Algemene Gebruiksvoorwaarden (\"Voorwaarden\") regelen de toegang tot en het gebruik van de mobiele applicatie Noor Phonetic Quran (\"de App\", \"wij\", \"ons\" of \"onze\"), individueel uitgegeven en beschikbaar op Google Play en de App Store. Door de App te downloaden, installeren of gebruiken, aanvaardt u gebonden te zijn aan deze Voorwaarden. Als u niet akkoord gaat met deze voorwaarden, gebruik de App dan niet.",
+    "intro2Before": "Voor alle informatie over de verwerking van uw persoonsgegevens verwijzen wij u naar ons",
+    "intro2LinkText": "Privacybeleid",
+    "intro2After": ", dat deze Voorwaarden aanvult.",
+    "summary": {
+      "heading": "SAMENVATTING VAN DE BELANGRIJKSTE PUNTEN",
+      "intro": "Deze samenvatting geeft de belangrijkste punten van onze Voorwaarden weer, maar wij nodigen u uit het volledige document te lezen via de inhoudsopgave hieronder.",
+      "points": [
+        {
+          "question": "Wat biedt de App?",
+          "answer": "Een reeks gratis en betaalde tools om de Koran te lezen, te leren en uit het hoofd te leren: fonetische en Arabische lezing (Hafs- en Warsh-lezingen), tajweed, gegamificeerd memoriseren, khatma-opvolging, recitatiecorrectie via audio-opname, quiz, live islamitische radio/tv en een \"vers van de dag\"-widget op het startscherm."
+        },
+        {
+          "question": "Heb ik een account nodig?",
+          "answer": "Nee, het grootste deel van de App is bruikbaar zonder account. Een optioneel account (e-mail, Google of Apple) maakt het mogelijk uw voortgang en uw Premium-abonnement te synchroniseren."
+        },
+        {
+          "question": "Is de App betalend?",
+          "answer": "De App is gratis met advertenties. Een optioneel Premium-abonnement, beheerd via Google Play of de App Store, verwijdert advertenties en ontgrendelt geavanceerde functies."
+        },
+        {
+          "question": "Kan ik mijn stem opnemen?",
+          "answer": "Ja, de functie voor recitatiecorrectie neemt uw stem lokaal op om uw uitspraak te analyseren. Zie de specifieke sectie voor details over de werking en uw verantwoordelijkheden."
+        },
+        {
+          "question": "Wie is verantwoordelijk voor de religieuze inhoud?",
+          "answer": "Wij doen ons uiterste best om de betrouwbaarheid van de teksten, vertalingen en translitteraties te waarborgen, maar de App is een pedagogisch hulpmiddel en vervangt geen traditioneel onderwijs bij een gekwalificeerde leraar."
+        },
+        {
+          "question": "Hoe kunnen wij worden gecontacteerd?",
+          "answer": "Via het contactformulier in de App of per e-mail op othmeneb@gmail.com."
+        }
+      ]
+    },
+    "toc": {
+      "heading": "INHOUDSOPGAVE",
+      "items": [
+        {
+          "id": "service",
+          "label": "1. DE DIENST"
+        },
+        {
+          "id": "eligibility",
+          "label": "2. GESCHIKTHEID"
+        },
+        {
+          "id": "account",
+          "label": "3. GEBRUIKERSACCOUNT"
+        },
+        {
+          "id": "premium",
+          "label": "4. PREMIUM-ABONNEMENT EN IN-APP-AANKOPEN"
+        },
+        {
+          "id": "recitation",
+          "label": "5. RECITATIECORRECTIE EN AUDIO-OPNAMEN"
+        },
+        {
+          "id": "conduct",
+          "label": "6. GEBRUIKSREGELS"
+        },
+        {
+          "id": "ip",
+          "label": "7. INTELLECTUEEL EIGENDOM"
+        },
+        {
+          "id": "religious-content",
+          "label": "8. RELIGIEUZE EN EDUCATIEVE INHOUD"
+        },
+        {
+          "id": "accessibility",
+          "label": "9. TOEGANKELIJKHEID"
+        },
+        {
+          "id": "ads",
+          "label": "10. ADVERTENTIES EN DIENSTEN VAN DERDEN"
+        },
+        {
+          "id": "availability",
+          "label": "11. BESCHIKBAARHEID EN WIJZIGINGEN VAN DE DIENST"
+        },
+        {
+          "id": "termination",
+          "label": "12. OPSCHORTING EN BEËINDIGING"
+        },
+        {
+          "id": "disclaimer",
+          "label": "13. BEPERKING VAN AANSPRAKELIJKHEID"
+        },
+        {
+          "id": "law",
+          "label": "14. TOEPASSELIJK RECHT EN GESCHILLEN"
+        },
+        {
+          "id": "updates",
+          "label": "15. WIJZIGING VAN DE VOORWAARDEN"
+        },
+        {
+          "id": "contact",
+          "label": "16. CONTACT OPNEMEN"
+        }
+      ]
+    },
+    "sections": {
+      "service": {
+        "heading": "1. DE DIENST",
+        "intro": "Noor Phonetic Quran is een mobiele app waarmee u de Koran kunt lezen, leren en uit het hoofd leren, met name via:",
+        "items": [
+          "het lezen van de Koran in fonetische transliteratie en in het Arabisch (Hafs- en Warsh-lezingen), met vertalingen en audio;",
+          "lessen in uitspraak en tajweed, met recitatiecorrectie via audio-opname;",
+          "een gegamificeerde memorisatiemodule (niveaus, badges, dagelijkse uitdagingen) en een dagelijks leerplan;",
+          "opvolging van khatma (volledige lezing van de Koran) en een speciaal Ramadan-programma;",
+          "dagelijkse adhkar, een quiz over islamitische kennis, een radio en live islamitische tv-kanalen;",
+          "een \"vers van de dag\"-widget die op het startscherm van uw toestel (iOS en Android) kan worden weergegeven."
+        ],
+        "outro": "Deze functies kunnen evolueren, worden toegevoegd of verwijderd naarmate de App wordt bijgewerkt, zonder dat dit een wezenlijke wijziging van deze Voorwaarden vormt."
+      },
+      "eligibility": {
+        "heading": "2. GESCHIKTHEID",
+        "body": "De App is bedoeld voor iedereen die de Koran wil leren lezen of beoefenen. Bent u minderjarig, dan moet het gebruik van de App plaatsvinden onder toezicht van een ouder of wettelijke voogd, met name voor elke functie waarbij een in-app-aankoop betrokken is."
+      },
+      "account": {
+        "heading": "3. GEBRUIKERSACCOUNT",
+        "brief": "Kort samengevat",
+        "briefText": "Een account is optioneel en dient uitsluitend om uw voortgang en uw abonnement te synchroniseren.",
+        "body": "Het merendeel van de functies van de App is toegankelijk zonder een account aan te maken. U kunt een optioneel account aanmaken via e-mail, Google of Apple, om uw voortgang (memorisatie, khatma, dagelijks plan) en uw Premium-status te bewaren bij een wisseling van toestel. U bent verantwoordelijk voor de vertrouwelijkheid van uw inloggegevens en voor elke activiteit die vanaf uw account wordt uitgevoerd. U kunt op elk moment verzoeken om verwijdering van uw account en de bijbehorende gegevens door contact met ons op te nemen (zie sectie 16) of vanuit de instellingen van de App, indien deze optie daar beschikbaar is."
+      },
+      "premium": {
+        "heading": "4. PREMIUM-ABONNEMENT EN IN-APP-AANKOPEN",
+        "brief": "Kort samengevat",
+        "briefText": "De App is gratis met advertenties; het Premium-abonnement (beheerd door Google Play of de App Store) verwijdert advertenties en ontgrendelt geavanceerde functies.",
+        "body": "In-app-aankopen (met name het Premium-abonnement) worden rechtstreeks verwerkt door Google Play of de App Store, afhankelijk van uw platform, in overeenstemming met hun eigen gebruiksvoorwaarden en factureringsbeleid. Facturering, automatische verlenging, annulering en terugbetaling van een abonnement worden beheerd vanuit de instellingen van uw Google Play- of Apple ID-account — wij hebben geen toegang tot uw betaalmiddelen en kunnen geen terugbetaling rechtstreeks initiëren. De precieze inhoud en omvang van de Premium-voordelen worden in de App beschreven op het moment van aankoop en kunnen wijzigen bij updates."
+      },
+      "recitation": {
+        "heading": "5. RECITATIECORRECTIE EN AUDIO-OPNAMEN",
+        "brief": "Kort samengevat",
+        "briefText": "Uw recitatie-opnamen worden gebruikt om u feedback te geven op uw uitspraak; deel alleen wat u zich op uw gemak voelt om te delen.",
+        "bodyBefore": "Met de functie voor recitatiecorrectie kunt u uw stem opnemen tijdens het lezen van de Koran om persoonlijke feedback te ontvangen (geautomatiseerd en/of door een beoordelaar, afhankelijk van de versie van de functie die actief is in de App). Door deze functie te gebruiken, stemt u in met de opname en verwerking van uw stem voor doeleinden van uitspraakanalyse en verbetering van uw leerproces. U mag geen opname indienen met onwettige, lasterlijke of inbreukmakende inhoud die de rechten van derden schendt. De details over de verwerking, opslag en bewaartermijn van deze opnamen staan vermeld in ons",
+        "linkText": "Privacybeleid",
+        "bodyAfter": "."
+      },
+      "conduct": {
+        "heading": "6. GEBRUIKSREGELS",
+        "intro": "Door de App te gebruiken, verbindt u zich ertoe om niet:",
+        "items": [
+          "de App te gebruiken voor illegale doeleinden of in strijd met deze Voorwaarden;",
+          "zonder toestemming toegang te proberen krijgen tot onze systemen, deze te verstoren of de beveiligingsmaatregelen ervan te omzeilen;",
+          "de broncode van de App te decompileren, te disassembleren of te proberen te extraheren, behalve voor zover de wet dit uitdrukkelijk toestaat;",
+          "geheel of gedeeltelijk de inhoud van de App te reproduceren, te herdistribueren of commercieel te exploiteren zonder voorafgaande toestemming;",
+          "geautomatiseerde tools (bots, scrapers) te gebruiken om toegang te krijgen tot de App of er gegevens uit te halen."
+        ]
+      },
+      "ip": {
+        "heading": "7. INTELLECTUEEL EIGENDOM",
+        "body": "De App, de code, het ontwerp, de illustraties en de eigen educatieve inhoud (tajweed-lessen, structuur van het leerplan, enz.) zijn beschermd door het intellectueel eigendomsrecht en blijven ons eigendom of dat van onze licentiegevers. De koranische tekst zelf behoort tot het gemeenschappelijk erfgoed en wordt door niemand opgeëist; de vertalingen, fonetische translitteraties, audio-recitaties en geïntegreerde tafsir-inhoud zijn afkomstig van derde bronnen die in de App worden vermeld of van partners (reciteerders, vertaaluitgevers) en worden gebruikt in overeenstemming met de verkregen toestemmingen. Niets in deze Voorwaarden verleent u enig recht op deze elementen buiten een persoonlijk en niet-commercieel gebruik van de App."
+      },
+      "religiousContent": {
+        "heading": "8. RELIGIEUZE EN EDUCATIEVE INHOUD",
+        "brief": "Kort samengevat",
+        "briefText": "De App is een pedagogisch begeleidingsinstrument, geen vervanging voor traditioneel onderwijs.",
+        "body": "Wij doen ons uiterste best om de nauwkeurigheid te waarborgen van de koranische tekst, de vertalingen, de fonetische translitteraties en de tajweed-regels die in de App worden gepresenteerd, met name door ons te baseren op erkende bronnen. De fonetische translitteratie is echter van nature een benadering die bedoeld is om het leren te vergemakkelijken en vervangt niet het leren lezen van het koranische Arabisch bij een gekwalificeerde leraar. Evenzo is de feedback van de recitatiecorrectiefunctie een leerhulpmiddel en garandeert het geen religieuze validatie van uw recitatie."
+      },
+      "accessibility": {
+        "heading": "9. TOEGANKELIJKHEID",
+        "brief": "Kort samengevat",
+        "briefText": "Wij werken eraan de App bruikbaar te maken voor zoveel mogelijk mensen, ook voor personen met een beperking.",
+        "body": "De App bevat toegankelijkheidsinformatie (labels en Semantics-rollen) op de belangrijkste schermen en bedieningselementen om de navigatie met de native schermlezers van uw toestel te vergemakkelijken (VoiceOver op iOS, TalkBack op Android). Daarnaast respecteert zij de lettergrootte die is ingesteld in de toegankelijkheidsinstellingen van uw besturingssysteem voor de weergave van teksten. Deze inspanningen op het gebied van toegankelijkheid zijn continu en dekken mogelijk niet op een gegeven moment uniform alle schermen en functies. Als u een toegankelijkheidsprobleem ondervindt bij het gebruik van de App, nodigen wij u uit dit aan ons te melden via het contactformulier (zie sectie 16), zodat wij het kunnen verbeteren."
+      },
+      "ads": {
+        "heading": "10. ADVERTENTIES EN DIENSTEN VAN DERDEN",
+        "body1Before": "De App bevat technische diensten van derden (publieksmeting, technische diagnose, advertentieregie, in-app-aankopen) die in detail worden beschreven in ons",
+        "linkText": "Privacybeleid",
+        "body1After": ". Deze diensten zijn onderworpen aan hun eigen gebruiksvoorwaarden, die wij u uitnodigen te raadplegen.",
+        "body2": "Sommige advertenties zijn volledig optioneel: u kunt vrijwillig kiezen om een beloonde advertentie (\"rewarded ad\") te bekijken vanuit het ondersteuningsmenu van de App, als u ons wilt steunen zonder een Premium-abonnement af te sluiten. Deze optionele advertentie wordt nooit weergegeven zonder uw expliciete actie."
+      },
+      "availability": {
+        "heading": "11. BESCHIKBAARHEID EN WIJZIGINGEN VAN DE DIENST",
+        "body": "Wij streven ernaar de App toegankelijk en functioneel te houden, zonder een continue of foutloze beschikbaarheid te garanderen. Sommige functies vereisen een internetverbinding (audio downloaden, live radio/tv, accountsynchronisatie) en kunnen onbeschikbaar zijn zonder verbinding of bij een storing van een dienst van derden. Wij kunnen te allen tijde functies van de App toevoegen, wijzigen of verwijderen, met name om technische, wettelijke redenen of redenen die verband houden met de evolutie van onze inhoudspartnerschappen."
+      },
+      "termination": {
+        "heading": "12. OPSCHORTING EN BEËINDIGING",
+        "body": "U kunt op elk moment stoppen met het gebruik van de App door deze te verwijderen. Wij behouden ons het recht voor om uw toegang tot de App op te schorten of te beëindigen, met name in geval van niet-naleving van deze Voorwaarden, zonder dat dit gevolgen heeft voor reeds gedane aankopen via Google Play of de App Store, waarvan het beheer bij deze platforms berust."
+      },
+      "disclaimer": {
+        "heading": "13. BEPERKING VAN AANSPRAKELIJKHEID",
+        "body": "Voor zover toegestaan door het toepasselijke recht, wordt de App geleverd \"zoals ze is\" en \"naargelang beschikbaarheid\", zonder enige garantie, expliciet of impliciet. Wij kunnen niet aansprakelijk worden gesteld voor indirecte, incidentele of gevolgschade die voortvloeit uit het gebruik of de onmogelijkheid om de App te gebruiken, met inbegrip van tijdelijke onbeschikbaarheid, verlies van voortgangsgegevens, of fouten in inhoud van derden (vertaling, audio, tafsir) die in de App is geïntegreerd. Niets in deze Voorwaarden sluit een aansprakelijkheid uit die wettelijk niet kan worden uitgesloten (bijvoorbeeld bij opzettelijke fout of grove nalatigheid)."
+      },
+      "law": {
+        "heading": "14. TOEPASSELIJK RECHT EN GESCHILLEN",
+        "body": "Deze Voorwaarden worden beheerst door het Franse recht, onverminderd de dwingende bepalingen inzake consumentenbescherming die van toepassing kunnen zijn in uw land van verblijf. Bij een geschil zal in eerste instantie een minnelijke oplossing worden gezocht door rechtstreeks contact met ons op te nemen (zie sectie 16) voordat gerechtelijke stappen worden ondernomen."
+      },
+      "updates": {
+        "heading": "15. WIJZIGING VAN DE VOORWAARDEN",
+        "brief": "Kort samengevat",
+        "briefText": "Wij kunnen deze Voorwaarden bijwerken om de evolutie van de App of de regelgeving te weerspiegelen.",
+        "body": "Wij kunnen deze Voorwaarden van tijd tot tijd wijzigen, met name bij het toevoegen van nieuwe functies. De bijgewerkte versie wordt aangeduid met een nieuwe datum van \"Laatst bijgewerkt\" bovenaan deze pagina en treedt in werking zodra deze wordt gepubliceerd. Bij een wezenlijke wijziging zullen wij u hiervan op de hoogte stellen via een melding in de App. Het voortgezette gebruik van de App na publicatie van de wijzigingen geldt als aanvaarding van de bijgewerkte Voorwaarden."
+      },
+      "contact": {
+        "heading": "16. CONTACT OPNEMEN",
+        "bodyBefore": "Voor alle vragen met betrekking tot deze Voorwaarden kunt u contact met ons opnemen via het contactformulier in de App, of per e-mail op",
+        "email": "othmeneb@gmail.com",
+        "bodyAfter": "."
+      }
+    },
+    "footer": "© 2026 Noor Phonetic Quran. Alle rechten voorbehouden."
+  },
+  "contactPage": {
+    "meta": {
+      "title": "Contact - Noor Phonetic Quran",
+      "description": "Een vraag over de app Noor Phonetic Quran, een suggestie voor de fonetiek van de Koran of een technisch probleem? Neem contact op met ons team, antwoord binnen 48 uur."
+    }
+  },
+  "reviews": {
+    "meta": {
+      "title": "Gebruikersbeoordelingen - Noor Phonetic Quran",
+      "description": "Ontdek meer dan 160 geverifieerde beoordelingen van gebruikers van Noor Phonetic Quran, de app om de Koran te leren reciteren, uit het hoofd te leren en fonetisch te lezen, met een gemiddelde score van 5 sterren."
+    },
+    "eyebrow": "Geverifieerde beoordelingen",
+    "title": "Wat onze gebruikers zeggen",
+    "subtitle": "Ontdek de beoordelingen van onze groeiende gemeenschap van tevreden gebruikers",
+    "ratingCountLabel": "van %COUNT% beoordelingen",
+    "loadMoreLabel": "Meer beoordelingen tonen"
+  },
+  "audioCoran": {
+    "meta": {
+      "title": "Gesynchroniseerde Audio van de Koran: Meerdere Reciteerders en Offline Luisteren | Noor Phonetic Quran",
+      "description": "Luister naar de Koran met gesynchroniseerde audio per vers, kies uit meerdere reciteerders en download de audio voor offline luisteren met Noor Phonetic Quran. Gratis op iOS en Android.",
+      "keywords": "audio Koran, Koran audiorecitatie, meerdere reciteerders Koran, Koran audio offline, Koran audio downloaden, Koran beluisteren, gesynchroniseerde audio Koran, reciteerders Koran app",
+      "ogTitle": "Gesynchroniseerde Audio van de Koran: Meerdere Reciteerders en Offline Luisteren",
+      "ogDescription": "Gesynchroniseerde audio per vers, meerdere reciteerders en offline downloaden. Gratis app Noor Phonetic Quran."
+    },
+    "breadcrumb": {
+      "home": "Home",
+      "current": "Audio van de Koran"
+    },
+    "hero": {
+      "title": "Gesynchroniseerde Audio van de Koran: Meerdere Reciteerders, Offline Luisteren",
+      "subtitle": "Elk vers wordt vergezeld van gesynchroniseerde audio om de correcte uitspraak te horen, met keuze van reciteerder en de mogelijkheid om audio te downloaden voor luisteren zonder verbinding.",
+      "backLink": "Terug naar home",
+      "googlePlay": "Google Play",
+      "appStore": "App Store"
+    },
+    "intro": {
+      "title": "Luisteren doordacht ontworpen voor het leerproces",
+      "paragraph1": "De juiste uitspraak horen is essentieel om de Koran correct te leren reciteren. Noor Phonetic Quran koppelt elk vers aan gesynchroniseerde audio, zodat u de tekst, de fonetiek en het luisteren tegelijk kunt volgen.",
+      "paragraph2": "U bent niet beperkt tot één reciteerder of een permanente internetverbinding: kies uw favoriete stem en download de audio om overal mee naartoe te nemen."
+    },
+    "features": {
+      "title": "Wat de audio van de Koran biedt",
+      "items": [
+        {
+          "title": "Gesynchroniseerde audio per vers",
+          "description": "elk vers wordt hardop voorgelezen op het moment dat u het leest, om uw uitspraak in real time te corrigeren."
+        },
+        {
+          "title": "Meerdere reciteerders naar keuze",
+          "description": "selecteer de reciteerder die het beste bij u past uit de beschikbare opties in de app."
+        },
+        {
+          "title": "Luisteren per vers, soera of reeks soera's",
+          "description": "kies precies het gedeelte van de Koran dat u wilt beluisteren."
+        },
+        {
+          "title": "Instelbare afspeelsnelheid",
+          "description": "vertraag de audio van 0.7x tot 1x om elk woord beter te onderscheiden tijdens het leren."
+        },
+        {
+          "title": "Downloaden voor offline luisteren",
+          "description": "download de audio vooraf om de Koran zonder internetverbinding te beluisteren, waar u ook bent."
+        }
+      ]
+    },
+    "screenshots": {
+      "title": "Overzicht van de audio van de Koran",
+      "alts": [
+        "Noor Phonetic Quran - Gesynchroniseerde audiobalk",
+        "Noor Phonetic Quran - Selectie van een versreeks en offline downloaden",
+        "Noor Phonetic Quran - Selectie van een soerareeks en snelheidsinstelling",
+        "Noor Phonetic Quran - Keuze van de reciteerder"
+      ]
+    },
+    "faq": {
+      "title": "Veelgestelde vragen over de audio van de Koran",
+      "items": [
+        {
+          "question": "Is de audio gesynchroniseerd met de tekst?",
+          "answer": "Ja, elk vers wordt vergezeld van gesynchroniseerde audio om de correcte uitspraak te horen terwijl u de tekst en de fonetische transcriptie volgt."
+        },
+        {
+          "question": "Hoeveel reciteerders zijn beschikbaar?",
+          "answer": "U kunt kiezen uit meerdere reciteerders van de Koran rechtstreeks in de audio-instellingen, afhankelijk van uw luistervoorkeuren."
+        },
+        {
+          "question": "Kan men de Koran offline beluisteren?",
+          "answer": "Ja, u kunt de audio van een vers, een soera of een reeks soera's downloaden voor volledig luisteren zonder internetverbinding."
+        },
+        {
+          "question": "Kan men de afspeelsnelheid van de audio wijzigen?",
+          "answer": "Ja, de afspeelsnelheid is instelbaar van 0.7x tot 1x om het luisteren aan te passen aan uw leerniveau."
+        }
+      ]
+    },
+    "related": {
+      "title": "Ontdek ook",
+      "tajweed": "Tajweed-regels",
+      "memorization": "De Koran Uit het Hoofd Leren (Hifz)",
+      "allFeatures": "Alle functies"
+    }
+  },
+  "privacyPolicy": {
+    "title": "Noor Phonetic Quran",
+    "heading": "PRIVACYBELEID",
+    "lastUpdated": "Laatst bijgewerkt: 28 juli 2026",
+    "intro1": "Deze privacyverklaring voor Noor Phonetic Quran (\"wij\", \"ons\" of \"onze\") beschrijft hoe en waarom wij bepaalde informatie verzamelen, opslaan, gebruiken en/of delen wanneer u onze mobiele app Noor Phonetic Quran (\"Diensten\") gebruikt.",
+    "intro2": "Dit privacybeleid vult onze <cguLink>Algemene Gebruiksvoorwaarden</cguLink> aan, die op ruimere wijze de toegang tot en het gebruik van onze Diensten regelen.",
+    "intro3": "Vragen of zorgen? Het lezen van deze privacyverklaring helpt u uw rechten en keuzes op het gebied van privacy te begrijpen. Als u het niet eens bent met ons beleid en onze praktijken, gebruik onze Diensten dan niet. Als u nog vragen of zorgen heeft, neem dan contact met ons op via het volgende adres: <mailLink>othmeneb@gmail.com</mailLink>.",
+    "summary": {
+      "heading": "SAMENVATTING VAN DE BELANGRIJKSTE PUNTEN",
+      "intro": "Deze samenvatting geeft de belangrijkste punten van onze privacyverklaring weer, maar u kunt meer details over elk van deze onderwerpen verkrijgen via onze inhoudsopgave hieronder.",
+      "q1": {
+        "title": "Welke persoonsgegevens verwerken wij?",
+        "text": "Wij verzamelen geen directe identiteitsgegevens (naam, e-mail), tenzij u een optioneel account aanmaakt, de recitatiecorrectie gebruikt of vrijwillig contact met ons opneemt via het contactformulier. De app maakt ook gebruik van technische diensten (geanonimiseerde gebruiksstatistieken, crashdetectie, in-app-aankopen) die technische identifiers van uw toestel verwerken. Zie de sectie \"Welke informatie verzamelen wij?\" voor details."
+      },
+      "q2": {
+        "title": "Verwerken wij gevoelige persoonsgegevens?",
+        "text": "Als u de optionele functie voor recitatiecorrectie gebruikt, wordt uw stemopname (gegevens die als gevoelig/biometrisch kunnen worden beschouwd) veilig opgeslagen om u feedback te geven op uw uitspraak. Buiten deze optionele functie verwerken wij geen gevoelige persoonsgegevens."
+      },
+      "q3": {
+        "title": "Ontvangen wij informatie van derden?",
+        "text": "Nee, wij ontvangen geen informatie van derden buiten de hieronder vermelde technische diensten (Firebase, Google AdMob, appstores)."
+      },
+      "q4": {
+        "title": "Hoe verwerken wij uw informatie?",
+        "text": "Wij verwerken uw informatie om de app te laten functioneren, het gebruik ervan op geaggregeerde wijze te meten, technische problemen te diagnosticeren, abonnementen te beheren en te reageren op uw contactberichten."
+      },
+      "q5": {
+        "title": "In welke situaties en met welke partijen delen wij persoonsgegevens?",
+        "text": "Wij delen bepaalde technische gegevens met onze dienstverleners (Google Firebase, Google AdMob) die optreden als verwerkers voor de werking van de app. Wij verkopen geen gegevens."
+      },
+      "q6": {
+        "title": "Wat zijn uw rechten?",
+        "text": "Afhankelijk van uw locatie kunt u recht hebben op inzage, rectificatie, bezwaar en verwijdering van uw gegevens. Zie de sectie \"Wat zijn uw rechten op het gebied van privacy?\"."
+      },
+      "q7": {
+        "title": "Hoe oefent u uw rechten uit?",
+        "text": "De eenvoudigste manier is contact met ons op te nemen via <mailLink>othmeneb@gmail.com</mailLink>. Wij zullen op uw verzoek reageren in overeenstemming met de toepasselijke wetgeving."
+      }
+    },
+    "toc": {
+      "heading": "INHOUDSOPGAVE",
+      "items": {
+        "collect": "WELKE INFORMATIE VERZAMELEN WIJ?",
+        "process": "HOE VERWERKEN WIJ UW INFORMATIE?",
+        "legal": "OP WELKE JURIDISCHE GRONDSLAGEN BASEREN WIJ ONS OM UW PERSOONSGEGEVENS TE VERWERKEN?",
+        "share": "WANNEER EN MET WIE DELEN WIJ UW PERSOONSGEGEVENS?",
+        "keep": "HOE LANG BEWAREN WIJ UW INFORMATIE?",
+        "rights": "WAT ZIJN UW RECHTEN OP HET GEBIED VAN PRIVACY?",
+        "dnt": "\"DO-NOT-TRACK\"-FUNCTIES",
+        "usRights": "HEBBEN INWONERS VAN DE VERENIGDE STATEN SPECIFIEKE PRIVACYRECHTEN?",
+        "updates": "WERKEN WIJ DEZE VERKLARING BIJ?",
+        "contact": "HOE KUNT U CONTACT MET ONS OPNEMEN OVER DEZE VERKLARING?",
+        "access": "HOE KUNT U DE DOOR ONS VERZAMELDE GEGEVENS INZIEN, BIJWERKEN OF VERWIJDEREN?"
+      }
+    },
+    "sections": {
+      "collect": {
+        "heading": "WELKE INFORMATIE VERZAMELEN WIJ?",
+        "disclosedTitle": "Persoonsgegevens die u ons verstrekt",
+        "disclosedIntro": "<strong>Kort samengevat</strong>: Wij verzamelen de persoonsgegevens die u ons vrijwillig verstrekt, bijvoorbeeld wanneer u een account aanmaakt, de recitatiecorrectie gebruikt of ons contactformulier invult.",
+        "disclosedContact": "Als u contact met ons opneemt via het contactformulier in de app, verzamelen wij uw naam, uw e-mailadres en de inhoud van uw bericht, evenals bijbehorende technische informatie (platform, taal, appversie, type toestel, tijdzone) om u te kunnen antwoorden en eventuele problemen te diagnosticeren.",
+        "disclosedAccount": "Als u een optioneel account aanmaakt, verzamelen wij uw e-mailadres (aanmelding via e-mail) of de informatie die door Google of Apple wordt doorgegeven bij een aanmelding via deze diensten (accountidentifier, naam en e-mailadres indien u ervoor kiest deze te delen), om uw profiel aan te maken en te beveiligen en uw voortgang en Premium-abonnement te synchroniseren.",
+        "audioTitle": "Audio-opnamen (recitatiecorrectie)",
+        "audioIntro": "<strong>Kort samengevat</strong>: Als u de recitatiecorrectie gebruikt, wordt uw stemopname op veilige wijze naar onze servers gestuurd (Google Firebase Storage), zodat deze kan worden geanalyseerd en/of beluisterd door een beoordelaar.",
+        "audioDetail": "Stem kan, afhankelijk van de toepasselijke regelgeving, worden beschouwd als biometrisch of gevoelig gegeven. Wanneer u de functie voor recitatiecorrectie gebruikt, wordt uw audio-opname opgeslagen in een ruimte die aan uw account is gekoppeld (Google Firebase Storage), alleen toegankelijk voor uzelf en voor beoordelaars die bevoegd zijn om uw inzending te behandelen, uitsluitend met als doel u feedback te geven op uw uitspraak. Deze opnamen worden niet gebruikt voor reclamedoeleinden en niet gedeeld met derden buiten de technische dienstverleners die nodig zijn voor de opslag ervan (Google Firebase). U kunt op elk moment verzoeken om verwijdering van uw opnamen door contact met ons op te nemen (zie de sectie \"Hoe kunt u contact met ons opnemen\").",
+        "autoTitle": "Automatisch verzamelde gegevens",
+        "autoIntro": "Zoals de meeste apps maakt Noor Phonetic Quran gebruik van technische diensten van derden die automatisch bepaalde gebruiks- en toestelgegevens verzamelen:",
+        "table": {
+          "headers": {
+            "service": "Dienst",
+            "purpose": "Doel",
+            "data": "Betrokken gegevens"
+          },
+          "rows": {
+            "analytics": {
+              "service": "Google Firebase Analytics",
+              "purpose": "Meting van publieksbereik en gebruik van functies (bekeken schermen, acties in de app zoals lezen, memoriseren of quiz), in geaggregeerde en geanonimiseerde vorm",
+              "data": "Advertentie-/installatie-identifier, gebruiksstatistieken, taal, premiumstatus"
+            },
+            "crashlytics": {
+              "service": "Google Firebase Crashlytics",
+              "purpose": "Technische diagnose van app-crashes om bugs te verhelpen",
+              "data": "Crashrapporten, technische informatie over het toestel en besturingssysteem"
+            },
+            "auth": {
+              "service": "Google Firebase Authentication",
+              "purpose": "Aanmaken en beveiligen van uw optionele account (e-mail, Google, Apple), synchronisatie van uw voortgang en uw abonnement",
+              "data": "E-mailadres, accountidentifier, gebruikte aanmeldmethode"
+            },
+            "storage": {
+              "service": "Google Firebase Storage",
+              "purpose": "Veilige opslag van uw audio-opnamen als u de recitatiecorrectie gebruikt",
+              "data": "Audiobestanden van uw stem, gekoppeld aan uw accountidentifier"
+            },
+            "purchases": {
+              "service": "Google Play / App Store (in-app-aankopen)",
+              "purpose": "Beheer van het premium-abonnement (verwijdering van advertenties)",
+              "data": "Status en aankoopidentifier, rechtstreeks beheerd door Google/Apple"
+            },
+            "admob": {
+              "service": "Google AdMob",
+              "purpose": "Weergave van advertenties voor niet-premiumgebruikers (banners, interstitials) evenals beloonde advertenties (\"rewarded ads\") die u vrijwillig kunt kiezen te bekijken om ons te steunen zonder het Premium-abonnement af te sluiten",
+              "data": "Advertentie-identifier van het toestel, interactiegegevens met advertenties"
+            }
+          }
+        },
+        "att": "Op iOS kan de weergave van gepersonaliseerde advertenties gepaard gaan met een toestemmingsverzoek \"App Tracking Transparency\" (ATT) dat door het besturingssysteem wordt aangeboden. U kunt deze toestemming op elk moment weigeren via de privacyinstellingen van uw toestel (Instellingen > Privacy en beveiliging > Tracking); de app blijft volledig functioneel als u weigert.",
+        "noLocation": "Wij verzamelen uw exacte locatie niet; de app vraagt geen toestemming voor toegang tot geolocatie."
+      },
+      "process": {
+        "heading": "HOE VERWERKEN WIJ UW INFORMATIE?",
+        "summary": "<strong>Kort samengevat</strong>: Wij verwerken uw informatie om de app te laten functioneren, te reageren op uw verzoeken, onze Diensten te verbeteren en, indien van toepassing, uw abonnement te beheren.",
+        "detail": "Wij verwerken de hierboven beschreven gegevens om: (i) de functies van de app te leveren en te onderhouden (lezen, memoriseren, khatma, quiz, recitatiecorrectie), (ii) te reageren op uw berichten verzonden via het contactformulier, (iii) technische problemen te diagnosticeren en op te lossen, (iv) het geaggregeerde gebruik van functies te meten om onze ontwikkelingen te prioriteren, (v) het premium-abonnement en de advertentieweergave voor niet-premiumgebruikers te beheren."
+      },
+      "legal": {
+        "heading": "OP WELKE JURIDISCHE GRONDSLAGEN BASEREN WIJ ONS OM UW PERSOONSGEGEVENS TE VERWERKEN?",
+        "summary": "<strong>Kort samengevat</strong>: Wij verwerken uw persoonsgegevens alleen wanneer wij van mening zijn dat dit noodzakelijk is en wij een geldige wettelijke reden (d.w.z. een juridische grondslag) hebben om dit te doen krachtens de toepasselijke wetgeving.",
+        "euTitle": "Als u zich in de EU of het Verenigd Koninkrijk bevindt, is deze sectie op u van toepassing.",
+        "euIntro": "De Algemene Verordening Gegevensbescherming (AVG) en de Britse AVG verplichten ons de geldige juridische grondslagen uit te leggen waarop wij ons baseren om uw persoonsgegevens te verwerken:",
+        "euList": {
+          "consent": "<strong>Toestemming</strong>: voor de weergave van gepersonaliseerde advertenties en publieksmeting, verkregen via de toestemmingsbanner bij de eerste opstart van de app.",
+          "contract": "<strong>Uitvoering van een overeenkomst</strong>: voor het beheer van uw premium-abonnement.",
+          "legitimate": "<strong>Gerechtvaardigd belang</strong>: voor de technische diagnose (Crashlytics) en de verwerking van uw contactberichten."
+        },
+        "canadaTitle": "Als u zich in Canada bevindt, is deze sectie op u van toepassing.",
+        "canadaText": "Wij kunnen uw informatie verwerken als u ons specifieke toestemming heeft gegeven, of in bepaalde wettelijk bepaalde gevallen (wet op de bescherming van de persoonlijke levenssfeer). Wij kunnen uw informatie ook verwerken als dit redelijk is en voor doeleinden die een redelijk persoon passend zou achten, bijvoorbeeld om te reageren op uw contactverzoeken."
+      },
+      "share": {
+        "heading": "WANNEER EN MET WIE DELEN WIJ UW PERSOONSGEGEVENS?",
+        "summary": "<strong>Kort samengevat</strong>: Wij delen informatie alleen met de technische dienstverleners die nodig zijn voor de werking van de app (Google Firebase, Google AdMob), de appstores (Google Play, App Store) voor het beheer van aankopen, en indien de wet ons daartoe verplicht. Wij verkopen uw gegevens nooit aan derden."
+      },
+      "keep": {
+        "heading": "HOE LANG BEWAREN WIJ UW INFORMATIE?",
+        "summary": "<strong>Kort samengevat</strong>: Wij bewaren uw informatie zolang als nodig is voor de in deze verklaring beschreven doeleinden, tenzij de wet een langere bewaartermijn vereist.",
+        "detail": "Berichten die via het contactformulier zijn verzonden, worden bewaard gedurende de tijd die nodig is om uw verzoek te behandelen en vervolgens gearchiveerd of verwijderd. Geaggregeerde statistische gegevens (Firebase Analytics) worden bewaard volgens de standaardinstellingen van Google Firebase."
+      },
+      "rights": {
+        "heading": "WAT ZIJN UW RECHTEN OP HET GEBIED VAN PRIVACY?",
+        "summary": "<strong>Kort samengevat</strong>: Afhankelijk van uw land van verblijf kunt u het recht hebben te verzoeken om inzage, rectificatie of verwijdering van uw persoonsgegevens, uw toestemming voor verwerking in te trekken en bezwaar te maken tegen bepaalde verwerkingen.",
+        "detail": "U kunt op elk moment uw toestemming voor publieksmeting en gepersonaliseerde advertenties intrekken via de privacyinstellingen die beschikbaar zijn in de app (Instellingen > Privacy)."
+      },
+      "dnt": {
+        "heading": "\"DO-NOT-TRACK\"-FUNCTIES",
+        "text": "De meeste webbrowsers en sommige besturingssystemen en mobiele apps bevatten een \"Do-Not-Track\"-functie (\"DNT\") of instelling die u kunt activeren om uw privacyvoorkeur kenbaar te maken. Op dit moment is er geen uniforme technologische norm voor het herkennen en implementeren van DNT-signalen definitief vastgesteld. Als zodanig reageren wij momenteel niet op DNT-browsersignalen. Als een norm voor online tracking wordt aangenomen die wij in de toekomst moeten volgen, zullen wij u hierover informeren in een herziene versie van deze privacyverklaring."
+      },
+      "usRights": {
+        "heading": "HEBBEN INWONERS VAN DE VERENIGDE STATEN SPECIFIEKE PRIVACYRECHTEN?",
+        "summary": "<strong>Kort samengevat</strong>: Als u inwoner bent van de Verenigde Staten, geniet u bepaalde specifieke rechten met betrekking tot toegang tot uw persoonsgegevens, afhankelijk van de staat waarin u woont. U kunt deze rechten uitoefenen door contact met ons op te nemen via het onderstaande adres."
+      },
+      "updates": {
+        "heading": "WERKEN WIJ DEZE VERKLARING BIJ?",
+        "summary": "<strong>Kort samengevat</strong>: Ja, wij zullen deze verklaring indien nodig bijwerken om in overeenstemming te blijven met de relevante wetgeving.",
+        "detail": "Wij kunnen deze privacyverklaring van tijd tot tijd bijwerken. De bijgewerkte versie wordt aangeduid met een bijgewerkte \"Revisie\"-datum en treedt in werking zodra deze toegankelijk is. Als wij belangrijke wijzigingen aanbrengen in deze privacyverklaring, kunnen wij u hierover informeren door een duidelijk zichtbare melding van deze wijzigingen te plaatsen, of door u rechtstreeks een kennisgeving te sturen. Wij raden u aan deze privacyverklaring regelmatig te raadplegen om op de hoogte te blijven van hoe wij uw informatie beschermen."
+      },
+      "contact": {
+        "heading": "HOE KUNT U CONTACT MET ONS OPNEMEN OVER DEZE VERKLARING?",
+        "text": "Als u vragen of opmerkingen heeft over deze verklaring, kunt u ons een e-mail sturen naar <mailLink>othmeneb@gmail.com</mailLink>."
+      },
+      "access": {
+        "heading": "HOE KUNT U DE DOOR ONS VERZAMELDE GEGEVENS INZIEN, BIJWERKEN OF VERWIJDEREN?",
+        "text": "Afhankelijk van de wetgeving die van toepassing is in uw land, kunt u het recht hebben om inzage te vragen in de persoonsgegevens die wij over u bewaren, deze te wijzigen of te verwijderen. Neem hiervoor gewoon contact met ons op via <mailLink>othmeneb@gmail.com</mailLink>; wij zullen uw verzoek zo snel mogelijk behandelen."
+      }
+    },
+    "footer": "© 2026 Noor Phonetic Quran. Alle rechten voorbehouden.",
+    "meta": {
+      "title": "Privacybeleid - Noor Phonetic Quran",
+      "description": "Privacybeleid van Noor Phonetic Quran: verzamelde gegevens (analytics, aankopen, contactformulier), doeleinden, delen met derden en uw rechten."
+    }
+  },
+  "correctionRecitation": {
+    "meta": {
+      "title": "Recitatiecorrectie van de Koran: Neem Uzelf Op en Vorder | Noor Phonetic Quran",
+      "description": "Neem uw recitatie van de Koran op en ontvang persoonlijke correctie met Noor Phonetic Quran: verbetering van de uitspraak en naleving van de Tajweed-regels. Gratis op iOS en Android.",
+      "keywords": "recitatiecorrectie Koran, recitatie verbeteren, Tajweed-correctie, recitatie opnemen, app correctie Koran, leren de Koran correct te reciteren",
+      "ogTitle": "Recitatiecorrectie van de Koran: Neem Uzelf Op en Vorder",
+      "ogDescription": "Neem uw recitatie op en ontvang persoonlijke correctie om te vorderen in uitspraak en Tajweed. Gratis app Noor Phonetic Quran."
+    },
+    "breadcrumb": {
+      "home": "Home",
+      "current": "Recitatiecorrectie"
+    },
+    "hero": {
+      "title": "Recitatiecorrectie van de Koran: Neem Uzelf Op en Vorder",
+      "subtitle": "Neem uw recitatie rechtstreeks in de app op en ontvang persoonlijke correctie om uw uitspraak en de naleving van de Tajweed-regels te verbeteren."
+    },
+    "intro": {
+      "title": "Waarom uw recitatie corrigeren?",
+      "paragraph1": "Correct reciteren beperkt zich niet tot het correct lezen van de fonetiek: de naleving van de Tajweed-regels (verlengingen, verbindingen, uitspraakpunten van letters) vereist vaak externe feedback om te bepalen wat verbeterd moet worden.",
+      "paragraph2": "Met Noor Phonetic Quran kunt u zichzelf rechtstreeks in de app opnemen en persoonlijke correctie ontvangen, zonder dat u een permanent beschikbare leraar hoeft te vinden."
+    },
+    "steps": {
+      "title": "Hoe werkt de recitatiecorrectie?",
+      "items": [
+        {
+          "title": "Kies een passage",
+          "text": "selecteer de soera en de verzen die u wilt reciteren."
+        },
+        {
+          "title": "Neem uw recitatie op",
+          "text": "rechtstreeks vanuit de app, zonder extra materiaal."
+        },
+        {
+          "title": "Stuur uw opname",
+          "text": "uw recitatie wordt in de wachtrij geplaatst om te worden beluisterd."
+        },
+        {
+          "title": "Ontvang uw correctie",
+          "text": "een persoonlijk antwoord geeft aan wat u kunt verbeteren, rechtstreeks in de app."
+        },
+        {
+          "title": "Vorder met elke opname",
+          "text": "herhaal de oefening regelmatig om uw uitspraak en uw Tajweed te verfijnen."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Veelgestelde vragen over recitatiecorrectie",
+      "items": [
+        {
+          "question": "Is recitatiecorrectie gratis?",
+          "answer": "Een eerste opname is gratis. Daarna maakt de functie deel uit van het premium-aanbod van de app."
+        },
+        {
+          "question": "Hoe lang duurt het voordat ik een correctie ontvang?",
+          "answer": "Uw opname wordt in de wachtrij geplaatst om te worden beluisterd en gecorrigeerd, met een persoonlijk antwoord rechtstreeks in de app."
+        },
+        {
+          "question": "Kan ik dezelfde passage meerdere keren opnieuw opnemen?",
+          "answer": "Ja, u kunt de oefening zo vaak herhalen als u wilt om te vorderen op eenzelfde passage."
+        }
+      ]
+    },
+    "related": {
+      "title": "Ontdek ook",
+      "tajweed": "Tajweed-regels",
+      "memorisation": "De Koran Uit het Hoofd Leren (Hifz)",
+      "allFeatures": "Alle functies"
+    }
+  },
+  "khatmaCoran": {
+    "meta": {
+      "title": "Khatma van de Koran: App om Uw Volledige Lezing te Plannen en te Volgen | Noor Phonetic Quran",
+      "description": "Plan uw Khatma (volledige lezing van de Koran) met de app Noor Phonetic Quran: dagelijkse doelen, voortgangsopvolging, dagreeksen (streak) en herinneringen. Gratis op iOS en Android.",
+      "keywords": "Khatma Koran, khatma app, de Koran volledig lezen, leesplan Koran, doel Khatma Ramadan, opvolging lezing Koran, de Koran voltooien",
+      "ogTitle": "Khatma van de Koran: Plan en Volg uw Volledige Lezing",
+      "ogDescription": "Plan uw Khatma met dagelijkse doelen, voortgangsopvolging en herinneringen. Gratis app Noor Phonetic Quran."
+    },
+    "breadcrumb": {
+      "home": "Home",
+      "current": "Khatma van de Koran"
+    },
+    "hero": {
+      "title": "Khatma van de Koran: Plan en Voltooi uw Volledige Lezing",
+      "subtitle": "Stel uzelf een aantal dagen als doel, volg uw dagelijkse voortgang en houd uw leesreeks (streak) vol tot de laatste pagina van de Heilige Koran, met herinneringen om regelmatig te blijven.",
+      "googlePlay": "Google Play",
+      "appStore": "App Store"
+    },
+    "intro": {
+      "title": "Wat is een Khatma?",
+      "paragraph1": "Khatma verwijst naar de volledige lezing van de Koran, van begin (Al-Fatiha) tot einde (An-Nas). Veel moslims voltooien een Khatma tijdens de maand Ramadan, maar het kan ook op elk ander moment van het jaar worden ondernomen, in de periode van uw keuze.",
+      "paragraph2": "De Koran voltooien vereist doorzettingsvermogen: zonder leesplan of opvolging is het makkelijk de draad kwijt te raken of onderweg op te geven. Dat is precies wat de Khatma-functie van Noor Phonetic Quran oplost."
+    },
+    "features": {
+      "title": "Hoe werkt de Khatma in de app?",
+      "items": [
+        {
+          "title": "Kies de duur van uw Khatma",
+          "description": "bijvoorbeeld 30 dagen voor de Ramadan, of een aangepaste duur die past bij uw tempo."
+        },
+        {
+          "title": "Volg uw dagelijkse doel",
+          "description": "de app berekent automatisch het aantal pagina's dat u elke dag moet lezen om op tijd klaar te zijn."
+        },
+        {
+          "title": "Houd uw leesreeks (streak) vol",
+          "description": "elke dag dat u uw doel behaalt, verlengt uw streak, een extra motivatie om regelmatig te blijven."
+        },
+        {
+          "title": "Ontvang herinneringen",
+          "description": "meldingen helpen u niet te vergeten uw lezing van de dag te doen."
+        },
+        {
+          "title": "Vier het einde van uw Khatma",
+          "description": "een overzicht van uw traject (aantal dagen, beste streak) wordt weergegeven zodra de Koran is voltooid."
+        }
+      ]
+    },
+    "screenshots": {
+      "title": "Overzicht van de Khatma-functie",
+      "alts": [
+        "Noor Phonetic Quran - Keuze van het Khatma-plan (30, 60, 90 dagen of Ramadan)",
+        "Noor Phonetic Quran - Voortgangsopvolging van de Khatma met streak",
+        "Noor Phonetic Quran - Khatma-indicator weergegeven tijdens het lezen"
+      ]
+    },
+    "faq": {
+      "title": "Veelgestelde vragen over de Khatma",
+      "items": [
+        {
+          "question": "Wat is een Khatma van de Koran?",
+          "answer": "Een Khatma verwijst naar de volledige lezing van de Koran, van begin tot eind, meestal uitgevoerd over een bepaalde periode (vaak tijdens de maand Ramadan, maar ook het hele jaar door)."
+        },
+        {
+          "question": "Hoe plan ik een Khatma met de app?",
+          "answer": "Kies een aantal dagen om de Koran te voltooien (bijvoorbeeld 30 dagen voor de Ramadan), de app berekent automatisch uw dagelijkse paginadoel en volgt uw voortgang dag na dag."
+        },
+        {
+          "question": "Wat gebeurt er als ik een leesdag mis?",
+          "answer": "De app past uw resterende dagelijkse doel aan zodat u uw achterstand kunt inhalen en uw Khatma op tijd kunt voltooien, terwijl uw reeks opeenvolgende dagen (streak) wordt gevolgd."
+        },
+        {
+          "question": "Kan ik een Khatma doen buiten de Ramadan?",
+          "answer": "Ja, u kunt op elk moment van het jaar een Khatma starten, met de duur van uw keuze."
+        },
+        {
+          "question": "Is de Khatma-functie gratis?",
+          "answer": "Ja, net als alle belangrijkste functies van Noor Phonetic Quran, is de Khatma volledig gratis."
+        }
+      ]
+    },
+    "related": {
+      "title": "Ontdek ook",
+      "memorization": "De Koran Uit het Hoofd Leren (Hifz)",
+      "audio": "Audio van de Koran",
+      "allFeatures": "Alle functies"
+    }
+  },
+  "tajweedCoran": {
+    "meta": {
+      "title": "Tajweed-regels van de Koran: Kleurrijk en Gedetailleerd Leren | Noor Phonetic Quran",
+      "description": "Leer de Tajweed-regels van de Koran met Noor Phonetic Quran: kleuren en annotaties tijdens het lezen, uitspraakpunten van letters (Makharej), regels van de Noen Sakinah en de Waqf. Gratis op iOS en Android.",
+      "keywords": "Tajweed-regels, Tajweed Koran, Tajweed leren, gekleurde Tajweed, Makharej Arabische letters, Noen Sakinah Tanwin, Waqf Ibtida, gratis Tajweed-app",
+      "ogTitle": "Tajweed-regels van de Koran: Kleurrijk en Gedetailleerd Leren",
+      "ogDescription": "Kleuren en annotaties tijdens het lezen, uitspraakpunten, regels van de Noen Sakinah en de Waqf. Gratis app Noor Phonetic Quran."
+    },
+    "breadcrumb": {
+      "home": "Home",
+      "current": "Tajweed-regels"
+    },
+    "hero": {
+      "title": "Tajweed-regels van de Koran: Kleurrijk en Gedetailleerd Leren",
+      "subtitle": "De tekst van de Koran wordt gekleurd en geannoteerd weergegeven volgens de Tajweed-regels, samen met gedetailleerde gidsen over uitspraakpunten, de Noen Sakinah en de regels voor stoppen en hervatten.",
+      "backLink": "Terug naar home",
+      "googlePlay": "Google Play",
+      "appStore": "App Store"
+    },
+    "intro": {
+      "title": "Waarom Tajweed belangrijk is",
+      "paragraph1": "Tajweed is het geheel van regels dat een correcte recitatie van de Koran waarborgt: nauwkeurige uitspraak van elke letter, verlengingen, verbindingen, en plaatsen waar men kan stoppen of de lezing kan hervatten. Reciteren zonder de Tajweed te respecteren kan de betekenis van de tekst veranderen.",
+      "paragraph2": "Noor Phonetic Quran maakt deze regels zichtbaar en begrijpelijk, met kleuren tijdens het lezen en gedetailleerde gidsen om elk begrip te verdiepen."
+    },
+    "features": {
+      "title": "Wat het leren van Tajweed biedt",
+      "items": [
+        {
+          "title": "Gekleurde en geannoteerde tekst",
+          "description": "kleuren en annotaties begeleiden uw recitatie rechtstreeks op de tekst van de Koran, volgens de juiste regels van de Tajweed."
+        },
+        {
+          "title": "Uitspraakpunten (Makharej)",
+          "description": "leer de correcte uitspraak van elke Arabische letter vanuit het uitspraakpunt, met anatomische schema's."
+        },
+        {
+          "title": "Noen Sakinah en Tanwien",
+          "description": "de 4 regels die de noen sakinah en de tanwien regelen (Izhar, Idgham, Iqlab, Ikhfa) uitgelegd en visueel vergeleken."
+        },
+        {
+          "title": "Waqf en Ibtida",
+          "description": "de regels die de plaatsen aangeven waar het stoppen en hervatten van de recitatie toegestaan is, om de betekenis van de tekst te bewaren."
+        }
+      ]
+    },
+    "screenshots": {
+      "title": "Overzicht van de Tajweed-regels",
+      "alts": [
+        "Noor Phonetic Quran - Gekleurde Tajweed-regels tijdens het lezen",
+        "Noor Phonetic Quran - Uitspraakpunten van Arabische letters (Makharej)",
+        "Noor Phonetic Quran - Regels van de Noen Sakinah en Tanwien",
+        "Noor Phonetic Quran - Regels van Waqf en Ibtida (stoppen en hervatten)"
+      ]
+    },
+    "faq": {
+      "title": "Veelgestelde vragen over Tajweed",
+      "items": [
+        {
+          "question": "Wat is Tajweed?",
+          "answer": "Tajweed is het geheel van regels dat de correcte uitspraak van de Koran regelt: verlengingen, verbindingen, uitspraakpunten van letters en regels voor het stoppen en hervatten van de recitatie."
+        },
+        {
+          "question": "Hoe leert de app Tajweed aan?",
+          "answer": "De tekst van de Koran wordt gekleurd en geannoteerd volgens de Tajweed-regels tijdens het lezen, en gedetailleerde gidsen leggen elke regel uit: uitspraakpunten, Noen Sakinah en Tanwien, evenals de regels van Waqf en Ibtida."
+        },
+        {
+          "question": "Is Tajweed geschikt voor beginners?",
+          "answer": "Ja, elke regel wordt uitgelegd met eenvoudige definities, voorbeelden en visuele vergelijkingen om het leren te vergemakkelijken, zelfs zonder voorkennis."
+        }
+      ]
+    },
+    "related": {
+      "title": "Ontdek ook",
+      "audio": "Audio van de Koran",
+      "memorization": "De Koran Uit het Hoofd Leren (Hifz)",
+      "allFeatures": "Alle functies"
+    }
+  },
+  "quizCoran": {
+    "meta": {
+      "title": "Koranquiz: Test uw Kennis van de Koran op een Leuke Manier | Noor Phonetic Quran",
+      "description": "Test uw kennis van de Koran met de Koranquiz van Noor Phonetic Quran: 21 vragen, winstschaal, 50:50-joker, publieksstemming en bel-een-vriend. Gratis op iOS en Android.",
+      "keywords": "quiz Koran, Koranquiz, vragenspel Koran, kennis Koran testen, quiz islam, gratis quiz-app Koran, vragen en antwoorden Koran",
+      "ogTitle": "Koranquiz: Test uw Kennis van de Koran op een Leuke Manier",
+      "ogDescription": "21 vragen, winstschaal, 50:50-joker, publieksstemming en bel-een-vriend. Gratis app Noor Phonetic Quran."
+    },
+    "breadcrumb": {
+      "home": "Home",
+      "current": "Koranquiz"
+    },
+    "hero": {
+      "title": "Koranquiz: Test uw Kennis op een Leuke Manier",
+      "subtitle": "21 vragen, een oplopende winstschaal en drie jokers (50:50, publieksstemming, bel-een-vriend) om de Koran op een speelse manier te leren.",
+      "backLink": "Terug naar home",
+      "googlePlay": "Google Play",
+      "appStore": "App Store"
+    },
+    "intro": {
+      "title": "Een quiz om al lerend plezier te hebben",
+      "paragraph1": "De Koranquiz van Noor Phonetic Quran is geïnspireerd op het format \"Wie wordt Miljonair\": een reeks vragen over de Koran, de islamitische geschiedenis en de soera's, met een winstschaal die bij elk juist antwoord toeneemt.",
+      "paragraph2": "Het is een speelse manier om kennis over de Koran te herhalen of te ontdekken, alleen of met het gezin, zonder druk — u kunt op elk moment stoppen en uw score behouden."
+    },
+    "features": {
+      "title": "Hoe werkt de quiz?",
+      "items": [
+        {
+          "title": "Beantwoord 21 vragen",
+          "description": "meerkeuzevragen met oplopende moeilijkheidsgraad over de Koran en de islamitische geschiedenis."
+        },
+        {
+          "title": "Volg de winstschaal",
+          "description": "elk juist antwoord laat u vorderen op een schaal van 100 punten tot 1 miljoen."
+        },
+        {
+          "title": "Gebruik uw jokers",
+          "description": "de 50:50 elimineert twee foute antwoorden, de publieksstemming toont de mening van andere spelers, en bel-een-vriend suggereert een antwoord."
+        },
+        {
+          "title": "Stop wanneer u wilt",
+          "description": "met de knop \"Walk Away\" behoudt u op elk moment uw winst in plaats van alles te riskeren."
+        }
+      ]
+    },
+    "screenshots": {
+      "title": "Overzicht van de Koranquiz",
+      "alts": [
+        "Noor Phonetic Quran - Startscherm van de Koranquiz",
+        "Noor Phonetic Quran - Quizvraag met winstschaal",
+        "Noor Phonetic Quran - Joker publieksstemming in de quiz",
+        "Noor Phonetic Quran - Joker bel-een-vriend in de quiz"
+      ]
+    },
+    "faq": {
+      "title": "Veelgestelde vragen over de Koranquiz",
+      "items": [
+        {
+          "question": "Hoeveel vragen telt de quiz?",
+          "answer": "De quiz telt 21 meerkeuzevragen, met een oplopende moeilijkheidsgraad naarmate het spel vordert."
+        },
+        {
+          "question": "Wat gebeurt er als ik een vraag verkeerd beantwoord?",
+          "answer": "Afhankelijk van uw voortgang behoudt u het laatst gegarandeerde winstniveau, zoals in het format \"Wie wordt Miljonair\"."
+        },
+        {
+          "question": "Is de Koranquiz gratis?",
+          "answer": "Ja, de Koranquiz maakt deel uit van de gratis functies van Noor Phonetic Quran."
+        }
+      ]
+    },
+    "related": {
+      "title": "Ontdek ook",
+      "khatma": "Khatma van de Koran",
+      "audio": "Audio van de Koran",
+      "allFeatures": "Alle functies"
+    }
+  },
+  "memorisationCoran": {
+    "meta": {
+      "title": "De Koran Uit het Hoofd Leren (Hifz): App met Audioherhaling en Quiz | Noor Phonetic Quran",
+      "description": "Leer de Koran uit het hoofd (Hifz) met de app Noor Phonetic Quran: audioherhaling per vers, woord-voor-woordmodus, herhalingsquiz, punten, niveaus en badges. Gratis op iOS en Android.",
+      "keywords": "de Koran uit het hoofd leren, Hifz Koran, app memorisatie Koran, de Koran uit het hoofd leren, memorisatie vers voor vers, gratis Hifz-app",
+      "ogTitle": "De Koran Uit het Hoofd Leren (Hifz): Audioherhaling, Quiz en Voortgangsopvolging",
+      "ogDescription": "Leer de Koran uit het hoofd met audioherhaling, woord-voor-woordmodus, quiz en dagelijkse uitdagingen. Gratis app Noor Phonetic Quran."
+    },
+    "breadcrumb": {
+      "home": "Home",
+      "current": "Memorisatie van de Koran"
+    },
+    "hero": {
+      "title": "De Koran Uit het Hoofd Leren (Hifz): Audioherhaling, Quiz en Voortgangsopvolging",
+      "subtitle": "Leer de Koran vers voor vers uit het hoofd dankzij audioherhaling, de woord-voor-woordmodus en herhalingsquiz, met een systeem van punten en badges om elke dag gemotiveerd te blijven.",
+      "backLink": "Terug naar home",
+      "googlePlay": "Google Play",
+      "appStore": "App Store"
+    },
+    "intro": {
+      "title": "Wat is Hifz?",
+      "paragraph1": "Hifz verwijst naar het uit het hoofd leren van de Koran, vers voor vers en soera voor soera. Het is een veeleisend traject dat regelmatige herhaling, goede leermethoden en een betrouwbare manier om te controleren wat al goed is gememoriseerd vereist.",
+      "paragraph2": "Noor Phonetic Quran is ontworpen om dit traject te begeleiden met concrete hulpmiddelen: audio, herhaling, actieve herziening en gamification, in plaats van alleen het herhaaldelijk lezen van een mushaf."
+    },
+    "features": {
+      "title": "Hoe leert u de Koran uit het hoofd met de app?",
+      "items": [
+        {
+          "title": "Luister en herhaal",
+          "description": "elk vers heeft een audioherhaling om de memorisatie via het luisteren te verankeren."
+        },
+        {
+          "title": "Gebruik de woord-voor-woordmodus",
+          "description": "ontleed de langste verzen om ze geleidelijk te memoriseren."
+        },
+        {
+          "title": "Test uzelf met de herhalingsquiz",
+          "description": "controleer regelmatig of de geleerde verzen goed onthouden blijven."
+        },
+        {
+          "title": "Verdien punten en badges",
+          "description": "elk gememoriseerd vers levert punten op, laat uw niveau stijgen en ontgrendelt badges."
+        },
+        {
+          "title": "Ga dagelijkse uitdagingen aan",
+          "description": "dagelijkse doelen moedigen u aan om elke dag een beetje te memoriseren, zonder overbelasting."
+        }
+      ]
+    },
+    "screenshots": {
+      "title": "Overzicht van het memorisatieplan",
+      "alts": [
+        "Noor Phonetic Quran - Stappen van het dagelijkse memorisatieplan",
+        "Noor Phonetic Quran - Memorisatiechecklist met streak",
+        "Noor Phonetic Quran - Indicator van het dagelijkse plan weergegeven tijdens het lezen"
+      ]
+    },
+    "faq": {
+      "title": "Veelgestelde vragen over het memoriseren van de Koran",
+      "items": [
+        {
+          "question": "Hoe lang duurt het om de Koran uit het hoofd te leren?",
+          "answer": "Dat hangt af van ieders tempo. Met de app kunt u in uw eigen tempo vorderen, vers voor vers, zonder tijdsdruk."
+        },
+        {
+          "question": "Werkt de memorisatiemodus offline?",
+          "answer": "Zodra de soera's zijn geladen, blijven de audioherhaling en de herhalingsquiz beschikbaar zonder internetverbinding."
+        },
+        {
+          "question": "Is de Memorisatie-functie gratis?",
+          "answer": "Ja, net als alle belangrijkste functies van Noor Phonetic Quran, is de Memorisatiemodus volledig gratis."
+        }
+      ]
+    },
+    "related": {
+      "title": "Ontdek ook",
+      "khatma": "Khatma van de Koran",
+      "tajweed": "Tajweed-regels",
+      "allFeatures": "Alle functies"
+    }
+  }
+}

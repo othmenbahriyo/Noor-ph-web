@@ -4,8 +4,9 @@ import Header from '@/components/Header/Header';
 import Footer from '@/components/Footer/Footer';
 import CguContent from '@/components/Legal/CguContent';
 import { routing } from '@/i18n/routing';
+import { buildLocaleUrls } from '@/i18n/seo';
 
-const SITE_URL = 'https://noor-phonetic-quran.com';
+const PAGE_PATH = '/cgu';
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
@@ -18,9 +19,7 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'cgu.meta' });
-
-  const canonicalPath = locale === 'en' ? '/en/cgu' : '/cgu';
-  const canonicalUrl = `${SITE_URL}${canonicalPath}`;
+  const { canonicalUrl, languages } = buildLocaleUrls(locale, PAGE_PATH);
 
   return {
     title: t('title'),
@@ -29,32 +28,20 @@ export async function generateMetadata({
     robots: 'index, follow',
     alternates: {
       canonical: canonicalUrl,
-      languages: {
-        fr: `${SITE_URL}/cgu`,
-        en: `${SITE_URL}/en/cgu`,
-        'x-default': `${SITE_URL}/cgu`,
-      },
+      languages,
     },
   };
 }
 
-function buildJsonLd() {
+function buildJsonLd(locale: string, breadcrumbLabels: { home: string; page: string }) {
+  const { canonicalUrl, languages } = buildLocaleUrls(locale, PAGE_PATH);
+
   return {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      {
-        '@type': 'ListItem',
-        position: 1,
-        name: 'Accueil',
-        item: `${SITE_URL}/`,
-      },
-      {
-        '@type': 'ListItem',
-        position: 2,
-        name: "Conditions générales d'utilisation",
-        item: `${SITE_URL}/cgu`,
-      },
+      { '@type': 'ListItem', position: 1, name: breadcrumbLabels.home, item: languages[locale] },
+      { '@type': 'ListItem', position: 2, name: breadcrumbLabels.page, item: canonicalUrl },
     ],
   };
 }
@@ -67,7 +54,11 @@ export default async function CguPage({
   const { locale } = await params;
   setRequestLocale(locale);
 
-  const jsonLd = buildJsonLd();
+  const tNav = await getTranslations('common.nav');
+  const jsonLd = buildJsonLd(locale, {
+    home: tNav('home'),
+    page: tNav('pages.cgu'),
+  });
 
   return (
     <>

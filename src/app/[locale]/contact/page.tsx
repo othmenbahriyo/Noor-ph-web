@@ -4,8 +4,7 @@ import Header from '@/components/Header/Header';
 import Footer from '@/components/Footer/Footer';
 import ContactSection from '@/components/Footer/ContactSection';
 import { routing } from '@/i18n/routing';
-
-const SITE_URL = 'https://noor-phonetic-quran.com';
+import { buildLocaleUrls } from '@/i18n/seo';
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
@@ -18,7 +17,7 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'contactPage.meta' });
-  const canonicalUrl = `${SITE_URL}/contact`;
+  const { canonicalUrl, languages } = buildLocaleUrls(locale, '/contact');
 
   return {
     title: t('title'),
@@ -26,16 +25,17 @@ export async function generateMetadata({
     robots: 'index, follow',
     alternates: {
       canonical: canonicalUrl,
-      languages: {
-        fr: canonicalUrl,
-        en: canonicalUrl,
-        'x-default': canonicalUrl,
-      },
+      languages,
     },
   };
 }
 
-function buildJsonLd(locale: string) {
+function buildJsonLd(
+  locale: string,
+  breadcrumbLabels: { home: string; contact: string },
+) {
+  const { canonicalUrl, languages } = buildLocaleUrls(locale, '/contact');
+
   return {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
@@ -43,14 +43,14 @@ function buildJsonLd(locale: string) {
       {
         '@type': 'ListItem',
         position: 1,
-        name: locale === 'en' ? 'Home' : 'Accueil',
-        item: locale === 'en' ? `${SITE_URL}/en` : `${SITE_URL}/`,
+        name: breadcrumbLabels.home,
+        item: languages[locale],
       },
       {
         '@type': 'ListItem',
         position: 2,
-        name: 'Contact',
-        item: `${SITE_URL}/contact`,
+        name: breadcrumbLabels.contact,
+        item: canonicalUrl,
       },
     ],
   };
@@ -63,7 +63,11 @@ export default async function ContactPage({
 }) {
   const { locale } = await params;
   setRequestLocale(locale);
-  const jsonLd = buildJsonLd(locale);
+  const tNav = await getTranslations('common.nav');
+  const jsonLd = buildJsonLd(locale, {
+    home: tNav('home'),
+    contact: tNav('contactBreadcrumb'),
+  });
 
   return (
     <>

@@ -1,0 +1,2323 @@
+{
+  "common": {
+    "nav": {
+      "features": "Vipengele",
+      "screenshots": "Picha za skrini",
+      "reviews": "Maoni",
+      "privacy": "Faragha",
+      "contact": "Wasiliana",
+      "openMenu": "Fungua menyu ya urambazaji",
+      "closeMenu": "Funga menyu ya urambazaji",
+      "toggleTheme": "Badilisha hali ya giza",
+      "googlePlay": "Google Play",
+      "appStore": "App Store",
+      "home": "Nyumbani",
+      "reviewsBreadcrumb": "Maoni",
+      "contactBreadcrumb": "Wasiliana",
+      "pages": {
+        "audioCoran": "Sauti ya Quran",
+        "khatmaCoran": "Khatma ya Quran",
+        "memorisationCoran": "Kuhifadhi Quran",
+        "quizCoran": "Jaribio la Quran",
+        "tajweedCoran": "Kanuni za Tajweed",
+        "correctionRecitation": "Marekebisho ya Usomaji",
+        "privacyPolicy": "Sera ya Faragha",
+        "cgu": "Masharti ya Matumizi"
+      }
+    },
+    "languageSwitcher": {
+      "label": "Chagua lugha",
+      "searchPlaceholder": "Tafuta lugha...",
+      "close": "Funga",
+      "noResults": "Hakuna lugha iliyopatikana"
+    },
+    "footer": {
+      "about": "Programu bunifu ya kujifunza kusoma Qur'ani Tukufu kwa usahihi na urahisi.",
+      "quickLinks": "Viungo vya Haraka",
+      "resources": "Rasilimali",
+      "faq": "Maswali Yanayoulizwa Mara kwa Mara",
+      "support": "Msaada",
+      "contact": "Wasiliana",
+      "location": "Paris, Ufaransa",
+      "rights": "Haki zote zimehifadhiwa.",
+      "backToTop": "Rudi juu ya ukurasa"
+    },
+    "contactForm": {
+      "eyebrow": "Wasiliana nasi",
+      "title": "Wasiliana nasi",
+      "description": "Ikiwa una mapendekezo, maboresho ya kupendekeza au maoni yoyote, usisite kutuandikia. Tutakujibu haraka.",
+      "highlights": [
+        {
+          "title": "Jibu la haraka",
+          "text": "Timu yetu inashughulikia kila ujumbe na kawaida hujibu ndani ya saa 48. Iwe ni swali rahisi au tatizo la kiufundi, tunajitahidi kuhakikisha hakuna ombi linalobaki bila jibu."
+        },
+        {
+          "title": "Jumuiya inayosikiliza",
+          "text": "Zaidi ya watumiaji 80,000 wanatuamini tayari; maoni yako yanasaidia kuboresha programu kwa wote. Kila ujumbe una thamani na unachangia kufanya Noor kuwa zana inayozidi kukidhi mahitaji ya watumiaji wake."
+        },
+        {
+          "title": "Mawazo yenu yanaunda programu",
+          "text": "Vipengele vingi vya sasa (Tajweed, Khatma, maswali...) vilizaliwa kutokana na mapendekezo ya watumiaji. Uzoefu wenu wa kila siku na programu hii ndio chanzo bora cha msukumo kwa maboresho yajayo."
+        }
+      ],
+      "name": "Jina",
+      "namePlaceholder": "Jina lako",
+      "nameRequired": "Jina linahitajika",
+      "email": "Barua pepe",
+      "emailPlaceholder": "wewe@mfano.com",
+      "emailRequired": "Barua pepe inahitajika",
+      "emailInvalid": "Barua pepe si sahihi",
+      "phone": "Simu (hiari)",
+      "phonePlaceholder": "+33 6 12 34 56 78",
+      "subject": "Mada",
+      "subjectPlaceholder": "Chagua mada...",
+      "subjectRequired": "Tafadhali chagua mada",
+      "subjectOptions": {
+        "general": "general",
+        "suggestion": "suggestion",
+        "bug": "bug",
+        "technical": "technical",
+        "other": "other"
+      },
+      "platform": "Jukwaa linalotumika",
+      "platformPlaceholder": "Chagua jukwaa...",
+      "platformRequired": "Tafadhali chagua jukwaa",
+      "platformOptions": {
+        "ios": "iOS",
+        "android": "Android",
+        "web": "Web"
+      },
+      "message": "Ujumbe",
+      "messagePlaceholder": "Andika ujumbe wako hapa...",
+      "messageRequired": "Ujumbe unahitajika",
+      "messageTooShort": "Ujumbe lazima uwe na herufi angalau 10",
+      "send": "Tuma",
+      "sending": "Inatuma...",
+      "successMessage": "Ujumbe wako umetumwa kwa mafanikio. Asante!",
+      "errorMessage": "Hitilafu imetokea. Tafadhali jaribu tena."
+    }
+  },
+  "home": {
+    "meta": {
+      "title": "Noor Phonetic Quran - Programu ya Kujifunza Qur'ani",
+      "description": "Noor Phonetic Quran - Programu ya bure ya kujifunza kusoma, kuhifadhi (Hifz) na kusoma Qur'ani nzima (Khatma). Uandishi wa kifonetiki, sauti iliyosawazishwa, Tajweed yenye rangi, mpango wa usomaji wa kila siku, maswali na marekebisho ya usomaji. Watumiaji 80K+ walioridhika. Inapatikana kwenye iOS na Android.",
+      "keywords": "Qur'ani ya kifonetiki, jifunze Qur'ani, Quran phonetics, usomaji wa Qur'ani, Tajweed, programu ya Qur'ani bure, Qur'ani kiarabu kifaransa, uandishi wa kifonetiki wa Qur'ani, learn Quran, Quran app free, Khatma ya Qur'ani, kuhifadhi Qur'ani, Hifz ya Qur'ani, mpango wa usomaji wa Qur'ani, maswali ya Qur'ani, marekebisho ya usomaji wa Qur'ani, programu ya kuhifadhi Qur'ani",
+      "ogTitle": "Noor Phonetic Quran - Soma Qur'ani kwa kifonetiki",
+      "ogDescription": "Jifunze kusoma Qur'ani Tukufu hata bila kujua Kiarabu. Programu ya bure yenye kifonetiki sahihi, sauti iliyojumuishwa na kanuni za Tajweed."
+    },
+    "hero": {
+      "statusBadge": "Watumiaji 80K+ Wanaotumia Sasa",
+      "headlineHighlight": "Soma",
+      "headline": "Qur'ani Tukufu, hata bila kujua Kiarabu",
+      "subheadline": "Kwa shukrani ya kifonetiki sahihi na rahisi kueleweka, Noor Phonetic Quran inafanya kila aya ipatikane kwa wote.",
+      "miniFeatures": {
+        "phonetics": "Kifonetiki Sahihi",
+        "audio": "Sauti Iliyojumuishwa",
+        "tajweed": "Kanuni za Tajweed"
+      },
+      "ratingText": "Alama kamili kwenye Play Store na App Store",
+      "downloadOn": "Pakua kwenye",
+      "usersBadgeLabel": "Watumiaji",
+      "updateBadge": "Imesasishwa hivi karibuni",
+      "deviceScreenAlt": "Noor Phonetic Quran - Kiolesura cha programu kinachoonyesha kifonetiki cha Qur'ani",
+      "mobileDeviceScreenAlt": "Noor Phonetic Quran - Kujifunza Qur'ani kwa uandishi wa kifonetiki"
+    },
+    "languages": {
+      "title": "Inapatikana kwa lugha yako",
+      "subtitle": "Programu ya Noor Phonetic Quran imetafsiriwa katika lugha 20 ili kuwaandama Waislamu duniani kote."
+    },
+    "why": {
+      "title": "Kwa nini Noor Phonetic Quran?",
+      "subtitle": "Gundua sababu zinazofanya programu yetu kuwa chaguo la kipekee",
+      "items": [
+        {
+          "icon": "fa-heart",
+          "stepLabel": "Kikwazo",
+          "title": "Inapatikana kwa Wote",
+          "text": "Waislamu wengi wanatamani kusoma Qur'ani lakini wanazuiwa na lugha ya Kiarabu. Programu yetu inaondoa kizuizi hiki."
+        },
+        {
+          "icon": "fa-graduation-cap",
+          "stepLabel": "Mbinu",
+          "title": "Ujifunzaji Rahisi",
+          "text": "Kifonetiki wazi na rahisi kinamruhusu kila mtu kujifunza kwa kasi yake mwenyewe, bila msongo wala kukata tamaa."
+        },
+        {
+          "icon": "fa-check-circle",
+          "stepLabel": "Matokeo",
+          "title": "Matamshi Sahihi",
+          "text": "Ukiongozwa na kanuni sahihi za Tajweed na sauti iliyosawazishwa, unaendelea kuelekea usomaji halisi."
+        }
+      ]
+    },
+    "features": {
+      "title": "Vipengele Vikuu",
+      "subtitle": "Gundua kwa nini Noor Phonetic Quran ni programu kamili ya kujifunza kusoma Qur'ani",
+      "items": [
+        {
+          "icon": "fa-book",
+          "title": "Uandishi wa Kifonetiki",
+          "text": "Kila aya inaambatana na uandishi wa kifonetiki wa kina kwa matamshi sahihi."
+        },
+        {
+          "icon": "fa-bookmark",
+          "title": "Kanuni za Tajweed",
+          "href": "/tajweed-coran",
+          "text": "Rangi na maelezo yanaongoza usomaji wako kulingana na kanuni sahihi za Tajweed."
+        },
+        {
+          "icon": "fa-language",
+          "title": "Tafsiri za Lugha Nyingi",
+          "text": "Fikia tafsiri kwa Kifaransa na Kiingereza ili kuelewa vyema ujumbe wa kimungu."
+        },
+        {
+          "icon": "fa-headphones",
+          "title": "Sauti Iliyosawazishwa",
+          "href": "/audio-coran",
+          "text": "Kila aya inaambatana na sauti ili kusikia matamshi sahihi."
+        },
+        {
+          "icon": "fa-mobile-alt",
+          "title": "Kiolesura Rahisi",
+          "text": "Urambazaji rahisi na ubinafsishaji kulingana na mapendeleo yako."
+        },
+        {
+          "icon": "fa-graduation-cap",
+          "title": "Ujifunzaji Rahisi",
+          "text": "Bora kwa wanaoanza au wale wanaotaka kuboresha usomaji wao."
+        },
+        {
+          "icon": "fa-calendar-check",
+          "title": "Khatma ya Qur'ani",
+          "href": "/khatma-coran",
+          "text": "Panga na fuatilia usomaji wako kamili wa Qur'ani (Khatma) ukiwa na malengo ya kila siku, mfululizo wa siku (streak) na vikumbusho vya maendeleo hadi mwisho."
+        },
+        {
+          "icon": "fa-calendar-day",
+          "title": "Mpango wa Usomaji wa Kila Siku",
+          "text": "Weka idadi ya kurasa za kusoma kila siku na fuatilia maendeleo yako kwa orodha maalum, ili kujenga tabia ya kusoma Qur'ani mara kwa mara."
+        },
+        {
+          "icon": "fa-brain",
+          "title": "Kuhifadhi Qur'ani (Hifz)",
+          "href": "/memorisation-coran",
+          "text": "Hifadhi Qur'ani aya kwa aya kwa marudio ya sauti, hali ya neno-kwa-neno, maswali ya marejeo, alama, viwango, beji na changamoto za kila siku ili kubaki na hamasa."
+        },
+        {
+          "icon": "fa-microphone-alt",
+          "title": "Marekebisho ya Usomaji",
+          "href": "/correction-recitation-coran",
+          "text": "Rekodi usomaji wako na upokee marekebisho maalum ili kuendelea katika usahihi wa matamshi yako na Tajweed."
+        },
+        {
+          "icon": "fa-trophy",
+          "title": "Maswali ya Qur'ani",
+          "href": "/quiz-coran",
+          "text": "Jaribu maarifa yako ya Qur'ani kwa maswali ya kufurahisha yenye viwango kadhaa vya ugumu, ili kujifunza huku ukifurahia."
+        },
+        {
+          "icon": "fa-mobile-screen-button",
+          "title": "Kifaa cha Skrini ya Nyumbani",
+          "text": "Onyesha aya ya siku moja kwa moja kwenye skrini ya nyumbani ya simu yako na weka utaratibu wako wa usomaji daima karibu na macho yako."
+        }
+      ]
+    },
+    "videoDemo": {
+      "title": "Gundua Programu Ikifanya Kazi",
+      "subtitle": "Tazama onyesho hili fupi ili kuona jinsi Noor Phonetic Quran inavyofanya kazi"
+    },
+    "screenshots": {
+      "title": "Picha za Skrini",
+      "subtitle": "Gundua programu kwa picha",
+      "alts": [
+        "Noor Phonetic Quran - Orodha ya sura za Qur'ani",
+        "Noor Phonetic Quran - Usomaji kwa kifonetiki sahihi",
+        "Noor Phonetic Quran - Kanuni za Tajweed zenye rangi",
+        "Noor Phonetic Quran - Sauti iliyosawazishwa na maandishi",
+        "Noor Phonetic Quran - Tafsiri ya Kifaransa ya Qur'ani",
+        "Noor Phonetic Quran - Hali ya kujifunza Qur'ani",
+        "Noor Phonetic Quran - Urambazaji kwa sura",
+        "Noor Phonetic Quran - Aya zenye uandishi wa kifonetiki",
+        "Noor Phonetic Quran - Mipangilio ya programu",
+        "Noor Phonetic Quran - Usomaji endelevu wa Qur'ani",
+        "Noor Phonetic Quran - Kiolesura cha kisasa na rahisi"
+      ]
+    },
+    "faq": {
+      "title": "Maswali Yanayoulizwa Mara kwa Mara",
+      "subtitle": "Pata haraka majibu ya maswali yako",
+      "items": [
+        {
+          "question": "Je, programu inafanya kazi bila mtandao?",
+          "answer": "Ndiyo, hakika! Sura zote za Qur'ani zinapatikana bila mtandao mara programu inapokuwa imesakinishwa. Unaweza kusoma na kusoma Qur'ani popote, bila muunganisho wa Intaneti."
+        },
+        {
+          "question": "Ni kifonetiki kipi mnachotumia?",
+          "answer": "Tunatumia kifonetiki cha Kiingereza rahisi na cha kawaida, rahisi kusoma kwa wote. Toleo la kifonetiki cha Kifaransa liko katika hatua za maendeleo na litapatikana hivi karibuni."
+        },
+        {
+          "question": "Je, Qur'ani iko kamili katika programu?",
+          "answer": "Ndiyo! Programu ina Qur'ani Tukufu kamili yenye sura zake 114, tangu mwanzo hadi mwisho, ikiwa na uandishi kamili wa kifonetiki."
+        },
+        {
+          "question": "Je, sauti inapatikana kwa aya zote?",
+          "answer": "Ndiyo, kila aya inaambatana na usomaji wa sauti wazi na wa taratibu, unaofaa kurahisisha ujifunzaji na kuboresha matamshi yako."
+        },
+        {
+          "question": "Je, programu ni ya bure?",
+          "answer": "Ndiyo, Noor Phonetic Quran ni ya bure kabisa. Lengo letu ni kufanya Qur'ani ipatikane kwa wote, bila kizuizi chochote cha kifedha."
+        },
+        {
+          "question": "Khatma (usomaji kamili wa Qur'ani) inafanya kazi vipi?",
+          "answer": "Programu inakuruhusu kupanga Khatma kwa kuchagua idadi ya siku za kumaliza Qur'ani. Unafuatilia maendeleo yako ya kila siku, mfululizo wako wa siku (streak) na kupokea vikumbusho ili kubaki mtaratibu hadi mwisho wa usomaji wako."
+        },
+        {
+          "question": "Je, tunaweza kuhifadhi Qur'ani (Hifz) kwa programu hii?",
+          "answer": "Ndiyo, programu inatoa hali kamili ya Kuhifadhi yenye marudio ya sauti aya kwa aya, hali ya neno-kwa-neno, maswali ya marejeo, alama, viwango, beji na changamoto za kila siku ili kukusaidia kuhifadhi Qur'ani kwa ufanisi."
+        },
+        {
+          "question": "Je, kuna wasomaji kadhaa wanaopatikana?",
+          "answer": "Ndiyo, unaweza kuchagua kati ya wasomaji kadhaa wa Qur'ani na kupakua sauti kwa usikilizaji kamili bila mtandao, bila muunganisho wa Intaneti."
+        },
+        {
+          "question": "Je, programu inatoa marekebisho ya usomaji?",
+          "answer": "Ndiyo, unaweza kurekodi usomaji wako moja kwa moja ndani ya programu na kupokea marekebisho maalum ili kuboresha matamshi yako na uzingatiaji wa kanuni za Tajweed."
+        },
+        {
+          "question": "Je, kutakuwa na vipengele vipya?",
+          "answer": "Ndiyo, tunafanya kazi mfululizo kuboresha programu. Maboresho kadhaa yamepangwa: kifonetiki kamili cha Kifaransa, hali ya Tajweed yenye rangi iliyopanuliwa, hali ya kujifunza herufi kwa herufi, na mengi zaidi!"
+        }
+      ]
+    },
+    "testimonials": {
+      "title": "Wanachosema watumiaji wetu",
+      "subtitle": "Gundua maoni ya jumuiya yetu inayokua ya watumiaji walioridhika",
+      "prevLabel": "Maoni yaliyotangulia",
+      "nextLabel": "Maoni yanayofuata",
+      "viewAllLabel": "Ona maoni yote",
+      "items": [
+        {
+          "initials": "SD",
+          "name": "Sidy DIOP",
+          "device": "16 Julai 2026",
+          "text": "programu nzuri sana ya kujifunza Qur'ani hata kama huwezi kutamka vizuri, inatosha tu kusikiliza sauti na kurudia",
+          "rating": 5
+        },
+        {
+          "initials": "AB",
+          "name": "Amourlaye Beman",
+          "device": "25 Machi 2026",
+          "text": "Programu nzuri sana sana. Mwenyezi Mungu awabariki milele kwa kazi hii na awaongoze zaidi kuboresha maudhui... mngeweza tayari kuanza kuweka tafsiri ya hadithi kwa Kifaransa. Asante 🙏🥰👍",
+          "rating": 5
+        },
+        {
+          "initials": "YT",
+          "name": "Yaou Tchari",
+          "device": "6 Julai 2026",
+          "text": "ni programu nzuri sana niliyokuwa nikitafuta kwa muda mrefu, ni rahisi kusoma na inaonyesha makosa yanayokuletea ugumu.",
+          "rating": 5
+        },
+        {
+          "initials": "FA",
+          "name": "Fatima",
+          "device": "21 Aprili 2026",
+          "text": "niligundua programu hii kama zawadi, nimefurahi sana 😁, kwa unyoofu. Nilikutana na tatizo dogo lililotatuliwa haraka sana alhamdulillah. kwa kweli ni urahisi wa kujifunza, nitaipendekeza kwa watu wengi. Mwenyezi Mungu awalipe🤲🏻🌹",
+          "rating": 5
+        },
+        {
+          "initials": "DH",
+          "name": "Djamila Hb",
+          "device": "30 Julai 2026",
+          "text": "nzuri sana kwa kujifunza kusoma Qur'ani, Mwenyezi Mungu atuwezeshe",
+          "rating": 5
+        },
+        {
+          "initials": "NA",
+          "name": "Naoal",
+          "device": "12 Mei 2026",
+          "text": "Ni nzuri kweli kwa wale wasiojua kusoma maandishi ya Kiarabu kwa sababu kuna wanaotaka kujifunza Qur'ani lakini hawajui kusoma Kiarabu. Kwa unyoofu hii ni programu inayostahili kusakinishwa 👍",
+          "rating": 5
+        },
+        {
+          "initials": "ID",
+          "name": "Ibou Dieme",
+          "device": "8 Januari 2026",
+          "text": "programu hii ni ya kipekee kabisa, kama chaguo la nyota 100 lingekuwepo ningeitolea bila shaka lakini kwa kifupi kuna tatizo dogo la kurekebisha ni kwamba huwezi kupakua sauti kwa matumizi bila mtandao, na nina hakika programu ingekuwa bora zaidi ikiwa na sauti inayopakuliwa kwa usikilizaji bila mtandao",
+          "rating": 5
+        },
+        {
+          "initials": "YC",
+          "name": "Youssouf Cherif",
+          "device": "26 Januari 2026",
+          "text": "programu bora zaidi. inanisaidia sana. kwa shukrani ya programu hii ninaweza kusoma Qur'ani Tukufu kwa urahisi na hilo linanifanya nijisikie vizuri ✨. kwa kweli Mwenyezi Mungu awalipe wabunifu mara nyingi zaidi. ni ya kipekee. ninaipendekeza sana. vipengele vingi sana vitakavyokuwezesha kujifunza Qur'ani Tukufu kwa urahisi kwa mpango wazi na uliopangwa vizuri ndani ya programu.",
+          "rating": 5
+        },
+        {
+          "initials": "FF",
+          "name": "Faiza Faiza",
+          "device": "6 Novemba 2024",
+          "text": "programu nzuri lakini tatizo ni kwamba inasimama kila dakika mbili. Niliiondoa na kuisakinisha tena na tatizo linaendelea. ingawa ndicho hasa nilichokuwa nikitafuta. Baraka Allahu fikunna",
+          "rating": 5
+        },
+        {
+          "initials": "LS",
+          "name": "Louis Sawadogo",
+          "device": "27 Machi 2025",
+          "text": "ni programu nzuri sana lakini sifanikiwi kusoma bila mtandao baada ya kupakua. na hata hivyo mlisema inafanya kazi bila mtandao na niligundua inahitaji muunganisho ili kufikia data. mnahitaji kurekebisha hilo. Asante.",
+          "rating": 5
+        },
+        {
+          "initials": "YJ",
+          "name": "Yassin Jaounni",
+          "device": "23 Novemba 2025",
+          "text": "programu hii ni ya kipekee kwa sababu awali niliisakinisha tu kwa ajili ya kujifunza baadhi ya sura kwa sababu sijui kusoma Kiarabu na nilipoona vipengele vyote nilishangaa, kile ninachopenda zaidi ni kwamba kuna atakayepata mamilioni kwenye Uislamu unaweza kujifunza Kiarabu kujifunza dua na hata kuna wasomaji wanaosoma Qur'ani pamoja nawe kwa ajili ya matamshi yako wanatoa hata mbinu za kujifunza Qur'ani kwa urahisi ni jambo la kushangaza kabisa nawaomba mnishauri",
+          "rating": 5
+        },
+        {
+          "initials": "JB",
+          "name": "Jeff Bezos Mayele",
+          "device": "30 Mei 2026",
+          "text": "programu nzuri na ya ajabu. inayotusaidia kusoma sura na kuzielewa, sisi tusiojua Kiarabu",
+          "rating": 5
+        },
+        {
+          "initials": "AB",
+          "name": "Abdoulaye Bah",
+          "device": "5 Machi 2025",
+          "text": "Programu nzuri sana kwa wale wanaotaka kujifunza au kusoma Qur'ani peke yao! Mwenyezi Mungu awalipe kwa wema na atuwezeshe sote kujifunza na kuhifadhi Qur'ani Tukufu!",
+          "rating": 5
+        },
+        {
+          "initials": "DD",
+          "name": "dohona daouda coulibaly",
+          "device": "2 Machi 2025",
+          "text": "Uonyeshaji wa kurasa ni wa polepole sana sana. Vinginevyo naipenda programu hii. Lakini uonyeshaji unachukua muda mwingi. Je, mna mapendekezo ya kutatua tatizo hili?",
+          "rating": 5
+        },
+        {
+          "initials": "YC",
+          "name": "yvan Cedric",
+          "device": "4 Machi 2025",
+          "text": "Jazakumullahu khayran. Programu nzuri sana kwa ujifunzaji wa wasiozungumza Kiarabu. Ila baada ya sasisho, programu haiwezeshi tena kusoma bila mtandao.",
+          "rating": 5
+        },
+        {
+          "initials": "HN",
+          "name": "Horizons New",
+          "device": "23 Agosti 2025",
+          "text": "Assalamu alaykum nimeridhika kabisa na programu hii utangulizi tu unastahili nyota 5 🌟 maboresho fulani yangehitajika kuhusu upakiaji wa kurasa na bora zaidi ingekuwa kutengeneza toleo la Kifaransa peke yake ili kuepuka muda wa kusubiri, toleo la usiku lingekuwa bora kwa usomaji wa jioni asante kwa kazi yenu Mwenyezi Mungu awalipe",
+          "rating": 5
+        },
+        {
+          "initials": "DB",
+          "name": "dorra bn",
+          "device": "7 Oktoba 2025",
+          "text": "Programu muhimu na iliyofikiriwa vizuri! Kwa shukrani ya uandishi wa kifonetiki, niliweza kuboresha usomaji wangu wa Qur'ani kwa muda mfupi. Mwenyezi Mungu awalipe wabunifu",
+          "rating": 5
+        },
+        {
+          "initials": "SM",
+          "name": "Sara ma langue",
+          "device": "5 Mei 2025",
+          "text": "Programu ambayo siachi kuipendekeza kwa yeyote anayetaka kusoma, kujifunza na kuelewa kwa lugha mbalimbali. Masha Allah kazi imefanywa vizuri. Hili ndilo nililokuwa nikitafuta kwa muda mrefu. Mwenyezi Mungu awabariki.",
+          "rating": 5
+        },
+        {
+          "initials": "AA",
+          "name": "Adoum Ali Bezei",
+          "device": "20 Mei 2026",
+          "text": "Qur'ani bora zaidi kwa kifonetiki, asante sana, nina shukrani kubwa",
+          "rating": 5
+        },
+        {
+          "initials": "BK",
+          "name": "Bakary Konaté",
+          "device": "19 Machi 2025",
+          "text": "niliipenda kweli programu hii, lakini ningependelea mngeongeza maimamu, ili tuchague sisi wenyewe imamu tunayetaka kujifunza naye, kile nisichokipenda sana ni kwamba inasoma aya kwa aya ningependelea isome moja kwa moja sura bila kusimama",
+          "rating": 5
+        },
+        {
+          "initials": "YB",
+          "name": "Yosra Bahri",
+          "device": "5 Oktoba 2025",
+          "text": "Programu bora! Muhimu sana, rahisi kutumia na iliyofikiriwa vizuri. Naipendekeza sana! 👏 Hongera kwa mbunifu kwa kazi hii nzuri, endeleeni hivyo, mnafanya kazi bora! 💪",
+          "rating": 5
+        },
+        {
+          "initials": "FO",
+          "name": "fatima ourja",
+          "device": "25 Aprili 2025",
+          "text": "Programu nzuri, ndilo hasa nililokuwa nikitafuta, Mwenyezi Mungu Mtukufu awalipe kwa malipo bora zaidi. Kwa kweli ni programu inayostahili kulipwa ipasavyo.",
+          "rating": 5
+        },
+        {
+          "initials": "ND",
+          "name": "Nicolas DA COSTA CAMPOS CERCA",
+          "device": "20 Aprili 2025",
+          "text": "napendekeza programu hii kwa kujifunza tajwid ambayo ni rahisi sana kwa wanaoanza na pia kwa yule anayetaka kujiboresha na ni rahisi sana kutumia",
+          "rating": 5
+        },
+        {
+          "initials": "SR",
+          "name": "Sadrissi Regbayou",
+          "device": "11 Machi 2025",
+          "text": "Nzuri. Lakini tunapoteza ukurasa wa mwisho tuliokuwa nao. Zaidi ya hayo haiwezeshi kusoma bila mtandao. Ingekuwa ya kuvutia zaidi kama kungekuwa na kwenye kurasa zilezile sura kwa Kiarabu na tafsiri kwa Kifaransa.",
+          "rating": 5
+        },
+        {
+          "initials": "OA",
+          "name": "Oussama AZIZI",
+          "device": "12 Oktoba 2025",
+          "text": "Programu bora, ikiwa na kifonetiki wazi, sauti bora na kanuni za Tajwid kwa rangi. Zana nzuri sana ya kurahisisha ujifunzaji wa Qur'ani.",
+          "rating": 5
+        },
+        {
+          "initials": "BH",
+          "name": "Bahri Hamza",
+          "device": "27 Septemba 2025",
+          "text": "Assalamu alaykum, programu bora 🌟 rahisi kutumia na muhimu sana kwa usomaji na ujifunzaji. Mwenyezi Mungu awalipe wabunifu ❤️🤲",
+          "rating": 5
+        },
+        {
+          "initials": "HR",
+          "name": "Houssem RAISSI",
+          "device": "2 Oktoba 2024",
+          "text": "Inatoa kiolesura rahisi na cha kupendeza, kinachorahisisha usomaji na urambazaji. Ni bora kwa ufikiaji wa haraka wa sura.",
+          "rating": 5
+        },
+        {
+          "initials": "GB",
+          "name": "Gora Bar",
+          "device": "10 Oktoba 2025",
+          "text": "Programu nzuri sana. Rahisi sana kutumia na haina matangazo. Hongereni!",
+          "rating": 5
+        },
+        {
+          "initials": "SK",
+          "name": "Sekou Kante",
+          "device": "21 Machi 2025",
+          "text": "Ni programu niliyokuwa nikitafuta lakini bila mtandao haifanyi kazi nilipakua chaguo la bila mtandao lakini bado halifanyi kazi tafadhali rekebisheni, kwangu ni kifonetiki kinachoniwezesha kusoma Qur'ani",
+          "rating": 5
+        },
+        {
+          "initials": "YF",
+          "name": "youssoupha FALL",
+          "device": "11 Aprili 2025",
+          "text": "Mwenyezi Mungu awalipe milima ya hasanati baada ya kila bofya kwenye Programu. Hamtaweza kamwe kuwazia wema mliowafanyia Waislamu wote wasiomaliza shule ya Qur'ani. nimepakua sasa hivi kwa ajili ya mama yangu pia Mungu awabariki kwa wingi. Asante sana ❤️",
+          "rating": 5
+        },
+        {
+          "initials": "TT",
+          "name": "toure traore aboubakar sidik",
+          "device": "29 Novemba 2024",
+          "text": "Ninawapa nyota 3 kwa sababu programu haiwezi kuhifadhi sura kwa usomaji bila mtandao. Vinginevyo ni rahisi kusoma",
+          "rating": 5
+        },
+        {
+          "initials": "MG",
+          "name": "Mory Gbane",
+          "device": "29 Juni 2025",
+          "text": "Programu nzuri lakini kwa bahati mbaya huwezi kupakua maandishi mara moja na kudumu, ni lazima kila mara kupakua tena. Ni ngumu kidogo",
+          "rating": 5
+        },
+        {
+          "initials": "FS",
+          "name": "Fatima Si Ahmed",
+          "device": "23 Julai 2025",
+          "text": "urahisi mkubwa sana wa kusoma Qur'ani kwa kifonetiki popote ulipo kwa sababu hauhitaji muunganisho hasa unapokuwa hutaki kumsumbua mtu simu yako inatosha hakuna haja ya 🕯 wala nuru 😇🥰",
+          "rating": 5
+        },
+        {
+          "initials": "MF",
+          "name": "Mohamed Faye",
+          "device": "5 Machi 2025",
+          "text": "Ninawapa nyota 5 🌟 kwa sababu ni bora zaidi ni jambo zuri mlilolifanya ninalipenda kweli 😭❤️❤️❤️ Mwenyezi Mungu Mwingi wa Rehema akulinde. Lakini ningependa hali ya sauti iwe kwa sura nzima si aya moja tu asante mapema",
+          "rating": 5
+        },
+        {
+          "initials": "MG",
+          "name": "Mohamed gaissir Bah",
+          "device": "4 Machi 2026",
+          "text": "Assalamu alaykum programu bora nimesoma tayari vitabu kadhaa kwa kifonetiki lakini nakiri programu hii ndiyo bora kwa sasa, nikaribia kuwa mtaalamu wa kifonetiki na Mwenyezi Mungu awalipe mara nyingi zaidi, ninafurahia kweli 😇😇😇",
+          "rating": 5
+        },
+        {
+          "initials": "YK",
+          "name": "Yao Kouamé Enock",
+          "device": "13 Desemba 2025",
+          "text": "ni programu nzuri sana kwa sisi tusiojua kusoma herufi za Kiarabu. Ndilo hasa nililokuwa nikitafuta. Asante sana kwa wabunifu. Siku njema, Mwenyezi Mungu atuongoze katika njia iliyonyooka.🤲📿",
+          "rating": 5
+        },
+        {
+          "initials": "FA",
+          "name": "Fatima",
+          "device": "2 Januari 2026",
+          "text": "programu ni nzuri kwa jumla lakini kila mara inakosa mwisho wa kila sura kwa hivyo hatuwezi kusoma au kujifunza sura tunayochagua ninaona hii ni jambo la kusikitisha sana",
+          "rating": 5
+        },
+        {
+          "initials": "MS",
+          "name": "Macolt Scot",
+          "device": "17 Machi 2025",
+          "text": "Alhamdulillah ninafanikiwa kusoma vizuri Qur'ani kwa kifonetiki, lakini upakuaji haujakamilika na kunabaki kurasa chache",
+          "rating": 5
+        },
+        {
+          "initials": "EH",
+          "name": "El Hadj Diallo",
+          "device": "1 Aprili 2025",
+          "text": "programu nzuri sana na safi na iliyoundwa vizuri kifonetiki kinaakisi kitu kilekile na aya za Qur'ani matamshi yaleyale hongera kwa timu iliyofanya jambo hili jema kwa Umma barakallahu fik",
+          "rating": 5
+        },
+        {
+          "initials": "AM",
+          "name": "Abdelmadjid Mahamat",
+          "device": "25 Aprili 2025",
+          "text": "Masha Allah! programu bora zaidi kwa yule anayetaka kwa dhati kujifunza na kusoma bila ugumu.",
+          "rating": 5
+        },
+        {
+          "initials": "OS",
+          "name": "Ousmasim's Simen",
+          "device": "22 Julai 2026",
+          "text": "ni nzuri sana na itanisaidia sana",
+          "rating": 5
+        },
+        {
+          "initials": "NS",
+          "name": "Nour Soum",
+          "device": "17 Oktoba 2025",
+          "text": "inavutia sana, tatizo pekee ni kwamba lazima kuunganisha mtandao kila mara. jaribuni pia toleo la bila mtandao",
+          "rating": 5
+        },
+        {
+          "initials": "CB",
+          "name": "chiraz bahri",
+          "device": "19 Oktoba 2025",
+          "text": "Programu nzuri sana, rahisi na kamili. Bora kwa kusoma na kusikiliza Qur'ani popote. Baraka Allahu fikum",
+          "rating": 5
+        },
+        {
+          "initials": "AA",
+          "name": "aicha Arouna",
+          "device": "29 Julai 2026",
+          "text": "Programu nzuri sana napendekeza programu hii",
+          "rating": 5
+        },
+        {
+          "initials": "SZ",
+          "name": "Sadjid Zamoum",
+          "device": "2 Agosti 2026",
+          "text": "ya ajabu hakuna la kusema",
+          "rating": 5
+        },
+        {
+          "initials": "AD",
+          "name": "Almassane Diallo",
+          "device": "13 Julai 2026",
+          "text": "Asante sana kwa timu kwa shukrani ya programu hii na kwenu nimejifunza mengi Mwenyezi Mungu awalipe",
+          "rating": 5
+        },
+        {
+          "initials": "HA",
+          "name": "Hadj",
+          "device": "5 Novemba 2025",
+          "text": "programu safi na bila matangazo. mkiweza kuongeza tafsiri ya kina kwa sura programu itakuwa kamili.",
+          "rating": 5
+        },
+        {
+          "initials": "YM",
+          "name": "Yacouba M'piè Samaké",
+          "device": "16 Mei 2025",
+          "text": "Programu nzuri sana inayoniwezesha kujifunza sura bila maarifa yoyote ya lugha ya Kiarabu",
+          "rating": 5
+        },
+        {
+          "initials": "SM",
+          "name": "Saïdou Mohamed Bah",
+          "device": "24 Agosti 2025",
+          "text": "Kwa kweli Mwenyezi Mungu awalipe Jannatul Firdaws, ni programu bora zaidi, Mwenyezi Mungu awasaidie kuboresha programu na afanye hii iwe sadaka jaria kwenu.",
+          "rating": 5
+        },
+        {
+          "initials": "TD",
+          "name": "Touwinde Doulkom",
+          "device": "24 Mei 2025",
+          "text": "Masha Allah, programu rahisi na nyepesi kutumia inayokuwezesha kujifunza kusoma Qur'ani Tukufu. asante kwa wabunifu Mwenyezi Mungu awalipe 🙏",
+          "rating": 5
+        },
+        {
+          "initials": "BD",
+          "name": "Bassirou Diarra",
+          "device": "5 Aprili 2026",
+          "text": "ni ya vitendo kweli. Mwenyezi Mungu abariki Uislamu",
+          "rating": 5
+        },
+        {
+          "initials": "GK",
+          "name": "gloire Kyato",
+          "device": "10 Aprili 2026",
+          "text": "Ni muhimu programu hii. ninaweka nyota 5.",
+          "rating": 5
+        },
+        {
+          "initials": "OO",
+          "name": "Olivier Olivier",
+          "device": "16 Aprili 2025",
+          "text": "Kwa unyoofu ni bora ya bora manufaa makubwa kwa kuhifadhi Qur'ani hata kwa wazungumzaji wa Kifaransa",
+          "rating": 5
+        },
+        {
+          "initials": "DD",
+          "name": "Dian Diallo",
+          "device": "9 Juni 2026",
+          "text": "Asante sana........ programu bora",
+          "rating": 5
+        },
+        {
+          "initials": "MM",
+          "name": "Mallam Mohamed AYOUBA",
+          "device": "10 Septemba 2025",
+          "text": "Ndiyo imeandikwa vizuri na ni rahisi sana kujifunza kusoma Qur'ani.... Asante sana",
+          "rating": 5
+        },
+        {
+          "initials": "FB",
+          "name": "Fatoumata Barry",
+          "device": "7 Machi 2026",
+          "text": "nzuri na rahisi kujifunza Qur'ani tatizo pekee ni masasisho mengi mno...",
+          "rating": 5
+        },
+        {
+          "initials": "SK",
+          "name": "Soumaila Kaboré",
+          "device": "29 Novemba 2025",
+          "text": "nzuri sana, inaonekana na inasaidia kutamka vizuri sentensi za Kiarabu",
+          "rating": 5
+        },
+        {
+          "initials": "OA",
+          "name": "Ouattara Almamy",
+          "device": "1 Aprili 2025",
+          "text": "Wazi sana, Rahisi kueleweka sana, Ina mafunzo mengi sana, Mwenyezi Mungu atupe uelewa mzuri 🙏",
+          "rating": 5
+        },
+        {
+          "initials": "AN",
+          "name": "Aude Name",
+          "device": "7 Juni 2025",
+          "text": "Yenye mshikamano sana, Nzuri kwa kujifunza Qur'ani. Mwenyezi Mungu abariki mbunifu wa programu hii",
+          "rating": 5
+        },
+        {
+          "initials": "MJ",
+          "name": "maxero junior",
+          "device": "13 Machi 2025",
+          "text": "Ni nzuri sana rahisi kutumia na haina matangazo",
+          "rating": 5
+        },
+        {
+          "initials": "FT",
+          "name": "Fatoumata Traoré",
+          "device": "18 Mei 2025",
+          "text": "Mwenyezi Mungu awalipe kwa kazi yenu iliyofanywa vizuri kwa unyoofu ni programu nzuri, nataka mngeongeza mizunguko ya skrini na pia alama za sijida asante",
+          "rating": 5
+        },
+        {
+          "initials": "AC",
+          "name": "Assia Chamoyan",
+          "device": "28 Septemba 2025",
+          "text": "muhimu sana, ya vitendo na kwa unyoofu ina akili. kiolesura kizuri sana hongera ni bora kabisa Mwenyezi Mungu awarahisishie miradi yenu na awalipe kwa wingi",
+          "rating": 5
+        },
+        {
+          "initials": "KE",
+          "name": "Keita",
+          "device": "23 Mei 2025",
+          "text": "Aha, programu nzuri sana ya usomaji wa kifonetiki wa sura. Ninaipenda kweli programu hii.",
+          "rating": 5
+        },
+        {
+          "initials": "IH",
+          "name": "Ibrahim Hamadou",
+          "device": "9 Machi 2026",
+          "text": "tafadhali rekebisheni programu ninahitaji sana programu hii nilikuwa ninaendelea vizuri na usomaji lakini programu ilipata tatizo",
+          "rating": 5
+        },
+        {
+          "initials": "AS",
+          "name": "Adamou Seyni Sonia",
+          "device": "14 Machi 2025",
+          "text": "Salam mimi sijui kwa nini ninapoenda kwenye sura ya Al-Kahf inatokea Abasa, kwa kweli sielewi tatizo linatoka wapi na ni sura ninayoipenda kusoma hasa siku ya Ijumaa kwa mujibu wa Sunna....vinginevyo mbali na tatizo hili hakuna tatizo na programu Masha Allah",
+          "rating": 5
+        },
+        {
+          "initials": "MD",
+          "name": "Mame diarra Ba",
+          "device": "14 Februari 2025",
+          "text": "Ni ya ufanisi sana na rahisi sana kujifunza Qur'ani",
+          "rating": 5
+        },
+        {
+          "initials": "SS",
+          "name": "SOUMAILA SAMASSI",
+          "device": "29 Desemba 2024",
+          "text": "Masha Allah 💕 programu nzuri sana na ndilo nililokuwa nikitafuta. Programu iko juu kabisa. Barakallahu fikum na Mwenyezi Mungu atuongoze daima. Amin",
+          "rating": 5
+        },
+        {
+          "initials": "AB",
+          "name": "Ali Baba Traoré",
+          "device": "1 Agosti 2025",
+          "text": "Alhamdulillah ni programu nzuri ya kupakua na kushiriki. Mwenyezi Mungu awape malipo mema duniani na akhera. Amin!",
+          "rating": 5
+        },
+        {
+          "initials": "MB",
+          "name": "Mohamed Baddo",
+          "device": "5 Januari 2026",
+          "text": "Ni rahisi sana yenye ufanisi na ya kufurahisha sana",
+          "rating": 5
+        },
+        {
+          "initials": "AB",
+          "name": "Anthony Barraut",
+          "device": "5 Oktoba 2025",
+          "text": "Programu BORA mbunifu wa programu ana wema wa ajabu ninapendekeza programu mara moja bila kusita 🌟🌟🌟🌟🌟🥳👌",
+          "rating": 5
+        },
+        {
+          "initials": "PM",
+          "name": "Parfait Mayela may",
+          "device": "27 Machi 2025",
+          "text": "kwa nini inahitaji muunganisho??? Lakini programu hii inaruhusu kujifunza haraka 🤲🤲🤲🥰🇬🇦",
+          "rating": 5
+        },
+        {
+          "initials": "MD",
+          "name": "Moustapha DRORI",
+          "device": "7 Februari 2026",
+          "text": "Programu nzuri sana kwa ujifunzaji bora zaidi",
+          "rating": 5
+        },
+        {
+          "initials": "AB",
+          "name": "Adamma Bae",
+          "device": "11 Januari 2025",
+          "text": "Asante sana kwa kutorahisishia ujifunzaji",
+          "rating": 5
+        },
+        {
+          "initials": "MZ",
+          "name": "Malika Zaki",
+          "device": "7 Aprili 2026",
+          "text": "ni programu bora zaidi ya Qur'ani niliyowahi kuona maishani mwangu",
+          "rating": 5
+        },
+        {
+          "initials": "NC",
+          "name": "N'famoussa Camara",
+          "device": "8 Machi 2025",
+          "text": "Programu hii inavutia kweli kwangu na kwa Waislamu wote wanaotaka kujua na kutekeleza Uislamu.",
+          "rating": 5
+        },
+        {
+          "initials": "MB",
+          "name": "Mariam Bah",
+          "device": "21 Oktoba 2025",
+          "text": "yenye ufanisi mkubwa kwa matamshi",
+          "rating": 5
+        },
+        {
+          "initials": "NM",
+          "name": "Nouraya Mohamed",
+          "device": "5 Aprili 2026",
+          "text": "Asante sana, inanisaidia kweli... Masha Allah",
+          "rating": 5
+        },
+        {
+          "initials": "SD",
+          "name": "Sofiane D",
+          "device": "10 Oktoba 2025",
+          "text": "ni jambo la kusikitisha tu kwamba hatuwezi kuchagua sura moja kwa moja lazima kutelezesha",
+          "rating": 5
+        },
+        {
+          "initials": "MD",
+          "name": "Mouhamed Diagne",
+          "device": "24 Julai 2025",
+          "text": "programu nzuri sana sana tunajifunza haraka na vizuri",
+          "rating": 5
+        },
+        {
+          "initials": "BB",
+          "name": "Babouba Bibouba",
+          "device": "1 Aprili 2025",
+          "text": "nzuri sana, lakini tafadhali ongezeni chaguo la ukubwa wa fonti",
+          "rating": 5
+        },
+        {
+          "initials": "CC",
+          "name": "Coumba Camara",
+          "device": "26 Julai 2025",
+          "text": "ndilo nililokuwa nikitafuta kwa miaka mingi Mwenyezi Mungu awalipe kwa furaha kubwa mliyoniletea nilipoiona 💖 ni programu nzuri sana 👍 asante",
+          "rating": 5
+        },
+        {
+          "initials": "LS",
+          "name": "Lassane Sawadogo",
+          "device": "3 Agosti 2025",
+          "text": "nilikuwa nikitafuta kifonetiki hiki kwa muda na alhamdulillah nimekipata Asante",
+          "rating": 5
+        },
+        {
+          "initials": "MA",
+          "name": "mam",
+          "device": "14 Machi 2026",
+          "text": "programu nzuri sana ningependa tu hadithi ziwe kwa Kifaransa",
+          "rating": 5
+        },
+        {
+          "initials": "MB",
+          "name": "Mohamadou Babanguida",
+          "device": "9 Aprili 2026",
+          "text": "Asante sana Mwenyezi Mungu awalipe",
+          "rating": 5
+        },
+        {
+          "initials": "TA",
+          "name": "Thierno amidou Diallo",
+          "device": "8 Aprili 2026",
+          "text": "ninapenda sana programu hii",
+          "rating": 5
+        },
+        {
+          "initials": "SA",
+          "name": "shahid ATOUKOU",
+          "device": "9 Desemba 2024",
+          "text": "Nzuri sana ninathamini sana programu hii, asante kwa mbunifu wa programu hii",
+          "rating": 5
+        },
+        {
+          "initials": "MS",
+          "name": "Mamadi Savadogo",
+          "device": "9 Machi 2026",
+          "text": "sina la kusema zaidi ya kwamba Mwenyezi Mungu awalipe. Programu ni bora niliyowahi kuijua hadi leo.",
+          "rating": 5
+        },
+        {
+          "initials": "AC",
+          "name": "Alassane Camara",
+          "device": "26 Desemba 2025",
+          "text": "assalamu alaykum nawashukuru ni programu nzuri kwa Waislamu",
+          "rating": 5
+        },
+        {
+          "initials": "FL",
+          "name": "Frédéric Lankoandé",
+          "device": "1 Agosti 2025",
+          "text": "programu nzuri sana kwa kujifunza Qur'ani Tukufu kwa kifonetiki 👍",
+          "rating": 5
+        },
+        {
+          "initials": "LZ",
+          "name": "Loukmane Zongo",
+          "device": "26 Juni 2025",
+          "text": "Masha Allah! hii ndiyo Qur'ani niliyokuwa nikitafuta ili niweze kujifunza! hamuwezi kufanya iwezekane kusoma bila mtandao?",
+          "rating": 5
+        },
+        {
+          "initials": "IB",
+          "name": "Ibrahima Bâ",
+          "device": "2 Septemba 2025",
+          "text": "Ni programu nzuri nawashukuru Mwenyezi Mungu atuongoze katika njia njema 🤲🤲👆",
+          "rating": 5
+        },
+        {
+          "initials": "FA",
+          "name": "Fouzi Abdellatif",
+          "device": "5 Machi 2026",
+          "text": "ni programu bora zaidi ya kifonetiki",
+          "rating": 5
+        },
+        {
+          "initials": "AS",
+          "name": "Aboubacar Sylla",
+          "device": "7 Novemba 2025",
+          "text": "yote (kamili) haionekani",
+          "rating": 5
+        },
+        {
+          "initials": "KM",
+          "name": "KACHALLA MEMBA",
+          "device": "20 Machi 2025",
+          "text": "asante sana kwa urahisi huu wa kusoma Qur'ani. Mwenyezi Mungu awalipe duniani na akhera",
+          "rating": 5
+        },
+        {
+          "initials": "BD",
+          "name": "Billal DABIDA",
+          "device": "2 Aprili 2025",
+          "text": "programu nzuri sana sana Mwenyezi Mungu Mwingi wa Rehema Mwenye huruma awape hekima zaidi.",
+          "rating": 5
+        },
+        {
+          "initials": "NN",
+          "name": "Nadjma Nkulu",
+          "device": "24 Novemba 2025",
+          "text": "Laa ilaha illallah, inafaa sana kwa watu wasio bado na umahiri wa Kiarabu.",
+          "rating": 5
+        },
+        {
+          "initials": "TA",
+          "name": "thaibu Amici-langi",
+          "device": "7 Agosti 2025",
+          "text": "Kazi nzuri sana ipo karibu na mkono.",
+          "rating": 5
+        },
+        {
+          "initials": "HH",
+          "name": "hamza Hamza",
+          "device": "19 Oktoba 2025",
+          "text": "hii ni programu muhimu sana na ya vitendo sana",
+          "rating": 5
+        },
+        {
+          "initials": "OA",
+          "name": "Oumarou Amadou",
+          "device": "7 Novemba 2025",
+          "text": "inahitaji kuboreshwa bila intaneti ili kuisoma",
+          "rating": 5
+        },
+        {
+          "initials": "AA",
+          "name": "Aboubakar Adamou",
+          "device": "18 Agosti 2025",
+          "text": "programu nzuri sana, Mwenyezi Mungu awalipe wabunifu",
+          "rating": 5
+        },
+        {
+          "initials": "SK",
+          "name": "Soiba Koné",
+          "device": "19 Januari 2026",
+          "text": "napendekeza kwa ndugu Waislamu inanisaidia sana katika tajwid pia",
+          "rating": 5
+        },
+        {
+          "initials": "SN",
+          "name": "Sipas NIAKATE",
+          "device": "21 Septemba 2025",
+          "text": "programu bora inakaribiana kweli na Kiarabu",
+          "rating": 5
+        },
+        {
+          "initials": "HT",
+          "name": "Hamissou TCHAGBELE",
+          "device": "28 Septemba 2024",
+          "text": "Ninapenda programu hii natumaini kwa neema ya Mwenyezi Mungu mtaongeza hadi mwisho wa Qur'ani",
+          "rating": 5
+        },
+        {
+          "initials": "AA",
+          "name": "Abdul Abdullah",
+          "device": "21 Novemba 2025",
+          "text": "ni nzuri sana sana ninaipenda hiyo Mwenyezi Mungu awalipe.",
+          "rating": 5
+        },
+        {
+          "initials": "SA",
+          "name": "sawadogoalassane",
+          "device": "25 Juni 2025",
+          "text": "nzuri, ndicho hasa nilichotaka. Asante",
+          "rating": 5
+        },
+        {
+          "initials": "BT",
+          "name": "Bocar Thiam",
+          "device": "19 Oktoba 2025",
+          "text": "ni programu nzuri sana bila matangazo Masha Allah",
+          "rating": 5
+        },
+        {
+          "initials": "HN",
+          "name": "Harounahafiz Nonkane",
+          "device": "11 Machi 2025",
+          "text": "Ndugu na dada katika imani ninawashauri kwa dhati programu hii ni bora. Mwenyezi Mungu atupe uelewa mzuri.",
+          "rating": 5
+        },
+        {
+          "initials": "NT",
+          "name": "Nana Tanou",
+          "device": "1 Aprili 2025",
+          "text": "programu nzuri sana, inanisaidia sana 🥰",
+          "rating": 5
+        },
+        {
+          "initials": "IS",
+          "name": "Idrissa Samake",
+          "device": "5 Agosti 2025",
+          "text": "Kazi bora! Asante",
+          "rating": 5
+        },
+        {
+          "initials": "SB",
+          "name": "Sarra Bahri (\"Anous Azouz Aychouha\")",
+          "device": "29 Septemba 2024",
+          "text": "programu nzuri hongera na muendelee 👏👏👏🌹🌹🌹🌹",
+          "rating": 5
+        },
+        {
+          "initials": "OA",
+          "name": "Omokayode Akanny",
+          "device": "29 Mei 2025",
+          "text": "programu nzuri sana na muhimu",
+          "rating": 5
+        },
+        {
+          "initials": "AG",
+          "name": "Abdoulaye Gningue",
+          "device": "16 Januari 2025",
+          "text": "Masha Allah, Mwenyezi Mungu awaongoze kwenye amani na uadilifu, ni kitabu kizuri.",
+          "rating": 5
+        },
+        {
+          "initials": "SS",
+          "name": "Seynabou Senghor",
+          "device": "29 Aprili 2025",
+          "text": "Neno asante halitatosha kuwashukuru Mwenyezi Mungu awalipe kwa kazi yenu ya ajabu ❤️🌹",
+          "rating": 5
+        },
+        {
+          "initials": "FS",
+          "name": "Fanta Souare",
+          "device": "2 Juni 2025",
+          "text": "programu hii ni ya ajabu tu asante Mwenyezi Mungu awawekee baraka zake na awape malipo peponi amin ya Rabbi 🙏",
+          "rating": 5
+        },
+        {
+          "initials": "AD",
+          "name": "Abdoul djabar Danyoko",
+          "device": "26 Julai 2025",
+          "text": "ni programu nzuri sana. Masha Allah!",
+          "rating": 5
+        },
+        {
+          "initials": "IC",
+          "name": "Idrissa Camara",
+          "device": "6 Agosti 2025",
+          "text": "Ninafurahia kweli hati hii. Mmewawezesha mamilioni ya watu wasio Waarabu kumjua Mwenyezi Mungu. Kwa hilo, ni Mwenyezi Mungu pekee anayeweza kuwalipa. Naomba Mwenyezi Mungu awape maisha rahisi nyinyi na familia zenu na atupe pepo. amin!",
+          "rating": 5
+        },
+        {
+          "initials": "SK",
+          "name": "Souleymane Keïta",
+          "device": "1 Oktoba 2025",
+          "text": "Kwa unyoofu ninapenda kweli programu hii, Mwenyezi Mungu awalipe na abariki mwenye programu hii na atusamehe dhambi zetu na makosa yetu yote ya kufahamu na yasiyo ya kufahamu na akubali sala zetu zote na za familia zetu na atuweke kwenye njia iliyonyooka hadi pumzi yetu ya mwisho na hasa atupe rehema yake na atupe pepo yake ya milele Amin 🙏🙏🙏",
+          "rating": 5
+        },
+        {
+          "initials": "EM",
+          "name": "El Mn",
+          "device": "1 Agosti 2026",
+          "text": "sijui la kusema 🫰🤌. Ni bora",
+          "rating": 5
+        },
+        {
+          "initials": "SS",
+          "name": "Setoute samate",
+          "device": "11 Agosti 2025",
+          "text": "Masha Allah Mwenyezi Mungu awalinde programu nzuri sana asante 🤲🤲🤲",
+          "rating": 5
+        },
+        {
+          "initials": "CD",
+          "name": "Cheick Diabate",
+          "device": "29 Desemba 2024",
+          "text": "Bila shaka ni ya ajabu kweli",
+          "rating": 5
+        },
+        {
+          "initials": "SD",
+          "name": "Sanogo Domba",
+          "device": "18 Desemba 2025",
+          "text": "napenda sana kwa maendeleo ya roho ya kibinadamu",
+          "rating": 5
+        },
+        {
+          "initials": "MM",
+          "name": "mame marème bane",
+          "device": "8 Machi 2026",
+          "text": "salam kwa nini programu haifanyi kazi tena",
+          "rating": 5
+        },
+        {
+          "initials": "DB",
+          "name": "Dalila Bahri",
+          "device": "27 Desemba 2025",
+          "text": "programu nzuri, ni muhimu sana",
+          "rating": 5
+        },
+        {
+          "initials": "LY",
+          "name": "Landry Yarga",
+          "device": "10 Desemba 2025",
+          "text": "Programu hii inanisaidia sana asante 👌",
+          "rating": 5
+        },
+        {
+          "initials": "JK",
+          "name": "Jeanne Kikukama",
+          "device": "8 Februari 2026",
+          "text": "programu nzuri sana",
+          "rating": 5
+        },
+        {
+          "initials": "ZS",
+          "name": "Zeynab Sylla",
+          "device": "14 Januari 2026",
+          "text": "nzuri sana na rahisi",
+          "rating": 5
+        },
+        {
+          "initials": "AW",
+          "name": "Abdoul Wahab porgo",
+          "device": "10 Januari 2026",
+          "text": "inavutia sana sana",
+          "rating": 5
+        },
+        {
+          "initials": "YM",
+          "name": "Yohane Mouhali",
+          "device": "31 Oktoba 2025",
+          "text": "Asante sana kwa haya yote 👏👏👏👏👏",
+          "rating": 5
+        },
+        {
+          "initials": "FA",
+          "name": "Fousseni Arouna",
+          "device": "15 Desemba 2025",
+          "text": "Masha Allah ninapenda sana programu hii",
+          "rating": 5
+        },
+        {
+          "initials": "DA",
+          "name": "Djamilatou Alim",
+          "device": "20 Januari 2026",
+          "text": "programu nzuri sana Alhamdulillah Masha Allah",
+          "rating": 5
+        },
+        {
+          "initials": "AA",
+          "name": "Arminata Abdou",
+          "device": "26 Machi 2025",
+          "text": "Asante sana kwenu 👏 ninaipenda",
+          "rating": 5
+        },
+        {
+          "initials": "HR",
+          "name": "Halima Radhwani",
+          "device": "26 Septemba 2025",
+          "text": "ni bora kabisa programu Allahumma barik asante sana 🤲",
+          "rating": 5
+        },
+        {
+          "initials": "MC",
+          "name": "Mahamoudou Coulibaly",
+          "device": "17 Agosti 2025",
+          "text": "ya kifahari sana, ya kupendeza sana",
+          "rating": 5
+        },
+        {
+          "initials": "LD",
+          "name": "Lamine Dieye",
+          "device": "22 Machi 2025",
+          "text": "Kazi nzuri kwenu Mwenyezi Mungu awabariki programu ni muhimu 🙏",
+          "rating": 5
+        },
+        {
+          "initials": "AB",
+          "name": "aimé boussoukou",
+          "device": "25 Oktoba 2025",
+          "text": "Allahu Akbar programu hii ina manufaa makubwa",
+          "rating": 5
+        },
+        {
+          "initials": "IM",
+          "name": "Ibrahim Mbaye",
+          "device": "29 Oktoba 2024",
+          "text": "Ni nzuri sana kujifunza",
+          "rating": 5
+        },
+        {
+          "initials": "TT",
+          "name": "Tassala Toure",
+          "device": "21 Machi 2025",
+          "text": "Masha Allah nimependa sana Mwenyezi Mungu awabariki kwa juhudi mnazofanya kwa jumuiya ya Waislamu 🤲barakallahu fikum🤲",
+          "rating": 5
+        },
+        {
+          "initials": "MD",
+          "name": "Mohamed Diawara",
+          "device": "27 Juni 2025",
+          "text": "ninapenda sana asante kwa wote",
+          "rating": 5
+        },
+        {
+          "initials": "FA",
+          "name": "Ferjani Ali",
+          "device": "5 Novemba 2025",
+          "text": "programu bora zaidi muendelee hivyo 😍😍🥰",
+          "rating": 5
+        },
+        {
+          "initials": "MA",
+          "name": "moustapha ahmed",
+          "device": "22 Agosti 2025",
+          "text": "Programu nzuri Mwenyezi Mungu awalipe kwa hilo",
+          "rating": 5
+        },
+        {
+          "initials": "MB",
+          "name": "Mariam Barry",
+          "device": "4 Oktoba 2025",
+          "text": "programu nzuri sana ☺ napendekeza",
+          "rating": 5
+        },
+        {
+          "initials": "DO",
+          "name": "Dramane Ouattara",
+          "device": "19 Julai 2025",
+          "text": "programu hii ni bora zaidi ya nyakati zote",
+          "rating": 5
+        },
+        {
+          "initials": "AG",
+          "name": "Assane Gnamou",
+          "device": "17 Mei 2025",
+          "text": "rahisi kutumia",
+          "rating": 5
+        },
+        {
+          "initials": "AL",
+          "name": "Amadou Lee",
+          "device": "27 Novemba 2025",
+          "text": "ni programu nzuri sana",
+          "rating": 5
+        },
+        {
+          "initials": "OD",
+          "name": "Ousseynou DIOP",
+          "device": "22 Machi 2025",
+          "text": "isiyowazika asante sana",
+          "rating": 5
+        },
+        {
+          "initials": "ZJ",
+          "name": "Zakaria Jose Kone",
+          "device": "4 Machi 2026",
+          "text": "nzuri sana programu hii",
+          "rating": 5
+        },
+        {
+          "initials": "MD",
+          "name": "Mr dof Dof",
+          "device": "24 Juni 2025",
+          "text": "makosa mengi sana ikilinganishwa na Qur'ani halisi",
+          "rating": 5
+        },
+        {
+          "initials": "OM",
+          "name": "Omar Manè",
+          "device": "4 Machi 2025",
+          "text": "Ya ajabu kweli Masha Allah",
+          "rating": 5
+        },
+        {
+          "initials": "KI",
+          "name": "Koné Idris",
+          "device": "29 Mei 2025",
+          "text": "programu nzuri sana",
+          "rating": 5
+        },
+        {
+          "initials": "KK",
+          "name": "kourouma kaman",
+          "device": "25 Septemba 2025",
+          "text": "programu nzuri sana",
+          "rating": 5
+        },
+        {
+          "initials": "OD",
+          "name": "Ousseynou DIOP",
+          "device": "28 Julai 2025",
+          "text": "ninaipenda ni nzuri sana",
+          "rating": 5
+        },
+        {
+          "initials": "MM",
+          "name": "Mr MANANGA",
+          "device": "19 Februari 2026",
+          "text": "kiongozi bora wa kiroho",
+          "rating": 5
+        },
+        {
+          "initials": "TM",
+          "name": "Tyz Man86",
+          "device": "8 Desemba 2025",
+          "text": "mnahitaji kuboresha mambo machache",
+          "rating": 5
+        },
+        {
+          "initials": "SI",
+          "name": "Samba Ichrach",
+          "device": "8 Novemba 2025",
+          "text": "hakuna la kusema nimepata nilichokuwa nikitafuta",
+          "rating": 5
+        },
+        {
+          "initials": "RB",
+          "name": "Rasta Barou",
+          "device": "7 Oktoba 2025",
+          "text": "nimependa sana",
+          "rating": 5
+        },
+        {
+          "initials": "NG",
+          "name": "Nadia GbaneDIABY",
+          "device": "10 Novemba 2025",
+          "text": "Alhamdulillah! Ina manufaa ya ajabu!!!",
+          "rating": 5
+        },
+        {
+          "initials": "DM",
+          "name": "DaoudaDiallo Malide",
+          "device": "20 Machi 2025",
+          "text": "nimethamini sana",
+          "rating": 5
+        },
+        {
+          "initials": "SB",
+          "name": "Saitama Black God 777",
+          "device": "23 Novemba 2024",
+          "text": "Masha Allah ndicho wengi wanachotafuta",
+          "rating": 5
+        },
+        {
+          "initials": "MS",
+          "name": "Mamoudou Sylla",
+          "device": "2 Novemba 2024",
+          "text": "ALHAMDULILLAH NAWASHUKURU SANA IMEKUWA MUDA MREFU NIKITAFUTA HII KWENYE MTANDAO NIMEPATA HATIMAYE MWENYEZI MUNGU AWABARIKI NYINYI NA FAMILIA YENU ASANTE SANA!",
+          "rating": 5
+        },
+        {
+          "initials": "IK",
+          "name": "Ibrahim Konsigui",
+          "device": "18 Novemba 2025",
+          "text": "aya zinakataa kupakuliwa",
+          "rating": 5
+        },
+        {
+          "initials": "YK",
+          "name": "Youss Kouadio",
+          "device": "22 Oktoba 2025",
+          "text": "nzuri sana programu hii",
+          "rating": 5
+        },
+        {
+          "initials": "AB",
+          "name": "Alhasko Bob",
+          "device": "2 Mei 2025",
+          "text": "programu bora zaidi duniani",
+          "rating": 5
+        }
+      ]
+    },
+    "cta": {
+      "title": "Anza safari yako ya kujifunza leo",
+      "subtitle": "Pakua Noor Phonetic Quran bure na ubadilishe uzoefu wako wa kusoma Qur'ani.",
+      "downloadOn": "Pakua kwenye"
+    }
+  },
+  "cgu": {
+    "meta": {
+      "title": "Masharti ya Jumla ya Matumizi - Noor Phonetic Quran",
+      "description": "Masharti ya jumla ya matumizi ya Noor Phonetic Quran: ufikiaji wa huduma, akaunti ya mtumiaji, usajili wa Premium, umiliki wa kiakili, wajibu na sheria inayotumika.",
+      "keywords": "CGU Noor Phonetic Quran, masharti ya jumla ya matumizi, masharti ya matumizi programu ya Qur'ani"
+    },
+    "appName": "Noor Phonetic Quran",
+    "pageTitle": "MASHARTI YA JUMLA YA MATUMIZI",
+    "updateDate": "Sasisho la mwisho: 31 Julai 2026",
+    "intro1": "Masharti haya ya Jumla ya Matumizi (\"CGU\") yanasimamia ufikiaji na matumizi ya programu ya simu Noor Phonetic Quran (\"Programu\", \"sisi\", \"yetu\" au \"zetu\"), inayochapishwa kibinafsi na inayopatikana kwenye Google Play na App Store. Kwa kupakua, kusakinisha au kutumia Programu, unakubali kufungwa na Masharti haya ya Jumla ya Matumizi. Ikiwa hukubaliani na masharti haya, tafadhali usitumie Programu.",
+    "intro2Before": "Kwa taarifa yoyote kuhusu usindikaji wa data zako binafsi, tafadhali angalia",
+    "intro2LinkText": "Sera yetu ya Faragha",
+    "intro2After": ", ambayo inakamilisha Masharti haya ya Jumla ya Matumizi.",
+    "summary": {
+      "heading": "MUHTASARI WA MAMBO MUHIMU",
+      "intro": "Muhtasari huu unatoa mambo muhimu ya CGU zetu, lakini tunakualika kusoma hati nzima kupitia orodha ya yaliyomo hapa chini.",
+      "points": [
+        {
+          "question": "Programu inatoa nini?",
+          "answer": "Seti ya zana za bure na za kulipia za kusoma, kujifunza na kuhifadhi Qur'ani: usomaji wa kifonetiki na wa Kiarabu (usomaji wa Hafs na Warsh), tajweed, uhifadhi wa mchezo, ufuatiliaji wa khatma, marekebisho ya usomaji kwa kurekodi sauti, maswali, redio/TV za Kiislamu moja kwa moja na kifaa cha \"aya ya siku\" kwenye skrini ya nyumbani."
+        },
+        {
+          "question": "Je, ninahitaji akaunti?",
+          "answer": "Hapana, sehemu kubwa ya Programu inaweza kutumika bila akaunti. Akaunti ya hiari (barua pepe, Google au Apple) inaruhusu kusawazisha maendeleo yako na usajili wako wa Premium."
+        },
+        {
+          "question": "Je, Programu ni ya kulipia?",
+          "answer": "Programu ni ya bure ikiwa na matangazo. Usajili wa hiari wa Premium, unaosimamiwa kupitia Google Play au App Store, unaondoa matangazo na kufungua vipengele vya juu zaidi."
+        },
+        {
+          "question": "Je, ninaweza kurekodi sauti yangu?",
+          "answer": "Ndiyo, kipengele cha marekebisho ya usomaji kinarekodi sauti yako kwa njia ya ndani ili kuchambua matamshi yako. Angalia sehemu maalum kwa maelezo ya jinsi inavyofanya kazi na wajibu wako."
+        },
+        {
+          "question": "Nani anayehusika na maudhui ya kidini?",
+          "answer": "Tunafanya kila juhudi kuhakikisha uaminifu wa maandishi, tafsiri na uandishi wa kifonetiki, lakini Programu ni zana ya kielimu na haichukui nafasi ya elimu ya kimapokeo kutoka kwa mwalimu mwenye ujuzi."
+        },
+        {
+          "question": "Tunawasilianaje?",
+          "answer": "Kupitia fomu ya mawasiliano iliyojumuishwa katika Programu au kwa barua pepe kwa othmeneb@gmail.com."
+        }
+      ]
+    },
+    "toc": {
+      "heading": "ORODHA YA YALIYOMO",
+      "items": [
+        {
+          "id": "service",
+          "label": "1. HUDUMA"
+        },
+        {
+          "id": "eligibility",
+          "label": "2. UHITIMU"
+        },
+        {
+          "id": "account",
+          "label": "3. AKAUNTI YA MTUMIAJI"
+        },
+        {
+          "id": "premium",
+          "label": "4. USAJILI WA PREMIUM NA MANUNUZI YALIYOJUMUISHWA"
+        },
+        {
+          "id": "recitation",
+          "label": "5. MAREKEBISHO YA USOMAJI NA MAREKODI YA SAUTI"
+        },
+        {
+          "id": "conduct",
+          "label": "6. KANUNI ZA MATUMIZI"
+        },
+        {
+          "id": "ip",
+          "label": "7. UMILIKI WA KIAKILI"
+        },
+        {
+          "id": "religious-content",
+          "label": "8. MAUDHUI YA KIDINI NA KIELIMU"
+        },
+        {
+          "id": "accessibility",
+          "label": "9. UFIKIVU"
+        },
+        {
+          "id": "ads",
+          "label": "10. MATANGAZO NA HUDUMA ZA WAHUSIKA WENGINE"
+        },
+        {
+          "id": "availability",
+          "label": "11. UPATIKANAJI NA MAREKEBISHO YA HUDUMA"
+        },
+        {
+          "id": "termination",
+          "label": "12. KUSIMAMISHWA NA KUKATIZWA"
+        },
+        {
+          "id": "disclaimer",
+          "label": "13. KIKOMO CHA WAJIBU"
+        },
+        {
+          "id": "law",
+          "label": "14. SHERIA INAYOTUMIKA NA MIGOGORO"
+        },
+        {
+          "id": "updates",
+          "label": "15. MAREKEBISHO YA CGU"
+        },
+        {
+          "id": "contact",
+          "label": "16. WASILIANA NASI"
+        }
+      ]
+    },
+    "sections": {
+      "service": {
+        "heading": "1. HUDUMA",
+        "intro": "Noor Phonetic Quran ni programu ya simu inayoruhusu kusoma, kujifunza na kuhifadhi Qur'ani, hasa kupitia:",
+        "items": [
+          "usomaji wa Qur'ani kwa uandishi wa kifonetiki na kwa Kiarabu (usomaji wa Hafs na Warsh), pamoja na tafsiri na sauti;",
+          "masomo ya matamshi na tajweed, yenye marekebisho ya usomaji kwa kurekodi sauti;",
+          "moduli ya kuhifadhi yenye mchezo (viwango, beji, changamoto za kila siku) na mpango wa kujifunza wa kila siku;",
+          "ufuatiliaji wa khatma (usomaji kamili wa Qur'ani) na programu maalum ya Ramadhani;",
+          "adhkar za kila siku, maswali ya maarifa ya Kiislamu, redio na chaneli za TV za Kiislamu moja kwa moja;",
+          "kifaa cha \"aya ya siku\" kinachoweza kuonyeshwa kwenye skrini ya nyumbani ya kifaa chako (iOS na Android)."
+        ],
+        "outro": "Vipengele hivi vinaweza kubadilika, kuongezwa au kuondolewa kadri ya masasisho ya Programu, bila hilo kuwa marekebisho makubwa ya Masharti haya ya Jumla ya Matumizi."
+      },
+      "eligibility": {
+        "heading": "2. UHITIMU",
+        "body": "Programu inalenga mtu yeyote anayetaka kujifunza au kufanya mazoezi ya usomaji wa Qur'ani. Ikiwa wewe ni mtoto mdogo, matumizi ya Programu lazima yafanyike chini ya usimamizi wa mzazi au mlezi wa kisheria, hasa kwa kipengele chochote kinachohusisha ununuzi uliojumuishwa."
+      },
+      "account": {
+        "heading": "3. AKAUNTI YA MTUMIAJI",
+        "brief": "Kwa ufupi",
+        "briefText": "Akaunti ni ya hiari na inatumika tu kusawazisha maendeleo yako na usajili wako.",
+        "body": "Sehemu kubwa ya vipengele vya Programu vinaweza kufikiwa bila kuunda akaunti. Unaweza kuunda akaunti ya hiari kwa barua pepe, kupitia Google au kupitia Apple, ili kuhifadhi maendeleo yako (kuhifadhi, khatma, mpango wa kila siku) na hadhi yako ya Premium endapo utabadilisha kifaa. Unawajibika kwa usiri wa vitambulisho vyako na shughuli yoyote inayofanywa kutoka akaunti yako. Unaweza kuomba ufutaji wa akaunti yako na data zinazohusiana wakati wowote kwa kuwasiliana nasi (angalia sehemu ya 16) au kutoka mipangilio ya Programu pale chaguo hilo linapopatikana."
+      },
+      "premium": {
+        "heading": "4. USAJILI WA PREMIUM NA MANUNUZI YALIYOJUMUISHWA",
+        "brief": "Kwa ufupi",
+        "briefText": "Programu ni ya bure ikiwa na matangazo; usajili wa Premium (unaosimamiwa na Google Play au App Store) unaondoa matangazo na kufungua vipengele vya juu zaidi.",
+        "body": "Manunuzi yaliyojumuishwa (hasa usajili wa Premium) yanashughulikiwa moja kwa moja na Google Play au App Store kulingana na jukwaa lako, kwa kufuata masharti yao wenyewe ya matumizi na sera za malipo. Malipo, upyaishaji wa kiotomatiki, ufutaji na urejeshaji wa usajili unasimamiwa kutoka mipangilio ya akaunti yako ya Google Play au Apple ID — hatuna ufikiaji wa njia zako za malipo na hatuwezi kuanzisha urejeshaji moja kwa moja. Maudhui na wigo halisi wa manufaa ya Premium yanaelezwa ndani ya Programu wakati wa ununuzi na yanaweza kubadilika kadri ya masasisho."
+      },
+      "recitation": {
+        "heading": "5. MAREKEBISHO YA USOMAJI NA MAREKODI YA SAUTI",
+        "brief": "Kwa ufupi",
+        "briefText": "Marekodi yako ya usomaji yanatumika kukupatia maoni kuhusu matamshi yako; shiriki tu kile unachostarehe kutuma.",
+        "bodyBefore": "Kipengele cha marekebisho ya usomaji kinakuruhusu kurekodi sauti yako wakati wa usomaji wako wa Qur'ani ili kupokea maoni maalum (ya kiotomatiki na/au kutoka kwa mkaguzi, kulingana na toleo la kipengele linalotumika katika Programu). Kwa kutumia kipengele hiki, unakubali kurekodiwa na kusindikwa kwa sauti yako kwa madhumuni ya kuchambua matamshi na kuboresha ujifunzaji wako. Haupaswi kutuma marekodi yenye kauli haramu, za kashfa au zinazokiuka haki za wahusika wengine. Maelezo ya usindikaji, uhifadhi na muda wa kutunza marekodi haya yameainishwa katika",
+        "linkText": "Sera yetu ya Faragha",
+        "bodyAfter": "."
+      },
+      "conduct": {
+        "heading": "6. KANUNI ZA MATUMIZI",
+        "intro": "Kwa kutumia Programu, unajitolea kutofanya yafuatayo:",
+        "items": [
+          "kutumia Programu kwa malengo haramu au kinyume na Masharti haya ya Jumla ya Matumizi;",
+          "kujaribu kufikia bila idhini mifumo yetu, kuivuruga au kupita hatua zake za usalama;",
+          "kutenganisha, kubomoa au kujaribu kutoa msimbo chanzi wa Programu, isipokuwa pale sheria inaporuhusu wazi;",
+          "kunakili, kusambaza tena au kutumia kibiashara sehemu yoyote au yote ya maudhui ya Programu bila idhini ya awali;",
+          "kutumia zana za kiotomatiki (bots, scrapers) kufikia Programu au kutoa data kutoka humo."
+        ]
+      },
+      "ip": {
+        "heading": "7. UMILIKI WA KIAKILI",
+        "body": "Programu, msimbo wake, muundo wake, michoro yake na maudhui ya kielimu yanayohusiana nayo (masomo ya tajweed, muundo wa mpango wa kujifunza, n.k.) yanalindwa na sheria ya umiliki wa kiakili na yanabaki mali yetu au ya wale wanaotupatia leseni. Maandishi ya Qur'ani yenyewe ni urithi wa pamoja na hayadaiwi na mtu yeyote; tafsiri, uandishi wa kifonetiki, usomaji wa sauti na maudhui ya tafsiri yaliyojumuishwa yanatoka kwa vyanzo vya wahusika wengine vilivyotambuliwa katika Programu au washirika (wasomaji, wachapishaji wa tafsiri) na yanatumika kulingana na idhini zilizopatikana. Hakuna kifungu chochote cha Masharti haya ya Jumla ya Matumizi kinachokupa haki juu ya vipengele hivi zaidi ya matumizi ya kibinafsi na yasiyo ya kibiashara ya Programu."
+      },
+      "religiousContent": {
+        "heading": "8. MAUDHUI YA KIDINI NA KIELIMU",
+        "brief": "Kwa ufupi",
+        "briefText": "Programu ni zana ya kielimu ya kuandama, si mbadala wa elimu ya kimapokeo.",
+        "body": "Tunafanya kila juhudi kuhakikisha usahihi wa maandishi ya Qur'ani, tafsiri, uandishi wa kifonetiki na kanuni za tajweed zilizowasilishwa katika Programu, hasa kwa kutegemea vyanzo vinavyotambulika. Hata hivyo, uandishi wa kifonetiki kwa asili ni makadirio yanayolenga kurahisisha ujifunzaji na hauchukui nafasi ya kujifunza usomaji wa Kiarabu cha Qur'ani kutoka kwa mwalimu mwenye ujuzi. Vilevile, maoni yanayotolewa na kipengele cha marekebisho ya usomaji ni zana ya msaada wa kujifunza na hayahakikishi uthibitisho wa kidini wa usomaji wako."
+      },
+      "accessibility": {
+        "heading": "9. UFIKIVU",
+        "brief": "Kwa ufupi",
+        "briefText": "Tunafanya kazi ili kufanya Programu itumike na watu wengi zaidi, ikiwa ni pamoja na watu wenye ulemavu.",
+        "body": "Programu inajumuisha taarifa za ufikivu (lebo na majukumu ya Semantics) kwenye skrini na vidhibiti vyake vikuu ili kurahisisha urambazaji na visomaji vya skrini vya asili vya kifaa chako (VoiceOver kwenye iOS, TalkBack kwenye Android). Pia inaheshimu ukubwa wa fonti uliowekwa katika mipangilio ya ufikivu ya mfumo wako wa uendeshaji kwa uonyeshaji wa maandishi. Juhudi hizi za ufikivu ni endelevu na huenda zisijumuishe kwa usawa skrini na vipengele vyote kwa wakati fulani. Ukikutana na tatizo la ufikivu wakati wa kutumia Programu, tunakualika kutujulisha kupitia fomu ya mawasiliano (angalia sehemu ya 16) ili tuweze kuiboresha."
+      },
+      "ads": {
+        "heading": "10. MATANGAZO NA HUDUMA ZA WAHUSIKA WENGINE",
+        "body1Before": "Programu inajumuisha huduma za kiufundi za wahusika wengine (upimaji wa hadhira, uchunguzi wa kiufundi, mfumo wa matangazo, manunuzi yaliyojumuishwa) zilizoelezwa kwa kina katika",
+        "linkText": "Sera yetu ya Faragha",
+        "body1After": ". Huduma hizi zinatii masharti yao wenyewe ya matumizi, ambayo tunakualika kuyasoma.",
+        "body2": "Matangazo mengine ni ya hiari kabisa: unaweza kwa hiari kuchagua kutazama tangazo lenye zawadi (\"rewarded ad\") kutoka menyu ya msaada ya Programu, ikiwa unataka kutuunga mkono bila kupitia usajili wa Premium. Tangazo hili la hiari halionyeshwi kamwe bila hatua yako ya wazi."
+      },
+      "availability": {
+        "heading": "11. UPATIKANAJI NA MAREKEBISHO YA HUDUMA",
+        "body": "Tunajitahidi kudumisha Programu ipatikane na ifanye kazi, bila kuhakikisha upatikanaji endelevu au usio na hitilafu. Baadhi ya vipengele vinahitaji muunganisho wa intaneti (kupakua sauti, redio/TV moja kwa moja, usawazishaji wa akaunti) na huenda visipatikane bila mtandao au endapo huduma ya mhusika mwingine itaharibika. Tunaweza kuongeza, kubadilisha au kuondoa vipengele vya Programu wakati wowote, hasa kwa sababu za kiufundi, kisheria au zinazohusiana na maendeleo ya ushirikiano wetu wa maudhui."
+      },
+      "termination": {
+        "heading": "12. KUSIMAMISHWA NA KUKATIZWA",
+        "body": "Unaweza kuacha kutumia Programu wakati wowote kwa kuiondoa. Tunahifadhi haki ya kusimamisha au kukatiza ufikiaji wako wa Programu, hasa endapo hutazingatia Masharti haya ya Jumla ya Matumizi, bila hilo kuathiri manunuzi yaliyokwisha fanywa kupitia Google Play au App Store, ambayo usimamizi wake ni wa majukwaa hayo."
+      },
+      "disclaimer": {
+        "heading": "13. KIKOMO CHA WAJIBU",
+        "body": "Ndani ya kikomo kinachoruhusiwa na sheria inayotumika, Programu inatolewa \"kama ilivyo\" na \"kulingana na upatikanaji\", bila dhamana ya aina yoyote, ya wazi au ya kudokezwa. Hatutawajibika kwa hasara zisizo za moja kwa moja, za bahati mbaya au zinazotokana na matumizi au kutowezekana kutumia Programu, ikiwa ni pamoja na kutopatikana kwa muda, kupoteza data ya maendeleo, au hitilafu katika maudhui ya mhusika mwingine (tafsiri, sauti, tafsiri ya kina) yaliyojumuishwa katika Programu. Hakuna kitu katika Masharti haya ya Jumla ya Matumizi kinachoondoa wajibu ambao hauwezi kuondolewa kisheria (kwa mfano katika hali ya kosa la kukusudia au uzembe mkubwa)."
+      },
+      "law": {
+        "heading": "14. SHERIA INAYOTUMIKA NA MIGOGORO",
+        "body": "Masharti haya ya Jumla ya Matumizi yanasimamiwa na sheria ya Ufaransa, bila kuathiri masharti ya lazima ya ulinzi wa watumiaji yanayoweza kutumika katika nchi unayoishi. Endapo kutakuwa na mgogoro, suluhisho la amani litatafutwa kwanza kwa kuwasiliana nasi moja kwa moja (angalia sehemu ya 16) kabla ya hatua yoyote ya kisheria."
+      },
+      "updates": {
+        "heading": "15. MAREKEBISHO YA CGU",
+        "brief": "Kwa ufupi",
+        "briefText": "Tunaweza kusasisha Masharti haya ya Jumla ya Matumizi ili kuakisi maendeleo ya Programu au sheria.",
+        "body": "Tunaweza kubadilisha Masharti haya ya Jumla ya Matumizi mara kwa mara, hasa wakati wa kuongeza vipengele vipya. Toleo lililosasishwa litaonyeshwa na tarehe mpya ya \"Sasisho la mwisho\" juu ya ukurasa huu na litakuwa na nguvu mara tu litakapochapishwa. Endapo kutakuwa na marekebisho makubwa, tutakujulisha kupitia taarifa ndani ya Programu. Kuendelea kutumia Programu baada ya kuchapishwa kwa marekebisho kunamaanisha kukubali Masharti yaliyosasishwa."
+      },
+      "contact": {
+        "heading": "16. WASILIANA NASI",
+        "bodyBefore": "Kwa swali lolote kuhusu Masharti haya ya Jumla ya Matumizi, unaweza kuwasiliana nasi kupitia fomu ya mawasiliano iliyojumuishwa katika Programu, au kwa barua pepe kwa",
+        "email": "othmeneb@gmail.com",
+        "bodyAfter": "."
+      }
+    },
+    "footer": "© 2026 Noor Phonetic Quran. Haki zote zimehifadhiwa."
+  },
+  "contactPage": {
+    "meta": {
+      "title": "Wasiliana - Noor Phonetic Quran",
+      "description": "Una swali kuhusu programu ya Noor Phonetic Quran, pendekezo kwa kifonetiki cha Qur'ani au tatizo la kiufundi? Wasiliana na timu yetu, jibu ndani ya saa 48."
+    }
+  },
+  "reviews": {
+    "meta": {
+      "title": "Maoni ya watumiaji - Noor Phonetic Quran",
+      "description": "Gundua zaidi ya maoni 160 yaliyothibitishwa ya watumiaji wa Noor Phonetic Quran, programu ya kujifunza kusoma, kuhifadhi na kusoma Qur'ani kwa kifonetiki, ikiwa na alama ya wastani ya nyota 5."
+    },
+    "eyebrow": "Maoni yaliyothibitishwa",
+    "title": "Wanachosema watumiaji wetu",
+    "subtitle": "Gundua maoni ya jumuiya yetu inayokua ya watumiaji walioridhika",
+    "ratingCountLabel": "kati ya maoni %COUNT%",
+    "loadMoreLabel": "Ona maoni zaidi"
+  },
+  "audioCoran": {
+    "meta": {
+      "title": "Sauti ya Qur'ani Iliyosawazishwa: Wasomaji Kadhaa na Usikilizaji Bila Mtandao | Noor Phonetic Quran",
+      "description": "Sikiliza Qur'ani kwa sauti iliyosawazishwa aya kwa aya, chagua kati ya wasomaji kadhaa na pakua sauti kwa usikilizaji bila mtandao na Noor Phonetic Quran. Bure kwenye iOS na Android.",
+      "keywords": "sauti ya Qur'ani, usomaji wa Qur'ani kwa sauti, wasomaji kadhaa wa Qur'ani, Qur'ani kwa sauti bila mtandao, pakua sauti ya Qur'ani, sikiliza Qur'ani, sauti iliyosawazishwa ya Qur'ani, wasomaji wa Qur'ani programu",
+      "ogTitle": "Sauti ya Qur'ani Iliyosawazishwa: Wasomaji Kadhaa na Usikilizaji Bila Mtandao",
+      "ogDescription": "Sauti iliyosawazishwa aya kwa aya, wasomaji kadhaa na upakuaji bila mtandao. Programu ya bure Noor Phonetic Quran."
+    },
+    "breadcrumb": {
+      "home": "Nyumbani",
+      "current": "Sauti ya Qur'ani"
+    },
+    "hero": {
+      "title": "Sauti ya Qur'ani Iliyosawazishwa: Wasomaji Kadhaa, Usikilizaji Bila Mtandao",
+      "subtitle": "Kila aya inaambatana na sauti iliyosawazishwa ili kusikia matamshi sahihi, ukiwa na uchaguzi wa msomaji na uwezekano wa kupakua sauti kwa usikilizaji bila muunganisho.",
+      "backLink": "Rudi nyumbani",
+      "googlePlay": "Google Play",
+      "appStore": "App Store"
+    },
+    "intro": {
+      "title": "Usikilizaji ulioandaliwa kwa ajili ya ujifunzaji",
+      "paragraph1": "Kusikia matamshi sahihi ni jambo muhimu kwa kujifunza kusoma Qur'ani kwa usahihi. Noor Phonetic Quran inaunganisha kila aya na sauti iliyosawazishwa, ili uweze kufuatilia maandishi, kifonetiki chake na usikilizaji kwa wakati mmoja.",
+      "paragraph2": "Hujazuiliwa kwa msomaji mmoja tu wala muunganisho wa Intaneti wa kudumu: chagua sauti unayopendelea na pakua sauti ili kuibeba popote uendako."
+    },
+    "features": {
+      "title": "Sauti ya Qur'ani inatoa nini",
+      "items": [
+        {
+          "title": "Sauti iliyosawazishwa aya kwa aya",
+          "description": "kila aya inasomwa kwa sauti wakati unaposoma, ili kurekebisha matamshi yako wakati halisi."
+        },
+        {
+          "title": "Wasomaji kadhaa wa kuchagua",
+          "description": "chagua msomaji anayekufaa zaidi kati ya wale wanaopatikana katika programu."
+        },
+        {
+          "title": "Usikilizaji kwa aya, sura au wigo wa sura",
+          "description": "chagua kwa usahihi sehemu ya Qur'ani unayotaka kusikiliza."
+        },
+        {
+          "title": "Kasi ya usomaji inayoweza kubadilishwa",
+          "description": "punguza kasi ya sauti kutoka 0.7x hadi 1x ili kutenganisha vyema kila neno unapojifunza."
+        },
+        {
+          "title": "Upakuaji kwa usikilizaji bila mtandao",
+          "description": "pakua sauti mapema ili kusikiliza Qur'ani bila muunganisho wa Intaneti, popote ulipo."
+        }
+      ]
+    },
+    "screenshots": {
+      "title": "Muhtasari wa sauti ya Qur'ani",
+      "alts": [
+        "Noor Phonetic Quran - Upau wa usomaji wa sauti iliyosawazishwa",
+        "Noor Phonetic Quran - Uchaguzi wa wigo wa aya na upakuaji bila mtandao",
+        "Noor Phonetic Quran - Uchaguzi wa wigo wa sura na urekebishaji wa kasi",
+        "Noor Phonetic Quran - Uchaguzi wa msomaji"
+      ]
+    },
+    "faq": {
+      "title": "Maswali yanayoulizwa mara kwa mara kuhusu sauti ya Qur'ani",
+      "items": [
+        {
+          "question": "Je, sauti imesawazishwa na maandishi?",
+          "answer": "Ndiyo, kila aya inaambatana na sauti iliyosawazishwa ili kusikia matamshi sahihi wakati unafuatilia maandishi na uandishi wake wa kifonetiki."
+        },
+        {
+          "question": "Ni wasomaji wangapi wanaopatikana?",
+          "answer": "Unaweza kuchagua kati ya wasomaji kadhaa wa Qur'ani moja kwa moja katika mipangilio ya usomaji wa sauti, kulingana na mapendeleo yako ya kusikiliza."
+        },
+        {
+          "question": "Je, tunaweza kusikiliza Qur'ani bila mtandao?",
+          "answer": "Ndiyo, unaweza kupakua sauti ya aya, sura au wigo wa sura kwa usikilizaji kamili bila muunganisho wa Intaneti."
+        },
+        {
+          "question": "Je, tunaweza kubadilisha kasi ya usomaji wa sauti?",
+          "answer": "Ndiyo, kasi ya usomaji inaweza kubadilishwa kutoka 0.7x hadi 1x ili kulinganisha usikilizaji na kiwango chako cha ujifunzaji."
+        }
+      ]
+    },
+    "related": {
+      "title": "Gundua pia",
+      "tajweed": "Kanuni za Tajweed",
+      "memorization": "Kuhifadhi Qur'ani (Hifz)",
+      "allFeatures": "Vipengele vyote"
+    }
+  },
+  "privacyPolicy": {
+    "title": "Noor Phonetic Quran",
+    "heading": "SERA YA FARAGHA",
+    "lastUpdated": "Sasisho la mwisho: 28 Julai 2026",
+    "intro1": "Notisi hii ya faragha kwa Noor Phonetic Quran (\"sisi\", \"yetu\" au \"zetu\") inaelezea jinsi na kwa nini tunakusanya, kuhifadhi, kutumia na/au kushiriki taarifa fulani unapotumia programu yetu ya simu Noor Phonetic Quran (\"Huduma\").",
+    "intro2": "Sera hii ya faragha inakamilisha <cguLink>Masharti yetu ya Jumla ya Matumizi</cguLink>, ambayo yanasimamia kwa upana zaidi ufikiaji na matumizi ya Huduma zetu.",
+    "intro3": "Maswali au wasiwasi? Kusoma notisi hii ya faragha kutakusaidia kuelewa haki zako na chaguo lako kuhusu faragha. Ikiwa hukubaliani na sera na taratibu zetu, tafadhali usitumie Huduma zetu. Ikiwa bado una maswali au wasiwasi, tafadhali wasiliana nasi kupitia anwani ifuatayo: <mailLink>othmeneb@gmail.com</mailLink>.",
+    "summary": {
+      "heading": "MUHTASARI WA MAMBO MUHIMU",
+      "intro": "Muhtasari huu unatoa mambo muhimu ya notisi yetu ya faragha, lakini unaweza kupata maelezo zaidi kuhusu kila mada kwa kutumia orodha yetu ya yaliyomo hapa chini.",
+      "q1": {
+        "title": "Ni taarifa gani za kibinafsi tunazoshughulikia?",
+        "text": "Hatukusanyi taarifa yoyote ya utambulisho wa moja kwa moja (jina, barua pepe) isipokuwa ukiunda akaunti ya hiari, kutumia marekebisho ya usomaji au kutuwasiliana kwa hiari kupitia fomu ya mawasiliano. Programu pia inatumia huduma za kiufundi (takwimu za matumizi zisizo na utambulisho, ufuatiliaji wa hitilafu, manunuzi yaliyojumuishwa) zinazoshughulikia vitambulisho vya kiufundi vya kifaa chako. Angalia sehemu \"Ni taarifa gani tunazokusanya?\" kwa maelezo."
+      },
+      "q2": {
+        "title": "Je, tunashughulikia taarifa nyeti za kibinafsi?",
+        "text": "Ikiwa unatumia kipengele cha hiari cha marekebisho ya usomaji, marekodi yako ya sauti (data inayoweza kuchukuliwa kuwa nyeti/ya kibiolojia) inahifadhiwa kwa usalama ili kukupatia maoni kuhusu matamshi yako. Nje ya kipengele hiki cha hiari, hatushughulikii taarifa yoyote nyeti ya kibinafsi."
+      },
+      "q3": {
+        "title": "Je, tunapokea taarifa kutoka kwa wahusika wengine?",
+        "text": "Hapana, hatupokei taarifa yoyote kutoka kwa wahusika wengine nje ya huduma za kiufundi zilizoorodheshwa hapa chini (Firebase, Google AdMob, maduka ya programu)."
+      },
+      "q4": {
+        "title": "Tunashughulikiaje taarifa zako?",
+        "text": "Tunashughulikia taarifa zako ili kuendesha programu, kupima matumizi yake kwa njia ya jumla, kuchunguza matatizo ya kiufundi, kusimamia usajili na kujibu ujumbe wako wa mawasiliano."
+      },
+      "q5": {
+        "title": "Ni katika hali gani na na wahusika gani tunashiriki taarifa za kibinafsi?",
+        "text": "Tunashiriki data fulani za kiufundi na watoa huduma wetu (Google Firebase, Google AdMob) wanaofanya kazi kama wakandarasi wadogo kwa uendeshaji wa programu. Hatuuzi data yoyote."
+      },
+      "q6": {
+        "title": "Ni haki gani ulizonazo?",
+        "text": "Kulingana na eneo lako, unaweza kuwa na haki ya kufikia, kurekebisha, kupinga na kufuta data zako. Angalia sehemu \"Ni haki gani ulizonazo kuhusu faragha?\"."
+      },
+      "q7": {
+        "title": "Unatumiaje haki zako?",
+        "text": "Njia rahisi zaidi ni kuwasiliana nasi kwa <mailLink>othmeneb@gmail.com</mailLink>. Tutajibu ombi lako kulingana na sheria inayotumika."
+      }
+    },
+    "toc": {
+      "heading": "ORODHA YA YALIYOMO",
+      "items": {
+        "collect": "NI TAARIFA GANI TUNAZOKUSANYA?",
+        "process": "TUNASHUGHULIKIAJE TAARIFA ZAKO?",
+        "legal": "NI MISINGI GANI YA KISHERIA TUNAYOTEGEMEA KUSHUGHULIKIA TAARIFA ZAKO ZA KIBINAFSI?",
+        "share": "NI LINI NA NA NANI TUNASHIRIKI TAARIFA ZAKO ZA KIBINAFSI?",
+        "keep": "TUNATUNZA TAARIFA ZAKO KWA MUDA GANI?",
+        "rights": "NI HAKI GANI ULIZONAZO KUHUSU FARAGHA?",
+        "dnt": "UDHIBITI WA VIPENGELE VYA \"DO-NOT-TRACK\"",
+        "usRights": "JE, WAKAZI WA MAREKANI WANA HAKI MAALUM KUHUSU FARAGHA?",
+        "updates": "JE, TUNASASISHA NOTISI HII?",
+        "contact": "TUNAWASILIANAJE KUHUSU NOTISI HII?",
+        "access": "TUNAWEZAJE KUONA, KUSASISHA AU KUFUTA DATA TUNAZOKUSANYA?"
+      }
+    },
+    "sections": {
+      "collect": {
+        "heading": "NI TAARIFA GANI TUNAZOKUSANYA?",
+        "disclosedTitle": "Taarifa za kibinafsi unazotufichulia",
+        "disclosedIntro": "<strong>Kwa ufupi</strong>: Tunakusanya taarifa za kibinafsi unazotupatia kwa hiari, kwa mfano unapounda akaunti, kutumia marekebisho ya usomaji au fomu yetu ya mawasiliano.",
+        "disclosedContact": "Ukituwasiliana kupitia fomu ya mawasiliano iliyojumuishwa katika programu, tunakusanya jina lako, anwani yako ya barua pepe na maudhui ya ujumbe wako, pamoja na taarifa za kiufundi zinazohusiana (jukwaa, lugha, toleo la programu, aina ya kifaa, saa za eneo) ili tuweze kukujibu na kuchunguza matatizo yoyote.",
+        "disclosedAccount": "Ukiunda akaunti ya hiari, tunakusanya anwani yako ya barua pepe (kuingia kwa barua pepe) au taarifa zinazotumwa na Google au Apple wakati wa kuingia kupitia huduma hizo (kitambulisho cha akaunti, jina na anwani ya barua pepe ikiwa utachagua kuzishiriki), ili kuunda na kulinda wasifu wako na kusawazisha maendeleo yako na usajili wako wa Premium.",
+        "audioTitle": "Marekodi ya sauti (marekebisho ya usomaji)",
+        "audioIntro": "<strong>Kwa ufupi</strong>: Ikiwa unatumia marekebisho ya usomaji, marekodi yako ya sauti inatumwa kwa usalama kwenye seva zetu (Google Firebase Storage) ili iweze kuchambuliwa na/au kusikilizwa tena na mkaguzi.",
+        "audioDetail": "Sauti inaweza kuchukuliwa kuwa data ya kibiolojia au nyeti kulingana na sheria inayotumika. Unapotumia kipengele cha marekebisho ya usomaji, marekodi yako ya sauti yanahifadhiwa katika nafasi maalum kwa akaunti yako (Google Firebase Storage), inayofikiwa tu na wewe mwenyewe na wakaguzi walioidhinishwa kushughulikia uwasilishaji wako, kwa madhumuni pekee ya kukupatia maoni kuhusu matamshi yako. Marekodi haya hayatumiwi kwa madhumuni ya matangazo, wala hayashirikiwi na wahusika wengine nje ya watoa huduma wa kiufundi wanaohitajika kwa uhifadhi wao (Google Firebase). Unaweza kuomba ufutaji wa marekodi yako wakati wowote kwa kuwasiliana nasi (angalia sehemu \"Tunawasilianaje\").",
+        "autoTitle": "Data zinazokusanywa kiotomatiki",
+        "autoIntro": "Kama programu nyingi, Noor Phonetic Quran inatumia huduma za kiufundi za wahusika wengine zinazokusanya kiotomatiki data fulani za matumizi na kifaa:",
+        "table": {
+          "headers": {
+            "service": "Huduma",
+            "purpose": "Lengo",
+            "data": "Data zinazohusika"
+          },
+          "rows": {
+            "analytics": {
+              "service": "Google Firebase Analytics",
+              "purpose": "Upimaji wa hadhira na matumizi ya vipengele (skrini zilizotembelewa, vitendo katika programu kama usomaji, kuhifadhi au maswali), kwa njia ya jumla na isiyo na utambulisho",
+              "data": "Kitambulisho cha matangazo/usakinishaji, takwimu za matumizi, lugha, hadhi ya premium"
+            },
+            "crashlytics": {
+              "service": "Google Firebase Crashlytics",
+              "purpose": "Uchunguzi wa kiufundi wa hitilafu za programu ili kurekebisha makosa",
+              "data": "Ripoti za hitilafu, taarifa za kiufundi kuhusu kifaa na mfumo wa uendeshaji"
+            },
+            "auth": {
+              "service": "Google Firebase Authentication",
+              "purpose": "Uundaji na ulinzi wa akaunti yako ya hiari (barua pepe, Google, Apple), usawazishaji wa maendeleo yako na usajili wako",
+              "data": "Anwani ya barua pepe, kitambulisho cha akaunti, njia ya kuingia iliyotumika"
+            },
+            "storage": {
+              "service": "Google Firebase Storage",
+              "purpose": "Uhifadhi salama wa marekodi yako ya sauti ikiwa unatumia marekebisho ya usomaji",
+              "data": "Faili za sauti za sauti yako, zinazohusiana na kitambulisho chako cha akaunti"
+            },
+            "purchases": {
+              "service": "Google Play / App Store (manunuzi yaliyojumuishwa)",
+              "purpose": "Usimamizi wa usajili wa premium (kuondoa matangazo)",
+              "data": "Hadhi na kitambulisho cha ununuzi, vinavyosimamiwa moja kwa moja na Google/Apple"
+            },
+            "admob": {
+              "service": "Google AdMob",
+              "purpose": "Uonyeshaji wa matangazo kwa watumiaji wasio premium (bango, matangazo ya kati) pamoja na matangazo yenye zawadi (\"rewarded ads\") ambayo unaweza kuchagua kutazama kwa hiari ili kutuunga mkono bila kujiunga na usajili wa Premium",
+              "data": "Kitambulisho cha matangazo cha kifaa, data za mwingiliano na matangazo"
+            }
+          }
+        },
+        "att": "Kwenye iOS, uonyeshaji wa matangazo ya kibinafsi unaweza kuambatana na ombi la idhini \"App Tracking Transparency\" (ATT) linalotolewa na mfumo wa uendeshaji. Unaweza kukataa idhini hii wakati wowote kutoka mipangilio ya faragha ya kifaa chako (Mipangilio > Faragha na usalama > Ufuatiliaji); programu inabaki kufanya kazi kikamilifu ukikataa.",
+        "noLocation": "Hatukusanyi eneo lako sahihi; programu haiombi idhini ya kufikia eneo la kijiografia."
+      },
+      "process": {
+        "heading": "TUNASHUGHULIKIAJE TAARIFA ZAKO?",
+        "summary": "<strong>Kwa ufupi</strong>: Tunashughulikia taarifa zako ili kuendesha programu, kujibu maombi yako, kuboresha Huduma zetu na kusimamia usajili wako endapo utakuwa nao.",
+        "detail": "Tunashughulikia data zilizoelezwa hapo juu ili: (i) kutoa na kudumisha vipengele vya programu (usomaji, kuhifadhi, khatma, maswali, marekebisho ya usomaji), (ii) kujibu ujumbe wako uliotumwa kupitia fomu ya mawasiliano, (iii) kuchunguza na kurekebisha matatizo ya kiufundi, (iv) kupima matumizi ya jumla ya vipengele ili kupanga vipaumbele vya maendeleo yetu, (v) kusimamia usajili wa premium na uonyeshaji wa matangazo kwa watumiaji wasio premium."
+      },
+      "legal": {
+        "heading": "NI MISINGI GANI YA KISHERIA TUNAYOTEGEMEA KUSHUGHULIKIA TAARIFA ZAKO ZA KIBINAFSI?",
+        "summary": "<strong>Kwa ufupi</strong>: Tunashughulikia taarifa zako za kibinafsi tu pale tunapoona ni muhimu na tuna sababu halali ya kisheria (yaani msingi wa kisheria) ya kufanya hivyo kwa mujibu wa sheria inayotumika.",
+        "euTitle": "Ikiwa upo Umoja wa Ulaya au Uingereza, sehemu hii inakuhusu.",
+        "euIntro": "Kanuni Kuu ya Ulinzi wa Data (RGPD) na RGPD ya Uingereza zinatulazimisha kueleza misingi halali ya kisheria tunayotegemea kushughulikia taarifa zako za kibinafsi:",
+        "euList": {
+          "consent": "<strong>Idhini</strong>: kwa uonyeshaji wa matangazo ya kibinafsi na upimaji wa hadhira, iliyokusanywa kupitia bango la idhini wakati wa uzinduzi wa kwanza wa programu.",
+          "contract": "<strong>Utekelezaji wa mkataba</strong>: kwa usimamizi wa usajili wako wa premium.",
+          "legitimate": "<strong>Maslahi halali</strong>: kwa uchunguzi wa kiufundi (Crashlytics) na ushughulikiaji wa ujumbe wako wa mawasiliano."
+        },
+        "canadaTitle": "Ikiwa upo Kanada, sehemu hii inakuhusu.",
+        "canadaText": "Tunaweza kushughulikia taarifa zako ikiwa umetupatia idhini maalum, au katika hali fulani zilizoainishwa kisheria (sheria ya ulinzi wa faragha). Tunaweza pia kushughulikia taarifa zako ikiwa hilo ni jambo la busara na kwa malengo ambayo mtu mwenye busara angeyaona yanafaa, kwa mfano kujibu maombi yako ya mawasiliano."
+      },
+      "share": {
+        "heading": "NI LINI NA NA NANI TUNASHIRIKI TAARIFA ZAKO ZA KIBINAFSI?",
+        "summary": "<strong>Kwa ufupi</strong>: Tunashiriki taarifa tu na watoa huduma wa kiufundi wanaohitajika kwa uendeshaji wa programu (Google Firebase, Google AdMob), maduka ya programu (Google Play, App Store) kwa usimamizi wa manunuzi, na ikiwa sheria inatulazimisha. Hatuuzi kamwe data zako kwa wahusika wengine."
+      },
+      "keep": {
+        "heading": "TUNATUNZA TAARIFA ZAKO KWA MUDA GANI?",
+        "summary": "<strong>Kwa ufupi</strong>: Tunatunza taarifa zako kwa muda mrefu kadri inavyohitajika kwa malengo yaliyoelezwa katika notisi hii, isipokuwa sheria inahitaji muda mrefu zaidi wa uhifadhi.",
+        "detail": "Ujumbe uliotumwa kupitia fomu ya mawasiliano unatunzwa kwa muda wa kushughulikia ombi lako kisha kuhifadhiwa au kufutwa. Data za takwimu za jumla (Firebase Analytics) zinatunzwa kulingana na mipangilio chaguo-msingi ya Google Firebase."
+      },
+      "rights": {
+        "heading": "NI HAKI GANI ULIZONAZO KUHUSU FARAGHA?",
+        "summary": "<strong>Kwa ufupi</strong>: Kulingana na nchi unayoishi, unaweza kuwa na haki ya kuomba ufikiaji, urekebishaji au ufutaji wa taarifa zako za kibinafsi, kuondoa idhini yako ya ushughulikiaji, na kupinga ushughulikiaji fulani.",
+        "detail": "Unaweza wakati wowote kuondoa idhini yako ya upimaji wa hadhira na matangazo ya kibinafsi kutoka mipangilio ya faragha inayopatikana katika programu (Mipangilio > Faragha)."
+      },
+      "dnt": {
+        "heading": "UDHIBITI WA VIPENGELE VYA \"DO-NOT-TRACK\"",
+        "text": "Vivinjari vingi vya wavuti na baadhi ya mifumo ya uendeshaji na programu za simu vinajumuisha kipengele cha \"Do-Not-Track\" (\"DNT\") au mpangilio unaoweza kuwasha ili kuashiria upendeleo wako wa faragha. Kwa sasa, hakuna kiwango cha kiteknolojia sanifu cha kutambua na kutekeleza ishara za DNT ambacho kimekamilishwa. Kwa hivyo, kwa sasa hatujibu ishara za kivinjari za DNT. Ikiwa kiwango cha ufuatiliaji mtandaoni kitapitishwa ambacho tutalazimika kukifuata baadaye, tutakujulisha katika toleo lililorekebishwa la notisi hii ya faragha."
+      },
+      "usRights": {
+        "heading": "JE, WAKAZI WA MAREKANI WANA HAKI MAALUM KUHUSU FARAGHA?",
+        "summary": "<strong>Kwa ufupi</strong>: Ikiwa wewe ni mkazi wa Marekani, unafaidika na haki fulani maalum kuhusu ufikiaji wa taarifa zako za kibinafsi, kulingana na jimbo unaloishi. Unaweza kutumia haki hizi kwa kuwasiliana nasi kwenye anwani iliyoainishwa hapa chini."
+      },
+      "updates": {
+        "heading": "JE, TUNASASISHA NOTISI HII?",
+        "summary": "<strong>Kwa ufupi</strong>: Ndiyo, tutasasisha notisi hii ikiwa ni muhimu ili kubaki tukizingatia sheria husika.",
+        "detail": "Tunaweza kusasisha notisi hii ya faragha mara kwa mara. Toleo lililosasishwa litaonyeshwa na tarehe ya \"Marekebisho\" iliyosasishwa na litakuwa na nguvu mara tu litakapopatikana. Ikiwa tutafanya marekebisho makubwa kwa notisi hii ya faragha, tunaweza kukujulisha ama kwa kuchapisha taarifa inayoonekana wazi ya marekebisho haya, au kwa kukutumia notisi moja kwa moja. Tunakuhimiza kuangalia mara kwa mara notisi hii ya faragha ili kufahamu jinsi tunavyolinda taarifa zako."
+      },
+      "contact": {
+        "heading": "TUNAWASILIANAJE KUHUSU NOTISI HII?",
+        "text": "Ikiwa una maswali au maoni kuhusu notisi hii, unaweza kutuma barua pepe kwa <mailLink>othmeneb@gmail.com</mailLink>."
+      },
+      "access": {
+        "heading": "TUNAWEZAJE KUONA, KUSASISHA AU KUFUTA DATA TUNAZOKUSANYA?",
+        "text": "Kulingana na sheria zinazotumika katika nchi yako, unaweza kuwa na haki ya kuomba ufikiaji wa taarifa za kibinafsi tunazoshikilia kukuhusu, kuzirekebisha au kuzifuta. Kwa hilo, inatosha kuwasiliana nasi kwa <mailLink>othmeneb@gmail.com</mailLink>; tutashughulikia ombi lako haraka iwezekanavyo."
+      }
+    },
+    "footer": "© 2026 Noor Phonetic Quran. Haki zote zimehifadhiwa.",
+    "meta": {
+      "title": "Sera ya Faragha - Noor Phonetic Quran",
+      "description": "Sera ya faragha ya Noor Phonetic Quran: data iliyokusanywa (uchambuzi, ununuzi, fomu ya mawasiliano), madhumuni, kushiriki na wahusika wengine na haki zako."
+    }
+  },
+  "correctionRecitation": {
+    "meta": {
+      "title": "Marekebisho ya Usomaji wa Qur'ani: Jirekodi na Uendelee | Noor Phonetic Quran",
+      "description": "Rekodi usomaji wako wa Qur'ani na upokee marekebisho maalum na Noor Phonetic Quran: uboreshaji wa matamshi na uzingatiaji wa kanuni za Tajweed. Bure kwenye iOS na Android.",
+      "keywords": "marekebisho ya usomaji wa Qur'ani, boresha usomaji wako, marekebisho ya Tajweed, rekodi usomaji wako, programu ya marekebisho ya Qur'ani, jifunze kusoma Qur'ani kwa usahihi",
+      "ogTitle": "Marekebisho ya Usomaji wa Qur'ani: Jirekodi na Uendelee",
+      "ogDescription": "Rekodi usomaji wako na upokee marekebisho maalum ili kuendelea katika matamshi na Tajweed. Programu ya bure Noor Phonetic Quran."
+    },
+    "breadcrumb": {
+      "home": "Nyumbani",
+      "current": "Marekebisho ya usomaji"
+    },
+    "hero": {
+      "title": "Marekebisho ya Usomaji wa Qur'ani: Jirekodi na Uendelee",
+      "subtitle": "Rekodi usomaji wako moja kwa moja ndani ya programu na upokee marekebisho maalum ili kuboresha matamshi yako na uzingatiaji wa kanuni za Tajweed."
+    },
+    "intro": {
+      "title": "Kwa nini kurekebisha usomaji wako?",
+      "paragraph1": "Kusoma kwa usahihi hakuishii tu kusoma kifonetiki kwa usahihi: uzingatiaji wa kanuni za Tajweed (uongezaji wa muda, viunganisho, sehemu za kutoka za herufi) mara nyingi unahitaji maoni ya nje ili kubaini kile kinachopaswa kuboreshwa.",
+      "paragraph2": "Na Noor Phonetic Quran, unaweza kujirekodi moja kwa moja ndani ya programu na kupokea marekebisho maalum, bila haja ya kutafuta mwalimu anayepatikana wakati wote."
+    },
+    "steps": {
+      "title": "Marekebisho ya usomaji yanafanya kazi vipi?",
+      "items": [
+        {
+          "title": "Chagua kifungu",
+          "text": "chagua sura na aya unazotaka kusoma."
+        },
+        {
+          "title": "Rekodi usomaji wako",
+          "text": "moja kwa moja kutoka programu, bila vifaa vya ziada."
+        },
+        {
+          "title": "Tuma marekodi yako",
+          "text": "usomaji wako unawekwa kwenye foleni ili kusikilizwa."
+        },
+        {
+          "title": "Pokea marekebisho yako",
+          "text": "jibu maalum linakuonyesha mambo ya kuboresha, moja kwa moja ndani ya programu."
+        },
+        {
+          "title": "Endelea kadri ya marekodi",
+          "text": "rudia zoezi mara kwa mara ili kuboresha matamshi yako na Tajweed yako."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Maswali yanayoulizwa mara kwa mara kuhusu marekebisho ya usomaji",
+      "items": [
+        {
+          "question": "Je, marekebisho ya usomaji ni ya bure?",
+          "answer": "Rekodi ya kwanza ni ya bure. Zaidi ya hapo, kipengele hiki ni sehemu ya toleo la premium la programu."
+        },
+        {
+          "question": "Inachukua muda gani kupokea marekebisho?",
+          "answer": "Marekodi yako yanawekwa kwenye foleni ili kusikilizwa na kurekebishwa, ukiwa na jibu maalum moja kwa moja ndani ya programu."
+        },
+        {
+          "question": "Je, ninaweza kurekodi tena mara kadhaa kifungu kimoja?",
+          "answer": "Ndiyo, unaweza kurudia zoezi mara nyingi kadri unavyotaka ili kuendelea kwenye kifungu kimoja."
+        }
+      ]
+    },
+    "related": {
+      "title": "Gundua pia",
+      "tajweed": "Kanuni za Tajweed",
+      "memorisation": "Kuhifadhi Qur'ani (Hifz)",
+      "allFeatures": "Vipengele vyote"
+    }
+  },
+  "khatmaCoran": {
+    "meta": {
+      "title": "Khatma ya Qur'ani: Programu ya Kupanga na Kufuatilia Usomaji Wako Kamili | Noor Phonetic Quran",
+      "description": "Panga Khatma yako (usomaji kamili wa Qur'ani) na programu ya Noor Phonetic Quran: malengo ya kila siku, ufuatiliaji wa maendeleo, mfululizo wa siku (streak) na vikumbusho. Bure kwenye iOS na Android.",
+      "keywords": "Khatma ya Qur'ani, programu ya khatma, soma Qur'ani nzima, mpango wa usomaji wa Qur'ani, lengo la Khatma Ramadhani, ufuatiliaji wa usomaji wa Qur'ani, kumaliza Qur'ani",
+      "ogTitle": "Khatma ya Qur'ani: Panga na Fuatilia Usomaji Wako Kamili",
+      "ogDescription": "Panga Khatma yako ukiwa na malengo ya kila siku, ufuatiliaji wa maendeleo na vikumbusho. Programu ya bure Noor Phonetic Quran."
+    },
+    "breadcrumb": {
+      "home": "Nyumbani",
+      "current": "Khatma ya Qur'ani"
+    },
+    "hero": {
+      "title": "Khatma ya Qur'ani: Panga na Umalize Usomaji Wako Kamili",
+      "subtitle": "Weka lengo la siku, fuatilia maendeleo yako ya kila siku na weka mfululizo wako wa usomaji (streak) hadi ukurasa wa mwisho wa Qur'ani Tukufu, ukiwa na vikumbusho vya kubaki mtaratibu.",
+      "googlePlay": "Google Play",
+      "appStore": "App Store"
+    },
+    "intro": {
+      "title": "Khatma ni nini?",
+      "paragraph1": "Khatma inarejelea usomaji kamili wa Qur'ani, tangu mwanzo (Al-Fatiha) hadi mwisho (An-Nas). Waislamu wengi hufanya Khatma wakati wa mwezi wa Ramadhani, lakini inaweza pia kufanywa wakati wowote wa mwaka, kwa muda unaochagua wewe mwenyewe.",
+      "paragraph2": "Kumaliza Qur'ani kunahitaji uthabiti: bila mpango wa usomaji wala ufuatiliaji, ni rahisi kupoteza mwelekeo au kuacha njiani. Hilo ndilo hasa kipengele cha Khatma cha Noor Phonetic Quran kinachotatua."
+    },
+    "features": {
+      "title": "Khatma inafanya kazi vipi katika programu?",
+      "items": [
+        {
+          "title": "Chagua muda wa Khatma yako",
+          "description": "kwa mfano siku 30 kwa Ramadhani, au muda maalum unaolingana na kasi yako."
+        },
+        {
+          "title": "Fuatilia lengo lako la kila siku",
+          "description": "programu inahesabu kiotomatiki idadi ya kurasa za kusoma kila siku ili kumaliza kwa wakati."
+        },
+        {
+          "title": "Weka mfululizo wako wa usomaji (streak)",
+          "description": "kila siku unayofikia lengo lako inaongeza mfululizo wako, msukumo wa ziada wa kubaki mtaratibu."
+        },
+        {
+          "title": "Pokea vikumbusho",
+          "description": "arifa zinakusaidia kutosahau usomaji wako wa siku."
+        },
+        {
+          "title": "Sherehekea mwisho wa Khatma yako",
+          "description": "muhtasari wa safari yako (siku zilizochukuliwa, mfululizo bora) unaonyeshwa mara Qur'ani inapokamilika."
+        }
+      ]
+    },
+    "screenshots": {
+      "title": "Muhtasari wa kipengele cha Khatma",
+      "alts": [
+        "Noor Phonetic Quran - Uchaguzi wa mpango wa Khatma (siku 30, 60, 90 au Ramadhani)",
+        "Noor Phonetic Quran - Ufuatiliaji wa maendeleo ya Khatma na streak",
+        "Noor Phonetic Quran - Kiashiria cha Khatma kinachoonyeshwa wakati wa usomaji"
+      ]
+    },
+    "faq": {
+      "title": "Maswali yanayoulizwa mara kwa mara kuhusu Khatma",
+      "items": [
+        {
+          "question": "Khatma ya Qur'ani ni nini?",
+          "answer": "Khatma inarejelea usomaji kamili wa Qur'ani, tangu mwanzo hadi mwisho, kwa kawaida ukifanywa katika kipindi maalum (mara nyingi wakati wa mwezi wa Ramadhani, lakini pia mwaka mzima)."
+        },
+        {
+          "question": "Ninapangaje Khatma na programu hii?",
+          "answer": "Chagua idadi ya siku za kumaliza Qur'ani (kwa mfano siku 30 kwa Ramadhani), programu inahesabu kiotomatiki lengo lako la kurasa za kila siku na kufuatilia maendeleo yako siku baada ya siku."
+        },
+        {
+          "question": "Nini kinatokea nikikosa siku ya usomaji?",
+          "answer": "Programu inarekebisha lengo lako la kila siku lililobaki ili kukuruhusu kupata upya uliyokosa na kumaliza Khatma yako kwa wakati, huku ikiendelea kufuatilia mfululizo wako wa siku mfululizo (streak)."
+        },
+        {
+          "question": "Je, ninaweza kufanya Khatma nje ya Ramadhani?",
+          "answer": "Ndiyo, unaweza kuanza Khatma wakati wowote wa mwaka, kwa muda unaochagua wewe mwenyewe."
+        },
+        {
+          "question": "Je, kipengele cha Khatma ni cha bure?",
+          "answer": "Ndiyo, kama vipengele vyote vikuu vya Noor Phonetic Quran, Khatma ni ya bure kabisa."
+        }
+      ]
+    },
+    "related": {
+      "title": "Gundua pia",
+      "memorization": "Kuhifadhi Qur'ani (Hifz)",
+      "audio": "Sauti ya Qur'ani",
+      "allFeatures": "Vipengele vyote"
+    }
+  },
+  "tajweedCoran": {
+    "meta": {
+      "title": "Kanuni za Tajweed za Qur'ani: Ujifunzaji wenye Rangi na wa Kina | Noor Phonetic Quran",
+      "description": "Jifunze kanuni za Tajweed za Qur'ani na Noor Phonetic Quran: rangi na maelezo wakati wa usomaji, sehemu za matamshi za herufi (Makharej), kanuni za Noun Sâkinah na Waqf. Bure kwenye iOS na Android.",
+      "keywords": "kanuni za Tajweed, Tajweed ya Qur'ani, jifunze Tajweed, Tajweed yenye rangi, Makharej za herufi za Kiarabu, Noun Sakinah Tanwin, Waqf Ibtida, programu ya Tajweed bure",
+      "ogTitle": "Kanuni za Tajweed za Qur'ani: Ujifunzaji wenye Rangi na wa Kina",
+      "ogDescription": "Rangi na maelezo wakati wa usomaji, sehemu za matamshi, kanuni za Noun Sâkinah na Waqf. Programu ya bure Noor Phonetic Quran."
+    },
+    "breadcrumb": {
+      "home": "Nyumbani",
+      "current": "Kanuni za Tajweed"
+    },
+    "hero": {
+      "title": "Kanuni za Tajweed za Qur'ani: Ujifunzaji wenye Rangi na wa Kina",
+      "subtitle": "Maandishi ya Qur'ani yanaonyeshwa yenye rangi na maelezo kulingana na kanuni za Tajweed, yakiambatana na miongozo ya kina kuhusu sehemu za matamshi, Noun Sâkinah na kanuni za kusimama na kuendelea.",
+      "backLink": "Rudi nyumbani",
+      "googlePlay": "Google Play",
+      "appStore": "App Store"
+    },
+    "intro": {
+      "title": "Kwa nini Tajweed ni muhimu",
+      "paragraph1": "Tajweed ni seti ya kanuni zinazohakikisha usomaji sahihi wa Qur'ani: matamshi sahihi ya kila herufi, uongezaji wa muda, viunganisho, na mahali ambapo mtu anaweza kusimama au kuendelea na usomaji wake. Kusoma bila kuzingatia Tajweed kunaweza kubadilisha maana ya maandishi.",
+      "paragraph2": "Noor Phonetic Quran inafanya kanuni hizi zionekane na zieleweke, ikiwa na rangi wakati wa usomaji na miongozo ya kina ya kuchunguza kila dhana kwa undani."
+    },
+    "features": {
+      "title": "Ujifunzaji wa Tajweed unatoa nini",
+      "items": [
+        {
+          "title": "Maandishi yenye rangi na maelezo",
+          "description": "rangi na maelezo yanaongoza usomaji wako moja kwa moja kwenye maandishi ya Qur'ani, kulingana na kanuni sahihi za Tajweed."
+        },
+        {
+          "title": "Sehemu za matamshi (Makharej)",
+          "description": "jifunze matamshi sahihi ya kila herufi ya Kiarabu kuanzia sehemu yake ya matamshi, ukiwa na michoro ya anatomia."
+        },
+        {
+          "title": "Noun Sâkinah na Tanwîn",
+          "description": "kanuni 4 zinazosimamia noun sâkinah na tanwîn (Izhâr, Idghâm, Iqlâb, Ikhfâ') zilizoelezwa na kulinganishwa kwa picha."
+        },
+        {
+          "title": "Waqf na Ibtidā",
+          "description": "kanuni zinazobainisha mahali ambapo kusimama na kuendelea kwa usomaji kunaruhusiwa, ili kuhifadhi maana ya maandishi."
+        }
+      ]
+    },
+    "screenshots": {
+      "title": "Muhtasari wa kanuni za Tajweed",
+      "alts": [
+        "Noor Phonetic Quran - Kanuni za Tajweed zenye rangi wakati wa usomaji",
+        "Noor Phonetic Quran - Sehemu za matamshi za herufi za Kiarabu (Makharej)",
+        "Noor Phonetic Quran - Kanuni za Noun Sâkinah na Tanwîn",
+        "Noor Phonetic Quran - Kanuni za Waqf na Ibtidā (kusimama na kuendelea)"
+      ]
+    },
+    "faq": {
+      "title": "Maswali yanayoulizwa mara kwa mara kuhusu Tajweed",
+      "items": [
+        {
+          "question": "Tajweed ni nini?",
+          "answer": "Tajweed ni seti ya kanuni zinazosimamia matamshi sahihi ya Qur'ani: uongezaji wa muda, viunganisho, sehemu za matamshi za herufi na kanuni za kusimama na kuendelea kwa usomaji."
+        },
+        {
+          "question": "Programu inafundishaje Tajweed?",
+          "answer": "Maandishi ya Qur'ani yana rangi na maelezo kulingana na kanuni za Tajweed wakati wa usomaji, na miongozo ya kina inaelezea kila kanuni: sehemu za matamshi, Noun Sâkinah na Tanwîn, pamoja na kanuni za Waqf na Ibtidā."
+        },
+        {
+          "question": "Je, Tajweed inafaa kwa wanaoanza?",
+          "answer": "Ndiyo, kila kanuni inaelezwa kwa ufafanuzi rahisi, mifano na ulinganisho wa picha ili kurahisisha ujifunzaji, hata bila maarifa ya awali."
+        }
+      ]
+    },
+    "related": {
+      "title": "Gundua pia",
+      "audio": "Sauti ya Qur'ani",
+      "memorization": "Kuhifadhi Qur'ani (Hifz)",
+      "allFeatures": "Vipengele vyote"
+    }
+  },
+  "quizCoran": {
+    "meta": {
+      "title": "Maswali ya Qur'ani: Jaribu Maarifa Yako ya Qur'ani Ukifurahia | Noor Phonetic Quran",
+      "description": "Jaribu maarifa yako ya Qur'ani na Maswali ya Qur'ani ya Noor Phonetic Quran: maswali 21, kiwango cha ushindi, jokers 50:50, kura ya hadhira na simu kwa rafiki. Bure kwenye iOS na Android.",
+      "keywords": "maswali ya Qur'ani, maswali ya Kiislamu, mchezo wa maswali ya Qur'ani, jaribu maarifa yako ya Qur'ani, maswali ya Uislamu, programu ya maswali ya Qur'ani bure, maswali ya Qur'ani na majibu",
+      "ogTitle": "Maswali ya Qur'ani: Jaribu Maarifa Yako ya Qur'ani Ukifurahia",
+      "ogDescription": "Maswali 21, kiwango cha ushindi, jokers 50:50, kura ya hadhira na simu kwa rafiki. Programu ya bure Noor Phonetic Quran."
+    },
+    "breadcrumb": {
+      "home": "Nyumbani",
+      "current": "Maswali ya Qur'ani"
+    },
+    "hero": {
+      "title": "Maswali ya Qur'ani: Jaribu Maarifa Yako Ukifurahia",
+      "subtitle": "Maswali 21, kiwango cha ushindi kinachoongezeka na jokers tatu (50:50, kura ya hadhira, simu kwa rafiki) ili kujifunza Qur'ani kwa njia ya kufurahisha.",
+      "backLink": "Rudi nyumbani",
+      "googlePlay": "Google Play",
+      "appStore": "App Store"
+    },
+    "intro": {
+      "title": "Maswali ya kujifunza ukifurahia",
+      "paragraph1": "Maswali ya Qur'ani ya Noor Phonetic Quran yanachukua msukumo kutoka muundo wa \"Nani Anataka Kuwa Milionea\": mfululizo wa maswali kuhusu Qur'ani, historia ya Kiislamu na sura, ukiwa na kiwango cha ushindi kinachoongezeka kwa kila jibu sahihi.",
+      "paragraph2": "Ni njia ya kufurahisha ya kupitia tena au kugundua maarifa kuhusu Qur'ani, peke yako au na familia, bila msongo — unaweza kusimama wakati wowote ukiweka alama yako."
+    },
+    "features": {
+      "title": "Maswali yanafanya kazi vipi?",
+      "items": [
+        {
+          "title": "Jibu maswali 21",
+          "description": "maswali ya chaguo nyingi yenye ugumu unaoongezeka kuhusu Qur'ani na historia ya Kiislamu."
+        },
+        {
+          "title": "Fuatilia kiwango cha ushindi",
+          "description": "kila jibu sahihi linakusukuma mbele kwenye kiwango kinachoanzia alama 100 hadi milioni 1."
+        },
+        {
+          "title": "Tumia jokers zako",
+          "description": "50:50 inaondoa majibu mawili yasiyo sahihi, kura ya hadhira inaonyesha maoni ya wachezaji wengine, na simu kwa rafiki inakupendekezea jibu."
+        },
+        {
+          "title": "Simama wakati wowote unavyotaka",
+          "description": "kitufe cha \"Walk Away\" kinakuruhusu kuhifadhi ushindi wako wakati wowote badala ya kuhatarisha kupoteza kila kitu."
+        }
+      ]
+    },
+    "screenshots": {
+      "title": "Muhtasari wa Maswali ya Qur'ani",
+      "alts": [
+        "Noor Phonetic Quran - Skrini ya nyumbani ya Maswali ya Qur'ani",
+        "Noor Phonetic Quran - Swali la maswali likiwa na kiwango cha ushindi",
+        "Noor Phonetic Quran - Joker ya kura ya hadhira katika maswali",
+        "Noor Phonetic Quran - Joker ya simu kwa rafiki katika maswali"
+      ]
+    },
+    "faq": {
+      "title": "Maswali yanayoulizwa mara kwa mara kuhusu Maswali ya Qur'ani",
+      "items": [
+        {
+          "question": "Maswali yana maswali mangapi?",
+          "answer": "Maswali yana maswali 21 ya chaguo nyingi, yenye ugumu unaoongezeka kadri mchezo unavyoendelea."
+        },
+        {
+          "question": "Nini kinatokea nikijibu vibaya swali?",
+          "answer": "Kulingana na maendeleo yako, unahifadhi kiwango cha mwisho cha ushindi kilichohakikishwa ulichofikia, kama katika muundo wa \"Nani Anataka Kuwa Milionea\"."
+        },
+        {
+          "question": "Je, Maswali ya Qur'ani ni ya bure?",
+          "answer": "Ndiyo, Maswali ya Qur'ani ni sehemu ya vipengele vya bure vya Noor Phonetic Quran."
+        }
+      ]
+    },
+    "related": {
+      "title": "Gundua pia",
+      "khatma": "Khatma ya Qur'ani",
+      "audio": "Sauti ya Qur'ani",
+      "allFeatures": "Vipengele vyote"
+    }
+  },
+  "memorisationCoran": {
+    "meta": {
+      "title": "Kuhifadhi Qur'ani (Hifz): Programu yenye Marudio ya Sauti na Maswali | Noor Phonetic Quran",
+      "description": "Hifadhi Qur'ani (Hifz) na programu ya Noor Phonetic Quran: marudio ya sauti aya kwa aya, hali ya neno-kwa-neno, maswali ya marejeo, alama, viwango na beji. Bure kwenye iOS na Android.",
+      "keywords": "kuhifadhi Qur'ani, Hifz ya Qur'ani, programu ya kuhifadhi Qur'ani, jifunze Qur'ani kwa moyo, kuhifadhi aya kwa aya, Hifz programu bure",
+      "ogTitle": "Kuhifadhi Qur'ani (Hifz): Marudio ya Sauti, Maswali na Ufuatiliaji wa Maendeleo",
+      "ogDescription": "Hifadhi Qur'ani ukiwa na marudio ya sauti, hali ya neno-kwa-neno, maswali na changamoto za kila siku. Programu ya bure Noor Phonetic Quran."
+    },
+    "breadcrumb": {
+      "home": "Nyumbani",
+      "current": "Kuhifadhi Qur'ani"
+    },
+    "hero": {
+      "title": "Kuhifadhi Qur'ani (Hifz): Marudio ya Sauti, Maswali na Ufuatiliaji wa Maendeleo",
+      "subtitle": "Jifunze Qur'ani kwa moyo aya kwa aya kupitia marudio ya sauti, hali ya neno-kwa-neno na maswali ya marejeo, ukiwa na mfumo wa alama na beji ili kubaki na hamasa kila siku.",
+      "backLink": "Rudi nyumbani",
+      "googlePlay": "Google Play",
+      "appStore": "App Store"
+    },
+    "intro": {
+      "title": "Hifz ni nini?",
+      "paragraph1": "Hifz inarejelea kuhifadhi Qur'ani, aya kwa aya na sura kwa sura. Ni safari inayohitaji juhudi kubwa inayohitaji marudio ya mara kwa mara, mbinu nzuri za ujifunzaji na njia ya kuaminika ya kuthibitisha kile ambacho tayari kimehifadhiwa vizuri.",
+      "paragraph2": "Noor Phonetic Quran imeundwa kuandama safari hii kwa zana halisi: sauti, marudio, marejeo hai na mchezo, badala ya usomaji rudufu wa mushaf peke yake."
+    },
+    "features": {
+      "title": "Kuhifadhi Qur'ani vipi na programu hii?",
+      "items": [
+        {
+          "title": "Sikiliza na rudia",
+          "description": "kila aya ina marudio ya sauti ili kuimarisha uhifadhi kupitia usikilizaji."
+        },
+        {
+          "title": "Tumia hali ya neno-kwa-neno",
+          "description": "gawanya aya ndefu zaidi ili kuzihifadhi hatua kwa hatua."
+        },
+        {
+          "title": "Jaribu mwenyewe kwa maswali ya marejeo",
+          "description": "hakikisha mara kwa mara kwamba aya ulizojifunza zinabaki zimehifadhiwa vizuri."
+        },
+        {
+          "title": "Pata alama na beji",
+          "description": "kila aya iliyohifadhiwa inaleta alama, inakuza kiwango chako na kufungua beji."
+        },
+        {
+          "title": "Kabili changamoto za kila siku",
+          "description": "malengo ya kila siku yanakuhamasisha kuhifadhi kidogo kila siku, bila mzigo mkubwa."
+        }
+      ]
+    },
+    "screenshots": {
+      "title": "Muhtasari wa mpango wa kuhifadhi",
+      "alts": [
+        "Noor Phonetic Quran - Hatua za mpango wa kuhifadhi wa kila siku",
+        "Noor Phonetic Quran - Orodha ya kuhifadhi yenye streak",
+        "Noor Phonetic Quran - Kiashiria cha mpango wa kila siku kinachoonyeshwa wakati wa usomaji"
+      ]
+    },
+    "faq": {
+      "title": "Maswali yanayoulizwa mara kwa mara kuhusu kuhifadhi Qur'ani",
+      "items": [
+        {
+          "question": "Inachukua muda gani kuhifadhi Qur'ani?",
+          "answer": "Hilo linategemea kasi ya kila mtu. Programu inakuruhusu kuendelea kwa kasi yako mwenyewe, aya kwa aya, bila msongo wa muda."
+        },
+        {
+          "question": "Je, hali ya kuhifadhi inafanya kazi bila mtandao?",
+          "answer": "Mara sura zinapopakiwa, marudio ya sauti na maswali ya marejeo yanabaki kupatikana bila muunganisho wa Intaneti."
+        },
+        {
+          "question": "Je, kipengele cha Kuhifadhi ni cha bure?",
+          "answer": "Ndiyo, kama vipengele vyote vikuu vya Noor Phonetic Quran, hali ya Kuhifadhi ni ya bure kabisa."
+        }
+      ]
+    },
+    "related": {
+      "title": "Gundua pia",
+      "khatma": "Khatma ya Qur'ani",
+      "tajweed": "Kanuni za Tajweed",
+      "allFeatures": "Vipengele vyote"
+    }
+  }
+}

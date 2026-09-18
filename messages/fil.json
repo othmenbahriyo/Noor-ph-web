@@ -1,0 +1,2323 @@
+{
+  "common": {
+    "nav": {
+      "features": "Mga Tampok",
+      "screenshots": "Mga Screenshot",
+      "reviews": "Mga Review",
+      "privacy": "Privacy",
+      "contact": "Makipag-ugnayan",
+      "openMenu": "Buksan ang navigation menu",
+      "closeMenu": "Isara ang navigation menu",
+      "toggleTheme": "I-toggle ang dark mode",
+      "googlePlay": "Google Play",
+      "appStore": "App Store",
+      "home": "Home",
+      "reviewsBreadcrumb": "Mga Review",
+      "contactBreadcrumb": "Makipag-ugnayan",
+      "pages": {
+        "audioCoran": "Audio ng Quran",
+        "khatmaCoran": "Khatma ng Quran",
+        "memorisationCoran": "Pagsasaulo ng Quran",
+        "quizCoran": "Quiz sa Quran",
+        "tajweedCoran": "Mga Panuntunan ng Tajweed",
+        "correctionRecitation": "Pagwawasto ng Pagbigkas",
+        "privacyPolicy": "Patakaran sa Privacy",
+        "cgu": "Mga Tuntunin ng Paggamit"
+      }
+    },
+    "languageSwitcher": {
+      "label": "Pumili ng wika",
+      "searchPlaceholder": "Maghanap ng wika...",
+      "close": "Isara",
+      "noResults": "Walang nahanap na wika"
+    },
+    "footer": {
+      "about": "Isang makabagong application para matutong bumigkas ng Banal na Quran nang wasto at madali.",
+      "quickLinks": "Mabilisang Link",
+      "resources": "Mga Resource",
+      "faq": "FAQ",
+      "support": "Suporta",
+      "contact": "Makipag-ugnayan",
+      "location": "Paris, France",
+      "rights": "Lahat ng karapatan ay nakalaan.",
+      "backToTop": "Bumalik sa itaas ng pahina"
+    },
+    "contactForm": {
+      "eyebrow": "Makipag-ugnayan sa Amin",
+      "title": "Makipag-ugnayan sa Amin",
+      "description": "Kung mayroon kang mungkahi, ideya para sa pagpapaganda, o anumang concern, huwag mag-atubiling sumulat sa amin. Sasagutin ka namin sa lalong madaling panahon.",
+      "highlights": [
+        {
+          "title": "Mabilisang Tugon",
+          "text": "Sinusuri ng aming team ang bawat mensahe at karaniwang sumasagot sa loob ng 48 oras. Simpleng tanong man o technical na problema, ginagawa naming siguraduhin na walang maiiwang mensahe na hindi nasasagot."
+        },
+        {
+          "title": "Isang Komunidad na Nakikinig",
+          "text": "Higit sa 80,000 users na ang nagtitiwala sa amin; ang iyong feedback ay tumutulong para mapaganda ang application para sa lahat. Bawat mensahe ay mahalaga at nag-aambag para gawing mas tapat si Noor sa pangangailangan ng mga user nito."
+        },
+        {
+          "title": "Ang Iyong Ideya ang Bumubuo sa App",
+          "text": "Marami sa mga kasalukuyang tampok (Tajweed, Khatma, quiz...) ay nagmula sa mga mungkahi ng users. Ang pang-araw-araw mong karanasan sa application ang pinakamainam na inspirasyon para sa mga susunod na pag-unlad."
+        }
+      ],
+      "name": "Pangalan",
+      "namePlaceholder": "Ang iyong pangalan",
+      "nameRequired": "Kinakailangan ang pangalan",
+      "email": "Email",
+      "emailPlaceholder": "ikaw@halimbawa.com",
+      "emailRequired": "Kinakailangan ang email",
+      "emailInvalid": "Hindi valid ang email",
+      "phone": "Telepono (opsyonal)",
+      "phonePlaceholder": "+63 9XX XXX XXXX",
+      "subject": "Paksa",
+      "subjectPlaceholder": "Pumili ng paksa...",
+      "subjectRequired": "Mangyaring pumili ng paksa",
+      "subjectOptions": {
+        "general": "Pangkalahatang tanong",
+        "suggestion": "Mungkahi",
+        "bug": "Mag-report ng bug",
+        "technical": "Technical na problema",
+        "other": "Iba pa"
+      },
+      "platform": "Ginamit na Platform",
+      "platformPlaceholder": "Pumili ng platform...",
+      "platformRequired": "Mangyaring pumili ng platform",
+      "platformOptions": {
+        "ios": "iOS",
+        "android": "Android",
+        "web": "Web"
+      },
+      "message": "Mensahe",
+      "messagePlaceholder": "Isulat ang iyong mensahe dito...",
+      "messageRequired": "Kinakailangan ang mensahe",
+      "messageTooShort": "Ang mensahe ay dapat may hindi bababa sa 10 karakter",
+      "send": "Ipadala",
+      "sending": "Ipinapadala...",
+      "successMessage": "Matagumpay na naipadala ang iyong mensahe. Salamat!",
+      "errorMessage": "May naganap na error. Mangyaring subukan muli."
+    }
+  },
+  "home": {
+    "meta": {
+      "title": "Noor Phonetic Quran - Application para sa Pag-aaral ng Quran",
+      "description": "Noor Phonetic Quran - Libreng application para matutong bumigkas, magsaulo (Hifz), at basahin ang buong Quran (Khatma). Phonetic na transkripsyon, naka-synchronize na audio, makulay na Tajweed, pang-araw-araw na reading plan, quiz at pagwawasto ng recitation. 80K+ satisfied na users. Available sa iOS at Android.",
+      "keywords": "Phonetic Quran, matuto ng Quran, Quran phonetics, pagbigkas ng Quran, Tajweed, libreng Quran application, Arabic French Quran, phonetic transcription ng Quran, learn Quran, Quran app free, Khatma Quran, magsaulo ng Quran, Hifz Quran, plano ng pagbabasa ng Quran, quiz Quran, pagwawasto ng recitation ng Quran, application sa pagsasaulo ng Quran",
+      "ogTitle": "Noor Phonetic Quran - Bigkasin ang Quran gamit ang phonetics",
+      "ogDescription": "Matutong bumigkas ng Banal na Quran kahit hindi marunong ng Arabic. Libreng application na may tumpak na phonetics, built-in na audio, at mga tuntunin ng Tajweed."
+    },
+    "hero": {
+      "statusBadge": "80K+ Aktibong Users",
+      "headlineHighlight": "Bigkasin",
+      "headline": "ang Banal na Quran, kahit hindi marunong ng Arabic",
+      "subheadline": "Salamat sa tumpak at intuitive na phonetics, ginagawang accessible ng Noor Phonetic Quran ang bawat talata para sa lahat.",
+      "miniFeatures": {
+        "phonetics": "Tumpak na Phonetics",
+        "audio": "Built-in na Audio",
+        "tajweed": "Mga Tuntunin ng Tajweed"
+      },
+      "ratingText": "Perpektong rating sa Play Store at App Store",
+      "downloadOn": "I-download sa",
+      "usersBadgeLabel": "Mga User",
+      "updateBadge": "Kamakailan lang na-update",
+      "deviceScreenAlt": "Noor Phonetic Quran - Interface ng application na nagpapakita ng phonetics ng Quran",
+      "mobileDeviceScreenAlt": "Noor Phonetic Quran - Pag-aaral ng Quran gamit ang phonetic transcription"
+    },
+    "languages": {
+      "title": "Available sa Iyong Wika",
+      "subtitle": "Ang Noor Phonetic Quran application ay isinalin sa 20 wika para samahan ang mga Muslim sa buong mundo."
+    },
+    "why": {
+      "title": "Bakit Noor Phonetic Quran?",
+      "subtitle": "Tuklasin ang mga dahilan kung bakit natatangi ang aming application",
+      "items": [
+        {
+          "icon": "fa-heart",
+          "stepLabel": "Ang hadlang",
+          "title": "Accessible sa Lahat",
+          "text": "Maraming Muslim ang nais magbasa ng Quran ngunit nahahadlangan ng wikang Arabic. Inaalis ng aming application ang hadlang na ito."
+        },
+        {
+          "icon": "fa-graduation-cap",
+          "stepLabel": "Ang paraan",
+          "title": "Madaling Pag-aaral",
+          "text": "Ang malinaw at intuitive na phonetics ay nagbibigay-daan sa bawat isa na matuto sa sarili nilang bilis, nang walang stress o frustration."
+        },
+        {
+          "icon": "fa-check-circle",
+          "stepLabel": "Ang resulta",
+          "title": "Tamang Pagbigkas",
+          "text": "Ginagabayan ng tumpak na mga tuntunin ng Tajweed at naka-synchronize na audio, unti-unti kang umuunlad patungo sa isang tunay na recitation."
+        }
+      ]
+    },
+    "features": {
+      "title": "Pangunahing Mga Tampok",
+      "subtitle": "Alamin kung bakit ang Noor Phonetic Quran ang perpektong application para matutong bumigkas ng Quran",
+      "items": [
+        {
+          "icon": "fa-book",
+          "title": "Phonetic na Transkripsyon",
+          "text": "Bawat talata ay may kasamang detalyadong phonetic transcription para sa tamang pagbigkas."
+        },
+        {
+          "icon": "fa-bookmark",
+          "title": "Mga Tuntunin ng Tajweed",
+          "href": "/tajweed-coran",
+          "text": "Ginagabayan ng mga kulay at annotation ang iyong recitation ayon sa tamang mga tuntunin ng Tajweed."
+        },
+        {
+          "icon": "fa-language",
+          "title": "Maraming Wikang Salin",
+          "text": "Ma-access ang mga salin sa French at English para mas maunawaan ang mensaheng banal."
+        },
+        {
+          "icon": "fa-headphones",
+          "title": "Naka-synchronize na Audio",
+          "href": "/audio-coran",
+          "text": "Bawat talata ay may kasamang audio para marinig ang tamang pagbigkas."
+        },
+        {
+          "icon": "fa-mobile-alt",
+          "title": "User-friendly na Interface",
+          "text": "Intuitive na navigation at personalization ayon sa iyong mga kagustuhan."
+        },
+        {
+          "icon": "fa-graduation-cap",
+          "title": "Madaling Pag-aaral",
+          "text": "Perpekto para sa mga baguhan o sa mga nais mapahusay ang kanilang recitation."
+        },
+        {
+          "icon": "fa-calendar-check",
+          "title": "Khatma ng Quran",
+          "href": "/khatma-coran",
+          "text": "Planuhin at subaybayan ang iyong kumpletong pagbabasa ng Quran (Khatma) na may pang-araw-araw na target, streak ng mga araw, at mga paalala ng progreso hanggang matapos."
+        },
+        {
+          "icon": "fa-calendar-day",
+          "title": "Pang-araw-araw na Reading Plan",
+          "text": "Magtakda ng bilang ng mga pahina na babasahin bawat araw at subaybayan ang iyong progreso gamit ang personalized na checklist, para masanay na regular na bumasa ng Quran."
+        },
+        {
+          "icon": "fa-brain",
+          "title": "Pagsasaulo ng Quran (Hifz)",
+          "href": "/memorisation-coran",
+          "text": "Isaulo ang Quran nang talata-by-talata gamit ang audio repetition, word-by-word mode, review quiz, points, level, badge, at pang-araw-araw na hamon para manatiling motivated."
+        },
+        {
+          "icon": "fa-microphone-alt",
+          "title": "Pagwawasto ng Recitation",
+          "href": "/correction-recitation-coran",
+          "text": "I-record ang iyong recitation at tumanggap ng personalized na pagwawasto para umunlad sa katumpakan ng iyong pagbigkas at Tajweed."
+        },
+        {
+          "icon": "fa-trophy",
+          "title": "Quiz sa Quran",
+          "href": "/quiz-coran",
+          "text": "Subukin ang iyong kaalaman sa Quran gamit ang isang masayang quiz na may iba't ibang antas ng hirap, para matuto habang nag-eenjoy."
+        },
+        {
+          "icon": "fa-mobile-screen-button",
+          "title": "Widget sa Home Screen",
+          "text": "Ipakita ang talata ng araw direkta sa home screen ng iyong telepono at panatilihing laging malapit sa paningin ang iyong routine sa pagbabasa."
+        }
+      ]
+    },
+    "videoDemo": {
+      "title": "Tuklasin ang Application na Gumagana",
+      "subtitle": "Panoorin ang maikling demo na ito para makita kung paano gumagana ang Noor Phonetic Quran"
+    },
+    "screenshots": {
+      "title": "Mga Screenshot",
+      "subtitle": "Tuklasin ang application sa larawan",
+      "alts": [
+        "Noor Phonetic Quran - Listahan ng mga surah ng Quran",
+        "Noor Phonetic Quran - Recitation na may tumpak na phonetics",
+        "Noor Phonetic Quran - Makulay na mga tuntunin ng Tajweed",
+        "Noor Phonetic Quran - Audio na naka-synchronize sa teksto",
+        "Noor Phonetic Quran - French na salin ng Quran",
+        "Noor Phonetic Quran - Learning mode ng Quran",
+        "Noor Phonetic Quran - Navigation ayon sa surah",
+        "Noor Phonetic Quran - Mga talata na may phonetic transcription",
+        "Noor Phonetic Quran - Mga setting ng application",
+        "Noor Phonetic Quran - Tuloy-tuloy na pagbabasa ng Quran",
+        "Noor Phonetic Quran - Makabago at intuitive na interface"
+      ]
+    },
+    "faq": {
+      "title": "Mga Madalas Itanong",
+      "subtitle": "Mabilis na makahanap ng mga sagot sa iyong mga tanong",
+      "items": [
+        {
+          "question": "Gumagana ba ang application offline?",
+          "answer": "Oo, tiyak! Lahat ng surah ng Quran ay available offline sau i-install na ang application. Makakabasa at makakabigkas ka kahit saan, kahit walang koneksyon sa Internet."
+        },
+        {
+          "question": "Anong phonetics ang inyong ginagamit?",
+          "answer": "Gumagamit kami ng simple at universal na English phonetics, madaling basahin para sa lahat. Kasalukuyang ginagawa ang bersyon sa French phonetics at malapit na itong ma-available."
+        },
+        {
+          "question": "Kumpleto ba ang Quran sa application?",
+          "answer": "Oo! Ang application ay naglalaman ng buong Banal na Quran kasama ang 114 na surah nito, mula umpisa hanggang wakas, na may kumpletong phonetic transcription."
+        },
+        {
+          "question": "Available ba ang audio para sa lahat ng talata?",
+          "answer": "Oo, bawat talata ay may kasamang malinaw at mabagal na audio recitation, perpekto para mapadali ang pag-aaral at mapahusay ang iyong pagbigkas."
+        },
+        {
+          "question": "Libre ba ang application?",
+          "answer": "Oo, ganap na libre ang Noor Phonetic Quran. Ang aming layunin ay gawing accessible ang Quran sa lahat, nang walang anumang hadlang na pinansyal."
+        },
+        {
+          "question": "Paano gumagana ang Khatma (kumpletong pagbabasa ng Quran)?",
+          "answer": "Binibigyang-daan ka ng application na magplano ng Khatma sa pamamagitan ng pagpili ng bilang ng araw para matapos ang Quran. Susubaybayan mo ang iyong pang-araw-araw na progreso, ang iyong streak ng mga araw, at makakatanggap ka ng mga paalala para manatiling regular hanggang matapos ang iyong pagbabasa."
+        },
+        {
+          "question": "Puwede bang isaulo (Hifz) ang Quran gamit ang application?",
+          "answer": "Oo, nag-aalok ang application ng kumpletong Memorization mode na may audio repetition nang talata-by-talata, word-by-word mode, review quiz, points, level, badge, at pang-araw-araw na hamon para matulungan kang epektibong isaulo ang Quran."
+        },
+        {
+          "question": "Mayroon bang maraming reciter na available?",
+          "answer": "Oo, maaari kang pumili sa maraming reciter ng Quran at mag-download ng audio para sa kumpletong offline na pakikinig, nang walang koneksyon sa Internet."
+        },
+        {
+          "question": "Nag-aalok ba ang application ng pagwawasto ng recitation?",
+          "answer": "Oo, maaari mong i-record ang iyong recitation direkta sa loob ng application at tumanggap ng personalized na pagwawasto para mapahusay ang iyong pagbigkas at ang pagsunod sa mga tuntunin ng Tajweed."
+        },
+        {
+          "question": "Magkakaroon ba ng mga bagong tampok?",
+          "answer": "Oo, patuloy kaming nagtatrabaho para pahusayin ang application. Maraming bagong bagay ang nakaplano: kumpletong French phonetics, pinalawak na makulay na Tajweed mode, letter-by-letter learning mode, at marami pang iba!"
+        }
+      ]
+    },
+    "testimonials": {
+      "title": "Ang Sinasabi ng Aming mga User",
+      "subtitle": "Tuklasin ang mga review ng aming lumalaking komunidad ng satisfied na users",
+      "prevLabel": "Nakaraang review",
+      "nextLabel": "Susunod na review",
+      "viewAllLabel": "Tingnan lahat ng review",
+      "items": [
+        {
+          "initials": "SD",
+          "name": "Sidy DIOP",
+          "device": "Hulyo 16, 2026",
+          "text": "napakagandang application para matuto ng Quran kahit hindi mo mabigkas, sapat na na pakinggan ang audio at balikan ito",
+          "rating": 5
+        },
+        {
+          "initials": "AB",
+          "name": "Amourlaye Beman",
+          "device": "Marso 25, 2026",
+          "text": "Napakagandang application. Nawa'y pagpalain kayo ni Allah nang walang hanggan para sa gawaing ito at inspirahan pa kayo na pagyamanin ang content... puwede na sana ninyong simulan ang paglalagay ng salin ng mga hadith sa French. Salamat 🙏🥰👍",
+          "rating": 5
+        },
+        {
+          "initials": "YT",
+          "name": "Yaou Tchari",
+          "device": "Hulyo 6, 2026",
+          "text": "isang napakagandang application na matagal ko nang hinahanap, madaling basahin at itama ang mga pagkakamaling nagpapahirap sa iyo.",
+          "rating": 5
+        },
+        {
+          "initials": "FA",
+          "name": "Fatima",
+          "device": "Abril 21, 2026",
+          "text": "natuklasan ko ang application na ito bilang regalo, muli akong nabuhay 😁, taos-puso. Nagkaroon ako ng maliit na problema na naresolba agad, al hamdulillah. Talagang isang kadalian para matuto, irerekomenda ko ito sa maraming tao. Nawa'y gantimpalaan kayo ni Allah🤲🏻🌹",
+          "rating": 5
+        },
+        {
+          "initials": "DH",
+          "name": "Djamila Hb",
+          "device": "Hulyo 30, 2026",
+          "text": "napakaganda para sa pag-aaral ng pagbabasa ng Quran, nawa'y padaliin tayo ni Allah",
+          "rating": 5
+        },
+        {
+          "initials": "NA",
+          "name": "Naoal",
+          "device": "Mayo 12, 2026",
+          "text": "Talagang maganda ito para sa mga hindi marunong bumasa ng Arabic na sulat dahil marami ang gustong matuto ng Quran ngunit hindi marunong magbasa ng Arabic. Talagang isang application na dapat i-install 👍",
+          "rating": 5
+        },
+        {
+          "initials": "ID",
+          "name": "Ibou Dieme",
+          "device": "Enero 8, 2026",
+          "text": "ang application na ito ay talagang kamangha-mangha, kung available ang option na 100 stars siguradong ibibigay ko iyon, ngunit may isang maliit na problema na kailangang ayusin: hindi ma-download ang mga audio para sa offline na paggamit, sigurado akong magiging mas maganda pa ang application kung ma-download ang audio para makinig kahit offline",
+          "rating": 5
+        },
+        {
+          "initials": "YC",
+          "name": "Youssouf Cherif",
+          "device": "Enero 26, 2026",
+          "text": "ang pinakamahusay na application. Malaki ang tulong nito sa akin. Salamat sa app na ito, madali kong nababasa ang Banal na Quran at nagpapasaya ito sa akin ✨. Nawa'y gantimpalaan ng husto ni Allah ang mga developer. Talagang natatangi ito. Mataas ang irerekomenda ko ito. Napakaraming tampok na magbibigay-daan sa iyo na madaling matutunan ang Banal na Quran nang may malinaw at structured na plano na nasa loob ng application.",
+          "rating": 5
+        },
+        {
+          "initials": "FF",
+          "name": "Faiza Faiza",
+          "device": "Nobyembre 6, 2024",
+          "text": "magandang application ngunit ang problema ay huminto ito kada dalawang minuto. Ni-uninstall ko at ni-install muli at nananatili pa rin ang problema, gayong ito talaga ang hinahanap ko. Barak Allahou fikkunna",
+          "rating": 5
+        },
+        {
+          "initials": "LS",
+          "name": "Louis Sawadogo",
+          "device": "Marso 27, 2025",
+          "text": "napakagandang application ngunit hindi ko mabasa offline kahit na-download ko na. Sinabi ninyong offline ito ngunit napansin kong kailangan ng koneksyon para ma-access ang data. Kailangan ninyong tingnan itong muli. Salamat.",
+          "rating": 5
+        },
+        {
+          "initials": "YJ",
+          "name": "Yassin Jaounni",
+          "device": "Nobyembre 23, 2025",
+          "text": "ang application na ito ay kamangha-mangha dahil noong una i-install ko lang ito para matuto ng ilang surah dahil hindi ako marunong magbasa ng Arabic, ngunit nang makita ko ang lahat ng tampok, na-shock ako, ang pinakagusto ko ay mayroong tumutulong sa iyo matuto ng Arabic, matuto ng mga dua, at mayroon pang mga reciter na kasama kang bumabasa ng Quran para sa iyong pagbigkas, may mga technique pa sila para madaling matutunan ang Quran, talagang kamangha-mangha, irerekomenda ko ito sa inyo",
+          "rating": 5
+        },
+        {
+          "initials": "JB",
+          "name": "Jeff Bezos Mayele",
+          "device": "Mayo 30, 2026",
+          "text": "isang magaling at kahanga-hangang application. Tumutulong sa amin na basahin ang mga surah at maunawaan ito, kaming mga hindi marunong ng Arabic",
+          "rating": 5
+        },
+        {
+          "initials": "AB",
+          "name": "Abdoulaye Bah",
+          "device": "Marso 5, 2025",
+          "text": "Isang napakagandang application para sa mga gustong matuto o magbasa ng Quran nang mag-isa! Nawa'y gantimpalaan kayo ni Allah nang mabuti at padaliin Niya sa ating lahat ang pag-aaral at pagsasaulo ng Banal na Quran!",
+          "rating": 5
+        },
+        {
+          "initials": "DD",
+          "name": "dohona daouda coulibaly",
+          "device": "Marso 2, 2025",
+          "text": "Napakabagal ng pag-display ng mga pahina. Kung hindi dahil doon, mahal ko ang application. Ngunit masyadong matagal ang pag-load. May mga solusyon ba kayo para maayos ang problemang ito?",
+          "rating": 5
+        },
+        {
+          "initials": "YC",
+          "name": "yvan Cedric",
+          "device": "Marso 4, 2025",
+          "text": "Jazzak Allahou feekoum. Napakagandang application para sa pag-aaral ng mga hindi Arabic speaker. Ang problema lang, matapos ang update, hindi na puwedeng magbasa nang offline ang application.",
+          "rating": 5
+        },
+        {
+          "initials": "HN",
+          "name": "Horizons New",
+          "device": "Agosto 23, 2025",
+          "text": "Salam alaikum, lubos akong satisfied sa application na ito, ang introduction lang ay karapat-dapat sa 5 stars 🌟, ilang pagpapabuti ang maaaring gawin sa pag-load ng mga pahina at mas mabuti sanang gumawa ng bersyon na French lang para maiwasan ang paghihintay, mas maganda rin kung may night version para sa gabing pagbabasa, salamat sa inyong trabaho, nawa'y gantimpalaan kayo ng Diyos",
+          "rating": 5
+        },
+        {
+          "initials": "DB",
+          "name": "dorra bn",
+          "device": "Oktubre 7, 2025",
+          "text": "Isang kapaki-pakinabang at maayos na disenyong application! Salamat sa transliteration, napahusay ko ang aking pagbabasa ng Quran sa maikling panahon. Nawa'y gantimpalaan ni Allah ang mga developer",
+          "rating": 5
+        },
+        {
+          "initials": "SM",
+          "name": "Sara ma langue",
+          "device": "Mayo 5, 2025",
+          "text": "Isang application na patuloy kong irerekomenda sa sinumang gustong magbasa, matuto, at umunawa sa iba't ibang wika. MashaAllah, mahusay ang trabaho. Ito ang matagal ko nang hinahanap. Nawa'y pagpalain kayo ni Allah SWT.",
+          "rating": 5
+        },
+        {
+          "initials": "AA",
+          "name": "Adoum Ali Bezei",
+          "device": "Mayo 20, 2026",
+          "text": "pinakamahusay na phonetic Quran, maraming salamat, lubos akong nagpapasalamat",
+          "rating": 5
+        },
+        {
+          "initials": "BK",
+          "name": "Bakary Konaté",
+          "device": "Marso 19, 2025",
+          "text": "talagang nagustuhan ko ang application, ngunit sana idagdag ninyo ang mga imam, para makapili kami mismo ng imam na gusto naming katuwang sa pag-aaral, ang hindi ko naman gaanong nagustuhan ay ang pagbasa nang talata-by-talata, mas gugustuhin ko kung direktang babasahin nang buo ang isang surah nang walang paghinto",
+          "rating": 5
+        },
+        {
+          "initials": "YB",
+          "name": "Yosra Bahri",
+          "device": "Oktubre 5, 2025",
+          "text": "Napakahusay na application! Kapaki-pakinabang, madaling gamitin, at maayos na disenyo. Lubos kong irerekomenda! 👏 Bravo sa developer para sa magandang gawaing ito, ituloy ninyo, mahusay ang inyong ginagawa! 💪",
+          "rating": 5
+        },
+        {
+          "initials": "FO",
+          "name": "fatima ourja",
+          "device": "Abril 25, 2025",
+          "text": "Kahanga-hangang application, eksakto itong hinahanap ko, nawa'y gantimpalaan kayo ng Kataas-taasang Allah nang pinakamagandang gantimpala. Ito ay talagang isang application na karapat-dapat na bayaran nang tama.",
+          "rating": 5
+        },
+        {
+          "initials": "ND",
+          "name": "Nicolas DA COSTA CAMPOS CERCA",
+          "device": "Abril 20, 2025",
+          "text": "irerekomenda ko ang application para sa pag-aaral ng tajweed na napakadali para sa mga baguhan at gayundin para sa mga gustong magpaunlad pa, at napakasimpleng gamitin",
+          "rating": 5
+        },
+        {
+          "initials": "SR",
+          "name": "Sadrissi Regbayou",
+          "device": "Marso 11, 2025",
+          "text": "Maganda. Ngunit nawawala ang huling pahinang binabasa namin. Bukod dito, hindi rin ito puwedeng basahin nang offline. Mas magiging kapaki-pakinabang kung nasa parehong pahina ang surah sa Arabic at ang salin sa French.",
+          "rating": 5
+        },
+        {
+          "initials": "OA",
+          "name": "Oussama AZIZI",
+          "device": "Oktubre 12, 2025",
+          "text": "Napakahusay na application, may malinaw na phonetics, mataas na kalidad ng audio, at mga tuntunin ng Tajweed na may kulay. Napakahusay na tool para mapadali ang pag-aaral ng Quran.",
+          "rating": 5
+        },
+        {
+          "initials": "BH",
+          "name": "Bahri Hamza",
+          "device": "Setyembre 27, 2025",
+          "text": "Assalamualaikum, napakahusay na application 🌟 madaling gamitin at napakakapaki-pakinabang para sa pagbabasa at pag-aaral. Nawa'y gantimpalaan ni Allah ang mga developer ❤️🤲",
+          "rating": 5
+        },
+        {
+          "initials": "HR",
+          "name": "Houssem RAISSI",
+          "device": "Oktubre 2, 2024",
+          "text": "May intuitive at kaaya-ayang interface, nagpapadali sa pagbabasa at navigation. Ideal ito para sa mabilisang access sa mga surah.",
+          "rating": 5
+        },
+        {
+          "initials": "GB",
+          "name": "Gora Bar",
+          "device": "Oktubre 10, 2025",
+          "text": "Napakagandang application. Napakasimple gamitin at walang ads. Bravo!",
+          "rating": 5
+        },
+        {
+          "initials": "SK",
+          "name": "Sekou Kante",
+          "device": "Marso 21, 2025",
+          "text": "Ito ang application na hinahanap ko ngunit hindi gumagana ang offline mode, na-download ko na ang offline option pero hindi pa rin gumagana, pakiayos naman po, ang phonetics ang nagbibigay-daan sa akin na mabasa ang Quran",
+          "rating": 5
+        },
+        {
+          "initials": "YF",
+          "name": "youssoupha FALL",
+          "device": "Abril 11, 2025",
+          "text": "Nawa'y gantimpalaan kayo ni Allah ng bundok ng hasanat sa bawat click sa application na ito. Hinding-hindi ninyo maiisip ang kabutihang ginawa ninyo para sa lahat ng Muslim na hindi nakatapos ng paaralang Quranic. Nag-download lang ako para sa aking ina rin, nawa'y pagpalain kayo ng Diyos nang sagana. Maraming salamat ❤️",
+          "rating": 5
+        },
+        {
+          "initials": "TT",
+          "name": "toure traore aboubakar sidik",
+          "device": "Nobyembre 29, 2024",
+          "text": "Binibigyan ko ng 3 stars dahil hindi ni-se-save ng application ang mga surah para sa offline na pagbabasa. Kung hindi dahil doon, madaling basahin ito",
+          "rating": 5
+        },
+        {
+          "initials": "MG",
+          "name": "Mory Gbane",
+          "device": "Hunyo 29, 2025",
+          "text": "Magandang application ngunit hindi ma-download nang minsanan ang mga teksto, kailangan palaging mag-download muli. Medyo mahirap ito",
+          "rating": 5
+        },
+        {
+          "initials": "FS",
+          "name": "Fatima Si Ahmed",
+          "device": "Hulyo 23, 2025",
+          "text": "napakadali basahin ang Quran sa phonetics kahit saan ka man dahil hindi kailangan ng koneksyon, lalo na kung ayaw mong makagambala sa iba, sapat na ang iyong telepono, walang kandila, walang ilaw 😇🥰",
+          "rating": 5
+        },
+        {
+          "initials": "MF",
+          "name": "Mohamed Faye",
+          "device": "Marso 5, 2025",
+          "text": "Binibigyan ko kayo ng 5 stars 🌟 dahil kayo ang pinakamahusay, napakaganda ng inyong nagawa, talagang gusto ko ito 😭❤️❤️❤️ nawa'y pangalagaan kayo ng Maawaing Allah. Sana lang gawin niyong available ang audio mode para sa buong surah, hindi lang sa iisang talata, maraming salamat sa inyo",
+          "rating": 5
+        },
+        {
+          "initials": "MG",
+          "name": "Mohamed gaissir Bah",
+          "device": "Marso 4, 2026",
+          "text": "Assalamualaikum sa inyo, napakahusay na application, marami na akong nabasang libro sa phonetics ngunit inaamin kong ito ang pinakamahusay sa ngayon, halos eksperto na ako sa phonetics at nawa'y gantimpalaan kayo ni Allah nang sampung ulit, talagang nasisiyahan ako 😇😇😇",
+          "rating": 5
+        },
+        {
+          "initials": "YK",
+          "name": "Yao Kouamé Enock",
+          "device": "Disyembre 13, 2025",
+          "text": "napakagandang application para sa amin na hindi marunong magbasa ng Arabic na letra. Eksakto itong hinahanap ko. Maraming salamat sa mga developer. Magandang araw, nawa'y gabayan tayo ni Allah sa tuwid na landas 🤲📿",
+          "rating": 5
+        },
+        {
+          "initials": "FA",
+          "name": "Fatima",
+          "device": "Enero 2, 2026",
+          "text": "maganda naman ang application sa kabuuan ngunit palaging kulang ang dulo ng bawat surah kaya hindi namin mabasa o matutunan ang surah na gusto namin, nakakalungkot ito",
+          "rating": 5
+        },
+        {
+          "initials": "MS",
+          "name": "Macolt Scot",
+          "device": "Marso 17, 2025",
+          "text": "Alhamdulillah nagawa kong basahin nang maayos ang Quran sa phonetics, ngunit hindi kumpleto ang pag-download at may mga pahinang nawawala",
+          "rating": 5
+        },
+        {
+          "initials": "EH",
+          "name": "El Hadj Diallo",
+          "device": "Abril 1, 2025",
+          "text": "napakahusay at malinaw na application, ang phonetics ay eksaktong tugma sa mga talata ng Quran, parehong pagbigkas, bravo sa team na gumawa nito para sa Ummah, barakallahu fik",
+          "rating": 5
+        },
+        {
+          "initials": "AM",
+          "name": "Abdelmadjid Mahamat",
+          "device": "Abril 25, 2025",
+          "text": "MashaAllah! pinakamahusay na application para sa gustong talagang matuto at magbasa nang walang hirap.",
+          "rating": 5
+        },
+        {
+          "initials": "OS",
+          "name": "Ousmasim's Simen",
+          "device": "Hulyo 22, 2026",
+          "text": "kahanga-hanga at malaki ang matutulong nito sa akin",
+          "rating": 5
+        },
+        {
+          "initials": "NS",
+          "name": "Nour Soum",
+          "device": "Oktubre 17, 2025",
+          "text": "napakainteresante, ang problema lang ay kailangang laging kumonekta. subukan din sana ang offline na bersyon",
+          "rating": 5
+        },
+        {
+          "initials": "CB",
+          "name": "chiraz bahri",
+          "device": "Oktubre 19, 2025",
+          "text": "Napakagandang application, simple at kumpleto. Perpekto para magbasa at makinig ng Quran kahit saan. بارك الله فيكم",
+          "rating": 5
+        },
+        {
+          "initials": "AA",
+          "name": "aicha Arouna",
+          "device": "Hulyo 29, 2026",
+          "text": "Napakahusay na application, irerekomenda ko ang application na ito",
+          "rating": 5
+        },
+        {
+          "initials": "SZ",
+          "name": "Sadjid Zamoum",
+          "device": "Agosto 2, 2026",
+          "text": "kamangha-mangha, wala nang masasabi",
+          "rating": 5
+        },
+        {
+          "initials": "AD",
+          "name": "Almassane Diallo",
+          "device": "Hulyo 13, 2026",
+          "text": "Maraming salamat sa team, dahil sa application na ito at sa inyo, marami akong natutunan, nawa'y gantimpalaan kayo ng mabuting Diyos",
+          "rating": 5
+        },
+        {
+          "initials": "HA",
+          "name": "Hadj",
+          "device": "Nobyembre 5, 2025",
+          "text": "malinaw na application at walang ads. Kung magdagdag pa kayo ng tafsir para sa mga surah, magiging kumpleto na ang application.",
+          "rating": 5
+        },
+        {
+          "initials": "YM",
+          "name": "Yacouba M'piè Samaké",
+          "device": "Mayo 16, 2025",
+          "text": "Napakagandang application na nagbibigay-daan sa akin na matuto ng mga surah nang walang kaalaman sa wikang Arabic",
+          "rating": 5
+        },
+        {
+          "initials": "SM",
+          "name": "Saïdou Mohamed Bah",
+          "device": "Agosto 24, 2025",
+          "text": "Talagang nawa'y gantimpalaan kayo ni Allah ng Jannatul Firdaws, ito ang pinakamahusay na application, nawa'y tulungan kayo ni Allah na pahusayin pa ang application at gawin Niyang isang sadaqah jariyah ito para sa inyo.",
+          "rating": 5
+        },
+        {
+          "initials": "TD",
+          "name": "Touwinde Doulkom",
+          "device": "Mayo 24, 2025",
+          "text": "MashaAllah, isang simple at madaling gamiting application na nagbibigay-daan sa iyo na matutong magbasa ng Banal na Quran. Salamat sa mga developer, nawa'y gantimpalaan kayo ni Allah 🙏",
+          "rating": 5
+        },
+        {
+          "initials": "BD",
+          "name": "Bassirou Diarra",
+          "device": "Abril 5, 2026",
+          "text": "talagang kapaki-pakinabang ito. Nawa'y pagpalain ni Allah ang Islam",
+          "rating": 5
+        },
+        {
+          "initials": "GK",
+          "name": "gloire Kyato",
+          "device": "Abril 10, 2026",
+          "text": "Mahalaga ang app na ito. Bibigyan ko ng 5 stars.",
+          "rating": 5
+        },
+        {
+          "initials": "OO",
+          "name": "Olivier Olivier",
+          "device": "Abril 16, 2025",
+          "text": "Tapat na sasabihin ko, pinakamahusay ito, malaking tulong para sa pagsasaulo ng Quran kahit para sa mga French speaker",
+          "rating": 5
+        },
+        {
+          "initials": "DD",
+          "name": "Dian Diallo",
+          "device": "Hunyo 9, 2026",
+          "text": "Maraming salamat........ isang napakahusay na application",
+          "rating": 5
+        },
+        {
+          "initials": "MM",
+          "name": "Mallam Mohamed AYOUBA",
+          "device": "Setyembre 10, 2025",
+          "text": "Oo, mahusay na ginawa at napakadali para matuto ng pagbabasa ng Quran.... Maraming salamat",
+          "rating": 5
+        },
+        {
+          "initials": "FB",
+          "name": "Fatoumata Barry",
+          "device": "Marso 7, 2026",
+          "text": "napakahusay at madali para matuto ng Quran, ang problema lang ay masyadong madalas ang updates...",
+          "rating": 5
+        },
+        {
+          "initials": "SK",
+          "name": "Soumaila Kaboré",
+          "device": "Nobyembre 29, 2025",
+          "text": "napakahusay, nakikita mo at tumutulong ito para maayos na bigkasin ang mga parirala sa Arabic",
+          "rating": 5
+        },
+        {
+          "initials": "OA",
+          "name": "Ouattara Almamy",
+          "device": "Abril 1, 2025",
+          "text": "Napakalinaw, napakauunawain, napakaturo, nawa'y bigyan tayo ng Diyos ng tamang pang-unawa 🙏",
+          "rating": 5
+        },
+        {
+          "initials": "AN",
+          "name": "Aude Name",
+          "device": "Hunyo 7, 2025",
+          "text": "Napakaayos, mahusay para matuto ng Quran. Nawa'y pagpalain ni Allah ang lumikha ng application",
+          "rating": 5
+        },
+        {
+          "initials": "MJ",
+          "name": "maxero junior",
+          "device": "Marso 13, 2025",
+          "text": "Napakaganda, madaling gamitin at walang ads",
+          "rating": 5
+        },
+        {
+          "initials": "FT",
+          "name": "Fatoumata Traoré",
+          "device": "Mayo 18, 2025",
+          "text": "nawa'y gantimpalaan kayo ni Allah para sa mahusay ninyong trabaho, tapat na sasabihin, magandang app ito, gusto ko sanang magdagdag kayo ng screen rotation at gayundin ang mga tanda ng prostration, salamat",
+          "rating": 5
+        },
+        {
+          "initials": "AC",
+          "name": "Assia Chamoyan",
+          "device": "Setyembre 28, 2025",
+          "text": "napaka-kapaki-pakinabang, praktikal at talagang intuitive. Napakagandang interface, bravo, mataas ang kalidad, nawa'y padaliin ni Allah ang inyong mga proyekto at gantimpalaan kayo nang malaki",
+          "rating": 5
+        },
+        {
+          "initials": "KE",
+          "name": "Keita",
+          "device": "Mayo 23, 2025",
+          "text": "Wow, napakagandang application para sa phonetic na pagbabasa ng mga surah. Talagang mahal ko ang application na ito.",
+          "rating": 5
+        },
+        {
+          "initials": "IH",
+          "name": "Ibrahim Hamadou",
+          "device": "Marso 9, 2026",
+          "text": "pakiayos naman po ang app, talagang kailangan ko itong app, maayos ko sanang naipagpapatuloy ang pagbabasa ngunit nagkaproblema ang app",
+          "rating": 5
+        },
+        {
+          "initials": "AS",
+          "name": "Adamou Seyni Sonia",
+          "device": "Marso 14, 2025",
+          "text": "Salam, hindi ko alam kung bakit tuwing pupunta ako sa surah Al-Kahf, napupunta ako sa Abasa, hindi ko talaga maintindihan kung saan galing ang problema, at ito ang surah na gusto kong basahin lalo na tuwing Biyernes ayon sa sunnah... kundi dahil sa problemang ito, wala nang ibang isyu sa app, mashaAllah",
+          "rating": 5
+        },
+        {
+          "initials": "MD",
+          "name": "Mame diarra Ba",
+          "device": "Pebrero 14, 2025",
+          "text": "Napaka-epektibo at napakadali para matuto ng Quran",
+          "rating": 5
+        },
+        {
+          "initials": "SS",
+          "name": "SOUMAILA SAMASSI",
+          "device": "Disyembre 29, 2024",
+          "text": "MashaAllah 💕 isang kahanga-hangang application at ito ang hinahanap ko. Pinakamahusay ang application. BarakAllahu feekum at nawa'y laging gabayan tayo ni Allah. Amin",
+          "rating": 5
+        },
+        {
+          "initials": "AB",
+          "name": "Ali Baba Traoré",
+          "device": "Agosto 1, 2025",
+          "text": "Salamat sa Diyos, isang magandang application na dapat i-download at ibahagi. Nawa'y bigyan kayo ni Allah ng magandang gantimpala sa mundong ito at sa kabilang buhay. Amin!",
+          "rating": 5
+        },
+        {
+          "initials": "MB",
+          "name": "Mohamed Baddo",
+          "device": "Enero 5, 2026",
+          "text": "Napakasimple, epektibo at napaka-kaaya-aya",
+          "rating": 5
+        },
+        {
+          "initials": "AB",
+          "name": "Anthony Barraut",
+          "device": "Oktubre 5, 2025",
+          "text": "NAPAKAHUSAY na application, kapansin-pansin ang kabaitan ng lumikha ng application, irerekomenda ko agad ang application nang walang pag-aalinlangan 🌟🌟🌟🌟🌟🥳👌",
+          "rating": 5
+        },
+        {
+          "initials": "PM",
+          "name": "Parfait Mayela may",
+          "device": "Marso 27, 2025",
+          "text": "bakit kailangan ng koneksyon??? Pero ang application na ito ay nagbibigay-daan para mabilis matuto 🤲🤲🤲🥰🇬🇦",
+          "rating": 5
+        },
+        {
+          "initials": "MD",
+          "name": "Moustapha DRORI",
+          "device": "Pebrero 7, 2026",
+          "text": "Napakagandang application para sa mas mahusay na pag-aaral",
+          "rating": 5
+        },
+        {
+          "initials": "AB",
+          "name": "Adamma Bae",
+          "device": "Enero 11, 2025",
+          "text": "Maraming salamat sa pagpapadali sa aming pag-aaral",
+          "rating": 5
+        },
+        {
+          "initials": "MZ",
+          "name": "Malika Zaki",
+          "device": "Abril 7, 2026",
+          "text": "ito ang pinakamahusay na Quran application na nakita ko sa buong buhay ko",
+          "rating": 5
+        },
+        {
+          "initials": "NC",
+          "name": "N'famoussa Camara",
+          "device": "Marso 8, 2025",
+          "text": "Talagang kawili-wili ang application na ito para sa akin at para sa lahat ng Muslim na gustong makilala at isabuhay ang Islam.",
+          "rating": 5
+        },
+        {
+          "initials": "MB",
+          "name": "Mariam Bah",
+          "device": "Oktubre 21, 2025",
+          "text": "napaka-epektibo para sa pagbigkas",
+          "rating": 5
+        },
+        {
+          "initials": "NM",
+          "name": "Nouraya Mohamed",
+          "device": "Abril 5, 2026",
+          "text": "Maraming salamat, talagang nakakatulong ito... MashaAllah",
+          "rating": 5
+        },
+        {
+          "initials": "SD",
+          "name": "Sofiane D",
+          "device": "Oktubre 10, 2025",
+          "text": "nakakalungkot lang na hindi puwedeng direktang pumili ng surah, kailangang mag-swipe",
+          "rating": 5
+        },
+        {
+          "initials": "MD",
+          "name": "Mouhamed Diagne",
+          "device": "Hulyo 24, 2025",
+          "text": "napakahusay na app, mabilis at maayos matuto",
+          "rating": 5
+        },
+        {
+          "initials": "BB",
+          "name": "Babouba Bibouba",
+          "device": "Abril 1, 2025",
+          "text": "napakahusay, ngunit pakidagdag naman po ang option para sa laki ng font",
+          "rating": 5
+        },
+        {
+          "initials": "CC",
+          "name": "Coumba Camara",
+          "device": "Hulyo 26, 2025",
+          "text": "ito ang hinahanap ko sa loob ng mga taon, nawa'y gantimpalaan kayo ng Diyos sa malaking kasiyahang dinala ninyo sa akin sa pagkita nito 💖 napakagandang application 👍 salamat",
+          "rating": 5
+        },
+        {
+          "initials": "LS",
+          "name": "Lassane Sawadogo",
+          "device": "Agosto 3, 2025",
+          "text": "hinahanap ko na ang phonetics na ito matagal na at alhamdulillah, natagpuan ko ito, salamat",
+          "rating": 5
+        },
+        {
+          "initials": "MA",
+          "name": "mam",
+          "device": "Marso 14, 2026",
+          "text": "napakagandang application, sana lang nasa French ang mga hadith",
+          "rating": 5
+        },
+        {
+          "initials": "MB",
+          "name": "Mohamadou Babanguida",
+          "device": "Abril 9, 2026",
+          "text": "Maraming salamat, nawa'y gantimpalaan kayo ni Allah",
+          "rating": 5
+        },
+        {
+          "initials": "TA",
+          "name": "Thierno amidou Diallo",
+          "device": "Abril 8, 2026",
+          "text": "gustung-gusto ko ang application na ito",
+          "rating": 5
+        },
+        {
+          "initials": "SA",
+          "name": "shahid ATOUKOU",
+          "device": "Disyembre 9, 2024",
+          "text": "Napakahusay, lubos kong ikinatutuwa ang application na ito, salamat sa lumikha ng application na ito",
+          "rating": 5
+        },
+        {
+          "initials": "MS",
+          "name": "Mamadi Savadogo",
+          "device": "Marso 9, 2026",
+          "text": "wala na akong ibang masasabi kundi nawa'y gantimpalaan kayo ni Allah. Ito ang pinakamahusay na application na nakilala ko hanggang ngayon.",
+          "rating": 5
+        },
+        {
+          "initials": "AC",
+          "name": "Alassane Camara",
+          "device": "Disyembre 26, 2025",
+          "text": "Assalamualaikum, salamat sa inyo, magandang application ito para sa mga Muslim",
+          "rating": 5
+        },
+        {
+          "initials": "FL",
+          "name": "Frédéric Lankoandé",
+          "device": "Agosto 1, 2025",
+          "text": "napakagandang application para matuto ng Banal na Quran sa Phonetics 👍",
+          "rating": 5
+        },
+        {
+          "initials": "LZ",
+          "name": "Loukmane Zongo",
+          "device": "Hunyo 26, 2025",
+          "text": "MashaAllah! ito ang Quran na hinahanap ko para matuto! puwede bang gawin ninyo na mabasa namin nang offline?",
+          "rating": 5
+        },
+        {
+          "initials": "IB",
+          "name": "Ibrahima Bâ",
+          "device": "Setyembre 2, 2025",
+          "text": "Magandang application ito, salamat sa inyo, nawa'y gabayan tayo ng Diyos sa tamang landas 🤲🤲👆",
+          "rating": 5
+        },
+        {
+          "initials": "FA",
+          "name": "Fouzi Abdellatif",
+          "device": "Marso 5, 2026",
+          "text": "ito ang pinakamahusay na application sa phonetics",
+          "rating": 5
+        },
+        {
+          "initials": "AS",
+          "name": "Aboubacar Sylla",
+          "device": "Nobyembre 7, 2025",
+          "text": "hindi lumalabas ang buong (kumpletong) bersyon",
+          "rating": 5
+        },
+        {
+          "initials": "KM",
+          "name": "KACHALLA MEMBA",
+          "device": "Marso 20, 2025",
+          "text": "maraming salamat sa kadalian na ito para sa pagbabasa ng Quran. Nawa'y gantimpalaan kayo ni Allah dito sa Dunya at gayundin sa Akhira",
+          "rating": 5
+        },
+        {
+          "initials": "BD",
+          "name": "Billal DABIDA",
+          "device": "Abril 2, 2025",
+          "text": "napakahusay na application, nawa'y bigyan kayo ng Maawaing Diyos ng higit pang karunungan.",
+          "rating": 5
+        },
+        {
+          "initials": "NN",
+          "name": "Nadjma Nkulu",
+          "device": "Nobyembre 24, 2025",
+          "text": "La ilaha illallah, angkop na angkop ito para sa mga taong hindi pa bihasa sa Arabic.",
+          "rating": 5
+        },
+        {
+          "initials": "TA",
+          "name": "thaibu Amici-langi",
+          "device": "Agosto 7, 2025",
+          "text": "Isang magandang gawa na nasa kamay lang.",
+          "rating": 5
+        },
+        {
+          "initials": "HH",
+          "name": "hamza Hamza",
+          "device": "Oktubre 19, 2025",
+          "text": "ito ay isang napaka-kapaki-pakinabang at praktikal na application",
+          "rating": 5
+        },
+        {
+          "initials": "OA",
+          "name": "Oumarou Amadou",
+          "device": "Nobyembre 7, 2025",
+          "text": "kailangang pagandahin ang pagbasa nito kahit walang internet",
+          "rating": 5
+        },
+        {
+          "initials": "AA",
+          "name": "Aboubakar Adamou",
+          "device": "Agosto 18, 2025",
+          "text": "napakahusay na app, nawa'y gantimpalaan ni Allah ang mga developer",
+          "rating": 5
+        },
+        {
+          "initials": "SK",
+          "name": "Soiba Koné",
+          "device": "Enero 19, 2026",
+          "text": "irerekomenda ko ito sa aking mga kapatid na Muslim, malaking tulong ito sa akin pati na rin sa tajweed",
+          "rating": 5
+        },
+        {
+          "initials": "SN",
+          "name": "Sipas NIAKATE",
+          "device": "Setyembre 21, 2025",
+          "text": "napakagandang app, talagang malapit sa Arabic",
+          "rating": 5
+        },
+        {
+          "initials": "HT",
+          "name": "Hamissou TCHAGBELE",
+          "device": "Setyembre 28, 2024",
+          "text": "Mahal ko ang application na ito, sana sa biyaya ng Diyos ay idagdag ninyo hanggang matapos ang Quran",
+          "rating": 5
+        },
+        {
+          "initials": "AA",
+          "name": "Abdul Abdullah",
+          "device": "Nobyembre 21, 2025",
+          "text": "talagang kahanga-hanga, gustung-gusto ko ito, nawa'y gantimpalaan kayo ni Allah.",
+          "rating": 5
+        },
+        {
+          "initials": "SA",
+          "name": "sawadogoalassane",
+          "device": "Hunyo 25, 2025",
+          "text": "kahanga-hanga, ito ang lahat ng gusto ko. Salamat",
+          "rating": 5
+        },
+        {
+          "initials": "BT",
+          "name": "Bocar Thiam",
+          "device": "Oktubre 19, 2025",
+          "text": "napakagandang application, walang ads, MashaAllah",
+          "rating": 5
+        },
+        {
+          "initials": "HN",
+          "name": "Harounahafiz Nonkane",
+          "device": "Marso 11, 2025",
+          "text": "Mga kapatid ko sa pananampalataya, mataas ang irerekomenda ko ito, napakahusay ng application na ito. Nawa'y bigyan tayo ni Allah ng tamang pang-unawa.",
+          "rating": 5
+        },
+        {
+          "initials": "NT",
+          "name": "Nana Tanou",
+          "device": "Abril 1, 2025",
+          "text": "napakagandang application, malaki ang tulong nito sa akin 🥰",
+          "rating": 5
+        },
+        {
+          "initials": "IS",
+          "name": "Idrissa Samake",
+          "device": "Agosto 5, 2025",
+          "text": "Napakahusay na trabaho! Salamat",
+          "rating": 5
+        },
+        {
+          "initials": "SB",
+          "name": "Sarra Bahri (\"Anous Azouz Aychouha\")",
+          "device": "Setyembre 29, 2024",
+          "text": "magandang application, lakasan ang loob at ituloy ang mahusay na gawain 👏👏👏🌹🌹🌹🌹",
+          "rating": 5
+        },
+        {
+          "initials": "OA",
+          "name": "Omokayode Akanny",
+          "device": "Mayo 29, 2025",
+          "text": "napakahusay at kapaki-pakinabang na application",
+          "rating": 5
+        },
+        {
+          "initials": "AG",
+          "name": "Abdoulaye Gningue",
+          "device": "Enero 16, 2025",
+          "text": "MashaAllah, nawa'y gabayan kayo ni Allah sa kapayapaan at katuwiran, ito ay isang magandang aklat.",
+          "rating": 5
+        },
+        {
+          "initials": "SS",
+          "name": "Seynabou Senghor",
+          "device": "Abril 29, 2025",
+          "text": "Hindi sasapat ang salitang salamat para ipahayag ang aking pasasalamat, nawa'y gantimpalaan kayo ni Allah para sa inyong kahanga-hangang trabaho ❤️🌹",
+          "rating": 5
+        },
+        {
+          "initials": "FS",
+          "name": "Fanta Souare",
+          "device": "Hunyo 2, 2025",
+          "text": "kamangha-mangha ang application na ito, salamat, nawa'y lagyan kayo ni Allah ng Kanyang biyaya at bigyan kayo ng gantimpala sa Paraiso, Amin, Ya Rab 🙏",
+          "rating": 5
+        },
+        {
+          "initials": "AD",
+          "name": "Abdoul djabar Danyoko",
+          "device": "Hulyo 26, 2025",
+          "text": "isang napakagandang application. MashaAllah!",
+          "rating": 5
+        },
+        {
+          "initials": "IC",
+          "name": "Idrissa Camara",
+          "device": "Agosto 6, 2025",
+          "text": "Talagang natutuwa ako sa dokumentong ito. Nagbigay kayo ng pagkakataon sa milyun-milyong hindi Arabo na makilala si Allah. Para dito, si Allah lamang ang makakagantimpala sa inyo. Dinadalangin kong bigyan kayo ni Allah ng madaling buhay pati na ang inyong pamilya, at nawa'y bigyan Niya tayo ng Paraiso. Amin!",
+          "rating": 5
+        },
+        {
+          "initials": "SK",
+          "name": "Souleymane Keïta",
+          "device": "Oktubre 1, 2025",
+          "text": "Tapat na sasabihin, lubos kong gustong-gusto ang application na ito, nawa'y gantimpalaan at pagpalain ng Diyos ang lumikha ng application na ito, at nawa'y patawarin Niya tayo sa ating mga kasalanan, sinasadya man o hindi, at tanggapin Niya ang lahat ng ating mga panalangin pati na ang sa aming mga pamilya, at gabayan tayo sa tamang landas hanggang sa ating huling hininga, at higit sa lahat, bigyan tayo ng Kanyang awa at ang Kanyang walang hanggang Paraiso, Amin 🙏🙏🙏",
+          "rating": 5
+        },
+        {
+          "initials": "EM",
+          "name": "El Mn",
+          "device": "Agosto 1, 2026",
+          "text": "Hindi ko alam kung ano ang sasabihin 🫰🤌. Ito ay top",
+          "rating": 5
+        },
+        {
+          "initials": "SS",
+          "name": "Setoute samate",
+          "device": "Agosto 11, 2025",
+          "text": "MashaAllah, nawa'y ingatan kayo ni Allah, napakagandang application, salamat 🤲🤲🤲",
+          "rating": 5
+        },
+        {
+          "initials": "CD",
+          "name": "Cheick Diabate",
+          "device": "Disyembre 29, 2024",
+          "text": "Walang katulad, talagang napakahusay",
+          "rating": 5
+        },
+        {
+          "initials": "SD",
+          "name": "Sanogo Domba",
+          "device": "Disyembre 18, 2025",
+          "text": "napaka-paborito ninyo sa pag-unlad ng isipan ng tao",
+          "rating": 5
+        },
+        {
+          "initials": "MM",
+          "name": "mame marème bane",
+          "device": "Marso 8, 2026",
+          "text": "salam, bakit hindi na gumagana ang application",
+          "rating": 5
+        },
+        {
+          "initials": "DB",
+          "name": "Dalila Bahri",
+          "device": "Disyembre 27, 2025",
+          "text": "napakahusay na app, talagang kapaki-pakinabang",
+          "rating": 5
+        },
+        {
+          "initials": "LY",
+          "name": "Landry Yarga",
+          "device": "Disyembre 10, 2025",
+          "text": "Malaki ang tulong ng application na ito sa akin, salamat 👌",
+          "rating": 5
+        },
+        {
+          "initials": "JK",
+          "name": "Jeanne Kikukama",
+          "device": "Pebrero 8, 2026",
+          "text": "isang napakagandang application",
+          "rating": 5
+        },
+        {
+          "initials": "ZS",
+          "name": "Zeynab Sylla",
+          "device": "Enero 14, 2026",
+          "text": "napaka-cool at madali",
+          "rating": 5
+        },
+        {
+          "initials": "AW",
+          "name": "Abdoul Wahab porgo",
+          "device": "Enero 10, 2026",
+          "text": "napaka-interesante",
+          "rating": 5
+        },
+        {
+          "initials": "YM",
+          "name": "Yohane Mouhali",
+          "device": "Oktubre 31, 2025",
+          "text": "Maraming salamat sa lahat ng ito 👏👏👏👏👏",
+          "rating": 5
+        },
+        {
+          "initials": "FA",
+          "name": "Fousseni Arouna",
+          "device": "Disyembre 15, 2025",
+          "text": "MashaAllah, gustung-gusto ko ang application",
+          "rating": 5
+        },
+        {
+          "initials": "DA",
+          "name": "Djamilatou Alim",
+          "device": "Enero 20, 2026",
+          "text": "napakagandang application, salamat sa Diyos, MashaAllah",
+          "rating": 5
+        },
+        {
+          "initials": "AA",
+          "name": "Arminata Abdou",
+          "device": "Marso 26, 2025",
+          "text": "Maraming salamat sa inyo 👏 gustung-gusto ko",
+          "rating": 5
+        },
+        {
+          "initials": "HR",
+          "name": "Halima Radhwani",
+          "device": "Setyembre 26, 2025",
+          "text": "top-notch ang application, Allahumma barik, maraming salamat 🤲",
+          "rating": 5
+        },
+        {
+          "initials": "MC",
+          "name": "Mahamoudou Coulibaly",
+          "device": "Agosto 17, 2025",
+          "text": "napaka-astig, napakaganda",
+          "rating": 5
+        },
+        {
+          "initials": "LD",
+          "name": "Lamine Dieye",
+          "device": "Marso 22, 2025",
+          "text": "Mahusay na trabaho, nawa'y pagpalain kayo ng Diyos, mahalaga ang application na ito 🙏",
+          "rating": 5
+        },
+        {
+          "initials": "AB",
+          "name": "aimé boussoukou",
+          "device": "Oktubre 25, 2025",
+          "text": "Allahu Akbar, napakakapaki-pakinabang ng application na ito",
+          "rating": 5
+        },
+        {
+          "initials": "IM",
+          "name": "Ibrahim Mbaye",
+          "device": "Oktubre 29, 2024",
+          "text": "Napakagaling talaga para matuto",
+          "rating": 5
+        },
+        {
+          "initials": "TT",
+          "name": "Tassala Toure",
+          "device": "Marso 21, 2025",
+          "text": "MashaAllah, sobrang nagustuhan ko, nawa'y pagpalain kayo ni Allah para sa pagsisikap na ginagawa ninyo para sa komunidad ng mga Muslim 🤲barakallahu feekum🤲",
+          "rating": 5
+        },
+        {
+          "initials": "MD",
+          "name": "Mohamed Diawara",
+          "device": "Hunyo 27, 2025",
+          "text": "gustung-gusto ko ito, salamat sa lahat",
+          "rating": 5
+        },
+        {
+          "initials": "FA",
+          "name": "Ferjani Ali",
+          "device": "Nobyembre 5, 2025",
+          "text": "pinakamahusay na application, ituloy ang magandang gawain 😍😍🥰",
+          "rating": 5
+        },
+        {
+          "initials": "MA",
+          "name": "moustapha ahmed",
+          "device": "Agosto 22, 2025",
+          "text": "Kahanga-hangang application, nawa'y gantimpalaan kayo ni Allah para dito",
+          "rating": 5
+        },
+        {
+          "initials": "MB",
+          "name": "Mariam Barry",
+          "device": "Oktubre 4, 2025",
+          "text": "napakagandang application ☺ irerekomenda ko",
+          "rating": 5
+        },
+        {
+          "initials": "DO",
+          "name": "Dramane Ouattara",
+          "device": "Hulyo 19, 2025",
+          "text": "ang application na ito ang pinakamahusay sa lahat ng panahon",
+          "rating": 5
+        },
+        {
+          "initials": "AG",
+          "name": "Assane Gnamou",
+          "device": "Mayo 17, 2025",
+          "text": "madaling gamitin",
+          "rating": 5
+        },
+        {
+          "initials": "AL",
+          "name": "Amadou Lee",
+          "device": "Nobyembre 27, 2025",
+          "text": "isang napakagandang application",
+          "rating": 5
+        },
+        {
+          "initials": "OD",
+          "name": "Ousseynou DIOP",
+          "device": "Marso 22, 2025",
+          "text": "hindi maisip, maraming salamat",
+          "rating": 5
+        },
+        {
+          "initials": "ZJ",
+          "name": "Zakaria Jose Kone",
+          "device": "Marso 4, 2026",
+          "text": "napakagandang application na ito",
+          "rating": 5
+        },
+        {
+          "initials": "MD",
+          "name": "Mr dof Dof",
+          "device": "Hunyo 24, 2025",
+          "text": "masyadong maraming pagkakamali kung ikukumpara sa totoong Quran",
+          "rating": 5
+        },
+        {
+          "initials": "OM",
+          "name": "Omar Manè",
+          "device": "Marso 4, 2025",
+          "text": "Talagang kahanga-hanga, MashaAllah",
+          "rating": 5
+        },
+        {
+          "initials": "KI",
+          "name": "Koné Idris",
+          "device": "Mayo 29, 2025",
+          "text": "napakagandang application",
+          "rating": 5
+        },
+        {
+          "initials": "KK",
+          "name": "kourouma kaman",
+          "device": "Setyembre 25, 2025",
+          "text": "napakagandang application",
+          "rating": 5
+        },
+        {
+          "initials": "OD",
+          "name": "Ousseynou DIOP",
+          "device": "Hulyo 28, 2025",
+          "text": "gustung-gusto ko, napakaganda",
+          "rating": 5
+        },
+        {
+          "initials": "MM",
+          "name": "Mr MANANGA",
+          "device": "Pebrero 19, 2026",
+          "text": "pinakamahusay na gabay sa espirituwal",
+          "rating": 5
+        },
+        {
+          "initials": "TM",
+          "name": "Tyz Man86",
+          "device": "Disyembre 8, 2025",
+          "text": "kailangan ninyong pahusayin ang ilang bagay",
+          "rating": 5
+        },
+        {
+          "initials": "SI",
+          "name": "Samba Ichrach",
+          "device": "Nobyembre 8, 2025",
+          "text": "wala nang masasabi, nakuha ko ang hinahanap ko",
+          "rating": 5
+        },
+        {
+          "initials": "RB",
+          "name": "Rasta Barou",
+          "device": "Oktubre 7, 2025",
+          "text": "sobrang nagustuhan ko",
+          "rating": 5
+        },
+        {
+          "initials": "NG",
+          "name": "Nadia GbaneDIABY",
+          "device": "Nobyembre 10, 2025",
+          "text": "Alhamdulillah! Kahanga-hangang kapaki-pakinabang!!!",
+          "rating": 5
+        },
+        {
+          "initials": "DM",
+          "name": "DaoudaDiallo Malide",
+          "device": "Marso 20, 2025",
+          "text": "sobrang nagustuhan ko",
+          "rating": 5
+        },
+        {
+          "initials": "SB",
+          "name": "Saitama Black God 777",
+          "device": "Nobyembre 23, 2024",
+          "text": "MashaAllah, ito ang hinahanap ng karamihan",
+          "rating": 5
+        },
+        {
+          "initials": "MS",
+          "name": "Mamoudou Sylla",
+          "device": "Nobyembre 2, 2024",
+          "text": "ALHAMDULILLAH, MARAMING SALAMAT PO, MATAGAL KO NA ITONG HINAHANAP SA INTERNET, NAKITA KO NA RIN SA WAKAS, NAWA'Y PAGPALAIN KAYO NG DIYOS PATI NA ANG INYONG PAMILYA, MARAMING SALAMAT PO!",
+          "rating": 5
+        },
+        {
+          "initials": "IK",
+          "name": "Ibrahim Konsigui",
+          "device": "Nobyembre 18, 2025",
+          "text": "ayaw ma-download ng mga talata",
+          "rating": 5
+        },
+        {
+          "initials": "YK",
+          "name": "Youss Kouadio",
+          "device": "Oktubre 22, 2025",
+          "text": "napakagandang application",
+          "rating": 5
+        },
+        {
+          "initials": "AB",
+          "name": "Alhasko Bob",
+          "device": "Mayo 2, 2025",
+          "text": "ang pinakamahusay na application sa mundo",
+          "rating": 5
+        }
+      ]
+    },
+    "cta": {
+      "title": "Simulan ang Iyong Paglalakbay sa Pag-aaral Ngayon",
+      "subtitle": "I-download nang libre ang Noor Phonetic Quran at baguhin ang iyong karanasan sa pagbigkas ng Quran.",
+      "downloadOn": "I-download sa"
+    }
+  },
+  "cgu": {
+    "meta": {
+      "title": "Mga Tuntunin ng Paggamit - Noor Phonetic Quran",
+      "description": "Mga tuntunin ng paggamit ng Noor Phonetic Quran: access sa serbisyo, user account, Premium subscription, intellectual property, pananagutan at naaangkop na batas.",
+      "keywords": "CGU Noor Phonetic Quran, mga tuntunin ng paggamit, mga kondisyon ng paggamit ng Quran application"
+    },
+    "appName": "Noor Phonetic Quran",
+    "pageTitle": "MGA TUNTUNIN NG PAGGAMIT",
+    "updateDate": "Huling update: Hulyo 31, 2026",
+    "intro1": "Ang mga Tuntunin ng Paggamit na ito (\"CGU\") ay namamahala sa access at paggamit ng mobile application na Noor Phonetic Quran (\"ang Application\", \"kami\", \"amin\", o \"aming\"), na inilathala bilang indibidwal at available sa Google Play at App Store. Sa pag-download, pag-install, o paggamit ng Application, sumasang-ayon kang masaklaw ng mga Tuntunin ng Paggamit na ito. Kung hindi ka sumasang-ayon sa mga kondisyong ito, mangyaring huwag gamitin ang Application.",
+    "intro2Before": "Para sa anumang impormasyon tungkol sa pagproseso ng iyong personal na data, mangyaring sanggunian ang aming",
+    "intro2LinkText": "Patakaran sa Privacy",
+    "intro2After": ", na sumusuplemento sa mga Tuntunin ng Paggamit na ito.",
+    "summary": {
+      "heading": "BUOD NG MGA PANGUNAHING PUNTO",
+      "intro": "Ang buod na ito ay nagbibigay ng mga pangunahing punto ng aming mga Tuntunin ng Paggamit, ngunit inaanyayahan ka naming basahin ang buong dokumento sa pamamagitan ng talaan ng nilalaman sa ibaba.",
+      "points": [
+        {
+          "question": "Ano ang inaalok ng Application?",
+          "answer": "Isang set ng libre at bayad na mga tool para magbasa, matuto, at magsaulo ng Quran: phonetic at Arabic na pagbabasa (Hafs at Warsh readings), tajweed, gamified na pagsasaulo, pagsubaybay sa khatma, pagwawasto ng recitation sa pamamagitan ng audio recording, quiz, live na radyo/TV Islamiko, at isang widget na \"talata ng araw\" sa home screen."
+        },
+        {
+          "question": "Kailangan ko ba ng account?",
+          "answer": "Hindi, ang karamihan sa Application ay puwedeng gamitin nang walang account. Ang isang opsyonal na account (email, Google, o Apple) ay nagbibigay-daan para i-sync ang iyong progreso at Premium subscription."
+        },
+        {
+          "question": "Bayad ba ang Application?",
+          "answer": "Libre ang Application na may mga advertisement. Ang opsyonal na Premium subscription, na pinamamahalaan sa pamamagitan ng Google Play o App Store, ay nag-aalis ng advertisement at nagbubukas ng mga advanced na tampok."
+        },
+        {
+          "question": "Puwede ko bang irekord ang aking boses?",
+          "answer": "Oo, ire-record ng tampok sa pagwawasto ng recitation ang iyong boses nang lokal para masuri ang iyong pagbigkas. Tingnan ang seksyong dedikado para sa detalye kung paano ito gumagana at ang iyong mga responsibilidad."
+        },
+        {
+          "question": "Sino ang may pananagutan sa relihiyosong nilalaman?",
+          "answer": "Ginagawa namin ang lahat para masiguro ang katumpakan ng mga teksto, salin, at transliteration, ngunit ang Application ay isang tool na pang-edukasyon at hindi kapalit ng tradisyonal na pagtuturo mula sa isang kwalipikadong guro."
+        },
+        {
+          "question": "Paano kami kontakin?",
+          "answer": "Sa pamamagitan ng contact form na nasa Application o sa pamamagitan ng email sa othmeneb@gmail.com."
+        }
+      ]
+    },
+    "toc": {
+      "heading": "TALAAN NG NILALAMAN",
+      "items": [
+        {
+          "id": "service",
+          "label": "1. ANG SERBISYO"
+        },
+        {
+          "id": "eligibility",
+          "label": "2. PAGIGING KWALIPIKADO"
+        },
+        {
+          "id": "account",
+          "label": "3. USER ACCOUNT"
+        },
+        {
+          "id": "premium",
+          "label": "4. PREMIUM SUBSCRIPTION AT MGA IN-APP PURCHASE"
+        },
+        {
+          "id": "recitation",
+          "label": "5. PAGWAWASTO NG RECITATION AT MGA AUDIO RECORDING"
+        },
+        {
+          "id": "conduct",
+          "label": "6. MGA TUNTUNIN SA PAGGAMIT"
+        },
+        {
+          "id": "ip",
+          "label": "7. INTELLECTUAL PROPERTY"
+        },
+        {
+          "id": "religious-content",
+          "label": "8. RELIHIYOSO AT PANG-EDUKASYONG NILALAMAN"
+        },
+        {
+          "id": "accessibility",
+          "label": "9. ACCESSIBILITY"
+        },
+        {
+          "id": "ads",
+          "label": "10. ADVERTISING AT MGA SERBISYO NG THIRD-PARTY"
+        },
+        {
+          "id": "availability",
+          "label": "11. AVAILABILITY AT MGA PAGBABAGO SA SERBISYO"
+        },
+        {
+          "id": "termination",
+          "label": "12. PAGSUSPINDE AT PAGWAWAKAS"
+        },
+        {
+          "id": "disclaimer",
+          "label": "13. LIMITASYON NG PANANAGUTAN"
+        },
+        {
+          "id": "law",
+          "label": "14. NAAANGKOP NA BATAS AT MGA DISPUTA"
+        },
+        {
+          "id": "updates",
+          "label": "15. PAGBABAGO NG CGU"
+        },
+        {
+          "id": "contact",
+          "label": "16. MAKIPAG-UGNAYAN SA AMIN"
+        }
+      ]
+    },
+    "sections": {
+      "service": {
+        "heading": "1. ANG SERBISYO",
+        "intro": "Ang Noor Phonetic Quran ay isang mobile application na nagbibigay-daan para magbasa, matuto, at magsaulo ng Quran, partikular sa pamamagitan ng:",
+        "items": [
+          "pagbabasa ng Quran sa phonetic transliteration at sa Arabic (Hafs at Warsh readings), na may mga salin at audio;",
+          "mga kurso sa pagbigkas at tajweed, na may pagwawasto ng recitation sa pamamagitan ng audio recording;",
+          "isang gamified na module ng pagsasaulo (levels, badges, pang-araw-araw na hamon) at isang pang-araw-araw na learning plan;",
+          "pagsubaybay sa khatma (kumpletong pagbabasa ng Quran) at isang espesyal na programa para sa Ramadan;",
+          "pang-araw-araw na adhkar, isang quiz sa kaalamang Islamiko, isang radyo at mga live na TV channel na Islamiko;",
+          "isang widget na \"talata ng araw\" na maaaring ipakita sa home screen ng iyong device (iOS at Android)."
+        ],
+        "outro": "Ang mga tampok na ito ay maaaring mabago, maidagdag, o maalis sa paglipas ng mga update ng Application, nang hindi ito bumubuo ng isang malaking pagbabago sa mga Tuntunin ng Paggamit na ito."
+      },
+      "eligibility": {
+        "heading": "2. PAGIGING KWALIPIKADO",
+        "body": "Ang Application ay para sa sinumang gustong matuto o magsanay ng pagbabasa ng Quran. Kung ikaw ay menor de edad, ang paggamit ng Application ay dapat gawin sa ilalim ng superbisyon ng magulang o legal na tagapag-alaga, lalo na para sa anumang tampok na may kinalaman sa in-app purchase."
+      },
+      "account": {
+        "heading": "3. USER ACCOUNT",
+        "brief": "Sa madaling salita",
+        "briefText": "Ang account ay opsyonal at ginagamit lamang para i-sync ang iyong progreso at subscription.",
+        "body": "Ang karamihan sa mga tampok ng Application ay puwedeng ma-access nang walang paggawa ng account. Puwede kang gumawa ng opsyonal na account sa pamamagitan ng email, Google, o Apple, para mapanatili ang iyong progreso (pagsasaulo, khatma, pang-araw-araw na plano) at ang iyong Premium status kapag nagpalit ng device. Ikaw ang responsable para sa pagiging kumpidensyal ng iyong mga kredensyal at anumang aktibidad na ginawa mula sa iyong account. Puwede mong hilingin ang pagburang ng iyong account at kaugnay na data anumang oras sa pamamagitan ng pakikipag-ugnayan sa amin (tingnan ang seksyon 16) o mula sa mga setting ng Application kapag available ang opsyon na ito."
+      },
+      "premium": {
+        "heading": "4. PREMIUM SUBSCRIPTION AT MGA IN-APP PURCHASE",
+        "brief": "Sa madaling salita",
+        "briefText": "Libre ang Application na may advertisement; ang Premium subscription (pinamamahalaan ng Google Play o App Store) ay nag-aalis ng advertisement at nagbubukas ng mga advanced na tampok.",
+        "body": "Ang mga in-app purchase (partikular ang Premium subscription) ay direktang pinoproseso ng Google Play o App Store depende sa iyong platform, alinsunod sa kanilang sariling mga tuntunin ng paggamit at patakaran sa billing. Ang billing, automatic na renewal, pagkansela, at refund ng subscription ay pinamamahalaan mula sa mga setting ng iyong Google Play account o Apple ID — wala kaming access sa iyong mga paraan ng pagbabayad at hindi namin puwedeng direktang isagawa ang isang refund. Ang nilalaman at eksaktong saklaw ng mga benepisyo ng Premium ay inilalarawan sa Application sa oras ng pagbili at maaaring magbago sa mga update."
+      },
+      "recitation": {
+        "heading": "5. PAGWAWASTO NG RECITATION AT MGA AUDIO RECORDING",
+        "brief": "Sa madaling salita",
+        "briefText": "Ang iyong mga recording ng recitation ay ginagamit para bigyan ka ng feedback sa iyong pagbigkas; ibahagi lamang ang komportable kang ipadala.",
+        "bodyBefore": "Ang tampok sa pagwawasto ng recitation ay nagbibigay-daan sa iyo na i-record ang iyong boses habang binabasa mo ang Quran para makatanggap ng personalized na feedback (automated at/o mula sa isang tagasuri, depende sa bersyon ng tampok na aktibo sa Application). Sa paggamit ng tampok na ito, sumasang-ayon kang irekord at iproseso ang iyong boses para sa layunin ng pagsusuri ng pagbigkas at pagpapahusay ng iyong pag-aaral. Hindi ka dapat magsumite ng recording na may kasamang ilegal, mapanirang-puri, o lumalabag sa karapatan ng iba. Ang detalye ng pagproseso, storage, at tagal ng pananatili ng mga recording na ito ay tinukoy sa aming",
+        "linkText": "Patakaran sa Privacy",
+        "bodyAfter": "."
+      },
+      "conduct": {
+        "heading": "6. MGA TUNTUNIN SA PAGGAMIT",
+        "intro": "Sa paggamit ng Application, sumasang-ayon kang hindi:",
+        "items": [
+          "gagamitin ang Application para sa ilegal na layunin o labag sa mga Tuntunin ng Paggamit na ito;",
+          "susubukang makapasok nang walang awtorisasyon sa aming mga sistema, gugulo o lalampas sa kanilang mga hakbang sa seguridad;",
+          "de-compile-hin, i-disassemble, o susubukang kunin ang source code ng Application, maliban kung pinapayagan ito nang malinaw ng batas;",
+          "kokopyahin, ipapamahagi muli, o komersyal na gagamitin ang lahat o bahagi ng nilalaman ng Application nang walang paunang awtorisasyon;",
+          "gagamit ng mga automated na tool (bots, scrapers) para ma-access ang Application o kumuha ng data mula rito."
+        ]
+      },
+      "ip": {
+        "heading": "7. INTELLECTUAL PROPERTY",
+        "body": "Ang Application, ang code, disenyo, mga ilustrasyon nito, at ang mga nilalamang pang-edukasyon na natatangi rito (kurso sa tajweed, istruktura ng learning plan, atbp.) ay protektado ng batas sa intellectual property at nananatiling ari-arian namin o ng aming mga tagapagbigay ng lisensya. Ang tekstong Quranic mismo ay pag-aari ng sangkatauhan at walang nag-aangkin nito; ang mga salin, phonetic transliteration, audio recitation, at mga nilalaman ng tafsir na kasama ay nagmumula sa mga third-party na pinagmulan na kinilala sa Application o mula sa mga kasosyo (reciter, publisher ng salin) at ginagamit alinsunod sa mga permisong nakuha. Walang probisyon sa mga Tuntunin ng Paggamit na ito ang nagbibigay sa iyo ng karapatan sa mga elementong ito lampas sa personal at hindi komersyal na paggamit ng Application."
+      },
+      "religiousContent": {
+        "heading": "8. RELIHIYOSO AT PANG-EDUKASYONG NILALAMAN",
+        "brief": "Sa madaling salita",
+        "briefText": "Ang Application ay isang tool na pang-edukasyon na kasama mo sa pag-aaral, hindi kapalit ng tradisyonal na pagtuturo.",
+        "body": "Ginagawa namin ang lahat para masiguro ang katumpakan ng tekstong Quranic, mga salin, phonetic transliteration, at mga tuntunin ng tajweed na ipinakita sa Application, partikular sa pamamagitan ng pag-asa sa mga kinikilalang pinagmulan. Gayunpaman, ang phonetic transliteration ay likas na isang approximation na nilalayong pagaanin ang pag-aaral at hindi kapalit ng pag-aaral ng pagbabasa ng Quranic Arabic mula sa isang kwalipikadong guro. Gayundin, ang feedback na ibinibigay ng tampok sa pagwawasto ng recitation ay isang tool na tumutulong sa pag-aaral at hindi ginagarantiya ang isang relihiyosong pagpapatibay ng iyong recitation."
+      },
+      "accessibility": {
+        "heading": "9. ACCESSIBILITY",
+        "brief": "Sa madaling salita",
+        "briefText": "Nagtatrabaho kami para gawing magamit ang Application ng pinakamaraming tao, kasama ang mga taong may kapansanan.",
+        "body": "Isinasama ng Application ang impormasyon sa accessibility (mga label at Semantics roles) sa mga pangunahing screen at control nito para mapadali ang navigation gamit ang mga native screen reader ng iyong device (VoiceOver sa iOS, TalkBack sa Android). Sinusunod din nito ang laki ng font na nakatakda sa mga setting ng accessibility ng iyong operating system para sa pagpapakita ng mga teksto. Ang mga pagsisikap na ito sa accessibility ay patuloy at maaaring hindi pantay na sumaklaw sa lahat ng screen at tampok sa isang partikular na sandali. Kung nakaranas ka ng kahirapan sa accessibility habang ginagamit ang Application, inaanyayahan ka naming ipaalam ito sa amin sa pamamagitan ng contact form (tingnan ang seksyon 16) para mapahusay namin ito."
+      },
+      "ads": {
+        "heading": "10. ADVERTISING AT MGA SERBISYO NG THIRD-PARTY",
+        "body1Before": "Isinasama ng Application ang mga teknikal na serbisyo ng third-party (pagsukat ng audience, teknikal na diagnostic, ad network, in-app purchase) na detalyadong inilarawan sa aming",
+        "linkText": "Patakaran sa Privacy",
+        "body1After": ". Ang mga serbisyong ito ay napapailalim sa kani-kanilang tuntunin ng paggamit, na inaanyayahan ka naming sanggunian.",
+        "body2": "Ang ilang advertisement ay ganap na opsyonal: puwede kang boluntaryong piliing manood ng isang rewarded ad mula sa support menu ng Application, kung gusto mong suportahan kami nang hindi dumadaan sa Premium subscription. Ang opsyonal na advertisement na ito ay hindi kailanman lumalabas nang walang iyong tahasang aksyon."
+      },
+      "availability": {
+        "heading": "11. AVAILABILITY AT MGA PAGBABAGO SA SERBISYO",
+        "body": "Sinisikap naming panatilihing accessible at gumagana ang Application, nang hindi ginagarantiya ang tuluy-tuloy o walang-error na availability. Ang ilang tampok ay nangangailangan ng koneksyon sa internet (pag-download ng audio, live na radyo/TV, pag-sync ng account) at maaaring hindi available kapag offline o sa kaso ng pagkaantala ng isang third-party na serbisyo. Puwede kaming magdagdag, magbago, o mag-alis ng mga tampok ng Application anumang oras, partikular para sa mga dahilang teknikal, legal, o kaugnay sa ebolusyon ng aming mga partnership sa nilalaman."
+      },
+      "termination": {
+        "heading": "12. PAGSUSPINDE AT PAGWAWAKAS",
+        "body": "Puwede mong itigil ang paggamit ng Application anumang oras sa pamamagitan ng pag-uninstall nito. Inilalaan namin ang karapatang suspindihin o wakasan ang iyong access sa Application, partikular sa kaso ng hindi pagsunod sa mga Tuntunin ng Paggamit na ito, nang hindi naaapektuhan ang mga nabiling nagawa na sa pamamagitan ng Google Play o App Store, na ang pamamahala ay saklaw ng mga platform na ito."
+      },
+      "disclaimer": {
+        "heading": "13. LIMITASYON NG PANANAGUTAN",
+        "body": "Hanggang sa saklaw na pinapayagan ng naaangkop na batas, ang Application ay ibinibigay \"as is\" at \"as available\", nang walang garantiya ng anumang uri, tahasan man o hindi. Hindi kami mananagot para sa mga hindi direktang pinsala, insidente, o kaakibat na resulta ng paggamit o kawalan ng kakayahang gamitin ang Application, kasama na ang kaso ng pansamantalang hindi pagkakaroon ng access, pagkawala ng data ng progreso, o error sa isang third-party na nilalaman (salin, audio, tafsir) na isinama sa Application. Walang anuman sa mga Tuntunin ng Paggamit na ito ang nag-aalis ng pananagutang hindi legal na maaaring alisin (halimbawa, sa kaso ng sadyang kasalanan o malubhang kapabayaan)."
+      },
+      "law": {
+        "heading": "14. NAAANGKOP NA BATAS AT MGA DISPUTA",
+        "body": "Ang mga Tuntunin ng Paggamit na ito ay sinasaklaw ng batas ng France, nang hindi naaapektuhan ang mga mandatoryong probisyon ng proteksyon ng konsyumer na maaaring ipatupad sa iyong bansang tinitirhan. Sa kaso ng disputa, hahanapin muna ang isang amikableng solusyon sa pamamagitan ng direktang pakikipag-ugnayan sa amin (tingnan ang seksyon 16) bago ang anumang legal na aksyon."
+      },
+      "updates": {
+        "heading": "15. PAGBABAGO NG CGU",
+        "brief": "Sa madaling salita",
+        "briefText": "Maaari naming i-update ang mga Tuntunin ng Paggamit na ito para masalamin ang ebolusyon ng Application o ng regulasyon.",
+        "body": "Maaari naming baguhin ang mga Tuntunin ng Paggamit na ito paminsan-minsan, partikular kapag nagdagdag ng mga bagong tampok. Ang na-update na bersyon ay ipapahiwatig ng isang bagong petsa ng \"Huling update\" sa itaas ng pahinang ito at magiging epektibo sa sandaling ito ay ilathala. Sa kaso ng malaking pagbabago, ipapaalam namin ito sa iyo sa pamamagitan ng isang abiso sa Application. Ang pagpapatuloy ng paggamit ng Application matapos ilathala ang mga pagbabago ay nagpapahiwatig ng pagtanggap sa na-update na mga Tuntunin ng Paggamit."
+      },
+      "contact": {
+        "heading": "16. MAKIPAG-UGNAYAN SA AMIN",
+        "bodyBefore": "Para sa anumang tanong tungkol sa mga Tuntunin ng Paggamit na ito, puwede kang makipag-ugnayan sa amin sa pamamagitan ng contact form na nasa Application, o sa pamamagitan ng email sa",
+        "email": "othmeneb@gmail.com",
+        "bodyAfter": "."
+      }
+    },
+    "footer": "© 2026 Noor Phonetic Quran. Lahat ng karapatan ay nakalaan."
+  },
+  "contactPage": {
+    "meta": {
+      "title": "Makipag-ugnayan - Noor Phonetic Quran",
+      "description": "May tanong tungkol sa Noor Phonetic Quran application, mungkahi para sa phonetics ng Quran, o technical na problema? Makipag-ugnayan sa aming team, sagot sa loob ng 48 oras."
+    }
+  },
+  "reviews": {
+    "meta": {
+      "title": "Mga Review ng User - Noor Phonetic Quran",
+      "description": "Tuklasin ang higit sa 160 verified na review mula sa mga user ng Noor Phonetic Quran, ang application para matutong bumigkas, magsaulo, at magbasa ng Quran sa phonetics, na may average na rating na 5 stars."
+    },
+    "eyebrow": "Mga Verified na Review",
+    "title": "Ang Sinasabi ng Aming mga User",
+    "subtitle": "Tuklasin ang mga review ng aming lumalaking komunidad ng satisfied na users",
+    "ratingCountLabel": "sa %COUNT% na review",
+    "loadMoreLabel": "Tingnan ang Higit Pang Review"
+  },
+  "audioCoran": {
+    "meta": {
+      "title": "Naka-synchronize na Audio ng Quran: Maraming Reciter at Offline na Pakikinig | Noor Phonetic Quran",
+      "description": "Makinig sa Quran gamit ang naka-synchronize na audio nang talata-by-talata, pumili sa maraming reciter, at mag-download ng audio para sa offline na pakikinig gamit ang Noor Phonetic Quran. Libre sa iOS at Android.",
+      "keywords": "audio Quran, recitation Quran audio, maraming reciter Quran, Quran audio offline, mag-download ng Quran audio, makinig sa Quran, naka-synchronize na audio Quran, reciter Quran application",
+      "ogTitle": "Naka-synchronize na Audio ng Quran: Maraming Reciter at Offline na Pakikinig",
+      "ogDescription": "Naka-synchronize na audio nang talata-by-talata, maraming reciter, at offline na pag-download. Libreng application na Noor Phonetic Quran."
+    },
+    "breadcrumb": {
+      "home": "Home",
+      "current": "Audio ng Quran"
+    },
+    "hero": {
+      "title": "Naka-synchronize na Audio ng Quran: Maraming Reciter, Offline na Pakikinig",
+      "subtitle": "Bawat talata ay may kasamang naka-synchronize na audio para marinig ang tamang pagbigkas, na may pagpili ng reciter at kakayahang mag-download ng audio para sa pakikinig nang walang koneksyon.",
+      "backLink": "Bumalik sa Home",
+      "googlePlay": "Google Play",
+      "appStore": "App Store"
+    },
+    "intro": {
+      "title": "Isang Karanasan sa Pakikinig na Idinisenyo Para sa Pag-aaral",
+      "paragraph1": "Ang marinig ang tamang pagbigkas ay mahalaga para matutong bumigkas nang tama ng Quran. Iniuugnay ng Noor Phonetic Quran ang bawat talata sa isang naka-synchronize na audio, para masundan mo ang teksto, ang phonetics nito, at ang pakikinig nang sabay.",
+      "paragraph2": "Hindi ka limitado sa iisang reciter o sa palaging koneksyon sa Internet: piliin ang paboritong boses at i-download ang audio para dalhin ito kahit saan ka man magpunta."
+    },
+    "features": {
+      "title": "Ang Inaalok ng Audio ng Quran",
+      "items": [
+        {
+          "title": "Naka-synchronize na audio nang talata-by-talata",
+          "description": "binabasa nang malakas ang bawat talata habang ito'y binabasa mo, para maitama ang iyong pagbigkas sa real time."
+        },
+        {
+          "title": "Maraming reciter na mapagpipilian",
+          "description": "piliin ang reciter na pinakaangkop sa iyo sa mga available sa application."
+        },
+        {
+          "title": "Pakikinig nang talata, surah, o hanay ng mga surah",
+          "description": "piliin nang eksakto ang bahagi ng Quran na gusto mong pakinggan."
+        },
+        {
+          "title": "Naaayos na bilis ng playback",
+          "description": "bagalan ang audio mula 0.7x hanggang 1x para mas madaling makilala ang bawat salita habang natututo."
+        },
+        {
+          "title": "Pag-download para sa offline na pakikinig",
+          "description": "i-download nang maaga ang audio para makinig ng Quran nang walang koneksyon sa Internet, saan ka man naroroon."
+        }
+      ]
+    },
+    "screenshots": {
+      "title": "Preview ng Audio ng Quran",
+      "alts": [
+        "Noor Phonetic Quran - Naka-synchronize na audio player bar",
+        "Noor Phonetic Quran - Pagpili ng hanay ng talata at offline na pag-download",
+        "Noor Phonetic Quran - Pagpili ng hanay ng surah at pag-aayos ng bilis",
+        "Noor Phonetic Quran - Pagpili ng reciter"
+      ]
+    },
+    "faq": {
+      "title": "Mga Madalas Itanong Tungkol sa Audio ng Quran",
+      "items": [
+        {
+          "question": "Naka-synchronize ba ang audio sa teksto?",
+          "answer": "Oo, bawat talata ay may kasamang naka-synchronize na audio para marinig ang tamang pagbigkas habang sinusundan mo ang teksto at ang phonetic transcription nito."
+        },
+        {
+          "question": "Ilang reciter ang available?",
+          "answer": "Puwede kang pumili sa maraming reciter ng Quran direkta sa mga setting ng audio playback, ayon sa iyong kagustuhan sa pakikinig."
+        },
+        {
+          "question": "Puwede bang makinig ng Quran nang offline?",
+          "answer": "Oo, puwede mong i-download ang audio ng isang talata, surah, o hanay ng mga surah para sa kumpletong pakikinig nang walang koneksyon sa Internet."
+        },
+        {
+          "question": "Puwede bang baguhin ang bilis ng playback ng audio?",
+          "answer": "Oo, ang bilis ng playback ay naaayos mula 0.7x hanggang 1x para iakma ang pakikinig sa iyong antas ng pag-aaral."
+        }
+      ]
+    },
+    "related": {
+      "title": "Tuklasin Din",
+      "tajweed": "Mga Tuntunin ng Tajweed",
+      "memorization": "Isaulo ang Quran (Hifz)",
+      "allFeatures": "Lahat ng Tampok"
+    }
+  },
+  "privacyPolicy": {
+    "title": "Noor Phonetic Quran",
+    "heading": "PATAKARAN SA PRIVACY",
+    "lastUpdated": "Huling update: Hulyo 28, 2026",
+    "intro1": "Ang abisong ito sa privacy para sa Noor Phonetic Quran (\"kami\", \"amin\", o \"aming\") ay naglalarawan kung paano at kung bakit namin kinokolekta, iniimbak, ginagamit, at/o ibinabahagi ang ilang impormasyon kapag ginagamit mo ang aming mobile application na Noor Phonetic Quran (\"Mga Serbisyo\").",
+    "intro2": "Ang patakaran sa privacy na ito ay sumusuplemento sa aming <cguLink>Mga Tuntunin ng Paggamit</cguLink>, na mas malawak na namamahala sa access at paggamit ng aming Mga Serbisyo.",
+    "intro3": "May mga tanong o alalahanin? Ang pagbabasa ng abisong ito sa privacy ay makakatulong sa iyo na maunawaan ang iyong mga karapatan at pagpipilian tungkol sa privacy. Kung hindi ka sumasang-ayon sa aming mga patakaran at kasanayan, mangyaring huwag gamitin ang aming Mga Serbisyo. Kung mayroon ka pa ring mga tanong o alalahanin, mangyaring makipag-ugnayan sa amin sa: <mailLink>othmeneb@gmail.com</mailLink>.",
+    "summary": {
+      "heading": "BUOD NG MGA PANGUNAHING PUNTO",
+      "intro": "Ang buod na ito ay nagbibigay ng mga pangunahing punto ng aming abiso sa privacy, ngunit puwede kang kumuha ng higit pang detalye tungkol sa bawat isa sa mga paksang ito gamit ang aming talaan ng nilalaman sa ibaba.",
+      "q1": {
+        "title": "Anong personal na impormasyon ang aming pinoproseso?",
+        "text": "Hindi kami nangongolekta ng anumang direktang impormasyon ng pagkakakilanlan (pangalan, email) maliban kung gumawa ka ng opsyonal na account, gumamit ng pagwawasto ng recitation, o boluntaryong kinontak kami sa pamamagitan ng contact form. Gumagamit din ang application ng mga teknikal na serbisyo (anonymized na usage statistics, pagsubaybay sa crash, in-app purchase) na nagpoproseso ng mga teknikal na identifier ng iyong device. Tingnan ang seksyong \"Anong impormasyon ang kinokolekta namin?\" para sa detalye."
+      },
+      "q2": {
+        "title": "Pinoproseso ba namin ang sensitibong personal na impormasyon?",
+        "text": "Kung ginagamit mo ang opsyonal na tampok sa pagwawasto ng recitation, ang iyong voice recording (data na maaaring ituring bilang sensitibo/biometric) ay iniimbak nang secure para bigyan ka ng feedback sa iyong pagbigkas. Bukod sa opsyonal na tampok na ito, hindi kami nagpoproseso ng anumang sensitibong personal na impormasyon."
+      },
+      "q3": {
+        "title": "Tumatanggap ba kami ng impormasyon mula sa mga third party?",
+        "text": "Hindi, hindi kami tumatanggap ng anumang impormasyon mula sa mga third party bukod sa mga teknikal na serbisyong nakalista sa ibaba (Firebase, Google AdMob, mga app store)."
+      },
+      "q4": {
+        "title": "Paano namin pinoproseso ang iyong impormasyon?",
+        "text": "Pinoproseso namin ang iyong impormasyon para paganahin ang application, sukatin ang paggamit nito sa aggregated na paraan, i-diagnose ang mga teknikal na problema, pamahalaan ang mga subscription, at sagutin ang iyong mga mensahe sa contact form."
+      },
+      "q5": {
+        "title": "Sa anong mga sitwasyon at sa aling mga partido ibinabahagi namin ang personal na impormasyon?",
+        "text": "Ibinabahagi namin ang ilang teknikal na data sa aming mga provider (Google Firebase, Google AdMob) na kumikilos bilang mga subcontractor para sa paggana ng application. Hindi kami nagbebenta ng anumang data."
+      },
+      "q6": {
+        "title": "Ano ang iyong mga karapatan?",
+        "text": "Depende sa iyong lokasyon, maaari kang magkaroon ng karapatang mag-access, magwasto, tumutol, at magpabura ng iyong data. Tingnan ang seksyong \"Ano ang iyong mga karapatan sa privacy?\"."
+      },
+      "q7": {
+        "title": "Paano gamitin ang iyong mga karapatan?",
+        "text": "Ang pinakamadaling paraan ay makipag-ugnayan sa amin sa <mailLink>othmeneb@gmail.com</mailLink>. Sasagutin namin ang iyong kahilingan alinsunod sa naaangkop na batas."
+      }
+    },
+    "toc": {
+      "heading": "TALAAN NG NILALAMAN",
+      "items": {
+        "collect": "ANONG IMPORMASYON ANG KINOKOLEKTA NAMIN?",
+        "process": "PAANO NAMIN PINOPROSESO ANG IYONG IMPORMASYON?",
+        "legal": "SAAN NAKABASE ANG AMING MGA LEGAL NA BATAYAN PARA PROSESUHIN ANG IYONG PERSONAL NA IMPORMASYON?",
+        "share": "KAILAN AT KANINO NAMIN IBINABAHAGI ANG IYONG PERSONAL NA IMPORMASYON?",
+        "keep": "GAANO KATAGAL NAMIN INIIMBAK ANG IYONG IMPORMASYON?",
+        "rights": "ANO ANG IYONG MGA KARAPATAN SA PRIVACY?",
+        "dnt": "MGA KONTROL NG \"DO-NOT-TRACK\" NA TAMPOK",
+        "usRights": "MAYROON BA ANG MGA RESIDENTE NG UNITED STATES NG ESPESYAL NA MGA KARAPATAN SA PRIVACY?",
+        "updates": "IN-A-UPDATE BA NAMIN ANG ABISONG ITO?",
+        "contact": "PAANO KAMI KONTAKIN TUNGKOL SA ABISONG ITO?",
+        "access": "PAANO SURIIN, I-UPDATE, O BURAHIN ANG DATA NA AMING KINOKOLEKTA?"
+      }
+    },
+    "sections": {
+      "collect": {
+        "heading": "ANONG IMPORMASYON ANG KINOKOLEKTA NAMIN?",
+        "disclosedTitle": "Personal na Impormasyon na Iyong Ibinunyag sa Amin",
+        "disclosedIntro": "<strong>Sa madaling salita</strong>: Kinokolekta namin ang personal na impormasyon na boluntaryo mong ibinibigay sa amin, halimbawa kapag gumawa ka ng account, gumamit ng pagwawasto ng recitation, o ng aming contact form.",
+        "disclosedContact": "Kung kinokontak mo kami sa pamamagitan ng contact form na nasa application, kinokolekta namin ang iyong pangalan, email address, at nilalaman ng iyong mensahe, kasama ang mga kaugnay na teknikal na impormasyon (platform, wika, bersyon ng application, uri ng device, time zone) para masagot ka namin at ma-diagnose ang anumang problema.",
+        "disclosedAccount": "Kung gumawa ka ng opsyonal na account, kinokolekta namin ang iyong email address (email login) o ang impormasyong ipinasa ng Google o Apple kapag mag-login gamit ang mga serbisyong ito (account identifier, pangalan, at email address kung pipiliin mong ibahagi ang mga ito), para gumawa at masiguro ang iyong profile at i-sync ang iyong progreso at Premium subscription.",
+        "audioTitle": "Mga Audio Recording (Pagwawasto ng Recitation)",
+        "audioIntro": "<strong>Sa madaling salita</strong>: Kung ginagamit mo ang pagwawasto ng recitation, ang iyong voice recording ay ipinapadala nang secure sa aming mga server (Google Firebase Storage) para ito ay masuri at/o marinig ng isang tagasuri.",
+        "audioDetail": "Ang boses ay maaaring ituring bilang biometric o sensitibong data depende sa naaangkop na regulasyon. Kapag ginagamit mo ang tampok sa pagwawasto ng recitation, ang iyong audio recording ay iniimbak sa isang espasyong nakalaan para sa iyong account (Google Firebase Storage), na maaaring ma-access lamang ng iyong sarili at ng mga awtorisadong tagasuri na magpoproseso ng iyong submission, para lamang sa layunin ng pagbibigay sa iyo ng feedback sa iyong pagbigkas. Ang mga recording na ito ay hindi ginagamit para sa layuning advertising, ni ibinabahagi sa mga third party bukod sa mga teknikal na provider na kinakailangan para sa storage nito (Google Firebase). Puwede mong hilingin ang pagbura ng iyong mga recording anumang oras sa pamamagitan ng pakikipag-ugnayan sa amin (tingnan ang seksyong \"Paano kami kontakin\").",
+        "autoTitle": "Data na Awtomatikong Kinokolekta",
+        "autoIntro": "Tulad ng karamihan sa mga application, gumagamit ang Noor Phonetic Quran ng mga teknikal na serbisyo ng third-party na awtomatikong nangongolekta ng ilang data ng paggamit at device:",
+        "table": {
+          "headers": {
+            "service": "Serbisyo",
+            "purpose": "Layunin",
+            "data": "Kaugnay na Data"
+          },
+          "rows": {
+            "analytics": {
+              "service": "Google Firebase Analytics",
+              "purpose": "Pagsukat ng audience at paggamit ng mga tampok (mga screen na binisita, mga aksyon sa app tulad ng pagbabasa, pagsasaulo, o quiz), sa aggregated at anonymized na anyo",
+              "data": "Advertising/installation identifier, usage statistics, wika, premium status"
+            },
+            "crashlytics": {
+              "service": "Google Firebase Crashlytics",
+              "purpose": "Teknikal na diagnostic ng mga crash ng application para maitama ang mga bug",
+              "data": "Mga crash report, teknikal na impormasyon sa device at operating system"
+            },
+            "auth": {
+              "service": "Google Firebase Authentication",
+              "purpose": "Paggawa at pagsisiguro ng iyong opsyonal na account (email, Google, Apple), pag-sync ng iyong progreso at subscription",
+              "data": "Email address, account identifier, ginamit na paraan ng login"
+            },
+            "storage": {
+              "service": "Google Firebase Storage",
+              "purpose": "Secure na storage ng iyong mga audio recording kung ginagamit mo ang pagwawasto ng recitation",
+              "data": "Mga audio file ng iyong boses, na naka-ugnay sa iyong account identifier"
+            },
+            "purchases": {
+              "service": "Google Play / App Store (in-app purchase)",
+              "purpose": "Pamamahala ng premium subscription (pag-aalis ng advertisement)",
+              "data": "Status at identifier ng pagbili, direktang pinamamahalaan ng Google/Apple"
+            },
+            "admob": {
+              "service": "Google AdMob",
+              "purpose": "Pagpapakita ng mga advertisement para sa mga hindi premium na user (banners, interstitials) pati na ang mga rewarded ad na boluntaryo mong mapipiling panoorin para suportahan kami nang hindi nagsu-subscribe sa Premium",
+              "data": "Advertising identifier ng device, data ng interaction sa mga advertisement"
+            }
+          }
+        },
+        "att": "Sa iOS, ang pagpapakita ng mga personalized na advertisement ay maaaring may kasamang kahilingan para sa awtorisasyon na \"App Tracking Transparency\" (ATT) na inaalok ng operating system. Puwede mong tanggihan ang awtorisasyong ito anumang oras mula sa mga setting ng privacy ng iyong device (Settings > Privacy & Security > Tracking); mananatiling ganap na gumagana ang application kung tatanggihan mo ito.",
+        "noLocation": "Hindi namin kinokolekta ang iyong eksaktong lokasyon; hindi humihiling ang application ng awtorisasyon para sa geolocation access."
+      },
+      "process": {
+        "heading": "PAANO NAMIN PINOPROSESO ANG IYONG IMPORMASYON?",
+        "summary": "<strong>Sa madaling salita</strong>: Pinoproseso namin ang iyong impormasyon para paganahin ang application, sagutin ang iyong mga kahilingan, pahusayin ang aming Mga Serbisyo, at pamahalaan ang iyong subscription kung angkop.",
+        "detail": "Pinoproseso namin ang data na inilarawan sa itaas para: (i) magbigay at mapanatili ang mga tampok ng application (pagbabasa, pagsasaulo, khatma, quiz, pagwawasto ng recitation), (ii) sagutin ang iyong mga mensaheng ipinadala sa pamamagitan ng contact form, (iii) i-diagnose at itama ang mga teknikal na problema, (iv) sukatin ang aggregated na paggamit ng mga tampok para bigyang-priyoridad ang aming mga development, (v) pamahalaan ang premium subscription at ang pagpapakita ng advertisement para sa mga hindi premium na user."
+      },
+      "legal": {
+        "heading": "SAAN NAKABASE ANG AMING MGA LEGAL NA BATAYAN PARA PROSESUHIN ANG IYONG PERSONAL NA IMPORMASYON?",
+        "summary": "<strong>Sa madaling salita</strong>: Pinoproseso lamang namin ang iyong personal na impormasyon kapag naniniwala kaming ito ay kinakailangan at may valid na legal na dahilan (ibig sabihin, isang legal na batayan) para gawin ito alinsunod sa naaangkop na batas.",
+        "euTitle": "Kung ikaw ay nasa EU o United Kingdom, ang seksyong ito ay para sa iyo.",
+        "euIntro": "Ang General Data Protection Regulation (GDPR) at ang UK GDPR ay nag-oobliga sa amin na ipaliwanag ang mga valid na legal na batayan na aming pinagbabatayan para prosesuhin ang iyong personal na impormasyon:",
+        "euList": {
+          "consent": "<strong>Pahintulot</strong>: para sa pagpapakita ng mga personalized na advertisement at pagsukat ng audience, nakolekta sa pamamagitan ng consent banner sa unang paglunsad ng application.",
+          "contract": "<strong>Pagsasagawa ng kontrata</strong>: para sa pamamahala ng iyong premium subscription.",
+          "legitimate": "<strong>Lehitimong interes</strong>: para sa teknikal na diagnostic (Crashlytics) at pagproseso ng iyong mga mensahe sa contact form."
+        },
+        "canadaTitle": "Kung ikaw ay nasa Canada, ang seksyong ito ay para sa iyo.",
+        "canadaText": "Maaari naming iproseso ang iyong impormasyon kung binigyan mo kami ng espesipikong awtorisasyon, o sa ilang legal na tinukoy na kaso (batas sa proteksyon ng privacy). Puwede rin naming iproseso ang iyong impormasyon kung ito ay makatwiran at para sa mga layuning ituturing na angkop ng isang makatwirang tao, halimbawa para sagutin ang iyong mga kahilingan sa pakikipag-ugnayan."
+      },
+      "share": {
+        "heading": "KAILAN AT KANINO NAMIN IBINABAHAGI ANG IYONG PERSONAL NA IMPORMASYON?",
+        "summary": "<strong>Sa madaling salita</strong>: Ibinabahagi lamang namin ang impormasyon sa mga teknikal na provider na kinakailangan para sa paggana ng application (Google Firebase, Google AdMob), sa mga app store (Google Play, App Store) para sa pamamahala ng mga pagbili, at kung inoobliga kami ng batas. Hindi namin kailanman ibinebenta ang iyong data sa mga third party."
+      },
+      "keep": {
+        "heading": "GAANO KATAGAL NAMIN INIIMBAK ANG IYONG IMPORMASYON?",
+        "summary": "<strong>Sa madaling salita</strong>: Iniimbak namin ang iyong impormasyon hangga't kinakailangan para sa mga layuning inilarawan sa abisong ito, maliban kung nangangailangan ang batas ng mas mahabang tagal ng pag-iimbak.",
+        "detail": "Ang mga mensaheng ipinadala sa pamamagitan ng contact form ay iniimbak habang pinoproseso ang iyong kahilingan at pagkatapos ay ina-archive o binubura. Ang aggregated na statistical data (Firebase Analytics) ay iniimbak alinsunod sa mga default na setting ng Google Firebase."
+      },
+      "rights": {
+        "heading": "ANO ANG IYONG MGA KARAPATAN SA PRIVACY?",
+        "summary": "<strong>Sa madaling salita</strong>: Depende sa iyong bansang tinitirhan, maaari kang magkaroon ng karapatang humiling ng access, pagwawasto, o pagbura ng iyong personal na impormasyon, bawiin ang iyong pahintulot sa pagproseso, at tumutol sa ilang uri ng pagproseso.",
+        "detail": "Puwede mong bawiin anumang oras ang iyong pahintulot sa pagsukat ng audience at personalized na advertisement mula sa mga setting ng privacy na available sa application (Settings > Privacy)."
+      },
+      "dnt": {
+        "heading": "MGA KONTROL NG \"DO-NOT-TRACK\" NA TAMPOK",
+        "text": "Karamihan sa mga web browser at ilang operating system at mobile application ay may kasamang tampok na \"Do-Not-Track\" (\"DNT\") o isang setting na puwede mong i-activate para ipahiwatig ang iyong kagustuhan sa privacy. Sa ngayon, wala pang pinal na uniporme na teknolohikal na pamantayan para makilala at ipatupad ang mga DNT signal. Bilang gayon, hindi kami kasalukuyang tumutugon sa mga DNT browser signal. Kung magkakaroon ng pamantayan para sa online tracking na kailangan naming sundin sa hinaharap, ipapaalam namin ito sa iyo sa isang binagong bersyon ng abisong ito sa privacy."
+      },
+      "usRights": {
+        "heading": "MAYROON BA ANG MGA RESIDENTE NG UNITED STATES NG ESPESYAL NA MGA KARAPATAN SA PRIVACY?",
+        "summary": "<strong>Sa madaling salita</strong>: Kung ikaw ay isang residente ng United States, mayroon kang ilang espesipikong karapatan tungkol sa access sa iyong personal na impormasyon, depende sa estadong iyong tinitirhan. Puwede mong gamitin ang mga karapatang ito sa pamamagitan ng pakikipag-ugnayan sa amin sa address na nakasaad sa ibaba."
+      },
+      "updates": {
+        "heading": "IN-A-UPDATE BA NAMIN ANG ABISONG ITO?",
+        "summary": "<strong>Sa madaling salita</strong>: Oo, ia-update namin ang abisong ito kung kinakailangan para manatiling naaayon sa mga naaangkop na batas.",
+        "detail": "Maaari naming i-update ang abisong ito sa privacy paminsan-minsan. Ang na-update na bersyon ay ipapahiwatig ng isang na-update na petsa ng \"Rebisyon\" at magiging epektibo sa sandaling ito ay ma-access. Kung gagawa kami ng mahahalagang pagbabago sa abisong ito sa privacy, maaari namin itong ipaalam sa iyo sa pamamagitan ng paglalathala ng isang kapansin-pansing abiso ng mga pagbabagong ito, o sa pamamagitan ng direktang pagpapadala sa iyo ng notification. Hinihikayat ka naming madalas na basahin ang abisong ito sa privacy para malaman kung paano namin pinoprotektahan ang iyong impormasyon."
+      },
+      "contact": {
+        "heading": "PAANO KAMI KONTAKIN TUNGKOL SA ABISONG ITO?",
+        "text": "Kung mayroon kang mga tanong o komento tungkol sa abisong ito, puwede kang magpadala sa amin ng email sa <mailLink>othmeneb@gmail.com</mailLink>."
+      },
+      "access": {
+        "heading": "PAANO SURIIN, I-UPDATE, O BURAHIN ANG DATA NA AMING KINOKOLEKTA?",
+        "text": "Depende sa mga naaangkop na batas sa iyong bansa, maaari kang magkaroon ng karapatang humiling ng access sa personal na impormasyon na hawak namin tungkol sa iyo, baguhin ito, o burahin ito. Para dito, makipag-ugnayan lamang sa amin sa <mailLink>othmeneb@gmail.com</mailLink>; iproproseso namin ang iyong kahilingan sa lalong madaling panahon."
+      }
+    },
+    "footer": "© 2026 Noor Phonetic Quran. Lahat ng karapatan ay nakalaan.",
+    "meta": {
+      "title": "Patakaran sa Privacy - Noor Phonetic Quran",
+      "description": "Patakaran sa privacy ng Noor Phonetic Quran: nakolektang data (analytics, pagbili, form ng pakikipag-ugnayan), layunin, pagbabahagi sa third-party, at ang iyong mga karapatan."
+    }
+  },
+  "correctionRecitation": {
+    "meta": {
+      "title": "Pagwawasto ng Recitation ng Quran: I-record ang Sarili at Umunlad | Noor Phonetic Quran",
+      "description": "I-record ang iyong recitation ng Quran at tumanggap ng personalized na pagwawasto gamit ang Noor Phonetic Quran: pagpapahusay ng pagbigkas at pagsunod sa mga tuntunin ng Tajweed. Libre sa iOS at Android.",
+      "keywords": "pagwawasto recitation Quran, pahusayin ang recitation, pagwawasto Tajweed, i-record ang recitation, application pagwawasto Quran, matuto bumigkas ng Quran nang tama",
+      "ogTitle": "Pagwawasto ng Recitation ng Quran: I-record ang Sarili at Umunlad",
+      "ogDescription": "I-record ang iyong recitation at tumanggap ng personalized na pagwawasto para umunlad sa pagbigkas at Tajweed. Libreng application na Noor Phonetic Quran."
+    },
+    "breadcrumb": {
+      "home": "Home",
+      "current": "Pagwawasto ng Recitation"
+    },
+    "hero": {
+      "title": "Pagwawasto ng Recitation ng Quran: I-record ang Sarili at Umunlad",
+      "subtitle": "I-record ang iyong recitation direkta sa application at tumanggap ng personalized na pagwawasto para pahusayin ang iyong pagbigkas at pagsunod sa mga tuntunin ng Tajweed."
+    },
+    "intro": {
+      "title": "Bakit Iwasto ang Iyong Recitation?",
+      "paragraph1": "Ang tamang pagbigkas ay hindi lamang limitado sa tamang pagbasa ng phonetics: ang pagsunod sa mga tuntunin ng Tajweed (mga pahaba, pag-uugnay, mga punto ng pagbigkas ng mga letra) ay kadalasang nangangailangan ng feedback mula sa labas para makilala kung ano ang kailangang pahusayin.",
+      "paragraph2": "Sa Noor Phonetic Quran, puwede kang mag-record direkta sa application at tumanggap ng personalized na pagwawasto, nang hindi kailangang maghanap ng guro na laging available."
+    },
+    "steps": {
+      "title": "Paano Gumagana ang Pagwawasto ng Recitation?",
+      "items": [
+        {
+          "title": "Piliin ang isang bahagi",
+          "text": "piliin ang surah at mga talata na gusto mong bigkasin."
+        },
+        {
+          "title": "I-record ang iyong recitation",
+          "text": "direkta mula sa application, nang walang karagdagang kagamitan."
+        },
+        {
+          "title": "Ipadala ang iyong recording",
+          "text": "ang iyong recitation ay ipinapasok sa waiting list para marinig."
+        },
+        {
+          "title": "Tanggapin ang iyong pagwawasto",
+          "text": "isang personalized na sagot ang magtuturo sa iyo ng mga puntong dapat pahusayin, direkta sa application."
+        },
+        {
+          "title": "Umunlad sa Bawat Recording",
+          "text": "ulitin ang ehersisyo nang regular para pinuhin ang iyong pagbigkas at Tajweed."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Mga Madalas Itanong Tungkol sa Pagwawasto ng Recitation",
+      "items": [
+        {
+          "question": "Libre ba ang pagwawasto ng recitation?",
+          "answer": "Libre ang unang recording. Pagkatapos nito, ang tampok ay bahagi na ng premium na alok ng application."
+        },
+        {
+          "question": "Gaano katagal para makatanggap ng pagwawasto?",
+          "answer": "Ang iyong recording ay ipinapasok sa waiting list para marinig at maiwasto, na may personalized na sagot direkta sa application."
+        },
+        {
+          "question": "Puwede ko bang i-record ulit ang parehong bahagi nang maraming beses?",
+          "answer": "Oo, puwede mong ulitin ang ehersisyo kasindalas ng gusto mo para umunlad sa parehong bahagi."
+        }
+      ]
+    },
+    "related": {
+      "title": "Tuklasin Din",
+      "tajweed": "Mga Tuntunin ng Tajweed",
+      "memorisation": "Isaulo ang Quran (Hifz)",
+      "allFeatures": "Lahat ng Tampok"
+    }
+  },
+  "khatmaCoran": {
+    "meta": {
+      "title": "Khatma ng Quran: Application para Magplano at Subaybayan ang Kumpletong Pagbabasa | Noor Phonetic Quran",
+      "description": "Planuhin ang iyong Khatma (kumpletong pagbabasa ng Quran) gamit ang Noor Phonetic Quran application: pang-araw-araw na target, pagsubaybay ng progreso, streak ng mga araw, at mga paalala. Libre sa iOS at Android.",
+      "keywords": "Khatma Quran, khatma application, basahin ang buong Quran, plano ng pagbabasa ng Quran, target na Khatma Ramadan, pagsubaybay ng pagbabasa ng Quran, tapusin ang Quran",
+      "ogTitle": "Khatma ng Quran: Planuhin at Subaybayan ang Iyong Kumpletong Pagbabasa",
+      "ogDescription": "Planuhin ang iyong Khatma na may pang-araw-araw na target, pagsubaybay ng progreso at mga paalala. Libreng application na Noor Phonetic Quran."
+    },
+    "breadcrumb": {
+      "home": "Home",
+      "current": "Khatma ng Quran"
+    },
+    "hero": {
+      "title": "Khatma ng Quran: Planuhin at Tapusin ang Iyong Kumpletong Pagbabasa",
+      "subtitle": "Magtakda ng target na bilang ng araw, subaybayan ang iyong pang-araw-araw na progreso, at panatilihin ang iyong reading streak hanggang sa huling pahina ng Banal na Quran, na may mga paalala para manatiling regular.",
+      "googlePlay": "Google Play",
+      "appStore": "App Store"
+    },
+    "intro": {
+      "title": "Ano ang Khatma?",
+      "paragraph1": "Ang Khatma ay tumutukoy sa kumpletong pagbabasa ng Quran, mula sa umpisa (Al-Fatiha) hanggang sa dulo (An-Nas). Marami sa mga Muslim ang gumagawa ng Khatma sa buwan ng Ramadan, ngunit puwede rin itong gawin anumang oras ng taon, sa haba ng panahong pipiliin mo.",
+      "paragraph2": "Ang pagtatapos ng Quran ay nangangailangan ng katatagan: kung walang plano sa pagbabasa o pagsubaybay, madaling mawala sa daan o sumuko sa gitna. Ito ang eksaktong nire-resolba ng tampok na Khatma ng Noor Phonetic Quran."
+    },
+    "features": {
+      "title": "Paano Gumagana ang Khatma sa Application?",
+      "items": [
+        {
+          "title": "Piliin ang Tagal ng Iyong Khatma",
+          "description": "halimbawa 30 araw para sa Ramadan, o isang personalized na tagal na akma sa iyong bilis."
+        },
+        {
+          "title": "Subaybayan ang Iyong Pang-araw-araw na Target",
+          "description": "awtomatikong kina-calculate ng application ang bilang ng mga pahinang babasahin bawat araw para matapos sa tamang oras."
+        },
+        {
+          "title": "Panatilihin ang Iyong Reading Streak",
+          "description": "bawat araw na naaabot mo ang iyong target ay pinapahaba ang iyong streak, isang karagdagang motibasyon para manatiling regular."
+        },
+        {
+          "title": "Tumanggap ng mga Paalala",
+          "description": "ang mga notification ay tumutulong sa iyo na hindi makalimutan ang iyong pagbabasa para sa araw."
+        },
+        {
+          "title": "Ipagdiwang ang Pagtatapos ng Iyong Khatma",
+          "description": "isang buod ng iyong paglalakbay (mga araw na ginugol, pinakamahusay na streak) ang lalabas sa sandaling matapos ang Quran."
+        }
+      ]
+    },
+    "screenshots": {
+      "title": "Preview ng Tampok na Khatma",
+      "alts": [
+        "Noor Phonetic Quran - Pagpili ng plano ng Khatma (30, 60, 90 araw o Ramadan)",
+        "Noor Phonetic Quran - Pagsubaybay ng progreso ng Khatma na may streak",
+        "Noor Phonetic Quran - Indicator ng Khatma na ipinapakita habang nagbabasa"
+      ]
+    },
+    "faq": {
+      "title": "Mga Madalas Itanong Tungkol sa Khatma",
+      "items": [
+        {
+          "question": "Ano ang Khatma ng Quran?",
+          "answer": "Ang Khatma ay tumutukoy sa kumpletong pagbabasa ng Quran, mula umpisa hanggang wakas, kadalasang ginagawa sa loob ng isang tinukoy na panahon (madalas sa buwan ng Ramadan, ngunit puwede rin sa buong taon)."
+        },
+        {
+          "question": "Paano magplano ng Khatma gamit ang application?",
+          "answer": "Pumili ng bilang ng araw para matapos ang Quran (halimbawa 30 araw para sa Ramadan), awtomatikong kina-calculate ng application ang iyong pang-araw-araw na target ng mga pahina at sinusubaybayan ang iyong progreso araw-araw."
+        },
+        {
+          "question": "Ano ang mangyayari kung makaliban ako ng isang araw ng pagbabasa?",
+          "answer": "Inaayos ng application ang iyong natitirang pang-araw-araw na target para makabawi ka at matapos ang iyong Khatma sa tamang oras, habang sinusubaybayan pa rin ang iyong streak ng magkakasunod na araw."
+        },
+        {
+          "question": "Puwede ba akong gumawa ng Khatma sa labas ng Ramadan?",
+          "answer": "Oo, puwede kang magsimula ng Khatma anumang oras ng taon, sa tagal na iyong pipiliin."
+        },
+        {
+          "question": "Libre ba ang tampok na Khatma?",
+          "answer": "Oo, tulad ng lahat ng pangunahing tampok ng Noor Phonetic Quran, ganap na libre ang Khatma."
+        }
+      ]
+    },
+    "related": {
+      "title": "Tuklasin Din",
+      "memorization": "Isaulo ang Quran (Hifz)",
+      "audio": "Audio ng Quran",
+      "allFeatures": "Lahat ng Tampok"
+    }
+  },
+  "tajweedCoran": {
+    "meta": {
+      "title": "Mga Tuntunin ng Tajweed ng Quran: Makulay at Detalyadong Pag-aaral | Noor Phonetic Quran",
+      "description": "Matuto ng mga tuntunin ng Tajweed ng Quran gamit ang Noor Phonetic Quran: mga kulay at annotation habang nagbabasa, mga punto ng artikulasyon ng mga letra (Makharej), mga tuntunin ng Noun Sakinah at Waqf. Libre sa iOS at Android.",
+      "keywords": "mga tuntunin Tajweed, Tajweed Quran, matuto ng Tajweed, Tajweed makulay, Makharej mga letrang Arabic, Noun Sakinah Tanwin, Waqf Ibtida, libreng application Tajweed",
+      "ogTitle": "Mga Tuntunin ng Tajweed ng Quran: Makulay at Detalyadong Pag-aaral",
+      "ogDescription": "Mga kulay at annotation habang nagbabasa, mga punto ng artikulasyon, mga tuntunin ng Noun Sakinah at Waqf. Libreng application na Noor Phonetic Quran."
+    },
+    "breadcrumb": {
+      "home": "Home",
+      "current": "Mga Tuntunin ng Tajweed"
+    },
+    "hero": {
+      "title": "Mga Tuntunin ng Tajweed ng Quran: Makulay at Detalyadong Pag-aaral",
+      "subtitle": "Ang teksto ng Quran ay ipinapakita nang makulay at may annotation ayon sa mga tuntunin ng Tajweed, kasama ng mga detalyadong gabay sa mga punto ng artikulasyon, ang Noun Sakinah, at mga tuntunin ng pagtigil at pagpapatuloy.",
+      "backLink": "Bumalik sa Home",
+      "googlePlay": "Google Play",
+      "appStore": "App Store"
+    },
+    "intro": {
+      "title": "Bakit Mahalaga ang Tajweed",
+      "paragraph1": "Ang Tajweed ay ang buong hanay ng mga tuntunin na nagsisiguro ng tamang recitation ng Quran: tumpak na pagbigkas ng bawat letra, mga pahaba, pag-uugnay, at mga puntong maaaring pagtigilan o pagpapatuloyan ng pagbabasa. Ang pagbigkas nang hindi sinusunod ang Tajweed ay maaaring baguhin ang kahulugan ng teksto.",
+      "paragraph2": "Ginagawang nakikita at nauunawaan ng Noor Phonetic Quran ang mga tuntuning ito, na may mga kulay habang nagbabasa at mga detalyadong gabay para palalimin ang bawat konsepto."
+    },
+    "features": {
+      "title": "Ang Inaalok ng Pag-aaral ng Tajweed",
+      "items": [
+        {
+          "title": "Makulay at May Annotation na Teksto",
+          "description": "ginagabayan ng mga kulay at annotation ang iyong recitation direkta sa teksto ng Quran, ayon sa tamang mga tuntunin ng Tajweed."
+        },
+        {
+          "title": "Mga Punto ng Artikulasyon (Makharej)",
+          "description": "matutunan ang tamang pagbigkas ng bawat letrang Arabic mula sa punto ng artikulasyon nito, na may mga anatomical na diagram."
+        },
+        {
+          "title": "Noun Sakinah at Tanwin",
+          "description": "ang 4 na tuntunin na namamahala sa noun sakinah at tanwin (Izhar, Idgham, Iqlab, Ikhfa') na ipinaliwanag at inihambing sa visual."
+        },
+        {
+          "title": "Waqf at Ibtida",
+          "description": "ang mga tuntunin na nagtutukoy sa mga puntong pinapayagan ang pagtigil at pagpapatuloy ng recitation, para mapanatili ang kahulugan ng teksto."
+        }
+      ]
+    },
+    "screenshots": {
+      "title": "Preview ng Mga Tuntunin ng Tajweed",
+      "alts": [
+        "Noor Phonetic Quran - Makulay na mga tuntunin ng Tajweed habang nagbabasa",
+        "Noor Phonetic Quran - Mga punto ng artikulasyon ng mga letrang Arabic (Makharej)",
+        "Noor Phonetic Quran - Mga tuntunin ng Noun Sakinah at Tanwin",
+        "Noor Phonetic Quran - Mga tuntunin ng Waqf at Ibtida (pagtigil at pagpapatuloy)"
+      ]
+    },
+    "faq": {
+      "title": "Mga Madalas Itanong Tungkol sa Tajweed",
+      "items": [
+        {
+          "question": "Ano ang Tajweed?",
+          "answer": "Ang Tajweed ay ang buong hanay ng mga tuntunin na namamahala sa tamang pagbigkas ng Quran: mga pahaba, pag-uugnay, mga punto ng artikulasyon ng mga letra, at mga tuntunin ng pagtigil at pagpapatuloy ng recitation."
+        },
+        {
+          "question": "Paano tinuturo ng application ang Tajweed?",
+          "answer": "Ang teksto ng Quran ay makulay at may annotation ayon sa mga tuntunin ng Tajweed habang nagbabasa, at ang mga detalyadong gabay ay nagpapaliwanag ng bawat tuntunin: mga punto ng artikulasyon, Noun Sakinah at Tanwin, gayundin ang mga tuntunin ng Waqf at Ibtida."
+        },
+        {
+          "question": "Angkop ba ang Tajweed para sa mga baguhan?",
+          "answer": "Oo, ang bawat tuntunin ay ipinapaliwanag na may simpleng mga depinisyon, mga halimbawa, at visual na paghahambing para mapadali ang pag-aaral, kahit walang naunang kaalaman."
+        }
+      ]
+    },
+    "related": {
+      "title": "Tuklasin Din",
+      "audio": "Audio ng Quran",
+      "memorization": "Isaulo ang Quran (Hifz)",
+      "allFeatures": "Lahat ng Tampok"
+    }
+  },
+  "quizCoran": {
+    "meta": {
+      "title": "Quiz sa Quran: Subukin ang Iyong Kaalaman sa Quran Habang Nag-eenjoy | Noor Phonetic Quran",
+      "description": "Subukin ang iyong kaalaman sa Quran gamit ang Quiz sa Quran ng Noor Phonetic Quran: 21 tanong, gradwal na scale ng premyo, mga joker na 50:50, sondage ng manonood, at tumawag sa kaibigan. Libre sa iOS at Android.",
+      "keywords": "quiz Quran, quiz sa Quran, laro ng tanong Quran, subukin ang kaalaman sa Quran, quiz islam, libreng application quiz Quran, mga tanong at sagot sa Quran",
+      "ogTitle": "Quiz sa Quran: Subukin ang Iyong Kaalaman Habang Nag-eenjoy",
+      "ogDescription": "21 tanong, gradwal na scale ng premyo, mga joker na 50:50, sondage ng manonood, at tumawag sa kaibigan. Libreng application na Noor Phonetic Quran."
+    },
+    "breadcrumb": {
+      "home": "Home",
+      "current": "Quiz sa Quran"
+    },
+    "hero": {
+      "title": "Quiz sa Quran: Subukin ang Iyong Kaalaman Habang Nag-eenjoy",
+      "subtitle": "21 tanong, isang gradwal na scale ng premyo, at tatlong joker (50:50, sondage ng manonood, tumawag sa kaibigan) para matuto ng Quran sa masayang paraan.",
+      "backLink": "Bumalik sa Home",
+      "googlePlay": "Google Play",
+      "appStore": "App Store"
+    },
+    "intro": {
+      "title": "Isang Quiz para Matuto Habang Nag-eenjoy",
+      "paragraph1": "Ang Quiz sa Quran ng Noor Phonetic Quran ay hango sa format na \"Who Wants to Be a Millionaire\": isang serye ng mga tanong tungkol sa Quran, kasaysayang Islamiko, at mga surah, na may scale ng premyo na tumataas sa bawat tamang sagot.",
+      "paragraph2": "Isa itong masayang paraan para mag-review o matuklasan ang kaalaman tungkol sa Quran, mag-isa man o kasama ang pamilya, nang walang pressure — puwede kang huminto anumang oras habang naitatago ang iyong score."
+    },
+    "features": {
+      "title": "Paano Gumagana ang Quiz?",
+      "items": [
+        {
+          "title": "Sagutin ang 21 Tanong",
+          "description": "mga tanong na multiple-choice na patuloy na tumataas ang hirap tungkol sa Quran at kasaysayang Islamiko."
+        },
+        {
+          "title": "Sundan ang Scale ng Premyo",
+          "description": "bawat tamang sagot ay nagpapaunlad sa iyo sa isang scale mula 100 points hanggang 1 milyon."
+        },
+        {
+          "title": "Gamitin ang Iyong mga Joker",
+          "description": "ang 50:50 ay nag-aalis ng dalawang maling sagot, ang sondage ng manonood ay nagpapakita ng opinyon ng ibang manlalaro, at ang tumawag sa kaibigan ay nagmumungkahi ng sagot."
+        },
+        {
+          "title": "Huminto Kahit Kailan Mo Gusto",
+          "description": "ang button na \"Walk Away\" ay nagbibigay-daan sa iyo na itago ang iyong napanalunan anumang oras kaysa manganib na mawala ang lahat."
+        }
+      ]
+    },
+    "screenshots": {
+      "title": "Preview ng Quiz sa Quran",
+      "alts": [
+        "Noor Phonetic Quran - Home screen ng Quiz sa Quran",
+        "Noor Phonetic Quran - Tanong ng quiz na may scale ng premyo",
+        "Noor Phonetic Quran - Joker na sondage ng manonood sa quiz",
+        "Noor Phonetic Quran - Joker na tumawag sa kaibigan sa quiz"
+      ]
+    },
+    "faq": {
+      "title": "Mga Madalas Itanong Tungkol sa Quiz sa Quran",
+      "items": [
+        {
+          "question": "Ilang tanong ang mayroon ang quiz?",
+          "answer": "Ang quiz ay may 21 multiple-choice na tanong, na patuloy na tumataas ang hirap sa buong laro."
+        },
+        {
+          "question": "Ano ang mangyayari kung mali ang aking sagot sa isang tanong?",
+          "answer": "Depende sa iyong progreso, mapapanatili mo ang huling garantisadong antas ng premyong naabot, tulad ng sa format na \"Who Wants to Be a Millionaire\"."
+        },
+        {
+          "question": "Libre ba ang quiz sa Quran?",
+          "answer": "Oo, ang Quiz sa Quran ay bahagi ng mga libreng tampok ng Noor Phonetic Quran."
+        }
+      ]
+    },
+    "related": {
+      "title": "Tuklasin Din",
+      "khatma": "Khatma ng Quran",
+      "audio": "Audio ng Quran",
+      "allFeatures": "Lahat ng Tampok"
+    }
+  },
+  "memorisationCoran": {
+    "meta": {
+      "title": "Isaulo ang Quran (Hifz): Application na may Audio Repetition at Quiz | Noor Phonetic Quran",
+      "description": "Isaulo ang Quran (Hifz) gamit ang Noor Phonetic Quran application: audio repetition nang talata-by-talata, word-by-word mode, review quiz, points, levels, at badges. Libre sa iOS at Android.",
+      "keywords": "isaulo ang Quran, Hifz Quran, application pagsasaulo Quran, matuto ng Quran nang buong puso, pagsasaulo talata-by-talata, Hifz libreng application",
+      "ogTitle": "Isaulo ang Quran (Hifz): Audio Repetition, Quiz, at Pagsubaybay ng Progreso",
+      "ogDescription": "Isaulo ang Quran gamit ang audio repetition, word-by-word mode, quiz, at pang-araw-araw na hamon. Libreng application na Noor Phonetic Quran."
+    },
+    "breadcrumb": {
+      "home": "Home",
+      "current": "Pagsasaulo ng Quran"
+    },
+    "hero": {
+      "title": "Isaulo ang Quran (Hifz): Audio Repetition, Quiz, at Pagsubaybay ng Progreso",
+      "subtitle": "Matutunan ang Quran nang buong puso nang talata-by-talata sa pamamagitan ng audio repetition, word-by-word mode, at review quiz, na may sistema ng points at badges para manatiling motivated araw-araw.",
+      "backLink": "Bumalik sa Home",
+      "googlePlay": "Google Play",
+      "appStore": "App Store"
+    },
+    "intro": {
+      "title": "Ano ang Hifz?",
+      "paragraph1": "Ang Hifz ay tumutukoy sa pagsasaulo ng Quran, talata-by-talata at surah-by-surah. Isa itong mahirap na paglalakbay na nangangailangan ng regular na pag-uulit, magandang mga pamamaraan sa pag-aaral, at isang maaasahang paraan para matiyak kung ano ang mahusay nang nasaulo.",
+      "paragraph2": "Ang Noor Phonetic Quran ay dinisenyo para samahan ang paglalakbay na ito gamit ang mga konkretong tool: audio, pag-uulit, aktibong pag-review, at gamification, sa halip na ang pag-uulit-ulit lang ng pagbasa ng isang mushaf."
+    },
+    "features": {
+      "title": "Paano Isaulo ang Quran Gamit ang Application?",
+      "items": [
+        {
+          "title": "Makinig at Ulitin",
+          "description": "bawat talata ay may audio repetition para itanim ang pagsasaulo sa pamamagitan ng pakikinig."
+        },
+        {
+          "title": "Gamitin ang Word-by-Word Mode",
+          "description": "hatiin ang mas mahahabang talata para unti-unti itong maisaulo."
+        },
+        {
+          "title": "Subukin ang Sarili gamit ang Review Quiz",
+          "description": "regular na tiyakin na ang mga talatang natutunan ay mahusay pa ring naaalala."
+        },
+        {
+          "title": "Kumuha ng Points at Badges",
+          "description": "bawat talatang naisaulo ay nagbibigay ng points, nagpapaunlad sa iyong level, at nagbubukas ng mga badge."
+        },
+        {
+          "title": "Sagutin ang Pang-araw-araw na mga Hamon",
+          "description": "hinihikayat ka ng mga pang-araw-araw na target na magsaulo nang kaunti araw-araw, nang walang overload."
+        }
+      ]
+    },
+    "screenshots": {
+      "title": "Preview ng Plano ng Pagsasaulo",
+      "alts": [
+        "Noor Phonetic Quran - Mga hakbang ng pang-araw-araw na plano ng pagsasaulo",
+        "Noor Phonetic Quran - Checklist ng pagsasaulo na may streak",
+        "Noor Phonetic Quran - Indicator ng pang-araw-araw na plano na ipinapakita habang nagbabasa"
+      ]
+    },
+    "faq": {
+      "title": "Mga Madalas Itanong Tungkol sa Pagsasaulo ng Quran",
+      "items": [
+        {
+          "question": "Gaano katagal para maisaulo ang Quran?",
+          "answer": "Nakadepende ito sa bilis ng bawat isa. Binibigyan ka ng application na umunlad sa sarili mong bilis, talata-by-talata, nang walang pressure sa oras."
+        },
+        {
+          "question": "Gumagana ba ang memorization mode nang offline?",
+          "answer": "Kapag na-load na ang mga surah, ang audio repetition at review quiz ay mananatiling available nang walang koneksyon sa Internet."
+        },
+        {
+          "question": "Libre ba ang tampok na Pagsasaulo?",
+          "answer": "Oo, tulad ng lahat ng pangunahing tampok ng Noor Phonetic Quran, ganap na libre ang mode na Pagsasaulo."
+        }
+      ]
+    },
+    "related": {
+      "title": "Tuklasin Din",
+      "khatma": "Khatma ng Quran",
+      "tajweed": "Mga Tuntunin ng Tajweed",
+      "allFeatures": "Lahat ng Tampok"
+    }
+  }
+}

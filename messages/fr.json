@@ -10,12 +10,26 @@
       "closeMenu": "Fermer le menu de navigation",
       "toggleTheme": "Basculer le mode sombre",
       "googlePlay": "Google Play",
-      "appStore": "App Store"
+      "appStore": "App Store",
+      "home": "Accueil",
+      "reviewsBreadcrumb": "Avis",
+      "contactBreadcrumb": "Contact",
+      "pages": {
+        "audioCoran": "Audio du Coran",
+        "khatmaCoran": "Khatma du Coran",
+        "memorisationCoran": "Mémorisation du Coran",
+        "quizCoran": "Quiz Coranique",
+        "tajweedCoran": "Règles de Tajweed",
+        "correctionRecitation": "Correction de Récitation",
+        "privacyPolicy": "Politique de Confidentialité",
+        "cgu": "Conditions Générales d'Utilisation"
+      }
     },
     "languageSwitcher": {
-      "label": "Langue / Language",
-      "fr": "Français",
-      "en": "English"
+      "label": "Choisir la langue",
+      "searchPlaceholder": "Rechercher une langue...",
+      "close": "Fermer",
+      "noResults": "Aucune langue trouvée"
     },
     "footer": {
       "about": "Une application innovante pour apprendre à réciter le Saint Coran avec précision et facilité.",
@@ -1905,7 +1919,11 @@
         "text": "En fonction des lois applicables dans votre pays, vous pouvez avoir le droit de demander l'accès aux informations personnelles que nous détenons à votre sujet, de les modifier ou de les supprimer. Pour cela, il vous suffit de nous contacter à <mailLink>othmeneb@gmail.com</mailLink> ; nous traiterons votre demande dans les meilleurs délais."
       }
     },
-    "footer": "© 2026 Noor Phonetic Quran. Tous droits réservés."
+    "footer": "© 2026 Noor Phonetic Quran. Tous droits réservés.",
+    "meta": {
+      "title": "Politique de Confidentialité - Noor Phonetic Quran",
+      "description": "Politique de confidentialité de Noor Phonetic Quran : données collectées (analytics, achats, formulaire de contact), finalités, partage avec des tiers et vos droits."
+    }
   },
   "correctionRecitation": {
     "meta": {

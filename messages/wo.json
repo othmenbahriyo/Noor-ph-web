@@ -1,0 +1,2323 @@
+{
+  "common": {
+    "nav": {
+      "features": "Ay xarala",
+      "screenshots": "Nataal yi",
+      "reviews": "Xamle yi",
+      "privacy": "Sutura",
+      "contact": "Jokkoo",
+      "openMenu": "Ubbi menu bi",
+      "closeMenu": "Tëj menu bi",
+      "toggleTheme": "Soppi mode lëndëm",
+      "googlePlay": "Google Play",
+      "appStore": "App Store",
+      "home": "Kër",
+      "reviewsBreadcrumb": "Avis yi",
+      "contactBreadcrumb": "Jokkoo",
+      "pages": {
+        "audioCoran": "Baat Alxuraan",
+        "khatmaCoran": "Khatma Alxuraan",
+        "memorisationCoran": "Jàng Alxuraan ci xol",
+        "quizCoran": "Quiz Alxuraan",
+        "tajweedCoran": "Yoonu Tajweed",
+        "correctionRecitation": "Njub Jàng",
+        "privacyPolicy": "Politik ci Sutura",
+        "cgu": "Sart yu Jëfandikoo"
+      }
+    },
+    "languageSwitcher": {
+      "label": "Tànn làkk",
+      "searchPlaceholder": "Seet làkk...",
+      "close": "Tëj",
+      "noResults": "Amul làkk"
+    },
+    "footer": {
+      "about": "Aplikasiyon bu bees bu di jàppale ñu jàng ñaan Alxuraan bu sell wi ak wóor ak nemmeeku.",
+      "quickLinks": "Ay lëkkalekaay yu gaaw",
+      "resources": "Xayma yi",
+      "faq": "FAQ",
+      "support": "Ndimbal",
+      "contact": "Jokkoo",
+      "location": "Paris, France",
+      "rights": "Sunuy yoon yépp ñu aar leen.",
+      "backToTop": "Dellu ci kaw xët bi"
+    },
+    "contactForm": {
+      "eyebrow": "Jokkoo ak nun",
+      "title": "Jokkoo ak nun",
+      "description": "Su fekkee am nga ay xalaat, ay yëngu-yëngu wala lu nga bëgg wax, bul werante ci bind nu. Danu lay tontu gaaw.",
+      "highlights": [
+        {
+          "title": "Tontu bu gaaw",
+          "text": "Sunu ekipp dañu di sàkku ci bataaxal bu nekk te dañu lay tontu ci diggante 48 waxtu. Muy ci laaj bu yomb walla problèem teknik, danu jéema bañ bàyyi benn ñaan te amul tontu."
+        },
+        {
+          "title": "Benn àndaale bu déggal",
+          "text": "Ëpp 80 000 jëfandikukat dañu nu wóolu ; sa tontu day jàppale ñu gën a bindal aplikasiyon bi ñépp. Bataaxal bu nekk am solo te day jàppale Noor gën a leer ay soxlay jëfandikukat yi."
+        },
+        {
+          "title": "Say xalaat dañu di sos aplikasiyon bi",
+          "text": "Ay xarala yu bare (Tajweed, Khatma, quiz...) njëkk yu ñu jóge ci ay xalaat jëfandikukat yi. Say jaar-jaar bu bees bu nekk ak aplikasiyon bi mooy gën a rafet sourcë ngir bind lu ñëw."
+        }
+      ],
+      "name": "Tur",
+      "namePlaceholder": "Sa tur",
+      "nameRequired": "Tur bi war a am",
+      "email": "Email",
+      "emailPlaceholder": "yow@misaal.com",
+      "emailRequired": "Email bi war a am",
+      "emailInvalid": "Email bu baax",
+      "phone": "Telefon (bu soxla)",
+      "phonePlaceholder": "+33 6 12 34 56 78",
+      "subject": "Sujet",
+      "subjectPlaceholder": "Tann benn sujet...",
+      "subjectRequired": "Tann benn sujet ndeem",
+      "subjectOptions": {
+        "general": "Laaj bu ame solo",
+        "suggestion": "Xalaat",
+        "bug": "Wone benn bug",
+        "technical": "Problèem teknik",
+        "other": "Lenn"
+      },
+      "platform": "Plateforme bu jëfandikoo",
+      "platformPlaceholder": "Tann benn plateforme...",
+      "platformRequired": "Tann benn plateforme ndeem",
+      "platformOptions": {
+        "ios": "iOS",
+        "android": "Android",
+        "web": "Web"
+      },
+      "message": "Bataaxal",
+      "messagePlaceholder": "Bind sa bataaxal fi...",
+      "messageRequired": "Bataaxal bi war a am",
+      "messageTooShort": "Bataaxal bi war a am 10 lettre yu wóor ci lu néew",
+      "send": "Yónnee",
+      "sending": "Muy yónnee...",
+      "successMessage": "Sa bataaxal yónnee na bu baax. Jërëjëf !",
+      "errorMessage": "Am na njumte. Jéema ci beneen yoon."
+    }
+  },
+  "home": {
+    "meta": {
+      "title": "Noor Phonetic Quran - Aplikasiyon bu Jàng Alxuraan",
+      "description": "Noor Phonetic Quran - Aplikasiyon bu neen ngir jàng ñaan, tey (Hifz) ak jàng Alxuraan bépp (Khatma). Transcription fonetik, audio bu séqoo, Tajweed bu leerandoo, jubluwaay bu bés bu nekk, quiz ak njub ñaan. 80K+ jëfandikukat yu bég. Am na ci iOS ak Android.",
+      "keywords": "Alxuraan fonetik, jàng Alxuraan, Quran phonetics, ñaan Alxuraan, Tajweed, aplikasiyon Alxuraan bu neen, Alxuraan araab farañse, transcription fonetik Alxuraan, learn Quran, Quran app free, Khatma Alxuraan, tey Alxuraan, Hifz Alxuraan, jubluwaay jàng Alxuraan, quiz Alxuraan, njub ñaan Alxuraan, aplikasiyon tey Alxuraan",
+      "ogTitle": "Noor Phonetic Quran - Ñaanal Alxuraan ak fonetik",
+      "ogDescription": "Jàng ñaan Alxuraan bu sell wi doonte xamuloo araab. Aplikasiyon bu neen ak fonetik bu wóor, audio bu bokk ak yoon yu Tajweed."
+    },
+    "hero": {
+      "statusBadge": "80K+ Jëfandikukat yu Yëngu",
+      "headlineHighlight": "Ñaanal",
+      "headline": "Alxuraan bu sell wi, doonte xamuloo araab",
+      "subheadline": "Ci kaw fonetik bu wóor te yomb a xàmm, Noor Phonetic Quran day tax bépp ayaat mel ni moom bépp ku ko bëgga jàng.",
+      "miniFeatures": {
+        "phonetics": "Fonetik bu Wóor",
+        "audio": "Audio bu Bokk",
+        "tajweed": "Yoon yu Tajweed"
+      },
+      "ratingText": "Rating bu mat sëkk ci Play Store ak App Store",
+      "downloadOn": "Wàcce ci",
+      "usersBadgeLabel": "Jëfandikukat",
+      "updateBadge": "Yeesalu ci lu jub",
+      "deviceScreenAlt": "Noor Phonetic Quran - Interface bu aplikasiyon bi di wone fonetik Alxuraan",
+      "mobileDeviceScreenAlt": "Noor Phonetic Quran - Jàng Alxuraan ak transcription fonetik"
+    },
+    "languages": {
+      "title": "Am na ci sa làkk",
+      "subtitle": "Aplikasiyon Noor Phonetic Quran tabaxu ci 20 làkk ngir topptoo Yesluminaan yi ci àddina bépp."
+    },
+    "why": {
+      "title": "Lu tax Noor Phonetic Quran ?",
+      "subtitle": "Xam ay saabab yu tax sunu aplikasiyon di benn tann bu bees",
+      "items": [
+        {
+          "icon": "fa-heart",
+          "stepLabel": "Aajo bi",
+          "title": "Am na ci Ñépp",
+          "text": "Yesluminaan yu bare dañu bëgg jàng Alxuraan waaye làkk araab a leen di tere. Sunu aplikasiyon dafay dindi ba pare aajo boobu."
+        },
+        {
+          "icon": "fa-graduation-cap",
+          "stepLabel": "Xarala bi",
+          "title": "Jàng bu Yomb",
+          "text": "Fonetik bu leer te yomb a xàmm mooy tax kenn ku nekk jàng ci njariñ gu mu bëgg, te amul tiis walla naqar."
+        },
+        {
+          "icon": "fa-check-circle",
+          "stepLabel": "Njariñ bi",
+          "title": "Ñaan bu Jub",
+          "text": "Ci ndimbal yu yoon yu Tajweed yu wóor ak audio bu séqoo, dinga gën a jub ci sa ñaan wu wóor."
+        }
+      ]
+    },
+    "features": {
+      "title": "Ay Xarala yu Njëkk",
+      "subtitle": "Xam lu tax Noor Phonetic Quran di aplikasiyon bu mat sëkk ngir jàng ñaan Alxuraan",
+      "items": [
+        {
+          "icon": "fa-book",
+          "title": "Transcription Fonetik",
+          "text": "Ayaat bu nekk am na transcription fonetik bu leer ngir ñaan bu jub."
+        },
+        {
+          "icon": "fa-bookmark",
+          "title": "Yoon yu Tajweed",
+          "href": "/tajweed-coran",
+          "text": "Ay melo ak ay araxal dañuy topptoo sa ñaan ci kaw yoon yu wóor yu Tajweed."
+        },
+        {
+          "icon": "fa-language",
+          "title": "Firi yu Bare Làkk",
+          "text": "Jot ci firi yu farañse ak angale ngir gën a xam kàddu gu Yàlla gi."
+        },
+        {
+          "icon": "fa-headphones",
+          "title": "Audio bu Séqoo",
+          "href": "/audio-coran",
+          "text": "Ayaat bu nekk am na audio ngir déglu ñaan bu jub."
+        },
+        {
+          "icon": "fa-mobile-alt",
+          "title": "Interface bu Yomb",
+          "text": "Navigation bu yomb te man ñu ko soppi ci sa coobare."
+        },
+        {
+          "icon": "fa-graduation-cap",
+          "title": "Jàng bu Yomb",
+          "text": "Baax na lool ngir ñi ngi tàmbalee walla ñi bëgg gën a rafetal seen ñaan."
+        },
+        {
+          "icon": "fa-calendar-check",
+          "title": "Khatma Alxuraan",
+          "href": "/khatma-coran",
+          "text": "Jubluwaay tey topptoo sa jàng Alxuraan bu mat (Khatma) ak jubluwaay bés bu nekk, streak (bés yu toppante) ak fippal ci say jëm-kanam ba mujj."
+        },
+        {
+          "icon": "fa-calendar-day",
+          "title": "Jubluwaay Jàng bu Bés bu Nekk",
+          "text": "Tànn lim bu xët yi nga war a jàng bés bu nekk te topptoo say jëm-kanam ak checklist bu ñu defal la, ngir am aada jàng Alxuraan bu dul dàkk."
+        },
+        {
+          "icon": "fa-brain",
+          "title": "Tey Alxuraan (Hifz)",
+          "href": "/memorisation-coran",
+          "text": "Tey Alxuraan ayaat ci ayaat ak audio bu ñu di seddaale, mode baat ci baat, quiz gëstu, ay point, ay niveau, ay badge ak jubluwaay bés bu nekk ngir dëkkoo ci sa jëfandiku."
+        },
+        {
+          "icon": "fa-microphone-alt",
+          "title": "Njub Ñaan",
+          "href": "/correction-recitation-coran",
+          "text": "Enregistre sa ñaan te am njub bu ñu defal la ngir gën a jub ci sa ñaan ak Tajweed."
+        },
+        {
+          "icon": "fa-trophy",
+          "title": "Quiz Alxuraan",
+          "href": "/quiz-coran",
+          "text": "Nattu sa xam-xam ci Alxuraan ak quiz bu neex ci ay niveau yu wuute, ngir jàng te di bég."
+        },
+        {
+          "icon": "fa-mobile-screen-button",
+          "title": "Widget ci Xët bu Njëkk",
+          "text": "Wone ayaat bi ci bés bi ci xët bu njëkk bu sa telefon te sa jàng dina nekk lu la yombal am ci sa yoon."
+        }
+      ]
+    },
+    "videoDemo": {
+      "title": "Xam Aplikasiyon bi ci Jëfandiku",
+      "subtitle": "Séet démo bu gàtt bii ngir xam ni Noor Phonetic Quran di liggéeye"
+    },
+    "screenshots": {
+      "title": "Ay Nataal",
+      "subtitle": "Xam aplikasiyon bi ci nataal",
+      "alts": [
+        "Noor Phonetic Quran - Lim bu sourat yu Alxuraan",
+        "Noor Phonetic Quran - Ñaan ak fonetik bu wóor",
+        "Noor Phonetic Quran - Yoon yu Tajweed yu leerandoo",
+        "Noor Phonetic Quran - Audio bu séqoo ak téeru bi",
+        "Noor Phonetic Quran - Firi farañse bu Alxuraan",
+        "Noor Phonetic Quran - Mode jàng Alxuraan",
+        "Noor Phonetic Quran - Navigation ci sourat",
+        "Noor Phonetic Quran - Ay ayaat ak transcription fonetik",
+        "Noor Phonetic Quran - Ay paramaat bu aplikasiyon bi",
+        "Noor Phonetic Quran - Jàng bu dul dàkk ci Alxuraan",
+        "Noor Phonetic Quran - Interface bu bees te yomb"
+      ]
+    },
+    "faq": {
+      "title": "Ay Laaj yu Ñu Gën a Laaj",
+      "subtitle": "Gis gaaw tontu ci say laaj",
+      "items": [
+        {
+          "question": "Ndax aplikasiyon bi dafay liggéey su amul internet ?",
+          "answer": "Waaw, dëgg na ! Sourat yépp yu Alxuraan am nañu su amul internet bu aplikasiyon bi tabaxee. Man nga jàng ñaan fu nekk, amul internet."
+        },
+        {
+          "question": "Ban fonetik ngeen di jëfandikoo ?",
+          "answer": "Dañu jëfandikoo fonetik angale bu yomb te ñépp mana ko jàng. Am na version fonetik farañse buy defu léegi te dina am ci kanam."
+        },
+        {
+          "question": "Ndax Alxuraan mat na ci aplikasiyon bi ?",
+          "answer": "Waaw ! Aplikasiyon bi am na Alxuraan bu sell wi bu mat sëkk ak 114 sourat, li dale ca njëlbeen ba ca mujj, ak transcription fonetik bu mat."
+        },
+        {
+          "question": "Ndax audio bi am na ci ayaat yépp ?",
+          "answer": "Waaw, ayaat bu nekk am na ñaan audio bu leer te néew njariñ, baax lool ngir jàng ak rafetal say ñaan."
+        },
+        {
+          "question": "Ndax aplikasiyon bi neen la ?",
+          "answer": "Waaw, Noor Phonetic Quran neen na bu mat sëkk. Sunu jubluwaay mooy tax Alxuraan am ci ñépp, amul benn dundu xaalis buy tere."
+        },
+        {
+          "question": "Naka la Khatma (jàng Alxuraan bu mat) di liggéey ?",
+          "answer": "Aplikasiyon bi dana la may nga jubluwaay Khatma ci tann lim bu bés yi nga bëgg mottali Alxuraan ci. Danga topp say jëm-kanam bés bu nekk, sa streak (bés yu toppante) te dinga jot ay fippal ngir dëkkoo ba mottali sa jàng."
+        },
+        {
+          "question": "Ndax man ñoo tey Alxuraan (Hifz) ak aplikasiyon bi ?",
+          "answer": "Waaw, aplikasiyon bi am na mode Tey bu mat ak audio buy seddaale ayaat ci ayaat, mode baat ci baat, quiz gëstu, point, niveau, badge ak jubluwaay bés bu nekk ngir jàppale la tey Alxuraan bu baax."
+        },
+        {
+          "question": "Ndax am na bare ñaanekat yu ñu man a tann ?",
+          "answer": "Waaw, man nga tann ci bare ñaanekat yu Alxuraan te wàcce audio bi ngir déglu ko bu mat su amul internet."
+        },
+        {
+          "question": "Ndax aplikasiyon bi day may njub ñaan ?",
+          "answer": "Waaw, mana enregistre sa ñaan ci biir aplikasiyon bi te jot njub bu ñu defal la ngir rafetal sa ñaan ak topp yoon yu Tajweed."
+        },
+        {
+          "question": "Ndax dina am ay xarala yu bees ci kanam ?",
+          "answer": "Waaw, dañuy liggéey lu bees ngir rafetal aplikasiyon bi lu jéggi bépp. Am na bare lu bees buy ñëw : fonetik farañse bu mat, mode Tajweed bu leerandoo bu yaatu, mode jàng lettre ci lettre, ak yeneen lu bare !"
+        }
+      ]
+    },
+    "testimonials": {
+      "title": "Li sunu jëfandikukat yi wax",
+      "subtitle": "Xam xamle yu sunu àndaale bu mag te bég",
+      "prevLabel": "Xamle bu jiitu",
+      "nextLabel": "Xamle buy topp",
+      "viewAllLabel": "Séet xamle yépp",
+      "items": [
+        {
+          "initials": "SD",
+          "name": "Sidy DIOP",
+          "device": "16 juillet 2026",
+          "text": "aplikasiyon bu baax lool ngir jàng Alxuraan doonte manoo waxe, doŋŋ dañ war a déglu audio bi te delloo",
+          "rating": 5
+        },
+        {
+          "initials": "AB",
+          "name": "Amourlaye Beman",
+          "device": "25 mars 2026",
+          "text": "Aplikasiyon bu baax lool lool. Na Yàlla barkeel leen ba fàww ci jëf jii te feddali leen ngir gën a yokk lu am ci biir... man ngeen jotoon a tàmbalee def firi hadis yi ci farañse. Jërëjëf 🙏🥰👍",
+          "rating": 5
+        },
+        {
+          "initials": "YT",
+          "name": "Yaou Tchari",
+          "device": "6 juillet 2026",
+          "text": "aplikasiyon bu baax lool bu ma di seet lu jamp, moom mooy jàng te tàmbalee tere ay njumte yi lay tar",
+          "rating": 5
+        },
+        {
+          "initials": "FA",
+          "name": "Fatima",
+          "device": "21 avril 2026",
+          "text": "gis naa aplikasiyon bii ni ndimbal, sama dund soppiku na 😁, dëgg lay wax. am naa tuuti problèem waaye ñu wecc ko gaaw alhamdoulilah. dëgg na yomb lool ngir jàng, dinaa ko digal ay ñaata nit. na Yàlla feddali leen 🤲🏻🌹",
+          "rating": 5
+        },
+        {
+          "initials": "DH",
+          "name": "Djamila Hb",
+          "device": "30 juillet 2026",
+          "text": "baax na lool ngir jàng ñaan Alxuraan na Yàlla nu yombal",
+          "rating": 5
+        },
+        {
+          "initials": "NA",
+          "name": "Naoal",
+          "device": "12 mai 2026",
+          "text": "Dëgg na baax lool ngir ñi xamul jàng araab ndax am na ñu bëgg jàng Alxuraan waaye xamuñu jàng araab. Dëgg na aplikasiyon bu war a tabax 👍",
+          "rating": 5
+        },
+        {
+          "initials": "ID",
+          "name": "Ibou Dieme",
+          "device": "8 janvier 2026",
+          "text": "aplikasiyon bii lu mag lool la su fekkoon am na option 100 étoile dinaa ko jox waaye am na tuuti problèem war a wecc mooy manunu wàcce audio yi ngir jëfandiku ko su amul internet, wóor naa dina gën a rafet su ñu tegoon audio buy wàcce ngir déglu ko su amul internet",
+          "rating": 5
+        },
+        {
+          "initials": "YC",
+          "name": "Youssouf Cherif",
+          "device": "26 janvier 2026",
+          "text": "aplikasiyon bu gën a baax. day jàppale lool. ci kaw aplikasiyon bii man naa jàng Alxuraan bu sell wi bu yomb te dafay may xol bu neex ✨. dëgg na na Yàlla fey ñi ko defar bu bare. lu mat sëkk la. dinaa ko digal bu baax. ay xarala yu bare yu di la jàppale nga jàng Alxuraan bu sell wi bu yomb ci jubluwaay bu leer te tabax ci biir aplikasiyon bi.",
+          "rating": 5
+        },
+        {
+          "initials": "FF",
+          "name": "Faiza Faiza",
+          "device": "6 novembre 2024",
+          "text": "aplikasiyon bu baax waaye problèem bi mooy dafay taxaw ci diggante ñaari simili. génne naa ko te dellu ko tabax waaye problèem bi dafay des. moom mooy la ma di seet. Barak Allahou fikkunna",
+          "rating": 5
+        },
+        {
+          "initials": "LS",
+          "name": "Louis Sawadogo",
+          "device": "27 mars 2025",
+          "text": "aplikasiyon bu baax lool waaye manuma jàng su amul internet ba noppi wàcce. te ngeen waxoon amul internet gis naa soxla nga internet ngir jot ci données yi. war ngeen ci seetlu. Jërëjëf.",
+          "rating": 5
+        },
+        {
+          "initials": "YJ",
+          "name": "Yassin Jaounni",
+          "device": "23 novembre 2025",
+          "text": "aplikasiyon bii lu mag la ndax tàmbalee naa ko tabax doŋŋ ngir jàng sourat yi ndax xamuma jàng araab te bu ma gisee ay xarala yépp yaakaar naa. bi ma gën a bëgg mooy man nga am millions ci diine bi man nga jàng araab jàng ay dua am na it ñaanekat yu di la ñaanal Alxuraan ngir sa ñaan, dañuy jox it ay xarala ngir jàng Alxuraan bu yomb lu mag la digal naa la ko",
+          "rating": 5
+        },
+        {
+          "initials": "JB",
+          "name": "Jeff Bezos Mayele",
+          "device": "30 mai 2026",
+          "text": "aplikasiyon bu baax bu mag la. buy jàppale nu jàng sourat yi te xam leen, nun ñu xamul araab",
+          "rating": 5
+        },
+        {
+          "initials": "AB",
+          "name": "Abdoulaye Bah",
+          "device": "5 mars 2025",
+          "text": "Aplikasiyon bu baax lool ngir ñi bëgg jàng walla ñaan Alxuraan seen bopp ! na Yàlla fey leen ci lu baax te yombal nu ñépp jàng ak tey Alxuraan bu sell wi !",
+          "rating": 5
+        },
+        {
+          "initials": "DD",
+          "name": "dohona daouda coulibaly",
+          "device": "2 mars 2025",
+          "text": "Wone xët yi dafa yàgg lool. Waaye bëgg naa aplikasiyon bi. Waaye wone bi day yàgg lool. Am ngeen ay xalaat ngir defar ci problèem bii?",
+          "rating": 5
+        },
+        {
+          "initials": "YC",
+          "name": "yvan Cedric",
+          "device": "4 mars 2025",
+          "text": "Jazzak Allahou feekoum Aplikasiyon bu baax lool ngir ñi xamul araab. Waaye ginnaaw yeesalu bi, aplikasiyon bi manatul may jàng su amul internet.",
+          "rating": 5
+        },
+        {
+          "initials": "HN",
+          "name": "Horizons New",
+          "device": "23 août 2025",
+          "text": "Salam ahlykoum bég naa ci aplikasiyon bii doŋŋ intro bi war na 5 étoile 🌟 am na tuuti rafetal ci wone xët yi te gën a baax mu am version FR rekk ngir wàññi diir bi, am version guddi mu gën a baax ngir jàng guddi jërëjëf ci seen liggéey na Yàlla fey leen",
+          "rating": 5
+        },
+        {
+          "initials": "DB",
+          "name": "dorra bn",
+          "device": "7 octobre 2025",
+          "text": "Aplikasiyon bu am njariñ te tabax bu baax ! Ci kaw transcription bi, man naa rafetal sama jàng Alxuraan ci diir bu gàtt. Na Yàlla fey ñi ko defar",
+          "rating": 5
+        },
+        {
+          "initials": "SM",
+          "name": "Sara ma langue",
+          "device": "5 mai 2025",
+          "text": "Aplikasiyon buma bañ a digal ku bëgg jàng, xam te gis ci làkk yu wuute. Machaallah liggéey bu baax. Moom mooy la ma di seet ci diir bu yàgg. NA YÀLLA SWA feddali leen.",
+          "rating": 5
+        },
+        {
+          "initials": "AA",
+          "name": "Adoum Ali Bezei",
+          "device": "20 mai 2026",
+          "text": "gën a rafet Alxuraan ci fonetik, jërëjëf bu bare, sant naa lool",
+          "rating": 5
+        },
+        {
+          "initials": "BK",
+          "name": "Bakary Konaté",
+          "device": "19 mars 2025",
+          "text": "bëgg naa lool aplikasiyon bi, waaye bëgg woon nañu ngeen yokk ay imaam, ci noonu dinanu tann seen bopp imaam bu ñu bëgga jàng ak moom, li ma gën a bañ mooy jàng ayaat ci ayaat bëgg woon naa mu jàng sourat bu mat ci lu benn ba noppi",
+          "rating": 5
+        },
+        {
+          "initials": "YB",
+          "name": "Yosra Bahri",
+          "device": "5 octobre 2025",
+          "text": "Aplikasiyon bu baax lool ! Am njariñ, yomb a jëfandikoo te tabax bu baax. Digal naa ko bu baax ! 👏 Bravo ci ñi ko defar ngir liggéey bu rafet bii, dëkkoo ci noonu, dangeen di def liggéey bu baax ! 💪",
+          "rating": 5
+        },
+        {
+          "initials": "FO",
+          "name": "fatima ourja",
+          "device": "25 avril 2025",
+          "text": "Aplikasiyon bu rafet, moom la ma di seet, na Yàlla Kepp Kek fey leen ak gën a rafet fey gi. Dëgg-dëgg aplikasiyon buy war a am fey.",
+          "rating": 5
+        },
+        {
+          "initials": "ND",
+          "name": "Nicolas DA COSTA CAMPOS CERCA",
+          "device": "20 avril 2025",
+          "text": "digal naa aplikasiyon bi ngir jàng tajwid ndax yomb na lool ngir ñi tàmbalee te it ngir ku bëgg gën a rafetal te yomb na lool a jëfandikoo",
+          "rating": 5
+        },
+        {
+          "initials": "SR",
+          "name": "Sadrissi Regbayou",
+          "device": "11 mars 2025",
+          "text": "Baax na. Waaye danu réer xët bu mujj bi nu tollu woon. Dolli ci, manatuñu jàng su amul internet. Dina gën a rafet su am woon ci benn xët sourat yi ci araab ak firi ci farañse.",
+          "rating": 5
+        },
+        {
+          "initials": "OA",
+          "name": "Oussama AZIZI",
+          "device": "12 octobre 2025",
+          "text": "Aplikasiyon bu baax lool, ak fonetik bu leer, audio bu baax ak yoon yu Tajwid ci ay melo. Jumtukaay bu baax lool ngir yombal jàng Alxuraan.",
+          "rating": 5
+        },
+        {
+          "initials": "BH",
+          "name": "Bahri Hamza",
+          "device": "27 septembre 2025",
+          "text": "Salam 'alaykoum, aplikasiyon bu baax lool 🌟 yomb a jëfandikoo te am njariñ lool ngir jàng ñaan. Na Yàlla fey ñi ko defar ❤️🤲",
+          "rating": 5
+        },
+        {
+          "initials": "HR",
+          "name": "Houssem RAISSI",
+          "device": "2 octobre 2024",
+          "text": "Am na interface bu yomb te neex, di yombal jàng ak navigation. Baax na lool ngir jot gaaw ci sourat yi.",
+          "rating": 5
+        },
+        {
+          "initials": "GB",
+          "name": "Gora Bar",
+          "device": "10 octobre 2025",
+          "text": "Aplikasiyon bu baax lool. Yomb na lool a jëfandikoo te amul reklaam. Bravo!",
+          "rating": 5
+        },
+        {
+          "initials": "SK",
+          "name": "Sekou Kante",
+          "device": "21 mars 2025",
+          "text": "Moom mooy aplikasiyon buma di seet waaye su amul internet manatul a liggéey wàcce naa option su amul internet waaye baaxul yal na ñu ko defar dagg su la neexee man mooy fonetik bi may jàng Alxuraan",
+          "rating": 5
+        },
+        {
+          "initials": "YF",
+          "name": "youssoupha FALL",
+          "device": "11 avril 2025",
+          "text": "Na Yàlla fey la ci click bu nekk ci aplikasiyon bi ay tund yu hassanaat. Manatóo xalaat lu baax nga def ngir Yesluminaan yépp yu jàngul ci daara. wàcce naa ko ngir sama yaay itam na Yàlla feddali leen. Jërëjëf bu bare ❤️",
+          "rating": 5
+        },
+        {
+          "initials": "TT",
+          "name": "toure traore aboubakar sidik",
+          "device": "29 novembre 2024",
+          "text": "May naa la 3 étoile ndax aplikasiyon bi enregistewul sourat yi ngir jàng su amul internet. Waaye yomb na lool a jàng",
+          "rating": 5
+        },
+        {
+          "initials": "MG",
+          "name": "Mory Gbane",
+          "device": "29 juin 2025",
+          "text": "Aplikasiyon bu baax waaye doŋŋ manunu wàcce téeru yi benn yoon ba fàww war nañu ko dellu wàcce bu bare yoon. tar na tuuti",
+          "rating": 5
+        },
+        {
+          "initials": "FS",
+          "name": "Fatima Si Ahmed",
+          "device": "23 juillet 2025",
+          "text": "yomb na lool jàng Alxuraan ci fonetik fu nekk ndax soxlawuloo internet rax-ci-dolli bu la bëgga aajowul kenn sa telefon rekk a la war 🕯 amul leer 😇🥰",
+          "rating": 5
+        },
+        {
+          "initials": "MF",
+          "name": "Mohamed Faye",
+          "device": "5 mars 2025",
+          "text": "May naa leen 5 étoile 🌟 ndax yéen ñoo gën baax rafet na li ngeen def bëgg naa ko lool 😭❤️❤️❤️ na Yàlla Yërmande gi aar la. Waaye bëgg woon naa mode audio bi mu doon ngir sourat bu mat waaye du benn ayaat rekk jërëjëf ci kanam",
+          "rating": 5
+        },
+        {
+          "initials": "MG",
+          "name": "Mohamed gaissir Bah",
+          "device": "4 mars 2026",
+          "text": "Salam ci yéen aplikasiyon bu baax lool jàng naa fa bare téere ci fonetik waaye dëgg naa aplikasiyon bii mooy gën a baax léegi, doon naa expert ci fonetik na Yàlla fey leen bu bare, bég naa dëgg-dëgg 😇😇😇",
+          "rating": 5
+        },
+        {
+          "initials": "YK",
+          "name": "Yao Kouamé Enock",
+          "device": "13 décembre 2025",
+          "text": "aplikasiyon bu baax lool la ngir nun ñu xamul jàng lettre araab yi. Moom mooy la ma di seet. Jërëjëf bu bare ci ñi ko defar. Bés bu neex, na Yàlla dëggal nu ci yoon wu jub.🤲📿",
+          "rating": 5
+        },
+        {
+          "initials": "FA",
+          "name": "Fatima",
+          "device": "2 janvier 2026",
+          "text": "aplikasiyon bi baax na ci lépp waaye bés bu nekk mujj gu sourat bépp mujjul, kon manuñu jàng walla jàng sourat bi nu bëgg gis naa lu naqarloo lool",
+          "rating": 5
+        },
+        {
+          "initials": "MS",
+          "name": "Macolt Scot",
+          "device": "17 mars 2025",
+          "text": "Alhamdoulilah man naa jàng Alxuraan bu baax ci fonetik, waaye wàcce bi matul te des na ay xët",
+          "rating": 5
+        },
+        {
+          "initials": "EH",
+          "name": "El Hadj Diallo",
+          "device": "1 avril 2025",
+          "text": "aplikasiyon bu baax lool te leer te tabax bu rafet fonetik bi mel na it ayaat yu Alxuraan yi menn ñaan bravo ekipp bi def lu baax bii ngir Oumma bi barrakalahou-FIK",
+          "rating": 5
+        },
+        {
+          "initials": "AM",
+          "name": "Abdelmadjid Mahamat",
+          "device": "25 avril 2025",
+          "text": "MachAllah! aplikasiyon bu gën a baax ngir ku bëgg dëgg-dëgg jàng te ñaan te amul ay tar.",
+          "rating": 5
+        },
+        {
+          "initials": "OS",
+          "name": "Ousmasim's Simen",
+          "device": "22 juillet 2026",
+          "text": "rafet na lool te dina ma jàppale lool",
+          "rating": 5
+        },
+        {
+          "initials": "NS",
+          "name": "Nour Soum",
+          "device": "17 octobre 2025",
+          "text": "am solo lool, doŋŋ problèem bi mooy war nga bés bu nekk am internet. jéema itam version bu amul internet",
+          "rating": 5
+        },
+        {
+          "initials": "CB",
+          "name": "chiraz bahri",
+          "device": "19 octobre 2025",
+          "text": "Aplikasiyon bu rafet lool, yomb te mat sëkk. Baax lool ngir jàng ak déglu Alxuraan fu nekk. بارك الله فيكم",
+          "rating": 5
+        },
+        {
+          "initials": "AA",
+          "name": "aicha Arouna",
+          "device": "29 juillet 2026",
+          "text": "Aplikasiyon bu baax lool digal naa aplikasiyon bii",
+          "rating": 5
+        },
+        {
+          "initials": "SZ",
+          "name": "Sadjid Zamoum",
+          "device": "2 août 2026",
+          "text": "lu jaaboot amul dara ci wax",
+          "rating": 5
+        },
+        {
+          "initials": "AD",
+          "name": "Almassane Diallo",
+          "device": "13 juillet 2026",
+          "text": "Jërëjëf bu bare ci ekipp bi ci kaw aplikasiyon bii ak yéen jàng naa lu bare na Yàlla fey leen",
+          "rating": 5
+        },
+        {
+          "initials": "HA",
+          "name": "Hadj",
+          "device": "5 novembre 2025",
+          "text": "aplikasiyon bu leer te amul reklaam. su man ngeen a yokk tafsir ci sourat yi dina mat sëkk.",
+          "rating": 5
+        },
+        {
+          "initials": "YM",
+          "name": "Yacouba M'piè Samaké",
+          "device": "16 mai 2025",
+          "text": "Aplikasiyon bu baax lool buy tax ma jàng sourat yi amuma xam-xam ci làkk araab",
+          "rating": 5
+        },
+        {
+          "initials": "SM",
+          "name": "Saïdou Mohamed Bah",
+          "device": "24 août 2025",
+          "text": "Dëgg-dëgg na Yàlla fey la ci Jannatul Firdaws, moom mooy aplikasiyon bu gën a baax, na Yàlla jàppale la nga rafetal aplikasiyon bi te mu def mu nekk sadaqatul jaariya ngir yow.",
+          "rating": 5
+        },
+        {
+          "initials": "TD",
+          "name": "Touwinde Doulkom",
+          "device": "24 mai 2025",
+          "text": "Ma shah Allah, aplikasiyon bu yomb te jëfandikoo bu baax buy tax nga jàng ñaan Alxuraan bu sell wi. jërëjëf ñi ko defar na Yàlla fey leen 🙏",
+          "rating": 5
+        },
+        {
+          "initials": "BD",
+          "name": "Bassirou Diarra",
+          "device": "5 avril 2026",
+          "text": "dëgg na am solo lool. Na Yàlla barkeel diine bi",
+          "rating": 5
+        },
+        {
+          "initials": "GK",
+          "name": "gloire Kyato",
+          "device": "10 avril 2026",
+          "text": "Am solo lool aplikasiyon bii. maa ngi ko may 5 étoile.",
+          "rating": 5
+        },
+        {
+          "initials": "OO",
+          "name": "Olivier Olivier",
+          "device": "16 avril 2025",
+          "text": "Dëgg na moom mooy gën a baax am njariñ bu réy ngir tey Alxuraan ba ci ñi wax farañse itam",
+          "rating": 5
+        },
+        {
+          "initials": "DD",
+          "name": "Dian Diallo",
+          "device": "9 juin 2026",
+          "text": "Jërëjëf bu bare........ aplikasiyon bu gën a baax",
+          "rating": 5
+        },
+        {
+          "initials": "MM",
+          "name": "Mallam Mohamed AYOUBA",
+          "device": "10 septembre 2025",
+          "text": "Waaw bind na bu baax te yomb na lool jàng Alxuraan.... Jërëjëf lool",
+          "rating": 5
+        },
+        {
+          "initials": "FB",
+          "name": "Fatoumata Barry",
+          "device": "7 mars 2026",
+          "text": "am solo te yomb ngir jàng Alxuraan doŋŋ problèem bi mooy yeesalu bu bare...",
+          "rating": 5
+        },
+        {
+          "initials": "SK",
+          "name": "Soumaila Kaboré",
+          "device": "29 novembre 2025",
+          "text": "baax na lool, gis nga te dafay jàppale nga baax a wax kàddu yi ci araab",
+          "rating": 5
+        },
+        {
+          "initials": "OA",
+          "name": "Ouattara Almamy",
+          "device": "1 avril 2025",
+          "text": "Leer na lool, xam-xam na lool, jàng na lool, na Yàlla jox nu xam-xam bu jub 🙏",
+          "rating": 5
+        },
+        {
+          "initials": "AN",
+          "name": "Aude Name",
+          "device": "7 juin 2025",
+          "text": "Am na solo bu bare, baax na ngir jàng Alxuraan. Na Yàlla barkeel ki def aplikasiyon bi",
+          "rating": 5
+        },
+        {
+          "initials": "MJ",
+          "name": "maxero junior",
+          "device": "13 mars 2025",
+          "text": "Rafet na lool yomb a jëfandikoo te amul reklaam",
+          "rating": 5
+        },
+        {
+          "initials": "FT",
+          "name": "Fatoumata Traoré",
+          "device": "18 mai 2025",
+          "text": "na Yàlla fey la ci sa liggéey bu baax dëgg-dëgg app bu baax la, bëgg naa nga yokk rotation ekraan ak it araxal sujuud yi jërëjëf",
+          "rating": 5
+        },
+        {
+          "initials": "AC",
+          "name": "Assia Chamoyan",
+          "device": "28 septembre 2025",
+          "text": "am njariñ lool, jëfandikoo bu yomb te dëgg-dëgg xàmm. interface bu rafet lool bravo bu baax lool na Yàlla yombal say jubluwaay te fey la lu bare",
+          "rating": 5
+        },
+        {
+          "initials": "KE",
+          "name": "Keita",
+          "device": "23 mai 2025",
+          "text": "Haouw, aplikasiyon bu rafet lool ngir jàng sourat yi ci fonetik. Bëgg naa lool aplikasiyon bii.",
+          "rating": 5
+        },
+        {
+          "initials": "IH",
+          "name": "Ibrahim Hamadou",
+          "device": "9 mars 2026",
+          "text": "yal ngeen defar app bi dëgg-dëgg soxla naa app bii woon ngi jàng bu baax waaye app bi am na problèem",
+          "rating": 5
+        },
+        {
+          "initials": "AS",
+          "name": "Adamou Seyni Sonia",
+          "device": "14 mars 2025",
+          "text": "Salam xamuma lu tax bu ma demee ci sourat al kahaf day dem ci abassa xamuma dëgg-dëgg fu problèem bi jóge te moom sourat bu ma bëgga jàng lu ëpp bés yu jumaa ci kaw sunna... waaye lu dul problèem boobu amul dara ci app bi masha allah",
+          "rating": 5
+        },
+        {
+          "initials": "MD",
+          "name": "Mame diarra Ba",
+          "device": "14 février 2025",
+          "text": "Am njariñ bu réy te yomb na lool jàng Alxuraan",
+          "rating": 5
+        },
+        {
+          "initials": "SS",
+          "name": "SOUMAILA SAMASSI",
+          "device": "29 décembre 2024",
+          "text": "Macha'Allah 💕 aplikasiyon bu rafet lool moom mooy la ma di seet. Aplikasiyon bi mat na sëkk. Baraka'Allahou feekoum na Yàlla dëggal nu ba fàww. Amine",
+          "rating": 5
+        },
+        {
+          "initials": "AB",
+          "name": "Ali Baba Traoré",
+          "device": "1 août 2025",
+          "text": "Yàlla jërëjëf aplikasiyon bu baax bu war a wàcce te séddoo. Na Yàlla jox leen fey bu baax ci àddina ak ci allaaxira. Amine!",
+          "rating": 5
+        },
+        {
+          "initials": "MB",
+          "name": "Mohamed Baddo",
+          "device": "5 janvier 2026",
+          "text": "Yomb na lool te am njariñ te neex lool",
+          "rating": 5
+        },
+        {
+          "initials": "AB",
+          "name": "Anthony Barraut",
+          "device": "5 octobre 2025",
+          "text": "Aplikasiyon bu MAT SËKK ki def aplikasiyon bi am na yaru bu réy digal naa aplikasiyon bi léegi te amul benn xal-xal 🌟🌟🌟🌟🌟🥳👌",
+          "rating": 5
+        },
+        {
+          "initials": "PM",
+          "name": "Parfait Mayela may",
+          "device": "27 mars 2025",
+          "text": "lu tax war nga internet ??? Waaye aplikasiyon bii dana tax nga jàng gaaw 🤲🤲🤲🥰🇬🇦",
+          "rating": 5
+        },
+        {
+          "initials": "MD",
+          "name": "Moustapha DRORI",
+          "device": "7 février 2026",
+          "text": "Aplikasiyon bu baax lool ngir jàng bu gën a baax",
+          "rating": 5
+        },
+        {
+          "initials": "AB",
+          "name": "Adamma Bae",
+          "device": "11 janvier 2025",
+          "text": "Jërëjëf bu bare ci yombal nu jàng",
+          "rating": 5
+        },
+        {
+          "initials": "MZ",
+          "name": "Malika Zaki",
+          "device": "7 avril 2026",
+          "text": "moom mooy aplikasiyon Alxuraan bu gën a baax bu ma gisagul ci sama dund",
+          "rating": 5
+        },
+        {
+          "initials": "NC",
+          "name": "N'famoussa Camara",
+          "device": "8 mars 2025",
+          "text": "Aplikasiyon bii am na solo lool ci man ak ci Yesluminaan yépp yu bëgg xam te jëfe Islam.",
+          "rating": 5
+        },
+        {
+          "initials": "MB",
+          "name": "Mariam Bah",
+          "device": "21 octobre 2025",
+          "text": "am njariñ lool ngir ñaan bu jub",
+          "rating": 5
+        },
+        {
+          "initials": "NM",
+          "name": "Nouraya Mohamed",
+          "device": "5 avril 2026",
+          "text": "Jërëjëf bu bare, dafay ma jàppale dëgg-dëgg... Machallah",
+          "rating": 5
+        },
+        {
+          "initials": "SD",
+          "name": "Sofiane D",
+          "device": "10 octobre 2025",
+          "text": "naqar la manuma tann sourat bi ci lu benn ba noppi war nga swipe",
+          "rating": 5
+        },
+        {
+          "initials": "MD",
+          "name": "Mouhamed Diagne",
+          "device": "24 juillet 2025",
+          "text": "app bu baax lool nu jàng gaaw te baax",
+          "rating": 5
+        },
+        {
+          "initials": "BB",
+          "name": "Babouba Bibouba",
+          "device": "1 avril 2025",
+          "text": "baax na, waaye yal ngeen yokk option ngir wattu bind bi",
+          "rating": 5
+        },
+        {
+          "initials": "CC",
+          "name": "Coumba Camara",
+          "device": "26 juillet 2025",
+          "text": "moom mooy la ma di seet lu bare at na Yàlla fey la ci mbég mi ngay may te gis ko 💖 aplikasiyon bu baax lool 👍 jërëjëf",
+          "rating": 5
+        },
+        {
+          "initials": "LS",
+          "name": "Lassane Sawadogo",
+          "device": "3 août 2025",
+          "text": "seetlu naa fonetik bii lu bare te alhamdoulilah gis naa ko Jërëjëf",
+          "rating": 5
+        },
+        {
+          "initials": "MA",
+          "name": "mam",
+          "device": "14 mars 2026",
+          "text": "aplikasiyon bu baax lool doŋŋ bëgg woon naa hadis yi nekk ci farañse",
+          "rating": 5
+        },
+        {
+          "initials": "MB",
+          "name": "Mohamadou Babanguida",
+          "device": "9 avril 2026",
+          "text": "Jërëjëf bu bare na Yàlla fey leen",
+          "rating": 5
+        },
+        {
+          "initials": "TA",
+          "name": "Thierno amidou Diallo",
+          "device": "8 avril 2026",
+          "text": "bëgg naa lool aplikasiyon bii",
+          "rating": 5
+        },
+        {
+          "initials": "SA",
+          "name": "shahid ATOUKOU",
+          "device": "9 décembre 2024",
+          "text": "Baax na lool bëgg naa lool aplikasiyon bii, jërëjëf ci ki def aplikasiyon bii",
+          "rating": 5
+        },
+        {
+          "initials": "MS",
+          "name": "Mamadi Savadogo",
+          "device": "9 mars 2026",
+          "text": "amuma yeneen luy wax lu dul na Yàlla fey leen. Aplikasiyon bii mooy gën a baax bu ma xamoon ba tay.",
+          "rating": 5
+        },
+        {
+          "initials": "AC",
+          "name": "Alassane Camara",
+          "device": "26 décembre 2025",
+          "text": "as sallamou aleykoum jërëjëf naa leen app bii baax na ngir yesluminaan yi",
+          "rating": 5
+        },
+        {
+          "initials": "FL",
+          "name": "Frédéric Lankoandé",
+          "device": "1 août 2025",
+          "text": "aplikasiyon bu baax lool ngir jàng Alxuraan bu sell wi ci Fonetik 👍",
+          "rating": 5
+        },
+        {
+          "initials": "LZ",
+          "name": "Loukmane Zongo",
+          "device": "26 juin 2025",
+          "text": "Machallah ! moom mooy Alxuraan bii ma di seet ngir jàng ! man ngeen a def ngir nu jàng su amul internet ?",
+          "rating": 5
+        },
+        {
+          "initials": "IB",
+          "name": "Ibrahima Bâ",
+          "device": "2 septembre 2025",
+          "text": "Aplikasiyon bu baax la jërëjëf naa leen na Yàlla dëggal nu ci yoon wu jub 🤲🤲👆",
+          "rating": 5
+        },
+        {
+          "initials": "FA",
+          "name": "Fouzi Abdellatif",
+          "device": "5 mars 2026",
+          "text": "moom mooy aplikasiyon bu gën a baax ci fonetik",
+          "rating": 5
+        },
+        {
+          "initials": "AS",
+          "name": "Aboubacar Sylla",
+          "device": "7 novembre 2025",
+          "text": "lépp (mat) wonewul",
+          "rating": 5
+        },
+        {
+          "initials": "KM",
+          "name": "KACHALLA MEMBA",
+          "device": "20 mars 2025",
+          "text": "jërëjëf bu bare ci yombal bii jàng Alxuraan. na Yàlla fey leen ci àddina ak ci allaaxira",
+          "rating": 5
+        },
+        {
+          "initials": "BD",
+          "name": "Billal DABIDA",
+          "device": "2 avril 2025",
+          "text": "aplikasiyon bu baax lool lool na Yàlla Yërmandekat gi Gën Yërmandekat jox leen xam-xam bu gën a bare.",
+          "rating": 5
+        },
+        {
+          "initials": "NN",
+          "name": "Nadjma Nkulu",
+          "device": "24 novembre 2025",
+          "text": "La illah ila Allah, dafa jub lool ngir ñi xamagul araab.",
+          "rating": 5
+        },
+        {
+          "initials": "TA",
+          "name": "thaibu Amici-langi",
+          "device": "7 août 2025",
+          "text": "Liggéey bu rafet lool bu jege loxo.",
+          "rating": 5
+        },
+        {
+          "initials": "HH",
+          "name": "hamza Hamza",
+          "device": "19 octobre 2025",
+          "text": "aplikasiyon bii am njariñ lool te baax lool",
+          "rating": 5
+        },
+        {
+          "initials": "OA",
+          "name": "Oumarou Amadou",
+          "device": "7 novembre 2025",
+          "text": "war ngeen a rafetal ngir jàng amul internet",
+          "rating": 5
+        },
+        {
+          "initials": "AA",
+          "name": "Aboubakar Adamou",
+          "device": "18 août 2025",
+          "text": "aplikasiyon bu baax lool, na ALLAH fey ñi ko defar",
+          "rating": 5
+        },
+        {
+          "initials": "SK",
+          "name": "Soiba Koné",
+          "device": "19 janvier 2026",
+          "text": "digal naa ko ci ay xarit yu Yesluminaan dafa ma jàppale lool ci tajwid itam",
+          "rating": 5
+        },
+        {
+          "initials": "SN",
+          "name": "Sipas NIAKATE",
+          "device": "21 septembre 2025",
+          "text": "app bu baax jege na dëgg-dëgg araab",
+          "rating": 5
+        },
+        {
+          "initials": "HT",
+          "name": "Hamissou TCHAGBELE",
+          "device": "28 septembre 2024",
+          "text": "Bëgg naa aplikasiyon bii bëgg naa ci yërmande Yàlla ngeen yokk ba mujj Alxuraan",
+          "rating": 5
+        },
+        {
+          "initials": "AA",
+          "name": "Abdul Abdullah",
+          "device": "21 novembre 2025",
+          "text": "lu rafet lool bëgg naa ko na Yàlla fey la.",
+          "rating": 5
+        },
+        {
+          "initials": "SA",
+          "name": "sawadogoalassane",
+          "device": "25 juin 2025",
+          "text": "rafet na, moom mooy lépp la ma bëggoon. Jërëjëf",
+          "rating": 5
+        },
+        {
+          "initials": "BT",
+          "name": "Bocar Thiam",
+          "device": "19 octobre 2025",
+          "text": "aplikasiyon bu baax lool amul reklaam Machallah",
+          "rating": 5
+        },
+        {
+          "initials": "HN",
+          "name": "Harounahafiz Nonkane",
+          "device": "11 mars 2025",
+          "text": "Yéen sama mag ak jigéen yi ci ngoram bindal naa leen ko lool baax na aplikasiyon bii. NaYàlla jox nu xam-xam bu jub.",
+          "rating": 5
+        },
+        {
+          "initials": "NT",
+          "name": "Nana Tanou",
+          "device": "1 avril 2025",
+          "text": "aplikasiyon bu baax lool, dafay ma jàppale lool 🥰",
+          "rating": 5
+        },
+        {
+          "initials": "IS",
+          "name": "Idrissa Samake",
+          "device": "5 août 2025",
+          "text": "Liggéey bu rafet ! Jërëjëf",
+          "rating": 5
+        },
+        {
+          "initials": "SB",
+          "name": "Sarra Bahri (\"Anous Azouz Aychouha\")",
+          "device": "29 septembre 2024",
+          "text": "aplikasiyon bu baax fitna wóoral dëgëral 👏👏👏🌹🌹🌹🌹",
+          "rating": 5
+        },
+        {
+          "initials": "OA",
+          "name": "Omokayode Akanny",
+          "device": "29 mai 2025",
+          "text": "aplikasiyon bu baax lool te am njariñ",
+          "rating": 5
+        },
+        {
+          "initials": "AG",
+          "name": "Abdoulaye Gningue",
+          "device": "16 janvier 2025",
+          "text": "Machallah, na Yàlla dëggal la ci jàmm ak jub, dëgg na benn téere bu baax.",
+          "rating": 5
+        },
+        {
+          "initials": "SS",
+          "name": "Seynabou Senghor",
+          "device": "29 avril 2025",
+          "text": "Baat jërëjëf du sax ngir sant leen na Yàlla fey leen ci seen liggéey bu rafet ❤️🌹",
+          "rating": 5
+        },
+        {
+          "initials": "FS",
+          "name": "Fanta Souare",
+          "device": "2 juin 2025",
+          "text": "aplikasiyon bii lu jaaboot rekk la jërëjëf na Yàlla def sa baraka ci yéen te jox leen fey ci Aljanna amine yarab 🙏",
+          "rating": 5
+        },
+        {
+          "initials": "AD",
+          "name": "Abdoul djabar Danyoko",
+          "device": "26 juillet 2025",
+          "text": "aplikasiyon bu rafet lool la. Mashallah !",
+          "rating": 5
+        },
+        {
+          "initials": "IC",
+          "name": "Idrissa Camara",
+          "device": "6 août 2025",
+          "text": "Bég naa dëgg-dëgg ci dokimaŋ bii. Man ngeen a tax ay millions nit yu xamul araab xam Yàlla. Ngir loolu, Yàlla rekk mooy man na fey leen. Ñaan naa Yàlla jox leen dund gu yomb ak seen njabootug te jox nu Aljanna. amin !",
+          "rating": 5
+        },
+        {
+          "initials": "SK",
+          "name": "Souleymane Keïta",
+          "device": "1 octobre 2025",
+          "text": "Dëgg-dëgg bëgg naa lool aplikasiyon bii, na Yàlla fey te barkeel ki def aplikasiyon bii te baal nu sunuy bàkkaar yépp yu xam ak yu xamul te nangu nu sunuy ñaan ak sunuy njaboot te dëggal nu ci yoon wu jub ba sunu fajar mujj te ñaan lu ëpp yërmande jox nu Aljanna gu dul jeex Amine 🙏🙏🙏",
+          "rating": 5
+        },
+        {
+          "initials": "EM",
+          "name": "El Mn",
+          "device": "1 août 2026",
+          "text": "Xamuma lu ma war a wax 🫰🤌. Lu mag la",
+          "rating": 5
+        },
+        {
+          "initials": "SS",
+          "name": "Setoute samate",
+          "device": "11 août 2025",
+          "text": "MachaAllah na Yàlla aar la aplikasiyon bu baax lool jërëjëf 🤲🤲🤲",
+          "rating": 5
+        },
+        {
+          "initials": "CD",
+          "name": "Cheick Diabate",
+          "device": "29 décembre 2024",
+          "text": "Amul werante dëgg-dëgg lu rafet lool",
+          "rating": 5
+        },
+        {
+          "initials": "SD",
+          "name": "Sanogo Domba",
+          "device": "18 décembre 2025",
+          "text": "am solo lool ngir jëmm-kanam xel moom nit",
+          "rating": 5
+        },
+        {
+          "initials": "MM",
+          "name": "mame marème bane",
+          "device": "8 mars 2026",
+          "text": "salam lu tax aplikasiyon bi liggéeyatul",
+          "rating": 5
+        },
+        {
+          "initials": "DB",
+          "name": "Dalila Bahri",
+          "device": "27 décembre 2025",
+          "text": "app bu baax, am njariñ lool",
+          "rating": 5
+        },
+        {
+          "initials": "LY",
+          "name": "Landry Yarga",
+          "device": "10 décembre 2025",
+          "text": "Aplikasiyon bii dafay ma jàppale lool jërëjëf 👌",
+          "rating": 5
+        },
+        {
+          "initials": "JK",
+          "name": "Jeanne Kikukama",
+          "device": "8 février 2026",
+          "text": "aplikasiyon bu baax lool",
+          "rating": 5
+        },
+        {
+          "initials": "ZS",
+          "name": "Zeynab Sylla",
+          "device": "14 janvier 2026",
+          "text": "am solo lool te yomb",
+          "rating": 5
+        },
+        {
+          "initials": "AW",
+          "name": "Abdoul Wahab porgo",
+          "device": "10 janvier 2026",
+          "text": "am solo lool lool",
+          "rating": 5
+        },
+        {
+          "initials": "YM",
+          "name": "Yohane Mouhali",
+          "device": "31 octobre 2025",
+          "text": "Jërëjëf bu bare ci lépp lii 👏👏👏👏👏",
+          "rating": 5
+        },
+        {
+          "initials": "FA",
+          "name": "Fousseni Arouna",
+          "device": "15 décembre 2025",
+          "text": "Maa shaa Allahu bëgg naa lool aplikasiyon bi",
+          "rating": 5
+        },
+        {
+          "initials": "DA",
+          "name": "Djamilatou Alim",
+          "device": "20 janvier 2026",
+          "text": "aplikasiyon bu baax lool Yàlla jërëjëf Macha Allah",
+          "rating": 5
+        },
+        {
+          "initials": "AA",
+          "name": "Arminata Abdou",
+          "device": "26 mars 2025",
+          "text": "Jërëjëf bu bare ci yéen 👏 bëgg naa lool",
+          "rating": 5
+        },
+        {
+          "initials": "HR",
+          "name": "Halima Radhwani",
+          "device": "26 septembre 2025",
+          "text": "am solo lool aplikasiyon bi Allahoumma barek jërëjëf bu bare 🤲",
+          "rating": 5
+        },
+        {
+          "initials": "MC",
+          "name": "Mahamoudou Coulibaly",
+          "device": "17 août 2025",
+          "text": "rafet lool, neex lool",
+          "rating": 5
+        },
+        {
+          "initials": "LD",
+          "name": "Lamine Dieye",
+          "device": "22 mars 2025",
+          "text": "Liggéey bu baax ci yéen na Yàlla barkeel leen aplikasiyon bi am na solo 🙏",
+          "rating": 5
+        },
+        {
+          "initials": "AB",
+          "name": "aimé boussoukou",
+          "device": "25 octobre 2025",
+          "text": "Allah Akbar aplikasiyon bii am na njariñ bu réy",
+          "rating": 5
+        },
+        {
+          "initials": "IM",
+          "name": "Ibrahim Mbaye",
+          "device": "29 octobre 2024",
+          "text": "Baax na lool ngir jàng",
+          "rating": 5
+        },
+        {
+          "initials": "TT",
+          "name": "Tassala Toure",
+          "device": "21 mars 2025",
+          "text": "MashaAllah bëgg naa ko lool na Yàlla barkeel la ngir jaar-jaar bi ngay def ngir Yesluminaan yi 🤲barakallahu feekum🤲",
+          "rating": 5
+        },
+        {
+          "initials": "MD",
+          "name": "Mohamed Diawara",
+          "device": "27 juin 2025",
+          "text": "bëgg naa lool jërëjëf ñépp",
+          "rating": 5
+        },
+        {
+          "initials": "FA",
+          "name": "Ferjani Ali",
+          "device": "5 novembre 2025",
+          "text": "aplikasiyon bu gën a baax yr rjab dëkkoo ci noonu 😍😍🥰",
+          "rating": 5
+        },
+        {
+          "initials": "MA",
+          "name": "moustapha ahmed",
+          "device": "22 août 2025",
+          "text": "Aplikasiyon bu rafet lool na Yàlla fey leen ci loolu",
+          "rating": 5
+        },
+        {
+          "initials": "MB",
+          "name": "Mariam Barry",
+          "device": "4 octobre 2025",
+          "text": "aplikasiyon bu baax lool ☺ digal naa ko",
+          "rating": 5
+        },
+        {
+          "initials": "DO",
+          "name": "Dramane Ouattara",
+          "device": "19 juillet 2025",
+          "text": "aplikasiyon bii mooy gën a baax lu jamp diir",
+          "rating": 5
+        },
+        {
+          "initials": "AG",
+          "name": "Assane Gnamou",
+          "device": "17 mai 2025",
+          "text": "yomb na a jëfandikoo",
+          "rating": 5
+        },
+        {
+          "initials": "AL",
+          "name": "Amadou Lee",
+          "device": "27 novembre 2025",
+          "text": "aplikasiyon bu baax lool",
+          "rating": 5
+        },
+        {
+          "initials": "OD",
+          "name": "Ousseynou DIOP",
+          "device": "22 mars 2025",
+          "text": "manuma ko xalaat jërëjëf bu bare",
+          "rating": 5
+        },
+        {
+          "initials": "ZJ",
+          "name": "Zakaria Jose Kone",
+          "device": "4 mars 2026",
+          "text": "aplikasiyon bu baax lool bii",
+          "rating": 5
+        },
+        {
+          "initials": "MD",
+          "name": "Mr dof Dof",
+          "device": "24 juin 2025",
+          "text": "am na ay njumte yu bare bu ñu koy méngale ak Alxuraan bu wóor",
+          "rating": 5
+        },
+        {
+          "initials": "OM",
+          "name": "Omar Manè",
+          "device": "4 mars 2025",
+          "text": "Dëgg-dëgg lu mag lool machalla",
+          "rating": 5
+        },
+        {
+          "initials": "KI",
+          "name": "Koné Idris",
+          "device": "29 mai 2025",
+          "text": "aplikasiyon bu baax lool",
+          "rating": 5
+        },
+        {
+          "initials": "KK",
+          "name": "kourouma kaman",
+          "device": "25 septembre 2025",
+          "text": "aplikasiyon bu baax lool",
+          "rating": 5
+        },
+        {
+          "initials": "OD",
+          "name": "Ousseynou DIOP",
+          "device": "28 juillet 2025",
+          "text": "bëgg naa ko lool baax na lool",
+          "rating": 5
+        },
+        {
+          "initials": "MM",
+          "name": "Mr MANANGA",
+          "device": "19 février 2026",
+          "text": "gën a baax ci ndimbal ci diine",
+          "rating": 5
+        },
+        {
+          "initials": "TM",
+          "name": "Tyz Man86",
+          "device": "8 décembre 2025",
+          "text": "war ngeen a rafetal ay tërméet",
+          "rating": 5
+        },
+        {
+          "initials": "SI",
+          "name": "Samba Ichrach",
+          "device": "8 novembre 2025",
+          "text": "amul lu ma war a wax am naa la ma di seet",
+          "rating": 5
+        },
+        {
+          "initials": "RB",
+          "name": "Rasta Barou",
+          "device": "7 octobre 2025",
+          "text": "bëgg naa ko lool",
+          "rating": 5
+        },
+        {
+          "initials": "NG",
+          "name": "Nadia GbaneDIABY",
+          "device": "10 novembre 2025",
+          "text": "Alhamdoulillah! Am solo lool !!!",
+          "rating": 5
+        },
+        {
+          "initials": "DM",
+          "name": "DaoudaDiallo Malide",
+          "device": "20 mars 2025",
+          "text": "bëgg naa ko lool",
+          "rating": 5
+        },
+        {
+          "initials": "SB",
+          "name": "Saitama Black God 777",
+          "device": "23 novembre 2024",
+          "text": "Marshallah moom mooy la ñu ëpp di seet",
+          "rating": 5
+        },
+        {
+          "initials": "MS",
+          "name": "Mamoudou Sylla",
+          "device": "2 novembre 2024",
+          "text": "HALHAMDOULILAHY JËRËJËF BU BARE YÀGG NA MA CI SEET LOOLU CI INTERNET GIS NAA KO LEEGI NA YÀLLA BARKEEL LA AK SA NJABOOT JËRËJËF BU BARE !",
+          "rating": 5
+        },
+        {
+          "initials": "IK",
+          "name": "Ibrahim Konsigui",
+          "device": "18 novembre 2025",
+          "text": "ay ayaat yi bañ nañu wàcce",
+          "rating": 5
+        },
+        {
+          "initials": "YK",
+          "name": "Youss Kouadio",
+          "device": "22 octobre 2025",
+          "text": "baax na lool aplikasiyon bi",
+          "rating": 5
+        },
+        {
+          "initials": "AB",
+          "name": "Alhasko Bob",
+          "device": "2 mai 2025",
+          "text": "aplikasiyon bu gën a baax ci àddina bi",
+          "rating": 5
+        }
+      ]
+    },
+    "cta": {
+      "title": "Tàmbalee sa dem-dikk ci jàng tey",
+      "subtitle": "Wàcce Noor Phonetic Quran ci neen te soppi sa jaar-jaar ci ñaan Alxuraan.",
+      "downloadOn": "Wàcce ci"
+    }
+  },
+  "cgu": {
+    "meta": {
+      "title": "Ay Kondisiyoŋ Yu Mag Yu Jëfandiku - Noor Phonetic Quran",
+      "description": "Kondisiyoŋ yu mag yu jëfandiku Noor Phonetic Quran : jotu ci sarwis bi, konte jëfandikukat, abonnement Premium, njarigatu xel, njumte ak yoon wu jëfe.",
+      "keywords": "CGU Noor Phonetic Quran, kondisiyoŋ yu mag yu jëfandiku, kondisiyoŋ jëfandiku aplikasiyon Alxuraan"
+    },
+    "appName": "Noor Phonetic Quran",
+    "pageTitle": "KONDISIYOŊ YU MAG YU JËFANDIKU",
+    "updateDate": "Yeesalu bu mujj : 31 juillet 2026",
+    "intro1": "Kondisiyoŋ yu mag yu jëfandiku yii (\"CGU\") dañuy jëfe jotu ak jëfandiku aplikasiyon mobil Noor Phonetic Quran (\"Aplikasiyon bi\", \"nun\", \"sunu\" walla \"sunuy\"), buñu defar ci turu ku bopp te am na ci Google Play ak App Store. Bu ngay wàcce, tabax walla jëfandikoo Aplikasiyon bi, nangu nga CGU yii. Su bëggagoo kondisiyoŋ yii, bul jëfandikoo Aplikasiyon bi.",
+    "intro2Before": "Ngir xibaar bu mat ci jëfe say données personnelles, seetlu sunu",
+    "intro2LinkText": "Politik bu Sutura",
+    "intro2After": ", buy dolli ci CGU yii.",
+    "summary": {
+      "heading": "TAKKOO CI TEEMTAALE YI AM SOLO",
+      "intro": "Takkoo bii mooy jox la teemtaale yi am solo ci sunu CGU, waaye danu la digal nga jàng dokimaŋ bépp ci kaw table des matières bii ci suuf.",
+      "points": [
+        {
+          "question": "Lan la Aplikasiyon bi di jox ?",
+          "answer": "Ay jumtukaay yu neen ak yu fey ngir jàng, tey ak jàng Alxuraan : jàng fonetik ak araab (jàng Hafs ak Warsh), tajweed, tey gamifié, topptoo khatma, njub ñaan ci enregistrement audio, quiz, radio/TV yu Islam ci lu jub ak widget \"ayaat bu bés bi\" ci xët bu njëkk."
+        },
+        {
+          "question": "Ndax war naa am konte ?",
+          "answer": "Déet, benn xaaj bu réy ci Aplikasiyon bi man nga ko jëfandikoo amul konte. Konte bu soxla (email, Google walla Apple) mooy tax nga man a seddaale sa jëm-kanam ak sa abonnement Premium."
+        },
+        {
+          "question": "Ndax Aplikasiyon bi fey la ?",
+          "answer": "Aplikasiyon bi neen la ak ay reklaam. Abonnement Premium bu soxla, buñu jëfe ci Google Play walla App Store, dafay dindi reklaam yi te ubbi ay xarala yu mag."
+        },
+        {
+          "question": "Ndax man naa enregistre sama baat ?",
+          "answer": "Waaw, xarala njub ñaan dafay enregistre sa baat ci lokal ngir seet sa ñaan. Seetlu section bi ko jëfe ngir xam nan mu di liggéey ak sa yoon ci mbir yi."
+        },
+        {
+          "question": "Kan mooy jëfoo ci mbiru diine ?",
+          "answer": "Danu jéema ba noppi ngir wóorloo téere yi, firi yi ak transcription yi, waaye Aplikasiyon bi jumtukaay pédagojik la te wuutuwul jàng-jàng bu jaadu ci kanamu njàngalekat bu xam-xam."
+        },
+        {
+          "question": "Naka lanu leen di jokkoo ?",
+          "answer": "Ci formulaire jokkoo bi nekk ci Aplikasiyon bi walla ci email othmeneb@gmail.com."
+        }
+      ]
+    },
+    "toc": {
+      "heading": "TABLE DES MATIÈRES",
+      "items": [
+        {
+          "id": "service",
+          "label": "1. SARWIS BI"
+        },
+        {
+          "id": "eligibility",
+          "label": "2. KI MAN A JËFANDIKOO"
+        },
+        {
+          "id": "account",
+          "label": "3. KONTE JËFANDIKUKAT"
+        },
+        {
+          "id": "premium",
+          "label": "4. ABONNEMENT PREMIUM AK JËND YU BOKK"
+        },
+        {
+          "id": "recitation",
+          "label": "5. NJUB ÑAAN AK ENREGISTREMENT AUDIO"
+        },
+        {
+          "id": "conduct",
+          "label": "6. YOON YU JËFANDIKU"
+        },
+        {
+          "id": "ip",
+          "label": "7. NJARIGATU XEL"
+        },
+        {
+          "id": "religious-content",
+          "label": "8. TÉERE DIINE AK PÉDAGOJIK"
+        },
+        {
+          "id": "accessibility",
+          "label": "9. MAN A JOT CI"
+        },
+        {
+          "id": "ads",
+          "label": "10. REKLAAM AK SARWIS YU ÑETTEEL"
+        },
+        {
+          "id": "availability",
+          "label": "11. MAN A LIGGÉEY AK SOPPI SARWIS BI"
+        },
+        {
+          "id": "termination",
+          "label": "12. TAXAWAL AK JOG"
+        },
+        {
+          "id": "disclaimer",
+          "label": "13. WÀÑÑI JËFANDIKANTEG"
+        },
+        {
+          "id": "law",
+          "label": "14. YOON WU JËFE AK NJUMTE"
+        },
+        {
+          "id": "updates",
+          "label": "15. SOPPI CGU YI"
+        },
+        {
+          "id": "contact",
+          "label": "16. JOKKOO AK NUN"
+        }
+      ]
+    },
+    "sections": {
+      "service": {
+        "heading": "1. SARWIS BI",
+        "intro": "Noor Phonetic Quran mooy aplikasiyon mobil buy tax jàng, jàng ak tey Alxuraan, ci lu ni mel :",
+        "items": [
+          "jàng Alxuraan ci transcription fonetik ak araab (jàng Hafs ak Warsh), ak firi ak audio ;",
+          "ay jàng ci ñaan ak tajweed, ak njub ñaan ci enregistrement audio ;",
+          "module tey gamifié (niveau, badge, jubluwaay bés bu nekk) ak jubluwaay jàng bu bés bu nekk ;",
+          "topptoo khatma (jàng Alxuraan bu mat) ak programme dalal Ramadan ;",
+          "ay adhkar bés bu nekk, quiz xam-xam Islam, benn radio ak ay chaîne TV Islam ci lu jub ;",
+          "widget \"ayaat bu bés bi\" bu man a wone ci xët bu njëkk bu sa téere (iOS ak Android)."
+        ],
+        "outro": "Ay xarala yii man nañu soppiku, yokku walla ñu ci indi ay soppite ci diggante yeesalu yu Aplikasiyon bi, te loolu du soppi bu réy ci CGU yii."
+      },
+      "eligibility": {
+        "heading": "2. KI MAN A JËFANDIKOO",
+        "body": "Aplikasiyon bi ngir ku nekk buy bëgga jàng walla jëfe ñaan Alxuraan. Su fekkee doo mag, jëfandiku Aplikasiyon bi war na am ci kanamu waajur walla ki la topptoo ci yoon, rawati na ngir xarala buy jëfe jënd bu bokk."
+      },
+      "account": {
+        "heading": "3. KONTE JËFANDIKUKAT",
+        "brief": "Ci gàtt",
+        "briefText": "Konte bu soxla la te dafay jëfe ngir seddaale sa jëm-kanam ak sa abonnement.",
+        "body": "Bare xarala yi ci Aplikasiyon bi man ngeen leen a jot amul konte. Man nga defar konte bu soxla ci email, Google walla Apple, ngir denc sa jëm-kanam (tey, khatma, jubluwaay bés bu nekk) ak sa statut Premium bu soppee sa téere. Yaw a war a topp sutura yu say identifiant ak lépp lu jëf ci sa konte. Man nga laaj ñu far sa konte ak données yu ko aske ci diggante bu nekk ci jokkoo ak nun (seetlu section 16) walla ci réglage yu Aplikasiyon bi bu option bi am fa."
+      },
+      "premium": {
+        "heading": "4. ABONNEMENT PREMIUM AK JËND YU BOKK",
+        "brief": "Ci gàtt",
+        "briefText": "Aplikasiyon bi neen la ak reklaam ; abonnement Premium (buñu jëfe ci Google Play walla App Store) dafay dindi reklaam yi te ubbi ay xarala yu mag.",
+        "body": "Jënd yu bokk (rawati na abonnement Premium) dañu leen di jëfe ci Google Play walla App Store ci kaw sa plateforme, ci kaw seen bopp kondisiyoŋ ak politik fakture. Fakturation bi, dellusi gu ay-ay bi, jóg bi ak fey-dellu bu abonnement dañu leen di jëfe ci réglage yu sa konte Google Play walla Apple ID — amunu ci jotu ci say moyen fey te manunu tàmbalee benn fey-dellu ci sunu bopp. Téere ak yoon yu am solo Premium dañu leen di firi ci Aplikasiyon bi ci waxtu jënd te man nañu soppiku ak yeesalu yi."
+      },
+      "recitation": {
+        "heading": "5. NJUB ÑAAN AK ENREGISTREMENT AUDIO",
+        "brief": "Ci gàtt",
+        "briefText": "Say enregistrement ñaan dañu leen di jëfe ngir jox la tontu ci sa ñaan ; bul séddoo lu dul lu neex la nga séddoo.",
+        "bodyBefore": "Xarala njub ñaan mooy tax nga man a enregistre sa baat ci sa jàng Alxuraan ngir jot tontu bu ñu defal la (automatik walla ci ku ko seet, ci kaw version bu Aplikasiyon bi am léegi). Bu ngay jëfandikoo xarala bii, nangu nga enregistrement ak jëfe sa baat ngir seet sa ñaan ak yombal sa jàng. Waruloo yónnee enregistrement buy am kàddu yu bon, yu suufeel walla yu daanu ay yoon yu ñeel keneen. Yoon buy jëfe, denc ak diir bi ñuy denc ay enregistrement yi ñu leen firi ci sunu",
+        "linkText": "Politik bu Sutura",
+        "bodyAfter": "."
+      },
+      "conduct": {
+        "heading": "6. YOON YU JËFANDIKU",
+        "intro": "Bu ngay jëfandikoo Aplikasiyon bi, nangu nga bañ a :",
+        "items": [
+          "jëfandikoo Aplikasiyon bi ngir lu bon walla lu bañ CGU yii ;",
+          "jéema jot amul sart ci sunuy sistèem, walla ñu leen tas walla wecc seen ndogal yu njoxlu ;",
+          "decompile, désassemble walla jéema génne code source bu Aplikasiyon bi, lu dul su yoon di ko may ci lu leer ;",
+          "def kopi, séddoo walla jëfandikoo ci njariñ komersaal téere yépp walla léegi bu Aplikasiyon bi amul sart bu jiitu ;",
+          "jëfandikoo ay jumtukaay automatik (bot, scraper) ngir jot ci Aplikasiyon bi walla génne données."
+        ]
+      },
+      "ip": {
+        "heading": "7. NJARIGATU XEL",
+        "body": "Aplikasiyon bi, code bi, design bi, ay nataal ak téere pédagojik yu ko bokk (jàng tajweed, tabax jubluwaay jàng, ak lu ni mel) yoon njarigatu xel dafa leen aar te dañu sunu bopp walla ñi nu ci bokkal. Téere Alxuraan ci boppam bokk na ci ñépp te kenn du ko laaj ; ay firi, transcription fonetik, enregistrement audio ak téere tafsir yu ci bokk dañu jóge ci sourcë yu ñeteel yu ñu leerandal ci Aplikasiyon bi walla ci ay partenaire (ñaanekat, éditeur firi) te dañu leen jëfandikoo ci kaw sart yu ñu am. Amul benn araxal ci CGU yii buy jox la sart ci mbir yii lu jéggi jëfandiku ku bopp bu amul komersaal ci Aplikasiyon bi."
+      },
+      "religiousContent": {
+        "heading": "8. TÉERE DIINE AK PÉDAGOJIK",
+        "brief": "Ci gàtt",
+        "briefText": "Aplikasiyon bi jumtukaay pédagojik la buy topptoo, te wuutuwul jàng-jàng bu jaadu.",
+        "body": "Danu jéema ba noppi ngir wóorloo téere Alxuraan bi, firi yi, transcription fonetik yi ak yoon yu tajweed yu ñu wone ci Aplikasiyon bi, rawati na ci kaw sourcë yu ñu xam. Waaye transcription fonetik bi lu ci melni approximation la ngir yombal jàng te wuutuwul jàng jàng araab Alxuraan ci kanamu njàngalekat bu xam-xam. Noonu it, tontu buy jóge ci xarala njub ñaan jumtukaay ngir jàppale jàng la te wóorlewul ngir diine sa ñaan."
+      },
+      "accessibility": {
+        "heading": "9. MAN A JOT CI",
+        "brief": "Ci gàtt",
+        "briefText": "Danu ci liggéey ngir Aplikasiyon bi man a jëfandikoo ñépp, ci bokk ñi am ay problèem ci seen yaram.",
+        "body": "Aplikasiyon bi am na xibaar ci man a jot (libellé ak rôle Semantics) ci xët ak kontrol yu njëkk ngir yombal navigation ak lecteur d'écran yu sa téere (VoiceOver ci iOS, TalkBack ci Android). Dafay it topp lim bind bi ñu tànn ci réglage yu man a jot bu sa sistèem ngir wone téere yi. Liggéey yii ci man a jot dañu di dund te man nañu bañ a mel ci lu yem ci xët yépp ci waxtu bu nekk. Su fekkee am nga problèem ci man a jot ci Aplikasiyon bi, danu la digal nga wax nu ko ci formulaire jokkoo (seetlu section 16) ngir nu man ko rafetal."
+      },
+      "ads": {
+        "heading": "10. REKLAAM AK SARWIS YU ÑETTEEL",
+        "body1Before": "Aplikasiyon bi am na sarwis teknik yu ñetteel (nattu jëfandiku, diagnostik teknik, régie publicitaire, jënd yu bokk) yu nu firi bu mat ci sunu",
+        "linkText": "Politik bu Sutura",
+        "body1After": ". Sarwis yii dañu leen di jëfe seen bopp kondisiyoŋ, te danu la digal nga leen seetlu.",
+        "body2": "Ay reklaam yu bare ñoo option rekk : man nga def sa bopp tann ngir seet reklaam bu ñu fey (\"rewarded ad\") ci menu ndimbal bu Aplikasiyon bi, su bëggee nu jàppale amul abonnement Premium. Reklaam bu option bii du wone su amul sa sart bu leer."
+      },
+      "availability": {
+        "heading": "11. MAN A LIGGÉEY AK SOPPI SARWIS BI",
+        "body": "Danu jéema ba noppi ngir Aplikasiyon bi liggéey te wóor, amul ndamiin ci lu dul dàkk walla amul njumte. Ay xarala yu ci am dañu soxla internet (wàcce audio, radio/TV ci lu jub, seddaale konte) te man nañu bañ a am su amul internet walla su am njumte ci benn sarwis yu ñetteel. Man nañu yokk, soppi walla génne ay xarala yu Aplikasiyon bi ci diggante bu nekk, rawati na ngir saabab teknik, yoon walla ci kaw soppiku bu sunuy partenaire téere."
+      },
+      "termination": {
+        "heading": "12. TAXAWAL AK JOG",
+        "body": "Man nga bàyyi jëfandiku Aplikasiyon bi ci diggante bu nekk ci génne ko. Danu am sart ngir taxawal walla jóg sa sart ci Aplikasiyon bi, rawati na su amoon jëfandiku bu bañ CGU yii, te loolu du soppi jënd yu nga def ba noppi ci Google Play walla App Store, buñu jëfe ci seen bopp."
+      },
+      "disclaimer": {
+        "heading": "13. WÀÑÑI JËFANDIKANTEG",
+        "body": "Ci lim buy jëfe yoon, Aplikasiyon bi dañu ko jox \"ni mu meloon\" ak \"ci man a am\", amul benn garanti buy leer walla buy làqu. Manunu jëfoo ci njumte yu indirect, incident walla consécutif yu jóge ci jëfandiku walla manatul jëfandiku Aplikasiyon bi, ci bokk su amoon problèem ci diggante, réer données jëm-kanam, walla njumte ci téere yu ñetteel (firi, audio, tafsir) yu ci bokk. Dara ci CGU yii du dindi jëfoo bu yoon manul a dindi (misaal ci kaw njumte bu ñu def ci lu xam walla négligence bu réy)."
+      },
+      "law": {
+        "heading": "14. YOON WU JËFE AK NJUMTE",
+        "body": "CGU yii yoon farañse a leen di jëfe, amul njariñ ci yoon yu war a aar consommateur yu man a jëfe ci sa réew. Su amee njumte, danu jéema ba njëkk gis wecc bu baax ci jokkoo ak nun (seetlu section 16) njëkk benn ay yoon."
+      },
+      "updates": {
+        "heading": "15. SOPPI CGU YI",
+        "brief": "Ci gàtt",
+        "briefText": "Man nanu yeesal CGU yii ngir wone soppiku bu Aplikasiyon bi walla yoon.",
+        "body": "Man nanu soppi CGU yii ci diggante bu nekk, rawati na su ñuy yokk ay xarala yu bees. Version bu yeesalu dañu ko wone ci benn bés bu bees bu \"Yeesalu bu mujj\" ci kaw xët bii te dina liggéey ci waxtu wu ñu ko def. Su amee soppiku bu réy, danu la xamal ci benn xibaar ci Aplikasiyon bi. Su ngay dundal jëfandiku Aplikasiyon bi ginnaaw soppiku yi ñu wone, day firi nga nangu CGU yu yeesalu."
+      },
+      "contact": {
+        "heading": "16. JOKKOO AK NUN",
+        "bodyBefore": "Ngir laaj yépp yu ñeel CGU yii, man ngeen a jokkoo ak nun ci formulaire jokkoo bi nekk ci Aplikasiyon bi, walla ci email",
+        "email": "othmeneb@gmail.com",
+        "bodyAfter": "."
+      }
+    },
+    "footer": "© 2026 Noor Phonetic Quran. Sunuy yoon yépp ñu aar leen."
+  },
+  "contactPage": {
+    "meta": {
+      "title": "Jokkoo - Noor Phonetic Quran",
+      "description": "Am nga laaj ci aplikasiyon Noor Phonetic Quran, xalaat ci fonetik Alxuraan walla problèem teknik ? Jokkoo ak sunu ekipp, tontu ci diggante 48 waxtu."
+    }
+  },
+  "reviews": {
+    "meta": {
+      "title": "Xamle yu jëfandikukat - Noor Phonetic Quran",
+      "description": "Xam lu ëpp 160 xamle yu ñu wóorloo ci jëfandikukat yu Noor Phonetic Quran, aplikasiyon bu jàng ñaan, tey ak jàng Alxuraan ci fonetik, ak rating bu ëpp 5 étoile."
+    },
+    "eyebrow": "Xamle yu ñu wóorloo",
+    "title": "Li sunu jëfandikukat yi wax",
+    "subtitle": "Xam xamle yu sunu àndaale bu mag te bég",
+    "ratingCountLabel": "ci %COUNT% xamle",
+    "loadMoreLabel": "Séet yeneen xamle"
+  },
+  "audioCoran": {
+    "meta": {
+      "title": "Audio Alxuraan bu Séqoo : Bare Ñaanekat ak Déglu su Amul Internet | Noor Phonetic Quran",
+      "description": "Déglu Alxuraan ak audio buy séqoo ayaat ci ayaat, tann ci bare ñaanekat te wàcce audio bi ngir déglu su amul internet ak Noor Phonetic Quran. Neen ci iOS ak Android.",
+      "keywords": "audio Alxuraan, ñaan Alxuraan audio, bare ñaanekat Alxuraan, Alxuraan audio su amul internet, wàcce Alxuraan audio, déglu Alxuraan, audio bu séqoo Alxuraan, ñaanekat Alxuraan aplikasiyon",
+      "ogTitle": "Audio Alxuraan bu Séqoo : Bare Ñaanekat ak Déglu su Amul Internet",
+      "ogDescription": "Audio buy séqoo ayaat ci ayaat, bare ñaanekat ak wàcce su amul internet. Aplikasiyon bu neen Noor Phonetic Quran."
+    },
+    "breadcrumb": {
+      "home": "Kër",
+      "current": "Audio Alxuraan"
+    },
+    "hero": {
+      "title": "Audio Alxuraan bu Séqoo : Bare Ñaanekat, Déglu su Amul Internet",
+      "subtitle": "Ayaat bu nekk am na audio buy séqoo ngir déglu ñaan bu jub, ak tann ñaanekat bi ak sa man a wàcce audio bi ngir déglu amul internet.",
+      "backLink": "Dellu ci kër",
+      "googlePlay": "Google Play",
+      "appStore": "App Store"
+    },
+    "intro": {
+      "title": "Déglu buñu defal ngir jàng",
+      "paragraph1": "Déglu ñaan bu jub am na solo bu réy ngir jàng ñaan Alxuraan bu wóor. Noor Phonetic Quran dafay boole ayaat bu nekk ak audio buy séqoo, ngir nga man a topp téeru bi, fonetik bi ak déglu bi ci lu bokk.",
+      "paragraph2": "Doo wéy ci benn ñaanekat rekk walla internet buy dëy dëy : tann sa baat bu la neex te wàcce audio bi ngir yóbbaale ko fu nekk."
+    },
+    "features": {
+      "title": "Lu audio Alxuraan bi jox",
+      "items": [
+        {
+          "title": "Audio buy séqoo ayaat ci ayaat",
+          "description": "ayaat bu nekk dañu ko jàng ci waxtu bi ngay ko jàng, ngir rafetal sa ñaan ci waxtu bi."
+        },
+        {
+          "title": "Bare ñaanekat yu ñu man a tann",
+          "description": "tann ñaanekat bi la gën a neex ci ñi nekk ci aplikasiyon bi."
+        },
+        {
+          "title": "Déglu ci ayaat, sourat walla plage sourat",
+          "description": "tànn bu leer xaaj bu Alxuraan bi nga bëgg déglu."
+        },
+        {
+          "title": "Yoon jàng buñu man a soppi",
+          "description": "wàññi audio bi ci 0.7x ba 1x ngir gën a xàmm baat bu nekk ci sa jàng."
+        },
+        {
+          "title": "Wàcce ngir déglu su amul internet",
+          "description": "wàcce audio bi njëkk ngir déglu Alxuraan amul internet, fu nga nekk."
+        }
+      ]
+    },
+    "screenshots": {
+      "title": "Nataal yu audio Alxuraan",
+      "alts": [
+        "Noor Phonetic Quran - Barre jàng audio bu séqoo",
+        "Noor Phonetic Quran - Tann plage ayaat ak wàcce su amul internet",
+        "Noor Phonetic Quran - Tann plage sourat ak soppi yoon",
+        "Noor Phonetic Quran - Tann ñaanekat bi"
+      ]
+    },
+    "faq": {
+      "title": "Ay laaj yu ñu gën a laaj ci audio Alxuraan",
+      "items": [
+        {
+          "question": "Ndax audio bi séqoo na ak téeru bi ?",
+          "answer": "Waaw, ayaat bu nekk am na audio buy séqoo ngir déglu ñaan bu jub bi ngay topp téeru bi ak transcription fonetik bi."
+        },
+        {
+          "question": "Ñaata ñaanekat am na ?",
+          "answer": "Man nga tann ci bare ñaanekat yu Alxuraan ci biir réglage jàng audio bi, ci kaw sa bëgg-bëgg."
+        },
+        {
+          "question": "Ndax man ñoo déglu Alxuraan su amul internet ?",
+          "answer": "Waaw, man nga wàcce audio bu ayaat, sourat walla plage sourat ngir déglu bu mat sëkk amul internet."
+        },
+        {
+          "question": "Ndax man ñoo soppi yoon jàng audio bi ?",
+          "answer": "Waaw, yoon jàng bi man nga ko soppi ci 0.7x ba 1x ngir jubóo déglu bi ak sa niveau jàng."
+        }
+      ]
+    },
+    "related": {
+      "title": "Xam it",
+      "tajweed": "Yoon yu Tajweed",
+      "memorization": "Tey Alxuraan (Hifz)",
+      "allFeatures": "Ay xarala yépp"
+    }
+  },
+  "privacyPolicy": {
+    "title": "Noor Phonetic Quran",
+    "heading": "POLITIK BU SUTURA",
+    "lastUpdated": "Yeesalu bu mujj : 28 juillet 2026",
+    "intro1": "Notice sutura bii ngir Noor Phonetic Quran (\"nun\", \"sunu\" walla \"sunuy\") mooy firi nan ak lu tax nu di dajale, denc, jëfandikoo ak/walla séddoo ay xibaar yu bokk bu ngay jëfandikoo sunu aplikasiyon mobil Noor Phonetic Quran (\"Sarwis yi\").",
+    "intro2": "Politik sutura bii dafay dolli ci sunu <cguLink>Kondisiyoŋ yu Mag yu Jëfandiku</cguLink>, buy jëfe lu yaatu jotu ak jëfandiku sunuy Sarwis.",
+    "intro3": "Am nga laaj walla naqar ? Jàng notice sutura bii dina la jàppale nga xam say sart ak say tann ci mbiru sutura. Su bëggagoo sunuy politik ak jëfe, bul jëfandikoo sunuy Sarwis. Su amoon nga laaj walla naqar, danu la digal nga jokkoo ak nun ci adrees bii : <mailLink>othmeneb@gmail.com</mailLink>.",
+    "summary": {
+      "heading": "TAKKOO CI TEEMTAALE YI AM SOLO",
+      "intro": "Takkoo bii mooy jox la teemtaale yi am solo ci sunu notice sutura, waaye man nga am xibaar bu gën a mat ci kaw ay tur yii ci kaw sunu table des matières ci suuf.",
+      "q1": {
+        "title": "Ban xibaar personnel lanuy jëfe ?",
+        "text": "Dajalewunu benn xibaar buy leerandal la (tur, email) lu dul su defaree konte bu soxla, jëfandikoo njub ñaan walla jokkoo ak nun ci sa bëgg-bëgg ci formulaire jokkoo bi. Aplikasiyon bi dafay jëfe it ay sarwis teknik (statistik jëfandiku yu anonyme, topptoo problèem, jënd yu bokk) yuy jëfe ay identifiant teknik yu sa téere. Seetlu section \"Ban xibaar lanuy dajale ?\" ngir xam bu mat."
+      },
+      "q2": {
+        "title": "Ndax dañuy jëfe ay xibaar personnel yu am solo bu réy ?",
+        "text": "Su ngay jëfandikoo xarala bu soxla bu njub ñaan, sa enregistrement (donnée buñu man a jàppe ni sensible/biométrique) dañu koy denc bu wóor ngir jox la tontu ci sa ñaan. Lu dul xarala bii bu soxla, jëfewunu benn xibaar personnel yu am solo bu réy."
+      },
+      "q3": {
+        "title": "Ndax dajaleñu ay xibaar ci ki ñetteel ?",
+        "text": "Déet, dajalewunu benn xibaar ci ñi ñetteel lu dul sarwis teknik yi nu tudd ci suuf (Firebase, Google AdMob, ay store aplikasiyon)."
+      },
+      "q4": {
+        "title": "Nan lanuy jëfe say xibaar ?",
+        "text": "Danuy jëfe say xibaar ngir aplikasiyon bi liggéey, nattu jëfandiku bi ci lu bokk, seet problèem teknik yi, jëfe abonnement yi te tontu say bataaxal jokkoo."
+      },
+      "q5": {
+        "title": "Ci ban waxtu ak ki lanuy séddoo ay xibaar personnel ?",
+        "text": "Dañu séddoo ay données teknik ak sunuy prestataire (Google Firebase, Google AdMob) yuy jëfe ni sous-traitant ngir aplikasiyon bi man a liggéey. Jaayewunu benn donnée."
+      },
+      "q6": {
+        "title": "Lan mooy say sart ?",
+        "text": "Ci kaw fu nga dëkk, man nga am sart jotu, tijjaale, wecc ak far say données. Seetlu section \"Lan mooy say sart ci mbiru sutura ?\"."
+      },
+      "q7": {
+        "title": "Nan lanu jëfe say sart ?",
+        "text": "Xarala bu gën a yomb mooy jokkoo ak nun ci <mailLink>othmeneb@gmail.com</mailLink>. Danu tontu sa ñaan ci kaw yoon wu jëfe."
+      }
+    },
+    "toc": {
+      "heading": "TABLE DES MATIÈRES",
+      "items": {
+        "collect": "BAN XIBAAR LANUY DAJALE ?",
+        "process": "NAN LANUY JËFE SAY XIBAAR ?",
+        "legal": "CI BAN YOON LANU SUKKANDIKOO NGIR JËFE SAY XIBAAR PERSONNEL ?",
+        "share": "CI BAN WAXTU AK KI LANUY SÉDDOO SAY XIBAAR PERSONNEL ?",
+        "keep": "ÑAATA WAXTU LANUY DENC SAY XIBAAR ?",
+        "rights": "LAN MOOY SAY SART CI MBIRU SUTURA ?",
+        "dnt": "KONTROL YU XARALA \"DO-NOT-TRACK\"",
+        "usRights": "NDAX ÑI DËKK CI ÉTATS-UNIS AM NAÑU AY SART YU ÑEEL SUTURA ?",
+        "updates": "NDAX DANUY YEESAL NOTICE BII ?",
+        "contact": "NAN LANU JOKKOO CI MBIRU NOTICE BII ?",
+        "access": "NAN LANU MAN A SEETLU, YEESAL WALLA FAR DONNÉES YU NU DAJALE ?"
+      }
+    },
+    "sections": {
+      "collect": {
+        "heading": "BAN XIBAAR LANUY DAJALE ?",
+        "disclosedTitle": "Xibaar personnel yu ngay xamale nu ci sa bopp",
+        "disclosedIntro": "<strong>Ci gàtt</strong> : Danu dajale xibaar personnel yu ngay jox nu ci sa bopp bëgg-bëgg, misaal bu ngay defar konte, jëfandikoo njub ñaan walla sunu formulaire jokkoo.",
+        "disclosedContact": "Su nu jokkoo woon ci formulaire jokkoo bi bokk ci aplikasiyon bi, dajale nanu sa tur, sa adrees email ak li nekk ci sa bataaxal, rax-ci-dolli xibaar teknik yu ko aske (plateforme, làkk, version aplikasiyon, xeetu téere, fuseau horaire) ngir man laa tontu te seet ay problèem yu am.",
+        "disclosedAccount": "Su defaree konte bu soxla, dajale nanu sa adrees email (jotu ci email) walla xibaar yu Google walla Apple jox bu ngay jotu ci seen sarwis (identifiant konte, tur ak adrees email su ko tànnee séddoo), ngir defar te aar sa profil te seddaale sa jëm-kanam ak sa statut Premium.",
+        "audioTitle": "Enregistrement audio (njub ñaan)",
+        "audioIntro": "<strong>Ci gàtt</strong> : Su ngay jëfandikoo njub ñaan, sa enregistrement dañu ko yónnee bu wóor ci sunuy server (Google Firebase Storage) ngir ñu ko seet ak/walla déglu ko ci ku ko seet.",
+        "audioDetail": "Baat bi man na jàppe ni donnée biométrique walla sensible ci kaw yoon wu jëfe. Bu ngay jëfandikoo xarala njub ñaan, sa enregistrement audio dañu ko denc ci benn plaas bu ñeel sa konte (Google Firebase Storage), yaw rekk ak ñi am sart ngir jëfe sa yónnee moo ko man a jot, ngir dëgg-dëgg jox la tontu ci sa ñaan. Enregistrement yii jëfewuñu leen ngir reklaam, séddoowuñu leen it ak ñi ñetteel lu dul prestataire teknik yu soxla ngir denc leen (Google Firebase). Man nga laaj ñu far say enregistrement ci diggante bu nekk ci jokkoo ak nun (seetlu section \"Nan lanu jokkoo\")",
+        "autoTitle": "Données yu ñu dajale ci seen bopp",
+        "autoIntro": "Ni bare aplikasiyon yi, Noor Phonetic Quran dafay jëfandikoo ay sarwis teknik yu ñetteel yuy dajale ci seen bopp ay données jëfandiku ak téere :",
+        "table": {
+          "headers": {
+            "service": "Sarwis",
+            "purpose": "Finalité",
+            "data": "Données yu ñeel"
+          },
+          "rows": {
+            "analytics": {
+              "service": "Google Firebase Analytics",
+              "purpose": "Nattu jëfandiku ak xarala yi (xët yu ñu seetlu, jëf ci app bi ni jàng, tey walla quiz), ci lu bokk te anonyme",
+              "data": "Identifiant reklaam/tabax, statistik jëfandiku, làkk, statut premium"
+            },
+            "crashlytics": {
+              "service": "Google Firebase Crashlytics",
+              "purpose": "Diagnostik teknik yu app bi buy taxaw ngir defar ay bug",
+              "data": "Rapport taxaw, xibaar teknik ci téere ak sistèem"
+            },
+            "auth": {
+              "service": "Google Firebase Authentication",
+              "purpose": "Defar ak aar sa konte bu soxla (email, Google, Apple), seddaale sa jëm-kanam ak sa abonnement",
+              "data": "Adrees email, identifiant konte, xarala jotu bu ñu jëfandikoo"
+            },
+            "storage": {
+              "service": "Google Firebase Storage",
+              "purpose": "Denc bu wóor say enregistrement audio su ngay jëfandikoo njub ñaan",
+              "data": "Fichier audio yu sa baat, yu ko aske ci sa identifiant konte"
+            },
+            "purchases": {
+              "service": "Google Play / App Store (jënd yu bokk)",
+              "purpose": "Jëfe abonnement premium (dindi reklaam)",
+              "data": "Statut ak identifiant jënd, buñu jëfe direct ci Google/Apple"
+            },
+            "admob": {
+              "service": "Google AdMob",
+              "purpose": "Wone ay reklaam ngir ñi amul premium (bannière, interstitiel) rax-ci-dolli ay reklaam yu ñu fey (\"rewarded ads\") yu nga man a tann bëgg-bëgg ngir jàppale nu amul abonnement Premium",
+              "data": "Identifiant reklaam bu téere, données jëfe ak reklaam yi"
+            }
+          }
+        },
+        "att": "Ci iOS, wone reklaam personnalisé man na am ci laaj sart \"App Tracking Transparency\" (ATT) buy jóge ci sistèem bi. Man nga bañ sart bii ci diggante bu nekk ci réglage sutura yu sa téere (Réglage > Sutura ak Kaaraange > Topptoo) ; aplikasiyon bi dina liggéey bu baax su ko bañee.",
+        "noLocation": "Dajalewunu sa fu nga nekk bu wóor ; aplikasiyon bi laajul sart jotu ci géolocalisation."
+      },
+      "process": {
+        "heading": "NAN LANUY JËFE SAY XIBAAR ?",
+        "summary": "<strong>Ci gàtt</strong> : Danuy jëfe say xibaar ngir aplikasiyon bi liggéey, tontu say ñaan, rafetal sunuy Sarwis te jëfe sa abonnement su ko soxlaa.",
+        "detail": "Danuy jëfe données yu firi ci kaw ngir : (i) jox ak yékkati xarala yu app bi (jàng, tey, khatma, quiz, njub ñaan), (ii) tontu say bataaxal yu jóge ci formulaire jokkoo, (iii) seet ak defar problèem teknik yi, (iv) nattu jëfandiku bi ci lu bokk ngir jëmm-kanam sunuy tabax, (v) jëfe abonnement premium ak reklaam yi ngir ñi amul premium."
+      },
+      "legal": {
+        "heading": "CI BAN YOON LANU SUKKANDIKOO NGIR JËFE SAY XIBAAR PERSONNEL ?",
+        "summary": "<strong>Ci gàtt</strong> : Jëfewunu say xibaar personnel lu dul su xalaate nu am solo te am nu benn saabab yu yoon di ko may.",
+        "euTitle": "Su fekkee dëkk nga ci UE walla Royaume-Uni, section bii ci yaw la jëm.",
+        "euIntro": "RGPD ak RGPD bu Royaume-Uni dañu nu santaane firi yoon yu wóor yu nu sukkandikoo ngir jëfe say xibaar personnel :",
+        "euList": {
+          "consent": "<strong>Nangu</strong> : ngir wone reklaam personnalisé ak nattu jëfandiku, buñu dajale ci bandeau nangu bi ci njëkk yónnee app bi.",
+          "contract": "<strong>Jëfe kontra</strong> : ngir jëfe sa abonnement premium.",
+          "legitimate": "<strong>Bëgg-bëgg bu jub</strong> : ngir diagnostik teknik (Crashlytics) ak jëfe say bataaxal jokkoo."
+        },
+        "canadaTitle": "Su fekkee dëkk nga ci Canada, section bii ci yaw la jëm.",
+        "canadaText": "Man nanu jëfe say xibaar su nu jox woon sart bu wóor, walla ci mbir yu yoon santaane (yoon aar sutura). Man nanu it jëfe say xibaar su fekkee am na njariñ te ku xam-xam mana jàpp ni am na solo, misaal ngir tontu say ñaan jokkoo."
+      },
+      "share": {
+        "heading": "CI BAN WAXTU AK KI LANUY SÉDDOO SAY XIBAAR PERSONNEL ?",
+        "summary": "<strong>Ci gàtt</strong> : Danu séddoo ay xibaar ak prestataire teknik yu soxla rekk ngir app bi liggéey (Google Firebase, Google AdMob), ay store aplikasiyon (Google Play, App Store) ngir jëfe jënd yi, ak su yoon nu ko santaanee. Jaayewunu say données ak keneen mukk."
+      },
+      "keep": {
+        "heading": "ÑAATA WAXTU LANUY DENC SAY XIBAAR ?",
+        "summary": "<strong>Ci gàtt</strong> : Danu denc say xibaar lu jamp ba noppi soxla bi nu firi ci notice bii, lu dul yoon santaane diir bu gën a yàgg.",
+        "detail": "Bataaxal yu jóge ci formulaire jokkoo dañu leen di denc lu jamp waxtu jëfe sa ñaan te ci noppi archive walla far leen. Données statistik yu bokk (Firebase Analytics) dañu leen di denc ci kaw paramaat yu Google Firebase."
+      },
+      "rights": {
+        "heading": "LAN MOOY SAY SART CI MBIRU SUTURA ?",
+        "summary": "<strong>Ci gàtt</strong> : Ci kaw sa réew, man nga am sart laaj jotu, tijjaale walla far say xibaar personnel, wecc sa nangu jëfe, ak bañ ay jëfe yu nekk.",
+        "detail": "Man nga ci diggante bu nekk wecc sa nangu ci nattu jëfandiku ak reklaam personnalisé ci réglage sutura yu am ci app bi (Réglage > Sutura)."
+      },
+      "dnt": {
+        "heading": "KONTROL YU XARALA \"DO-NOT-TRACK\"",
+        "text": "Bare navigateur web ak ay sistèem ak aplikasiyon mobil dañu am xarala \"Do-Not-Track\" (\"DNT\") walla paramaat bu nga man a ubbi ngir wone sa tann sutura. Ci léegi, amul benn norme teknolojik bu ñu jëfe ngir xam ak jëfe signal DNT yi. Ci noonu, jëfewunu léegi signal DNT bu navigateur. Su amee norme ngir topptoo ci internet buy war nu ko topp ci kanam, danu la ko xamal ci benn version bu yees bu notice sutura bii."
+      },
+      "usRights": {
+        "heading": "NDAX ÑI DËKK CI ÉTATS-UNIS AM NAÑU AY SART YU ÑEEL SUTURA ?",
+        "summary": "<strong>Ci gàtt</strong> : Su fekkee dëkk nga ci États-Unis, am nga ay sart yu ñeel jotu ci say xibaar personnel, ci kaw État bu nga dëkk. Man nga jëfe sart yii ci jokkoo ak nun ci adrees bi ñu tudd ci suuf."
+      },
+      "updates": {
+        "heading": "NDAX DANUY YEESAL NOTICE BII ?",
+        "summary": "<strong>Ci gàtt</strong> : Waaw, danuy yeesal notice bii bu soxlaa ngir dundal yoon yi jëfe.",
+        "detail": "Man nanu yeesal notice sutura bii ci diggante bu nekk. Version bu yeesalu dañu ko wone ci bés bu yees bu \"Yeesalu\" te dina liggéey ci waxtu bi mu jot a am. Su nu def ay soppiku yu réy ci notice bii, man nanu la xamal ci benn xibaar bu leer walla ci nu la yónnee benn notification bu direct. Danu la digal nga seetlu bu bare notice sutura bii ngir xam nan lanu aar say xibaar."
+      },
+      "contact": {
+        "heading": "NAN LANU JOKKOO CI MBIRU NOTICE BII ?",
+        "text": "Su amoon nga laaj walla xalaat ci mbiru notice bii, man nga yónnee benn email ci <mailLink>othmeneb@gmail.com</mailLink>."
+      },
+      "access": {
+        "heading": "NAN LANU MAN A SEETLU, YEESAL WALLA FAR DONNÉES YU NU DAJALE ?",
+        "text": "Ci kaw yoon yu jëfe ci sa réew, man nga am sart laaj jotu ci xibaar personnel yu nu aske ci yaw, soppi leen walla far leen. Ngir loolu, jokkoo rekk ak nun ci <mailLink>othmeneb@gmail.com</mailLink> ; danu jëfe sa ñaan gaaw ba man."
+      }
+    },
+    "footer": "© 2026 Noor Phonetic Quran. Sunuy yoon yépp ñu aar leen.",
+    "meta": {
+      "title": "Politik ci Sutura - Noor Phonetic Quran",
+      "description": "Politik ci sutura Noor Phonetic Quran: xibaar yi ñu dajale (analytics, jëndeg, formulaire jokkoo), lu ñu ko def, séddoo ak ñeneen ak sañ-sañ yaw."
+    }
+  },
+  "correctionRecitation": {
+    "meta": {
+      "title": "Njub Ñaan Alxuraan : Enregistre Sa Bopp te Jëm Kanam | Noor Phonetic Quran",
+      "description": "Enregistre sa ñaan Alxuraan te jot njub bu ñu defal la ak Noor Phonetic Quran : rafetal sa ñaan ak topp yoon yu Tajweed. Neen ci iOS ak Android.",
+      "keywords": "njub ñaan Alxuraan, rafetal sa ñaan, njub Tajweed, enregistre sa ñaan, aplikasiyon njub Alxuraan, jàng ñaan Alxuraan bu jub",
+      "ogTitle": "Njub Ñaan Alxuraan : Enregistre Sa Bopp te Jëm Kanam",
+      "ogDescription": "Enregistre sa ñaan te jot njub bu ñu defal la ngir jëm kanam ci ñaan ak Tajweed. Aplikasiyon bu neen Noor Phonetic Quran."
+    },
+    "breadcrumb": {
+      "home": "Kër",
+      "current": "Njub ñaan"
+    },
+    "hero": {
+      "title": "Njub Ñaan Alxuraan : Enregistre Sa Bopp te Jëm Kanam",
+      "subtitle": "Enregistre sa ñaan ci biir aplikasiyon bi te jot njub bu ñu defal la ngir rafetal sa ñaan ak topp yoon yu Tajweed."
+    },
+    "intro": {
+      "title": "Lu tax war nga rafetal sa ñaan ?",
+      "paragraph1": "Ñaan bu jub bokkul ci jàng fonetik bi rekk : topp yoon yu Tajweed (allongement, liaison, fu ñu génne baat yi) dafay soxla tontu bu jóge ci biti ngir xam lu war a rafet.",
+      "paragraph2": "Ak Noor Phonetic Quran, man nga enregistre sa bopp ci biir aplikasiyon bi te jot njub bu ñu defal la, soxlawuloo seet njàngalekat buy am ci diggante bu nekk."
+    },
+    "steps": {
+      "title": "Naka la njub ñaan di liggéey ?",
+      "items": [
+        {
+          "title": "Tànn benn xaaj",
+          "text": "tànn sourat ak ayaat yi nga bëgga ñaan."
+        },
+        {
+          "title": "Enregistre sa ñaan",
+          "text": "direktemaŋ ci biir aplikasiyon bi, amul soxla yeneen matériel."
+        },
+        {
+          "title": "Yónnee sa enregistrement",
+          "text": "sa ñaan dañu ko tegal ci file d'attente ngir ñu ko déglu."
+        },
+        {
+          "title": "Jot sa njub",
+          "text": "benn tontu bu ñu defal la mooy wone la fu war a rafet, direktemaŋ ci biir aplikasiyon bi."
+        },
+        {
+          "title": "Jëm kanam ci enregistrement yi",
+          "text": "def liggéey bi ci diggante bu nekk ngir rafetal sa ñaan ak sa Tajweed."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Ay laaj yu ñu gën a laaj ci njub ñaan",
+      "items": [
+        {
+          "question": "Ndax njub ñaan neen la ?",
+          "answer": "Enregistrement bu njëkk neen la. Ginnaaw ko, xarala bii bokk na ci offre premium bu aplikasiyon bi."
+        },
+        {
+          "question": "Ñaata waxtu lay yem ngir jot benn njub ?",
+          "answer": "Sa enregistrement dañu ko tegal ci file d'attente ngir ñu ko déglu te njub ko, ak tontu bu ñu defal la direktemaŋ ci biir aplikasiyon bi."
+        },
+        {
+          "question": "Ndax man naa dellu enregistre bu bare yoon xaaj bu bokk ?",
+          "answer": "Waaw, man nga def liggéey bi ni bare bi nga bëgga ngir jëm kanam ci xaaj bu bokk."
+        }
+      ]
+    },
+    "related": {
+      "title": "Xam it",
+      "tajweed": "Yoon yu Tajweed",
+      "memorisation": "Tey Alxuraan (Hifz)",
+      "allFeatures": "Ay xarala yépp"
+    }
+  },
+  "khatmaCoran": {
+    "meta": {
+      "title": "Khatma Alxuraan : Aplikasiyon ngir Jubluwaay ak Topptoo Sa Jàng bu Mat | Noor Phonetic Quran",
+      "description": "Jubluwaay sa Khatma (jàng Alxuraan bu mat) ak aplikasiyon Noor Phonetic Quran : jubluwaay bés bu nekk, topptoo jëm-kanam, streak (bés yu toppante) ak fippal. Neen ci iOS ak Android.",
+      "keywords": "Khatma Alxuraan, khatma aplikasiyon, jàng Alxuraan bu mat, jubluwaay jàng Alxuraan, jubluwaay Khatma Ramadan, topptoo jàng Alxuraan, mottali Alxuraan",
+      "ogTitle": "Khatma Alxuraan : Jubluwaay ak Topptoo Sa Jàng bu Mat",
+      "ogDescription": "Jubluwaay sa Khatma ak jubluwaay bés bu nekk, topptoo jëm-kanam ak fippal. Aplikasiyon bu neen Noor Phonetic Quran."
+    },
+    "breadcrumb": {
+      "home": "Kër",
+      "current": "Khatma Alxuraan"
+    },
+    "hero": {
+      "title": "Khatma Alxuraan : Jubluwaay ak Mottali Sa Jàng bu Mat",
+      "subtitle": "Tànn sa jubluwaay ci lim bu bés, topp sa jëm-kanam bés bu nekk te dëkkoo sa streak (bés yu toppante) ba ci xët bu mujj bu Alxuraan bu sell wi, ak fippal ngir dëkkoo.",
+      "googlePlay": "Google Play",
+      "appStore": "App Store"
+    },
+    "intro": {
+      "title": "Lan mooy Khatma ?",
+      "paragraph1": "Khatma mooy jàng Alxuraan bu mat, li dale ca njëlbeen (Al-Fatiha) ba ca mujj (An-Nas). Yesluminaan yu bare dañuy def Khatma ci weeru Ramadan, waaye man na it am ci waxtu wu nekk ci at mi, ci diir bi nga tànn.",
+      "paragraph2": "Mottali Alxuraan dafay soxla dëkkoo : su amul jubluwaay walla topptoo, yomb na réer walla bàyyi ci diggante. Loolu mooy lu xarala Khatma bu Noor Phonetic Quran di defar."
+    },
+    "features": {
+      "title": "Naka la Khatma di liggéey ci aplikasiyon bi ?",
+      "items": [
+        {
+          "title": "Tànn diir bu sa Khatma",
+          "description": "misaal 30 bés ngir Ramadan, walla diir bu la neex ci kaw sa yoon."
+        },
+        {
+          "title": "Topp sa jubluwaay bés bu nekk",
+          "description": "aplikasiyon bi dafay wone ci boppam lim bu xët yi nga war a jàng bés bu nekk ngir mottali ci waxtu."
+        },
+        {
+          "title": "Dëkkoo sa streak (bés yu toppante)",
+          "description": "bés bu nekk bu nga àggee sa jubluwaay dafay yokk sa streak, benn dëkkoo bu dolli ngir dëkkoo."
+        },
+        {
+          "title": "Jot ay fippal",
+          "description": "ay notification dañu la jàppale nga bañ a fàtte sa jàng bu bés bi."
+        },
+        {
+          "title": "Bégal mujj bu sa Khatma",
+          "description": "benn takkoo bu sa yoon (bés yu nga def, streak bu gën a mag) dañu wone bu Alxuraan mottalee."
+        }
+      ]
+    },
+    "screenshots": {
+      "title": "Nataal yu xarala Khatma",
+      "alts": [
+        "Noor Phonetic Quran - Tann jubluwaay Khatma (30, 60, 90 bés walla Ramadan)",
+        "Noor Phonetic Quran - Topptoo jëm-kanam bu Khatma ak streak",
+        "Noor Phonetic Quran - Indikatër Khatma bu wone ci waxtu jàng"
+      ]
+    },
+    "faq": {
+      "title": "Ay laaj yu ñu gën a laaj ci Khatma",
+      "items": [
+        {
+          "question": "Lan mooy Khatma Alxuraan ?",
+          "answer": "Khatma mooy jàng Alxuraan bu mat, li dale ca njëlbeen ba ca mujj, ci lu ëpp danu ko def ci diggante bu ñu tànn (ci lu ëpp ci weeru Ramadan, waaye man na it am ci at mi bépp)."
+        },
+        {
+          "question": "Naka lanu jubluwaay Khatma ak aplikasiyon bi ?",
+          "answer": "Tànn lim bu bés yi nga bëgga mottali Alxuraan (misaal 30 bés ngir Ramadan), aplikasiyon bi dafay wone ci boppam sa jubluwaay xët bés bu nekk te topp sa jëm-kanam bés ci bés."
+        },
+        {
+          "question": "Lu xew su ma bàyyee bés bu jàng ?",
+          "answer": "Aplikasiyon bi dafay soppi sa jubluwaay bés yu des ngir tax nga man a delloosi te mottali sa Khatma ci waxtu, di topp itam sa streak (bés yu toppante)."
+        },
+        {
+          "question": "Ndax man naa def Khatma ci biti Ramadan ?",
+          "answer": "Waaw, man nga tàmbalee benn Khatma ci waxtu wu nekk ci at mi, ci diir bi nga tànn."
+        },
+        {
+          "question": "Ndax xarala Khatma neen la ?",
+          "answer": "Waaw, ni bare xarala yu njëkk yu Noor Phonetic Quran, Khatma neen na bu mat sëkk."
+        }
+      ]
+    },
+    "related": {
+      "title": "Xam it",
+      "memorization": "Tey Alxuraan (Hifz)",
+      "audio": "Audio Alxuraan",
+      "allFeatures": "Ay xarala yépp"
+    }
+  },
+  "tajweedCoran": {
+    "meta": {
+      "title": "Yoon yu Tajweed Alxuraan : Jàng bu Leerandoo te Mat | Noor Phonetic Quran",
+      "description": "Jàng yoon yu Tajweed Alxuraan ak Noor Phonetic Quran : melo ak araxal ci waxtu jàng, fu ñu génne baat yi (Makharej), yoon yu Noun Sâkinah ak Waqf. Neen ci iOS ak Android.",
+      "keywords": "yoon Tajweed, Tajweed Alxuraan, jàng Tajweed, Tajweed leerandoo, Makharej lettre araab, Noun Sakinah Tanwin, Waqf Ibtida, aplikasiyon Tajweed bu neen",
+      "ogTitle": "Yoon yu Tajweed Alxuraan : Jàng bu Leerandoo te Mat",
+      "ogDescription": "Melo ak araxal ci waxtu jàng, fu ñu génne baat yi, yoon yu Noun Sâkinah ak Waqf. Aplikasiyon bu neen Noor Phonetic Quran."
+    },
+    "breadcrumb": {
+      "home": "Kër",
+      "current": "Yoon yu Tajweed"
+    },
+    "hero": {
+      "title": "Yoon yu Tajweed Alxuraan : Jàng bu Leerandoo te Mat",
+      "subtitle": "Téeru Alxuraan dafay wone ak melo te araxal ci kaw yoon yu Tajweed, ànd ak jubluwaay yu mat ci fu ñu génne baat yi, Noun Sâkinah ak yoon yu taxaw ak dellusi.",
+      "backLink": "Dellu ci kër",
+      "googlePlay": "Google Play",
+      "appStore": "App Store"
+    },
+    "intro": {
+      "title": "Lu tax Tajweed am solo",
+      "paragraph1": "Tajweed mooy takkoo bu yoon yu wóorloo ñaan bu jub bu Alxuraan : ñaan bu wóor ci baat bu nekk, allongement, liaison, ak fu nga man a taxaw walla dellusi sa jàng. Ñaan amul Tajweed man na soppi kàddu gi.",
+      "paragraph2": "Noor Phonetic Quran dafay wone yoon yii te firi leen, ak melo ci waxtu jàng ak jubluwaay yu mat ngir gën a xam bépp mbir."
+    },
+    "features": {
+      "title": "Lu jàng Tajweed di jox",
+      "items": [
+        {
+          "title": "Téeru buy wone ak melo te araxal",
+          "description": "melo yi ak araxal dañuy topptoo sa ñaan direktemaŋ ci téeru Alxuraan, ci kaw yoon yu wóor yu Tajweed."
+        },
+        {
+          "title": "Fu ñu génne baat yi (Makharej)",
+          "description": "jàng ñaan bu wóor bu lettre araab bu nekk jóge ci fu mu génne, ak schéma yu anatomik."
+        },
+        {
+          "title": "Noun Sâkinah ak Tanwîn",
+          "description": "4 yoon yu jëfe noun sâkinah ak tanwîn (Izhâr, Idghâm, Iqlâb, Ikhfâ') ñu firi te ñu méngale ci nataal."
+        },
+        {
+          "title": "Waqf ak Ibtidā",
+          "description": "yoon yu wone fu ñu man a taxaw ak dellusi ñaan bi, ngir aar kàddu gi."
+        }
+      ]
+    },
+    "screenshots": {
+      "title": "Nataal yu yoon yu Tajweed",
+      "alts": [
+        "Noor Phonetic Quran - Yoon yu Tajweed leerandoo ci waxtu jàng",
+        "Noor Phonetic Quran - Fu ñu génne baat yu araab (Makharej)",
+        "Noor Phonetic Quran - Yoon yu Noun Sâkinah ak Tanwîn",
+        "Noor Phonetic Quran - Yoon yu Waqf ak Ibtidā (taxaw ak dellusi)"
+      ]
+    },
+    "faq": {
+      "title": "Ay laaj yu ñu gën a laaj ci Tajweed",
+      "items": [
+        {
+          "question": "Lan mooy Tajweed ?",
+          "answer": "Tajweed mooy takkoo bu yoon yu jëfe ñaan bu jub bu Alxuraan : allongement, liaison, fu ñu génne baat yi ak yoon yu taxaw ak dellusi ñaan bi."
+        },
+        {
+          "question": "Naka la aplikasiyon bi jàngal Tajweed ?",
+          "answer": "Téeru Alxuraan dafay wone ak melo te araxal ci kaw yoon yu Tajweed ci waxtu jàng, te jubluwaay yu mat dañuy firi yoon bu nekk : fu ñu génne baat yi, Noun Sâkinah ak Tanwîn, rax-ci-dolli yoon yu Waqf ak Ibtidā."
+        },
+        {
+          "question": "Ndax Tajweed jub na ñi tàmbalee ?",
+          "answer": "Waaw, yoon bu nekk dañu ko firi ak firi yu yomb, misaal ak méngale ci nataal ngir yombal jàng, doonte amul xam-xam bu njëkk."
+        }
+      ]
+    },
+    "related": {
+      "title": "Xam it",
+      "audio": "Audio Alxuraan",
+      "memorization": "Tey Alxuraan (Hifz)",
+      "allFeatures": "Ay xarala yépp"
+    }
+  },
+  "quizCoran": {
+    "meta": {
+      "title": "Quiz Alxuraan : Nattu Sa Xam-xam ci Alxuraan te Bég | Noor Phonetic Quran",
+      "description": "Nattu sa xam-xam ci Alxuraan ak Quiz Alxuraan bu Noor Phonetic Quran : 21 laaj, échelle jaat, joker 50:50, sondage jëfandikukat ak woote xarit. Neen ci iOS ak Android.",
+      "keywords": "quiz Alxuraan, quiz coranique, jeu laaj Alxuraan, nattu xam-xam Alxuraan, quiz islam, aplikasiyon quiz Alxuraan bu neen, laaj Alxuraan ak tontu",
+      "ogTitle": "Quiz Alxuraan : Nattu Sa Xam-xam ci Alxuraan te Bég",
+      "ogDescription": "21 laaj, échelle jaat, joker 50:50, sondage jëfandikukat ak woote xarit. Aplikasiyon bu neen Noor Phonetic Quran."
+    },
+    "breadcrumb": {
+      "home": "Kër",
+      "current": "Quiz Alxuraan"
+    },
+    "hero": {
+      "title": "Quiz Alxuraan : Nattu Sa Xam-xam te Bég",
+      "subtitle": "21 laaj, échelle jaat buy yokk te ñetti joker (50:50, sondage jëfandikukat, woote xarit) ngir jàng Alxuraan ci lu neex.",
+      "backLink": "Dellu ci kër",
+      "googlePlay": "Google Play",
+      "appStore": "App Store"
+    },
+    "intro": {
+      "title": "Benn quiz ngir jàng te bég",
+      "paragraph1": "Quiz Alxuraan bu Noor Phonetic Quran dafay sukkandiku ci format \"Qui veut gagner des millions\" : takkoo bu laaj ci Alxuraan, taariix Islam ak sourat yi, ak échelle jaat buy yokk ci tontu bu nekk bu jub.",
+      "paragraph2": "Xarala bu neex la ngir gëstu walla xam xam-xam ci Alxuraan, sa bopp walla ci njaboot, amul tiis — man nga taxaw ci waxtu wu nekk te denc sa point."
+    },
+    "features": {
+      "title": "Naka la quiz bi di liggéey ?",
+      "items": [
+        {
+          "title": "Tontu 21 laaj",
+          "description": "ay laaj yu tànn ci bare tontu yu gën a tar bu bare ci Alxuraan ak taariix Islam."
+        },
+        {
+          "title": "Topp échelle jaat bi",
+          "description": "tontu bu nekk bu jub dafay yokk la ci échelle bu dale ci 100 point ba 1 million."
+        },
+        {
+          "title": "Jëfandikoo say joker",
+          "description": "50:50 dafay dindi ñaari tontu yu bon, sondage jëfandikukat dafay wone xalaat bu yeneen fippukat yi, te woote xarit dafay xamal la benn tontu."
+        },
+        {
+          "title": "Taxaw ci waxtu wu la neex",
+          "description": "buton bi \"Walk Away\" mooy tax nga man a denc say jaat ci waxtu wu nekk noonu ci lu réer lépp."
+        }
+      ]
+    },
+    "screenshots": {
+      "title": "Nataal yu Quiz Alxuraan",
+      "alts": [
+        "Noor Phonetic Quran - Xët njëkk bu Quiz Alxuraan",
+        "Noor Phonetic Quran - Laaj bu quiz bi ak échelle jaat",
+        "Noor Phonetic Quran - Joker sondage jëfandikukat ci quiz bi",
+        "Noor Phonetic Quran - Joker woote xarit ci quiz bi"
+      ]
+    },
+    "faq": {
+      "title": "Ay laaj yu ñu gën a laaj ci Quiz Alxuraan",
+      "items": [
+        {
+          "question": "Ñaata laaj am na quiz bi ?",
+          "answer": "Quiz bi am na 21 laaj yu tànn, ak tontu buy gën a tar ci diggante partie bi."
+        },
+        {
+          "question": "Lu xew su ma tontuwoon bon ci benn laaj ?",
+          "answer": "Ci kaw sa jëm-kanam, danga denc palier jaat bu mujj bu wóor bi nga àggee, ni format \"Qui veut gagner des millions\"."
+        },
+        {
+          "question": "Ndax Quiz Alxuraan neen la ?",
+          "answer": "Waaw, Quiz Alxuraan bokk na ci xarala yu neen yu Noor Phonetic Quran."
+        }
+      ]
+    },
+    "related": {
+      "title": "Xam it",
+      "khatma": "Khatma Alxuraan",
+      "audio": "Audio Alxuraan",
+      "allFeatures": "Ay xarala yépp"
+    }
+  },
+  "memorisationCoran": {
+    "meta": {
+      "title": "Tey Alxuraan (Hifz) : Aplikasiyon ak Audio buy Seddaale ak Quiz | Noor Phonetic Quran",
+      "description": "Tey Alxuraan (Hifz) ak aplikasiyon Noor Phonetic Quran : audio buy seddaale ayaat ci ayaat, mode baat ci baat, quiz gëstu, point, niveau ak badge. Neen ci iOS ak Android.",
+      "keywords": "tey Alxuraan, Hifz Alxuraan, aplikasiyon tey Alxuraan, jàng Alxuraan ci xol, tey ayaat ci ayaat, Hifz aplikasiyon bu neen",
+      "ogTitle": "Tey Alxuraan (Hifz) : Audio buy Seddaale, Quiz ak Topptoo Jëm-kanam",
+      "ogDescription": "Tey Alxuraan ak audio buy seddaale, mode baat ci baat, quiz ak jubluwaay bés bu nekk. Aplikasiyon bu neen Noor Phonetic Quran."
+    },
+    "breadcrumb": {
+      "home": "Kër",
+      "current": "Tey Alxuraan"
+    },
+    "hero": {
+      "title": "Tey Alxuraan (Hifz) : Audio buy Seddaale, Quiz ak Topptoo Jëm-kanam",
+      "subtitle": "Jàng Alxuraan ci xol ayaat ci ayaat ci kaw audio buy seddaale, mode baat ci baat ak quiz gëstu, ak sistèem point ak badge ngir dëkkoo bés bu nekk.",
+      "backLink": "Dellu ci kër",
+      "googlePlay": "Google Play",
+      "appStore": "App Store"
+    },
+    "intro": {
+      "title": "Lan mooy Hifz ?",
+      "paragraph1": "Hifz mooy tey Alxuraan, ayaat ci ayaat te sourat ci sourat. Jaar-jaar la bu tar buy soxla seddaale bu dëkkoo, xarala jàng yu baax ak yoon wu wóor ngir seet li nga tey ba noppi.",
+      "paragraph2": "Noor Phonetic Quran defar nañu ko ngir topptoo jaar-jaar bii ak jumtukaay yu wóor : audio, seddaale, gëstu bu yëngu ak gamification, du jàng rekk ci mushaf."
+    },
+    "features": {
+      "title": "Naka lanu man a tey Alxuraan ak aplikasiyon bi ?",
+      "items": [
+        {
+          "title": "Déglu te seddaale",
+          "description": "ayaat bu nekk am na audio buy seddaale ngir tey bu wóor ci déglu."
+        },
+        {
+          "title": "Jëfandikoo mode baat ci baat",
+          "description": "xaajale ayaat yu gudd ngir tey leen ndank-ndank."
+        },
+        {
+          "title": "Nattu sa bopp ak quiz gëstu",
+          "description": "seet bu wóor ne ayaat yu nga tey wéy nañu tey bu baax."
+        },
+        {
+          "title": "Am ay point ak badge",
+          "description": "ayaat bu nekk bu nga teyee dafay yokk ay point, jëm sa niveau kanam te ubbi ay badge."
+        },
+        {
+          "title": "Def jubluwaay bés bu nekk",
+          "description": "ay jubluwaay bés bu nekk dañu la digal nga tey tuuti bés bu nekk, amul yaram wu tar."
+        }
+      ]
+    },
+    "screenshots": {
+      "title": "Nataal yu jubluwaay tey",
+      "alts": [
+        "Noor Phonetic Quran - Ay xaaj bu jubluwaay tey bés bu nekk",
+        "Noor Phonetic Quran - Checklist tey ak streak",
+        "Noor Phonetic Quran - Indikatër jubluwaay bés bu nekk ci waxtu jàng"
+      ]
+    },
+    "faq": {
+      "title": "Ay laaj yu ñu gën a laaj ci tey Alxuraan",
+      "items": [
+        {
+          "question": "Ñaata waxtu lay yem ngir tey Alxuraan ?",
+          "answer": "Loolu dafay sukkandiku ci yoon bu nekk. Aplikasiyon bi dafay tax nga jëm kanam ci sa bopp yoon, ayaat ci ayaat, amul yaram."
+        },
+        {
+          "question": "Ndax mode tey dafay liggéey su amul internet ?",
+          "answer": "Bu sourat yi tabaxee, audio buy seddaale ak quiz gëstu dañu wéy am amul internet."
+        },
+        {
+          "question": "Ndax xarala Tey neen la ?",
+          "answer": "Waaw, ni bare xarala yu njëkk yu Noor Phonetic Quran, mode Tey neen na bu mat sëkk."
+        }
+      ]
+    },
+    "related": {
+      "title": "Xam it",
+      "khatma": "Khatma Alxuraan",
+      "tajweed": "Yoon yu Tajweed",
+      "allFeatures": "Ay xarala yépp"
+    }
+  }
+}

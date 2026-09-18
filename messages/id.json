@@ -1,0 +1,2323 @@
+{
+  "common": {
+    "nav": {
+      "features": "Fitur",
+      "screenshots": "Tangkapan Layar",
+      "reviews": "Ulasan",
+      "privacy": "Privasi",
+      "contact": "Kontak",
+      "openMenu": "Buka menu navigasi",
+      "closeMenu": "Tutup menu navigasi",
+      "toggleTheme": "Alihkan mode gelap",
+      "googlePlay": "Google Play",
+      "appStore": "App Store",
+      "home": "Beranda",
+      "reviewsBreadcrumb": "Ulasan",
+      "contactBreadcrumb": "Kontak",
+      "pages": {
+        "audioCoran": "Audio Quran",
+        "khatmaCoran": "Khatma Quran",
+        "memorisationCoran": "Menghafal Quran",
+        "quizCoran": "Kuis Quran",
+        "tajweedCoran": "Aturan Tajwid",
+        "correctionRecitation": "Koreksi Bacaan",
+        "privacyPolicy": "Kebijakan Privasi",
+        "cgu": "Syarat Penggunaan"
+      }
+    },
+    "languageSwitcher": {
+      "label": "Pilih bahasa",
+      "searchPlaceholder": "Cari bahasa...",
+      "close": "Tutup",
+      "noResults": "Bahasa tidak ditemukan"
+    },
+    "footer": {
+      "about": "Aplikasi inovatif untuk belajar membaca Al-Qur'an dengan tepat dan mudah.",
+      "quickLinks": "Tautan Cepat",
+      "resources": "Sumber Daya",
+      "faq": "FAQ",
+      "support": "Dukungan",
+      "contact": "Kontak",
+      "location": "Paris, Prancis",
+      "rights": "Semua hak dilindungi.",
+      "backToTop": "Kembali ke atas halaman"
+    },
+    "contactForm": {
+      "eyebrow": "Hubungi Kami",
+      "title": "Hubungi Kami",
+      "description": "Jika Anda memiliki saran, ide perbaikan, atau masukan, jangan ragu untuk menghubungi kami. Kami akan segera membalas.",
+      "highlights": [
+        {
+          "title": "Respons Cepat",
+          "text": "Tim kami memproses setiap pesan dan biasanya membalas dalam waktu 48 jam. Baik itu pertanyaan sederhana atau masalah teknis, kami berkomitmen untuk tidak membiarkan satu pun permintaan tanpa jawaban."
+        },
+        {
+          "title": "Komunitas yang Peduli",
+          "text": "Lebih dari 80.000 pengguna sudah mempercayai kami; masukan Anda membantu meningkatkan aplikasi untuk semua orang. Setiap pesan berarti dan membantu menjadikan Noor sebagai alat yang semakin sesuai dengan kebutuhan penggunanya."
+        },
+        {
+          "title": "Ide Anda Membentuk Aplikasi Ini",
+          "text": "Banyak fitur yang ada saat ini (Tajwid, Khataman, kuis...) lahir dari saran para pengguna. Pengalaman Anda sehari-hari dengan aplikasi ini adalah sumber inspirasi terbaik untuk pengembangan di masa depan."
+        }
+      ],
+      "name": "Nama",
+      "namePlaceholder": "Nama Anda",
+      "nameRequired": "Nama wajib diisi",
+      "email": "Email",
+      "emailPlaceholder": "anda@contoh.com",
+      "emailRequired": "Email wajib diisi",
+      "emailInvalid": "Email tidak valid",
+      "phone": "Telepon (opsional)",
+      "phonePlaceholder": "+62 812 3456 7890",
+      "subject": "Subjek",
+      "subjectPlaceholder": "Pilih subjek...",
+      "subjectRequired": "Silakan pilih subjek",
+      "subjectOptions": {
+        "general": "Pertanyaan umum",
+        "suggestion": "Saran",
+        "bug": "Laporkan bug",
+        "technical": "Masalah teknis",
+        "other": "Lainnya"
+      },
+      "platform": "Platform yang digunakan",
+      "platformPlaceholder": "Pilih platform...",
+      "platformRequired": "Silakan pilih platform",
+      "platformOptions": {
+        "ios": "iOS",
+        "android": "Android",
+        "web": "Web"
+      },
+      "message": "Pesan",
+      "messagePlaceholder": "Tulis pesan Anda di sini...",
+      "messageRequired": "Pesan wajib diisi",
+      "messageTooShort": "Pesan harus berisi minimal 10 karakter",
+      "send": "Kirim",
+      "sending": "Sedang mengirim...",
+      "successMessage": "Pesan Anda telah berhasil dikirim. Terima kasih!",
+      "errorMessage": "Terjadi kesalahan. Silakan coba lagi."
+    }
+  },
+  "home": {
+    "meta": {
+      "title": "Noor Phonetic Quran - Aplikasi Belajar Al-Qur'an",
+      "description": "Noor Phonetic Quran - Aplikasi gratis untuk belajar membaca, menghafal (Hafalan) dan mengkhatamkan Al-Qur'an (Khataman). Transkripsi fonetik, audio tersinkron, Tajwid berwarna, rencana bacaan harian, kuis dan koreksi bacaan. 80 ribu+ pengguna puas. Tersedia di iOS dan Android.",
+      "keywords": "Al-Qur'an fonetik, belajar Al-Qur'an, Quran phonetics, bacaan Al-Qur'an, Tajwid, aplikasi Al-Qur'an gratis, Al-Qur'an Arab Indonesia, transkripsi fonetik Al-Qur'an, learn Quran, Quran app free, Khataman Al-Qur'an, menghafal Al-Qur'an, Hafalan Al-Qur'an, rencana bacaan Al-Qur'an, kuis Al-Qur'an, koreksi bacaan Al-Qur'an, aplikasi hafalan Al-Qur'an",
+      "ogTitle": "Noor Phonetic Quran - Baca Al-Qur'an dengan fonetik",
+      "ogDescription": "Belajar membaca Al-Qur'an meski belum menguasai bahasa Arab. Aplikasi gratis dengan fonetik yang tepat, audio terintegrasi, dan kaidah Tajwid."
+    },
+    "hero": {
+      "statusBadge": "80 Ribu+ Pengguna Aktif",
+      "headlineHighlight": "Bacalah",
+      "headline": "Al-Qur'an, meski belum menguasai bahasa Arab",
+      "subheadline": "Berkat fonetik yang tepat dan intuitif, Noor Phonetic Quran membuat setiap ayat mudah diakses oleh siapa saja.",
+      "miniFeatures": {
+        "phonetics": "Fonetik Tepat",
+        "audio": "Audio Terintegrasi",
+        "tajweed": "Kaidah Tajwid"
+      },
+      "ratingText": "Penilaian sempurna di Play Store dan App Store",
+      "downloadOn": "Unduh di",
+      "usersBadgeLabel": "Pengguna",
+      "updateBadge": "Baru saja diperbarui",
+      "deviceScreenAlt": "Noor Phonetic Quran - Antarmuka aplikasi yang menampilkan fonetik Al-Qur'an",
+      "mobileDeviceScreenAlt": "Noor Phonetic Quran - Belajar Al-Qur'an dengan transkripsi fonetik"
+    },
+    "languages": {
+      "title": "Tersedia dalam bahasa Anda",
+      "subtitle": "Aplikasi Noor Phonetic Quran diterjemahkan ke dalam 20 bahasa untuk membantu umat Muslim di seluruh dunia."
+    },
+    "why": {
+      "title": "Mengapa Noor Phonetic Quran?",
+      "subtitle": "Temukan alasan yang menjadikan aplikasi kami pilihan yang unik",
+      "items": [
+        {
+          "icon": "fa-heart",
+          "stepLabel": "Kendala",
+          "title": "Dapat Diakses Semua Orang",
+          "text": "Banyak Muslim ingin membaca Al-Qur'an namun terkendala bahasa Arab. Aplikasi kami menghilangkan hambatan tersebut."
+        },
+        {
+          "icon": "fa-graduation-cap",
+          "stepLabel": "Metode",
+          "title": "Belajar Jadi Lebih Mudah",
+          "text": "Fonetik yang jelas dan intuitif memungkinkan setiap orang belajar sesuai kecepatannya sendiri, tanpa stres atau frustrasi."
+        },
+        {
+          "icon": "fa-check-circle",
+          "stepLabel": "Hasilnya",
+          "title": "Pelafalan yang Benar",
+          "text": "Dipandu oleh kaidah Tajwid yang tepat dan audio tersinkron, Anda akan berkembang menuju bacaan yang autentik."
+        }
+      ]
+    },
+    "features": {
+      "title": "Fitur Utama",
+      "subtitle": "Temukan mengapa Noor Phonetic Quran adalah aplikasi sempurna untuk belajar membaca Al-Qur'an",
+      "items": [
+        {
+          "icon": "fa-book",
+          "title": "Transkripsi Fonetik",
+          "text": "Setiap ayat disertai transkripsi fonetik yang detail untuk pelafalan yang benar."
+        },
+        {
+          "icon": "fa-bookmark",
+          "title": "Kaidah Tajwid",
+          "href": "/tajweed-coran",
+          "text": "Warna dan anotasi memandu bacaan Anda sesuai kaidah Tajwid yang benar."
+        },
+        {
+          "icon": "fa-language",
+          "title": "Terjemahan Multibahasa",
+          "text": "Akses terjemahan dalam bahasa Prancis dan Inggris untuk lebih memahami pesan ilahi."
+        },
+        {
+          "icon": "fa-headphones",
+          "title": "Audio Tersinkron",
+          "href": "/audio-coran",
+          "text": "Setiap ayat disertai audio untuk mendengar pelafalan yang benar."
+        },
+        {
+          "icon": "fa-mobile-alt",
+          "title": "Antarmuka Ramah Pengguna",
+          "text": "Navigasi intuitif dan personalisasi sesuai preferensi Anda."
+        },
+        {
+          "icon": "fa-graduation-cap",
+          "title": "Belajar Jadi Lebih Mudah",
+          "text": "Ideal untuk pemula atau mereka yang ingin memperbaiki bacaannya."
+        },
+        {
+          "icon": "fa-calendar-check",
+          "title": "Khataman Al-Qur'an",
+          "href": "/khatma-coran",
+          "text": "Rencanakan dan pantau khataman Al-Qur'an Anda dengan target harian, rentetan hari (streak), dan pengingat kemajuan hingga selesai."
+        },
+        {
+          "icon": "fa-calendar-day",
+          "title": "Rencana Bacaan Harian",
+          "text": "Tentukan jumlah halaman yang dibaca setiap hari dan pantau kemajuan Anda dengan daftar centang yang dipersonalisasi, agar terbiasa membaca Al-Qur'an secara rutin."
+        },
+        {
+          "icon": "fa-brain",
+          "title": "Hafalan Al-Qur'an (Hifz)",
+          "href": "/memorisation-coran",
+          "text": "Hafalkan Al-Qur'an ayat demi ayat dengan pengulangan audio, mode kata per kata, kuis ulasan, poin, level, lencana, dan tantangan harian agar tetap termotivasi."
+        },
+        {
+          "icon": "fa-microphone-alt",
+          "title": "Koreksi Bacaan",
+          "href": "/correction-recitation-coran",
+          "text": "Rekam bacaan Anda dan dapatkan koreksi yang dipersonalisasi untuk memperbaiki ketepatan pelafalan dan Tajwid Anda."
+        },
+        {
+          "icon": "fa-trophy",
+          "title": "Kuis Al-Qur'an",
+          "href": "/quiz-coran",
+          "text": "Uji pengetahuan Al-Qur'an Anda dengan kuis seru bertingkat kesulitan, sambil belajar dengan menyenangkan."
+        },
+        {
+          "icon": "fa-mobile-screen-button",
+          "title": "Widget Layar Utama",
+          "text": "Tampilkan ayat hari ini langsung di layar utama ponsel Anda dan jaga rutinitas membaca Anda selalu terlihat."
+        }
+      ]
+    },
+    "videoDemo": {
+      "title": "Lihat Aplikasi Beraksi",
+      "subtitle": "Tonton demo singkat ini untuk melihat cara kerja Noor Phonetic Quran"
+    },
+    "screenshots": {
+      "title": "Tangkapan Layar",
+      "subtitle": "Lihat aplikasi ini dalam gambar",
+      "alts": [
+        "Noor Phonetic Quran - Daftar surah Al-Qur'an",
+        "Noor Phonetic Quran - Bacaan dengan fonetik yang tepat",
+        "Noor Phonetic Quran - Kaidah Tajwid berwarna",
+        "Noor Phonetic Quran - Audio tersinkron dengan teks",
+        "Noor Phonetic Quran - Terjemahan bahasa Prancis Al-Qur'an",
+        "Noor Phonetic Quran - Mode belajar Al-Qur'an",
+        "Noor Phonetic Quran - Navigasi per surah",
+        "Noor Phonetic Quran - Ayat dengan transkripsi fonetik",
+        "Noor Phonetic Quran - Pengaturan aplikasi",
+        "Noor Phonetic Quran - Bacaan berkelanjutan Al-Qur'an",
+        "Noor Phonetic Quran - Antarmuka modern dan intuitif"
+      ]
+    },
+    "faq": {
+      "title": "Pertanyaan yang Sering Diajukan",
+      "subtitle": "Temukan jawaban atas pertanyaan Anda dengan cepat",
+      "items": [
+        {
+          "question": "Apakah aplikasi ini berfungsi secara offline?",
+          "answer": "Ya, tentu saja! Semua surah Al-Qur'an tersedia secara offline setelah aplikasi terpasang. Anda dapat membaca dan melafalkan di mana saja, tanpa koneksi internet."
+        },
+        {
+          "question": "Fonetik apa yang Anda gunakan?",
+          "answer": "Kami menggunakan fonetik Inggris yang sederhana dan universal, mudah dibaca oleh siapa saja. Versi fonetik bahasa Prancis sedang dikembangkan dan akan segera tersedia."
+        },
+        {
+          "question": "Apakah Al-Qur'an lengkap di dalam aplikasi?",
+          "answer": "Ya! Aplikasi ini berisi seluruh Al-Qur'an dengan 114 surahnya, dari awal hingga akhir, dengan transkripsi fonetik lengkap."
+        },
+        {
+          "question": "Apakah audio tersedia untuk semua ayat?",
+          "answer": "Ya, setiap ayat disertai bacaan audio yang jelas dan pelan, sempurna untuk memudahkan pembelajaran dan memperbaiki pelafalan Anda."
+        },
+        {
+          "question": "Apakah aplikasi ini gratis?",
+          "answer": "Ya, Noor Phonetic Quran sepenuhnya gratis. Tujuan kami adalah membuat Al-Qur'an dapat diakses oleh semua orang, tanpa hambatan finansial apa pun."
+        },
+        {
+          "question": "Bagaimana cara kerja Khataman (khatam Al-Qur'an)?",
+          "answer": "Aplikasi ini memungkinkan Anda merencanakan Khataman dengan memilih jumlah hari untuk menyelesaikan Al-Qur'an. Anda memantau kemajuan harian, rentetan hari (streak), dan menerima pengingat agar tetap konsisten hingga bacaan Anda selesai."
+        },
+        {
+          "question": "Bisakah menghafal Al-Qur'an (Hifz) dengan aplikasi ini?",
+          "answer": "Ya, aplikasi ini menawarkan mode Hafalan lengkap dengan pengulangan audio ayat demi ayat, mode kata per kata, kuis ulasan, poin, level, lencana, dan tantangan harian untuk membantu Anda menghafal Al-Qur'an secara efektif."
+        },
+        {
+          "question": "Apakah tersedia beberapa qari?",
+          "answer": "Ya, Anda dapat memilih dari beberapa qari Al-Qur'an dan mengunduh audio untuk didengarkan secara lengkap secara offline, tanpa koneksi internet."
+        },
+        {
+          "question": "Apakah aplikasi ini menyediakan koreksi bacaan?",
+          "answer": "Ya, Anda dapat merekam bacaan Anda langsung di dalam aplikasi dan menerima koreksi yang dipersonalisasi untuk memperbaiki pelafalan dan kepatuhan terhadap kaidah Tajwid."
+        },
+        {
+          "question": "Akankah ada fitur baru?",
+          "answer": "Ya, kami terus bekerja untuk meningkatkan aplikasi ini. Beberapa fitur baru sudah direncanakan: fonetik bahasa Prancis lengkap, mode Tajwid berwarna yang diperluas, mode belajar huruf demi huruf, dan masih banyak lagi!"
+        }
+      ]
+    },
+    "testimonials": {
+      "title": "Apa Kata Pengguna Kami",
+      "subtitle": "Lihat ulasan dari komunitas pengguna puas kami yang terus berkembang",
+      "prevLabel": "Ulasan sebelumnya",
+      "nextLabel": "Ulasan berikutnya",
+      "viewAllLabel": "Lihat semua ulasan",
+      "items": [
+        {
+          "initials": "SD",
+          "name": "Sidy DIOP",
+          "device": "16 Juli 2026",
+          "text": "aplikasi yang sangat bagus untuk belajar Al-Qur'an, bahkan jika kita tidak bisa melafalkan, cukup dengarkan audionya dan ulangi lagi",
+          "rating": 5
+        },
+        {
+          "initials": "AB",
+          "name": "Amourlaye Beman",
+          "device": "25 Maret 2026",
+          "text": "Aplikasi yang sangat sangat bagus. Semoga Allah memberkati Anda selamanya atas tindakan ini dan menginspirasi Anda lebih jauh untuk memperkaya kontennya... Anda bisa mulai menambahkan terjemahan hadits dalam bahasa Prancis. Terima kasih 🙏🥰👍",
+          "rating": 5
+        },
+        {
+          "initials": "YT",
+          "name": "Yaou Tchari",
+          "device": "6 Juli 2026",
+          "text": "ini aplikasi yang sudah lama saya cari, mudah dibaca dan membantu memperbaiki kesalahan yang menyulitkan",
+          "rating": 5
+        },
+        {
+          "initials": "FA",
+          "name": "Fatima",
+          "device": "21 April 2026",
+          "text": "saya menemukan aplikasi ini sebagai hadiah, saya sangat terkesan 😁, sungguh. saya mengalami sedikit kendala yang cepat teratasi alhamdulillah. benar-benar memudahkan untuk belajar, saya akan merekomendasikannya ke banyak orang. semoga Allah membalas kebaikan Anda 🤲🏻🌹",
+          "rating": 5
+        },
+        {
+          "initials": "DH",
+          "name": "Djamila Hb",
+          "device": "30 Juli 2026",
+          "text": "sangat bagus untuk belajar membaca Al-Qur'an, semoga Allah memudahkan kita",
+          "rating": 5
+        },
+        {
+          "initials": "NA",
+          "name": "Naoal",
+          "device": "12 Mei 2026",
+          "text": "Ini sungguh bagus bagi yang tidak bisa membaca huruf Arab karena ada yang ingin belajar Al-Qur'an tapi tidak bisa membaca bahasa Arab. Sejujurnya, aplikasi ini wajib dipasang 👍",
+          "rating": 5
+        },
+        {
+          "initials": "ID",
+          "name": "Ibou Dieme",
+          "device": "8 Januari 2026",
+          "text": "aplikasi ini benar-benar luar biasa, jika ada opsi 100 bintang pasti sudah saya berikan, tapi ada satu masalah kecil yang perlu diperbaiki yaitu tidak bisa mengunduh audio untuk digunakan saat offline, saya yakin aplikasi ini akan lebih baik lagi jika audio bisa diunduh untuk didengarkan saat offline",
+          "rating": 5
+        },
+        {
+          "initials": "YC",
+          "name": "Youssouf Cherif",
+          "device": "26 Januari 2026",
+          "text": "aplikasi terbaik. sangat membantu saya. Berkat aplikasi ini saya bisa membaca Al-Qur'an dengan mudah dan itu membuat saya merasa baik ✨. semoga Allah membalas berlipat ganda kepada para pengembangnya. luar biasa. saya sangat merekomendasikannya. begitu banyak fitur yang memudahkan Anda belajar Al-Qur'an dengan rencana yang jelas dan terstruktur di dalam aplikasi.",
+          "rating": 5
+        },
+        {
+          "initials": "FF",
+          "name": "Faiza Faiza",
+          "device": "6 November 2024",
+          "text": "aplikasi bagus tapi masalahnya sering berhenti setiap dua menit. Saya sudah uninstall dan install ulang tapi masalahnya tetap ada. padahal ini persis yang saya cari. Barakallahu fikunna",
+          "rating": 5
+        },
+        {
+          "initials": "LS",
+          "name": "Louis Sawadogo",
+          "device": "27 Maret 2025",
+          "text": "aplikasi ini sangat bagus tapi saya tidak bisa membacanya secara offline setelah mengunduh. Padahal Anda bilang bisa offline tapi ternyata perlu koneksi untuk mengakses datanya. mohon diperbaiki. Terima kasih.",
+          "rating": 5
+        },
+        {
+          "initials": "YJ",
+          "name": "Yassin Jaounni",
+          "device": "23 November 2025",
+          "text": "aplikasi ini luar biasa, awalnya saya pasang hanya untuk belajar beberapa surah karena saya tidak bisa membaca bahasa Arab dan ketika saya melihat semua fiturnya saya kaget, yang paling saya suka adalah yang akan mendapat pahala besar di jalan Islam, Anda bisa belajar bahasa Arab, belajar doa-doa, dan bahkan ada qari yang membacakan Al-Qur'an bersama Anda untuk melatih pelafalan Anda, mereka bahkan memberikan teknik untuk belajar Al-Qur'an dengan mudah, ini luar biasa, saya sarankan",
+          "rating": 5
+        },
+        {
+          "initials": "JB",
+          "name": "Jeff Bezos Mayele",
+          "device": "30 Mei 2026",
+          "text": "aplikasi yang sangat bagus dan hebat. membantu kami membaca surah dan memahaminya, kami yang tidak mengerti bahasa Arab",
+          "rating": 5
+        },
+        {
+          "initials": "AB",
+          "name": "Abdoulaye Bah",
+          "device": "5 Maret 2025",
+          "text": "Aplikasi yang sangat bagus bagi yang ingin belajar atau membaca Al-Qur'an sendiri! semoga Allah membalas Anda dengan kebaikan dan memudahkan kita semua dalam belajar dan menghafal Al-Qur'an!",
+          "rating": 5
+        },
+        {
+          "initials": "DD",
+          "name": "dohona daouda coulibaly",
+          "device": "2 Maret 2025",
+          "text": "Tampilan halamannya sangat sangat lambat. Selain itu saya sangat menyukai aplikasinya. Tapi tampilannya butuh waktu terlalu lama. Apakah Anda punya solusi untuk masalah ini?",
+          "rating": 5
+        },
+        {
+          "initials": "YC",
+          "name": "yvan Cedric",
+          "device": "4 Maret 2025",
+          "text": "Jazakallahu khairan. Aplikasi yang sangat bagus untuk belajar bagi yang bukan penutur bahasa Arab. Hanya saja setelah pembaruan, aplikasi tidak bisa lagi dibaca tanpa koneksi.",
+          "rating": 5
+        },
+        {
+          "initials": "HN",
+          "name": "Horizons New",
+          "device": "23 Agustus 2025",
+          "text": "Assalamu'alaikum, saya sangat puas dengan aplikasi ini, bahkan introduksinya layak diberi bintang 5 🌟 beberapa perbaikan diharapkan untuk pemuatan halaman dan sebaiknya ada versi khusus bahasa Prancis untuk menghindari waktu tunggu, versi malam akan sangat bagus untuk membaca di malam hari, terima kasih atas kerja keras Anda, semoga Allah membalas Anda",
+          "rating": 5
+        },
+        {
+          "initials": "DB",
+          "name": "dorra bn",
+          "device": "7 Oktober 2025",
+          "text": "Aplikasi yang berguna dan dirancang dengan baik! Berkat transliterasinya, saya bisa meningkatkan bacaan Al-Qur'an saya dalam waktu singkat. Semoga Allah membalas para pengembangnya",
+          "rating": 5
+        },
+        {
+          "initials": "SM",
+          "name": "Sara ma langue",
+          "device": "5 Mei 2025",
+          "text": "Aplikasi yang terus saya rekomendasikan kepada siapa pun yang ingin membaca, belajar, dan memahami dalam berbagai bahasa. Masha Allah kerja yang bagus. Ini yang sudah lama saya cari. Semoga Allah SWT memberkati Anda.",
+          "rating": 5
+        },
+        {
+          "initials": "AA",
+          "name": "Adoum Ali Bezei",
+          "device": "20 Mei 2026",
+          "text": "Al-Qur'an fonetik terbaik, terima kasih banyak, saya sangat berterima kasih",
+          "rating": 5
+        },
+        {
+          "initials": "BK",
+          "name": "Bakary Konaté",
+          "device": "19 Maret 2025",
+          "text": "saya sangat menyukai aplikasi ini, tapi saya berharap Anda bisa menambahkan imam-imam, sehingga kita bisa memilih sendiri imam mana yang ingin kita pakai untuk belajar, yang tidak begitu saya sukai adalah bacaannya per ayat, saya lebih suka jika langsung membaca satu surah tanpa henti",
+          "rating": 5
+        },
+        {
+          "initials": "YB",
+          "name": "Yosra Bahri",
+          "device": "5 Oktober 2025",
+          "text": "Aplikasi yang sangat bagus! Sangat berguna, mudah digunakan, dan dirancang dengan baik. Sangat saya rekomendasikan! 👏 Selamat untuk pengembang atas kerja bagus ini, teruskan, Anda melakukan pekerjaan yang hebat! 💪",
+          "rating": 5
+        },
+        {
+          "initials": "FO",
+          "name": "fatima ourja",
+          "device": "25 April 2025",
+          "text": "Aplikasi yang luar biasa, ini persis yang saya cari, semoga Allah Yang Maha Tinggi membalas Anda dengan balasan yang paling indah. Ini sungguh aplikasi yang pantas mendapatkan apresiasi yang layak.",
+          "rating": 5
+        },
+        {
+          "initials": "ND",
+          "name": "Nicolas DA COSTA CAMPOS CERCA",
+          "device": "20 April 2025",
+          "text": "saya merekomendasikan aplikasi ini untuk belajar tajwid yang sangat mudah untuk pemula dan juga bagi yang ingin memperdalamnya, serta sangat mudah digunakan",
+          "rating": 5
+        },
+        {
+          "initials": "SR",
+          "name": "Sadrissi Regbayou",
+          "device": "11 Maret 2025",
+          "text": "Bagus. Tapi kita kehilangan halaman terakhir yang sedang dibaca. Selain itu tidak bisa dibaca tanpa koneksi. Akan lebih menarik jika ada surah dalam bahasa Arab dan terjemahan bahasa Prancis di halaman yang sama.",
+          "rating": 5
+        },
+        {
+          "initials": "OA",
+          "name": "Oussama AZIZI",
+          "device": "12 Oktober 2025",
+          "text": "Aplikasi yang sangat bagus, dengan fonetik jelas, audio berkualitas, dan kaidah tajwid berwarna. Alat yang sangat baik untuk memudahkan belajar Al-Qur'an.",
+          "rating": 5
+        },
+        {
+          "initials": "BH",
+          "name": "Bahri Hamza",
+          "device": "27 September 2025",
+          "text": "Assalamu'alaikum, aplikasi yang luar biasa 🌟 mudah digunakan dan sangat berguna untuk membaca dan belajar. Semoga Allah membalas para pengembangnya ❤️🤲",
+          "rating": 5
+        },
+        {
+          "initials": "HR",
+          "name": "Houssem RAISSI",
+          "device": "2 Oktober 2024",
+          "text": "Menawarkan antarmuka yang intuitif dan menyenangkan, memudahkan membaca dan navigasi. Sangat ideal untuk akses cepat ke surah-surah.",
+          "rating": 5
+        },
+        {
+          "initials": "GB",
+          "name": "Gora Bar",
+          "device": "10 Oktober 2025",
+          "text": "Aplikasi yang sangat bagus. Sangat mudah digunakan dan tidak ada iklan. Bagus sekali!",
+          "rating": 5
+        },
+        {
+          "initials": "SK",
+          "name": "Sekou Kante",
+          "device": "21 Maret 2025",
+          "text": "Ini aplikasi yang saya cari tapi tidak bisa berfungsi secara offline, saya sudah unduh opsi offline tapi tetap tidak bisa, mohon diperbaiki, fonetik ini yang membuat saya bisa membaca Al-Qur'an",
+          "rating": 5
+        },
+        {
+          "initials": "YF",
+          "name": "youssoupha FALL",
+          "device": "11 April 2025",
+          "text": "Semoga Allah membalas Anda dengan berlimpah kebaikan setiap kali orang mengklik aplikasi ini. Anda tidak akan pernah membayangkan kebaikan yang Anda berikan kepada semua Muslim yang belum menyelesaikan sekolah Al-Qur'an. saya baru saja mengunduhnya untuk ibu saya juga, semoga Allah memberkati Anda berlimpah. Terima kasih banyak ❤️",
+          "rating": 5
+        },
+        {
+          "initials": "TT",
+          "name": "toure traore aboubakar sidik",
+          "device": "29 November 2024",
+          "text": "Saya beri 3 bintang karena aplikasi tidak menyimpan surah untuk dibaca secara offline. Selain itu mudah dibaca",
+          "rating": 5
+        },
+        {
+          "initials": "MG",
+          "name": "Mory Gbane",
+          "device": "29 Juni 2025",
+          "text": "Aplikasi bagus tapi kita tidak bisa mengunduh teksnya sekali untuk selamanya, harus terus mengunduh ulang. agak merepotkan",
+          "rating": 5
+        },
+        {
+          "initials": "FS",
+          "name": "Fatima Si Ahmed",
+          "device": "23 Juli 2025",
+          "text": "sangat memudahkan membaca Al-Qur'an secara fonetik di mana pun berada karena tidak perlu koneksi, terutama saat Anda tidak ingin mengganggu orang lain, cukup ponsel Anda saja tanpa lilin tanpa cahaya 😇🥰",
+          "rating": 5
+        },
+        {
+          "initials": "MF",
+          "name": "Mohamed Faye",
+          "device": "5 Maret 2025",
+          "text": "Saya beri 5 bintang 🌟 karena Anda yang terbaik, ini indah sekali yang telah Anda capai, saya benar-benar suka 😭❤️❤️❤️ semoga Allah Yang Maha Penyayang melindungi Anda. Tapi saya berharap mode audio bisa untuk seluruh surah bukan hanya satu ayat, terima kasih sebelumnya",
+          "rating": 5
+        },
+        {
+          "initials": "MG",
+          "name": "Mohamed gaissir Bah",
+          "device": "4 Maret 2026",
+          "text": "Salam untuk Anda, aplikasi yang luar biasa, saya sudah membaca beberapa buku fonetik tapi saya akui aplikasi ini yang terbaik saat ini, saya hampir menjadi ahli fonetik dan semoga Allah membalas Anda berlipat ganda, saya sangat menikmatinya 😇😇😇",
+          "rating": 5
+        },
+        {
+          "initials": "YK",
+          "name": "Yao Kouamé Enock",
+          "device": "13 Desember 2025",
+          "text": "ini aplikasi yang sangat bagus bagi kami yang tidak bisa membaca huruf Arab. Ini persis yang saya cari. Terima kasih banyak kepada para pengembang. Selamat beraktivitas, semoga Allah membimbing kita ke jalan yang benar 🤲📿",
+          "rating": 5
+        },
+        {
+          "initials": "FA",
+          "name": "Fatima",
+          "device": "2 Januari 2026",
+          "text": "aplikasinya secara keseluruhan bagus tapi selalu kekurangan bagian akhir setiap surah jadi kita tidak bisa membaca atau belajar surah pilihan kita, saya rasa itu sangat disayangkan",
+          "rating": 5
+        },
+        {
+          "initials": "MS",
+          "name": "Macolt Scot",
+          "device": "17 Maret 2025",
+          "text": "Alhamdulillah saya bisa membaca Al-Qur'an dengan fonetik dengan baik, tapi unduhannya tidak selesai dan masih ada halaman yang hilang",
+          "rating": 5
+        },
+        {
+          "initials": "EH",
+          "name": "El Hadj Diallo",
+          "device": "1 April 2025",
+          "text": "aplikasi yang sangat bagus, rapi dan dirancang dengan baik, fonetiknya mencerminkan hal yang sama dengan ayat-ayat Al-Qur'an, pelafalan yang sama, selamat untuk tim yang membuat kebaikan ini untuk umat, barakallahu fik",
+          "rating": 5
+        },
+        {
+          "initials": "AM",
+          "name": "Abdelmadjid Mahamat",
+          "device": "25 April 2025",
+          "text": "Masha Allah! aplikasi terbaik bagi yang benar-benar ingin belajar dan membaca tanpa kesulitan.",
+          "rating": 5
+        },
+        {
+          "initials": "OS",
+          "name": "Ousmasim's Simen",
+          "device": "22 Juli 2026",
+          "text": "ini indah dan akan sangat membantu saya",
+          "rating": 5
+        },
+        {
+          "initials": "NS",
+          "name": "Nour Soum",
+          "device": "17 Oktober 2025",
+          "text": "sangat menarik, hanya saja masalahnya harus selalu terhubung. coba juga versi offlinenya",
+          "rating": 5
+        },
+        {
+          "initials": "CB",
+          "name": "chiraz bahri",
+          "device": "19 Oktober 2025",
+          "text": "Aplikasi yang sangat bagus, sederhana dan lengkap. Sempurna untuk membaca dan mendengarkan Al-Qur'an di mana saja. بارك الله فيكم",
+          "rating": 5
+        },
+        {
+          "initials": "AA",
+          "name": "aicha Arouna",
+          "device": "29 Juli 2026",
+          "text": "Aplikasi yang sangat bagus, saya merekomendasikan aplikasi ini",
+          "rating": 5
+        },
+        {
+          "initials": "SZ",
+          "name": "Sadjid Zamoum",
+          "device": "2 Agustus 2026",
+          "text": "luar biasa, tidak ada yang perlu dikatakan lagi",
+          "rating": 5
+        },
+        {
+          "initials": "AD",
+          "name": "Almassane Diallo",
+          "device": "13 Juli 2026",
+          "text": "Terima kasih banyak kepada tim, berkat aplikasi ini dan Anda saya sudah belajar banyak, semoga Tuhan membalas kebaikan Anda",
+          "rating": 5
+        },
+        {
+          "initials": "HA",
+          "name": "Hadj",
+          "device": "5 November 2025",
+          "text": "aplikasi yang jelas dan tanpa iklan. jika Anda bisa menambahkan tafsir untuk surah-surah, aplikasi ini akan menjadi lengkap.",
+          "rating": 5
+        },
+        {
+          "initials": "YM",
+          "name": "Yacouba M'piè Samaké",
+          "device": "16 Mei 2025",
+          "text": "Aplikasi yang sangat bagus yang memungkinkan saya belajar surah-surah tanpa pengetahuan bahasa Arab sama sekali",
+          "rating": 5
+        },
+        {
+          "initials": "SM",
+          "name": "Saïdou Mohamed Bah",
+          "device": "24 Agustus 2025",
+          "text": "Sungguh semoga Allah membalas Anda dengan Jannatul Firdaus, ini aplikasi terbaik, semoga Allah membantu Anda memperbaiki aplikasi ini dan semoga menjadi sedekah jariyah untuk Anda.",
+          "rating": 5
+        },
+        {
+          "initials": "TD",
+          "name": "Touwinde Doulkom",
+          "device": "24 Mei 2025",
+          "text": "Masha Allah, aplikasi yang sederhana dan mudah digunakan yang memungkinkan Anda belajar membaca Al-Qur'an. terima kasih kepada para pengembang, semoga Allah membalas Anda 🙏",
+          "rating": 5
+        },
+        {
+          "initials": "BD",
+          "name": "Bassirou Diarra",
+          "device": "5 April 2026",
+          "text": "sungguh praktis. Semoga Allah memberkati Islam",
+          "rating": 5
+        },
+        {
+          "initials": "GK",
+          "name": "gloire Kyato",
+          "device": "10 April 2026",
+          "text": "Aplikasi ini penting. saya beri 5 bintang.",
+          "rating": 5
+        },
+        {
+          "initials": "OO",
+          "name": "Olivier Olivier",
+          "device": "16 April 2025",
+          "text": "Sejujurnya yang terbaik dari yang terbaik, sangat berguna untuk menghafal Al-Qur'an bahkan bagi penutur bahasa Prancis",
+          "rating": 5
+        },
+        {
+          "initials": "DD",
+          "name": "Dian Diallo",
+          "device": "9 Juni 2026",
+          "text": "Terima kasih banyak........ aplikasi yang luar biasa",
+          "rating": 5
+        },
+        {
+          "initials": "MM",
+          "name": "Mallam Mohamed AYOUBA",
+          "device": "10 September 2025",
+          "text": "Ya, disusun dengan baik dan sangat mudah untuk belajar membaca Al-Qur'an.... Terima kasih banyak",
+          "rating": 5
+        },
+        {
+          "initials": "FB",
+          "name": "Fatoumata Barry",
+          "device": "7 Maret 2026",
+          "text": "hebat dan mudah untuk belajar Al-Qur'an, satu-satunya masalah terlalu sering pembaruan...",
+          "rating": 5
+        },
+        {
+          "initials": "SK",
+          "name": "Soumaila Kaboré",
+          "device": "29 November 2025",
+          "text": "sangat bagus, terlihat dan membantu melafalkan kalimat dalam bahasa Arab dengan baik",
+          "rating": 5
+        },
+        {
+          "initials": "OA",
+          "name": "Ouattara Almamy",
+          "device": "1 April 2025",
+          "text": "Sangat jelas, sangat mudah dipahami, sangat mendidik, semoga Tuhan memberi kita pemahaman yang baik 🙏",
+          "rating": 5
+        },
+        {
+          "initials": "AN",
+          "name": "Aude Name",
+          "device": "7 Juni 2025",
+          "text": "Sangat konsisten, bagus untuk belajar Al-Qur'an. Semoga Allah memberkati pencipta aplikasi ini",
+          "rating": 5
+        },
+        {
+          "initials": "MJ",
+          "name": "maxero junior",
+          "device": "13 Maret 2025",
+          "text": "Indah sekali, mudah digunakan dan tanpa iklan",
+          "rating": 5
+        },
+        {
+          "initials": "FT",
+          "name": "Fatoumata Traoré",
+          "device": "18 Mei 2025",
+          "text": "semoga Allah membalas kerja keras Anda, sungguh ini aplikasi yang bagus, saya ingin Anda menambahkan rotasi layar dan juga tanda sujud, terima kasih",
+          "rating": 5
+        },
+        {
+          "initials": "AC",
+          "name": "Assia Chamoyan",
+          "device": "28 September 2025",
+          "text": "sangat berguna, praktis dan sungguh intuitif. antarmuka yang sangat bagus, selamat, kualitasnya luar biasa, semoga Allah memudahkan proyek-proyek Anda dan membalas Anda dengan besar",
+          "rating": 5
+        },
+        {
+          "initials": "KE",
+          "name": "Keita",
+          "device": "23 Mei 2025",
+          "text": "Wah, aplikasi yang luar biasa untuk membaca surah secara fonetik. Saya benar-benar menyukai aplikasi ini.",
+          "rating": 5
+        },
+        {
+          "initials": "IH",
+          "name": "Ibrahim Hamadou",
+          "device": "9 Maret 2026",
+          "text": "mohon perbaiki aplikasinya, saya sangat membutuhkan aplikasi ini, saya sedang membaca dengan baik tapi aplikasi mengalami masalah",
+          "rating": 5
+        },
+        {
+          "initials": "AS",
+          "name": "Adamou Seyni Sonia",
+          "device": "14 Maret 2025",
+          "text": "Assalamu'alaikum, saya tidak tahu mengapa saat saya membuka surah Al-Kahf malah muncul surah Abasa, saya benar-benar tidak paham dari mana masalah ini berasal dan ini adalah surah yang saya suka baca terutama pada hari Jumat sesuai sunnah....selain masalah ini tidak ada kendala lain dengan aplikasi ini masha Allah",
+          "rating": 5
+        },
+        {
+          "initials": "MD",
+          "name": "Mame diarra Ba",
+          "device": "14 Februari 2025",
+          "text": "Sangat efektif dan sangat mudah untuk belajar Al-Qur'an",
+          "rating": 5
+        },
+        {
+          "initials": "SS",
+          "name": "SOUMAILA SAMASSI",
+          "device": "29 Desember 2024",
+          "text": "Masha Allah 💕 aplikasi yang luar biasa dan ini yang saya cari. Aplikasi ini yang terbaik. Barakallahu fikum dan semoga Allah selalu membimbing kita. Aamiin",
+          "rating": 5
+        },
+        {
+          "initials": "AB",
+          "name": "Ali Baba Traoré",
+          "device": "1 Agustus 2025",
+          "text": "Alhamdulillah ini aplikasi bagus untuk diunduh dan dibagikan. Semoga Allah memberi Anda balasan baik di dunia ini dan di akhirat. Aamiin!",
+          "rating": 5
+        },
+        {
+          "initials": "MB",
+          "name": "Mohamed Baddo",
+          "device": "5 Januari 2026",
+          "text": "Sangat sederhana, efektif, dan sangat menyenangkan",
+          "rating": 5
+        },
+        {
+          "initials": "AB",
+          "name": "Anthony Barraut",
+          "device": "5 Oktober 2025",
+          "text": "Aplikasi yang LUAR BIASA, pembuat aplikasinya sangat baik hati, saya merekomendasikan aplikasi ini segera tanpa ragu 🌟🌟🌟🌟🌟🥳👌",
+          "rating": 5
+        },
+        {
+          "initials": "PM",
+          "name": "Parfait Mayela may",
+          "device": "27 Maret 2025",
+          "text": "kenapa perlu koneksi??? Tapi aplikasi ini membantu belajar dengan cepat 🤲🤲🤲🥰🇬🇦",
+          "rating": 5
+        },
+        {
+          "initials": "MD",
+          "name": "Moustapha DRORI",
+          "device": "7 Februari 2026",
+          "text": "Aplikasi yang sangat bagus untuk pembelajaran yang lebih baik",
+          "rating": 5
+        },
+        {
+          "initials": "AB",
+          "name": "Adamma Bae",
+          "device": "11 Januari 2025",
+          "text": "Terima kasih banyak sudah memudahkan pembelajaran kami",
+          "rating": 5
+        },
+        {
+          "initials": "MZ",
+          "name": "Malika Zaki",
+          "device": "7 April 2026",
+          "text": "ini aplikasi Al-Qur'an terbaik yang pernah saya lihat seumur hidup saya",
+          "rating": 5
+        },
+        {
+          "initials": "NC",
+          "name": "N'famoussa Camara",
+          "device": "8 Maret 2025",
+          "text": "Aplikasi ini sungguh menarik bagi saya dan bagi semua Muslim yang ingin mengenal dan mengamalkan Islam.",
+          "rating": 5
+        },
+        {
+          "initials": "MB",
+          "name": "Mariam Bah",
+          "device": "21 Oktober 2025",
+          "text": "sangat efektif untuk pelafalan",
+          "rating": 5
+        },
+        {
+          "initials": "NM",
+          "name": "Nouraya Mohamed",
+          "device": "5 April 2026",
+          "text": "Terima kasih banyak, ini sungguh membantu saya... Masha Allah",
+          "rating": 5
+        },
+        {
+          "initials": "SD",
+          "name": "Sofiane D",
+          "device": "10 Oktober 2025",
+          "text": "sayang sekali kita tidak bisa memilih langsung surahnya, harus geser dulu",
+          "rating": 5
+        },
+        {
+          "initials": "MD",
+          "name": "Mouhamed Diagne",
+          "device": "24 Juli 2025",
+          "text": "aplikasi yang sangat sangat bagus, belajar jadi cepat dan baik",
+          "rating": 5
+        },
+        {
+          "initials": "BB",
+          "name": "Babouba Bibouba",
+          "device": "1 April 2025",
+          "text": "sangat bagus, tapi mohon tambahkan opsi ukuran huruf",
+          "rating": 5
+        },
+        {
+          "initials": "CC",
+          "name": "Coumba Camara",
+          "device": "26 Juli 2025",
+          "text": "ini yang sudah saya cari selama bertahun-tahun, semoga Tuhan membalas Anda atas kebahagiaan besar yang Anda berikan kepada saya saat melihatnya 💖 ini aplikasi yang sangat bagus 👍 terima kasih",
+          "rating": 5
+        },
+        {
+          "initials": "LS",
+          "name": "Lassane Sawadogo",
+          "device": "3 Agustus 2025",
+          "text": "saya sudah lama mencari fonetik ini dan alhamdulillah saya menemukannya, terima kasih",
+          "rating": 5
+        },
+        {
+          "initials": "MA",
+          "name": "mam",
+          "device": "14 Maret 2026",
+          "text": "aplikasi yang sangat bagus, hanya saja saya berharap hadits-haditsnya ada dalam bahasa Prancis",
+          "rating": 5
+        },
+        {
+          "initials": "MB",
+          "name": "Mohamadou Babanguida",
+          "device": "9 April 2026",
+          "text": "Terima kasih tak terhingga, semoga Allah membalas Anda",
+          "rating": 5
+        },
+        {
+          "initials": "TA",
+          "name": "Thierno amidou Diallo",
+          "device": "8 April 2026",
+          "text": "saya sangat suka aplikasi ini",
+          "rating": 5
+        },
+        {
+          "initials": "SA",
+          "name": "shahid ATOUKOU",
+          "device": "9 Desember 2024",
+          "text": "Sangat bagus, saya sangat menghargai aplikasi ini, terima kasih kepada pencipta aplikasi ini",
+          "rating": 5
+        },
+        {
+          "initials": "MS",
+          "name": "Mamadi Savadogo",
+          "device": "9 Maret 2026",
+          "text": "tidak ada yang perlu saya katakan selain semoga Allah membalas Anda. Aplikasi ini yang terbaik yang pernah saya kenal sampai hari ini.",
+          "rating": 5
+        },
+        {
+          "initials": "AC",
+          "name": "Alassane Camara",
+          "device": "26 Desember 2025",
+          "text": "assalamu'alaikum saya berterima kasih, ini aplikasi yang bagus dan berguna untuk umat Muslim",
+          "rating": 5
+        },
+        {
+          "initials": "FL",
+          "name": "Frédéric Lankoandé",
+          "device": "1 Agustus 2025",
+          "text": "aplikasi yang sangat bagus untuk belajar Al-Qur'an dengan fonetik 👍",
+          "rating": 5
+        },
+        {
+          "initials": "LZ",
+          "name": "Loukmane Zongo",
+          "device": "26 Juni 2025",
+          "text": "Masha Allah! ini Al-Qur'an yang saya cari agar bisa belajar! bisakah Anda membuat agar bisa dibaca tanpa koneksi?",
+          "rating": 5
+        },
+        {
+          "initials": "IB",
+          "name": "Ibrahima Bâ",
+          "device": "2 September 2025",
+          "text": "Ini aplikasi yang bagus, saya berterima kasih semoga Tuhan membimbing kita ke jalan yang baik 🤲🤲👆",
+          "rating": 5
+        },
+        {
+          "initials": "FA",
+          "name": "Fouzi Abdellatif",
+          "device": "5 Maret 2026",
+          "text": "ini aplikasi fonetik terbaik",
+          "rating": 5
+        },
+        {
+          "initials": "AS",
+          "name": "Aboubacar Sylla",
+          "device": "7 November 2025",
+          "text": "semuanya (lengkap) tidak muncul",
+          "rating": 5
+        },
+        {
+          "initials": "KM",
+          "name": "KACHALLA MEMBA",
+          "device": "20 Maret 2025",
+          "text": "terima kasih banyak atas kemudahan membaca Al-Qur'an ini. semoga Allah membalas Anda di dunia maupun di akhirat",
+          "rating": 5
+        },
+        {
+          "initials": "BD",
+          "name": "Billal DABIDA",
+          "device": "2 April 2025",
+          "text": "aplikasi yang sangat sangat bagus, semoga Tuhan Yang Maha Pengasih lagi Maha Penyayang memberi Anda lebih banyak kebijaksanaan.",
+          "rating": 5
+        },
+        {
+          "initials": "NN",
+          "name": "Nadjma Nkulu",
+          "device": "24 November 2025",
+          "text": "La ilaha illallah, aplikasi ini sangat cocok untuk orang yang belum menguasai bahasa Arab.",
+          "rating": 5
+        },
+        {
+          "initials": "TA",
+          "name": "thaibu Amici-langi",
+          "device": "7 Agustus 2025",
+          "text": "Karya yang sangat indah dalam genggaman tangan.",
+          "rating": 5
+        },
+        {
+          "initials": "HH",
+          "name": "hamza Hamza",
+          "device": "19 Oktober 2025",
+          "text": "aplikasi yang sangat berguna dan sangat praktis",
+          "rating": 5
+        },
+        {
+          "initials": "OA",
+          "name": "Oumarou Amadou",
+          "device": "7 November 2025",
+          "text": "perlu diperbaiki agar bisa dibaca tanpa internet",
+          "rating": 5
+        },
+        {
+          "initials": "AA",
+          "name": "Aboubakar Adamou",
+          "device": "18 Agustus 2025",
+          "text": "aplikasi yang sangat bagus, semoga Allah membalas para pengembangnya",
+          "rating": 5
+        },
+        {
+          "initials": "SK",
+          "name": "Soiba Koné",
+          "device": "19 Januari 2026",
+          "text": "saya rekomendasikan kepada saudara-saudara Muslim, ini sangat membantu saya dalam tajwid juga",
+          "rating": 5
+        },
+        {
+          "initials": "SN",
+          "name": "Sipas NIAKATE",
+          "device": "21 September 2025",
+          "text": "aplikasi hebat, sungguh mendekati bahasa Arab aslinya",
+          "rating": 5
+        },
+        {
+          "initials": "HT",
+          "name": "Hamissou TCHAGBELE",
+          "device": "28 September 2024",
+          "text": "Saya suka aplikasi ini, saya berharap dengan rahmat Tuhan Anda menambahkan hingga akhir Al-Qur'an",
+          "rating": 5
+        },
+        {
+          "initials": "AA",
+          "name": "Abdul Abdullah",
+          "device": "21 November 2025",
+          "text": "ini sangat sangat indah, saya menyukainya, semoga Allah membalas Anda.",
+          "rating": 5
+        },
+        {
+          "initials": "SA",
+          "name": "sawadogoalassane",
+          "device": "25 Juni 2025",
+          "text": "indah, ini semua yang saya inginkan. Terima kasih",
+          "rating": 5
+        },
+        {
+          "initials": "BT",
+          "name": "Bocar Thiam",
+          "device": "19 Oktober 2025",
+          "text": "ini aplikasi yang sangat bagus tanpa iklan, Masha Allah",
+          "rating": 5
+        },
+        {
+          "initials": "HN",
+          "name": "Harounahafiz Nonkane",
+          "device": "11 Maret 2025",
+          "text": "Saudara dan saudari seiman, saya sangat merekomendasikannya, aplikasi ini luar biasa. Semoga Allah memberi kita pemahaman yang baik.",
+          "rating": 5
+        },
+        {
+          "initials": "NT",
+          "name": "Nana Tanou",
+          "device": "1 April 2025",
+          "text": "aplikasi yang sangat bagus, sangat membantu saya 🥰",
+          "rating": 5
+        },
+        {
+          "initials": "IS",
+          "name": "Idrissa Samake",
+          "device": "5 Agustus 2025",
+          "text": "Kerja yang luar biasa! Terima kasih",
+          "rating": 5
+        },
+        {
+          "initials": "SB",
+          "name": "Sarra Bahri (\"Anous Azouz Aychouha\")",
+          "device": "29 September 2024",
+          "text": "aplikasi yang bagus, semangat dan sukses terus 👏👏👏🌹🌹🌹🌹",
+          "rating": 5
+        },
+        {
+          "initials": "OA",
+          "name": "Omokayode Akanny",
+          "device": "29 Mei 2025",
+          "text": "aplikasi yang sangat bagus dan berguna",
+          "rating": 5
+        },
+        {
+          "initials": "AG",
+          "name": "Abdoulaye Gningue",
+          "device": "16 Januari 2025",
+          "text": "Masha Allah, semoga Allah membimbing Anda dalam kedamaian dan kelurusan, ini buku yang bagus.",
+          "rating": 5
+        },
+        {
+          "initials": "SS",
+          "name": "Seynabou Senghor",
+          "device": "29 April 2025",
+          "text": "Kata terima kasih tidak akan cukup untuk berterima kasih, semoga Allah membalas kerja luar biasa Anda ❤️🌹",
+          "rating": 5
+        },
+        {
+          "initials": "FS",
+          "name": "Fanta Souare",
+          "device": "2 Juni 2025",
+          "text": "aplikasi ini luar biasa, terima kasih, semoga Allah memberikan berkah-Nya kepada Anda dan memberi Anda balasan surga aamiin ya Rabb 🙏",
+          "rating": 5
+        },
+        {
+          "initials": "AD",
+          "name": "Abdoul djabar Danyoko",
+          "device": "26 Juli 2025",
+          "text": "ini aplikasi yang sangat indah. Masha Allah!",
+          "rating": 5
+        },
+        {
+          "initials": "IC",
+          "name": "Idrissa Camara",
+          "device": "6 Agustus 2025",
+          "text": "Saya sangat senang dengan dokumen ini. Anda telah memungkinkan jutaan orang non-Arab untuk mengenal Allah. Untuk itu, hanya Allah yang bisa membalas Anda. Saya berdoa semoga Allah memberi Anda kehidupan yang mudah bersama keluarga Anda dan semoga Dia memberi kita surga. aamiin!",
+          "rating": 5
+        },
+        {
+          "initials": "SK",
+          "name": "Souleymane Keïta",
+          "device": "1 Oktober 2025",
+          "text": "Sungguh saya sangat menyukai aplikasi ini, semoga Tuhan membalas dan memberkati pembuat aplikasi ini dan mengampuni dosa-dosa kita baik yang disengaja maupun tidak, dan semoga Dia menerima semua doa kita serta keluarga kita dan menjaga kita di jalan yang lurus hingga napas terakhir kita, dan terutama memberi kita rahmat-Nya dan surga abadi-Nya. Aamiin 🙏🙏🙏",
+          "rating": 5
+        },
+        {
+          "initials": "EM",
+          "name": "El Mn",
+          "device": "1 Agustus 2026",
+          "text": "Saya tidak tahu harus berkata apa 🫰🤌. Ini luar biasa",
+          "rating": 5
+        },
+        {
+          "initials": "SS",
+          "name": "Setoute samate",
+          "device": "11 Agustus 2025",
+          "text": "Masha Allah, semoga Allah menjaga Anda, aplikasi yang sangat bagus, terima kasih 🤲🤲🤲",
+          "rating": 5
+        },
+        {
+          "initials": "CD",
+          "name": "Cheick Diabate",
+          "device": "29 Desember 2024",
+          "text": "Tak terbantahkan, sungguh luar biasa",
+          "rating": 5
+        },
+        {
+          "initials": "SD",
+          "name": "Sanogo Domba",
+          "device": "18 Desember 2025",
+          "text": "sangat mendukung perkembangan pikiran manusia",
+          "rating": 5
+        },
+        {
+          "initials": "MM",
+          "name": "mame marème bane",
+          "device": "8 Maret 2026",
+          "text": "assalamu'alaikum kenapa aplikasinya tidak bisa lagi",
+          "rating": 5
+        },
+        {
+          "initials": "DB",
+          "name": "Dalila Bahri",
+          "device": "27 Desember 2025",
+          "text": "aplikasi hebat, sangat berguna",
+          "rating": 5
+        },
+        {
+          "initials": "LY",
+          "name": "Landry Yarga",
+          "device": "10 Desember 2025",
+          "text": "Aplikasi ini sangat membantu saya, terima kasih 👌",
+          "rating": 5
+        },
+        {
+          "initials": "JK",
+          "name": "Jeanne Kikukama",
+          "device": "8 Februari 2026",
+          "text": "aplikasi yang sangat bagus",
+          "rating": 5
+        },
+        {
+          "initials": "ZS",
+          "name": "Zeynab Sylla",
+          "device": "14 Januari 2026",
+          "text": "sangat keren dan mudah",
+          "rating": 5
+        },
+        {
+          "initials": "AW",
+          "name": "Abdoul Wahab porgo",
+          "device": "10 Januari 2026",
+          "text": "sangat sangat menarik",
+          "rating": 5
+        },
+        {
+          "initials": "YM",
+          "name": "Yohane Mouhali",
+          "device": "31 Oktober 2025",
+          "text": "Terima kasih banyak untuk semuanya 👏👏👏👏👏",
+          "rating": 5
+        },
+        {
+          "initials": "FA",
+          "name": "Fousseni Arouna",
+          "device": "15 Desember 2025",
+          "text": "Masha Allah saya sangat suka aplikasi ini",
+          "rating": 5
+        },
+        {
+          "initials": "DA",
+          "name": "Djamilatou Alim",
+          "device": "20 Januari 2026",
+          "text": "aplikasi yang sangat bagus, alhamdulillah, Masha Allah",
+          "rating": 5
+        },
+        {
+          "initials": "AA",
+          "name": "Arminata Abdou",
+          "device": "26 Maret 2025",
+          "text": "Terima kasih banyak kepada Anda 👏 saya suka sekali",
+          "rating": 5
+        },
+        {
+          "initials": "HR",
+          "name": "Halima Radhwani",
+          "device": "26 September 2025",
+          "text": "aplikasi terbaik, Allahumma barik, terima kasih banyak 🤲",
+          "rating": 5
+        },
+        {
+          "initials": "MC",
+          "name": "Mahamoudou Coulibaly",
+          "device": "17 Agustus 2025",
+          "text": "sangat keren, sangat bagus",
+          "rating": 5
+        },
+        {
+          "initials": "LD",
+          "name": "Lamine Dieye",
+          "device": "22 Maret 2025",
+          "text": "Kerja bagus untuk Anda, semoga Tuhan memberkati Anda, aplikasi ini penting 🙏",
+          "rating": 5
+        },
+        {
+          "initials": "AB",
+          "name": "aimé boussoukou",
+          "device": "25 Oktober 2025",
+          "text": "Allahu Akbar, aplikasi ini sangat bermanfaat",
+          "rating": 5
+        },
+        {
+          "initials": "IM",
+          "name": "Ibrahim Mbaye",
+          "device": "29 Oktober 2024",
+          "text": "Sangat bagus untuk dipelajari",
+          "rating": 5
+        },
+        {
+          "initials": "TT",
+          "name": "Tassala Toure",
+          "device": "21 Maret 2025",
+          "text": "Masha Allah, saya sangat menyukainya, semoga Allah memberkati Anda atas usaha yang Anda lakukan untuk komunitas Muslim 🤲barakallahu fikum🤲",
+          "rating": 5
+        },
+        {
+          "initials": "MD",
+          "name": "Mohamed Diawara",
+          "device": "27 Juni 2025",
+          "text": "saya sangat suka, terima kasih semuanya",
+          "rating": 5
+        },
+        {
+          "initials": "FA",
+          "name": "Ferjani Ali",
+          "device": "5 November 2025",
+          "text": "aplikasi terbaik, semangat terus 😍😍🥰",
+          "rating": 5
+        },
+        {
+          "initials": "MA",
+          "name": "moustapha ahmed",
+          "device": "22 Agustus 2025",
+          "text": "Aplikasi yang luar biasa, semoga Allah membalas Anda untuk itu",
+          "rating": 5
+        },
+        {
+          "initials": "MB",
+          "name": "Mariam Barry",
+          "device": "4 Oktober 2025",
+          "text": "aplikasi yang sangat bagus ☺ saya rekomendasikan",
+          "rating": 5
+        },
+        {
+          "initials": "DO",
+          "name": "Dramane Ouattara",
+          "device": "19 Juli 2025",
+          "text": "aplikasi ini yang terbaik sepanjang masa",
+          "rating": 5
+        },
+        {
+          "initials": "AG",
+          "name": "Assane Gnamou",
+          "device": "17 Mei 2025",
+          "text": "mudah digunakan",
+          "rating": 5
+        },
+        {
+          "initials": "AL",
+          "name": "Amadou Lee",
+          "device": "27 November 2025",
+          "text": "aplikasi yang sangat bagus",
+          "rating": 5
+        },
+        {
+          "initials": "OD",
+          "name": "Ousseynou DIOP",
+          "device": "22 Maret 2025",
+          "text": "luar biasa, terima kasih banyak",
+          "rating": 5
+        },
+        {
+          "initials": "ZJ",
+          "name": "Zakaria Jose Kone",
+          "device": "4 Maret 2026",
+          "text": "aplikasi ini sangat bagus",
+          "rating": 5
+        },
+        {
+          "initials": "MD",
+          "name": "Mr dof Dof",
+          "device": "24 Juni 2025",
+          "text": "terlalu banyak kesalahan dibandingkan Al-Qur'an asli",
+          "rating": 5
+        },
+        {
+          "initials": "OM",
+          "name": "Omar Manè",
+          "device": "4 Maret 2025",
+          "text": "Sungguh luar biasa masha Allah",
+          "rating": 5
+        },
+        {
+          "initials": "KI",
+          "name": "Koné Idris",
+          "device": "29 Mei 2025",
+          "text": "aplikasi yang sangat bagus",
+          "rating": 5
+        },
+        {
+          "initials": "KK",
+          "name": "kourouma kaman",
+          "device": "25 September 2025",
+          "text": "aplikasi yang sangat bagus",
+          "rating": 5
+        },
+        {
+          "initials": "OD",
+          "name": "Ousseynou DIOP",
+          "device": "28 Juli 2025",
+          "text": "saya suka, ini sangat bagus",
+          "rating": 5
+        },
+        {
+          "initials": "MM",
+          "name": "Mr MANANGA",
+          "device": "19 Februari 2026",
+          "text": "panduan spiritual terbaik",
+          "rating": 5
+        },
+        {
+          "initials": "TM",
+          "name": "Tyz Man86",
+          "device": "8 Desember 2025",
+          "text": "Anda harus memperbaiki beberapa hal",
+          "rating": 5
+        },
+        {
+          "initials": "SI",
+          "name": "Samba Ichrach",
+          "device": "8 November 2025",
+          "text": "tidak ada yang perlu dikatakan, saya menemukan apa yang saya cari",
+          "rating": 5
+        },
+        {
+          "initials": "RB",
+          "name": "Rasta Barou",
+          "device": "7 Oktober 2025",
+          "text": "saya sangat menyukainya",
+          "rating": 5
+        },
+        {
+          "initials": "NG",
+          "name": "Nadia GbaneDIABY",
+          "device": "10 November 2025",
+          "text": "Alhamdulillah! Sangat bermanfaat luar biasa!!!",
+          "rating": 5
+        },
+        {
+          "initials": "DM",
+          "name": "DaoudaDiallo Malide",
+          "device": "20 Maret 2025",
+          "text": "saya sangat menghargainya",
+          "rating": 5
+        },
+        {
+          "initials": "SB",
+          "name": "Saitama Black God 777",
+          "device": "23 November 2024",
+          "text": "Masha Allah, ini yang kebanyakan orang cari",
+          "rating": 5
+        },
+        {
+          "initials": "MS",
+          "name": "Mamoudou Sylla",
+          "device": "2 November 2024",
+          "text": "ALHAMDULILLAH SAYA SANGAT BERTERIMA KASIH, SUDAH LAMA SAYA MENCARI INI DI INTERNET DAN AKHIRNYA SAYA MENEMUKANNYA, SEMOGA TUHAN MEMBERKATI ANDA DAN KELUARGA ANDA, TERIMA KASIH TAK TERHINGGA!",
+          "rating": 5
+        },
+        {
+          "initials": "IK",
+          "name": "Ibrahim Konsigui",
+          "device": "18 November 2025",
+          "text": "ayat-ayatnya tidak mau diunduh",
+          "rating": 5
+        },
+        {
+          "initials": "YK",
+          "name": "Youss Kouadio",
+          "device": "22 Oktober 2025",
+          "text": "aplikasi yang sangat bagus",
+          "rating": 5
+        },
+        {
+          "initials": "AB",
+          "name": "Alhasko Bob",
+          "device": "2 Mei 2025",
+          "text": "aplikasi terbaik di dunia",
+          "rating": 5
+        }
+      ]
+    },
+    "cta": {
+      "title": "Mulai perjalanan belajar Anda hari ini",
+      "subtitle": "Unduh Noor Phonetic Quran secara gratis dan ubah pengalaman membaca Al-Qur'an Anda.",
+      "downloadOn": "Unduh di"
+    }
+  },
+  "cgu": {
+    "meta": {
+      "title": "Syarat dan Ketentuan Penggunaan - Noor Phonetic Quran",
+      "description": "Syarat dan ketentuan penggunaan Noor Phonetic Quran: akses layanan, akun pengguna, langganan Premium, hak kekayaan intelektual, tanggung jawab, dan hukum yang berlaku.",
+      "keywords": "Syarat Ketentuan Noor Phonetic Quran, syarat dan ketentuan penggunaan, ketentuan penggunaan aplikasi Al-Qur'an"
+    },
+    "appName": "Noor Phonetic Quran",
+    "pageTitle": "SYARAT DAN KETENTUAN PENGGUNAAN",
+    "updateDate": "Terakhir diperbarui: 31 Juli 2026",
+    "intro1": "Syarat dan Ketentuan Penggunaan ini (\"Syarat dan Ketentuan\") mengatur akses dan penggunaan aplikasi mobile Noor Phonetic Quran (\"Aplikasi\", \"kami\", \"kita\" atau \"milik kami\"), yang diterbitkan secara perorangan dan tersedia di Google Play dan App Store. Dengan mengunduh, memasang, atau menggunakan Aplikasi, Anda setuju untuk terikat oleh Syarat dan Ketentuan ini. Jika Anda tidak menyetujui ketentuan ini, mohon untuk tidak menggunakan Aplikasi.",
+    "intro2Before": "Untuk informasi lebih lanjut tentang pemrosesan data pribadi Anda, silakan lihat",
+    "intro2LinkText": "Kebijakan Privasi",
+    "intro2After": "kami, yang melengkapi Syarat dan Ketentuan ini.",
+    "summary": {
+      "heading": "RINGKASAN POIN-POIN UTAMA",
+      "intro": "Ringkasan ini memberikan poin-poin utama dari Syarat dan Ketentuan kami, namun kami mengundang Anda untuk membaca keseluruhan dokumen melalui daftar isi di bawah ini.",
+      "points": [
+        {
+          "question": "Apa yang ditawarkan Aplikasi ini?",
+          "answer": "Sekumpulan alat gratis dan berbayar untuk membaca, belajar, dan menghafal Al-Qur'an: bacaan fonetik dan bahasa Arab (bacaan Hafs dan Warsh), tajwid, hafalan gamifikasi, pelacakan khataman, koreksi bacaan melalui rekaman audio, kuis, radio/TV Islami langsung, dan widget \"ayat hari ini\" di layar utama."
+        },
+        {
+          "question": "Apakah saya perlu akun?",
+          "answer": "Tidak, sebagian besar Aplikasi dapat digunakan tanpa akun. Akun opsional (email, Google, atau Apple) memungkinkan Anda menyinkronkan kemajuan dan langganan Premium Anda."
+        },
+        {
+          "question": "Apakah Aplikasi ini berbayar?",
+          "answer": "Aplikasi ini gratis dengan iklan. Langganan Premium opsional, yang dikelola melalui Google Play atau App Store, menghilangkan iklan dan membuka fitur-fitur lanjutan."
+        },
+        {
+          "question": "Bisakah saya merekam suara saya?",
+          "answer": "Ya, fitur koreksi bacaan merekam suara Anda secara lokal untuk menganalisis pelafalan Anda. Lihat bagian khusus untuk detail cara kerja dan tanggung jawab Anda."
+        },
+        {
+          "question": "Siapa yang bertanggung jawab atas konten keagamaan?",
+          "answer": "Kami berupaya semaksimal mungkin untuk menjaga keandalan teks, terjemahan, dan transliterasi, namun Aplikasi ini adalah alat bantu pendidikan dan tidak menggantikan pengajaran tradisional dari guru yang berkualitas."
+        },
+        {
+          "question": "Bagaimana cara menghubungi kami?",
+          "answer": "Melalui formulir kontak yang terintegrasi di Aplikasi atau melalui email ke othmeneb@gmail.com."
+        }
+      ]
+    },
+    "toc": {
+      "heading": "DAFTAR ISI",
+      "items": [
+        {
+          "id": "service",
+          "label": "1. LAYANAN"
+        },
+        {
+          "id": "eligibility",
+          "label": "2. KELAYAKAN"
+        },
+        {
+          "id": "account",
+          "label": "3. AKUN PENGGUNA"
+        },
+        {
+          "id": "premium",
+          "label": "4. LANGGANAN PREMIUM DAN PEMBELIAN DALAM APLIKASI"
+        },
+        {
+          "id": "recitation",
+          "label": "5. KOREKSI BACAAN DAN REKAMAN AUDIO"
+        },
+        {
+          "id": "conduct",
+          "label": "6. ATURAN PENGGUNAAN"
+        },
+        {
+          "id": "ip",
+          "label": "7. HAK KEKAYAAN INTELEKTUAL"
+        },
+        {
+          "id": "religious-content",
+          "label": "8. KONTEN KEAGAMAAN DAN PENDIDIKAN"
+        },
+        {
+          "id": "accessibility",
+          "label": "9. AKSESIBILITAS"
+        },
+        {
+          "id": "ads",
+          "label": "10. IKLAN DAN LAYANAN PIHAK KETIGA"
+        },
+        {
+          "id": "availability",
+          "label": "11. KETERSEDIAAN DAN PERUBAHAN LAYANAN"
+        },
+        {
+          "id": "termination",
+          "label": "12. PENANGGUHAN DAN PENGHENTIAN"
+        },
+        {
+          "id": "disclaimer",
+          "label": "13. BATASAN TANGGUNG JAWAB"
+        },
+        {
+          "id": "law",
+          "label": "14. HUKUM YANG BERLAKU DAN SENGKETA"
+        },
+        {
+          "id": "updates",
+          "label": "15. PERUBAHAN SYARAT DAN KETENTUAN"
+        },
+        {
+          "id": "contact",
+          "label": "16. HUBUNGI KAMI"
+        }
+      ]
+    },
+    "sections": {
+      "service": {
+        "heading": "1. LAYANAN",
+        "intro": "Noor Phonetic Quran adalah aplikasi mobile untuk membaca, belajar, dan menghafal Al-Qur'an, khususnya melalui:",
+        "items": [
+          "bacaan Al-Qur'an dalam transliterasi fonetik dan bahasa Arab (bacaan Hafs dan Warsh), dengan terjemahan dan audio;",
+          "kursus pelafalan dan tajwid, dengan koreksi bacaan melalui rekaman audio;",
+          "modul hafalan bergamifikasi (level, lencana, tantangan harian) dan rencana belajar harian;",
+          "pelacakan khataman (bacaan lengkap Al-Qur'an) dan program khusus Ramadan;",
+          "dzikir harian, kuis pengetahuan Islam, radio dan saluran TV Islami langsung;",
+          "widget \"ayat hari ini\" yang dapat ditampilkan di layar utama perangkat Anda (iOS dan Android)."
+        ],
+        "outro": "Fitur-fitur ini dapat berkembang, ditambahkan, atau dihapus seiring pembaruan Aplikasi, tanpa hal tersebut merupakan perubahan substansial terhadap Syarat dan Ketentuan ini."
+      },
+      "eligibility": {
+        "heading": "2. KELAYAKAN",
+        "body": "Aplikasi ini ditujukan bagi siapa saja yang ingin belajar atau mempraktikkan bacaan Al-Qur'an. Jika Anda di bawah umur, penggunaan Aplikasi harus dilakukan di bawah pengawasan orang tua atau wali yang sah, terutama untuk setiap fitur yang melibatkan pembelian dalam aplikasi."
+      },
+      "account": {
+        "heading": "3. AKUN PENGGUNA",
+        "brief": "Ringkasnya",
+        "briefText": "Akun bersifat opsional dan hanya digunakan untuk menyinkronkan kemajuan dan langganan Anda.",
+        "body": "Sebagian besar fitur Aplikasi dapat diakses tanpa membuat akun. Anda dapat membuat akun opsional melalui email, Google, atau Apple, untuk menyimpan kemajuan Anda (hafalan, khataman, rencana harian) dan status Premium Anda jika berganti perangkat. Anda bertanggung jawab atas kerahasiaan kredensial Anda dan setiap aktivitas yang dilakukan dari akun Anda. Anda dapat meminta penghapusan akun dan data terkait kapan saja dengan menghubungi kami (lihat bagian 16) atau dari pengaturan Aplikasi jika opsi tersebut tersedia."
+      },
+      "premium": {
+        "heading": "4. LANGGANAN PREMIUM DAN PEMBELIAN DALAM APLIKASI",
+        "brief": "Ringkasnya",
+        "briefText": "Aplikasi ini gratis dengan iklan; langganan Premium (dikelola oleh Google Play atau App Store) menghilangkan iklan dan membuka fitur-fitur lanjutan.",
+        "body": "Pembelian dalam aplikasi (khususnya langganan Premium) diproses langsung oleh Google Play atau App Store sesuai platform Anda, sesuai dengan syarat penggunaan dan kebijakan penagihan mereka sendiri. Penagihan, perpanjangan otomatis, pembatalan, dan pengembalian dana langganan dikelola melalui pengaturan akun Google Play atau Apple ID Anda — kami tidak memiliki akses ke metode pembayaran Anda dan tidak dapat memicu pengembalian dana secara langsung. Konten dan cakupan pasti dari keuntungan Premium dijelaskan di dalam Aplikasi pada saat pembelian dan dapat berubah seiring pembaruan."
+      },
+      "recitation": {
+        "heading": "5. KOREKSI BACAAN DAN REKAMAN AUDIO",
+        "brief": "Ringkasnya",
+        "briefText": "Rekaman bacaan Anda digunakan untuk memberi Anda masukan tentang pelafalan Anda; bagikan hanya apa yang Anda merasa nyaman untuk disampaikan.",
+        "bodyBefore": "Fitur koreksi bacaan memungkinkan Anda merekam suara Anda saat membaca Al-Qur'an untuk menerima masukan yang dipersonalisasi (otomatis dan/atau oleh seorang pemeriksa, tergantung versi fitur yang aktif di Aplikasi). Dengan menggunakan fitur ini, Anda menyetujui perekaman dan pemrosesan suara Anda untuk tujuan analisis pelafalan dan peningkatan pembelajaran Anda. Anda tidak boleh mengirimkan rekaman yang berisi pernyataan ilegal, memfitnah, atau melanggar hak pihak ketiga. Detail pemrosesan, penyimpanan, dan lamanya penyimpanan rekaman ini dijelaskan dalam",
+        "linkText": "Kebijakan Privasi",
+        "bodyAfter": "kami."
+      },
+      "conduct": {
+        "heading": "6. ATURAN PENGGUNAAN",
+        "intro": "Dengan menggunakan Aplikasi, Anda berkomitmen untuk tidak:",
+        "items": [
+          "menggunakan Aplikasi untuk tujuan ilegal atau yang bertentangan dengan Syarat dan Ketentuan ini;",
+          "mencoba mengakses sistem kami tanpa izin, mengganggunya, atau melewati langkah-langkah keamanannya;",
+          "mendekompilasi, membongkar, atau mencoba mengekstrak kode sumber Aplikasi, kecuali sejauh diizinkan secara tegas oleh hukum;",
+          "mereproduksi, mendistribusikan ulang, atau mengeksploitasi secara komersial seluruh atau sebagian konten Aplikasi tanpa izin sebelumnya;",
+          "menggunakan alat otomatis (bot, scraper) untuk mengakses Aplikasi atau mengambil data darinya."
+        ]
+      },
+      "ip": {
+        "heading": "7. HAK KEKAYAAN INTELEKTUAL",
+        "body": "Aplikasi, kode, desain, ilustrasi, dan konten pendidikan yang khas (kursus tajwid, penyusunan rencana belajar, dll.) dilindungi oleh hukum kekayaan intelektual dan tetap menjadi milik kami atau milik pemberi lisensi kami. Teks Al-Qur'an sendiri adalah milik bersama dan tidak diklaim oleh siapa pun; terjemahan, transliterasi fonetik, rekaman audio, dan konten tafsir yang terintegrasi berasal dari sumber pihak ketiga yang diidentifikasi dalam Aplikasi atau dari mitra (qari, penerbit terjemahan) dan digunakan sesuai dengan izin yang diperoleh. Tidak ada ketentuan dalam Syarat dan Ketentuan ini yang memberi Anda hak atas elemen-elemen ini di luar penggunaan pribadi dan non-komersial atas Aplikasi."
+      },
+      "religiousContent": {
+        "heading": "8. KONTEN KEAGAMAAN DAN PENDIDIKAN",
+        "brief": "Ringkasnya",
+        "briefText": "Aplikasi ini adalah alat pendidikan pendamping, bukan pengganti pengajaran tradisional.",
+        "body": "Kami berupaya semaksimal mungkin untuk memastikan keakuratan teks Al-Qur'an, terjemahan, transliterasi fonetik, dan kaidah tajwid yang disajikan dalam Aplikasi, khususnya dengan mengandalkan sumber-sumber yang diakui. Namun, transliterasi fonetik pada dasarnya adalah pendekatan untuk memudahkan pembelajaran dan tidak menggantikan pembelajaran membaca bahasa Arab Al-Qur'an dari seorang guru yang berkualitas. Demikian pula, masukan yang diberikan oleh fitur koreksi bacaan adalah alat bantu pembelajaran dan tidak menjamin validasi keagamaan atas bacaan Anda."
+      },
+      "accessibility": {
+        "heading": "9. AKSESIBILITAS",
+        "brief": "Ringkasnya",
+        "briefText": "Kami berupaya membuat Aplikasi dapat digunakan oleh sebanyak mungkin orang, termasuk penyandang disabilitas.",
+        "body": "Aplikasi ini menyertakan informasi aksesibilitas (label dan peran Semantics) pada layar dan kontrol utamanya untuk memudahkan navigasi dengan pembaca layar bawaan perangkat Anda (VoiceOver di iOS, TalkBack di Android). Aplikasi ini juga menghormati ukuran font yang ditetapkan dalam pengaturan aksesibilitas sistem operasi Anda untuk tampilan teks. Upaya aksesibilitas ini terus berlanjut dan mungkin belum mencakup secara seragam semua layar dan fitur pada saat tertentu. Jika Anda mengalami kesulitan aksesibilitas saat menggunakan Aplikasi, kami mengundang Anda untuk memberi tahu kami melalui formulir kontak (lihat bagian 16) agar kami dapat memperbaikinya."
+      },
+      "ads": {
+        "heading": "10. IKLAN DAN LAYANAN PIHAK KETIGA",
+        "body1Before": "Aplikasi ini menyertakan layanan teknis pihak ketiga (pengukuran audiens, diagnostik teknis, jaringan iklan, pembelian dalam aplikasi) yang dijelaskan secara rinci dalam",
+        "linkText": "Kebijakan Privasi",
+        "body1After": "kami. Layanan-layanan ini tunduk pada syarat penggunaan mereka sendiri, yang kami sarankan untuk Anda baca.",
+        "body2": "Beberapa iklan sepenuhnya opsional: Anda dapat secara sukarela memilih untuk menonton iklan berhadiah (\"rewarded ad\") dari menu dukungan Aplikasi, jika Anda ingin mendukung kami tanpa berlangganan Premium. Iklan opsional ini tidak akan pernah muncul tanpa tindakan eksplisit Anda."
+      },
+      "availability": {
+        "heading": "11. KETERSEDIAAN DAN PERUBAHAN LAYANAN",
+        "body": "Kami berusaha untuk menjaga Aplikasi tetap dapat diakses dan berfungsi, tanpa menjamin ketersediaan yang berkelanjutan atau tanpa kesalahan. Beberapa fitur memerlukan koneksi internet (pengunduhan audio, radio/TV langsung, sinkronisasi akun) dan mungkin tidak tersedia saat offline atau jika terjadi gangguan layanan pihak ketiga. Kami dapat menambah, mengubah, atau menghapus fitur Aplikasi kapan saja, khususnya untuk alasan teknis, hukum, atau terkait perkembangan kemitraan konten kami."
+      },
+      "termination": {
+        "heading": "12. PENANGGUHAN DAN PENGHENTIAN",
+        "body": "Anda dapat berhenti menggunakan Aplikasi kapan saja dengan menghapusnya. Kami berhak untuk menangguhkan atau menghentikan akses Anda ke Aplikasi, khususnya jika terjadi pelanggaran terhadap Syarat dan Ketentuan ini, tanpa memengaruhi pembelian yang telah dilakukan melalui Google Play atau App Store, yang pengelolaannya menjadi tanggung jawab platform tersebut."
+      },
+      "disclaimer": {
+        "heading": "13. BATASAN TANGGUNG JAWAB",
+        "body": "Sejauh diizinkan oleh hukum yang berlaku, Aplikasi disediakan \"sebagaimana adanya\" dan \"sesuai ketersediaan\", tanpa jaminan apa pun, baik tersurat maupun tersirat. Kami tidak dapat dimintai pertanggungjawaban atas kerugian tidak langsung, insidental, atau konsekuensial yang timbul dari penggunaan atau ketidakmampuan menggunakan Aplikasi, termasuk dalam hal ketidaktersediaan sementara, kehilangan data kemajuan, atau kesalahan dalam konten pihak ketiga (terjemahan, audio, tafsir) yang terintegrasi dalam Aplikasi. Tidak ada dalam Syarat dan Ketentuan ini yang mengecualikan tanggung jawab yang secara hukum tidak dapat dikecualikan (misalnya dalam hal kesalahan yang disengaja atau kelalaian berat)."
+      },
+      "law": {
+        "heading": "14. HUKUM YANG BERLAKU DAN SENGKETA",
+        "body": "Syarat dan Ketentuan ini diatur oleh hukum Prancis, tanpa mengurangi ketentuan wajib perlindungan konsumen yang mungkin berlaku di negara tempat tinggal Anda. Jika terjadi sengketa, penyelesaian secara damai akan diupayakan terlebih dahulu dengan menghubungi kami secara langsung (lihat bagian 16) sebelum menempuh tindakan hukum."
+      },
+      "updates": {
+        "heading": "15. PERUBAHAN SYARAT DAN KETENTUAN",
+        "brief": "Ringkasnya",
+        "briefText": "Kami dapat memperbarui Syarat dan Ketentuan ini untuk mencerminkan perkembangan Aplikasi atau peraturan.",
+        "body": "Kami dapat mengubah Syarat dan Ketentuan ini dari waktu ke waktu, khususnya saat menambahkan fitur baru. Versi yang diperbarui akan ditandai dengan tanggal \"Terakhir diperbarui\" baru di bagian atas halaman ini dan akan berlaku segera setelah dipublikasikan. Jika terjadi perubahan substansial, kami akan memberitahu Anda melalui pemberitahuan di dalam Aplikasi. Penggunaan Aplikasi yang berkelanjutan setelah publikasi perubahan berarti Anda menyetujui Syarat dan Ketentuan yang diperbarui."
+      },
+      "contact": {
+        "heading": "16. HUBUNGI KAMI",
+        "bodyBefore": "Untuk pertanyaan seputar Syarat dan Ketentuan ini, Anda dapat menghubungi kami melalui formulir kontak yang terintegrasi di Aplikasi, atau melalui email ke",
+        "email": "othmeneb@gmail.com",
+        "bodyAfter": "."
+      }
+    },
+    "footer": "© 2026 Noor Phonetic Quran. Semua hak dilindungi."
+  },
+  "contactPage": {
+    "meta": {
+      "title": "Kontak - Noor Phonetic Quran",
+      "description": "Ada pertanyaan tentang aplikasi Noor Phonetic Quran, saran untuk fonetik Al-Qur'an, atau masalah teknis? Hubungi tim kami, respons dalam waktu 48 jam."
+    }
+  },
+  "reviews": {
+    "meta": {
+      "title": "Ulasan Pengguna - Noor Phonetic Quran",
+      "description": "Lihat lebih dari 160 ulasan terverifikasi dari pengguna Noor Phonetic Quran, aplikasi untuk belajar membaca, menghafal, dan mengkhatamkan Al-Qur'an secara fonetik, dengan penilaian rata-rata 5 bintang."
+    },
+    "eyebrow": "Ulasan Terverifikasi",
+    "title": "Apa Kata Pengguna Kami",
+    "subtitle": "Lihat ulasan dari komunitas pengguna puas kami yang terus berkembang",
+    "ratingCountLabel": "dari %COUNT% ulasan",
+    "loadMoreLabel": "Lihat lebih banyak ulasan"
+  },
+  "audioCoran": {
+    "meta": {
+      "title": "Audio Al-Qur'an Tersinkron: Beberapa Qari dan Dengarkan Secara Offline | Noor Phonetic Quran",
+      "description": "Dengarkan Al-Qur'an dengan audio tersinkron ayat demi ayat, pilih dari beberapa qari, dan unduh audio untuk didengarkan secara offline dengan Noor Phonetic Quran. Gratis di iOS dan Android.",
+      "keywords": "audio Al-Qur'an, bacaan Al-Qur'an audio, beberapa qari Al-Qur'an, Al-Qur'an audio offline, unduh audio Al-Qur'an, dengarkan Al-Qur'an, audio tersinkron Al-Qur'an, qari aplikasi Al-Qur'an",
+      "ogTitle": "Audio Al-Qur'an Tersinkron: Beberapa Qari dan Dengarkan Secara Offline",
+      "ogDescription": "Audio tersinkron ayat demi ayat, beberapa qari, dan pengunduhan offline. Aplikasi gratis Noor Phonetic Quran."
+    },
+    "breadcrumb": {
+      "home": "Beranda",
+      "current": "Audio Al-Qur'an"
+    },
+    "hero": {
+      "title": "Audio Al-Qur'an Tersinkron: Beberapa Qari, Dengarkan Secara Offline",
+      "subtitle": "Setiap ayat disertai audio tersinkron untuk mendengar pelafalan yang benar, dengan pilihan qari dan kemampuan mengunduh audio untuk didengarkan tanpa koneksi.",
+      "backLink": "Kembali ke beranda",
+      "googlePlay": "Google Play",
+      "appStore": "App Store"
+    },
+    "intro": {
+      "title": "Pengalaman mendengarkan yang dirancang untuk belajar",
+      "paragraph1": "Mendengar pelafalan yang benar sangat penting untuk belajar membaca Al-Qur'an dengan tepat. Noor Phonetic Quran memadukan setiap ayat dengan audio tersinkron, sehingga Anda dapat mengikuti teks, fonetiknya, dan mendengarkannya secara bersamaan.",
+      "paragraph2": "Anda tidak terbatas pada satu qari atau koneksi internet yang terus-menerus: pilih suara favorit Anda dan unduh audionya untuk dibawa ke mana saja."
+    },
+    "features": {
+      "title": "Yang ditawarkan audio Al-Qur'an",
+      "items": [
+        {
+          "title": "Audio tersinkron ayat demi ayat",
+          "description": "setiap ayat dibacakan dengan suara keras saat Anda membacanya, untuk memperbaiki pelafalan Anda secara langsung."
+        },
+        {
+          "title": "Beberapa qari untuk dipilih",
+          "description": "pilih qari yang paling cocok untuk Anda di antara yang tersedia dalam aplikasi."
+        },
+        {
+          "title": "Dengarkan per ayat, surah, atau rentang surah",
+          "description": "pilih dengan tepat bagian Al-Qur'an yang ingin Anda dengarkan."
+        },
+        {
+          "title": "Kecepatan bacaan yang dapat diatur",
+          "description": "perlambat audio dari 0.7x hingga 1x untuk lebih memahami setiap kata saat belajar."
+        },
+        {
+          "title": "Unduh untuk didengarkan secara offline",
+          "description": "unduh audio terlebih dahulu untuk mendengarkan Al-Qur'an tanpa koneksi internet, di mana pun Anda berada."
+        }
+      ]
+    },
+    "screenshots": {
+      "title": "Pratinjau audio Al-Qur'an",
+      "alts": [
+        "Noor Phonetic Quran - Bilah pemutar audio tersinkron",
+        "Noor Phonetic Quran - Pemilihan rentang ayat dan pengunduhan offline",
+        "Noor Phonetic Quran - Pemilihan rentang surah dan pengaturan kecepatan",
+        "Noor Phonetic Quran - Pemilihan qari"
+      ]
+    },
+    "faq": {
+      "title": "Pertanyaan yang sering diajukan tentang audio Al-Qur'an",
+      "items": [
+        {
+          "question": "Apakah audio tersinkron dengan teks?",
+          "answer": "Ya, setiap ayat disertai audio tersinkron untuk mendengar pelafalan yang benar sambil Anda mengikuti teks dan transkripsi fonetiknya."
+        },
+        {
+          "question": "Berapa banyak qari yang tersedia?",
+          "answer": "Anda dapat memilih dari beberapa qari Al-Qur'an langsung di pengaturan pemutaran audio, sesuai preferensi mendengarkan Anda."
+        },
+        {
+          "question": "Bisakah mendengarkan Al-Qur'an secara offline?",
+          "answer": "Ya, Anda dapat mengunduh audio satu ayat, satu surah, atau rentang surah untuk didengarkan secara lengkap tanpa koneksi internet."
+        },
+        {
+          "question": "Bisakah mengubah kecepatan pemutaran audio?",
+          "answer": "Ya, kecepatan pemutaran dapat diatur dari 0.7x hingga 1x untuk menyesuaikan pendengaran dengan tingkat pembelajaran Anda."
+        }
+      ]
+    },
+    "related": {
+      "title": "Temukan juga",
+      "tajweed": "Kaidah Tajwid",
+      "memorization": "Menghafal Al-Qur'an (Hifz)",
+      "allFeatures": "Semua fitur"
+    }
+  },
+  "privacyPolicy": {
+    "title": "Noor Phonetic Quran",
+    "heading": "KEBIJAKAN PRIVASI",
+    "lastUpdated": "Terakhir diperbarui: 28 Juli 2026",
+    "intro1": "Pemberitahuan privasi ini untuk Noor Phonetic Quran (\"kami\", \"kita\" atau \"milik kami\") menjelaskan bagaimana dan mengapa kami mengumpulkan, menyimpan, menggunakan, dan/atau membagikan informasi tertentu saat Anda menggunakan aplikasi mobile Noor Phonetic Quran kami (\"Layanan\").",
+    "intro2": "Kebijakan privasi ini melengkapi <cguLink>Syarat dan Ketentuan Penggunaan</cguLink> kami, yang mengatur secara lebih luas akses dan penggunaan Layanan kami.",
+    "intro3": "Ada pertanyaan atau kekhawatiran? Membaca pemberitahuan privasi ini akan membantu Anda memahami hak dan pilihan privasi Anda. Jika Anda tidak setuju dengan kebijakan dan praktik kami, mohon untuk tidak menggunakan Layanan kami. Jika Anda masih memiliki pertanyaan atau kekhawatiran, silakan hubungi kami di alamat berikut: <mailLink>othmeneb@gmail.com</mailLink>.",
+    "summary": {
+      "heading": "RINGKASAN POIN-POIN UTAMA",
+      "intro": "Ringkasan ini memberikan poin-poin utama dari pemberitahuan privasi kami, namun Anda dapat memperoleh detail lebih lanjut tentang setiap topik ini menggunakan daftar isi kami di bawah ini.",
+      "q1": {
+        "title": "Informasi pribadi apa yang kami proses?",
+        "text": "Kami tidak mengumpulkan informasi identitas langsung apa pun (nama, email) kecuali jika Anda membuat akun opsional, menggunakan koreksi bacaan, atau menghubungi kami secara sukarela melalui formulir kontak. Aplikasi ini juga menggunakan layanan teknis (statistik penggunaan yang dianonimkan, pelacakan crash, pembelian dalam aplikasi) yang memproses identifier teknis perangkat Anda. Lihat bagian \"Informasi apa yang kami kumpulkan?\" untuk detailnya."
+      },
+      "q2": {
+        "title": "Apakah kami memproses informasi pribadi yang sensitif?",
+        "text": "Jika Anda menggunakan fitur opsional koreksi bacaan, rekaman suara Anda (data yang dapat dianggap sensitif/biometrik) disimpan secara aman untuk memberi Anda masukan tentang pelafalan Anda. Di luar fitur opsional ini, kami tidak memproses informasi pribadi sensitif apa pun."
+      },
+      "q3": {
+        "title": "Apakah kami menerima informasi dari pihak ketiga?",
+        "text": "Tidak, kami tidak menerima informasi apa pun dari pihak ketiga di luar layanan teknis yang tercantum di bawah ini (Firebase, Google AdMob, toko aplikasi)."
+      },
+      "q4": {
+        "title": "Bagaimana kami memproses informasi Anda?",
+        "text": "Kami memproses informasi Anda untuk menjalankan aplikasi, mengukur penggunaannya secara agregat, mendiagnosis masalah teknis, mengelola langganan, dan merespons pesan kontak Anda."
+      },
+      "q5": {
+        "title": "Dalam situasi apa dan dengan pihak mana kami membagikan informasi pribadi?",
+        "text": "Kami membagikan data teknis tertentu dengan penyedia layanan kami (Google Firebase, Google AdMob) yang bertindak sebagai pemroses untuk pengoperasian aplikasi. Kami tidak menjual data apa pun."
+      },
+      "q6": {
+        "title": "Apa saja hak Anda?",
+        "text": "Tergantung lokasi Anda, Anda mungkin memiliki hak untuk mengakses, mengoreksi, menolak, dan menghapus data Anda. Lihat bagian \"Apa saja hak privasi Anda?\"."
+      },
+      "q7": {
+        "title": "Bagaimana cara menggunakan hak Anda?",
+        "text": "Cara termudah adalah menghubungi kami di <mailLink>othmeneb@gmail.com</mailLink>. Kami akan menanggapi permintaan Anda sesuai dengan hukum yang berlaku."
+      }
+    },
+    "toc": {
+      "heading": "DAFTAR ISI",
+      "items": {
+        "collect": "INFORMASI APA YANG KAMI KUMPULKAN?",
+        "process": "BAGAIMANA KAMI MEMPROSES INFORMASI ANDA?",
+        "legal": "ATAS DASAR HUKUM APA KAMI MEMPROSES INFORMASI PRIBADI ANDA?",
+        "share": "KAPAN DAN DENGAN SIAPA KAMI MEMBAGIKAN INFORMASI PRIBADI ANDA?",
+        "keep": "BERAPA LAMA KAMI MENYIMPAN INFORMASI ANDA?",
+        "rights": "APA SAJA HAK PRIVASI ANDA?",
+        "dnt": "KONTROL FITUR \"DO-NOT-TRACK\"",
+        "usRights": "APAKAH PENDUDUK AMERIKA SERIKAT MEMILIKI HAK PRIVASI KHUSUS?",
+        "updates": "APAKAH KAMI MEMPERBARUI PEMBERITAHUAN INI?",
+        "contact": "BAGAIMANA CARA MENGHUBUNGI KAMI TENTANG PEMBERITAHUAN INI?",
+        "access": "BAGAIMANA CARA MELIHAT, MEMPERBARUI, ATAU MENGHAPUS DATA YANG KAMI KUMPULKAN?"
+      }
+    },
+    "sections": {
+      "collect": {
+        "heading": "INFORMASI APA YANG KAMI KUMPULKAN?",
+        "disclosedTitle": "Informasi pribadi yang Anda ungkapkan kepada kami",
+        "disclosedIntro": "<strong>Ringkasnya</strong>: Kami mengumpulkan informasi pribadi yang Anda berikan secara sukarela, misalnya saat Anda membuat akun, menggunakan koreksi bacaan, atau formulir kontak kami.",
+        "disclosedContact": "Jika Anda menghubungi kami melalui formulir kontak yang terintegrasi di aplikasi, kami mengumpulkan nama, alamat email, dan isi pesan Anda, serta informasi teknis terkait (platform, bahasa, versi aplikasi, jenis perangkat, zona waktu) agar kami dapat menanggapi Anda dan mendiagnosis masalah yang mungkin terjadi.",
+        "disclosedAccount": "Jika Anda membuat akun opsional, kami mengumpulkan alamat email Anda (masuk melalui email) atau informasi yang dikirimkan oleh Google atau Apple saat masuk melalui layanan tersebut (ID akun, nama dan alamat email jika Anda memilih untuk membagikannya), untuk membuat dan mengamankan profil Anda serta menyinkronkan kemajuan dan langganan Premium Anda.",
+        "audioTitle": "Rekaman audio (koreksi bacaan)",
+        "audioIntro": "<strong>Ringkasnya</strong>: Jika Anda menggunakan koreksi bacaan, rekaman suara Anda dikirim secara aman ke server kami (Google Firebase Storage) agar dapat dianalisis dan/atau didengarkan kembali oleh seorang pemeriksa.",
+        "audioDetail": "Suara dapat dianggap sebagai data biometrik atau sensitif tergantung peraturan yang berlaku. Saat Anda menggunakan fitur koreksi bacaan, rekaman audio Anda disimpan dalam ruang khusus untuk akun Anda (Google Firebase Storage), yang hanya dapat diakses oleh Anda sendiri dan oleh pemeriksa yang berwenang untuk memproses pengiriman Anda, semata-mata untuk memberi Anda masukan tentang pelafalan Anda. Rekaman ini tidak digunakan untuk tujuan iklan, juga tidak dibagikan dengan pihak ketiga di luar penyedia teknis yang diperlukan untuk penyimpanannya (Google Firebase). Anda dapat meminta penghapusan rekaman Anda kapan saja dengan menghubungi kami (lihat bagian \"Bagaimana cara menghubungi kami\").",
+        "autoTitle": "Data yang dikumpulkan secara otomatis",
+        "autoIntro": "Seperti kebanyakan aplikasi, Noor Phonetic Quran menggunakan layanan teknis pihak ketiga yang secara otomatis mengumpulkan data penggunaan dan perangkat tertentu:",
+        "table": {
+          "headers": {
+            "service": "Layanan",
+            "purpose": "Tujuan",
+            "data": "Data terkait"
+          },
+          "rows": {
+            "analytics": {
+              "service": "Google Firebase Analytics",
+              "purpose": "Pengukuran audiens dan penggunaan fitur (layar yang dilihat, tindakan dalam aplikasi seperti membaca, menghafal, atau kuis), dalam bentuk agregat dan anonim",
+              "data": "Identifier iklan/instalasi, statistik penggunaan, bahasa, status premium"
+            },
+            "crashlytics": {
+              "service": "Google Firebase Crashlytics",
+              "purpose": "Diagnostik teknis crash aplikasi untuk memperbaiki bug",
+              "data": "Laporan crash, informasi teknis tentang perangkat dan sistem operasi"
+            },
+            "auth": {
+              "service": "Google Firebase Authentication",
+              "purpose": "Pembuatan dan pengamanan akun opsional Anda (email, Google, Apple), sinkronisasi kemajuan dan langganan Anda",
+              "data": "Alamat email, ID akun, metode masuk yang digunakan"
+            },
+            "storage": {
+              "service": "Google Firebase Storage",
+              "purpose": "Penyimpanan aman rekaman audio Anda jika Anda menggunakan koreksi bacaan",
+              "data": "File audio suara Anda, terkait dengan ID akun Anda"
+            },
+            "purchases": {
+              "service": "Google Play / App Store (pembelian dalam aplikasi)",
+              "purpose": "Pengelolaan langganan premium (penghapusan iklan)",
+              "data": "Status dan ID pembelian, dikelola langsung oleh Google/Apple"
+            },
+            "admob": {
+              "service": "Google AdMob",
+              "purpose": "Menampilkan iklan untuk pengguna non-premium (banner, interstitial) serta iklan berhadiah (\"rewarded ads\") yang dapat Anda pilih untuk ditonton secara sukarela guna mendukung kami tanpa berlangganan Premium",
+              "data": "Identifier iklan perangkat, data interaksi dengan iklan"
+            }
+          }
+        },
+        "att": "Di iOS, tampilan iklan yang dipersonalisasi dapat disertai dengan permintaan izin \"App Tracking Transparency\" (ATT) yang ditawarkan oleh sistem operasi. Anda dapat menolak izin ini kapan saja dari pengaturan privasi perangkat Anda (Pengaturan > Privasi dan Keamanan > Pelacakan); aplikasi tetap berfungsi penuh jika Anda menolaknya.",
+        "noLocation": "Kami tidak mengumpulkan lokasi tepat Anda; aplikasi tidak meminta izin akses ke geolokasi."
+      },
+      "process": {
+        "heading": "BAGAIMANA KAMI MEMPROSES INFORMASI ANDA?",
+        "summary": "<strong>Ringkasnya</strong>: Kami memproses informasi Anda untuk menjalankan aplikasi, menanggapi permintaan Anda, meningkatkan Layanan kami, dan mengelola langganan Anda jika berlaku.",
+        "detail": "Kami memproses data yang dijelaskan di atas untuk: (i) menyediakan dan memelihara fitur aplikasi (bacaan, hafalan, khataman, kuis, koreksi bacaan), (ii) menanggapi pesan yang Anda kirim melalui formulir kontak, (iii) mendiagnosis dan memperbaiki masalah teknis, (iv) mengukur penggunaan agregat fitur untuk memprioritaskan pengembangan kami, (v) mengelola langganan premium dan tampilan iklan untuk pengguna non-premium."
+      },
+      "legal": {
+        "heading": "ATAS DASAR HUKUM APA KAMI MEMPROSES INFORMASI PRIBADI ANDA?",
+        "summary": "<strong>Ringkasnya</strong>: Kami hanya memproses informasi pribadi Anda saat kami menganggap perlu dan memiliki alasan hukum yang sah (yaitu dasar hukum) untuk melakukannya berdasarkan hukum yang berlaku.",
+        "euTitle": "Jika Anda berada di UE atau Inggris Raya, bagian ini berlaku untuk Anda.",
+        "euIntro": "Peraturan Perlindungan Data Umum (GDPR) dan GDPR Inggris Raya mewajibkan kami untuk menjelaskan dasar hukum yang sah yang kami andalkan untuk memproses informasi pribadi Anda:",
+        "euList": {
+          "consent": "<strong>Persetujuan</strong>: untuk tampilan iklan yang dipersonalisasi dan pengukuran audiens, dikumpulkan melalui banner persetujuan saat pertama kali aplikasi dijalankan.",
+          "contract": "<strong>Pelaksanaan kontrak</strong>: untuk pengelolaan langganan premium Anda.",
+          "legitimate": "<strong>Kepentingan sah</strong>: untuk diagnostik teknis (Crashlytics) dan pemrosesan pesan kontak Anda."
+        },
+        "canadaTitle": "Jika Anda berada di Kanada, bagian ini berlaku untuk Anda.",
+        "canadaText": "Kami dapat memproses informasi Anda jika Anda telah memberikan izin khusus kepada kami, atau dalam kasus tertentu yang ditetapkan secara hukum (undang-undang perlindungan privasi). Kami juga dapat memproses informasi Anda jika hal itu wajar dan untuk tujuan yang dianggap sesuai oleh orang yang wajar, misalnya untuk menanggapi permintaan kontak Anda."
+      },
+      "share": {
+        "heading": "KAPAN DAN DENGAN SIAPA KAMI MEMBAGIKAN INFORMASI PRIBADI ANDA?",
+        "summary": "<strong>Ringkasnya</strong>: Kami membagikan informasi hanya dengan penyedia teknis yang diperlukan untuk pengoperasian aplikasi (Google Firebase, Google AdMob), toko aplikasi (Google Play, App Store) untuk pengelolaan pembelian, dan jika hukum mewajibkan kami. Kami tidak pernah menjual data Anda kepada pihak ketiga."
+      },
+      "keep": {
+        "heading": "BERAPA LAMA KAMI MENYIMPAN INFORMASI ANDA?",
+        "summary": "<strong>Ringkasnya</strong>: Kami menyimpan informasi Anda selama diperlukan untuk tujuan yang dijelaskan dalam pemberitahuan ini, kecuali jika hukum mengharuskan masa penyimpanan yang lebih lama.",
+        "detail": "Pesan yang dikirim melalui formulir kontak disimpan selama waktu yang diperlukan untuk memproses permintaan Anda kemudian diarsipkan atau dihapus. Data statistik agregat (Firebase Analytics) disimpan sesuai dengan pengaturan default Google Firebase."
+      },
+      "rights": {
+        "heading": "APA SAJA HAK PRIVASI ANDA?",
+        "summary": "<strong>Ringkasnya</strong>: Tergantung negara tempat tinggal Anda, Anda mungkin memiliki hak untuk meminta akses, koreksi, atau penghapusan informasi pribadi Anda, menarik persetujuan Anda atas pemrosesan, dan menolak pemrosesan tertentu.",
+        "detail": "Anda dapat kapan saja menarik persetujuan Anda atas pengukuran audiens dan iklan yang dipersonalisasi dari pengaturan privasi yang tersedia di aplikasi (Pengaturan > Privasi)."
+      },
+      "dnt": {
+        "heading": "KONTROL FITUR \"DO-NOT-TRACK\"",
+        "text": "Sebagian besar browser web dan beberapa sistem operasi serta aplikasi mobile menyertakan fitur \"Do-Not-Track\" (\"DNT\") atau pengaturan yang dapat Anda aktifkan untuk menandakan preferensi privasi Anda. Saat ini, belum ada standar teknologi yang seragam untuk mengenali dan menerapkan sinyal DNT. Oleh karena itu, kami saat ini tidak merespons sinyal browser DNT. Jika standar untuk pelacakan online diadopsi yang harus kami ikuti di masa depan, kami akan memberi tahu Anda dalam versi revisi pemberitahuan privasi ini."
+      },
+      "usRights": {
+        "heading": "APAKAH PENDUDUK AMERIKA SERIKAT MEMILIKI HAK PRIVASI KHUSUS?",
+        "summary": "<strong>Ringkasnya</strong>: Jika Anda penduduk Amerika Serikat, Anda memiliki hak-hak khusus tertentu terkait akses ke informasi pribadi Anda, tergantung negara bagian tempat Anda tinggal. Anda dapat menggunakan hak-hak ini dengan menghubungi kami di alamat yang tercantum di bawah ini."
+      },
+      "updates": {
+        "heading": "APAKAH KAMI MEMPERBARUI PEMBERITAHUAN INI?",
+        "summary": "<strong>Ringkasnya</strong>: Ya, kami akan memperbarui pemberitahuan ini jika diperlukan untuk tetap mematuhi hukum yang relevan.",
+        "detail": "Kami dapat memperbarui pemberitahuan privasi ini dari waktu ke waktu. Versi yang diperbarui akan ditandai dengan tanggal \"Revisi\" yang diperbarui dan akan berlaku segera setelah dapat diakses. Jika kami membuat perubahan penting pada pemberitahuan privasi ini, kami dapat memberi tahu Anda baik dengan mempublikasikan pemberitahuan yang jelas tentang perubahan tersebut, atau dengan mengirimkan notifikasi langsung kepada Anda. Kami mendorong Anda untuk sering meninjau pemberitahuan privasi ini agar mengetahui bagaimana kami melindungi informasi Anda."
+      },
+      "contact": {
+        "heading": "BAGAIMANA CARA MENGHUBUNGI KAMI TENTANG PEMBERITAHUAN INI?",
+        "text": "Jika Anda memiliki pertanyaan atau komentar tentang pemberitahuan ini, Anda dapat mengirim email kepada kami di <mailLink>othmeneb@gmail.com</mailLink>."
+      },
+      "access": {
+        "heading": "BAGAIMANA CARA MELIHAT, MEMPERBARUI, ATAU MENGHAPUS DATA YANG KAMI KUMPULKAN?",
+        "text": "Tergantung hukum yang berlaku di negara Anda, Anda mungkin memiliki hak untuk meminta akses ke informasi pribadi yang kami miliki tentang Anda, mengubahnya, atau menghapusnya. Untuk itu, cukup hubungi kami di <mailLink>othmeneb@gmail.com</mailLink>; kami akan memproses permintaan Anda secepat mungkin."
+      }
+    },
+    "footer": "© 2026 Noor Phonetic Quran. Semua hak dilindungi.",
+    "meta": {
+      "title": "Kebijakan Privasi - Noor Phonetic Quran",
+      "description": "Kebijakan privasi Noor Phonetic Quran: data yang dikumpulkan (analitik, pembelian, formulir kontak), tujuan, berbagi dengan pihak ketiga, dan hak Anda."
+    }
+  },
+  "correctionRecitation": {
+    "meta": {
+      "title": "Koreksi Bacaan Al-Qur'an: Rekam dan Berkembanglah | Noor Phonetic Quran",
+      "description": "Rekam bacaan Al-Qur'an Anda dan dapatkan koreksi yang dipersonalisasi dengan Noor Phonetic Quran: peningkatan pelafalan dan kepatuhan terhadap kaidah Tajwid. Gratis di iOS dan Android.",
+      "keywords": "koreksi bacaan Al-Qur'an, perbaiki bacaan Anda, koreksi Tajwid, rekam bacaan Anda, aplikasi koreksi Al-Qur'an, belajar membaca Al-Qur'an dengan benar",
+      "ogTitle": "Koreksi Bacaan Al-Qur'an: Rekam dan Berkembanglah",
+      "ogDescription": "Rekam bacaan Anda dan dapatkan koreksi yang dipersonalisasi untuk berkembang dalam pelafalan dan Tajwid. Aplikasi gratis Noor Phonetic Quran."
+    },
+    "breadcrumb": {
+      "home": "Beranda",
+      "current": "Koreksi bacaan"
+    },
+    "hero": {
+      "title": "Koreksi Bacaan Al-Qur'an: Rekam dan Berkembanglah",
+      "subtitle": "Rekam bacaan Anda langsung di dalam aplikasi dan dapatkan koreksi yang dipersonalisasi untuk memperbaiki pelafalan dan kepatuhan terhadap kaidah Tajwid Anda."
+    },
+    "intro": {
+      "title": "Mengapa mengoreksi bacaan Anda?",
+      "paragraph1": "Membaca dengan benar tidak hanya tentang membaca fonetik dengan tepat: kepatuhan terhadap kaidah Tajwid (pemanjangan, penyambungan, titik keluarnya huruf) sering kali membutuhkan masukan dari luar untuk mengidentifikasi apa yang perlu diperbaiki.",
+      "paragraph2": "Dengan Noor Phonetic Quran, Anda dapat merekam diri Anda langsung di dalam aplikasi dan menerima koreksi yang dipersonalisasi, tanpa perlu mencari guru yang selalu tersedia."
+    },
+    "steps": {
+      "title": "Bagaimana cara kerja koreksi bacaan?",
+      "items": [
+        {
+          "title": "Pilih bagian",
+          "text": "pilih surah dan ayat yang ingin Anda baca."
+        },
+        {
+          "title": "Rekam bacaan Anda",
+          "text": "langsung dari aplikasi, tanpa perlu peralatan tambahan."
+        },
+        {
+          "title": "Kirim rekaman Anda",
+          "text": "bacaan Anda dimasukkan ke dalam antrean untuk didengarkan."
+        },
+        {
+          "title": "Terima koreksi Anda",
+          "text": "tanggapan yang dipersonalisasi akan menunjukkan poin-poin yang perlu diperbaiki, langsung di dalam aplikasi."
+        },
+        {
+          "title": "Berkembang seiring rekaman",
+          "text": "ulangi latihan secara rutin untuk memperbaiki pelafalan dan Tajwid Anda."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Pertanyaan yang sering diajukan tentang koreksi bacaan",
+      "items": [
+        {
+          "question": "Apakah koreksi bacaan gratis?",
+          "answer": "Rekaman pertama gratis. Selebihnya, fitur ini merupakan bagian dari penawaran premium aplikasi."
+        },
+        {
+          "question": "Berapa lama waktu untuk menerima koreksi?",
+          "answer": "Rekaman Anda dimasukkan ke dalam antrean untuk didengarkan dan dikoreksi, dengan tanggapan yang dipersonalisasi langsung di dalam aplikasi."
+        },
+        {
+          "question": "Bisakah saya merekam ulang bagian yang sama beberapa kali?",
+          "answer": "Ya, Anda dapat mengulangi latihan sesering yang Anda inginkan untuk berkembang pada bagian yang sama."
+        }
+      ]
+    },
+    "related": {
+      "title": "Temukan juga",
+      "tajweed": "Kaidah Tajwid",
+      "memorisation": "Menghafal Al-Qur'an (Hifz)",
+      "allFeatures": "Semua fitur"
+    }
+  },
+  "khatmaCoran": {
+    "meta": {
+      "title": "Khataman Al-Qur'an: Aplikasi untuk Merencanakan dan Melacak Bacaan Lengkap | Noor Phonetic Quran",
+      "description": "Rencanakan Khataman Anda (bacaan lengkap Al-Qur'an) dengan aplikasi Noor Phonetic Quran: target harian, pelacakan kemajuan, rentetan hari (streak), dan pengingat. Gratis di iOS dan Android.",
+      "keywords": "Khataman Al-Qur'an, aplikasi khataman, membaca Al-Qur'an lengkap, rencana bacaan Al-Qur'an, target khataman Ramadan, pelacakan bacaan Al-Qur'an, menyelesaikan Al-Qur'an",
+      "ogTitle": "Khataman Al-Qur'an: Rencanakan dan Lacak Bacaan Lengkap Anda",
+      "ogDescription": "Rencanakan Khataman Anda dengan target harian, pelacakan kemajuan, dan pengingat. Aplikasi gratis Noor Phonetic Quran."
+    },
+    "breadcrumb": {
+      "home": "Beranda",
+      "current": "Khataman Al-Qur'an"
+    },
+    "hero": {
+      "title": "Khataman Al-Qur'an: Rencanakan dan Selesaikan Bacaan Lengkap Anda",
+      "subtitle": "Tetapkan target hari, pantau kemajuan harian Anda, dan pertahankan rentetan bacaan (streak) Anda hingga halaman terakhir Al-Qur'an, dengan pengingat agar tetap konsisten.",
+      "googlePlay": "Google Play",
+      "appStore": "App Store"
+    },
+    "intro": {
+      "title": "Apa itu Khataman?",
+      "paragraph1": "Khataman adalah istilah untuk bacaan lengkap Al-Qur'an, dari awal (Al-Fatihah) hingga akhir (An-Nas). Banyak Muslim melakukan Khataman selama bulan Ramadan, namun juga dapat dilakukan kapan saja sepanjang tahun, dengan durasi pilihan Anda.",
+      "paragraph2": "Menyelesaikan Al-Qur'an membutuhkan konsistensi: tanpa rencana bacaan atau pelacakan, mudah untuk kehilangan alur atau berhenti di tengah jalan. Itulah yang diselesaikan oleh fitur Khataman Noor Phonetic Quran."
+    },
+    "features": {
+      "title": "Bagaimana cara kerja Khataman di dalam aplikasi?",
+      "items": [
+        {
+          "title": "Pilih durasi Khataman Anda",
+          "description": "misalnya 30 hari untuk Ramadan, atau durasi kustom yang disesuaikan dengan ritme Anda."
+        },
+        {
+          "title": "Pantau target harian Anda",
+          "description": "aplikasi secara otomatis menghitung jumlah halaman yang harus dibaca setiap hari untuk selesai tepat waktu."
+        },
+        {
+          "title": "Pertahankan rentetan bacaan Anda (streak)",
+          "description": "setiap hari Anda mencapai target, rentetan Anda diperpanjang, motivasi tambahan untuk tetap konsisten."
+        },
+        {
+          "title": "Terima pengingat",
+          "description": "notifikasi membantu Anda tidak lupa membaca hari ini."
+        },
+        {
+          "title": "Rayakan selesainya Khataman Anda",
+          "description": "ringkasan perjalanan Anda (hari yang dijalani, rentetan terbaik) ditampilkan setelah Al-Qur'an selesai."
+        }
+      ]
+    },
+    "screenshots": {
+      "title": "Pratinjau fitur Khataman",
+      "alts": [
+        "Noor Phonetic Quran - Pemilihan rencana Khataman (30, 60, 90 hari atau Ramadan)",
+        "Noor Phonetic Quran - Pelacakan kemajuan Khataman dengan streak",
+        "Noor Phonetic Quran - Indikator Khataman ditampilkan selama membaca"
+      ]
+    },
+    "faq": {
+      "title": "Pertanyaan yang sering diajukan tentang Khataman",
+      "items": [
+        {
+          "question": "Apa itu Khataman Al-Qur'an?",
+          "answer": "Khataman adalah istilah untuk bacaan lengkap Al-Qur'an, dari awal hingga akhir, umumnya dilakukan dalam periode tertentu (sering kali selama bulan Ramadan, tetapi juga sepanjang tahun)."
+        },
+        {
+          "question": "Bagaimana cara merencanakan Khataman dengan aplikasi ini?",
+          "answer": "Pilih jumlah hari untuk menyelesaikan Al-Qur'an (misalnya 30 hari untuk Ramadan), aplikasi secara otomatis menghitung target halaman harian Anda dan melacak kemajuan Anda hari demi hari."
+        },
+        {
+          "question": "Apa yang terjadi jika saya melewatkan satu hari membaca?",
+          "answer": "Aplikasi menyesuaikan target harian Anda yang tersisa agar Anda dapat mengejar ketertinggalan dan menyelesaikan Khataman tepat waktu, sambil tetap melacak rentetan hari berturut-turut (streak) Anda."
+        },
+        {
+          "question": "Bisakah saya melakukan Khataman di luar Ramadan?",
+          "answer": "Ya, Anda dapat memulai Khataman kapan saja sepanjang tahun, dengan durasi pilihan Anda."
+        },
+        {
+          "question": "Apakah fitur Khataman gratis?",
+          "answer": "Ya, seperti seluruh fitur utama Noor Phonetic Quran, Khataman sepenuhnya gratis."
+        }
+      ]
+    },
+    "related": {
+      "title": "Temukan juga",
+      "memorization": "Menghafal Al-Qur'an (Hifz)",
+      "audio": "Audio Al-Qur'an",
+      "allFeatures": "Semua fitur"
+    }
+  },
+  "tajweedCoran": {
+    "meta": {
+      "title": "Kaidah Tajwid Al-Qur'an: Pembelajaran Berwarna dan Terperinci | Noor Phonetic Quran",
+      "description": "Pelajari kaidah Tajwid Al-Qur'an dengan Noor Phonetic Quran: warna dan anotasi saat membaca, titik artikulasi huruf (Makharij), kaidah Nun Sakinah dan Waqf. Gratis di iOS dan Android.",
+      "keywords": "kaidah Tajwid, Tajwid Al-Qur'an, belajar Tajwid, Tajwid berwarna, Makharij huruf Arab, Nun Sakinah Tanwin, Waqf Ibtida, aplikasi Tajwid gratis",
+      "ogTitle": "Kaidah Tajwid Al-Qur'an: Pembelajaran Berwarna dan Terperinci",
+      "ogDescription": "Warna dan anotasi saat membaca, titik artikulasi, kaidah Nun Sakinah dan Waqf. Aplikasi gratis Noor Phonetic Quran."
+    },
+    "breadcrumb": {
+      "home": "Beranda",
+      "current": "Kaidah Tajwid"
+    },
+    "hero": {
+      "title": "Kaidah Tajwid Al-Qur'an: Pembelajaran Berwarna dan Terperinci",
+      "subtitle": "Teks Al-Qur'an ditampilkan berwarna dan beranotasi sesuai kaidah Tajwid, disertai panduan terperinci tentang titik artikulasi, Nun Sakinah, dan kaidah berhenti serta melanjutkan bacaan.",
+      "backLink": "Kembali ke beranda",
+      "googlePlay": "Google Play",
+      "appStore": "App Store"
+    },
+    "intro": {
+      "title": "Mengapa Tajwid penting",
+      "paragraph1": "Tajwid adalah kumpulan kaidah yang menjamin bacaan Al-Qur'an yang benar: pelafalan tepat setiap huruf, pemanjangan, penyambungan, dan tempat di mana kita boleh berhenti atau melanjutkan bacaan. Membaca tanpa mematuhi Tajwid dapat mengubah makna teks.",
+      "paragraph2": "Noor Phonetic Quran membuat kaidah-kaidah ini terlihat dan mudah dipahami, dengan warna saat membaca dan panduan terperinci untuk mendalami setiap konsep."
+    },
+    "features": {
+      "title": "Yang ditawarkan pembelajaran Tajwid",
+      "items": [
+        {
+          "title": "Teks berwarna dan beranotasi",
+          "description": "warna dan anotasi memandu bacaan Anda langsung pada teks Al-Qur'an, sesuai kaidah Tajwid yang benar."
+        },
+        {
+          "title": "Titik artikulasi (Makharij)",
+          "description": "pelajari pelafalan yang benar setiap huruf Arab dari titik artikulasinya, dengan diagram anatomi."
+        },
+        {
+          "title": "Nun Sakinah dan Tanwin",
+          "description": "4 kaidah yang mengatur nun sakinah dan tanwin (Izhar, Idgham, Iqlab, Ikhfa') dijelaskan dan dibandingkan secara visual."
+        },
+        {
+          "title": "Waqf dan Ibtida",
+          "description": "kaidah yang mengidentifikasi tempat di mana berhenti dan melanjutkan bacaan diperbolehkan, untuk menjaga makna teks."
+        }
+      ]
+    },
+    "screenshots": {
+      "title": "Pratinjau kaidah Tajwid",
+      "alts": [
+        "Noor Phonetic Quran - Kaidah Tajwid berwarna saat membaca",
+        "Noor Phonetic Quran - Titik artikulasi huruf Arab (Makharij)",
+        "Noor Phonetic Quran - Kaidah Nun Sakinah dan Tanwin",
+        "Noor Phonetic Quran - Kaidah Waqf dan Ibtida (berhenti dan melanjutkan)"
+      ]
+    },
+    "faq": {
+      "title": "Pertanyaan yang sering diajukan tentang Tajwid",
+      "items": [
+        {
+          "question": "Apa itu Tajwid?",
+          "answer": "Tajwid adalah kumpulan kaidah yang mengatur pelafalan Al-Qur'an yang benar: pemanjangan, penyambungan, titik artikulasi huruf, dan kaidah berhenti serta melanjutkan bacaan."
+        },
+        {
+          "question": "Bagaimana aplikasi ini mengajarkan Tajwid?",
+          "answer": "Teks Al-Qur'an diwarnai dan diberi anotasi sesuai kaidah Tajwid saat membaca, dan panduan terperinci menjelaskan setiap kaidah: titik artikulasi, Nun Sakinah dan Tanwin, serta kaidah Waqf dan Ibtida."
+        },
+        {
+          "question": "Apakah Tajwid cocok untuk pemula?",
+          "answer": "Ya, setiap kaidah dijelaskan dengan definisi sederhana, contoh, dan perbandingan visual untuk memudahkan pembelajaran, bahkan tanpa pengetahuan sebelumnya."
+        }
+      ]
+    },
+    "related": {
+      "title": "Temukan juga",
+      "audio": "Audio Al-Qur'an",
+      "memorization": "Menghafal Al-Qur'an (Hifz)",
+      "allFeatures": "Semua fitur"
+    }
+  },
+  "quizCoran": {
+    "meta": {
+      "title": "Kuis Al-Qur'an: Uji Pengetahuan Al-Qur'an Anda Sambil Bersenang-senang | Noor Phonetic Quran",
+      "description": "Uji pengetahuan Al-Qur'an Anda dengan Kuis Al-Qur'an dari Noor Phonetic Quran: 21 pertanyaan, skala hadiah, joker 50:50, jajak pendapat penonton, dan telepon teman. Gratis di iOS dan Android.",
+      "keywords": "kuis Al-Qur'an, kuis Islami, permainan pertanyaan Al-Qur'an, uji pengetahuan Al-Qur'an, kuis islam, aplikasi kuis Al-Qur'an gratis, pertanyaan Al-Qur'an dan jawaban",
+      "ogTitle": "Kuis Al-Qur'an: Uji Pengetahuan Al-Qur'an Anda Sambil Bersenang-senang",
+      "ogDescription": "21 pertanyaan, skala hadiah, joker 50:50, jajak pendapat penonton, dan telepon teman. Aplikasi gratis Noor Phonetic Quran."
+    },
+    "breadcrumb": {
+      "home": "Beranda",
+      "current": "Kuis Al-Qur'an"
+    },
+    "hero": {
+      "title": "Kuis Al-Qur'an: Uji Pengetahuan Anda Sambil Bersenang-senang",
+      "subtitle": "21 pertanyaan, skala hadiah yang bertahap, dan tiga joker (50:50, jajak pendapat penonton, telepon teman) untuk belajar Al-Qur'an dengan cara yang menyenangkan.",
+      "backLink": "Kembali ke beranda",
+      "googlePlay": "Google Play",
+      "appStore": "App Store"
+    },
+    "intro": {
+      "title": "Kuis untuk belajar sambil bersenang-senang",
+      "paragraph1": "Kuis Al-Qur'an dari Noor Phonetic Quran terinspirasi dari format \"Who Wants to Be a Millionaire\": serangkaian pertanyaan tentang Al-Qur'an, sejarah Islam, dan surah-surah, dengan skala hadiah yang meningkat setiap kali jawaban benar.",
+      "paragraph2": "Ini cara yang menyenangkan untuk mengulas atau menemukan pengetahuan tentang Al-Qur'an, sendiri atau bersama keluarga, tanpa tekanan — Anda dapat berhenti kapan saja sambil menyimpan skor Anda."
+    },
+    "features": {
+      "title": "Bagaimana cara kerja kuisnya?",
+      "items": [
+        {
+          "title": "Jawab 21 pertanyaan",
+          "description": "pertanyaan pilihan ganda dengan tingkat kesulitan yang meningkat tentang Al-Qur'an dan sejarah Islam."
+        },
+        {
+          "title": "Ikuti skala hadiah",
+          "description": "setiap jawaban benar membawa Anda maju di skala mulai dari 100 poin hingga 1 juta."
+        },
+        {
+          "title": "Gunakan joker Anda",
+          "description": "50:50 menghilangkan dua jawaban salah, jajak pendapat penonton menampilkan pendapat pemain lain, dan telepon teman menyarankan sebuah jawaban."
+        },
+        {
+          "title": "Berhenti kapan saja Anda mau",
+          "description": "tombol \"Walk Away\" memungkinkan Anda menyimpan hadiah Anda kapan saja daripada mengambil risiko kehilangan semuanya."
+        }
+      ]
+    },
+    "screenshots": {
+      "title": "Pratinjau Kuis Al-Qur'an",
+      "alts": [
+        "Noor Phonetic Quran - Layar beranda Kuis Al-Qur'an",
+        "Noor Phonetic Quran - Pertanyaan kuis dengan skala hadiah",
+        "Noor Phonetic Quran - Joker jajak pendapat penonton dalam kuis",
+        "Noor Phonetic Quran - Joker telepon teman dalam kuis"
+      ]
+    },
+    "faq": {
+      "title": "Pertanyaan yang sering diajukan tentang Kuis Al-Qur'an",
+      "items": [
+        {
+          "question": "Berapa banyak pertanyaan dalam kuis ini?",
+          "answer": "Kuis ini terdiri dari 21 pertanyaan pilihan ganda, dengan tingkat kesulitan yang meningkat seiring permainan berlangsung."
+        },
+        {
+          "question": "Apa yang terjadi jika saya menjawab salah suatu pertanyaan?",
+          "answer": "Tergantung kemajuan Anda, Anda tetap mempertahankan tingkat hadiah terjamin terakhir yang tercapai, seperti dalam format \"Who Wants to Be a Millionaire\"."
+        },
+        {
+          "question": "Apakah Kuis Al-Qur'an gratis?",
+          "answer": "Ya, Kuis Al-Qur'an merupakan bagian dari fitur gratis Noor Phonetic Quran."
+        }
+      ]
+    },
+    "related": {
+      "title": "Temukan juga",
+      "khatma": "Khataman Al-Qur'an",
+      "audio": "Audio Al-Qur'an",
+      "allFeatures": "Semua fitur"
+    }
+  },
+  "memorisationCoran": {
+    "meta": {
+      "title": "Menghafal Al-Qur'an (Hifz): Aplikasi dengan Pengulangan Audio dan Kuis | Noor Phonetic Quran",
+      "description": "Hafalkan Al-Qur'an (Hifz) dengan aplikasi Noor Phonetic Quran: pengulangan audio ayat demi ayat, mode kata per kata, kuis ulasan, poin, level, dan lencana. Gratis di iOS dan Android.",
+      "keywords": "menghafal Al-Qur'an, Hifz Al-Qur'an, aplikasi hafalan Al-Qur'an, belajar Al-Qur'an dengan hafalan, hafalan ayat demi ayat, aplikasi Hifz gratis",
+      "ogTitle": "Menghafal Al-Qur'an (Hifz): Pengulangan Audio, Kuis, dan Pelacakan Kemajuan",
+      "ogDescription": "Hafalkan Al-Qur'an dengan pengulangan audio, mode kata per kata, kuis, dan tantangan harian. Aplikasi gratis Noor Phonetic Quran."
+    },
+    "breadcrumb": {
+      "home": "Beranda",
+      "current": "Hafalan Al-Qur'an"
+    },
+    "hero": {
+      "title": "Menghafal Al-Qur'an (Hifz): Pengulangan Audio, Kuis, dan Pelacakan Kemajuan",
+      "subtitle": "Hafalkan Al-Qur'an ayat demi ayat berkat pengulangan audio, mode kata per kata, dan kuis ulasan, dengan sistem poin dan lencana agar tetap termotivasi setiap hari.",
+      "backLink": "Kembali ke beranda",
+      "googlePlay": "Google Play",
+      "appStore": "App Store"
+    },
+    "intro": {
+      "title": "Apa itu Hifz?",
+      "paragraph1": "Hifz adalah istilah untuk menghafal Al-Qur'an, ayat demi ayat dan surah demi surah. Ini adalah perjalanan yang menuntut pengulangan rutin, metode belajar yang baik, dan cara yang andal untuk memeriksa apa yang sudah dihafal dengan baik.",
+      "paragraph2": "Noor Phonetic Quran dirancang untuk mendampingi perjalanan ini dengan alat konkret: audio, pengulangan, ulasan aktif, dan gamifikasi, alih-alih hanya membaca berulang-ulang sebuah mushaf."
+    },
+    "features": {
+      "title": "Bagaimana cara menghafal Al-Qur'an dengan aplikasi ini?",
+      "items": [
+        {
+          "title": "Dengarkan dan ulangi",
+          "description": "setiap ayat memiliki pengulangan audio untuk memperkuat hafalan melalui mendengarkan."
+        },
+        {
+          "title": "Gunakan mode kata per kata",
+          "description": "pecah ayat-ayat yang lebih panjang untuk menghafalnya secara bertahap."
+        },
+        {
+          "title": "Uji diri Anda dengan kuis ulasan",
+          "description": "periksa secara rutin bahwa ayat-ayat yang dipelajari tetap terhafal dengan baik."
+        },
+        {
+          "title": "Dapatkan poin dan lencana",
+          "description": "setiap ayat yang dihafal menghasilkan poin, meningkatkan level Anda, dan membuka lencana."
+        },
+        {
+          "title": "Ikuti tantangan harian",
+          "description": "target harian mendorong Anda untuk menghafal sedikit setiap hari, tanpa beban berlebih."
+        }
+      ]
+    },
+    "screenshots": {
+      "title": "Pratinjau rencana hafalan",
+      "alts": [
+        "Noor Phonetic Quran - Tahapan rencana hafalan harian",
+        "Noor Phonetic Quran - Daftar centang hafalan dengan streak",
+        "Noor Phonetic Quran - Indikator rencana harian ditampilkan selama membaca"
+      ]
+    },
+    "faq": {
+      "title": "Pertanyaan yang sering diajukan tentang hafalan Al-Qur'an",
+      "items": [
+        {
+          "question": "Berapa lama waktu yang dibutuhkan untuk menghafal Al-Qur'an?",
+          "answer": "Ini tergantung ritme masing-masing. Aplikasi ini memungkinkan Anda maju dengan ritme Anda sendiri, ayat demi ayat, tanpa tekanan waktu."
+        },
+        {
+          "question": "Apakah mode hafalan berfungsi secara offline?",
+          "answer": "Setelah surah dimuat, pengulangan audio dan kuis ulasan tetap tersedia tanpa koneksi internet."
+        },
+        {
+          "question": "Apakah fitur Hafalan gratis?",
+          "answer": "Ya, seperti seluruh fitur utama Noor Phonetic Quran, mode Hafalan sepenuhnya gratis."
+        }
+      ]
+    },
+    "related": {
+      "title": "Temukan juga",
+      "khatma": "Khataman Al-Qur'an",
+      "tajweed": "Kaidah Tajwid",
+      "allFeatures": "Semua fitur"
+    }
+  }
+}

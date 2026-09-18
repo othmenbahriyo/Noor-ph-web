@@ -1,0 +1,2323 @@
+{
+  "common": {
+    "nav": {
+      "features": "功能特色",
+      "screenshots": "应用截图",
+      "reviews": "用户评价",
+      "privacy": "隐私政策",
+      "contact": "联系我们",
+      "openMenu": "打开导航菜单",
+      "closeMenu": "关闭导航菜单",
+      "toggleTheme": "切换深色模式",
+      "googlePlay": "Google Play",
+      "appStore": "App Store",
+      "home": "首页",
+      "reviewsBreadcrumb": "评价",
+      "contactBreadcrumb": "联系我们",
+      "pages": {
+        "audioCoran": "古兰经音频",
+        "khatmaCoran": "古兰经封印",
+        "memorisationCoran": "古兰经背诵",
+        "quizCoran": "古兰经测验",
+        "tajweedCoran": "塔吉威德规则",
+        "correctionRecitation": "诵读纠正",
+        "privacyPolicy": "隐私政策",
+        "cgu": "使用条款"
+      }
+    },
+    "languageSwitcher": {
+      "label": "选择语言",
+      "searchPlaceholder": "搜索语言...",
+      "close": "关闭",
+      "noResults": "未找到相关语言"
+    },
+    "footer": {
+      "about": "一款创新应用，帮助您精准且轻松地学习诵读古兰经。",
+      "quickLinks": "快速链接",
+      "resources": "资源",
+      "faq": "常见问题",
+      "support": "支持",
+      "contact": "联系我们",
+      "location": "法国巴黎",
+      "rights": "版权所有。",
+      "backToTop": "返回页面顶部"
+    },
+    "contactForm": {
+      "eyebrow": "联系我们",
+      "title": "联系我们",
+      "description": "如果您有任何建议、改进意见或反馈，欢迎随时给我们写信。我们会尽快回复您。",
+      "highlights": [
+        {
+          "title": "快速回复",
+          "text": "我们的团队会处理每一条留言，通常在48小时内回复。无论是简单的问题还是技术故障，我们都力求做到有问必答。"
+        },
+        {
+          "title": "倾听社区的声音",
+          "text": "已有超过8万名用户信赖我们；您的反馈有助于让应用变得对每个人都更好。每一条留言都很重要，都在帮助Noor成为一个更贴合用户需求的工具。"
+        },
+        {
+          "title": "您的想法塑造着这款应用",
+          "text": "许多现有功能（塔吉维德诵读规则、卡塔姆通读计划、测验等）都源自用户的建议。您每天使用应用的体验，正是我们未来改进的最佳灵感来源。"
+        }
+      ],
+      "name": "姓名",
+      "namePlaceholder": "您的姓名",
+      "nameRequired": "姓名为必填项",
+      "email": "邮箱",
+      "emailPlaceholder": "you@example.com",
+      "emailRequired": "邮箱为必填项",
+      "emailInvalid": "邮箱格式无效",
+      "phone": "电话（选填）",
+      "phonePlaceholder": "+33 6 12 34 56 78",
+      "subject": "主题",
+      "subjectPlaceholder": "请选择主题...",
+      "subjectRequired": "请选择一个主题",
+      "subjectOptions": {
+        "general": "一般问题",
+        "suggestion": "建议",
+        "bug": "报告错误",
+        "technical": "技术问题",
+        "other": "其他"
+      },
+      "platform": "使用的平台",
+      "platformPlaceholder": "请选择平台...",
+      "platformRequired": "请选择一个平台",
+      "platformOptions": {
+        "ios": "iOS",
+        "android": "Android",
+        "web": "Web"
+      },
+      "message": "留言内容",
+      "messagePlaceholder": "请在此输入您的留言...",
+      "messageRequired": "留言内容为必填项",
+      "messageTooShort": "留言内容至少需包含10个字符",
+      "send": "发送",
+      "sending": "发送中...",
+      "successMessage": "您的留言已成功发送，谢谢！",
+      "errorMessage": "发生错误，请重试。"
+    }
+  },
+  "home": {
+    "meta": {
+      "title": "Noor Phonetic Quran - 古兰经学习应用",
+      "description": "Noor Phonetic Quran - 免费应用，帮助您学习诵读、背诵（哈费兹）并通读整部古兰经（卡塔姆）。提供拼音注音、同步音频、彩色塔吉维德标注、每日阅读计划、测验以及诵读纠正功能。已有8万多名满意用户。iOS和Android均可下载。",
+      "keywords": "古兰经拼音, 学习古兰经, Quran phonetics, 古兰经诵读, 塔吉维德, 免费古兰经应用, 古兰经阿拉伯语法语, 古兰经拼音转写, learn Quran, Quran app free, 古兰经卡塔姆, 背诵古兰经, 古兰经哈费兹, 古兰经阅读计划, 古兰经测验, 古兰经诵读纠正, 古兰经背诵应用",
+      "ogTitle": "Noor Phonetic Quran - 用拼音诵读古兰经",
+      "ogDescription": "即使不懂阿拉伯语，也能学习诵读古兰经。免费应用，提供精准拼音、内置音频和塔吉维德规则。"
+    },
+    "hero": {
+      "statusBadge": "8万+活跃用户",
+      "headlineHighlight": "诵读",
+      "headline": "圣古兰经，即使您不懂阿拉伯语",
+      "subheadline": "凭借精准直观的拼音注音，Noor Phonetic Quran让每一节经文都变得人人可读。",
+      "miniFeatures": {
+        "phonetics": "精准拼音注音",
+        "audio": "内置音频",
+        "tajweed": "塔吉维德规则"
+      },
+      "ratingText": "在Play商店和App Store均获得满分评价",
+      "downloadOn": "下载平台",
+      "usersBadgeLabel": "用户",
+      "updateBadge": "近期已更新",
+      "deviceScreenAlt": "Noor Phonetic Quran - 显示古兰经拼音的应用界面",
+      "mobileDeviceScreenAlt": "Noor Phonetic Quran - 通过拼音转写学习古兰经"
+    },
+    "languages": {
+      "title": "支持您的语言",
+      "subtitle": "Noor Phonetic Quran应用已被翻译成20种语言，陪伴全世界的穆斯林。"
+    },
+    "why": {
+      "title": "为什么选择Noor Phonetic Quran？",
+      "subtitle": "了解让我们的应用与众不同的原因",
+      "items": [
+        {
+          "icon": "fa-heart",
+          "stepLabel": "痛点",
+          "title": "人人可用",
+          "text": "许多穆斯林希望诵读古兰经，却因阿拉伯语而却步。我们的应用消除了这一障碍。"
+        },
+        {
+          "icon": "fa-graduation-cap",
+          "stepLabel": "方法",
+          "title": "轻松学习",
+          "text": "清晰直观的拼音注音让每个人都能按自己的节奏学习，没有压力，没有挫败感。"
+        },
+        {
+          "icon": "fa-check-circle",
+          "stepLabel": "成果",
+          "title": "正确的发音",
+          "text": "在精准的塔吉维德规则和同步音频的引导下，您将逐步实现地道的诵读。"
+        }
+      ]
+    },
+    "features": {
+      "title": "主要功能特色",
+      "subtitle": "了解为什么Noor Phonetic Quran是学习诵读古兰经的完美应用",
+      "items": [
+        {
+          "icon": "fa-book",
+          "title": "拼音转写",
+          "text": "每节经文都配有详细的拼音转写，帮助您正确发音。"
+        },
+        {
+          "icon": "fa-bookmark",
+          "title": "塔吉维德规则",
+          "href": "/tajweed-coran",
+          "text": "颜色标注和注释将引导您按照正确的塔吉维德规则诵读。"
+        },
+        {
+          "icon": "fa-language",
+          "title": "多语言翻译",
+          "text": "提供法语和英语翻译，帮助您更好地理解经文的含义。"
+        },
+        {
+          "icon": "fa-headphones",
+          "title": "同步音频",
+          "href": "/audio-coran",
+          "text": "每节经文都配有音频，让您听到正确的发音。"
+        },
+        {
+          "icon": "fa-mobile-alt",
+          "title": "友好界面",
+          "text": "直观的导航方式，可根据您的喜好进行个性化设置。"
+        },
+        {
+          "icon": "fa-graduation-cap",
+          "title": "轻松学习",
+          "text": "非常适合初学者，也适合希望提升诵读水平的人。"
+        },
+        {
+          "icon": "fa-calendar-check",
+          "title": "古兰经卡塔姆",
+          "href": "/khatma-coran",
+          "text": "规划并跟踪您通读整部古兰经（卡塔姆）的进度，设定每日目标、保持连续打卡（streak），并获得进度提醒直至完成。"
+        },
+        {
+          "icon": "fa-calendar-day",
+          "title": "每日阅读计划",
+          "text": "设定每天要阅读的页数，通过个性化的清单跟踪您的进度，养成规律阅读古兰经的习惯。"
+        },
+        {
+          "icon": "fa-brain",
+          "title": "背诵古兰经（哈费兹）",
+          "href": "/memorisation-coran",
+          "text": "逐节背诵古兰经，配有音频重复、逐词模式、复习测验、积分、等级、徽章和每日挑战，让您保持学习动力。"
+        },
+        {
+          "icon": "fa-microphone-alt",
+          "title": "诵读纠正",
+          "href": "/correction-recitation-coran",
+          "text": "录制您的诵读并获得个性化纠正，提升发音准确度和塔吉维德规则的掌握。"
+        },
+        {
+          "icon": "fa-trophy",
+          "title": "古兰经测验",
+          "href": "/quiz-coran",
+          "text": "通过趣味测验检验您对古兰经的了解，多个难度级别，让您在娱乐中学习。"
+        },
+        {
+          "icon": "fa-mobile-screen-button",
+          "title": "主屏幕小组件",
+          "text": "在手机主屏幕上直接显示每日经文，让您的阅读习惯始终触手可及。"
+        }
+      ]
+    },
+    "videoDemo": {
+      "title": "观看应用实际使用效果",
+      "subtitle": "观看这段简短的演示，了解Noor Phonetic Quran的使用方式"
+    },
+    "screenshots": {
+      "title": "应用截图",
+      "subtitle": "通过图片了解应用",
+      "alts": [
+        "Noor Phonetic Quran - 古兰经章节列表",
+        "Noor Phonetic Quran - 精准拼音诵读",
+        "Noor Phonetic Quran - 彩色塔吉维德规则标注",
+        "Noor Phonetic Quran - 音频与文本同步",
+        "Noor Phonetic Quran - 古兰经法语翻译",
+        "Noor Phonetic Quran - 古兰经学习模式",
+        "Noor Phonetic Quran - 按章节导航",
+        "Noor Phonetic Quran - 带拼音转写的经文",
+        "Noor Phonetic Quran - 应用设置",
+        "Noor Phonetic Quran - 古兰经连续阅读",
+        "Noor Phonetic Quran - 现代直观的界面"
+      ]
+    },
+    "faq": {
+      "title": "常见问题",
+      "subtitle": "快速找到您问题的答案",
+      "items": [
+        {
+          "question": "应用可以离线使用吗？",
+          "answer": "当然可以！安装应用后，古兰经的所有章节均可离线使用。您可以随时随地阅读和诵读，无需网络连接。"
+        },
+        {
+          "question": "你们使用哪种拼音系统？",
+          "answer": "我们使用简单通用的英语拼音系统，人人都易于阅读。法语拼音版本正在开发中，即将推出。"
+        },
+        {
+          "question": "应用中的古兰经是完整的吗？",
+          "answer": "是的！应用包含完整的圣古兰经，共114章，从头到尾，配有完整的拼音转写。"
+        },
+        {
+          "question": "所有经文都有音频吗？",
+          "answer": "是的，每节经文都配有清晰、缓慢的诵读音频，非常适合帮助学习和改善发音。"
+        },
+        {
+          "question": "应用是免费的吗？",
+          "answer": "是的，Noor Phonetic Quran完全免费。我们的目标是让每个人都能无障碍地接触古兰经。"
+        },
+        {
+          "question": "卡塔姆（通读整部古兰经）功能如何运作？",
+          "answer": "应用允许您通过选择完成古兰经所需的天数来规划卡塔姆。您可以跟踪每日进度、连续打卡天数（streak），并收到提醒，帮助您保持规律直至完成阅读。"
+        },
+        {
+          "question": "可以用这个应用背诵古兰经（哈费兹）吗？",
+          "answer": "可以，应用提供完整的背诵模式，包括逐节音频重复、逐词模式、复习测验、积分、等级、徽章和每日挑战，帮助您高效背诵古兰经。"
+        },
+        {
+          "question": "是否有多位诵读者可供选择？",
+          "answer": "是的，您可以从多位古兰经诵读者中进行选择，并下载音频以便完全离线收听。"
+        },
+        {
+          "question": "应用提供诵读纠正功能吗？",
+          "answer": "是的，您可以直接在应用内录制您的诵读，并获得个性化纠正，以改善发音并符合塔吉维德规则。"
+        },
+        {
+          "question": "以后会推出新功能吗？",
+          "answer": "会的，我们一直在持续改进应用。多项新功能即将推出：完整的法语拼音、扩展的彩色塔吉维德模式、逐字母学习模式，以及更多惊喜！"
+        }
+      ]
+    },
+    "cta": {
+      "title": "今天就开始您的学习之旅",
+      "subtitle": "免费下载Noor Phonetic Quran，改变您诵读古兰经的体验。",
+      "downloadOn": "下载平台"
+    },
+    "testimonials": {
+      "title": "用户的真实评价",
+      "subtitle": "了解我们不断壮大的满意用户社区的评价",
+      "prevLabel": "上一条评价",
+      "nextLabel": "下一条评价",
+      "viewAllLabel": "查看所有评价",
+      "items": [
+        {
+          "initials": "SD",
+          "name": "Sidy DIOP",
+          "device": "2026年7月16日",
+          "text": "非常好的学古兰经应用，就算不会发音也没关系，只要听音频再跟着重复就行",
+          "rating": 5
+        },
+        {
+          "initials": "AB",
+          "name": "Amourlaye Beman",
+          "device": "2026年3月25日",
+          "text": "非常非常棒的应用。愿真主永远保佑你们做这件事，并启发你们进一步丰富内容……你们可以先开始加入圣训的法语翻译。谢谢🙏🥰👍",
+          "rating": 5
+        },
+        {
+          "initials": "YT",
+          "name": "Yaou Tchari",
+          "device": "2026年7月6日",
+          "text": "这是我一直在找的非常好的应用，容易阅读，也能指出让你觉得困难的错误。",
+          "rating": 5
+        },
+        {
+          "initials": "FA",
+          "name": "Fatima",
+          "device": "2026年4月21日",
+          "text": "我是作为礼物发现这个应用的，真的很惊喜😁，说实话。遇到过一个小问题，感赞真主，很快就解决了。真的很方便学习，我会推荐给很多人。愿真主回赐你们🤲🏻🌹",
+          "rating": 5
+        },
+        {
+          "initials": "DH",
+          "name": "Djamila Hb",
+          "device": "2026年7月30日",
+          "text": "非常适合学习阅读古兰经，愿真主使我们容易",
+          "rating": 5
+        },
+        {
+          "initials": "NA",
+          "name": "Naoal",
+          "device": "2026年5月12日",
+          "text": "对于不会读阿拉伯文的人来说真的很棒，因为有些人想学古兰经但不会读阿拉伯文。说实话这是一个值得安装的应用👍",
+          "rating": 5
+        },
+        {
+          "initials": "ID",
+          "name": "Ibou Dieme",
+          "device": "2026年1月8日",
+          "text": "这个应用简直太棒了，如果有100颗星的选项我一定会给，不过有个小问题需要修正，就是没办法把音频下载下来离线使用，我相信如果能下载音频离线收听，这个应用会更完美",
+          "rating": 5
+        },
+        {
+          "initials": "YC",
+          "name": "Youssouf Cherif",
+          "device": "2026年1月26日",
+          "text": "最好的应用。帮了我很多忙。多亏这个应用我能轻松阅读圣古兰经，感觉很好✨。真心希望真主百倍回赐设计者们。太出色了。我强烈推荐。这么多功能，让你能按照应用中清晰而有条理的计划轻松学习圣古兰经。",
+          "rating": 5
+        },
+        {
+          "initials": "FF",
+          "name": "Faiza Faiza",
+          "device": "2024年11月6日",
+          "text": "应用不错，但问题是每两分钟就会卡住。我卸载重装了问题依然存在。可这正是我一直在找的东西。愿真主保佑我们大家",
+          "rating": 5
+        },
+        {
+          "initials": "LS",
+          "name": "Louis Sawadogo",
+          "device": "2025年3月27日",
+          "text": "这是个很好的应用，但下载之后我没办法离线阅读。可你们说是离线的，结果我发现要有网络才能获取数据。你们得看看这个问题。谢谢。",
+          "rating": 5
+        },
+        {
+          "initials": "YJ",
+          "name": "Yassin Jaounni",
+          "device": "2025年11月23日",
+          "text": "这个应用太厉害了，一开始我只是为了学几个章节才装的，因为我不识阿拉伯文，结果看到所有功能后我震惊了，我最喜欢的是关于伊斯兰的内容能让你受益无穷，你可以学阿拉伯语、学祈祷词，甚至还有诵读者陪你一起读古兰经来纠正你的发音，他们还教你轻松学古兰经的技巧，简直厉害到不行，我强烈推荐",
+          "rating": 5
+        },
+        {
+          "initials": "JB",
+          "name": "Jeff Bezos Mayele",
+          "device": "2026年5月30日",
+          "text": "一款很棒很好用的应用。帮助我们这些不懂阿拉伯语的人阅读并理解各章经文",
+          "rating": 5
+        },
+        {
+          "initials": "AB",
+          "name": "Abdoulaye Bah",
+          "device": "2025年3月5日",
+          "text": "对于想自学或独自阅读古兰经的人来说，这是一款非常好的应用！愿真主以美好回赐你们，也让我们大家都能轻松学习和背诵圣古兰经！",
+          "rating": 5
+        },
+        {
+          "initials": "DD",
+          "name": "dohona daouda coulibaly",
+          "device": "2025年3月2日",
+          "text": "页面加载真的太慢太慢了。除此之外我很喜欢这个应用。但加载太花时间了。你们有办法解决这个问题吗？",
+          "rating": 5
+        },
+        {
+          "initials": "YC",
+          "name": "yvan Cedric",
+          "device": "2025年3月4日",
+          "text": "愿真主回赐你们。对于不懂阿拉伯语的人来说是很好的学习应用。只是更新之后，应用就不能离线阅读了。",
+          "rating": 5
+        },
+        {
+          "initials": "HN",
+          "name": "Horizons New",
+          "device": "2025年8月23日",
+          "text": "愿平安与你们同在，我对这个应用完全满意，光是介绍部分就值得给5颗星🌟 希望在页面加载方面做一些改进，最好能出一个纯法语版本以减少等待时间，晚上用的夜间模式也会很棒，方便晚间阅读，谢谢你们的付出，愿真主回赐你们",
+          "rating": 5
+        },
+        {
+          "initials": "DB",
+          "name": "dorra bn",
+          "device": "2025年10月7日",
+          "text": "一款实用又用心设计的应用！多亏了音译转写，我在短时间内提升了古兰经阅读能力。愿真主回赐开发者们",
+          "rating": 5
+        },
+        {
+          "initials": "SM",
+          "name": "Sara ma langue",
+          "device": "2025年5月5日",
+          "text": "这是我一直不断推荐给想用不同语言阅读、学习和理解古兰经的人的应用。玛沙安拉，做得真好。这正是我长期寻找的东西。愿至尊真主保佑你们。",
+          "rating": 5
+        },
+        {
+          "initials": "AA",
+          "name": "Adoum Ali Bezei",
+          "device": "2026年5月20日",
+          "text": "最好的拼音古兰经，非常感谢，我非常感激",
+          "rating": 5
+        },
+        {
+          "initials": "BK",
+          "name": "Bakary Konaté",
+          "device": "2025年3月19日",
+          "text": "我真的很喜欢这个应用，但我更希望你们能加入伊玛目功能，这样我们就能自己选择想跟哪位伊玛目学习，我不太喜欢的一点是它逐节朗读，我更希望能不停顿地直接朗读整章",
+          "rating": 5
+        },
+        {
+          "initials": "YB",
+          "name": "Yosra Bahri",
+          "device": "2025年10月5日",
+          "text": "非常出色的应用！非常实用，容易使用，设计也很用心。强烈推荐！👏 向开发者致敬，做得真好，继续加油，你们做得非常出色！💪",
+          "rating": 5
+        },
+        {
+          "initials": "FO",
+          "name": "fatima ourja",
+          "device": "2025年4月25日",
+          "text": "太棒的应用了，正是我一直在寻找的，愿至高无上的真主给你们最美好的回赐。说实话这真是一个值得付费支持的应用。",
+          "rating": 5
+        },
+        {
+          "initials": "ND",
+          "name": "Nicolas DA COSTA CAMPOS CERCA",
+          "device": "2025年4月20日",
+          "text": "我推荐这个应用来学习塔吉维德诵读规则，对初学者来说非常容易，对想精进的人来说也一样，使用起来非常简单",
+          "rating": 5
+        },
+        {
+          "initials": "SR",
+          "name": "Sadrissi Regbayou",
+          "device": "2025年3月11日",
+          "text": "不错。但会丢失上次阅读的页面。而且也不能离线阅读。如果同一页面上能同时显示阿拉伯文章节和法语翻译会更有意思。",
+          "rating": 5
+        },
+        {
+          "initials": "OA",
+          "name": "Oussama AZIZI",
+          "device": "2025年10月12日",
+          "text": "非常出色的应用，拼音清晰，音频质量好，塔吉维德规则用颜色标注。非常好的工具，方便学习古兰经。",
+          "rating": 5
+        },
+        {
+          "initials": "BH",
+          "name": "Bahri Hamza",
+          "device": "2025年9月27日",
+          "text": "愿平安与你同在，非常出色的应用🌟 容易使用，对阅读和学习非常有帮助。愿真主回赐开发者们❤️🤲",
+          "rating": 5
+        },
+        {
+          "initials": "HR",
+          "name": "Houssem RAISSI",
+          "device": "2024年10月2日",
+          "text": "界面直观又舒适，方便阅读和导航。非常适合快速找到需要的章节。",
+          "rating": 5
+        },
+        {
+          "initials": "GB",
+          "name": "Gora Bar",
+          "device": "2025年10月10日",
+          "text": "非常好的应用。使用非常简单，也没有广告。太棒了！",
+          "rating": 5
+        },
+        {
+          "initials": "SK",
+          "name": "Sekou Kante",
+          "device": "2025年3月21日",
+          "text": "这正是我一直在找的应用，但离线功能不管用，我下载了离线选项还是不行，请修复一下，对我来说拼音才是让我能读古兰经的关键",
+          "rating": 5
+        },
+        {
+          "initials": "YF",
+          "name": "youssoupha FALL",
+          "device": "2025年4月11日",
+          "text": "愿真主在你每次点开这个应用时都赐予你如山般的善功回赐。你们永远无法想象自己为那些还没读完古兰经学校的穆斯林做了多大的好事。我也刚为我母亲下载了这个应用，愿真主大大地保佑你们。万分感谢❤️",
+          "rating": 5
+        },
+        {
+          "initials": "TT",
+          "name": "toure traore aboubakar sidik",
+          "device": "2024年11月29日",
+          "text": "我给3颗星，因为应用没有把章节保存下来供离线阅读。除此之外还算容易阅读",
+          "rating": 5
+        },
+        {
+          "initials": "MG",
+          "name": "Mory Gbane",
+          "device": "2025年6月29日",
+          "text": "应用不错，但唯一的问题是没法一次性把经文彻底下载下来，总是要重新下载。有点麻烦",
+          "rating": 5
+        },
+        {
+          "initials": "FS",
+          "name": "Fatima Si Ahmed",
+          "device": "2025年7月23日",
+          "text": "无论身处何地都能非常方便地用拼音阅读古兰经，因为不需要联网，尤其是不想打扰别人的时候，只要有手机就够了，不需要🕯不需要灯光😇🥰",
+          "rating": 5
+        },
+        {
+          "initials": "MF",
+          "name": "Mohamed Faye",
+          "device": "2025年3月5日",
+          "text": "我给你们5颗星🌟因为你们太出色了，你们做的事真的很棒，我真的很喜欢😭❤️❤️❤️愿至慈至悯的真主保佑你。不过我希望音频模式能覆盖整章而不是只有一节经文，先谢谢了",
+          "rating": 5
+        },
+        {
+          "initials": "MG",
+          "name": "Mohamed gaissir Bah",
+          "device": "2026年3月4日",
+          "text": "祝你们平安，非常出色的应用，我已经用拼音读过好几本书了，但说实话这款应用目前是最好的，我几乎快成拼音专家了，愿真主百倍回赐你们，我真的很享受😇😇😇",
+          "rating": 5
+        },
+        {
+          "initials": "YK",
+          "name": "Yao Kouamé Enock",
+          "device": "2025年12月13日",
+          "text": "对我们这些不会读阿拉伯字母的人来说，这是一款非常好的应用。这正是我一直在找的东西。非常感谢开发者们。祝你们愉快，愿真主指引我们走上正道。🤲📿",
+          "rating": 5
+        },
+        {
+          "initials": "FA",
+          "name": "Fatima",
+          "device": "2026年1月2日",
+          "text": "应用整体不错，但每次都缺少每章的结尾部分，所以没办法阅读或学习我想要的那一章，我觉得这真的很可惜",
+          "rating": 5
+        },
+        {
+          "initials": "MS",
+          "name": "Macolt Scot",
+          "device": "2025年3月17日",
+          "text": "感赞真主，我能很好地用拼音阅读古兰经，但下载没能完成，还缺了一些页面",
+          "rating": 5
+        },
+        {
+          "initials": "EH",
+          "name": "El Hadj Diallo",
+          "device": "2025年4月1日",
+          "text": "一款非常好、清晰、设计精良的应用，拼音与古兰经经文完全对应，发音也一致，向为穆斯林大众做出这份贡献的团队致敬，愿真主保佑你们",
+          "rating": 5
+        },
+        {
+          "initials": "AM",
+          "name": "Abdelmadjid Mahamat",
+          "device": "2025年4月25日",
+          "text": "玛沙安拉！对于真正想学习并轻松阅读的人来说是最好的应用。",
+          "rating": 5
+        },
+        {
+          "initials": "OS",
+          "name": "Ousmasim's Simen",
+          "device": "2026年7月22日",
+          "text": "太棒了，会帮我很大的忙",
+          "rating": 5
+        },
+        {
+          "initials": "NS",
+          "name": "Nour Soum",
+          "device": "2025年10月17日",
+          "text": "非常有意思，唯一的问题是每次都要联网。也可以试试离线版本",
+          "rating": 5
+        },
+        {
+          "initials": "CB",
+          "name": "chiraz bahri",
+          "device": "2025年10月19日",
+          "text": "非常棒的应用，简单又全面。随时随地都能完美地阅读和聆听古兰经。愿真主保佑你们",
+          "rating": 5
+        },
+        {
+          "initials": "AA",
+          "name": "aicha Arouna",
+          "device": "2026年7月29日",
+          "text": "非常好的应用，我推荐这款应用",
+          "rating": 5
+        },
+        {
+          "initials": "SZ",
+          "name": "Sadjid Zamoum",
+          "device": "2026年8月2日",
+          "text": "太不可思议了，没什么好说的",
+          "rating": 5
+        },
+        {
+          "initials": "AD",
+          "name": "Almassane Diallo",
+          "device": "2026年7月13日",
+          "text": "非常感谢团队，多亏了这个应用和你们，我学到了很多，愿真主回赐你们",
+          "rating": 5
+        },
+        {
+          "initials": "HA",
+          "name": "Hadj",
+          "device": "2025年11月5日",
+          "text": "应用清晰又没有广告。如果能加上各章的经注（塔夫西尔），这个应用就完美了。",
+          "rating": 5
+        },
+        {
+          "initials": "YM",
+          "name": "Yacouba M'piè Samaké",
+          "device": "2025年5月16日",
+          "text": "非常好的应用，让我在完全不懂阿拉伯语的情况下也能学习各个章节",
+          "rating": 5
+        },
+        {
+          "initials": "SM",
+          "name": "Saïdou Mohamed Bah",
+          "device": "2025年8月24日",
+          "text": "真心希望真主以天堂乐园回赐你们，这是最好的应用，愿真主帮助你们不断改进这个应用，愿它成为你们的一份长久善功。",
+          "rating": 5
+        },
+        {
+          "initials": "TD",
+          "name": "Touwinde Doulkom",
+          "device": "2025年5月24日",
+          "text": "玛沙安拉，一款简单易用的应用，能帮助你学习阅读圣古兰经。感谢设计者们，愿真主回赐你们🙏",
+          "rating": 5
+        },
+        {
+          "initials": "BD",
+          "name": "Bassirou Diarra",
+          "device": "2026年4月5日",
+          "text": "真的很实用。愿真主保佑伊斯兰",
+          "rating": 5
+        },
+        {
+          "initials": "GK",
+          "name": "gloire Kyato",
+          "device": "2026年4月10日",
+          "text": "这个应用很重要。我给5颗星。",
+          "rating": 5
+        },
+        {
+          "initials": "OO",
+          "name": "Olivier Olivier",
+          "device": "2025年4月16日",
+          "text": "说实话是顶级中的顶级，即使对说法语的人来说也非常有助于背诵古兰经",
+          "rating": 5
+        },
+        {
+          "initials": "DD",
+          "name": "Dian Diallo",
+          "device": "2026年6月9日",
+          "text": "非常感谢……一款非常出色的应用",
+          "rating": 5
+        },
+        {
+          "initials": "MM",
+          "name": "Mallam Mohamed AYOUBA",
+          "device": "2025年9月10日",
+          "text": "是的，编排得很好，学习阅读古兰经非常容易……非常感谢",
+          "rating": 5
+        },
+        {
+          "initials": "FB",
+          "name": "Fatoumata Barry",
+          "device": "2026年3月7日",
+          "text": "很棒，学古兰经很容易，唯一的小问题是更新太频繁了……",
+          "rating": 5
+        },
+        {
+          "initials": "SK",
+          "name": "Soumaila Kaboré",
+          "device": "2025年11月29日",
+          "text": "非常好，能看得清楚，也有助于正确发音阿拉伯语句子",
+          "rating": 5
+        },
+        {
+          "initials": "OA",
+          "name": "Ouattara Almamy",
+          "device": "2025年4月1日",
+          "text": "非常清晰，非常易懂，非常有教育意义，愿真主赐予我们正确的理解🙏",
+          "rating": 5
+        },
+        {
+          "initials": "AN",
+          "name": "Aude Name",
+          "device": "2025年6月7日",
+          "text": "非常连贯，很适合学习古兰经。愿真主保佑这个应用的创造者",
+          "rating": 5
+        },
+        {
+          "initials": "MJ",
+          "name": "maxero junior",
+          "device": "2025年3月13日",
+          "text": "太棒了，操作简单，没有广告",
+          "rating": 5
+        },
+        {
+          "initials": "FT",
+          "name": "Fatoumata Traoré",
+          "device": "2025年5月18日",
+          "text": "愿真主回赐你们出色的工作，说实话这是一个好应用，我希望你们能加入屏幕旋转功能，还有叩拜的标记，谢谢",
+          "rating": 5
+        },
+        {
+          "initials": "AC",
+          "name": "Assia Chamoyan",
+          "device": "2025年9月28日",
+          "text": "超级实用、方便，而且真的很直观。界面非常漂亮，做得很有质感，愿真主让你们的项目顺利并给予你们丰厚的回赐",
+          "rating": 5
+        },
+        {
+          "initials": "KE",
+          "name": "Keita",
+          "device": "2025年5月23日",
+          "text": "哇，用拼音阅读各章经文的绝佳应用。我真的非常喜欢这个应用。",
+          "rating": 5
+        },
+        {
+          "initials": "IH",
+          "name": "Ibrahim Hamadou",
+          "device": "2026年3月9日",
+          "text": "请修复一下应用，我真的很需要这个应用，之前阅读进行得很顺利，但应用出了问题",
+          "rating": 5
+        },
+        {
+          "initials": "AS",
+          "name": "Adamou Seyni Sonia",
+          "device": "2025年3月14日",
+          "text": "愿平安与你同在，我不知道为什么每次打开卡赫夫章都会跳到阿巴萨章：真不明白问题出在哪，这可是我特别喜欢读的一章，尤其是按圣行在周五诵读……不过除了这个问题，这个应用玛沙安拉没什么别的问题",
+          "rating": 5
+        },
+        {
+          "initials": "MD",
+          "name": "Mame diarra Ba",
+          "device": "2025年2月14日",
+          "text": "非常高效，学习古兰经也很容易",
+          "rating": 5
+        },
+        {
+          "initials": "SS",
+          "name": "SOUMAILA SAMASSI",
+          "device": "2024年12月29日",
+          "text": "玛沙安拉💕一款非常出色的应用，正是我一直在寻找的。这个应用棒极了。愿真主回赐你们，愿祂始终指引我们。阿敏。",
+          "rating": 5
+        },
+        {
+          "initials": "AB",
+          "name": "Ali Baba Traoré",
+          "device": "2025年8月1日",
+          "text": "感赞真主，这是一款值得下载和分享的好应用。愿真主在今生和后世都赐予你们美好的回赐。阿敏！",
+          "rating": 5
+        },
+        {
+          "initials": "MB",
+          "name": "Mohamed Baddo",
+          "device": "2026年1月5日",
+          "text": "非常简单实用，也非常令人愉快",
+          "rating": 5
+        },
+        {
+          "initials": "AB",
+          "name": "Anthony Barraut",
+          "device": "2025年10月5日",
+          "text": "非常出色的应用，应用的创作者人也格外友善，我毫不犹豫地立刻推荐这个应用🌟🌟🌟🌟🌟🥳👌",
+          "rating": 5
+        },
+        {
+          "initials": "PM",
+          "name": "Parfait Mayela may",
+          "device": "2025年3月27日",
+          "text": "为什么需要联网呢？？？不过这个应用确实能帮助快速学习🤲🤲🤲🥰🇬🇦",
+          "rating": 5
+        },
+        {
+          "initials": "MD",
+          "name": "Moustapha DRORI",
+          "device": "2026年2月7日",
+          "text": "非常好的应用，能带来更好的学习效果",
+          "rating": 5
+        },
+        {
+          "initials": "AB",
+          "name": "Adamma Bae",
+          "device": "2025年1月11日",
+          "text": "非常感谢让我们的学习变得更容易",
+          "rating": 5
+        },
+        {
+          "initials": "MZ",
+          "name": "Malika Zaki",
+          "device": "2026年4月7日",
+          "text": "这是我这辈子见过最好的古兰经应用",
+          "rating": 5
+        },
+        {
+          "initials": "NC",
+          "name": "N'famoussa Camara",
+          "device": "2025年3月8日",
+          "text": "这个应用对我以及所有想了解和践行伊斯兰教的穆斯林来说都真的很有意思。",
+          "rating": 5
+        },
+        {
+          "initials": "MB",
+          "name": "Mariam Bah",
+          "device": "2025年10月21日",
+          "text": "对发音非常有帮助",
+          "rating": 5
+        },
+        {
+          "initials": "NM",
+          "name": "Nouraya Mohamed",
+          "device": "2026年4月5日",
+          "text": "非常感谢，真的帮了我很多……玛沙安拉",
+          "rating": 5
+        },
+        {
+          "initials": "SD",
+          "name": "Sofiane D",
+          "device": "2025年10月10日",
+          "text": "唯一可惜的是不能直接选择章节，只能靠滑动",
+          "rating": 5
+        },
+        {
+          "initials": "MD",
+          "name": "Mouhamed Diagne",
+          "device": "2025年7月24日",
+          "text": "非常非常好的应用，能学得又快又好",
+          "rating": 5
+        },
+        {
+          "initials": "BB",
+          "name": "Babouba Bibouba",
+          "device": "2025年4月1日",
+          "text": "很好，但请加入字体大小调节选项，谢谢",
+          "rating": 5
+        },
+        {
+          "initials": "CC",
+          "name": "Coumba Camara",
+          "device": "2025年7月26日",
+          "text": "这是我多年来一直在寻找的东西，愿真主回赐你们，因为看到它带给我的这份巨大喜悦💖 这真是一款非常好的应用👍 谢谢",
+          "rating": 5
+        },
+        {
+          "initials": "LS",
+          "name": "Lassane Sawadogo",
+          "device": "2025年8月3日",
+          "text": "我一直在找这种拼音注音，感赞真主终于找到了，谢谢",
+          "rating": 5
+        },
+        {
+          "initials": "MA",
+          "name": "mam",
+          "device": "2026年3月14日",
+          "text": "非常好的应用，只是希望圣训能有法语版",
+          "rating": 5
+        },
+        {
+          "initials": "MB",
+          "name": "Mohamadou Babanguida",
+          "device": "2026年4月9日",
+          "text": "万分感谢，愿真主回赐你们",
+          "rating": 5
+        },
+        {
+          "initials": "TA",
+          "name": "Thierno amidou Diallo",
+          "device": "2026年4月8日",
+          "text": "我很喜欢这个应用",
+          "rating": 5
+        },
+        {
+          "initials": "SA",
+          "name": "shahid ATOUKOU",
+          "device": "2024年12月9日",
+          "text": "非常棒，我很喜欢这个应用，感谢这个应用的创作者",
+          "rating": 5
+        },
+        {
+          "initials": "MS",
+          "name": "Mamadi Savadogo",
+          "device": "2026年3月9日",
+          "text": "我没什么别的好说的，只想说愿真主回赐你们。这是我至今用过最好的应用。",
+          "rating": 5
+        },
+        {
+          "initials": "AC",
+          "name": "Alassane Camara",
+          "device": "2025年12月26日",
+          "text": "愿平安与你们同在，谢谢你们，这个应用对穆斯林来说很好",
+          "rating": 5
+        },
+        {
+          "initials": "FL",
+          "name": "Frédéric Lankoandé",
+          "device": "2025年8月1日",
+          "text": "非常好的应用，可以用拼音学习圣古兰经👍",
+          "rating": 5
+        },
+        {
+          "initials": "LZ",
+          "name": "Loukmane Zongo",
+          "device": "2025年6月26日",
+          "text": "玛沙安拉！这正是我一直想找来学习的古兰经！你们能不能想办法让我们可以离线阅读？",
+          "rating": 5
+        },
+        {
+          "initials": "IB",
+          "name": "Ibrahima Bâ",
+          "device": "2025年9月2日",
+          "text": "这是一款好应用，谢谢你们，愿真主指引我们走上正道🤲🤲👆",
+          "rating": 5
+        },
+        {
+          "initials": "FA",
+          "name": "Fouzi Abdellatif",
+          "device": "2026年3月5日",
+          "text": "这是最好的拼音应用",
+          "rating": 5
+        },
+        {
+          "initials": "AS",
+          "name": "Aboubacar Sylla",
+          "device": "2025年11月7日",
+          "text": "完整版没法显示",
+          "rating": 5
+        },
+        {
+          "initials": "KM",
+          "name": "KACHALLA MEMBA",
+          "device": "2025年3月20日",
+          "text": "非常感谢让阅读古兰经变得这么方便。愿真主在今生和后世都回赐你们",
+          "rating": 5
+        },
+        {
+          "initials": "BD",
+          "name": "Billal DABIDA",
+          "device": "2025年4月2日",
+          "text": "非常非常好的应用，愿至慈至悯的真主赐予你们更多智慧。",
+          "rating": 5
+        },
+        {
+          "initials": "NN",
+          "name": "Nadjma Nkulu",
+          "device": "2025年11月24日",
+          "text": "万物非主，唯有真主，这个应用对还不太精通阿拉伯语的人来说非常合适。",
+          "rating": 5
+        },
+        {
+          "initials": "TA",
+          "name": "thaibu Amici-langi",
+          "device": "2025年8月7日",
+          "text": "一件触手可及的美好作品。",
+          "rating": 5
+        },
+        {
+          "initials": "HH",
+          "name": "hamza Hamza",
+          "device": "2025年10月19日",
+          "text": "这是一款非常有用又非常实用的应用",
+          "rating": 5
+        },
+        {
+          "initials": "OA",
+          "name": "Oumarou Amadou",
+          "device": "2025年11月7日",
+          "text": "需要改进一下无网络时也能阅读的功能",
+          "rating": 5
+        },
+        {
+          "initials": "AA",
+          "name": "Aboubakar Adamou",
+          "device": "2025年8月18日",
+          "text": "非常好的应用，愿真主回赐设计者们",
+          "rating": 5
+        },
+        {
+          "initials": "SK",
+          "name": "Soiba Koné",
+          "device": "2026年1月19日",
+          "text": "我向穆斯林兄弟们推荐，它在塔吉维德规则方面也帮了我很多",
+          "rating": 5
+        },
+        {
+          "initials": "SN",
+          "name": "Sipas NIAKATE",
+          "device": "2025年9月21日",
+          "text": "超棒的应用，真的很接近阿拉伯语原文",
+          "rating": 5
+        },
+        {
+          "initials": "HT",
+          "name": "Hamissou TCHAGBELE",
+          "device": "2024年9月28日",
+          "text": "我喜欢这个应用，希望承蒙真主的恩典，你们能把内容扩展到古兰经全篇",
+          "rating": 5
+        },
+        {
+          "initials": "AA",
+          "name": "Abdul Abdullah",
+          "device": "2025年11月21日",
+          "text": "真的太棒了，我很喜欢，愿真主回赐你们。",
+          "rating": 5
+        },
+        {
+          "initials": "SA",
+          "name": "sawadogoalassane",
+          "device": "2025年6月25日",
+          "text": "太棒了，这正是我想要的一切。谢谢",
+          "rating": 5
+        },
+        {
+          "initials": "BT",
+          "name": "Bocar Thiam",
+          "device": "2025年10月19日",
+          "text": "这是一款非常好的应用，没有广告，玛沙安拉",
+          "rating": 5
+        },
+        {
+          "initials": "HN",
+          "name": "Harounahafiz Nonkane",
+          "device": "2025年3月11日",
+          "text": "亲爱的信仰同胞兄弟姐妹们，我强烈推荐给你们，这个应用真的很棒。愿真主赐予我们正确的理解。",
+          "rating": 5
+        },
+        {
+          "initials": "NT",
+          "name": "Nana Tanou",
+          "device": "2025年4月1日",
+          "text": "非常好的应用，帮了我很多🥰",
+          "rating": 5
+        },
+        {
+          "initials": "IS",
+          "name": "Idrissa Samake",
+          "device": "2025年8月5日",
+          "text": "非常出色的工作！谢谢",
+          "rating": 5
+        },
+        {
+          "initials": "SB",
+          "name": "Sarra Bahri (\"Anous Azouz Aychouha\")",
+          "device": "2024年9月29日",
+          "text": "一款不错的应用，加油，继续保持👏👏👏🌹🌹🌹🌹",
+          "rating": 5
+        },
+        {
+          "initials": "OA",
+          "name": "Omokayode Akanny",
+          "device": "2025年5月29日",
+          "text": "非常好且实用的应用",
+          "rating": 5
+        },
+        {
+          "initials": "AG",
+          "name": "Abdoulaye Gningue",
+          "device": "2025年1月16日",
+          "text": "玛沙安拉，愿真主指引你们走向平安与正直，这是一本好书。",
+          "rating": 5
+        },
+        {
+          "initials": "SS",
+          "name": "Seynabou Senghor",
+          "device": "2025年4月29日",
+          "text": "一句谢谢不足以表达我的感激，愿真主回赐你们这份了不起的工作❤️🌹",
+          "rating": 5
+        },
+        {
+          "initials": "FS",
+          "name": "Fanta Souare",
+          "device": "2025年6月2日",
+          "text": "这个应用简直太棒了，谢谢，愿真主降下祝福，愿祂赐予你们天堂的回赐，阿敏，主啊请应允🙏",
+          "rating": 5
+        },
+        {
+          "initials": "AD",
+          "name": "Abdoul djabar Danyoko",
+          "device": "2025年7月26日",
+          "text": "这是一款非常漂亮的应用。玛沙安拉！",
+          "rating": 5
+        },
+        {
+          "initials": "IC",
+          "name": "Idrissa Camara",
+          "device": "2025年8月6日",
+          "text": "我对这份成果真的很满意。你们让数以百万计不懂阿拉伯语的人也能认识真主。为此，只有真主才能回赐你们。我祈求真主赐予你们和你们的家人轻松的生活，也让我们都能进入天堂。阿敏！",
+          "rating": 5
+        },
+        {
+          "initials": "SK",
+          "name": "Souleymane Keïta",
+          "device": "2025年10月1日",
+          "text": "说实话我非常喜欢这个应用，愿真主回赐并保佑这个应用的作者，愿祂宽恕我们有意无意的一切罪过和过错，也接受我们和家人的一切祈祷，愿祂让我们坚守正道直到最后一口气，尤其愿祂赐予我们慈悯，让我们永远进入天堂，阿敏🙏🙏🙏",
+          "rating": 5
+        },
+        {
+          "initials": "EM",
+          "name": "El Mn",
+          "device": "2026年8月1日",
+          "text": "我不知道该说什么🫰🤌。真是太棒了",
+          "rating": 5
+        },
+        {
+          "initials": "SS",
+          "name": "Setoute samate",
+          "device": "2025年8月11日",
+          "text": "玛沙安拉，愿真主保佑你们，非常好的应用，谢谢🤲🤲🤲",
+          "rating": 5
+        },
+        {
+          "initials": "CD",
+          "name": "Cheick Diabate",
+          "device": "2024年12月29日",
+          "text": "毋庸置疑，真的太棒了",
+          "rating": 5
+        },
+        {
+          "initials": "SD",
+          "name": "Sanogo Domba",
+          "device": "2025年12月18日",
+          "text": "非常有利于人类精神的发展",
+          "rating": 5
+        },
+        {
+          "initials": "MM",
+          "name": "mame marème bane",
+          "device": "2026年3月8日",
+          "text": "愿平安与你同在，为什么应用不能用了",
+          "rating": 5
+        },
+        {
+          "initials": "DB",
+          "name": "Dalila Bahri",
+          "device": "2025年12月27日",
+          "text": "超棒的应用，非常实用",
+          "rating": 5
+        },
+        {
+          "initials": "LY",
+          "name": "Landry Yarga",
+          "device": "2025年12月10日",
+          "text": "这个应用帮了我很多，谢谢👌",
+          "rating": 5
+        },
+        {
+          "initials": "JK",
+          "name": "Jeanne Kikukama",
+          "device": "2026年2月8日",
+          "text": "一款非常好的应用",
+          "rating": 5
+        },
+        {
+          "initials": "ZS",
+          "name": "Zeynab Sylla",
+          "device": "2026年1月14日",
+          "text": "非常酷又简单",
+          "rating": 5
+        },
+        {
+          "initials": "AW",
+          "name": "Abdoul Wahab porgo",
+          "device": "2026年1月10日",
+          "text": "非常非常有趣",
+          "rating": 5
+        },
+        {
+          "initials": "YM",
+          "name": "Yohane Mouhali",
+          "device": "2025年10月31日",
+          "text": "非常感谢你们做的这一切👏👏👏👏👏",
+          "rating": 5
+        },
+        {
+          "initials": "FA",
+          "name": "Fousseni Arouna",
+          "device": "2025年12月15日",
+          "text": "玛沙安拉，我很喜欢这个应用",
+          "rating": 5
+        },
+        {
+          "initials": "DA",
+          "name": "Djamilatou Alim",
+          "device": "2026年1月20日",
+          "text": "非常好的应用，感赞真主，玛沙安拉",
+          "rating": 5
+        },
+        {
+          "initials": "AA",
+          "name": "Arminata Abdou",
+          "device": "2025年3月26日",
+          "text": "非常感谢你们👏 我很喜欢",
+          "rating": 5
+        },
+        {
+          "initials": "HR",
+          "name": "Halima Radhwani",
+          "device": "2025年9月26日",
+          "text": "这个应用太棒了，愿真主保佑，非常感谢🤲",
+          "rating": 5
+        },
+        {
+          "initials": "MC",
+          "name": "Mahamoudou Coulibaly",
+          "device": "2025年8月17日",
+          "text": "非常酷，非常棒",
+          "rating": 5
+        },
+        {
+          "initials": "LD",
+          "name": "Lamine Dieye",
+          "device": "2025年3月22日",
+          "text": "干得好，愿真主保佑你们，这个应用很重要🙏",
+          "rating": 5
+        },
+        {
+          "initials": "AB",
+          "name": "aimé boussoukou",
+          "device": "2025年10月25日",
+          "text": "真主至大，这个应用非常有益",
+          "rating": 5
+        },
+        {
+          "initials": "IM",
+          "name": "Ibrahim Mbaye",
+          "device": "2024年10月29日",
+          "text": "非常适合学习",
+          "rating": 5
+        },
+        {
+          "initials": "TT",
+          "name": "Tassala Toure",
+          "device": "2025年3月21日",
+          "text": "玛沙安拉，我非常喜欢，愿真主为你们为穆斯林社群所做的努力保佑你们🤲愿真主回赐你们🤲",
+          "rating": 5
+        },
+        {
+          "initials": "MD",
+          "name": "Mohamed Diawara",
+          "device": "2025年6月27日",
+          "text": "我非常喜欢，谢谢大家",
+          "rating": 5
+        },
+        {
+          "initials": "FA",
+          "name": "Ferjani Ali",
+          "device": "2025年11月5日",
+          "text": "最好的应用，继续加油😍😍🥰",
+          "rating": 5
+        },
+        {
+          "initials": "MA",
+          "name": "moustapha ahmed",
+          "device": "2025年8月22日",
+          "text": "太棒的应用，愿真主为此回赐你们",
+          "rating": 5
+        },
+        {
+          "initials": "MB",
+          "name": "Mariam Barry",
+          "device": "2025年10月4日",
+          "text": "非常好的应用☺ 我推荐",
+          "rating": 5
+        },
+        {
+          "initials": "DO",
+          "name": "Dramane Ouattara",
+          "device": "2025年7月19日",
+          "text": "这是有史以来最好的应用",
+          "rating": 5
+        },
+        {
+          "initials": "AG",
+          "name": "Assane Gnamou",
+          "device": "2025年5月17日",
+          "text": "使用简单",
+          "rating": 5
+        },
+        {
+          "initials": "AL",
+          "name": "Amadou Lee",
+          "device": "2025年11月27日",
+          "text": "一款非常好的应用",
+          "rating": 5
+        },
+        {
+          "initials": "OD",
+          "name": "Ousseynou DIOP",
+          "device": "2025年3月22日",
+          "text": "难以想象，非常感谢",
+          "rating": 5
+        },
+        {
+          "initials": "ZJ",
+          "name": "Zakaria Jose Kone",
+          "device": "2026年3月4日",
+          "text": "这个应用非常好",
+          "rating": 5
+        },
+        {
+          "initials": "MD",
+          "name": "Mr dof Dof",
+          "device": "2025年6月24日",
+          "text": "跟真正的古兰经相比错误太多了",
+          "rating": 5
+        },
+        {
+          "initials": "OM",
+          "name": "Omar Manè",
+          "device": "2025年3月4日",
+          "text": "真的太不可思议了，玛沙安拉",
+          "rating": 5
+        },
+        {
+          "initials": "KI",
+          "name": "Koné Idris",
+          "device": "2025年5月29日",
+          "text": "非常好的应用",
+          "rating": 5
+        },
+        {
+          "initials": "KK",
+          "name": "kourouma kaman",
+          "device": "2025年9月25日",
+          "text": "非常好的应用",
+          "rating": 5
+        },
+        {
+          "initials": "OD",
+          "name": "Ousseynou DIOP",
+          "device": "2025年7月28日",
+          "text": "我很喜欢，非常好",
+          "rating": 5
+        },
+        {
+          "initials": "MM",
+          "name": "Mr MANANGA",
+          "device": "2026年2月19日",
+          "text": "最好的心灵向导",
+          "rating": 5
+        },
+        {
+          "initials": "TM",
+          "name": "Tyz Man86",
+          "device": "2025年12月8日",
+          "text": "你们需要改进一些地方",
+          "rating": 5
+        },
+        {
+          "initials": "SI",
+          "name": "Samba Ichrach",
+          "device": "2025年11月8日",
+          "text": "没什么好说的，我找到了想要的东西",
+          "rating": 5
+        },
+        {
+          "initials": "RB",
+          "name": "Rasta Barou",
+          "device": "2025年10月7日",
+          "text": "我非常喜欢",
+          "rating": 5
+        },
+        {
+          "initials": "NG",
+          "name": "Nadia GbaneDIABY",
+          "device": "2025年11月10日",
+          "text": "感赞真主！非常有益！！！",
+          "rating": 5
+        },
+        {
+          "initials": "DM",
+          "name": "DaoudaDiallo Malide",
+          "device": "2025年3月20日",
+          "text": "我非常欣赏",
+          "rating": 5
+        },
+        {
+          "initials": "SB",
+          "name": "Saitama Black God 777",
+          "device": "2024年11月23日",
+          "text": "玛沙安拉，这正是大多数人想要的",
+          "rating": 5
+        },
+        {
+          "initials": "MS",
+          "name": "Mamoudou Sylla",
+          "device": "2024年11月2日",
+          "text": "感赞真主，非常感谢你们，我在网上找了好久终于找到了，愿真主保佑你和你的家人，万分感谢！",
+          "rating": 5
+        },
+        {
+          "initials": "IK",
+          "name": "Ibrahim Konsigui",
+          "device": "2025年11月18日",
+          "text": "经文无法下载",
+          "rating": 5
+        },
+        {
+          "initials": "YK",
+          "name": "Youss Kouadio",
+          "device": "2025年10月22日",
+          "text": "这个应用非常好",
+          "rating": 5
+        },
+        {
+          "initials": "AB",
+          "name": "Alhasko Bob",
+          "device": "2025年5月2日",
+          "text": "世界上最好的应用",
+          "rating": 5
+        }
+      ]
+    }
+  },
+  "cgu": {
+    "meta": {
+      "title": "使用条款 - Noor Phonetic Quran",
+      "description": "Noor Phonetic Quran使用条款：服务访问、用户账户、高级订阅、知识产权、责任范围及适用法律。",
+      "keywords": "Noor Phonetic Quran使用条款, 一般使用条款, 古兰经应用使用条款"
+    },
+    "appName": "Noor Phonetic Quran",
+    "pageTitle": "使用条款",
+    "updateDate": "最后更新时间：2026年7月31日",
+    "intro1": "本使用条款（以下简称“条款”）规范了对Noor Phonetic Quran移动应用（以下简称“本应用”、“我们”或“我们的”）的访问和使用，该应用以个人名义发布，可在Google Play和App Store上获取。下载、安装或使用本应用即表示您同意受本条款约束。如果您不同意这些条款，请勿使用本应用。",
+    "intro2Before": "有关我们如何处理您个人数据的信息，请参阅我们的",
+    "intro2LinkText": "隐私政策",
+    "intro2After": "，该政策对本条款作出补充。",
+    "summary": {
+      "heading": "要点摘要",
+      "intro": "本摘要提供了我们使用条款的要点，但我们建议您通过下方目录阅读完整文档。",
+      "points": [
+        {
+          "question": "本应用提供什么？",
+          "answer": "一套免费及付费工具，用于阅读、学习和背诵古兰经：拼音及阿拉伯语阅读（哈夫斯和瓦尔什两种诵读方式）、塔吉维德规则、游戏化背诵、卡塔姆进度跟踪、通过录音进行诵读纠正、测验、伊斯兰广播/电视直播，以及主屏幕上的“每日经文”小组件。"
+        },
+        {
+          "question": "我需要注册账户吗？",
+          "answer": "不需要，本应用的大部分功能无需账户即可使用。可选的账户（邮箱、Google或Apple）可用于同步您的学习进度和高级订阅。"
+        },
+        {
+          "question": "本应用是付费的吗？",
+          "answer": "本应用免费提供，含广告。可选的高级订阅通过Google Play或App Store管理，可去除广告并解锁高级功能。"
+        },
+        {
+          "question": "我可以录制自己的声音吗？",
+          "answer": "可以，诵读纠正功能会在本地录制您的声音以分析您的发音。详情及您应承担的责任请参阅专门章节。"
+        },
+        {
+          "question": "谁对宗教内容负责？",
+          "answer": "我们竭尽全力确保经文、翻译和音译转写的准确性，但本应用是一款教学工具，不能替代跟随合格教师进行的传统教学。"
+        },
+        {
+          "question": "如何联系我们？",
+          "answer": "可通过应用内置的联系表单，或发送邮件至othmeneb@gmail.com与我们联系。"
+        }
+      ]
+    },
+    "toc": {
+      "heading": "目录",
+      "items": [
+        {
+          "id": "service",
+          "label": "1. 服务内容"
+        },
+        {
+          "id": "eligibility",
+          "label": "2. 使用资格"
+        },
+        {
+          "id": "account",
+          "label": "3. 用户账户"
+        },
+        {
+          "id": "premium",
+          "label": "4. 高级订阅与应用内购买"
+        },
+        {
+          "id": "recitation",
+          "label": "5. 诵读纠正与音频录制"
+        },
+        {
+          "id": "conduct",
+          "label": "6. 使用规范"
+        },
+        {
+          "id": "ip",
+          "label": "7. 知识产权"
+        },
+        {
+          "id": "religious-content",
+          "label": "8. 宗教与教育内容"
+        },
+        {
+          "id": "accessibility",
+          "label": "9. 无障碍功能"
+        },
+        {
+          "id": "ads",
+          "label": "10. 广告与第三方服务"
+        },
+        {
+          "id": "availability",
+          "label": "11. 服务可用性及变更"
+        },
+        {
+          "id": "termination",
+          "label": "12. 暂停与终止"
+        },
+        {
+          "id": "disclaimer",
+          "label": "13. 责任限制"
+        },
+        {
+          "id": "law",
+          "label": "14. 适用法律与争议解决"
+        },
+        {
+          "id": "updates",
+          "label": "15. 条款修改"
+        },
+        {
+          "id": "contact",
+          "label": "16. 联系我们"
+        }
+      ]
+    },
+    "sections": {
+      "service": {
+        "heading": "1. 服务内容",
+        "intro": "Noor Phonetic Quran是一款移动应用，用于阅读、学习和背诵古兰经，具体功能包括：",
+        "items": [
+          "以拼音转写和阿拉伯语（哈夫斯和瓦尔什两种诵读方式）阅读古兰经，配有翻译和音频；",
+          "发音和塔吉维德课程，配有通过录音进行的诵读纠正；",
+          "游戏化的背诵模块（等级、徽章、每日挑战）以及每日学习计划；",
+          "卡塔姆（通读整部古兰经）进度跟踪以及斋月专项计划；",
+          "每日祈祷词（阿兹卡尔）、伊斯兰知识测验、伊斯兰广播和电视频道直播；",
+          "可显示在设备（iOS和Android）主屏幕上的“每日经文”小组件。"
+        ],
+        "outro": "这些功能可能随应用更新而演变、增加或移除，此举不构成对本条款的实质性修改。"
+      },
+      "eligibility": {
+        "heading": "2. 使用资格",
+        "body": "本应用面向所有希望学习或修习古兰经阅读的人士。如果您是未成年人，使用本应用应在父母或法定监护人的监督下进行，尤其是涉及应用内购买的任何功能。"
+      },
+      "account": {
+        "heading": "3. 用户账户",
+        "brief": "简而言之",
+        "briefText": "账户是可选的，仅用于同步您的学习进度和订阅状态。",
+        "body": "本应用的大部分功能无需创建账户即可使用。您可以通过邮箱、Google或Apple创建可选账户，以便在更换设备时保留您的学习进度（背诵、卡塔姆、每日计划）和高级会员状态。您应对自己账户凭据的保密性以及通过您账户进行的所有活动负责。您可以随时联系我们（见第16节）或在应用设置中（如提供该选项）申请删除您的账户及相关数据。"
+      },
+      "premium": {
+        "heading": "4. 高级订阅与应用内购买",
+        "brief": "简而言之",
+        "briefText": "本应用免费提供，含广告；高级订阅（由Google Play或App Store管理）可去除广告并解锁高级功能。",
+        "body": "应用内购买（尤其是高级订阅）根据您使用的平台由Google Play或App Store直接处理，并遵循其各自的使用条款和计费政策。订阅的计费、自动续订、取消和退款均在您的Google Play账户或Apple ID设置中管理——我们无法访问您的支付方式，也无法直接触发退款。高级功能的具体内容和范围会在购买时于应用内说明，并可能随更新而变化。"
+      },
+      "recitation": {
+        "heading": "5. 诵读纠正与音频录制",
+        "brief": "简而言之",
+        "briefText": "您的诵读录音用于为您提供发音反馈；请仅分享您愿意提供的内容。",
+        "bodyBefore": "诵读纠正功能允许您在阅读古兰经时录制自己的声音，以获得个性化反馈（根据应用内该功能的具体版本，可能是自动化反馈和/或由审核员提供的反馈）。使用此功能即表示您同意为发音分析和学习提升之目的对您的声音进行录制和处理。您不得提交包含非法、诽谤性内容或侵犯第三方权利的录音。有关这些录音的处理、存储和保存期限的详细信息，请参阅我们的",
+        "linkText": "隐私政策",
+        "bodyAfter": "。"
+      },
+      "conduct": {
+        "heading": "6. 使用规范",
+        "intro": "使用本应用即表示您承诺不会：",
+        "items": [
+          "将本应用用于非法目的或违反本条款的用途；",
+          "试图未经授权访问我们的系统、扰乱其运行或规避其安全措施；",
+          "对本应用进行反编译、反汇编，或试图提取其源代码，法律明确允许的情况除外；",
+          "未经事先授权，复制、再分发或以商业方式利用本应用的全部或部分内容；",
+          "使用自动化工具（机器人、爬虫）访问本应用或从中提取数据。"
+        ]
+      },
+      "ip": {
+        "heading": "7. 知识产权",
+        "body": "本应用及其代码、设计、插图以及专属的教学内容（塔吉维德课程、学习计划结构等）均受知识产权法保护，归我们或我们的授权方所有。古兰经文本本身属于人类共同遗产，不为任何人所专有；应用中整合的翻译、拼音音译转写、诵读音频及经注内容来自应用内注明的第三方来源或合作伙伴（诵读者、翻译出版方），并按获得的授权使用。本条款的任何规定均不授予您超出个人非商业使用本应用范围的权利。"
+      },
+      "religiousContent": {
+        "heading": "8. 宗教与教育内容",
+        "brief": "简而言之",
+        "briefText": "本应用是一款辅助教学工具，不能替代传统教学。",
+        "body": "我们竭尽全力确保本应用中呈现的古兰经文本、翻译、拼音音译转写和塔吉维德规则的准确性，尤其是依托权威可靠的来源。然而，拼音音译转写本质上是一种旨在方便学习的近似表达，不能替代跟随合格教师学习阅读古兰经阿拉伯语。同样，诵读纠正功能提供的反馈是一种学习辅助工具，并不保证对您的诵读给予宗教层面的认定。"
+      },
+      "accessibility": {
+        "heading": "9. 无障碍功能",
+        "brief": "简而言之",
+        "briefText": "我们致力于让尽可能多的人（包括残障人士）都能使用本应用。",
+        "body": "本应用在主要界面和控件中集成了无障碍信息（标签和语义角色），以方便使用设备自带的屏幕阅读器（iOS上的VoiceOver、Android上的TalkBack）进行导航。此外，本应用在文本显示上遵循您操作系统无障碍设置中定义的字体大小。这些无障碍改进工作是持续进行的，在某一时刻可能无法均匀覆盖所有界面和功能。如果您在使用本应用时遇到无障碍方面的困难，欢迎通过联系表单告知我们（见第16节），以便我们加以改进。"
+      },
+      "ads": {
+        "heading": "10. 广告与第三方服务",
+        "body1Before": "本应用集成了第三方技术服务（受众统计、技术诊断、广告投放、应用内购买），详情见我们的",
+        "linkText": "隐私政策",
+        "body1After": "。这些服务受其各自使用条款约束，我们建议您予以查阅。",
+        "body2": "部分广告完全是可选的：如果您希望在不订阅高级会员的情况下支持我们，可以自愿选择在应用的支持菜单中观看一则“奖励广告”（rewarded ad）。这类可选广告绝不会在没有您明确操作的情况下显示。"
+      },
+      "availability": {
+        "heading": "11. 服务可用性及变更",
+        "body": "我们努力保持本应用的可访问性和正常运作，但不保证持续或无差错的可用性。部分功能需要网络连接（音频下载、广播/电视直播、账户同步），在离线状态下或第三方服务发生故障时可能无法使用。我们可能随时新增、修改或移除本应用的功能，尤其是出于技术、法律或内容合作方式演变等原因。"
+      },
+      "termination": {
+        "heading": "12. 暂停与终止",
+        "body": "您可以随时卸载本应用以停止使用。我们保留暂停或终止您对本应用访问权限的权利，尤其是在您不遵守本条款的情况下，但此举不影响您已通过Google Play或App Store完成的购买，这些购买的管理由相应平台负责。"
+      },
+      "disclaimer": {
+        "heading": "13. 责任限制",
+        "body": "在适用法律允许的范围内，本应用按“现状”和“可用性”提供，不附带任何明示或暗示的保证。对于因使用或无法使用本应用而产生的间接、附带或衍生性损害，包括临时不可用、学习进度数据丢失，或应用中整合的第三方内容（翻译、音频、经注）出现错误等情况，我们概不负责。本条款中的任何内容均不排除依法不可排除的责任（例如故意过失或重大过失的情况）。"
+      },
+      "law": {
+        "heading": "14. 适用法律与争议解决",
+        "body": "本条款受法国法律管辖，但不影响您居住国可能适用的强制性消费者保护规定。如发生争议，应优先通过直接联系我们（见第16节）寻求友好解决方案，然后再采取任何司法行动。"
+      },
+      "updates": {
+        "heading": "15. 条款修改",
+        "brief": "简而言之",
+        "briefText": "我们可能会更新本条款，以反映应用或法规的变化。",
+        "body": "我们可能会不时修改本条款，尤其是在新增功能时。更新版本将在本页顶部以新的“最后更新时间”日期标注，并自发布之日起生效。如遇实质性修改，我们将通过应用内通知告知您。在修改内容发布后继续使用本应用，即视为您接受更新后的条款。"
+      },
+      "contact": {
+        "heading": "16. 联系我们",
+        "bodyBefore": "如对本条款有任何疑问，您可以通过应用内置的联系表单与我们联系，或发送邮件至",
+        "email": "othmeneb@gmail.com",
+        "bodyAfter": "。"
+      }
+    },
+    "footer": "© 2026 Noor Phonetic Quran. 版权所有。"
+  },
+  "contactPage": {
+    "meta": {
+      "title": "联系我们 - Noor Phonetic Quran",
+      "description": "对Noor Phonetic Quran应用有疑问，想为古兰经拼音提出建议，或遇到技术问题？请联系我们的团队，48小时内回复。"
+    }
+  },
+  "reviews": {
+    "meta": {
+      "title": "用户评价 - Noor Phonetic Quran",
+      "description": "查看Noor Phonetic Quran超过160条经过验证的用户评价，这款应用帮助您学习拼音诵读、背诵并阅读古兰经，平均评分5星。"
+    },
+    "eyebrow": "已验证评价",
+    "title": "用户的真实评价",
+    "subtitle": "了解我们不断壮大的满意用户社区的评价",
+    "ratingCountLabel": "共%COUNT%条评价",
+    "loadMoreLabel": "查看更多评价"
+  },
+  "audioCoran": {
+    "meta": {
+      "title": "古兰经同步音频：多位诵读者与离线收听 | Noor Phonetic Quran",
+      "description": "使用Noor Phonetic Quran逐节收听古兰经同步音频，从多位诵读者中进行选择，并下载音频以便离线收听。iOS和Android均可免费使用。",
+      "keywords": "古兰经音频, 古兰经诵读音频, 多位古兰经诵读者, 古兰经离线音频, 下载古兰经音频, 收听古兰经, 古兰经同步音频, 古兰经诵读者应用",
+      "ogTitle": "古兰经同步音频：多位诵读者与离线收听",
+      "ogDescription": "逐节同步音频，多位诵读者可选，支持离线下载。Noor Phonetic Quran免费应用。"
+    },
+    "breadcrumb": {
+      "home": "首页",
+      "current": "古兰经音频"
+    },
+    "hero": {
+      "title": "古兰经同步音频：多位诵读者，离线收听",
+      "subtitle": "每节经文都配有同步音频，让您听到正确的发音，可选择诵读者，并可下载音频以便无网络时收听。",
+      "backLink": "返回首页",
+      "googlePlay": "Google Play",
+      "appStore": "App Store"
+    },
+    "intro": {
+      "title": "专为学习设计的聆听体验",
+      "paragraph1": "听到正确的发音对于学习正确诵读古兰经至关重要。Noor Phonetic Quran将每节经文与同步音频相结合，让您可以同时跟随文本、拼音注音和音频。",
+      "paragraph2": "您不受限于单一诵读者，也不需要一直保持网络连接：选择您喜欢的声音，下载音频，随身携带到任何地方。"
+    },
+    "features": {
+      "title": "古兰经音频提供的功能",
+      "items": [
+        {
+          "title": "逐节同步音频",
+          "description": "在您阅读每节经文的同时朗读出来，实时纠正您的发音。"
+        },
+        {
+          "title": "多位诵读者可选",
+          "description": "从应用提供的诵读者中，选择最适合您的一位。"
+        },
+        {
+          "title": "按节、章或章节范围收听",
+          "description": "精确选择您想收听的古兰经部分。"
+        },
+        {
+          "title": "可调节播放速度",
+          "description": "将音频速度调至0.7倍到1倍之间，帮助您在学习时更清晰地分辨每个字词。"
+        },
+        {
+          "title": "下载以便离线收听",
+          "description": "提前下载音频，无论身在何处都能在没有网络的情况下收听古兰经。"
+        }
+      ]
+    },
+    "screenshots": {
+      "title": "古兰经音频预览",
+      "alts": [
+        "Noor Phonetic Quran - 同步音频播放栏",
+        "Noor Phonetic Quran - 选择经文范围与离线下载",
+        "Noor Phonetic Quran - 选择章节范围与调节速度",
+        "Noor Phonetic Quran - 选择诵读者"
+      ]
+    },
+    "faq": {
+      "title": "关于古兰经音频的常见问题",
+      "items": [
+        {
+          "question": "音频是否与文本同步？",
+          "answer": "是的，每节经文都配有同步音频，让您在跟随文本及其拼音转写时听到正确的发音。"
+        },
+        {
+          "question": "有多少位诵读者可供选择？",
+          "answer": "您可以直接在音频播放设置中，根据自己的收听喜好从多位古兰经诵读者中进行选择。"
+        },
+        {
+          "question": "可以离线收听古兰经吗？",
+          "answer": "可以，您可以下载某节经文、某一章或某个章节范围的音频，以便完全无网络收听。"
+        },
+        {
+          "question": "可以调整音频的播放速度吗？",
+          "answer": "可以，播放速度可在0.7倍到1倍之间调节，以适应您的学习水平。"
+        }
+      ]
+    },
+    "related": {
+      "title": "同时了解",
+      "tajweed": "塔吉维德规则",
+      "memorization": "背诵古兰经（哈费兹）",
+      "allFeatures": "所有功能"
+    }
+  },
+  "privacyPolicy": {
+    "title": "Noor Phonetic Quran",
+    "heading": "隐私政策",
+    "lastUpdated": "最后更新时间：2026年7月28日",
+    "intro1": "本Noor Phonetic Quran隐私声明（以下简称“我们”、“我们的”）说明了当您使用我们的Noor Phonetic Quran移动应用（以下简称“服务”）时，我们如何以及为何收集、存储、使用和/或共享某些信息。",
+    "intro2": "本隐私政策对我们的<cguLink>使用条款</cguLink>作出补充，后者更广泛地规范了对我们服务的访问和使用。",
+    "intro3": "有疑问或顾虑？阅读本隐私声明将帮助您了解自己在隐私方面的权利和选择。如果您不同意我们的政策和做法，请勿使用我们的服务。如果您仍有任何疑问或顾虑，请通过以下地址联系我们：<mailLink>othmeneb@gmail.com</mailLink>。",
+    "summary": {
+      "heading": "要点摘要",
+      "intro": "本摘要提供了我们隐私声明的要点，您可以通过下方目录获取每个主题的更多详细信息。",
+      "q1": {
+        "title": "我们处理哪些个人信息？",
+        "text": "除非您创建可选账户、使用诵读纠正功能或主动通过联系表单与我们联系，否则我们不会收集任何直接身份信息（姓名、邮箱）。应用还使用一些技术服务（匿名化的使用统计、崩溃跟踪、应用内购买），这些服务会处理您设备的技术标识符。详情请参阅“我们收集哪些信息？”一节。"
+      },
+      "q2": {
+        "title": "我们是否处理敏感个人信息？",
+        "text": "如果您使用可选的诵读纠正功能，您的语音录音（可能被视为敏感/生物识别数据）会被安全存储，以便为您提供发音反馈。除此可选功能外，我们不处理任何敏感个人信息。"
+      },
+      "q3": {
+        "title": "我们是否从第三方获取信息？",
+        "text": "不会，除下方列出的技术服务（Firebase、Google AdMob、应用商店）外，我们不从任何第三方获取信息。"
+      },
+      "q4": {
+        "title": "我们如何处理您的信息？",
+        "text": "我们处理您的信息以运行应用、以汇总方式衡量其使用情况、诊断技术问题、管理订阅并回复您的联系留言。"
+      },
+      "q5": {
+        "title": "在哪些情况下、与哪些各方共享个人信息？",
+        "text": "我们会与作为应用运行分包商的服务提供商（Google Firebase、Google AdMob）共享部分技术数据。我们绝不出售任何数据。"
+      },
+      "q6": {
+        "title": "您享有哪些权利？",
+        "text": "根据您所在的地区，您可能享有访问、更正、反对和删除您数据的权利。详情请参阅“您在隐私方面享有哪些权利？”一节。"
+      },
+      "q7": {
+        "title": "如何行使您的权利？",
+        "text": "最简单的方式是通过<mailLink>othmeneb@gmail.com</mailLink>联系我们。我们将依照适用法律回应您的请求。"
+      }
+    },
+    "toc": {
+      "heading": "目录",
+      "items": {
+        "collect": "我们收集哪些信息？",
+        "process": "我们如何处理您的信息？",
+        "legal": "我们依据哪些法律基础处理您的个人信息？",
+        "share": "我们在何时、与谁共享您的个人信息？",
+        "keep": "我们保留您的信息多长时间？",
+        "rights": "您在隐私方面享有哪些权利？",
+        "dnt": "“请勿追踪”功能控制",
+        "usRights": "美国居民是否享有特定的隐私权利？",
+        "updates": "我们是否会更新本声明？",
+        "contact": "如何就本声明联系我们？",
+        "access": "如何查阅、更新或删除我们收集的数据？"
+      }
+    },
+    "sections": {
+      "collect": {
+        "heading": "我们收集哪些信息？",
+        "disclosedTitle": "您向我们透露的个人信息",
+        "disclosedIntro": "<strong>简而言之</strong>：我们收集您自愿提供给我们的个人信息，例如当您创建账户、使用诵读纠正功能或使用我们的联系表单时。",
+        "disclosedContact": "如果您通过应用内置的联系表单与我们联系，我们会收集您的姓名、邮箱地址和留言内容，以及相关的技术信息（平台、语言、应用版本、设备类型、时区），以便回复您并诊断可能出现的问题。",
+        "disclosedAccount": "如果您创建可选账户，我们会收集您的邮箱地址（邮箱登录方式），或通过Google或Apple登录时这些服务传输的信息（账户标识符、姓名及邮箱地址，如果您选择分享它们），以创建并保护您的个人资料，并同步您的学习进度和高级订阅状态。",
+        "audioTitle": "音频录音（诵读纠正）",
+        "audioIntro": "<strong>简而言之</strong>：如果您使用诵读纠正功能，您的语音录音会被安全地发送到我们的服务器（Google Firebase Storage），以便进行分析和/或由审核员回听。",
+        "audioDetail": "根据适用法规，语音可能被视为生物识别或敏感数据。当您使用诵读纠正功能时，您的音频录音会存储在专属于您账户的空间中（Google Firebase Storage），仅您本人以及获授权处理您提交内容的审核员可以访问，且仅用于为您提供发音反馈之目的。这些录音既不用于广告目的，也不会与存储所需的必要技术服务提供商（Google Firebase）之外的任何第三方共享。您可以随时联系我们（见“如何联系我们”一节）要求删除您的录音。",
+        "autoTitle": "自动收集的数据",
+        "autoIntro": "与大多数应用一样，Noor Phonetic Quran使用第三方技术服务，这些服务会自动收集某些使用和设备数据：",
+        "table": {
+          "headers": {
+            "service": "服务",
+            "purpose": "用途",
+            "data": "相关数据"
+          },
+          "rows": {
+            "analytics": {
+              "service": "Google Firebase Analytics",
+              "purpose": "以汇总和匿名化的形式衡量受众及功能使用情况（浏览的界面、应用内操作，如阅读、背诵或测验）",
+              "data": "广告/安装标识符、使用统计数据、语言、高级会员状态"
+            },
+            "crashlytics": {
+              "service": "Google Firebase Crashlytics",
+              "purpose": "对应用崩溃进行技术诊断以修复错误",
+              "data": "崩溃报告，设备及操作系统的技术信息"
+            },
+            "auth": {
+              "service": "Google Firebase Authentication",
+              "purpose": "创建并保护您的可选账户（邮箱、Google、Apple），同步您的学习进度和订阅状态",
+              "data": "邮箱地址、账户标识符、所使用的登录方式"
+            },
+            "storage": {
+              "service": "Google Firebase Storage",
+              "purpose": "如果您使用诵读纠正功能，安全存储您的音频录音",
+              "data": "与您的账户标识符关联的语音音频文件"
+            },
+            "purchases": {
+              "service": "Google Play / App Store（应用内购买）",
+              "purpose": "管理高级订阅（去除广告）",
+              "data": "由Google/Apple直接管理的购买状态和标识符"
+            },
+            "admob": {
+              "service": "Google AdMob",
+              "purpose": "向非高级会员用户展示广告（横幅广告、插页广告），以及您可以自愿选择观看以支持我们（无需订阅高级会员）的奖励广告（“rewarded ads”）",
+              "data": "设备广告标识符，与广告互动的数据"
+            }
+          }
+        },
+        "att": "在iOS上，展示个性化广告时可能伴随操作系统提供的“App Tracking Transparency”（ATT）授权请求。您可以随时从设备的隐私设置中拒绝此授权（设置 > 隐私与安全 > 跟踪）；即使您拒绝，应用仍能完全正常使用。",
+        "noLocation": "我们不收集您的精确位置信息；应用不会请求访问地理定位的权限。"
+      },
+      "process": {
+        "heading": "我们如何处理您的信息？",
+        "summary": "<strong>简而言之</strong>：我们处理您的信息以运行应用、回复您的请求、改进我们的服务，并在适用情况下管理您的订阅。",
+        "detail": "我们处理上述数据是为了：(i) 提供并维护应用的各项功能（阅读、背诵、卡塔姆、测验、诵读纠正），(ii) 回复您通过联系表单发送的留言，(iii) 诊断并修复技术问题，(iv) 汇总衡量功能使用情况以确定我们开发工作的优先级，(v) 管理高级订阅以及针对非高级会员用户的广告展示。"
+      },
+      "legal": {
+        "heading": "我们依据哪些法律基础处理您的个人信息？",
+        "summary": "<strong>简而言之</strong>：只有在我们认为有必要且依据适用法律拥有合法理由（即法律依据）时，我们才会处理您的个人信息。",
+        "euTitle": "如果您位于欧盟或英国，本节适用于您。",
+        "euIntro": "《通用数据保护条例》（GDPR）及英国GDPR要求我们说明我们据以处理您个人信息的有效法律依据：",
+        "euList": {
+          "consent": "<strong>同意</strong>：用于展示个性化广告及受众统计，通过应用首次启动时的同意横幅收集。",
+          "contract": "<strong>合同履行</strong>：用于管理您的高级订阅。",
+          "legitimate": "<strong>正当利益</strong>：用于技术诊断（Crashlytics）以及处理您的联系留言。"
+        },
+        "canadaTitle": "如果您位于加拿大，本节适用于您。",
+        "canadaText": "如果您给予我们特定授权，或在某些法律规定的情况下（隐私保护法），我们可能会处理您的信息。如果处理行为合理，且出于一个理性之人会认为恰当的目的，例如回应您的联系请求，我们也可能处理您的信息。"
+      },
+      "share": {
+        "heading": "我们在何时、与谁共享您的个人信息？",
+        "summary": "<strong>简而言之</strong>：我们仅与应用运行所需的技术服务提供商（Google Firebase、Google AdMob）、负责管理购买的应用商店（Google Play、App Store）共享信息，以及在法律要求的情况下共享。我们绝不会将您的数据出售给第三方。"
+      },
+      "keep": {
+        "heading": "我们保留您的信息多长时间？",
+        "summary": "<strong>简而言之</strong>：我们会将您的信息保留至本声明所述目的所需的时长，除非法律要求更长的保留期限。",
+        "detail": "通过联系表单发送的留言会在处理完您的请求后予以归档或删除。汇总统计数据（Firebase Analytics）按Google Firebase的默认参数保留。"
+      },
+      "rights": {
+        "heading": "您在隐私方面享有哪些权利？",
+        "summary": "<strong>简而言之</strong>：根据您所居住的国家，您可能有权要求访问、更正或删除您的个人信息，撤回您对处理行为的同意，并反对某些处理行为。",
+        "detail": "您可以随时通过应用内的隐私设置（设置 > 隐私）撤回您对受众统计和个性化广告的同意。"
+      },
+      "dnt": {
+        "heading": "“请勿追踪”功能控制",
+        "text": "大多数网络浏览器以及部分操作系统和移动应用都包含“请勿追踪”（“DNT”）功能或设置，您可以启用它来表明您的隐私偏好。目前，尚未有统一的技术标准来识别和实施DNT信号。因此，我们目前不会响应浏览器的DNT信号。如果未来出现我们必须遵循的在线追踪标准，我们将在本隐私声明的修订版本中告知您。"
+      },
+      "usRights": {
+        "heading": "美国居民是否享有特定的隐私权利？",
+        "summary": "<strong>简而言之</strong>：如果您是美国居民，根据您所居住的州，您在访问个人信息方面享有某些特定权利。您可以通过下方注明的地址联系我们，以行使这些权利。"
+      },
+      "updates": {
+        "heading": "我们是否会更新本声明？",
+        "summary": "<strong>简而言之</strong>：会的，我们会在必要时更新本声明，以保持与相关法律的合规性。",
+        "detail": "我们可能会不时更新本隐私声明。更新版本将以更新的“修订”日期标注，并自可访问之日起生效。如果我们对本隐私声明做出重大修改，我们可能会通过发布醒目的通知，或直接向您发送提醒来告知您。我们鼓励您经常查阅本隐私声明，以了解我们如何保护您的信息。"
+      },
+      "contact": {
+        "heading": "如何就本声明联系我们？",
+        "text": "如果您对本声明有任何疑问或意见，可以发送邮件至<mailLink>othmeneb@gmail.com</mailLink>与我们联系。"
+      },
+      "access": {
+        "heading": "如何查阅、更新或删除我们收集的数据？",
+        "text": "根据您所在国家适用的法律，您可能有权要求访问、修改或删除我们持有的关于您的个人信息。为此，您只需发送邮件至<mailLink>othmeneb@gmail.com</mailLink>与我们联系；我们会尽快处理您的请求。"
+      }
+    },
+    "footer": "© 2026 Noor Phonetic Quran. 版权所有。",
+    "meta": {
+      "title": "隐私政策 - Noor Phonetic Quran",
+      "description": "Noor Phonetic Quran隐私政策：收集的数据（分析、购买、联系表单）、用途、第三方共享以及您的权利。"
+    }
+  },
+  "correctionRecitation": {
+    "meta": {
+      "title": "古兰经诵读纠正：录制并进步 | Noor Phonetic Quran",
+      "description": "使用Noor Phonetic Quran录制您的古兰经诵读并获得个性化纠正：提升发音和塔吉维德规则的掌握。iOS和Android均可免费使用。",
+      "keywords": "古兰经诵读纠正, 提升诵读水平, 塔吉维德纠正, 录制诵读, 古兰经纠正应用, 学习正确诵读古兰经",
+      "ogTitle": "古兰经诵读纠正：录制并进步",
+      "ogDescription": "录制您的诵读并获得个性化纠正，提升发音和塔吉维德水平。Noor Phonetic Quran免费应用。"
+    },
+    "breadcrumb": {
+      "home": "首页",
+      "current": "诵读纠正"
+    },
+    "hero": {
+      "title": "古兰经诵读纠正：录制并进步",
+      "subtitle": "直接在应用内录制您的诵读，获得个性化纠正，提升发音准确度并更好地遵循塔吉维德规则。"
+    },
+    "intro": {
+      "title": "为什么要纠正自己的诵读？",
+      "paragraph1": "正确诵读不仅仅是准确读出拼音：遵循塔吉维德规则（延长音、连读、字母发音部位）往往需要外部反馈，才能发现需要改进之处。",
+      "paragraph2": "有了Noor Phonetic Quran，您可以直接在应用内录音并获得个性化纠正，无需另外寻找随时有空的老师。"
+    },
+    "steps": {
+      "title": "诵读纠正是如何运作的？",
+      "items": [
+        {
+          "title": "选择一段经文",
+          "text": "选择您想诵读的章节和经文范围。"
+        },
+        {
+          "title": "录制您的诵读",
+          "text": "直接在应用内进行，无需额外设备。"
+        },
+        {
+          "title": "发送您的录音",
+          "text": "您的诵读会被排入待审听队列。"
+        },
+        {
+          "title": "接收您的纠正反馈",
+          "text": "个性化的反馈会直接在应用内告诉您需要改进的地方。"
+        },
+        {
+          "title": "在一次次录音中不断进步",
+          "text": "定期重复练习，逐步完善您的发音和塔吉维德水平。"
+        }
+      ]
+    },
+    "faq": {
+      "title": "关于诵读纠正的常见问题",
+      "items": [
+        {
+          "question": "诵读纠正是免费的吗？",
+          "answer": "第一次录音是免费的。之后，该功能属于应用的高级付费服务。"
+        },
+        {
+          "question": "需要多长时间才能收到纠正反馈？",
+          "answer": "您的录音会被排入队列等待审听和纠正，随后会直接在应用内收到个性化的反馈。"
+        },
+        {
+          "question": "我可以对同一段经文多次重新录音吗？",
+          "answer": "可以，您可以根据需要多次重复练习同一段经文以取得进步。"
+        }
+      ]
+    },
+    "related": {
+      "title": "同时了解",
+      "tajweed": "塔吉维德规则",
+      "memorisation": "背诵古兰经（哈费兹）",
+      "allFeatures": "所有功能"
+    }
+  },
+  "khatmaCoran": {
+    "meta": {
+      "title": "古兰经卡塔姆：规划并跟踪完整阅读进度的应用 | Noor Phonetic Quran",
+      "description": "使用Noor Phonetic Quran应用规划您的卡塔姆（通读整部古兰经）：每日目标、进度跟踪、连续打卡（streak）和提醒。iOS和Android均可免费使用。",
+      "keywords": "古兰经卡塔姆, 卡塔姆应用, 通读整部古兰经, 古兰经阅读计划, 斋月卡塔姆目标, 古兰经阅读跟踪, 读完古兰经",
+      "ogTitle": "古兰经卡塔姆：规划并完成您的完整阅读",
+      "ogDescription": "规划您的卡塔姆，设定每日目标，跟踪进度并获得提醒。Noor Phonetic Quran免费应用。"
+    },
+    "breadcrumb": {
+      "home": "首页",
+      "current": "古兰经卡塔姆"
+    },
+    "hero": {
+      "title": "古兰经卡塔姆：规划并完成您的完整阅读",
+      "subtitle": "为自己设定天数目标，跟踪每日进度，保持阅读连续打卡（streak），直到读完圣古兰经的最后一页，并获得提醒帮助您保持规律。",
+      "googlePlay": "Google Play",
+      "appStore": "App Store"
+    },
+    "intro": {
+      "title": "什么是卡塔姆？",
+      "paragraph1": "卡塔姆指的是从头（开端章）到尾（世人章）通读整部古兰经。许多穆斯林会在斋月期间完成一次卡塔姆，但也可以在一年中任何时候、以您自己选择的时长进行。",
+      "paragraph2": "读完古兰经需要坚持不懈：如果没有阅读计划和进度跟踪，很容易半途而废或失去方向。这正是Noor Phonetic Quran的卡塔姆功能所要解决的问题。"
+    },
+    "features": {
+      "title": "应用中的卡塔姆功能是如何运作的？",
+      "items": [
+        {
+          "title": "选择您的卡塔姆时长",
+          "description": "例如为斋月设定30天，或根据您自己的节奏自定义时长。"
+        },
+        {
+          "title": "跟踪您的每日目标",
+          "description": "应用会自动计算每天需要阅读的页数，以便按时完成。"
+        },
+        {
+          "title": "保持您的阅读连续打卡（streak）",
+          "description": "每天达成目标都会延长您的连续打卡记录，成为保持规律的额外动力。"
+        },
+        {
+          "title": "接收提醒",
+          "description": "通知会帮助您不忘记当天的阅读任务。"
+        },
+        {
+          "title": "庆祝完成卡塔姆",
+          "description": "读完古兰经后，会显示您整个历程的总结（用时天数、最佳连续打卡记录）。"
+        }
+      ]
+    },
+    "screenshots": {
+      "title": "卡塔姆功能预览",
+      "alts": [
+        "Noor Phonetic Quran - 选择卡塔姆计划（30天、60天、90天或斋月）",
+        "Noor Phonetic Quran - 带连续打卡的卡塔姆进度跟踪",
+        "Noor Phonetic Quran - 阅读过程中显示的卡塔姆指示器"
+      ]
+    },
+    "faq": {
+      "title": "关于卡塔姆的常见问题",
+      "items": [
+        {
+          "question": "什么是古兰经卡塔姆？",
+          "answer": "卡塔姆指的是从头到尾通读整部古兰经，通常在一段设定的时间内完成（往往是在斋月期间，但也可以在全年任何时候进行）。"
+        },
+        {
+          "question": "如何用应用规划一次卡塔姆？",
+          "answer": "选择完成古兰经所需的天数（例如斋月的30天），应用会自动计算您的每日阅读页数目标，并逐日跟踪您的进度。"
+        },
+        {
+          "question": "如果我某天错过了阅读怎么办？",
+          "answer": "应用会调整您剩余的每日目标，帮助您赶上进度并按时完成卡塔姆，同时继续跟踪您的连续打卡天数（streak）。"
+        },
+        {
+          "question": "我可以在斋月以外的时间进行卡塔姆吗？",
+          "answer": "可以，您可以在一年中的任何时候，以您选择的时长开始一次卡塔姆。"
+        },
+        {
+          "question": "卡塔姆功能是免费的吗？",
+          "answer": "是的，和Noor Phonetic Quran的所有主要功能一样，卡塔姆功能完全免费。"
+        }
+      ]
+    },
+    "related": {
+      "title": "同时了解",
+      "memorization": "背诵古兰经（哈费兹）",
+      "audio": "古兰经音频",
+      "allFeatures": "所有功能"
+    }
+  },
+  "tajweedCoran": {
+    "meta": {
+      "title": "古兰经塔吉维德规则：彩色详细学习 | Noor Phonetic Quran",
+      "description": "使用Noor Phonetic Quran学习古兰经塔吉维德规则：阅读时的颜色标注和注释、字母发音部位（发音位置）、努恩萨基那规则及停顿规则。iOS和Android均可免费使用。",
+      "keywords": "塔吉维德规则, 古兰经塔吉维德, 学习塔吉维德, 彩色塔吉维德, 阿拉伯字母发音部位, 努恩萨基那泰努因, 停顿与起始规则, 免费塔吉维德应用",
+      "ogTitle": "古兰经塔吉维德规则：彩色详细学习",
+      "ogDescription": "阅读时的颜色标注和注释、发音部位、努恩萨基那规则及停顿规则。Noor Phonetic Quran免费应用。"
+    },
+    "breadcrumb": {
+      "home": "首页",
+      "current": "塔吉维德规则"
+    },
+    "hero": {
+      "title": "古兰经塔吉维德规则：彩色详细学习",
+      "subtitle": "古兰经文本会按照塔吉维德规则以颜色标注和注释显示，并配有关于发音部位、努恩萨基那以及停顿与重新开始规则的详细指南。",
+      "backLink": "返回首页",
+      "googlePlay": "Google Play",
+      "appStore": "App Store"
+    },
+    "intro": {
+      "title": "为什么塔吉维德如此重要",
+      "paragraph1": "塔吉维德是确保正确诵读古兰经的一整套规则：每个字母的精准发音、延长音、连读，以及可以停顿或重新开始诵读的位置。诵读时不遵守塔吉维德规则可能会改变经文的含义。",
+      "paragraph2": "Noor Phonetic Quran让这些规则变得清晰可见、易于理解，在阅读过程中以颜色标注，并配有详细指南深入讲解每个知识点。"
+    },
+    "features": {
+      "title": "塔吉维德学习提供的功能",
+      "items": [
+        {
+          "title": "彩色标注文本",
+          "description": "颜色和注释直接在古兰经文本上引导您的诵读，遵循正确的塔吉维德规则。"
+        },
+        {
+          "title": "发音部位（发音位置）",
+          "description": "通过解剖图示，学习每个阿拉伯字母从其发音部位出发的正确发音。"
+        },
+        {
+          "title": "努恩萨基那与泰努因",
+          "description": "以可视化方式讲解并对比支配努恩萨基那和泰努因的4项规则（显现、同化、转换、隐藏）。"
+        },
+        {
+          "title": "停顿与起始规则",
+          "description": "识别可以停顿和重新开始诵读位置的规则，以保持经文含义的完整。"
+        }
+      ]
+    },
+    "screenshots": {
+      "title": "塔吉维德规则预览",
+      "alts": [
+        "Noor Phonetic Quran - 阅读过程中彩色显示的塔吉维德规则",
+        "Noor Phonetic Quran - 阿拉伯字母发音部位（发音位置）",
+        "Noor Phonetic Quran - 努恩萨基那与泰努因规则",
+        "Noor Phonetic Quran - 停顿与起始规则（停顿与重新开始）"
+      ]
+    },
+    "faq": {
+      "title": "关于塔吉维德的常见问题",
+      "items": [
+        {
+          "question": "什么是塔吉维德？",
+          "answer": "塔吉维德是支配古兰经正确发音的一整套规则：延长音、连读、字母发音部位以及诵读的停顿与重新开始规则。"
+        },
+        {
+          "question": "应用是如何教授塔吉维德的？",
+          "answer": "阅读过程中，古兰经文本会按照塔吉维德规则进行颜色标注和注释，并配有详细指南解释每条规则：发音部位、努恩萨基那与泰努因，以及停顿与起始规则。"
+        },
+        {
+          "question": "塔吉维德适合初学者吗？",
+          "answer": "是的，每条规则都配有简单的定义、示例和可视化对比，即使没有任何基础也能轻松学习。"
+        }
+      ]
+    },
+    "related": {
+      "title": "同时了解",
+      "audio": "古兰经音频",
+      "memorization": "背诵古兰经（哈费兹）",
+      "allFeatures": "所有功能"
+    }
+  },
+  "quizCoran": {
+    "meta": {
+      "title": "古兰经测验：在娱乐中检验您的古兰经知识 | Noor Phonetic Quran",
+      "description": "通过Noor Phonetic Quran的古兰经测验检验您的古兰经知识：21道题目，奖励等级，50:50提示，观众求助和好友求助。iOS和Android均可免费使用。",
+      "keywords": "古兰经测验, 古兰经问答, 古兰经问题游戏, 检验古兰经知识, 伊斯兰测验, 免费古兰经测验应用, 古兰经问答题",
+      "ogTitle": "古兰经测验：在娱乐中检验您的古兰经知识",
+      "ogDescription": "21道题目，奖励等级，50:50提示，观众求助和好友求助。Noor Phonetic Quran免费应用。"
+    },
+    "breadcrumb": {
+      "home": "首页",
+      "current": "古兰经测验"
+    },
+    "hero": {
+      "title": "古兰经测验：在娱乐中检验您的知识",
+      "subtitle": "21道题目，渐进式奖励等级，以及三种提示（50:50、观众求助、好友求助），让您在娱乐中学习古兰经。",
+      "backLink": "返回首页",
+      "googlePlay": "Google Play",
+      "appStore": "App Store"
+    },
+    "intro": {
+      "title": "在娱乐中学习的测验",
+      "paragraph1": "Noor Phonetic Quran的古兰经测验灵感来自“谁想成为百万富翁”节目形式：一系列关于古兰经、伊斯兰历史和各章节的问题，奖励等级会随着每个正确答案而提升。",
+      "paragraph2": "这是一种寓教于乐的方式，无论独自一人还是与家人一起，都能轻松复习或了解古兰经知识，没有任何压力——您可以随时停下并保留您的得分。"
+    },
+    "features": {
+      "title": "测验是如何运作的？",
+      "items": [
+        {
+          "title": "回答21道题目",
+          "description": "关于古兰经和伊斯兰历史的多项选择题，难度逐渐增加。"
+        },
+        {
+          "title": "跟踪奖励等级",
+          "description": "每答对一题都会让您在从100分到100万分的等级上晋升。"
+        },
+        {
+          "title": "使用您的提示",
+          "description": "50:50可以排除两个错误答案，观众求助可以显示其他玩家的意见，好友求助会为您提供一个建议答案。"
+        },
+        {
+          "title": "随时可以停止",
+          "description": "“见好就收”按钮让您可以随时保留已获得的奖励，而不必冒着全部失去的风险。"
+        }
+      ]
+    },
+    "screenshots": {
+      "title": "古兰经测验预览",
+      "alts": [
+        "Noor Phonetic Quran - 古兰经测验主界面",
+        "Noor Phonetic Quran - 带奖励等级的测验题目",
+        "Noor Phonetic Quran - 测验中的观众求助提示",
+        "Noor Phonetic Quran - 测验中的好友求助提示"
+      ]
+    },
+    "faq": {
+      "title": "关于古兰经测验的常见问题",
+      "items": [
+        {
+          "question": "测验包含多少道题目？",
+          "answer": "测验包含21道多项选择题，难度会随着游戏进程逐渐增加。"
+        },
+        {
+          "question": "如果我答错了一道题会怎样？",
+          "answer": "根据您的进度，您会保留已达到的最后一个有保障的奖励等级，就像“谁想成为百万富翁”节目形式一样。"
+        },
+        {
+          "question": "古兰经测验是免费的吗？",
+          "answer": "是的，古兰经测验是Noor Phonetic Quran免费功能的一部分。"
+        }
+      ]
+    },
+    "related": {
+      "title": "同时了解",
+      "khatma": "古兰经卡塔姆",
+      "audio": "古兰经音频",
+      "allFeatures": "所有功能"
+    }
+  },
+  "memorisationCoran": {
+    "meta": {
+      "title": "背诵古兰经（哈费兹）：带音频重复和测验的应用 | Noor Phonetic Quran",
+      "description": "使用Noor Phonetic Quran应用背诵古兰经（哈费兹）：逐节音频重复、逐词模式、复习测验、积分、等级和徽章。iOS和Android均可免费使用。",
+      "keywords": "背诵古兰经, 古兰经哈费兹, 古兰经背诵应用, 熟记古兰经, 逐节背诵, 免费哈费兹应用",
+      "ogTitle": "背诵古兰经（哈费兹）：音频重复、测验与进度跟踪",
+      "ogDescription": "通过音频重复、逐词模式、测验和每日挑战背诵古兰经。Noor Phonetic Quran免费应用。"
+    },
+    "breadcrumb": {
+      "home": "首页",
+      "current": "背诵古兰经"
+    },
+    "hero": {
+      "title": "背诵古兰经（哈费兹）：音频重复、测验与进度跟踪",
+      "subtitle": "借助音频重复、逐词模式和复习测验，逐节熟记古兰经，配有积分和徽章系统，让您每天都保持学习动力。",
+      "backLink": "返回首页",
+      "googlePlay": "Google Play",
+      "appStore": "App Store"
+    },
+    "intro": {
+      "title": "什么是哈费兹？",
+      "paragraph1": "哈费兹指的是逐节、逐章地背诵古兰经。这是一段要求严格的历程，需要经常重复、良好的学习方法，以及可靠的方式来检验哪些内容已经牢固掌握。",
+      "paragraph2": "Noor Phonetic Quran的设计初衷正是为了以切实可行的工具（音频、重复、主动复习和游戏化）陪伴这段历程，而不仅仅依靠反复阅读经文的方式。"
+    },
+    "features": {
+      "title": "如何用应用背诵古兰经？",
+      "items": [
+        {
+          "title": "聆听并跟读",
+          "description": "每节经文都配有音频重复功能，通过聆听加深记忆。"
+        },
+        {
+          "title": "使用逐词模式",
+          "description": "将较长的经文拆解开来，逐步进行背诵。"
+        },
+        {
+          "title": "通过复习测验检验自己",
+          "description": "定期检验已学的经文是否仍牢固记住。"
+        },
+        {
+          "title": "赚取积分和徽章",
+          "description": "每背诵一节经文都能获得积分，提升等级并解锁徽章。"
+        },
+        {
+          "title": "接受每日挑战",
+          "description": "每日目标鼓励您每天都背诵一点，不会造成负担。"
+        }
+      ]
+    },
+    "screenshots": {
+      "title": "背诵计划预览",
+      "alts": [
+        "Noor Phonetic Quran - 每日背诵计划步骤",
+        "Noor Phonetic Quran - 带连续打卡的背诵清单",
+        "Noor Phonetic Quran - 阅读过程中显示的每日计划指示器"
+      ]
+    },
+    "faq": {
+      "title": "关于背诵古兰经的常见问题",
+      "items": [
+        {
+          "question": "背诵古兰经需要多长时间？",
+          "answer": "这取决于每个人的节奏。应用让您能够按照自己的节奏、逐节推进，没有时间压力。"
+        },
+        {
+          "question": "背诵模式可以离线使用吗？",
+          "answer": "一旦章节加载完成，音频重复和复习测验在没有网络连接的情况下依然可用。"
+        },
+        {
+          "question": "背诵功能是免费的吗？",
+          "answer": "是的，和Noor Phonetic Quran的所有主要功能一样，背诵模式完全免费。"
+        }
+      ]
+    },
+    "related": {
+      "title": "同时了解",
+      "khatma": "古兰经卡塔姆",
+      "tajweed": "塔吉维德规则",
+      "allFeatures": "所有功能"
+    }
+  }
+}

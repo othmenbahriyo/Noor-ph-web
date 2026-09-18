@@ -1,9 +1,11 @@
 'use client';
 
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useState } from 'react';
 import Image from 'next/image';
 import { useLocale, useTranslations } from 'next-intl';
 import { Link, usePathname } from '@/i18n/navigation';
+import LanguageModal from '@/components/LanguageModal/LanguageModal';
+import { LANGUAGES } from '@/i18n/languages';
 // Dark mode toggle temporarily hidden from the UI — see ThemeToggle usages
 // below for the two spots to restore (desktop header + mobile menu).
 // import ThemeToggle from '@/components/ThemeToggle/ThemeToggle';
@@ -38,18 +40,14 @@ const STORE_LINKS = [
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const [langDropdownOpen, setLangDropdownOpen] = useState(false);
-  const langSwitcherRef = useRef<HTMLDivElement>(null);
+  const [langModalOpen, setLangModalOpen] = useState(false);
 
   const locale = useLocale();
   const pathname = usePathname();
   const tNav = useTranslations('common.nav');
   const tLang = useTranslations('common.languageSwitcher');
 
-  // Locale switch links keep the same page path, matching next-intl's
-  // localePrefix: 'as-needed' scheme (fr -> "/", en -> "/en/...").
-  const frHref = `/${pathname === '/' ? '' : pathname}`.replace(/\/{2,}/g, '/');
-  const enHref = `/en${pathname === '/' ? '' : pathname}`;
+  const currentLanguage = LANGUAGES.find((lang) => lang.code === locale);
 
   // Section anchors (#features, #screenshots, #testimonials) only exist on
   // the homepage. From any other page, prefix with "/" so the browser
@@ -63,19 +61,6 @@ export default function Header() {
       document.body.style.overflow = '';
     };
   }, [mobileMenuOpen]);
-
-  useEffect(() => {
-    if (!langDropdownOpen) return;
-
-    const handleClickOutside = (e: MouseEvent) => {
-      if (langSwitcherRef.current && !langSwitcherRef.current.contains(e.target as Node)) {
-        setLangDropdownOpen(false);
-      }
-    };
-
-    document.addEventListener('click', handleClickOutside);
-    return () => document.removeEventListener('click', handleClickOutside);
-  }, [langDropdownOpen]);
 
   const closeMobileMenu = () => setMobileMenuOpen(false);
 
@@ -114,33 +99,17 @@ export default function Header() {
             </nav>
 
             <div className={styles.headerActions}>
-              <div className={styles.languageSwitcher} ref={langSwitcherRef}>
-                <button
-                  className={`${styles.langBtn} ${langDropdownOpen ? styles.active : ''}`}
-                  onClick={(e) => {
-                    e.stopPropagation();
-                    setLangDropdownOpen((v) => !v);
-                  }}
-                >
-                  <i className="fas fa-globe" />
-                  <span className={styles.currentLang}>{locale.toUpperCase()}</span>
-                  <i className="fas fa-chevron-down" />
-                </button>
-                <div className={`${styles.langDropdown} ${langDropdownOpen ? styles.active : ''}`}>
-                  <a href={frHref} className={`${styles.langOption} ${locale === 'fr' ? styles.active : ''}`}>
-                    <span className={styles.langFlag}>🇫🇷</span>
-                    <span>{tLang('fr')}</span>
-                  </a>
-                  <a href={enHref} className={`${styles.langOption} ${locale === 'en' ? styles.active : ''}`}>
-                    <span className={styles.langFlag}>🇬🇧</span>
-                    <span>{tLang('en')}</span>
-                  </a>
-                </div>
-              </div>
+              <button className={styles.langBtn} onClick={() => setLangModalOpen(true)}>
+                <span className={styles.langFlag}>{currentLanguage?.flag}</span>
+                <span className={styles.currentLang}>{locale.toUpperCase()}</span>
+                <i className="fas fa-chevron-down" />
+              </button>
             </div>
           </div>
         </div>
       </header>
+
+      {langModalOpen && <LanguageModal onClose={() => setLangModalOpen(false)} />}
 
       {/* Mobile Navbar */}
       <div id="mobile-navbar" className={`${styles.mobileNavbar} ${mobileMenuOpen ? styles.active : ''}`}>
@@ -174,21 +143,17 @@ export default function Header() {
             </a>
           ))}
         </nav>
-        <div className={styles.mobileLangSwitcher}>
-          <div className={styles.mobileLangTitle}>
-            <span>{tLang('label')}</span>
-          </div>
-          <div className={styles.mobileLangOptions}>
-            <a href={frHref} className={`${styles.mobileLangBtn} ${locale === 'fr' ? styles.active : ''}`}>
-              <span className={styles.langFlag}>🇫🇷</span>
-              <span>FR</span>
-            </a>
-            <a href={enHref} className={`${styles.mobileLangBtn} ${locale === 'en' ? styles.active : ''}`}>
-              <span className={styles.langFlag}>🇬🇧</span>
-              <span>EN</span>
-            </a>
-          </div>
-        </div>
+        <button
+          className={styles.mobileLangSwitcher}
+          onClick={() => {
+            closeMobileMenu();
+            setLangModalOpen(true);
+          }}
+        >
+          <span className={styles.langFlag}>{currentLanguage?.flag}</span>
+          <span>{tLang('label')}</span>
+          <i className="fas fa-chevron-right" />
+        </button>
       </div>
     </>
   );
