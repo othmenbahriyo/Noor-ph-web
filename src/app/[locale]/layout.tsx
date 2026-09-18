@@ -46,12 +46,7 @@ export default async function LocaleLayout({
   return (
     <html lang={locale} dir={dir} className={cairo.variable}>
       <head>
-        <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossOrigin="" />
-        <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com" />
-        <link
-          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-          rel="stylesheet"
-        />
+        <link href="/fontawesome/css/all.min.css" rel="stylesheet" />
         <script
           // Runs before first paint to avoid a light-mode flash: applies the
           // saved theme (or the OS preference on first visit) synchronously,

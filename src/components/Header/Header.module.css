@@ -37,11 +37,22 @@
 
 .menuToggle {
   display: none;
-  background: none;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  background: var(--light-color);
   border: none;
-  font-size: 1.5rem;
+  border-radius: var(--border-radius-pill);
+  font-size: 1.15rem;
   color: var(--primary-color);
   cursor: pointer;
+  transition: var(--transition);
+}
+
+.menuToggle:hover {
+  background: var(--primary-color);
+  color: var(--on-primary-text);
 }
 
 .navbar {
@@ -218,6 +229,7 @@
 
   .menuToggle {
     display: block;
+    margin-left: auto;
   }
 
   .headerActions .langBtn {

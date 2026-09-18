@@ -90,6 +90,10 @@
   margin: 0;
 }
 
+.formSkeleton {
+  min-height: 520px;
+}
+
 @media (max-width: 900px) {
   .rowGrid {
     grid-template-columns: 1fr;

@@ -1,5 +1,5 @@
 import { getTranslations } from 'next-intl/server';
-import ContactForm from './ContactForm';
+import ContactFormLoader from './ContactFormLoader';
 import styles from './ContactSection.module.css';
 
 interface ContactSectionProps {
@@ -42,7 +42,7 @@ export default async function ContactSection({ standalone = false }: ContactSect
           </div>
 
           <div className={styles.card}>
-            <ContactForm />
+            <ContactFormLoader />
           </div>
         </div>
       </div>
