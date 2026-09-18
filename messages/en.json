@@ -108,6 +108,10 @@
       "deviceScreenAlt": "Noor Phonetic Quran - Interface de l'application montrant la phonétique du Coran",
       "mobileDeviceScreenAlt": "Noor Phonetic Quran - Apprentissage du Coran avec transcription phonétique"
     },
+    "languages": {
+      "title": "Available in your language",
+      "subtitle": "Noor Phonetic Quran is translated into 20 languages to support Muslims around the world."
+    },
     "why": {
       "title": "Why Noor Phonetic Quran?",
       "subtitle": "Discover the reasons that make our app a unique choice",

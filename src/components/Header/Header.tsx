@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useRef, useState } from 'react';
+import Image from 'next/image';
 import { useLocale, useTranslations } from 'next-intl';
 import { Link, usePathname } from '@/i18n/navigation';
 // Dark mode toggle temporarily hidden from the UI — see ThemeToggle usages
@@ -84,7 +85,7 @@ export default function Header() {
         <div className="container">
           <div className={styles.headerContent}>
             <Link href="/" className={styles.logo}>
-              <img src="/images/logo.webp" alt="Noor Phonetic Quran Logo" width={42} height={42} />
+              <Image src="/images/logo.webp" alt="Noor Phonetic Quran Logo" width={42} height={42} priority />
               <span className={styles.logoText}>Noor Phonetic Quran</span>
             </Link>
 
@@ -145,7 +146,7 @@ export default function Header() {
       <div id="mobile-navbar" className={`${styles.mobileNavbar} ${mobileMenuOpen ? styles.active : ''}`}>
         <div className={styles.mobileNavbarHeader}>
           <Link href="/" className={styles.logo} onClick={closeMobileMenu}>
-            <img src="/images/logo.webp" alt="Noor Phonetic Quran Logo" width={42} height={42} />
+            <Image src="/images/logo.webp" alt="Noor Phonetic Quran Logo" width={42} height={42} />
             <span className={styles.logoText}>Noor Phonetic Quran</span>
           </Link>
           <button className={styles.closeMenu} aria-label={tNav('closeMenu')} onClick={closeMobileMenu}>

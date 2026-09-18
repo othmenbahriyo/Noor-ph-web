@@ -65,7 +65,11 @@ export async function generateMetadata({
   };
 }
 
-function buildJsonLd(faqItems: { question: string; answer: string }[]) {
+function buildJsonLd(
+  faqItems: { question: string; answer: string }[],
+  howToTitle: string,
+  howToSteps: { title: string; description: string }[],
+) {
   const breadcrumb = {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
@@ -88,7 +92,18 @@ function buildJsonLd(faqItems: { question: string; answer: string }[]) {
     })),
   };
 
-  return [breadcrumb, faqPage];
+  const howTo = {
+    '@context': 'https://schema.org',
+    '@type': 'HowTo',
+    name: howToTitle,
+    step: howToSteps.map((step) => ({
+      '@type': 'HowToStep',
+      name: step.title,
+      text: step.description,
+    })),
+  };
+
+  return [breadcrumb, faqPage, howTo];
 }
 
 export default async function MemorisationCoranPage({
@@ -101,7 +116,9 @@ export default async function MemorisationCoranPage({
 
   const tFaq = await getTranslations({ locale, namespace: 'memorisationCoran.faq' });
   const faqItems = tFaq.raw('items') as { question: string; answer: string }[];
-  const jsonLd = buildJsonLd(faqItems);
+  const tFeatures = await getTranslations({ locale, namespace: 'memorisationCoran.features' });
+  const howToSteps = tFeatures.raw('items') as { title: string; description: string }[];
+  const jsonLd = buildJsonLd(faqItems, tFeatures('title'), howToSteps);
 
   return (
     <>

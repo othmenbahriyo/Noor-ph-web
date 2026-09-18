@@ -13,6 +13,8 @@ const cairo = Cairo({
   display: 'swap',
 });
 
+const RTL_LOCALES = new Set(['ar', 'ur']);
+
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
 }
@@ -39,8 +41,10 @@ export default async function LocaleLayout({
   // Enable static rendering for this locale.
   setRequestLocale(locale);
 
+  const dir = RTL_LOCALES.has(locale) ? 'rtl' : 'ltr';
+
   return (
-    <html lang={locale} className={cairo.variable}>
+    <html lang={locale} dir={dir} className={cairo.variable}>
       <head>
         <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossOrigin="" />
         <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com" />

@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import { getTranslations } from 'next-intl/server';
 import styles from './Screenshots.module.css';
 
@@ -31,7 +32,7 @@ export default async function Screenshots() {
           {SCREENSHOT_FILES.map((file, index) => (
             <div className={styles.screenshotWrapper} key={file}>
               <div className={styles.screenshot}>
-                <img
+                <Image
                   src={`/images/${file}`}
                   alt={alts[index]}
                   loading="lazy"

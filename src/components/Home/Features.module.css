@@ -1,6 +1,6 @@
 .features {
   padding: var(--section-padding) 0;
-  background-color: var(--white);
+  background-color: var(--light-color);
   position: relative;
 }
 

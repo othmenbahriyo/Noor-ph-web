@@ -5,12 +5,14 @@ import Footer from '@/components/Footer/Footer';
 import ContactSection from '@/components/Footer/ContactSection';
 import Hero from '@/components/Home/Hero';
 import Why from '@/components/Home/Why';
+import Languages from '@/components/Home/Languages';
 import Features from '@/components/Home/Features';
 import VideoDemo from '@/components/Home/VideoDemo';
 import Screenshots from '@/components/Home/Screenshots';
 import Faq from '@/components/Home/Faq';
 import Testimonials from '@/components/Home/Testimonials';
 import { routing } from '@/i18n/routing';
+import { buildLocaleUrls } from '@/i18n/seo';
 
 const SITE_URL = 'https://noor-phonetic-quran.com';
 
@@ -25,11 +27,7 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'home.meta' });
-
-  const canonicalPath = locale === 'en' ? '/en/' : '/';
-  const canonicalUrl = `${SITE_URL}${canonicalPath}`;
-  const ogLocale = locale === 'en' ? 'en_US' : 'fr_FR';
-  const ogLocaleAlternate = locale === 'en' ? 'fr_FR' : 'en_US';
+  const { canonicalUrl, languages, ogLocale } = buildLocaleUrls(locale, '/');
 
   return {
     title: t('title'),
@@ -39,11 +37,7 @@ export async function generateMetadata({
     robots: 'index, follow, max-image-preview:large',
     alternates: {
       canonical: canonicalUrl,
-      languages: {
-        fr: `${SITE_URL}/`,
-        en: `${SITE_URL}/en/`,
-        'x-default': `${SITE_URL}/`,
-      },
+      languages,
     },
     icons: {
       icon: '/images/logo.webp',
@@ -56,17 +50,13 @@ export async function generateMetadata({
       url: canonicalUrl,
       siteName: 'Noor Phonetic Quran',
       locale: ogLocale,
-      alternateLocale: ogLocaleAlternate,
       type: 'website',
       images: [
         {
           url: `${SITE_URL}/images/noor.png`,
           width: 1200,
           height: 630,
-          alt:
-            locale === 'en'
-              ? 'Noor Phonetic Quran - Quran Learning App'
-              : "Noor Phonetic Quran - Application d'apprentissage du Coran",
+          alt: t('ogTitle'),
         },
       ],
     },
@@ -108,10 +98,12 @@ function buildJsonLd(locale: string, faqItems: { question: string; answer: strin
       'https://play.google.com/store/apps/details?id=coran.noor.bhr',
       'https://apps.apple.com/sn/app/noor-phonetic-quran/id6737744800',
     ],
-    inLanguage: ['fr', 'en', 'ar'],
+    inLanguage: routing.locales,
+    availableLanguage: routing.locales,
     author: {
-      '@type': 'Person',
+      '@type': 'Organization',
       name: 'Noor Phonetic Quran',
+      url: SITE_URL,
       email: 'othmeneb@gmail.com',
     },
   };
@@ -134,7 +126,7 @@ function buildJsonLd(locale: string, faqItems: { question: string; answer: strin
     '@type': 'WebSite',
     name: 'Noor Phonetic Quran',
     url: SITE_URL,
-    inLanguage: ['fr', 'en'],
+    inLanguage: routing.locales,
   };
 
   const video = {
@@ -186,6 +178,7 @@ export default async function Home({
       <main>
         <Hero />
         <Why />
+        <Languages />
         <Features />
         <VideoDemo />
         <Screenshots />

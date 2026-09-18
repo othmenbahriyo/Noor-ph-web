@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 import { useHeroAnimation } from '@/hooks/useHeroAnimation';
 import { useParallax } from '@/hooks/useParallax';
@@ -131,12 +132,13 @@ export default function Hero() {
 
               <div className={styles.device3dContainer}>
                 <div className={`device-3d ${styles.device3d}`}>
-                  <img
+                  <Image
                     src="/images/welcome_image1.png"
                     alt={t('deviceScreenAlt')}
                     className={styles.deviceScreen}
                     width={360}
                     height={680}
+                    priority
                   />
                 </div>
                 <div className={styles.deviceShadow} />
@@ -160,7 +162,7 @@ export default function Hero() {
         <div className="container">
           <div className={styles.mobileHeader}>
             <div className={styles.mobileAppIdentity}>
-              <img
+              <Image
                 src="/images/logo.webp"
                 alt="Noor Phonetic Quran Logo"
                 className={styles.mobileLogo}
@@ -180,12 +182,13 @@ export default function Hero() {
 
           <div className={styles.mobileDeviceContainer}>
             <div className={styles.mobileDeviceFrame}>
-              <img
+              <Image
                 src="/images/welcome_image2.png"
                 alt={t('mobileDeviceScreenAlt')}
                 className={styles.mobileDeviceScreen}
                 width={280}
                 height={560}
+                priority
               />
 
               <div className={`${styles.mobileIndicator} ${styles.phoneticIndicator}`}>

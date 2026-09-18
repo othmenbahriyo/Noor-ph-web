@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import { getTranslations } from 'next-intl/server';
 import contentStyles from './ContentBlock.module.css';
 import styles from './Screenshots.module.css';
@@ -19,7 +20,7 @@ export default async function Screenshots() {
         <h2>{t('title')}</h2>
         <div className={styles.screenshotGallery}>
           {SCREENSHOT_FILES.map((file, index) => (
-            <img
+            <Image
               key={file}
               src={`/images/${file}`}
               alt={alts[index]}
