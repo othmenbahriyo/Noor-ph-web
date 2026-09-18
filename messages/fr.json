@@ -100,10 +100,10 @@
   "home": {
     "meta": {
       "title": "Noor Phonetic Quran - Application d'Apprentissage du Coran",
-      "description": "Noor Phonetic Quran - Application gratuite pour apprendre à réciter, mémoriser (Hifz) et lire le Coran en entier (Khatma). Transcription phonétique, audio synchronisé, Tajweed colorée, plan de lecture quotidien, quiz et correction de récitation. 80K+ utilisateurs satisfaits. Disponible sur iOS et Android.",
-      "keywords": "Coran phonétique, apprendre Coran, Quran phonetics, récitation Coran, Tajweed, application Coran gratuite, Coran arabe français, transcription phonétique Coran, learn Quran, Quran app free, Khatma Coran, mémoriser le Coran, Hifz Coran, plan de lecture Coran, quiz Coran, correction récitation Coran, application mémorisation Coran",
+      "description": "Noor Phonetic Quran - Application gratuite pour apprendre à réciter, mémoriser (Hifz) et lire le Coran en entier (Khatma). Transcription phonétique, audio synchronisé, Tajweed colorée, makharij al-huruf, Adhkar, programme Ramadan, radio Coran en direct, plan de lecture quotidien, quiz et correction de récitation. 80K+ utilisateurs satisfaits. Disponible sur iOS et Android.",
+      "keywords": "Coran phonétique, apprendre Coran, Quran phonetics, récitation Coran, Tajweed, application Coran gratuite, Coran arabe français, transcription phonétique Coran, learn Quran, Quran app free, Khatma Coran, mémoriser le Coran, Hifz Coran, plan de lecture Coran, quiz Coran, correction récitation Coran, application mémorisation Coran, makharij al-huruf, points d'articulation lettres arabes, Noun Sakinah, Tanween, waqf, Adhkar matin et soir, invocations islamiques, programme Ramadan Coran, radio Coran en direct, chaînes TV islamiques",
       "ogTitle": "Noor Phonetic Quran - Récitez le Coran avec phonétique",
-      "ogDescription": "Apprenez à réciter le Saint Coran même sans connaître l'arabe. Application gratuite avec phonétique précise, audio intégré et règles de Tajweed."
+      "ogDescription": "Apprenez à réciter le Saint Coran même sans connaître l'arabe. Application gratuite avec phonétique précise, audio intégré, règles de Tajweed, Adhkar et programme Ramadan."
     },
     "hero": {
       "statusBadge": "80K+ Utilisateurs Actifs",

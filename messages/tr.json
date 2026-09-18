@@ -100,10 +100,10 @@
   "home": {
     "meta": {
       "title": "Noor Phonetic Quran - Kur'an Öğrenme Uygulaması",
-      "description": "Noor Phonetic Quran - Kur'an'ı okumayı, ezberlemeyi (Hıfz) ve tamamını okumayı (Hatim) öğrenmek için ücretsiz uygulama. Fonetik transkripsiyon, senkronize ses, renkli Tecvid, günlük okuma planı, quiz ve kıraat düzeltme. 80 binden fazla memnun kullanıcı. iOS ve Android'de mevcuttur.",
-      "keywords": "fonetik Kur'an, Kur'an öğren, Quran phonetics, Kur'an kıraati, Tecvid, ücretsiz Kur'an uygulaması, Arapça Türkçe Kur'an, Kur'an fonetik transkripsiyon, learn Quran, Quran app free, Kur'an Hatim, Kur'an ezberleme, Hıfz Kur'an, Kur'an okuma planı, Kur'an quiz, kıraat düzeltme uygulaması, Kur'an ezberleme uygulaması",
+      "description": "Noor Phonetic Quran - Kur'an'ı okumayı, ezberlemeyi (Hıfz) ve tamamını okumayı (Hatim) öğrenmek için ücretsiz uygulama. Fonetik transkripsiyon, senkronize ses, renkli Tecvid, mahariç-ul huruf, Ezkar, Ramazan programı, canlı Kur'an radyosu, günlük okuma planı, quiz ve kıraat düzeltme. 80 binden fazla memnun kullanıcı. iOS ve Android'de mevcuttur.",
+      "keywords": "fonetik Kur'an, Kur'an öğren, Quran phonetics, Kur'an kıraati, Tecvid, ücretsiz Kur'an uygulaması, Arapça Türkçe Kur'an, Kur'an fonetik transkripsiyon, learn Quran, Quran app free, Kur'an Hatim, Kur'an ezberleme, Hıfz Kur'an, Kur'an okuma planı, Kur'an quiz, kıraat düzeltme uygulaması, Kur'an ezberleme uygulaması, mahariç-ul huruf, Arapça harflerin çıkış noktaları, Nun Sakin, Tenvin, vakf, sabah akşam Ezkar, İslami dualar, Ramazan Kur'an programı, canlı Kur'an radyosu, İslami TV kanalları",
       "ogTitle": "Noor Phonetic Quran - Kur'an'ı fonetikle okuyun",
-      "ogDescription": "Arapça bilmeseniz bile Kur'an-ı Kerim'i okumayı öğrenin. Doğru fonetik, entegre ses ve Tecvid kurallarıyla ücretsiz uygulama."
+      "ogDescription": "Arapça bilmeseniz bile Kur'an-ı Kerim'i okumayı öğrenin. Doğru fonetik, entegre ses, Tecvid kuralları, Ezkar ve Ramazan programıyla ücretsiz uygulama."
     },
     "hero": {
       "statusBadge": "80K+ Aktif Kullanıcı",

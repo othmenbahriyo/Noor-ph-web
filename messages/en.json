@@ -100,10 +100,10 @@
   "home": {
     "meta": {
       "title": "Noor Phonetic Quran - Quran Learning App with Phonetics",
-      "description": "Noor Phonetic Quran - Free app to learn, memorize (Hifz) and read the entire Quran (Khatma). Precise phonetic transcription, synchronized audio, color-coded Tajweed, daily reading plan, quiz and recitation correction. 80K+ satisfied users. Available on iOS and Android.",
-      "keywords": "Quran phonetics, learn Quran, Quran recitation, Tajweed, free Quran app, phonetic Quran transcription, Quran app free, Quran Khatma, memorize Quran, Hifz Quran, Quran reading plan, Quran quiz, recitation correction app, Quran memorization app",
+      "description": "Noor Phonetic Quran - Free app to learn, memorize (Hifz) and read the entire Quran (Khatma). Precise phonetic transcription, synchronized audio, color-coded Tajweed, makharij al-huruf, Adhkar, Ramadan program, live Quran radio, daily reading plan, quiz and recitation correction. 80K+ satisfied users. Available on iOS and Android.",
+      "keywords": "Quran phonetics, learn Quran, Quran recitation, Tajweed, free Quran app, phonetic Quran transcription, Quran app free, Quran Khatma, memorize Quran, Hifz Quran, Quran reading plan, Quran quiz, recitation correction app, Quran memorization app, makharij al-huruf, Arabic letter articulation points, Noun Sakinah, Tanween, waqf, morning and evening Adhkar, Islamic supplications, Ramadan Quran program, live Quran radio, Islamic TV channels",
       "ogTitle": "Noor Phonetic Quran - Recite Quran with Phonetics",
-      "ogDescription": "Learn to recite the Holy Quran even without knowing Arabic. Free app with precise phonetics, integrated audio and Tajweed rules."
+      "ogDescription": "Learn to recite the Holy Quran even without knowing Arabic. Free app with precise phonetics, integrated audio, Tajweed rules, Adhkar and Ramadan program."
     },
     "hero": {
       "statusBadge": "80K+ Active Users",
