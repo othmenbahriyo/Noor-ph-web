@@ -4,6 +4,7 @@
       "features": "Vipengele",
       "screenshots": "Picha za skrini",
       "reviews": "Maoni",
+      "blog": "Blogu",
       "privacy": "Faragha",
       "contact": "Wasiliana",
       "openMenu": "Fungua menyu ya urambazaji",
@@ -22,7 +23,8 @@
         "tajweedCoran": "Kanuni za Tajweed",
         "correctionRecitation": "Marekebisho ya Usomaji",
         "privacyPolicy": "Sera ya Faragha",
-        "cgu": "Masharti ya Matumizi"
+        "cgu": "Masharti ya Matumizi",
+        "blog": "Blogu"
       }
     },
     "languageSwitcher": {
@@ -1670,6 +1672,16 @@
     "ratingCountLabel": "kati ya maoni %COUNT%",
     "loadMoreLabel": "Ona maoni zaidi"
   },
+  "blog": {
+    "meta": {
+      "title": "Blogu - Tajwid, Kuhifadhi na Kujifunza Qur'ani | Noor Phonetic Quran",
+      "description": "Makala na miongozo ya vitendo kuhusu kanuni za Tajwid, mbinu za kuhifadhi Qur'ani (Hifz), na kujifunza usomaji, kutoka kwa timu ya Noor Phonetic Quran."
+    },
+    "title": "Blogu",
+    "subtitle": "Miongozo na vidokezo vya vitendo kuhusu Tajwid, kuhifadhi Qur'ani, na usomaji, ili uweze kuendelea kwa kasi yako mwenyewe.",
+    "backToList": "Rudi kwenye blogu",
+    "readMore": "Soma makala"
+  },
   "audioCoran": {
     "meta": {
       "title": "Sauti ya Qur'ani Iliyosawazishwa: Wasomaji Kadhaa na Usikilizaji Bila Mtandao | Noor Phonetic Quran",
@@ -1944,7 +1956,8 @@
     "intro": {
       "title": "Kwa nini kurekebisha usomaji wako?",
       "paragraph1": "Kusoma kwa usahihi hakuishii tu kusoma kifonetiki kwa usahihi: uzingatiaji wa kanuni za Tajweed (uongezaji wa muda, viunganisho, sehemu za kutoka za herufi) mara nyingi unahitaji maoni ya nje ili kubaini kile kinachopaswa kuboreshwa.",
-      "paragraph2": "Na Noor Phonetic Quran, unaweza kujirekodi moja kwa moja ndani ya programu na kupokea marekebisho maalum, bila haja ya kutafuta mwalimu anayepatikana wakati wote."
+      "paragraph2": "Na Noor Phonetic Quran, unaweza kujirekodi moja kwa moja ndani ya programu na kupokea marekebisho maalum, bila haja ya kutafuta mwalimu anayepatikana wakati wote.",
+      "paragraph3": "Marekebisho haya ya usomaji yanaungana kwa kawaida na ujifunzaji wako wa Qur'ani pamoja na moduli ya Tajweed na safari ya kuhifadhi (Hifz): unatambua makosa yako ya matamshi, unayarekebisha kwa msaada wa kanuni zilizoonyeshwa, kisha unayapitia tena wakati wa vipindi vyako vya kuhifadhi ili kuendelea kwa kudumu, aya baada ya aya."
     },
     "steps": {
       "title": "Marekebisho ya usomaji yanafanya kazi vipi?",

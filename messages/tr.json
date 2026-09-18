@@ -4,6 +4,7 @@
       "features": "Özellikler",
       "screenshots": "Ekran Görüntüleri",
       "reviews": "Yorumlar",
+      "blog": "Blog",
       "privacy": "Gizlilik",
       "contact": "İletişim",
       "openMenu": "Gezinme menüsünü aç",
@@ -22,7 +23,8 @@
         "tajweedCoran": "Tecvid Kuralları",
         "correctionRecitation": "Tilavet Düzeltme",
         "privacyPolicy": "Gizlilik Politikası",
-        "cgu": "Kullanım Koşulları"
+        "cgu": "Kullanım Koşulları",
+        "blog": "Blog"
       }
     },
     "languageSwitcher": {
@@ -1670,6 +1672,16 @@
     "ratingCountLabel": "%COUNT% yorumdan",
     "loadMoreLabel": "Daha fazla yorum gör"
   },
+  "blog": {
+    "meta": {
+      "title": "Blog - Tecvid, Ezber ve Kuran Öğrenimi | Noor Phonetic Quran",
+      "description": "Tecvid kuralları, Kuran ezberleme (Hıfz) yöntemleri ve tilavet öğrenimi hakkında makaleler ve pratik rehberler, Noor Phonetic Quran ekibi tarafından hazırlanmıştır."
+    },
+    "title": "Blog",
+    "subtitle": "Kendi hızınızda ilerlemeniz için Tecvid, Kuran ezberleme ve tilavet hakkında pratik rehberler ve ipuçları.",
+    "backToList": "Bloga dön",
+    "readMore": "Makaleyi oku"
+  },
   "audioCoran": {
     "meta": {
       "title": "Senkronize Kur'an Sesi: Birden Fazla Hafız ve Çevrimdışı Dinleme | Noor Phonetic Quran",
@@ -1944,7 +1956,8 @@
     "intro": {
       "title": "Kıraatini Neden Düzeltmeli?",
       "paragraph1": "Doğru okumak, sadece fonetiği doğru okumakla sınırlı değildir: Tecvid kurallarına (uzatmalar, bağlantılar, harflerin çıkış noktaları) uyum, genellikle geliştirilmesi gereken noktaları belirlemek için dışarıdan bir geri bildirim gerektirir.",
-      "paragraph2": "Noor Phonetic Quran ile, her zaman ulaşılabilir bir öğretmen bulmaya gerek kalmadan, doğrudan uygulama içinde kendinizi kaydedebilir ve kişiselleştirilmiş bir düzeltme alabilirsiniz."
+      "paragraph2": "Noor Phonetic Quran ile, her zaman ulaşılabilir bir öğretmen bulmaya gerek kalmadan, doğrudan uygulama içinde kendinizi kaydedebilir ve kişiselleştirilmiş bir düzeltme alabilirsiniz.",
+      "paragraph3": "Bu kıraat düzeltmesi, Tecvid modülü ve ezberleme (Hıfz) yolculuğuyla birlikte Kur'an öğreniminize doğal olarak entegre olur: telaffuz hatalarınızı belirler, resimli kurallar sayesinde bunları düzeltir, ardından kalıcı bir ilerleme kaydetmek için ezber seanslarınızda bunları ayet ayet tekrar gözden geçirirsiniz."
     },
     "steps": {
       "title": "Kıraat Düzeltme Nasıl Çalışır?",

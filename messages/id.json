@@ -4,6 +4,7 @@
       "features": "Fitur",
       "screenshots": "Tangkapan Layar",
       "reviews": "Ulasan",
+      "blog": "Blog",
       "privacy": "Privasi",
       "contact": "Kontak",
       "openMenu": "Buka menu navigasi",
@@ -22,7 +23,8 @@
         "tajweedCoran": "Aturan Tajwid",
         "correctionRecitation": "Koreksi Bacaan",
         "privacyPolicy": "Kebijakan Privasi",
-        "cgu": "Syarat Penggunaan"
+        "cgu": "Syarat Penggunaan",
+        "blog": "Blog"
       }
     },
     "languageSwitcher": {
@@ -1670,6 +1672,16 @@
     "ratingCountLabel": "dari %COUNT% ulasan",
     "loadMoreLabel": "Lihat lebih banyak ulasan"
   },
+  "blog": {
+    "meta": {
+      "title": "Blog - Tajwid, Hafalan dan Pembelajaran Al-Qur'an | Noor Phonetic Quran",
+      "description": "Artikel dan panduan praktis tentang aturan Tajwid, metode menghafal Al-Qur'an (Hifz), dan belajar tilawah, oleh tim Noor Phonetic Quran."
+    },
+    "title": "Blog",
+    "subtitle": "Panduan dan tips praktis tentang Tajwid, hafalan Al-Qur'an, dan tilawah, agar Anda dapat maju sesuai kecepatan Anda sendiri.",
+    "backToList": "Kembali ke blog",
+    "readMore": "Baca artikel"
+  },
   "audioCoran": {
     "meta": {
       "title": "Audio Al-Qur'an Tersinkron: Beberapa Qari dan Dengarkan Secara Offline | Noor Phonetic Quran",
@@ -1944,7 +1956,8 @@
     "intro": {
       "title": "Mengapa mengoreksi bacaan Anda?",
       "paragraph1": "Membaca dengan benar tidak hanya tentang membaca fonetik dengan tepat: kepatuhan terhadap kaidah Tajwid (pemanjangan, penyambungan, titik keluarnya huruf) sering kali membutuhkan masukan dari luar untuk mengidentifikasi apa yang perlu diperbaiki.",
-      "paragraph2": "Dengan Noor Phonetic Quran, Anda dapat merekam diri Anda langsung di dalam aplikasi dan menerima koreksi yang dipersonalisasi, tanpa perlu mencari guru yang selalu tersedia."
+      "paragraph2": "Dengan Noor Phonetic Quran, Anda dapat merekam diri Anda langsung di dalam aplikasi dan menerima koreksi yang dipersonalisasi, tanpa perlu mencari guru yang selalu tersedia.",
+      "paragraph3": "Koreksi bacaan ini menyatu secara alami dengan pembelajaran Al-Qur'an Anda, bersama modul Tajwid dan perjalanan menghafal (Hifz): Anda mengidentifikasi kesalahan pelafalan Anda, memperbaikinya dengan bantuan kaidah yang diilustrasikan, lalu meninjaunya kembali selama sesi hafalan Anda untuk berkembang secara berkelanjutan, ayat demi ayat."
     },
     "steps": {
       "title": "Bagaimana cara kerja koreksi bacaan?",

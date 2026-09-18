@@ -53,6 +53,8 @@ export async function generateMetadata({
       images: [
         {
           url: `${SITE_URL}/images/noor.png`,
+          width: 1200,
+          height: 628,
         },
       ],
     },

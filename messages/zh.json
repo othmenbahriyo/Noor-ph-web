@@ -4,6 +4,7 @@
       "features": "功能特色",
       "screenshots": "应用截图",
       "reviews": "用户评价",
+      "blog": "博客",
       "privacy": "隐私政策",
       "contact": "联系我们",
       "openMenu": "打开导航菜单",
@@ -22,7 +23,8 @@
         "tajweedCoran": "塔吉威德规则",
         "correctionRecitation": "诵读纠正",
         "privacyPolicy": "隐私政策",
-        "cgu": "使用条款"
+        "cgu": "使用条款",
+        "blog": "博客"
       }
     },
     "languageSwitcher": {
@@ -1670,6 +1672,16 @@
     "ratingCountLabel": "共%COUNT%条评价",
     "loadMoreLabel": "查看更多评价"
   },
+  "blog": {
+    "meta": {
+      "title": "博客 - 塔吉威德、背诵与古兰经学习 | Noor Phonetic Quran",
+      "description": "由 Noor Phonetic Quran 团队撰写的关于塔吉威德规则、古兰经背诵(Hifz)方法和诵读学习的文章与实用指南。"
+    },
+    "title": "博客",
+    "subtitle": "关于塔吉威德、古兰经背诵和诵读的实用指南与建议，助您按照自己的节奏取得进步。",
+    "backToList": "返回博客",
+    "readMore": "阅读文章"
+  },
   "audioCoran": {
     "meta": {
       "title": "古兰经同步音频：多位诵读者与离线收听 | Noor Phonetic Quran",
@@ -1944,7 +1956,8 @@
     "intro": {
       "title": "为什么要纠正自己的诵读？",
       "paragraph1": "正确诵读不仅仅是准确读出拼音：遵循塔吉维德规则（延长音、连读、字母发音部位）往往需要外部反馈，才能发现需要改进之处。",
-      "paragraph2": "有了Noor Phonetic Quran，您可以直接在应用内录音并获得个性化纠正，无需另外寻找随时有空的老师。"
+      "paragraph2": "有了Noor Phonetic Quran，您可以直接在应用内录音并获得个性化纠正，无需另外寻找随时有空的老师。",
+      "paragraph3": "这项诵读纠正与塔吉维德模块以及背诵（哈费兹）学习自然衔接：您先找出自己的发音错误，借助图解规则加以纠正，再在背诵环节中反复复习，从而逐节经文持续稳步进步。"
     },
     "steps": {
       "title": "诵读纠正是如何运作的？",

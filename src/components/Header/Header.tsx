@@ -13,7 +13,7 @@ import styles from './Header.module.css';
 
 interface NavLink {
   href: string;
-  key: 'features' | 'screenshots' | 'reviews' | 'privacy' | 'contact';
+  key: 'features' | 'screenshots' | 'reviews' | 'blog' | 'contact';
   icon: string;
 }
 
@@ -21,7 +21,7 @@ const NAV_LINKS: NavLink[] = [
   { href: '#features', key: 'features', icon: 'fa-star' },
   { href: '#screenshots', key: 'screenshots', icon: 'fa-mobile-alt' },
   { href: '#testimonials', key: 'reviews', icon: 'fa-comment' },
-  { href: '/privacy-policy', key: 'privacy', icon: 'fa-file-contract' },
+  { href: '/blog', key: 'blog', icon: 'fa-book-open' },
   { href: '/contact', key: 'contact', icon: 'fa-envelope' },
 ];
 

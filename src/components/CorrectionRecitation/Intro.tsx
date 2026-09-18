@@ -9,6 +9,7 @@ export default async function Intro() {
       <h2>{t('title')}</h2>
       <p>{t('paragraph1')}</p>
       <p>{t('paragraph2')}</p>
+      <p>{t('paragraph3')}</p>
     </div>
   );
 }

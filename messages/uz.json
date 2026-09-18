@@ -4,6 +4,7 @@
       "features": "Imkoniyatlar",
       "screenshots": "Skrinshotlar",
       "reviews": "Sharhlar",
+      "blog": "Blog",
       "privacy": "Maxfiylik",
       "contact": "Aloqa",
       "openMenu": "Navigatsiya menyusini ochish",
@@ -22,7 +23,8 @@
         "tajweedCoran": "Tajvid qoidalari",
         "correctionRecitation": "Qiroatni to'g'irlash",
         "privacyPolicy": "Maxfiylik siyosati",
-        "cgu": "Foydalanish shartlari"
+        "cgu": "Foydalanish shartlari",
+        "blog": "Blog"
       }
     },
     "languageSwitcher": {
@@ -1670,6 +1672,16 @@
     "ratingCountLabel": "%COUNT% ta sharhdan",
     "loadMoreLabel": "Ko'proq sharh ko'rish"
   },
+  "blog": {
+    "meta": {
+      "title": "Blog - Tajvid, Yodlash va Qur'on O'rganish | Noor Phonetic Quran",
+      "description": "Tajvid qoidalari, Qur'onni yodlash (Hifz) usullari va tilovatni o'rganish haqida maqolalar va amaliy qo'llanmalar, Noor Phonetic Quran jamoasi tomonidan."
+    },
+    "title": "Blog",
+    "subtitle": "O'z sur'atingizda rivojlanishingiz uchun Tajvid, Qur'onni yodlash va tilovat haqida amaliy qo'llanmalar va maslahatlar.",
+    "backToList": "Blogga qaytish",
+    "readMore": "Maqolani o'qish"
+  },
   "audioCoran": {
     "meta": {
       "title": "Sinxron Qur'on Audiosi: Bir Nechta Qori va Internetsiz Tinglash | Noor Phonetic Quran",
@@ -1944,7 +1956,8 @@
     "intro": {
       "title": "Nega tilovatni tuzatish kerak?",
       "paragraph1": "To'g'ri tilovat qilish faqat fonetikani to'g'ri o'qish bilan cheklanmaydi: Tajweed qoidalariga (cho'zishlar, birikmalar, harflarning chiqish nuqtalari) rioya qilish ko'pincha nima yaxshilanishi kerakligini aniqlash uchun tashqi fikr-mulohazani talab qiladi.",
-      "paragraph2": "Noor Phonetic Quran bilan siz to'g'ridan-to'g'ri ilovada yozib olishingiz va doim mavjud bo'lgan o'qituvchi topish zaruratisiz shaxsiylashtirilgan tuzatish olishingiz mumkin."
+      "paragraph2": "Noor Phonetic Quran bilan siz to'g'ridan-to'g'ri ilovada yozib olishingiz va doim mavjud bo'lgan o'qituvchi topish zaruratisiz shaxsiylashtirilgan tuzatish olishingiz mumkin.",
+      "paragraph3": "Ushbu tilovat tuzatish Tajweed moduli va yodlash (Hifz) yo'li bilan birga Qur'on ta'limingizga tabiiy tarzda qo'shiladi: talaffuz xatolaringizni aniqlaysiz, tasvirlangan qoidalar yordamida ularni tuzatasiz, so'ngra doimiy rivojlanish uchun ularni yodlash mashg'ulotlaringizda oyat-boyat qayta ko'rib chiqasiz."
     },
     "steps": {
       "title": "Tilovat tuzatish qanday ishlaydi?",

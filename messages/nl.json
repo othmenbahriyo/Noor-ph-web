@@ -4,6 +4,7 @@
       "features": "Functies",
       "screenshots": "Schermafbeeldingen",
       "reviews": "Beoordelingen",
+      "blog": "Blog",
       "privacy": "Privacy",
       "contact": "Contact",
       "openMenu": "Navigatiemenu openen",
@@ -22,7 +23,8 @@
         "tajweedCoran": "Tajweed Regels",
         "correctionRecitation": "Recitatiecorrectie",
         "privacyPolicy": "Privacybeleid",
-        "cgu": "Gebruiksvoorwaarden"
+        "cgu": "Gebruiksvoorwaarden",
+        "blog": "Blog"
       }
     },
     "languageSwitcher": {
@@ -1670,6 +1672,16 @@
     "ratingCountLabel": "van %COUNT% beoordelingen",
     "loadMoreLabel": "Meer beoordelingen tonen"
   },
+  "blog": {
+    "meta": {
+      "title": "Blog - Tajweed, Memorisatie en Koranonderwijs | Noor Phonetic Quran",
+      "description": "Artikelen en praktische gidsen over de regels van Tajweed, methoden voor het memoriseren van de Koran (Hifz) en het leren reciteren, door het Noor Phonetic Quran-team."
+    },
+    "title": "Blog",
+    "subtitle": "Praktische gidsen en tips over Tajweed, het memoriseren van de Koran en recitatie, om in je eigen tempo vooruitgang te boeken.",
+    "backToList": "Terug naar blog",
+    "readMore": "Lees artikel"
+  },
   "audioCoran": {
     "meta": {
       "title": "Gesynchroniseerde Audio van de Koran: Meerdere Reciteerders en Offline Luisteren | Noor Phonetic Quran",
@@ -1944,7 +1956,8 @@
     "intro": {
       "title": "Waarom uw recitatie corrigeren?",
       "paragraph1": "Correct reciteren beperkt zich niet tot het correct lezen van de fonetiek: de naleving van de Tajweed-regels (verlengingen, verbindingen, uitspraakpunten van letters) vereist vaak externe feedback om te bepalen wat verbeterd moet worden.",
-      "paragraph2": "Met Noor Phonetic Quran kunt u zichzelf rechtstreeks in de app opnemen en persoonlijke correctie ontvangen, zonder dat u een permanent beschikbare leraar hoeft te vinden."
+      "paragraph2": "Met Noor Phonetic Quran kunt u zichzelf rechtstreeks in de app opnemen en persoonlijke correctie ontvangen, zonder dat u een permanent beschikbare leraar hoeft te vinden.",
+      "paragraph3": "Deze recitatiecorrectie sluit natuurlijk aan bij uw Koranstudie, samen met de Tajweed-module en het traject van het uit het hoofd leren (Hifz): u identificeert uw uitspraakfouten, corrigeert ze aan de hand van de geïllustreerde regels en herhaalt ze vervolgens tijdens uw memorisatiesessies om blijvend vooruitgang te boeken, vers na vers."
     },
     "steps": {
       "title": "Hoe werkt de recitatiecorrectie?",

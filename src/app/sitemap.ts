@@ -1,5 +1,6 @@
 import type { MetadataRoute } from 'next';
 import { routing } from '@/i18n/routing';
+import { getAllBlogSlugs } from '@/lib/blog';
 
 const BASE_URL = 'https://noor-phonetic-quran.com';
 const DEFAULT_LOCALE = routing.defaultLocale;
@@ -15,6 +16,7 @@ const pages: {
   lastModified: string;
 }[] = [
   { path: '', priority: 1.0, changeFrequency: 'weekly', lastModified: '2026-09-18' },
+  { path: '/blog', priority: 0.7, changeFrequency: 'weekly', lastModified: '2026-09-19' },
   { path: '/avis', priority: 0.6, changeFrequency: 'weekly', lastModified: '2026-09-18' },
   { path: '/contact', priority: 0.5, changeFrequency: 'monthly', lastModified: '2026-09-17' },
   { path: '/privacy-policy', priority: 0.3, changeFrequency: 'yearly', lastModified: '2026-07-28' },
@@ -37,7 +39,14 @@ function localizedUrl(locale: string, path: string) {
 export default function sitemap(): MetadataRoute.Sitemap {
   const entries: MetadataRoute.Sitemap = [];
 
-  for (const { path, priority, changeFrequency, lastModified } of pages) {
+  const blogPostPages = getAllBlogSlugs().map((slug) => ({
+    path: `/blog/${slug}`,
+    priority: 0.6,
+    changeFrequency: 'monthly' as const,
+    lastModified: '2026-09-19',
+  }));
+
+  for (const { path, priority, changeFrequency, lastModified } of [...pages, ...blogPostPages]) {
     const languages = Object.fromEntries(
       routing.locales.map((locale) => [locale, localizedUrl(locale, path)]),
     );

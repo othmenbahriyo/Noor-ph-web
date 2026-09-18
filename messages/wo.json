@@ -4,6 +4,7 @@
       "features": "Ay xarala",
       "screenshots": "Nataal yi",
       "reviews": "Xamle yi",
+      "blog": "Blog",
       "privacy": "Sutura",
       "contact": "Jokkoo",
       "openMenu": "Ubbi menu bi",
@@ -22,7 +23,8 @@
         "tajweedCoran": "Yoonu Tajweed",
         "correctionRecitation": "Njub Jàng",
         "privacyPolicy": "Politik ci Sutura",
-        "cgu": "Sart yu Jëfandikoo"
+        "cgu": "Sart yu Jëfandikoo",
+        "blog": "Blog"
       }
     },
     "languageSwitcher": {
@@ -1670,6 +1672,16 @@
     "ratingCountLabel": "ci %COUNT% xamle",
     "loadMoreLabel": "Séet yeneen xamle"
   },
+  "blog": {
+    "meta": {
+      "title": "Blog - Tajwiid, Fàttaliku ak Jàng Alkuraan | Noor Phonetic Quran",
+      "description": "Xibaar ak njàngale yu am solo ci yoonu Tajwiid, ci fàttaliku Alkuraan (Hifz), ak njàngale liggéeyukaay, jibéeru ekip Noor Phonetic Quran."
+    },
+    "title": "Blog",
+    "subtitle": "Njàngale ak digal yu am solo ci Tajwiid, fàttaliku Alkuraan, ak liggéeyukaay, ngir nga man a jëm kanam ci sa aju.",
+    "backToList": "Dellu ci blog bi",
+    "readMore": "Jàng xibaar bi"
+  },
   "audioCoran": {
     "meta": {
       "title": "Audio Alxuraan bu Séqoo : Bare Ñaanekat ak Déglu su Amul Internet | Noor Phonetic Quran",
@@ -1944,7 +1956,8 @@
     "intro": {
       "title": "Lu tax war nga rafetal sa ñaan ?",
       "paragraph1": "Ñaan bu jub bokkul ci jàng fonetik bi rekk : topp yoon yu Tajweed (allongement, liaison, fu ñu génne baat yi) dafay soxla tontu bu jóge ci biti ngir xam lu war a rafet.",
-      "paragraph2": "Ak Noor Phonetic Quran, man nga enregistre sa bopp ci biir aplikasiyon bi te jot njub bu ñu defal la, soxlawuloo seet njàngalekat buy am ci diggante bu nekk."
+      "paragraph2": "Ak Noor Phonetic Quran, man nga enregistre sa bopp ci biir aplikasiyon bi te jot njub bu ñu defal la, soxlawuloo seet njàngalekat buy am ci diggante bu nekk.",
+      "paragraph3": "Njub ñaan bii dafay dugg ci lu jub ci sa jàng Alxuraan bi, moom ak module Tajweed ak jaar-jaari tey (Hifz) : dangay xam ay njumte yi ci sa ñaan, defal leen njub ci kaw yoon yi ñu leeral, gannaaw loolu delloosi leen ci diir yi ngay tey ngir jëm kanam bu wóor, ayaat ci ayaat."
     },
     "steps": {
       "title": "Naka la njub ñaan di liggéey ?",

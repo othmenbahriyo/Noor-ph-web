@@ -4,6 +4,7 @@
       "features": "Fonctionnalités",
       "screenshots": "Captures d'écran",
       "reviews": "Avis",
+      "blog": "Blog",
       "privacy": "Confidentialité",
       "contact": "Contact",
       "openMenu": "Ouvrir le menu de navigation",
@@ -22,7 +23,8 @@
         "tajweedCoran": "Règles de Tajweed",
         "correctionRecitation": "Correction de Récitation",
         "privacyPolicy": "Politique de Confidentialité",
-        "cgu": "Conditions Générales d'Utilisation"
+        "cgu": "Conditions Générales d'Utilisation",
+        "blog": "Blog"
       }
     },
     "languageSwitcher": {
@@ -1670,6 +1672,16 @@
     "ratingCountLabel": "sur %COUNT% avis",
     "loadMoreLabel": "Voir plus d'avis"
   },
+  "blog": {
+    "meta": {
+      "title": "Blog - Tajweed, Mémorisation et Apprentissage du Coran | Noor Phonetic Quran",
+      "description": "Articles et guides pratiques sur les règles de Tajweed, les méthodes de mémorisation du Coran (Hifz) et l'apprentissage de la récitation, par l'équipe Noor Phonetic Quran."
+    },
+    "title": "Blog",
+    "subtitle": "Guides et conseils pratiques sur le Tajweed, la mémorisation du Coran et la récitation, pour progresser à votre rythme.",
+    "backToList": "Retour au blog",
+    "readMore": "Lire l'article"
+  },
   "audioCoran": {
     "meta": {
       "title": "Audio du Coran Synchronisé : Plusieurs Récitateurs et Écoute Hors Ligne | Noor Phonetic Quran",
@@ -1944,7 +1956,8 @@
     "intro": {
       "title": "Pourquoi corriger sa récitation ?",
       "paragraph1": "Réciter juste ne se limite pas à lire correctement la phonétique : le respect des règles de Tajweed (allongements, liaisons, points de sortie des lettres) demande souvent un retour extérieur pour identifier ce qui doit être amélioré.",
-      "paragraph2": "Avec Noor Phonetic Quran, vous pouvez vous enregistrer directement dans l'application et recevoir une correction personnalisée, sans avoir besoin de trouver un professeur disponible en permanence."
+      "paragraph2": "Avec Noor Phonetic Quran, vous pouvez vous enregistrer directement dans l'application et recevoir une correction personnalisée, sans avoir besoin de trouver un professeur disponible en permanence.",
+      "paragraph3": "Cette correction de récitation s'intègre naturellement à votre apprentissage du Coran aux côtés du module de Tajweed et du parcours de mémorisation (Hifz) : vous identifiez vos erreurs de prononciation, vous les corrigez grâce aux règles illustrées, puis vous les revoyez lors de vos sessions de mémorisation pour progresser durablement, verset après verset."
     },
     "steps": {
       "title": "Comment fonctionne la correction de récitation ?",

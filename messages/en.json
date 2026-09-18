@@ -4,6 +4,7 @@
       "features": "Features",
       "screenshots": "Screenshots",
       "reviews": "Reviews",
+      "blog": "Blog",
       "privacy": "Privacy",
       "contact": "Contact",
       "openMenu": "Open navigation menu",
@@ -22,7 +23,8 @@
         "tajweedCoran": "Tajweed Rules",
         "correctionRecitation": "Recitation Correction",
         "privacyPolicy": "Privacy Policy",
-        "cgu": "Terms of Use"
+        "cgu": "Terms of Use",
+        "blog": "Blog"
       }
     },
     "languageSwitcher": {
@@ -595,6 +597,16 @@
     "ratingCountLabel": "from %COUNT% reviews",
     "loadMoreLabel": "Load more reviews"
   },
+  "blog": {
+    "meta": {
+      "title": "Blog - Tajweed, Memorization and Quran Learning | Noor Phonetic Quran",
+      "description": "Articles and practical guides on Tajweed rules, Quran memorization (Hifz) methods, and learning recitation, by the Noor Phonetic Quran team."
+    },
+    "title": "Blog",
+    "subtitle": "Practical guides and tips on Tajweed, Quran memorization, and recitation, to help you progress at your own pace.",
+    "backToList": "Back to blog",
+    "readMore": "Read article"
+  },
   "audioCoran": {
     "meta": {
       "title": "Audio du Coran Synchronisé : Plusieurs Récitateurs et Écoute Hors Ligne | Noor Phonetic Quran",
@@ -867,9 +879,10 @@
       "subtitle": "Enregistrez votre récitation directement dans l'application et recevez une correction personnalisée pour améliorer votre prononciation et le respect des règles de Tajweed."
     },
     "intro": {
-      "title": "Pourquoi corriger sa récitation ?",
-      "paragraph1": "Réciter juste ne se limite pas à lire correctement la phonétique : le respect des règles de Tajweed (allongements, liaisons, points de sortie des lettres) demande souvent un retour extérieur pour identifier ce qui doit être amélioré.",
-      "paragraph2": "Avec Noor Phonetic Quran, vous pouvez vous enregistrer directement dans l'application et recevoir une correction personnalisée, sans avoir besoin de trouver un professeur disponible en permanence."
+      "title": "Why correct your recitation?",
+      "paragraph1": "Reciting correctly is not just about reading the phonetics accurately: following the rules of Tajweed (elongations, letter connections, articulation points) often requires outside feedback to identify what needs to be improved.",
+      "paragraph2": "With Noor Phonetic Quran, you can record yourself directly in the app and receive personalized correction, without needing to find a teacher who is always available.",
+      "paragraph3": "This recitation correction fits naturally into your Quran learning alongside the Tajweed module and the memorization (Hifz) journey: you identify your pronunciation mistakes, correct them using the illustrated rules, and then review them during your memorization sessions to make lasting progress, verse after verse."
     },
     "steps": {
       "title": "Comment fonctionne la correction de récitation ?",

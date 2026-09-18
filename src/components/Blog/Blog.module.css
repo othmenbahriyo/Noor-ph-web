@@ -1,0 +1,227 @@
+/* Hero (list + article) */
+.hero {
+  background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary-light) 100%);
+  color: var(--on-primary-text);
+  padding: 60px 0 70px;
+  text-align: center;
+}
+
+.hero :global(.container) {
+  max-width: 900px;
+}
+
+.breadcrumb {
+  font-size: 0.85rem;
+  opacity: 0.75;
+  margin-bottom: 20px;
+}
+
+.breadcrumb a {
+  color: var(--on-primary-text);
+  text-decoration: none;
+}
+
+.heroCategory {
+  display: inline-block;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  background: rgba(255, 255, 255, 0.15);
+  padding: 6px 16px;
+  border-radius: var(--border-radius-pill);
+  margin-bottom: 18px;
+}
+
+.hero h1 {
+  font-size: 2.3rem;
+  margin-bottom: 18px;
+  line-height: 1.3;
+}
+
+.heroSubtitle {
+  font-size: 1.1rem;
+  opacity: 0.9;
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+.heroMeta {
+  margin-top: 20px;
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+@media (max-width: 600px) {
+  .hero h1 {
+    font-size: 1.7rem;
+  }
+}
+
+/* List page */
+.listSection {
+  background-color: var(--light-color);
+  padding: var(--section-padding) 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 28px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--white);
+  border-radius: var(--border-radius-lg);
+  box-shadow: var(--shadow-sm);
+  text-decoration: none;
+  color: inherit;
+  transition: var(--transition);
+  overflow: hidden;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-hover);
+}
+
+.cardIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 120px;
+  background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary-light) 100%);
+  color: var(--on-primary-text);
+  font-size: 2.4rem;
+}
+
+.cardBody {
+  padding: 26px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.cardCategory {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--accent-color);
+  margin-bottom: 12px;
+}
+
+.cardTitle {
+  color: var(--primary-color);
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  line-height: 1.35;
+}
+
+.cardDescription {
+  color: var(--text-light);
+  font-size: 0.92rem;
+  line-height: 1.6;
+  flex: 1;
+}
+
+.cardFooter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding-top: 16px;
+  border-top: 1px solid rgba(1, 62, 55, 0.08);
+}
+
+.cardDate {
+  color: var(--text-light);
+  font-size: 0.82rem;
+}
+
+.cardReadMore {
+  color: var(--primary-color);
+  font-weight: 700;
+  font-size: 0.85rem;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+/* Article page */
+.articleSection {
+  background-color: var(--light-color);
+  padding: var(--section-padding) 0;
+}
+
+.articleContainer {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: var(--white);
+  padding: 44px;
+  border-radius: var(--border-radius-lg);
+  box-shadow: var(--shadow-sm);
+}
+
+.articleContent h2 {
+  color: var(--text-color);
+  border-bottom: 2px solid var(--primary-color);
+  padding-bottom: 5px;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  font-size: 1.4em;
+}
+
+.articleContent h3 {
+  color: var(--text-color);
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+  font-size: 1.1em;
+}
+
+.articleContent p {
+  margin-bottom: 1em;
+  line-height: 1.7;
+}
+
+.articleContent ul,
+.articleContent ol {
+  margin: 0 0 1em 1.5em;
+}
+
+.articleContent li {
+  margin-bottom: 8px;
+  line-height: 1.6;
+}
+
+.articleContent strong {
+  color: var(--primary-color);
+}
+
+.articleFooter {
+  margin-top: 40px;
+  padding-top: 24px;
+  border-top: 1px solid rgba(1, 62, 55, 0.1);
+}
+
+.backLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--primary-color);
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.backLink:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  .articleContainer {
+    padding: 24px;
+  }
+}

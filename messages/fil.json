@@ -4,6 +4,7 @@
       "features": "Mga Tampok",
       "screenshots": "Mga Screenshot",
       "reviews": "Mga Review",
+      "blog": "Blog",
       "privacy": "Privacy",
       "contact": "Makipag-ugnayan",
       "openMenu": "Buksan ang navigation menu",
@@ -22,7 +23,8 @@
         "tajweedCoran": "Mga Panuntunan ng Tajweed",
         "correctionRecitation": "Pagwawasto ng Pagbigkas",
         "privacyPolicy": "Patakaran sa Privacy",
-        "cgu": "Mga Tuntunin ng Paggamit"
+        "cgu": "Mga Tuntunin ng Paggamit",
+        "blog": "Blog"
       }
     },
     "languageSwitcher": {
@@ -1670,6 +1672,16 @@
     "ratingCountLabel": "sa %COUNT% na review",
     "loadMoreLabel": "Tingnan ang Higit Pang Review"
   },
+  "blog": {
+    "meta": {
+      "title": "Blog - Tajweed, Pagsasaulo at Pag-aaral ng Quran | Noor Phonetic Quran",
+      "description": "Mga artikulo at praktikal na gabay tungkol sa mga tuntunin ng Tajweed, mga paraan ng pagsasaulo ng Quran (Hifz), at pag-aaral ng pagbigkas, mula sa koponan ng Noor Phonetic Quran."
+    },
+    "title": "Blog",
+    "subtitle": "Praktikal na gabay at mga tip tungkol sa Tajweed, pagsasaulo ng Quran, at pagbigkas, upang makasulong ka sa sarili mong bilis.",
+    "backToList": "Bumalik sa blog",
+    "readMore": "Basahin ang artikulo"
+  },
   "audioCoran": {
     "meta": {
       "title": "Naka-synchronize na Audio ng Quran: Maraming Reciter at Offline na Pakikinig | Noor Phonetic Quran",
@@ -1944,7 +1956,8 @@
     "intro": {
       "title": "Bakit Iwasto ang Iyong Recitation?",
       "paragraph1": "Ang tamang pagbigkas ay hindi lamang limitado sa tamang pagbasa ng phonetics: ang pagsunod sa mga tuntunin ng Tajweed (mga pahaba, pag-uugnay, mga punto ng pagbigkas ng mga letra) ay kadalasang nangangailangan ng feedback mula sa labas para makilala kung ano ang kailangang pahusayin.",
-      "paragraph2": "Sa Noor Phonetic Quran, puwede kang mag-record direkta sa application at tumanggap ng personalized na pagwawasto, nang hindi kailangang maghanap ng guro na laging available."
+      "paragraph2": "Sa Noor Phonetic Quran, puwede kang mag-record direkta sa application at tumanggap ng personalized na pagwawasto, nang hindi kailangang maghanap ng guro na laging available.",
+      "paragraph3": "Ang pagwawastong ito ng recitation ay natural na bahagi ng iyong pag-aaral ng Quran kasama ang modyul ng Tajweed at ang paglalakbay ng pagsasaulo (Hifz): kinikilala mo ang iyong mga pagkakamali sa pagbigkas, iwinawasto ang mga ito gamit ang mga inilarawang tuntunin, at pagkatapos ay sinusuri muli ang mga ito sa iyong mga sesyon ng pagsasaulo upang umunlad nang matatag, talata sa talata."
     },
     "steps": {
       "title": "Paano Gumagana ang Pagwawasto ng Recitation?",

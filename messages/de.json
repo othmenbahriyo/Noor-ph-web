@@ -4,6 +4,7 @@
       "features": "Funktionen",
       "screenshots": "Screenshots",
       "reviews": "Bewertungen",
+      "blog": "Blog",
       "privacy": "Datenschutz",
       "contact": "Kontakt",
       "openMenu": "Navigationsmenü öffnen",
@@ -22,7 +23,8 @@
         "tajweedCoran": "Tajweed-Regeln",
         "correctionRecitation": "Rezitationskorrektur",
         "privacyPolicy": "Datenschutzrichtlinie",
-        "cgu": "Nutzungsbedingungen"
+        "cgu": "Nutzungsbedingungen",
+        "blog": "Blog"
       }
     },
     "languageSwitcher": {
@@ -1670,6 +1672,16 @@
     "ratingCountLabel": "von %COUNT% Bewertungen",
     "loadMoreLabel": "Mehr Bewertungen anzeigen"
   },
+  "blog": {
+    "meta": {
+      "title": "Blog - Tajweed, Auswendiglernen und Koranlernen | Noor Phonetic Quran",
+      "description": "Artikel und praktische Anleitungen zu den Tajweed-Regeln, Methoden zum Auswendiglernen des Korans (Hifz) und zum Erlernen der Rezitation, vom Noor Phonetic Quran Team."
+    },
+    "title": "Blog",
+    "subtitle": "Praktische Anleitungen und Tipps zu Tajweed, dem Auswendiglernen des Korans und der Rezitation, damit Sie in Ihrem eigenen Tempo Fortschritte machen.",
+    "backToList": "Zurück zum Blog",
+    "readMore": "Artikel lesen"
+  },
   "audioCoran": {
     "meta": {
       "title": "Synchronisiertes Koran-Audio: Mehrere Rezitatoren und Offline-Hören | Noor Phonetic Quran",
@@ -1944,7 +1956,8 @@
     "intro": {
       "title": "Warum die eigene Rezitation korrigieren?",
       "paragraph1": "Korrekt zu rezitieren beschränkt sich nicht auf das richtige Lesen der Phonetik: Die Einhaltung der Tajweed-Regeln (Dehnungen, Verbindungen, Artikulationsstellen der Buchstaben) erfordert oft eine externe Rückmeldung, um zu erkennen, was verbessert werden muss.",
-      "paragraph2": "Mit Noor Phonetic Quran können Sie sich direkt in der App aufnehmen und eine persönliche Korrektur erhalten, ohne dass Sie ständig einen verfügbaren Lehrer finden müssen."
+      "paragraph2": "Mit Noor Phonetic Quran können Sie sich direkt in der App aufnehmen und eine persönliche Korrektur erhalten, ohne dass Sie ständig einen verfügbaren Lehrer finden müssen.",
+      "paragraph3": "Diese Rezitationskorrektur fügt sich natürlich in Ihr Koranlernen ein, zusammen mit dem Tajweed-Modul und dem Auswendiglernen (Hifz): Sie erkennen Ihre Aussprachefehler, korrigieren sie anhand der illustrierten Regeln und wiederholen sie dann in Ihren Hifz-Sitzungen, um dauerhaft Fortschritte zu machen, Vers für Vers."
     },
     "steps": {
       "title": "Wie funktioniert die Rezitationskorrektur?",

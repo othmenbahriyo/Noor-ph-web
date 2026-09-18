@@ -4,6 +4,7 @@
       "features": "Funcionalidades",
       "screenshots": "Capturas de ecrã",
       "reviews": "Avaliações",
+      "blog": "Blog",
       "privacy": "Privacidade",
       "contact": "Contacto",
       "openMenu": "Abrir o menu de navegação",
@@ -22,7 +23,8 @@
         "tajweedCoran": "Regras de Tajweed",
         "correctionRecitation": "Correção de Recitação",
         "privacyPolicy": "Política de Privacidade",
-        "cgu": "Termos de Uso"
+        "cgu": "Termos de Uso",
+        "blog": "Blog"
       }
     },
     "languageSwitcher": {
@@ -1670,6 +1672,16 @@
     "ratingCountLabel": "de %COUNT% avaliações",
     "loadMoreLabel": "Ver mais avaliações"
   },
+  "blog": {
+    "meta": {
+      "title": "Blog - Tajwid, Memorização e Aprendizado do Alcorão | Noor Phonetic Quran",
+      "description": "Artigos e guias práticos sobre as regras do Tajwid, métodos de memorização do Alcorão (Hifz) e aprendizado da recitação, pela equipe Noor Phonetic Quran."
+    },
+    "title": "Blog",
+    "subtitle": "Guias e dicas práticas sobre Tajwid, memorização do Alcorão e recitação, para progredir no seu próprio ritmo.",
+    "backToList": "Voltar ao blog",
+    "readMore": "Ler artigo"
+  },
   "audioCoran": {
     "meta": {
       "title": "Áudio do Alcorão Sincronizado: Vários Recitadores e Escuta Offline | Noor Phonetic Quran",
@@ -1944,7 +1956,8 @@
     "intro": {
       "title": "Porquê corrigir a recitação?",
       "paragraph1": "Recitar corretamente não se limita a ler bem a fonética: o respeito pelas regras de Tajweed (alongamentos, ligações, pontos de articulação das letras) exige muitas vezes um retorno externo para identificar o que precisa de ser melhorado.",
-      "paragraph2": "Com a Noor Phonetic Quran, pode gravar-se diretamente na aplicação e receber uma correção personalizada, sem precisar de encontrar um professor disponível permanentemente."
+      "paragraph2": "Com a Noor Phonetic Quran, pode gravar-se diretamente na aplicação e receber uma correção personalizada, sem precisar de encontrar um professor disponível permanentemente.",
+      "paragraph3": "Esta correção de recitação integra-se naturalmente na sua aprendizagem do Alcorão, juntamente com o módulo de Tajweed e o percurso de memorização (Hifz): identifica os seus erros de pronúncia, corrige-os graças às regras ilustradas e depois revê-os durante as suas sessões de memorização para progredir de forma duradoura, versículo após versículo."
     },
     "steps": {
       "title": "Como funciona a correção de recitação?",
