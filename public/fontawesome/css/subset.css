@@ -65,6 +65,36 @@
 .fa-compass {
   --fa: "\f14e";
 }
+.fa-book {
+  --fa: "\f02d";
+}
+.fa-bookmark {
+  --fa: "\f02e";
+}
+.fa-calendar-check {
+  --fa: "\f274";
+}
+.fa-calendar-day {
+  --fa: "\f783";
+}
+.fa-check-circle {
+  --fa: "\f058";
+}
+.fa-graduation-cap {
+  --fa: "\f19d";
+}
+.fa-heart {
+  --fa: "\f004";
+}
+.fa-microphone-alt {
+  --fa: "\f3c9";
+}
+.fa-trophy {
+  --fa: "\f091";
+}
+.fa-user-friends {
+  --fa: "\f500";
+}
 .fa-apple {
   --fa: "\f179";
 }

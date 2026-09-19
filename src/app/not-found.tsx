@@ -1,9 +1,7 @@
 import Link from 'next/link';
 import { Cairo } from 'next/font/google';
-import { NextIntlClientProvider } from 'next-intl';
-import Header from '@/components/Header/Header';
+import NotFoundHeader from './NotFoundHeader';
 import NotFoundFooter from './NotFoundFooter';
-import frMessages from '../../messages/fr.json';
 import './globals.css';
 import styles from './not-found.module.css';
 
@@ -24,31 +22,34 @@ const COPY = {
 // fail to resolve a `[locale]` segment), so this is the 404 page visitors
 // actually see. It bypasses the `[locale]` layout entirely, hence the
 // self-contained <html>/<body> and manual globals.css import. Always
-// renders in French (no Accept-Language detection): reading request
-// headers here would mark every route in the app as dynamic, since this
-// file is implicitly part of every route's render tree in this Next.js
-// version and the project doesn't have Cache Components enabled.
+// renders in French (no Accept-Language detection, no next-intl at all):
+// reading request headers, or even mounting <NextIntlClientProvider>,
+// marks every route in the app as dynamic, since this file is implicitly
+// part of every route's render tree in this Next.js version and the
+// project doesn't have Cache Components enabled. NotFoundHeader/Footer
+// are static French-only re-implementations for that reason.
 export default function RootNotFound() {
   return (
     <html lang="fr" className={cairo.variable}>
+      <head>
+        <link href="/fontawesome/css/subset.css" rel="stylesheet" />
+      </head>
       <body>
-        <NextIntlClientProvider locale="fr" messages={frMessages}>
-          <Header />
-          <section className={styles.section}>
-            <div className="container">
-              <div className={styles.icon}>
-                <i className="fas fa-compass" />
-              </div>
-              <span className={styles.code}>404</span>
-              <h1>{COPY.title}</h1>
-              <p>{COPY.text}</p>
-              <Link href="/" className={styles.backBtn}>
-                {COPY.back}
-              </Link>
+        <NotFoundHeader />
+        <section className={styles.section}>
+          <div className="container">
+            <div className={styles.icon}>
+              <i className="fas fa-compass" />
             </div>
-          </section>
-          <NotFoundFooter />
-        </NextIntlClientProvider>
+            <span className={styles.code}>404</span>
+            <h1>{COPY.title}</h1>
+            <p>{COPY.text}</p>
+            <Link href="/" className={styles.backBtn}>
+              {COPY.back}
+            </Link>
+          </div>
+        </section>
+        <NotFoundFooter />
       </body>
     </html>
   );
