@@ -4,7 +4,7 @@ import { getTranslations, setRequestLocale } from 'next-intl/server';
 import Header from '@/components/Header/Header';
 import Footer from '@/components/Footer/Footer';
 import BlogArticle from '@/components/Blog/BlogArticle';
-import { BLOG_POST_RELATED_PAGE, getAllBlogSlugs, getBlogPost } from '@/lib/blog';
+import { BLOG_POST_RELATED_PAGE, getAllBlogSlugs, getBlogPost, getRelatedPosts } from '@/lib/blog';
 import { routing } from '@/i18n/routing';
 import { buildLocaleUrls } from '@/i18n/seo';
 
@@ -114,6 +114,8 @@ export default async function BlogArticlePage({
     home: tNav('home'),
     blog: tBlog('title'),
   });
+  const relatedPosts = getRelatedPosts(slug, post.category, locale);
+  const readingTimeLabel = tBlog('readingTime').replace('%MINUTES%', String(post.readingMinutes));
 
   return (
     <>
@@ -129,6 +131,9 @@ export default async function BlogArticlePage({
         backLabel={tBlog('backToList')}
         relatedPageHref={BLOG_POST_RELATED_PAGE[slug]}
         relatedPageLabel={tBlog('tryFeature')}
+        readingTimeLabel={readingTimeLabel}
+        relatedPosts={relatedPosts}
+        relatedPostsLabel={tBlog('relatedPosts')}
       />
       <Footer />
     </>

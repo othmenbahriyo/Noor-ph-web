@@ -1688,7 +1688,9 @@
     "readMore": "Jàng xibaar bi",
     "tryFeature": "Gis mébétum bii ci app bi",
     "searchPlaceholder": "Seet ab xibaar...",
-    "noResults": "Amul benn xibaar bu mel ni seetu la."
+    "noResults": "Amul benn xibaar bu mel ni seetu la.",
+    "readingTime": "Jàng %MINUTES% simili",
+    "relatedPosts": "Jàng itam"
   },
   "audioCoran": {
     "meta": {

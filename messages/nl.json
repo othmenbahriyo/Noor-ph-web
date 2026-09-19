@@ -1688,7 +1688,9 @@
     "readMore": "Lees artikel",
     "tryFeature": "Ontdek deze functie in de app",
     "searchPlaceholder": "Zoek een artikel...",
-    "noResults": "Geen artikel komt overeen met uw zoekopdracht."
+    "noResults": "Geen artikel komt overeen met uw zoekopdracht.",
+    "readingTime": "%MINUTES% min. leestijd",
+    "relatedPosts": "Ook interessant"
   },
   "audioCoran": {
     "meta": {

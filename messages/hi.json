@@ -1688,7 +1688,9 @@
     "readMore": "लेख पढ़ें",
     "tryFeature": "ऐप में यह सुविधा देखें",
     "searchPlaceholder": "लेख खोजें...",
-    "noResults": "आपकी खोज से कोई लेख मेल नहीं खाता।"
+    "noResults": "आपकी खोज से कोई लेख मेल नहीं खाता।",
+    "readingTime": "%MINUTES% मिनट पढ़ने का समय",
+    "relatedPosts": "यह भी पढ़ें"
   },
   "audioCoran": {
     "meta": {

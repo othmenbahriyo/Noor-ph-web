@@ -1688,7 +1688,9 @@
     "readMore": "Citește articolul",
     "tryFeature": "Descoperă această funcție în aplicație",
     "searchPlaceholder": "Caută un articol...",
-    "noResults": "Niciun articol nu corespunde căutării tale."
+    "noResults": "Niciun articol nu corespunde căutării tale.",
+    "readingTime": "%MINUTES% min de citit",
+    "relatedPosts": "Citește și"
   },
   "audioCoran": {
     "meta": {

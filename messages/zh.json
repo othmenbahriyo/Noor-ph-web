@@ -1688,7 +1688,9 @@
     "readMore": "阅读文章",
     "tryFeature": "在应用中探索此功能",
     "searchPlaceholder": "搜索文章...",
-    "noResults": "没有符合您搜索条件的文章。"
+    "noResults": "没有符合您搜索条件的文章。",
+    "readingTime": "阅读需 %MINUTES% 分钟",
+    "relatedPosts": "相关文章"
   },
   "audioCoran": {
     "meta": {

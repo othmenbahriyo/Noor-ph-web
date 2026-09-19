@@ -1688,7 +1688,9 @@
     "readMore": "Basahin ang artikulo",
     "tryFeature": "Tuklasin ang tampok na ito sa app",
     "searchPlaceholder": "Maghanap ng artikulo...",
-    "noResults": "Walang artikulong tumugma sa iyong paghahanap."
+    "noResults": "Walang artikulong tumugma sa iyong paghahanap.",
+    "readingTime": "%MINUTES% minutong pagbasa",
+    "relatedPosts": "Basahin din"
   },
   "audioCoran": {
     "meta": {

@@ -1688,7 +1688,9 @@
     "readMore": "اقرأ المقال",
     "tryFeature": "اكتشف هذه الميزة في التطبيق",
     "searchPlaceholder": "ابحث عن مقال...",
-    "noResults": "لا يوجد مقال يطابق بحثك."
+    "noResults": "لا يوجد مقال يطابق بحثك.",
+    "readingTime": "قراءة %MINUTES% دقائق",
+    "relatedPosts": "اقرأ أيضاً"
   },
   "audioCoran": {
     "meta": {

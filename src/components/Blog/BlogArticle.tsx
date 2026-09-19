@@ -1,7 +1,7 @@
 import { MDXRemote } from 'next-mdx-remote/rsc';
 import Image from 'next/image';
 import { Link } from '@/i18n/navigation';
-import type { BlogPost } from '@/lib/blog';
+import type { BlogPost, BlogPostMeta } from '@/lib/blog';
 import styles from './Blog.module.css';
 
 interface BlogArticleProps {
@@ -11,6 +11,9 @@ interface BlogArticleProps {
   backLabel: string;
   relatedPageHref?: string;
   relatedPageLabel: string;
+  readingTimeLabel: string;
+  relatedPosts: BlogPostMeta[];
+  relatedPostsLabel: string;
 }
 
 export default function BlogArticle({
@@ -20,6 +23,9 @@ export default function BlogArticle({
   backLabel,
   relatedPageHref,
   relatedPageLabel,
+  readingTimeLabel,
+  relatedPosts,
+  relatedPostsLabel,
 }: BlogArticleProps) {
   return (
     <>
@@ -30,7 +36,9 @@ export default function BlogArticle({
           </p>
           <span className={styles.heroCategory}>{post.category}</span>
           <h1>{post.title}</h1>
-          <p className={styles.heroMeta}>{post.date}</p>
+          <p className={styles.heroMeta}>
+            {post.date} · {readingTimeLabel}
+          </p>
         </div>
       </section>
 
@@ -50,6 +58,23 @@ export default function BlogArticle({
                 <i className="fas fa-mobile-screen-button" />
                 {relatedPageLabel}
               </Link>
+            )}
+
+            {relatedPosts.length > 0 && (
+              <div className={styles.relatedPosts}>
+                <h2 className={styles.relatedPostsTitle}>{relatedPostsLabel}</h2>
+                <div className={styles.relatedPostsGrid}>
+                  {relatedPosts.map((related) => (
+                    <Link key={related.slug} href={`/blog/${related.slug}`} className={styles.relatedPostCard}>
+                      <div className={styles.relatedPostImage}>
+                        <Image src={related.image} alt={related.title} fill sizes="240px" />
+                      </div>
+                      <span className={styles.relatedPostCategory}>{related.category}</span>
+                      <h3 className={styles.relatedPostTitle}>{related.title}</h3>
+                    </Link>
+                  ))}
+                </div>
+              </div>
             )}
 
             <div className={styles.articleFooter}>

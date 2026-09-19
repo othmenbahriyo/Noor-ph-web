@@ -1688,7 +1688,9 @@
     "readMore": "Leer el artículo",
     "tryFeature": "Descubre esta función en la aplicación",
     "searchPlaceholder": "Buscar un artículo...",
-    "noResults": "Ningún artículo coincide con tu búsqueda."
+    "noResults": "Ningún artículo coincide con tu búsqueda.",
+    "readingTime": "%MINUTES% min de lectura",
+    "relatedPosts": "También te puede interesar"
   },
   "audioCoran": {
     "meta": {

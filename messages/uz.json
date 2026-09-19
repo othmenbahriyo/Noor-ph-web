@@ -1688,7 +1688,9 @@
     "readMore": "Maqolani o'qish",
     "tryFeature": "Ilovada bu funksiyani kashf eting",
     "searchPlaceholder": "Maqola qidirish...",
-    "noResults": "Qidiruvingizga mos maqola topilmadi."
+    "noResults": "Qidiruvingizga mos maqola topilmadi.",
+    "readingTime": "O'qish vaqti: %MINUTES% daqiqa",
+    "relatedPosts": "Shuningdek o'qing"
   },
   "audioCoran": {
     "meta": {

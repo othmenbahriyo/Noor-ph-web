@@ -1688,7 +1688,9 @@
     "readMore": "مضمون پڑھیں",
     "tryFeature": "ایپ میں یہ خصوصیت دیکھیں",
     "searchPlaceholder": "مضمون تلاش کریں...",
-    "noResults": "آپ کی تلاش سے کوئی مضمون میل نہیں کھاتا۔"
+    "noResults": "آپ کی تلاش سے کوئی مضمون میل نہیں کھاتا۔",
+    "readingTime": "%MINUTES% منٹ پڑھنے کا وقت",
+    "relatedPosts": "یہ بھی پڑھیں"
   },
   "audioCoran": {
     "meta": {

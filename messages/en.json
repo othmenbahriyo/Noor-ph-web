@@ -613,7 +613,9 @@
     "readMore": "Read article",
     "tryFeature": "Discover this feature in the app",
     "searchPlaceholder": "Search an article...",
-    "noResults": "No article matches your search."
+    "noResults": "No article matches your search.",
+    "readingTime": "%MINUTES% min read",
+    "relatedPosts": "Read next"
   },
   "audioCoran": {
     "meta": {

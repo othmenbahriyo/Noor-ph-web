@@ -1688,7 +1688,9 @@
     "readMore": "Soma makala",
     "tryFeature": "Gundua kipengele hiki katika programu",
     "searchPlaceholder": "Tafuta makala...",
-    "noResults": "Hakuna makala inayolingana na utafutaji wako."
+    "noResults": "Hakuna makala inayolingana na utafutaji wako.",
+    "readingTime": "Dakika %MINUTES% za kusoma",
+    "relatedPosts": "Soma pia"
   },
   "audioCoran": {
     "meta": {

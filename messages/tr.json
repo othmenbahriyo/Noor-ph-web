@@ -1688,7 +1688,9 @@
     "readMore": "Makaleyi oku",
     "tryFeature": "Bu özelliği uygulamada keşfedin",
     "searchPlaceholder": "Bir makale ara...",
-    "noResults": "Aramanızla eşleşen makale yok."
+    "noResults": "Aramanızla eşleşen makale yok.",
+    "readingTime": "%MINUTES% dk okuma",
+    "relatedPosts": "Bunları da okuyun"
   },
   "audioCoran": {
     "meta": {

@@ -1688,7 +1688,9 @@
     "readMore": "Leggi l'articolo",
     "tryFeature": "Scopri questa funzione nell'app",
     "searchPlaceholder": "Cerca un articolo...",
-    "noResults": "Nessun articolo corrisponde alla tua ricerca."
+    "noResults": "Nessun articolo corrisponde alla tua ricerca.",
+    "readingTime": "%MINUTES% min di lettura",
+    "relatedPosts": "Leggi anche"
   },
   "audioCoran": {
     "meta": {

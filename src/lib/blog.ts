@@ -18,6 +18,14 @@ export interface BlogPostMeta {
 
 export interface BlogPost extends BlogPostMeta {
   content: string;
+  readingMinutes: number;
+}
+
+const WORDS_PER_MINUTE = 200;
+
+function estimateReadingMinutes(content: string): number {
+  const wordCount = content.trim().split(/\s+/).filter(Boolean).length;
+  return Math.max(1, Math.round(wordCount / WORDS_PER_MINUTE));
 }
 
 function readPostFile(slug: string, locale: string): { data: matter.GrayMatterFile<string>['data']; content: string } | null {
@@ -57,6 +65,7 @@ export function getBlogPost(slug: string, locale: string): BlogPost | null {
     category: data.category,
     image: BLOG_POST_IMAGES[slug] ?? DEFAULT_BLOG_IMAGE,
     content,
+    readingMinutes: estimateReadingMinutes(content),
   };
 }
 
@@ -73,6 +82,18 @@ export function getAllBlogPosts(locale: string): BlogPostMeta[] {
     .map((slug) => getBlogPost(slug, locale))
     .filter((post): post is BlogPost => post !== null)
     .sort((a, b) => (a.date < b.date ? 1 : -1));
+}
+
+const RELATED_POSTS_LIMIT = 3;
+
+// Same-category articles first (most topically relevant), then the rest,
+// so every article links to others instead of dead-ending on a single
+// product-page CTA — helps both internal linking and session duration.
+export function getRelatedPosts(currentSlug: string, currentCategory: string, locale: string): BlogPostMeta[] {
+  const others = getAllBlogPosts(locale).filter((post) => post.slug !== currentSlug);
+  const sameCategory = others.filter((post) => post.category === currentCategory);
+  const rest = others.filter((post) => post.category !== currentCategory);
+  return [...sameCategory, ...rest].slice(0, RELATED_POSTS_LIMIT);
 }
 
 // Links each article to the app feature page it's most relevant to, so blog

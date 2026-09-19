@@ -1688,7 +1688,9 @@
     "readMore": "記事を読む",
     "tryFeature": "アプリでこの機能を見る",
     "searchPlaceholder": "記事を検索...",
-    "noResults": "検索に一致する記事がありません。"
+    "noResults": "検索に一致する記事がありません。",
+    "readingTime": "読了時間 %MINUTES% 分",
+    "relatedPosts": "関連記事"
   },
   "audioCoran": {
     "meta": {

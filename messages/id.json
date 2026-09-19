@@ -1688,7 +1688,9 @@
     "readMore": "Baca artikel",
     "tryFeature": "Temukan fitur ini di aplikasi",
     "searchPlaceholder": "Cari artikel...",
-    "noResults": "Tidak ada artikel yang cocok dengan pencarian Anda."
+    "noResults": "Tidak ada artikel yang cocok dengan pencarian Anda.",
+    "readingTime": "%MINUTES% menit membaca",
+    "relatedPosts": "Baca juga"
   },
   "audioCoran": {
     "meta": {
