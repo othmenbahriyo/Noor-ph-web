@@ -44,7 +44,7 @@ export default async function LocaleLayout({
   const dir = RTL_LOCALES.has(locale) ? 'rtl' : 'ltr';
 
   return (
-    <html lang={locale} dir={dir} className={cairo.variable}>
+    <html lang={locale} dir={dir} className={cairo.variable} suppressHydrationWarning>
       <head>
         <link href="/fontawesome/css/subset.css" rel="stylesheet" />
         <link
