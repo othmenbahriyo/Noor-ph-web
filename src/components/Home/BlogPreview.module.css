@@ -43,3 +43,25 @@
 .viewAllLink:hover {
   text-decoration: underline;
 }
+
+@media (max-width: 767px) {
+  .carousel {
+    display: flex;
+    overflow-x: auto;
+    gap: 18px;
+    padding: 4px 15px 16px;
+    margin: 0 -15px;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .carousel::-webkit-scrollbar {
+    display: none;
+  }
+
+  .carousel > * {
+    flex: 0 0 82%;
+    scroll-snap-align: center;
+  }
+}

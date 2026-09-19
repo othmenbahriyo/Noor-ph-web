@@ -23,7 +23,7 @@ export default async function BlogPreview() {
           <p>{t('subtitle')}</p>
         </div>
 
-        <div className={blogStyles.grid}>
+        <div className={`${blogStyles.grid} ${styles.carousel}`}>
           {posts.map((post) => (
             <Link key={post.slug} href={`/blog/${post.slug}`} className={blogStyles.card}>
               <div className={blogStyles.cardImage}>
