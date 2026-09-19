@@ -46,9 +46,9 @@ export async function generateMetadata({
       publishedTime: post.date,
       images: [
         {
-          url: `${SITE_URL}/images/noor.png`,
+          url: `${SITE_URL}${post.image}`,
           width: 1200,
-          height: 628,
+          height: 630,
         },
       ],
     },
@@ -58,7 +58,7 @@ export async function generateMetadata({
 function buildJsonLd(
   locale: string,
   slug: string,
-  post: { title: string; description: string; date: string; author: string },
+  post: { title: string; description: string; date: string; author: string; image: string },
   breadcrumbLabels: { home: string; blog: string },
 ) {
   const { canonicalUrl, languages } = buildLocaleUrls(locale, `/blog/${slug}`);
@@ -91,7 +91,7 @@ function buildJsonLd(
       url: SITE_URL,
     },
     mainEntityOfPage: canonicalUrl,
-    image: `${SITE_URL}/images/noor.png`,
+    image: `${SITE_URL}${post.image}`,
   };
 
   return [breadcrumb, article];

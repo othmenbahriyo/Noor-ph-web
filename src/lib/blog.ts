@@ -13,6 +13,7 @@ export interface BlogPostMeta {
   date: string;
   author: string;
   category: string;
+  image: string;
 }
 
 export interface BlogPost extends BlogPostMeta {
@@ -26,6 +27,17 @@ function readPostFile(slug: string, locale: string): { data: matter.GrayMatterFi
   const { data, content } = matter(raw);
   return { data, content };
 }
+
+// Cover image per article, keyed by slug rather than stored in each
+// frontmatter file: avoids repeating (and risking a typo on) the same path
+// across 20 locale files per article.
+const BLOG_POST_IMAGES: Record<string, string> = {
+  'regles-de-tajweed-guide-complet': '/images/blog/tajweed-guide.webp',
+  'methodes-memoriser-coran-facilement': '/images/blog/hifz-methods.webp',
+  'tarbiya-al-atfal-ala-al-quran': '/images/blog/tarbiya-atfal.webp',
+  'ilaj-sudubat-hifz-al-quran': '/images/blog/ilaj-hifz.webp',
+};
+const DEFAULT_BLOG_IMAGE = '/images/blog/hifz-methods.webp';
 
 // Falls back to the French source article when a translation doesn't exist
 // yet for a given locale, so every locale route stays resolvable even
@@ -43,6 +55,7 @@ export function getBlogPost(slug: string, locale: string): BlogPost | null {
     date: data.date,
     author: data.author,
     category: data.category,
+    image: BLOG_POST_IMAGES[slug] ?? DEFAULT_BLOG_IMAGE,
     content,
   };
 }
@@ -68,4 +81,6 @@ export function getAllBlogPosts(locale: string): BlogPostMeta[] {
 export const BLOG_POST_RELATED_PAGE: Record<string, string> = {
   'regles-de-tajweed-guide-complet': '/tajweed-coran',
   'methodes-memoriser-coran-facilement': '/memorisation-coran',
+  'tarbiya-al-atfal-ala-al-quran': '/memorisation-coran',
+  'ilaj-sudubat-hifz-al-quran': '/memorisation-coran',
 };

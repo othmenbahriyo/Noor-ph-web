@@ -1,6 +1,7 @@
 'use client';
 
 import { useMemo, useState } from 'react';
+import Image from 'next/image';
 import { Link } from '@/i18n/navigation';
 import type { BlogPostMeta } from '@/lib/blog';
 import styles from './Blog.module.css';
@@ -10,15 +11,6 @@ interface BlogSearchGridProps {
   readMoreLabel: string;
   searchPlaceholder: string;
   noResultsLabel: string;
-}
-
-const CATEGORY_ICONS: Record<string, string> = {
-  Tajweed: 'fa-book-quran',
-  Hifz: 'fa-brain',
-};
-
-function iconFor(category: string) {
-  return CATEGORY_ICONS[category] ?? 'fa-book-open';
 }
 
 export default function BlogSearchGrid({
@@ -59,8 +51,8 @@ export default function BlogSearchGrid({
         <div className={styles.grid}>
           {filtered.map((post) => (
             <Link key={post.slug} href={`/blog/${post.slug}`} className={styles.card}>
-              <div className={styles.cardIcon}>
-                <i className={`fas ${iconFor(post.category)}`} />
+              <div className={styles.cardImage}>
+                <Image src={post.image} alt={post.title} fill sizes="(max-width: 768px) 100vw, 400px" />
               </div>
               <div className={styles.cardBody}>
                 <span className={styles.cardCategory}>{post.category}</span>

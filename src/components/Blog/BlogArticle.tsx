@@ -1,4 +1,5 @@
 import { MDXRemote } from 'next-mdx-remote/rsc';
+import Image from 'next/image';
 import { Link } from '@/i18n/navigation';
 import type { BlogPost } from '@/lib/blog';
 import styles from './Blog.module.css';
@@ -36,6 +37,10 @@ export default function BlogArticle({
       <section className={styles.articleSection}>
         <div className="container">
           <div className={styles.articleContainer}>
+            <div className={styles.articleCoverImage}>
+              <Image src={post.image} alt={post.title} fill sizes="(max-width: 900px) 100vw, 800px" priority />
+            </div>
+
             <div className={styles.articleContent}>
               <MDXRemote source={post.content} />
             </div>

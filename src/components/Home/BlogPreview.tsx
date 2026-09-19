@@ -1,17 +1,9 @@
 import { getTranslations, getLocale } from 'next-intl/server';
+import Image from 'next/image';
 import { Link } from '@/i18n/navigation';
 import { getAllBlogPosts } from '@/lib/blog';
 import blogStyles from '../Blog/Blog.module.css';
 import styles from './BlogPreview.module.css';
-
-const CATEGORY_ICONS: Record<string, string> = {
-  Tajweed: 'fa-book-quran',
-  Hifz: 'fa-brain',
-};
-
-function iconFor(category: string) {
-  return CATEGORY_ICONS[category] ?? 'fa-book-open';
-}
 
 const HOME_PREVIEW_LIMIT = 8;
 
@@ -34,8 +26,8 @@ export default async function BlogPreview() {
         <div className={blogStyles.grid}>
           {posts.map((post) => (
             <Link key={post.slug} href={`/blog/${post.slug}`} className={blogStyles.card}>
-              <div className={blogStyles.cardIcon}>
-                <i className={`fas ${iconFor(post.category)}`} />
+              <div className={blogStyles.cardImage}>
+                <Image src={post.image} alt={post.title} fill sizes="(max-width: 768px) 100vw, 400px" />
               </div>
               <div className={blogStyles.cardBody}>
                 <span className={blogStyles.cardCategory}>{post.category}</span>
