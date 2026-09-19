@@ -1,7 +1,10 @@
 import { MDXRemote } from 'next-mdx-remote/rsc';
+import rehypeSlug from 'rehype-slug';
 import Image from 'next/image';
 import { Link } from '@/i18n/navigation';
 import type { BlogPost, BlogPostMeta } from '@/lib/blog';
+import { extractToc } from '@/lib/toc';
+import TableOfContents from './TableOfContents';
 import styles from './Blog.module.css';
 
 interface BlogArticleProps {
@@ -14,6 +17,7 @@ interface BlogArticleProps {
   readingTimeLabel: string;
   relatedPosts: BlogPostMeta[];
   relatedPostsLabel: string;
+  tocLabel: string;
 }
 
 export default function BlogArticle({
@@ -26,7 +30,9 @@ export default function BlogArticle({
   readingTimeLabel,
   relatedPosts,
   relatedPostsLabel,
+  tocLabel,
 }: BlogArticleProps) {
+  const toc = extractToc(post.content);
   return (
     <>
       <section className={styles.hero}>
@@ -49,8 +55,13 @@ export default function BlogArticle({
               <Image src={post.image} alt={post.title} fill sizes="(max-width: 900px) 100vw, 800px" priority />
             </div>
 
+            <TableOfContents entries={toc} title={tocLabel} />
+
             <div className={styles.articleContent}>
-              <MDXRemote source={post.content} />
+              <MDXRemote
+                source={post.content}
+                options={{ mdxOptions: { rehypePlugins: [rehypeSlug] } }}
+              />
             </div>
 
             {relatedPageHref && (
@@ -62,7 +73,7 @@ export default function BlogArticle({
 
             {relatedPosts.length > 0 && (
               <div className={styles.relatedPosts}>
-                <h2 className={styles.relatedPostsTitle}>{relatedPostsLabel}</h2>
+                <div className={styles.relatedPostsTitle}>{relatedPostsLabel}</div>
                 <div className={styles.relatedPostsGrid}>
                   {relatedPosts.map((related) => (
                     <Link key={related.slug} href={`/blog/${related.slug}`} className={styles.relatedPostCard}>

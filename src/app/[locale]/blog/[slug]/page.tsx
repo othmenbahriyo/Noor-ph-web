@@ -134,6 +134,7 @@ export default async function BlogArticlePage({
         readingTimeLabel={readingTimeLabel}
         relatedPosts={relatedPosts}
         relatedPostsLabel={tBlog('relatedPosts')}
+        tocLabel={tBlog('tableOfContents')}
       />
       <Footer />
     </>

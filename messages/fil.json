@@ -42,7 +42,8 @@
       "contact": "Makipag-ugnayan",
       "location": "Paris, France",
       "rights": "Lahat ng karapatan ay nakalaan.",
-      "backToTop": "Bumalik sa itaas ng pahina"
+      "backToTop": "Bumalik sa itaas ng pahina",
+      "recentPosts": "Pinakabagong mga Artikulo"
     },
     "contactForm": {
       "eyebrow": "Makipag-ugnayan sa Amin",
@@ -97,6 +98,13 @@
       "sending": "Ipinapadala...",
       "successMessage": "Matagumpay na naipadala ang iyong mensahe. Salamat!",
       "errorMessage": "May naganap na error. Mangyaring subukan muli."
+    },
+    "search": {
+      "label": "Maghanap sa site",
+      "placeholder": "Maghanap ng artikulo, tampok...",
+      "prompt": "Magsimulang mag-type para maghanap.",
+      "close": "Isara",
+      "noResults": "Walang nahanap na resulta."
     }
   },
   "home": {
@@ -1690,7 +1698,8 @@
     "searchPlaceholder": "Maghanap ng artikulo...",
     "noResults": "Walang artikulong tumugma sa iyong paghahanap.",
     "readingTime": "%MINUTES% minutong pagbasa",
-    "relatedPosts": "Basahin din"
+    "relatedPosts": "Basahin din",
+    "tableOfContents": "Talaan ng Nilalaman"
   },
   "audioCoran": {
     "meta": {

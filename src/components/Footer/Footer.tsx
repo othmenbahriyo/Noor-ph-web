@@ -1,7 +1,10 @@
 import { getTranslations, getLocale } from 'next-intl/server';
 import { Link } from '@/i18n/navigation';
+import { getAllBlogPosts } from '@/lib/blog';
 import styles from './Footer.module.css';
 import BackToTop from './BackToTop';
+
+const FOOTER_POSTS_LIMIT = 3;
 
 const STORE_LINKS = [
   {
@@ -24,6 +27,7 @@ export default async function Footer() {
   const privacyHref = locale === 'en' ? '/en/privacy-policy' : '/privacy-policy';
   const contactHref = locale === 'en' ? '/en/contact' : '/contact';
   const year = new Date().getFullYear();
+  const recentPosts = getAllBlogPosts(locale).slice(0, FOOTER_POSTS_LIMIT);
 
   // Section anchors only exist on the homepage. Prefix with the locale-aware
   // home path so links work from any other page too, not just from "/".
@@ -98,6 +102,19 @@ export default async function Footer() {
               <li>{t('location')}</li>
             </ul>
           </div>
+
+          {recentPosts.length > 0 && (
+            <div className={styles.footerLinks}>
+              <h5>{t('recentPosts')}</h5>
+              <ul className={styles.footerRecentPosts}>
+                {recentPosts.map((post) => (
+                  <li key={post.slug}>
+                    <Link href={`/blog/${post.slug}`}>{post.title}</Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
         </div>
 
         <div className={styles.footerBottom}>

@@ -42,7 +42,8 @@
       "contact": "Contact",
       "location": "Paris, Franța",
       "rights": "Toate drepturile rezervate.",
-      "backToTop": "Înapoi sus"
+      "backToTop": "Înapoi sus",
+      "recentPosts": "Articole recente"
     },
     "contactForm": {
       "eyebrow": "Contactați-ne",
@@ -97,6 +98,13 @@
       "sending": "Se trimite...",
       "successMessage": "Mesajul dumneavoastră a fost trimis cu succes. Mulțumim!",
       "errorMessage": "A apărut o eroare. Vă rugăm să încercați din nou."
+    },
+    "search": {
+      "label": "Căutare pe site",
+      "placeholder": "Caută un articol, o funcție...",
+      "prompt": "Începe să tastezi pentru a căuta.",
+      "close": "Închide",
+      "noResults": "Niciun rezultat găsit."
     }
   },
   "home": {
@@ -1690,7 +1698,8 @@
     "searchPlaceholder": "Caută un articol...",
     "noResults": "Niciun articol nu corespunde căutării tale.",
     "readingTime": "%MINUTES% min de citit",
-    "relatedPosts": "Citește și"
+    "relatedPosts": "Citește și",
+    "tableOfContents": "Cuprins"
   },
   "audioCoran": {
     "meta": {

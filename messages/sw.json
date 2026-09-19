@@ -42,7 +42,8 @@
       "contact": "Wasiliana",
       "location": "Paris, Ufaransa",
       "rights": "Haki zote zimehifadhiwa.",
-      "backToTop": "Rudi juu ya ukurasa"
+      "backToTop": "Rudi juu ya ukurasa",
+      "recentPosts": "Makala za Hivi Karibuni"
     },
     "contactForm": {
       "eyebrow": "Wasiliana nasi",
@@ -97,6 +98,13 @@
       "sending": "Inatuma...",
       "successMessage": "Ujumbe wako umetumwa kwa mafanikio. Asante!",
       "errorMessage": "Hitilafu imetokea. Tafadhali jaribu tena."
+    },
+    "search": {
+      "label": "Tafuta kwenye tovuti",
+      "placeholder": "Tafuta makala, kipengele...",
+      "prompt": "Anza kuandika ili kutafuta.",
+      "close": "Funga",
+      "noResults": "Hakuna matokeo yaliyopatikana."
     }
   },
   "home": {
@@ -1690,7 +1698,8 @@
     "searchPlaceholder": "Tafuta makala...",
     "noResults": "Hakuna makala inayolingana na utafutaji wako.",
     "readingTime": "Dakika %MINUTES% za kusoma",
-    "relatedPosts": "Soma pia"
+    "relatedPosts": "Soma pia",
+    "tableOfContents": "Yaliyomo"
   },
   "audioCoran": {
     "meta": {

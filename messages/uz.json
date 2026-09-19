@@ -42,7 +42,8 @@
       "contact": "Aloqa",
       "location": "Parij, Fransiya",
       "rights": "Barcha huquqlar himoyalangan.",
-      "backToTop": "Sahifa boshiga qaytish"
+      "backToTop": "Sahifa boshiga qaytish",
+      "recentPosts": "So'nggi maqolalar"
     },
     "contactForm": {
       "eyebrow": "Biz bilan bog'laning",
@@ -97,6 +98,13 @@
       "sending": "Yuborilmoqda...",
       "successMessage": "Xabaringiz muvaffaqiyatli yuborildi. Rahmat!",
       "errorMessage": "Xatolik yuz berdi. Iltimos, qayta urinib ko'ring."
+    },
+    "search": {
+      "label": "Saytda qidirish",
+      "placeholder": "Maqola yoki funksiyani qidirish...",
+      "prompt": "Qidirish uchun yozishni boshlang.",
+      "close": "Yopish",
+      "noResults": "Hech qanday natija topilmadi."
     }
   },
   "home": {
@@ -1690,7 +1698,8 @@
     "searchPlaceholder": "Maqola qidirish...",
     "noResults": "Qidiruvingizga mos maqola topilmadi.",
     "readingTime": "O'qish vaqti: %MINUTES% daqiqa",
-    "relatedPosts": "Shuningdek o'qing"
+    "relatedPosts": "Shuningdek o'qing",
+    "tableOfContents": "Mundarija"
   },
   "audioCoran": {
     "meta": {

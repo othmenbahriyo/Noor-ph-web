@@ -33,6 +33,13 @@
       "close": "Fermer",
       "noResults": "Aucune langue trouvée"
     },
+    "search": {
+      "label": "Rechercher sur le site",
+      "placeholder": "Rechercher un article, une fonctionnalité...",
+      "prompt": "Commencez à taper pour rechercher.",
+      "close": "Fermer",
+      "noResults": "Aucun résultat trouvé."
+    },
     "footer": {
       "about": "Une application innovante pour apprendre à réciter le Saint Coran avec précision et facilité.",
       "quickLinks": "Liens Rapides",
@@ -42,7 +49,8 @@
       "contact": "Contact",
       "location": "Paris, France",
       "rights": "Tous droits réservés.",
-      "backToTop": "Retour en haut de la page"
+      "backToTop": "Retour en haut de la page",
+      "recentPosts": "Derniers articles"
     },
     "contactForm": {
       "eyebrow": "Contactez-nous",
@@ -1690,7 +1698,8 @@
     "searchPlaceholder": "Rechercher un article...",
     "noResults": "Aucun article ne correspond à votre recherche.",
     "readingTime": "%MINUTES% min de lecture",
-    "relatedPosts": "À lire aussi"
+    "relatedPosts": "À lire aussi",
+    "tableOfContents": "Sommaire"
   },
   "audioCoran": {
     "meta": {

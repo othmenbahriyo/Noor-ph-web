@@ -42,7 +42,8 @@
       "contact": "İletişim",
       "location": "Paris, Fransa",
       "rights": "Tüm hakları saklıdır.",
-      "backToTop": "Sayfanın başına dön"
+      "backToTop": "Sayfanın başına dön",
+      "recentPosts": "Son Makaleler"
     },
     "contactForm": {
       "eyebrow": "Bize Ulaşın",
@@ -97,6 +98,13 @@
       "sending": "Gönderiliyor...",
       "successMessage": "Mesajınız başarıyla gönderildi. Teşekkür ederiz!",
       "errorMessage": "Bir hata oluştu. Lütfen tekrar deneyin."
+    },
+    "search": {
+      "label": "Sitede ara",
+      "placeholder": "Makale veya özellik ara...",
+      "prompt": "Aramak için yazmaya başlayın.",
+      "close": "Kapat",
+      "noResults": "Sonuç bulunamadı."
     }
   },
   "home": {
@@ -1690,7 +1698,8 @@
     "searchPlaceholder": "Bir makale ara...",
     "noResults": "Aramanızla eşleşen makale yok.",
     "readingTime": "%MINUTES% dk okuma",
-    "relatedPosts": "Bunları da okuyun"
+    "relatedPosts": "Bunları da okuyun",
+    "tableOfContents": "İçindekiler"
   },
   "audioCoran": {
     "meta": {

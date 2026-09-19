@@ -42,7 +42,8 @@
       "contact": "اتصل بنا",
       "location": "باريس، فرنسا",
       "rights": "جميع الحقوق محفوظة.",
-      "backToTop": "العودة إلى أعلى الصفحة"
+      "backToTop": "العودة إلى أعلى الصفحة",
+      "recentPosts": "أحدث المقالات"
     },
     "contactForm": {
       "eyebrow": "اتصل بنا",
@@ -97,6 +98,13 @@
       "sending": "جارٍ الإرسال...",
       "successMessage": "تم إرسال رسالتك بنجاح. شكرًا لك!",
       "errorMessage": "حدث خطأ ما. يرجى المحاولة مرة أخرى."
+    },
+    "search": {
+      "label": "البحث في الموقع",
+      "placeholder": "ابحث عن مقال أو ميزة...",
+      "prompt": "ابدأ الكتابة للبحث.",
+      "close": "إغلاق",
+      "noResults": "لم يتم العثور على نتائج."
     }
   },
   "home": {
@@ -1690,7 +1698,8 @@
     "searchPlaceholder": "ابحث عن مقال...",
     "noResults": "لا يوجد مقال يطابق بحثك.",
     "readingTime": "قراءة %MINUTES% دقائق",
-    "relatedPosts": "اقرأ أيضاً"
+    "relatedPosts": "اقرأ أيضاً",
+    "tableOfContents": "المحتويات"
   },
   "audioCoran": {
     "meta": {

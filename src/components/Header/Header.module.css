@@ -86,6 +86,44 @@
   gap: 12px;
 }
 
+/* Search trigger — opens SearchModal */
+.searchBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  background: var(--light-color);
+  border: none;
+  border-radius: 50%;
+  font-size: 1rem;
+  color: var(--primary-color);
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.searchBtn:hover {
+  background: var(--primary-color);
+  color: var(--on-primary-text);
+}
+
+.mobileSearchBtn {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  background: var(--light-color);
+  border: none;
+  border-radius: var(--border-radius-pill);
+  padding: 14px 20px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--text-light);
+  cursor: pointer;
+  margin-bottom: 24px;
+  text-align: left;
+}
+
 /* Language switcher trigger — opens LanguageModal */
 .langBtn {
   display: flex;
@@ -232,7 +270,8 @@
     margin-left: auto;
   }
 
-  .headerActions .langBtn {
+  .headerActions .langBtn,
+  .headerActions .searchBtn {
     display: none;
   }
 }

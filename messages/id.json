@@ -42,7 +42,8 @@
       "contact": "Kontak",
       "location": "Paris, Prancis",
       "rights": "Semua hak dilindungi.",
-      "backToTop": "Kembali ke atas halaman"
+      "backToTop": "Kembali ke atas halaman",
+      "recentPosts": "Artikel Terbaru"
     },
     "contactForm": {
       "eyebrow": "Hubungi Kami",
@@ -97,6 +98,13 @@
       "sending": "Sedang mengirim...",
       "successMessage": "Pesan Anda telah berhasil dikirim. Terima kasih!",
       "errorMessage": "Terjadi kesalahan. Silakan coba lagi."
+    },
+    "search": {
+      "label": "Cari di situs",
+      "placeholder": "Cari artikel, fitur...",
+      "prompt": "Mulai mengetik untuk mencari.",
+      "close": "Tutup",
+      "noResults": "Tidak ada hasil ditemukan."
     }
   },
   "home": {
@@ -1690,7 +1698,8 @@
     "searchPlaceholder": "Cari artikel...",
     "noResults": "Tidak ada artikel yang cocok dengan pencarian Anda.",
     "readingTime": "%MINUTES% menit membaca",
-    "relatedPosts": "Baca juga"
+    "relatedPosts": "Baca juga",
+    "tableOfContents": "Daftar Isi"
   },
   "audioCoran": {
     "meta": {

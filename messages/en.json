@@ -42,7 +42,8 @@
       "contact": "Contact",
       "location": "Paris, France",
       "rights": "All rights reserved.",
-      "backToTop": "Back to top"
+      "backToTop": "Back to top",
+      "recentPosts": "Recent Articles"
     },
     "contactForm": {
       "eyebrow": "Contact us",
@@ -97,6 +98,13 @@
       "sending": "Sending...",
       "successMessage": "Your message has been sent. Thank you!",
       "errorMessage": "Something went wrong. Please try again."
+    },
+    "search": {
+      "label": "Search the site",
+      "placeholder": "Search an article, a feature...",
+      "prompt": "Start typing to search.",
+      "close": "Close",
+      "noResults": "No results found."
     }
   },
   "home": {
@@ -121,8 +129,8 @@
       "downloadOn": "Download on",
       "usersBadgeLabel": "Users",
       "updateBadge": "Recently updated",
-      "deviceScreenAlt": "Noor Phonetic Quran - Interface de l'application montrant la phonétique du Coran",
-      "mobileDeviceScreenAlt": "Noor Phonetic Quran - Apprentissage du Coran avec transcription phonétique"
+      "deviceScreenAlt": "Noor Phonetic Quran - App interface showing Quran phonetics",
+      "mobileDeviceScreenAlt": "Noor Phonetic Quran - Learning the Quran with phonetic transcription"
     },
     "languages": {
       "title": "Available in your language",
@@ -237,17 +245,17 @@
       "title": "Screenshots",
       "subtitle": "Discover the app in pictures",
       "alts": [
-        "Noor Phonetic Quran - Liste des sourates du Coran",
-        "Noor Phonetic Quran - Récitation avec phonétique précise",
-        "Noor Phonetic Quran - Règles de Tajweed colorées",
-        "Noor Phonetic Quran - Audio synchronisé avec le texte",
-        "Noor Phonetic Quran - Traduction française du Coran",
-        "Noor Phonetic Quran - Mode apprentissage du Coran",
-        "Noor Phonetic Quran - Navigation par sourate",
-        "Noor Phonetic Quran - Versets avec transcription phonétique",
-        "Noor Phonetic Quran - Paramètres de l'application",
-        "Noor Phonetic Quran - Lecture continue du Coran",
-        "Noor Phonetic Quran - Interface moderne et intuitive"
+        "Noor Phonetic Quran - List of Quran surahs",
+        "Noor Phonetic Quran - Recitation with accurate phonetics",
+        "Noor Phonetic Quran - Color-coded Tajweed rules",
+        "Noor Phonetic Quran - Audio synchronized with the text",
+        "Noor Phonetic Quran - English translation of the Quran",
+        "Noor Phonetic Quran - Quran learning mode",
+        "Noor Phonetic Quran - Navigation by surah",
+        "Noor Phonetic Quran - Verses with phonetic transcription",
+        "Noor Phonetic Quran - App settings",
+        "Noor Phonetic Quran - Continuous Quran reading",
+        "Noor Phonetic Quran - Modern and intuitive interface"
       ]
     },
     "faq": {
@@ -372,49 +380,49 @@
   },
   "cgu": {
     "meta": {
-      "title": "Conditions Générales d'Utilisation - Noor Phonetic Quran",
-      "description": "Conditions générales d'utilisation de Noor Phonetic Quran : accès au service, compte utilisateur, abonnement Premium, propriété intellectuelle, responsabilité et droit applicable.",
-      "keywords": "CGU Noor Phonetic Quran, conditions générales d'utilisation, conditions d'utilisation application Coran"
+      "title": "Terms of Use - Noor Phonetic Quran",
+      "description": "Terms of Use for Noor Phonetic Quran: access to the service, user account, Premium subscription, intellectual property, liability, and applicable law.",
+      "keywords": "Noor Phonetic Quran Terms of Use, terms and conditions, Quran app terms of use"
     },
     "appName": "Noor Phonetic Quran",
-    "pageTitle": "CONDITIONS GÉNÉRALES D'UTILISATION",
-    "updateDate": "Dernière mise à jour : 31 juillet 2026",
-    "intro1": "Les présentes Conditions Générales d'Utilisation (\"CGU\") régissent l'accès et l'utilisation de l'application mobile Noor Phonetic Quran (\"l'Application\", \"nous\", \"notre\" ou \"nos\"), éditée à titre individuel et disponible sur Google Play et l'App Store. En téléchargeant, installant ou utilisant l'Application, vous acceptez d'être lié par les présentes CGU. Si vous n'acceptez pas ces conditions, veuillez ne pas utiliser l'Application.",
-    "intro2Before": "Pour toute information sur le traitement de vos données personnelles, veuillez consulter notre",
-    "intro2LinkText": "Politique de Confidentialité",
-    "intro2After": ", qui complète les présentes CGU.",
+    "pageTitle": "TERMS OF USE",
+    "updateDate": "Last updated: July 31, 2026",
+    "intro1": "These Terms of Use (\"Terms\") govern access to and use of the Noor Phonetic Quran mobile application (\"the App,\" \"we,\" \"us,\" or \"our\"), published by an individual and available on Google Play and the App Store. By downloading, installing, or using the App, you agree to be bound by these Terms. If you do not accept these terms, please do not use the App.",
+    "intro2Before": "For information on how your personal data is processed, please refer to our",
+    "intro2LinkText": "Privacy Policy",
+    "intro2After": ", which supplements these Terms.",
     "summary": {
-      "heading": "RÉSUMÉ DES POINTS CLÉS",
-      "intro": "Ce résumé fournit les points clés de nos CGU, mais nous vous invitons à lire l'intégralité du document via la table des matières ci-dessous.",
+      "heading": "SUMMARY OF KEY POINTS",
+      "intro": "This summary provides the key points of our Terms, but we encourage you to read the full document via the table of contents below.",
       "points": [
         {
-          "question": "Que propose l'Application ?",
-          "answer": "Un ensemble d'outils gratuits et payants pour lire, apprendre et mémoriser le Coran : lecture phonétique et en arabe (lectures Hafs et Warsh), tajweed, mémorisation gamifiée, suivi de khatma, correction de récitation par enregistrement audio, quiz, radio/TV islamiques en direct et un widget \"verset du jour\" sur l'écran d'accueil."
+          "question": "What does the App offer?",
+          "answer": "A set of free and paid tools to read, learn, and memorize the Quran: phonetic and Arabic reading (Hafs and Warsh readings), tajweed, gamified memorization, khatma tracking, recitation correction via audio recording, quiz, live Islamic radio/TV, and a \"verse of the day\" widget on the home screen."
         },
         {
-          "question": "Ai-je besoin d'un compte ?",
-          "answer": "Non, l'essentiel de l'Application est utilisable sans compte. Un compte optionnel (email, Google ou Apple) permet de synchroniser votre progression et votre abonnement Premium."
+          "question": "Do I need an account?",
+          "answer": "No, most of the App can be used without an account. An optional account (email, Google, or Apple) lets you sync your progress and your Premium subscription."
         },
         {
-          "question": "L'Application est-elle payante ?",
-          "answer": "L'Application est gratuite avec des publicités. Un abonnement Premium optionnel, géré via Google Play ou l'App Store, supprime la publicité et débloque des fonctionnalités avancées."
+          "question": "Is the App paid?",
+          "answer": "The App is free with ads. An optional Premium subscription, managed via Google Play or the App Store, removes ads and unlocks advanced features."
         },
         {
-          "question": "Puis-je enregistrer ma voix ?",
-          "answer": "Oui, la fonction de correction de récitation enregistre votre voix localement pour analyser votre prononciation. Voir la section dédiée pour le détail du fonctionnement et de vos responsabilités."
+          "question": "Can I record my voice?",
+          "answer": "Yes, the recitation correction feature records your voice locally to analyze your pronunciation. See the dedicated section for details on how it works and your responsibilities."
         },
         {
-          "question": "Qui est responsable du contenu religieux ?",
-          "answer": "Nous mettons tout en œuvre pour la fiabilité des textes, traductions et translittérations, mais l'Application est un outil pédagogique et ne remplace pas un enseignement traditionnel auprès d'un enseignant qualifié."
+          "question": "Who is responsible for the religious content?",
+          "answer": "We make every effort to ensure the reliability of texts, translations, and transliterations, but the App is an educational tool and does not replace traditional teaching from a qualified teacher."
         },
         {
-          "question": "Comment nous contacter ?",
-          "answer": "Via le formulaire de contact intégré à l'Application ou par email à othmeneb@gmail.com."
+          "question": "How can I contact you?",
+          "answer": "Via the contact form built into the App or by email at othmeneb@gmail.com."
         }
       ]
     },
     "toc": {
-      "heading": "TABLE DES MATIÈRES",
+      "heading": "TABLE OF CONTENTS",
       "items": [
         {
           "id": "service",
@@ -426,164 +434,164 @@
         },
         {
           "id": "account",
-          "label": "3. COMPTE UTILISATEUR"
+          "label": "3. USER ACCOUNT"
         },
         {
           "id": "premium",
-          "label": "4. ABONNEMENT PREMIUM ET ACHATS INTÉGRÉS"
+          "label": "4. PREMIUM SUBSCRIPTION AND IN-APP PURCHASES"
         },
         {
           "id": "recitation",
-          "label": "5. CORRECTION DE RÉCITATION ET ENREGISTREMENTS AUDIO"
+          "label": "5. RECITATION CORRECTION AND AUDIO RECORDINGS"
         },
         {
           "id": "conduct",
-          "label": "6. RÈGLES D'UTILISATION"
+          "label": "6. RULES OF USE"
         },
         {
           "id": "ip",
-          "label": "7. PROPRIÉTÉ INTELLECTUELLE"
+          "label": "7. INTELLECTUAL PROPERTY"
         },
         {
           "id": "religious-content",
-          "label": "8. CONTENU RELIGIEUX ET ÉDUCATIF"
+          "label": "8. RELIGIOUS AND EDUCATIONAL CONTENT"
         },
         {
           "id": "accessibility",
-          "label": "9. ACCESSIBILITÉ"
+          "label": "9. ACCESSIBILITY"
         },
         {
           "id": "ads",
-          "label": "10. PUBLICITÉ ET SERVICES TIERS"
+          "label": "10. ADVERTISING AND THIRD-PARTY SERVICES"
         },
         {
           "id": "availability",
-          "label": "11. DISPONIBILITÉ ET MODIFICATIONS DU SERVICE"
+          "label": "11. AVAILABILITY AND CHANGES TO THE SERVICE"
         },
         {
           "id": "termination",
-          "label": "12. SUSPENSION ET RÉSILIATION"
+          "label": "12. SUSPENSION AND TERMINATION"
         },
         {
           "id": "disclaimer",
-          "label": "13. LIMITATION DE RESPONSABILITÉ"
+          "label": "13. LIMITATION OF LIABILITY"
         },
         {
           "id": "law",
-          "label": "14. DROIT APPLICABLE ET LITIGES"
+          "label": "14. APPLICABLE LAW AND DISPUTES"
         },
         {
           "id": "updates",
-          "label": "15. MODIFICATION DES CGU"
+          "label": "15. CHANGES TO THE TERMS"
         },
         {
           "id": "contact",
-          "label": "16. NOUS CONTACTER"
+          "label": "16. CONTACT US"
         }
       ]
     },
     "sections": {
       "service": {
         "heading": "1. LE SERVICE",
-        "intro": "Noor Phonetic Quran est une application mobile permettant de lire, apprendre et mémoriser le Coran, notamment via :",
+        "intro": "Noor Phonetic Quran is a mobile application for reading, learning, and memorizing the Quran, in particular through:",
         "items": [
-          "la lecture du Coran en translittération phonétique et en arabe (lectures Hafs et Warsh), avec traductions et audio ;",
-          "des cours de prononciation et de tajweed, avec correction de récitation par enregistrement audio ;",
-          "un module de mémorisation gamifié (niveaux, badges, défis quotidiens) et un plan d'apprentissage quotidien ;",
-          "un suivi de khatma (lecture complète du Coran) et un programme spécial Ramadan ;",
-          "des adhkar quotidiens, un quiz de connaissances islamiques, une radio et des chaînes TV islamiques en direct ;",
-          "un widget \"verset du jour\" affichable sur l'écran d'accueil de votre appareil (iOS et Android)."
+          "reading the Quran in phonetic transliteration and in Arabic (Hafs and Warsh readings), with translations and audio;",
+          "pronunciation and tajweed lessons, with recitation correction via audio recording;",
+          "a gamified memorization module (levels, badges, daily challenges) and a daily learning plan;",
+          "khatma tracking (complete reading of the Quran) and a special Ramadan program;",
+          "daily adhkar, an Islamic knowledge quiz, and a live Islamic radio and TV channels;",
+          "a \"verse of the day\" widget that can be displayed on your device's home screen (iOS and Android)."
         ],
-        "outro": "Ces fonctionnalités peuvent évoluer, être ajoutées ou retirées au fil des mises à jour de l'Application, sans que cela ne constitue une modification substantielle des présentes CGU."
+        "outro": "These features may evolve, be added, or be removed as the App is updated, without this constituting a substantial change to these Terms."
       },
       "eligibility": {
         "heading": "2. ÉLIGIBILITÉ",
-        "body": "L'Application s'adresse à toute personne souhaitant apprendre ou pratiquer la lecture du Coran. Si vous êtes mineur, l'utilisation de l'Application doit se faire sous la supervision d'un parent ou tuteur légal, notamment pour toute fonctionnalité impliquant un achat intégré."
+        "body": "The App is intended for anyone wishing to learn or practice reading the Quran. If you are a minor, use of the App must take place under the supervision of a parent or legal guardian, in particular for any feature involving an in-app purchase."
       },
       "account": {
-        "heading": "3. COMPTE UTILISATEUR",
+        "heading": "3. USER ACCOUNT",
         "brief": "En bref",
-        "briefText": "Un compte est optionnel et sert uniquement à synchroniser votre progression et votre abonnement.",
-        "body": "La majorité des fonctionnalités de l'Application est accessible sans création de compte. Vous pouvez créer un compte optionnel par email, via Google ou via Apple, afin de conserver votre progression (mémorisation, khatma, plan quotidien) et votre statut Premium en cas de changement d'appareil. Vous êtes responsable de la confidentialité de vos identifiants et de toute activité effectuée depuis votre compte. Vous pouvez demander la suppression de votre compte et des données associées à tout moment en nous contactant (voir section 16) ou depuis les réglages de l'Application lorsque cette option y est disponible."
+        "briefText": "An account is optional and is only used to sync your progress and subscription.",
+        "body": "Most of the App's features are accessible without creating an account. You can create an optional account by email, Google, or Apple, in order to keep your progress (memorization, khatma, daily plan) and your Premium status in case you change devices. You are responsible for keeping your login credentials confidential and for any activity carried out from your account. You can request the deletion of your account and associated data at any time by contacting us (see section 16) or from the App's settings where this option is available."
       },
       "premium": {
-        "heading": "4. ABONNEMENT PREMIUM ET ACHATS INTÉGRÉS",
+        "heading": "4. PREMIUM SUBSCRIPTION AND IN-APP PURCHASES",
         "brief": "En bref",
-        "briefText": "L'Application est gratuite avec publicité ; l'abonnement Premium (géré par Google Play ou l'App Store) supprime la publicité et débloque des fonctionnalités avancées.",
-        "body": "Les achats intégrés (notamment l'abonnement Premium) sont traités directement par Google Play ou l'App Store selon votre plateforme, conformément à leurs propres conditions d'utilisation et politiques de facturation. La facturation, le renouvellement automatique, l'annulation et le remboursement d'un abonnement sont gérés depuis les réglages de votre compte Google Play ou Apple ID — nous n'avons pas accès à vos moyens de paiement et ne pouvons pas déclencher de remboursement directement. Le contenu et le périmètre exact des avantages Premium sont décrits dans l'Application au moment de l'achat et peuvent évoluer avec les mises à jour."
+        "briefText": "The App is free with advertising; the Premium subscription (managed by Google Play or the App Store) removes ads and unlocks advanced features.",
+        "body": "In-app purchases (in particular the Premium subscription) are processed directly by Google Play or the App Store depending on your platform, in accordance with their own terms of use and billing policies. Billing, automatic renewal, cancellation, and refund of a subscription are managed from your Google Play or Apple ID account settings — we do not have access to your payment methods and cannot directly issue a refund. The exact content and scope of Premium benefits are described in the App at the time of purchase and may change with updates."
       },
       "recitation": {
-        "heading": "5. CORRECTION DE RÉCITATION ET ENREGISTREMENTS AUDIO",
+        "heading": "5. RECITATION CORRECTION AND AUDIO RECORDINGS",
         "brief": "En bref",
-        "briefText": "Vos enregistrements de récitation sont utilisés pour vous fournir un retour sur votre prononciation ; ne partagez que ce que vous êtes à l'aise de transmettre.",
-        "bodyBefore": "La fonctionnalité de correction de récitation vous permet d'enregistrer votre voix pendant votre lecture du Coran afin de recevoir un retour personnalisé (automatisé et/ou par un examinateur, selon la version de la fonctionnalité active dans l'Application). En utilisant cette fonctionnalité, vous consentez à l'enregistrement et au traitement de votre voix aux fins d'analyse de prononciation et d'amélioration de votre apprentissage. Vous ne devez pas soumettre d'enregistrement contenant des propos illicites, diffamatoires ou portant atteinte aux droits de tiers. Le détail du traitement, du stockage et de la durée de conservation de ces enregistrements est précisé dans notre",
-        "linkText": "Politique de Confidentialité",
+        "briefText": "Your recitation recordings are used to give you feedback on your pronunciation; only share what you are comfortable sharing.",
+        "bodyBefore": "The recitation correction feature allows you to record your voice while reading the Quran in order to receive personalized feedback (automated and/or from a reviewer, depending on the version of the feature active in the App). By using this feature, you consent to the recording and processing of your voice for the purpose of pronunciation analysis and improving your learning. You must not submit any recording containing unlawful or defamatory content, or content that infringes the rights of third parties. Details on the processing, storage, and retention period of these recordings are set out in our",
+        "linkText": "Privacy Policy",
         "bodyAfter": "."
       },
       "conduct": {
-        "heading": "6. RÈGLES D'UTILISATION",
-        "intro": "En utilisant l'Application, vous vous engagez à ne pas :",
+        "heading": "6. RULES OF USE",
+        "intro": "By using the App, you agree not to:",
         "items": [
-          "utiliser l'Application à des fins illégales ou contraires aux présentes CGU ;",
-          "tenter d'accéder sans autorisation à nos systèmes, de les perturber ou de contourner leurs mesures de sécurité ;",
-          "décompiler, désassembler ou tenter d'extraire le code source de l'Application, sauf dans la mesure où la loi l'autorise expressément ;",
-          "reproduire, redistribuer ou exploiter commercialement tout ou partie du contenu de l'Application sans autorisation préalable ;",
-          "utiliser des outils automatisés (bots, scrapers) pour accéder à l'Application ou en extraire des données."
+          "use the App for unlawful purposes or in violation of these Terms;",
+          "attempt to gain unauthorized access to our systems, disrupt them, or bypass their security measures;",
+          "decompile, disassemble, or attempt to extract the source code of the App, except to the extent expressly permitted by law;",
+          "reproduce, redistribute, or commercially exploit all or part of the App's content without prior authorization;",
+          "use automated tools (bots, scrapers) to access the App or extract data from it."
         ]
       },
       "ip": {
-        "heading": "7. PROPRIÉTÉ INTELLECTUELLE",
-        "body": "L'Application, son code, son design, ses illustrations et les contenus pédagogiques qui lui sont propres (cours de tajweed, structuration du plan d'apprentissage, etc.) sont protégés par le droit de la propriété intellectuelle et restent notre propriété ou celle de nos concédants. Le texte coranique lui-même appartient au patrimoine commun et n'est revendiqué par personne ; les traductions, translittérations phonétiques, récitations audio et contenus de tafsir intégrés proviennent de sources tierces identifiées dans l'Application ou de partenaires (récitateurs, éditeurs de traduction) et sont utilisés conformément aux autorisations obtenues. Aucune disposition des présentes CGU ne vous confère de droit sur ces éléments au-delà d'un usage personnel et non commercial de l'Application."
+        "heading": "7. INTELLECTUAL PROPERTY",
+        "body": "The App, its code, design, illustrations, and the educational content specific to it (tajweed lessons, structuring of the learning plan, etc.) are protected by intellectual property law and remain our property or that of our licensors. The Quranic text itself belongs to the common heritage and is not claimed by anyone; the translations, phonetic transliterations, audio recitations, and tafsir content included come from third-party sources identified in the App or from partners (reciters, translation publishers) and are used in accordance with the authorizations obtained. Nothing in these Terms grants you any right to these elements beyond personal, non-commercial use of the App."
       },
       "religiousContent": {
-        "heading": "8. CONTENU RELIGIEUX ET ÉDUCATIF",
+        "heading": "8. RELIGIOUS AND EDUCATIONAL CONTENT",
         "brief": "En bref",
-        "briefText": "L'Application est un outil pédagogique d'accompagnement, pas un substitut à un enseignement traditionnel.",
-        "body": "Nous mettons tout en œuvre pour assurer l'exactitude du texte coranique, des traductions, des translittérations phonétiques et des règles de tajweed présentées dans l'Application, notamment en nous appuyant sur des sources reconnues. Toutefois, la translittération phonétique est par nature une approximation destinée à faciliter l'apprentissage et ne remplace pas l'apprentissage de la lecture de l'arabe coranique auprès d'un enseignant qualifié. De même, le retour fourni par la fonctionnalité de correction de récitation est un outil d'aide à l'apprentissage et ne garantit pas une validation religieuse de votre récitation."
+        "briefText": "The App is a supportive educational tool, not a substitute for traditional teaching.",
+        "body": "We make every effort to ensure the accuracy of the Quranic text, translations, phonetic transliterations, and tajweed rules presented in the App, in particular by relying on recognized sources. However, phonetic transliteration is by nature an approximation intended to facilitate learning and does not replace learning to read Quranic Arabic with a qualified teacher. Likewise, the feedback provided by the recitation correction feature is a learning aid tool and does not guarantee a religious validation of your recitation."
       },
       "accessibility": {
-        "heading": "9. ACCESSIBILITÉ",
+        "heading": "9. ACCESSIBILITY",
         "brief": "En bref",
-        "briefText": "Nous travaillons à rendre l'Application utilisable par le plus grand nombre, y compris pour les personnes en situation de handicap.",
-        "body": "L'Application intègre des informations d'accessibilité (libellés et rôles Semantics) sur ses principaux écrans et contrôles afin de faciliter la navigation avec les lecteurs d'écran natifs de votre appareil (VoiceOver sur iOS, TalkBack sur Android). Elle respecte par ailleurs la taille de police définie dans les réglages d'accessibilité de votre système d'exploitation pour l'affichage des textes. Ces efforts d'accessibilité sont continus et peuvent ne pas couvrir uniformément l'ensemble des écrans et fonctionnalités à un instant donné. Si vous rencontrez une difficulté d'accessibilité en utilisant l'Application, nous vous invitons à nous en faire part via le formulaire de contact (voir section 16) afin que nous puissions l'améliorer."
+        "briefText": "We work to make the App usable by as many people as possible, including people with disabilities.",
+        "body": "The App includes accessibility information (Semantics labels and roles) on its main screens and controls to make navigation easier with your device's native screen readers (VoiceOver on iOS, TalkBack on Android). It also respects the font size set in your operating system's accessibility settings for displaying text. These accessibility efforts are ongoing and may not uniformly cover every screen and feature at all times. If you experience an accessibility issue while using the App, please let us know via the contact form (see section 16) so we can improve it."
       },
       "ads": {
-        "heading": "10. PUBLICITÉ ET SERVICES TIERS",
-        "body1Before": "L'Application intègre des services techniques tiers (mesure d'audience, diagnostic technique, régie publicitaire, achats intégrés) décrits en détail dans notre",
-        "linkText": "Politique de Confidentialité",
-        "body1After": ". Ces services sont soumis à leurs propres conditions d'utilisation, que nous vous invitons à consulter.",
-        "body2": "Certaines publicités sont entièrement optionnelles : vous pouvez volontairement choisir de regarder une publicité récompensée (\"rewarded ad\") depuis le menu de soutien de l'Application, si vous souhaitez nous soutenir sans passer par l'abonnement Premium. Cette publicité optionnelle ne s'affiche jamais sans votre action explicite."
+        "heading": "10. ADVERTISING AND THIRD-PARTY SERVICES",
+        "body1Before": "The App includes third-party technical services (audience measurement, technical diagnostics, advertising, in-app purchases) described in detail in our",
+        "linkText": "Privacy Policy",
+        "body1After": ". These services are subject to their own terms of use, which we encourage you to review.",
+        "body2": "Some ads are entirely optional: you may voluntarily choose to watch a rewarded ad from the App's support menu if you wish to support us without subscribing to Premium. This optional ad never appears without your explicit action."
       },
       "availability": {
-        "heading": "11. DISPONIBILITÉ ET MODIFICATIONS DU SERVICE",
-        "body": "Nous nous efforçons de maintenir l'Application accessible et fonctionnelle, sans garantir une disponibilité continue ou sans erreur. Certaines fonctionnalités nécessitent une connexion internet (téléchargement audio, radio/TV en direct, synchronisation de compte) et peuvent être indisponibles hors connexion ou en cas de panne d'un service tiers. Nous pouvons ajouter, modifier ou retirer des fonctionnalités de l'Application à tout moment, notamment pour des raisons techniques, légales ou liées à l'évolution de nos partenariats de contenu."
+        "heading": "11. AVAILABILITY AND CHANGES TO THE SERVICE",
+        "body": "We strive to keep the App accessible and functional, without guaranteeing continuous or error-free availability. Some features require an Internet connection (audio download, live radio/TV, account syncing) and may be unavailable offline or in the event of a third-party service outage. We may add, modify, or remove features of the App at any time, in particular for technical, legal reasons, or reasons related to changes in our content partnerships."
       },
       "termination": {
-        "heading": "12. SUSPENSION ET RÉSILIATION",
-        "body": "Vous pouvez cesser d'utiliser l'Application à tout moment en la désinstallant. Nous nous réservons le droit de suspendre ou de résilier votre accès à l'Application, notamment en cas de non-respect des présentes CGU, sans que cela n'affecte les achats déjà effectués via Google Play ou l'App Store, dont la gestion relève de ces plateformes."
+        "heading": "12. SUSPENSION AND TERMINATION",
+        "body": "You may stop using the App at any time by uninstalling it. We reserve the right to suspend or terminate your access to the App, in particular in the event of non-compliance with these Terms, without affecting purchases already made via Google Play or the App Store, which are managed by those platforms."
       },
       "disclaimer": {
-        "heading": "13. LIMITATION DE RESPONSABILITÉ",
-        "body": "Dans la limite permise par la loi applicable, l'Application est fournie \"en l'état\" et \"selon disponibilité\", sans garantie d'aucune sorte, expresse ou implicite. Nous ne pourrons être tenus responsables des dommages indirects, incidents ou consécutifs résultant de l'utilisation ou de l'impossibilité d'utiliser l'Application, y compris en cas d'indisponibilité temporaire, de perte de données de progression, ou d'erreur dans un contenu tiers (traduction, audio, tafsir) intégré à l'Application. Rien dans les présentes CGU n'exclut une responsabilité qui ne peut être légalement exclue (par exemple en cas de faute intentionnelle ou de négligence grave)."
+        "heading": "13. LIMITATION OF LIABILITY",
+        "body": "To the extent permitted by applicable law, the App is provided \"as is\" and \"as available,\" without warranty of any kind, express or implied. We shall not be liable for any indirect, incidental, or consequential damages resulting from the use or inability to use the App, including in the event of temporary unavailability, loss of progress data, or errors in third-party content (translation, audio, tafsir) included in the App. Nothing in these Terms excludes any liability that cannot be legally excluded (for example, in the case of willful misconduct or gross negligence)."
       },
       "law": {
-        "heading": "14. DROIT APPLICABLE ET LITIGES",
-        "body": "Les présentes CGU sont régies par le droit français, sans préjudice des dispositions impératives de protection des consommateurs qui pourraient s'appliquer dans votre pays de résidence. En cas de litige, une solution amiable sera recherchée en priorité en nous contactant directement (voir section 16) avant toute action judiciaire."
+        "heading": "14. APPLICABLE LAW AND DISPUTES",
+        "body": "These Terms are governed by French law, without prejudice to any mandatory consumer protection provisions that may apply in your country of residence. In the event of a dispute, an amicable solution will be sought first by contacting us directly (see section 16) before any legal action."
       },
       "updates": {
-        "heading": "15. MODIFICATION DES CGU",
+        "heading": "15. CHANGES TO THE TERMS",
         "brief": "En bref",
-        "briefText": "Nous pouvons mettre à jour ces CGU pour refléter l'évolution de l'Application ou de la réglementation.",
-        "body": "Nous pouvons modifier les présentes CGU de temps à autre, notamment lors de l'ajout de nouvelles fonctionnalités. La version mise à jour sera indiquée par une nouvelle date de \"Dernière mise à jour\" en haut de cette page et sera effective dès sa publication. En cas de modification substantielle, nous vous en informerons par un avis dans l'Application. La poursuite de l'utilisation de l'Application après publication des modifications vaut acceptation des CGU mises à jour."
+        "briefText": "We may update these Terms to reflect changes to the App or applicable regulations.",
+        "body": "We may modify these Terms from time to time, in particular when adding new features. The updated version will be indicated by a new \"Last updated\" date at the top of this page and will take effect upon publication. In the event of a substantial change, we will notify you through a notice in the App. Continued use of the App after the changes are published constitutes acceptance of the updated Terms."
       },
       "contact": {
-        "heading": "16. NOUS CONTACTER",
-        "bodyBefore": "Pour toute question relative aux présentes CGU, vous pouvez nous contacter via le formulaire de contact intégré à l'Application, ou par email à",
+        "heading": "16. CONTACT US",
+        "bodyBefore": "For any question relating to these Terms, you may contact us via the contact form built into the App, or by email at",
         "email": "othmeneb@gmail.com",
         "bodyAfter": "."
       }
     },
-    "footer": "© 2026 Noor Phonetic Quran. Tous droits réservés."
+    "footer": "© 2026 Noor Phonetic Quran. All rights reserved."
   },
   "contactPage": {
     "meta": {
@@ -615,92 +623,93 @@
     "searchPlaceholder": "Search an article...",
     "noResults": "No article matches your search.",
     "readingTime": "%MINUTES% min read",
-    "relatedPosts": "Read next"
+    "relatedPosts": "Read next",
+    "tableOfContents": "Table of Contents"
   },
   "audioCoran": {
     "meta": {
-      "title": "Audio du Coran Synchronisé : Plusieurs Récitateurs et Écoute Hors Ligne | Noor Phonetic Quran",
-      "description": "Écoutez le Coran avec un audio synchronisé verset par verset, choisissez parmi plusieurs récitateurs et téléchargez l'audio pour une écoute hors ligne avec Noor Phonetic Quran. Gratuit sur iOS et Android.",
-      "keywords": "audio Coran, récitation Coran audio, plusieurs récitateurs Coran, Coran audio hors ligne, télécharger Coran audio, écouter le Coran, audio synchronisé Coran, récitateurs Coran application",
-      "ogTitle": "Audio du Coran Synchronisé : Plusieurs Récitateurs et Écoute Hors Ligne",
-      "ogDescription": "Audio synchronisé verset par verset, plusieurs récitateurs et téléchargement hors ligne. Application gratuite Noor Phonetic Quran."
+      "title": "Synchronized Quran Audio: Multiple Reciters and Offline Listening | Noor Phonetic Quran",
+      "description": "Listen to the Quran with audio synchronized verse by verse, choose from several reciters, and download the audio for offline listening with Noor Phonetic Quran. Free on iOS and Android.",
+      "keywords": "Quran audio, Quran audio recitation, multiple Quran reciters, offline Quran audio, download Quran audio, listen to the Quran, synchronized Quran audio, Quran reciters app",
+      "ogTitle": "Synchronized Quran Audio: Multiple Reciters and Offline Listening",
+      "ogDescription": "Audio synchronized verse by verse, multiple reciters, and offline download. Free Noor Phonetic Quran app."
     },
     "breadcrumb": {
       "home": "Accueil",
       "current": "Audio du Coran"
     },
     "hero": {
-      "title": "Audio du Coran Synchronisé : Plusieurs Récitateurs, Écoute Hors Ligne",
-      "subtitle": "Chaque verset est accompagné d'un audio synchronisé pour entendre la prononciation correcte, avec le choix du récitateur et la possibilité de télécharger l'audio pour une écoute sans connexion.",
-      "backLink": "Retour à l'accueil",
+      "title": "Synchronized Quran Audio: Multiple Reciters, Offline Listening",
+      "subtitle": "Each verse comes with synchronized audio so you can hear the correct pronunciation, with your choice of reciter and the option to download the audio for offline listening.",
+      "backLink": "Back to home",
       "googlePlay": "Google Play",
       "appStore": "App Store"
     },
     "intro": {
-      "title": "Une écoute pensée pour l'apprentissage",
-      "paragraph1": "Entendre la bonne prononciation est essentiel pour apprendre à réciter le Coran correctement. Noor Phonetic Quran associe chaque verset à un audio synchronisé, pour que vous puissiez suivre le texte, sa phonétique et l'écoute en même temps.",
-      "paragraph2": "Vous n'êtes pas limité à un seul récitateur ni à une connexion Internet permanente : choisissez votre voix préférée et téléchargez l'audio pour l'emporter partout avec vous."
+      "title": "Listening designed for learning",
+      "paragraph1": "Hearing the correct pronunciation is essential to learning to recite the Quran properly. Noor Phonetic Quran pairs each verse with synchronized audio, so you can follow the text, its phonetics, and the audio all at once.",
+      "paragraph2": "You are not limited to a single reciter or a permanent Internet connection: choose your preferred voice and download the audio to take it with you anywhere."
     },
     "features": {
-      "title": "Ce que propose l'audio du Coran",
+      "title": "What Quran audio offers",
       "items": [
         {
-          "title": "Audio synchronisé verset par verset",
-          "description": "chaque verset est lu à voix haute au moment où vous le lisez, pour corriger votre prononciation en temps réel."
+          "title": "Audio synchronized verse by verse",
+          "description": "each verse is read aloud as you read it, helping you correct your pronunciation in real time."
         },
         {
-          "title": "Plusieurs récitateurs au choix",
-          "description": "sélectionnez le récitateur qui vous convient le mieux parmi ceux disponibles dans l'application."
+          "title": "Choice of several reciters",
+          "description": "select the reciter you like best from those available in the app."
         },
         {
-          "title": "Écoute par verset, sourate ou plage de sourates",
-          "description": "choisissez précisément la portion du Coran que vous souhaitez écouter."
+          "title": "Listen by verse, surah, or range of surahs",
+          "description": "choose exactly the portion of the Quran you want to listen to."
         },
         {
-          "title": "Vitesse de lecture réglable",
-          "description": "ralentissez l'audio de 0.7x à 1x pour mieux détacher chaque mot lorsque vous apprenez."
+          "title": "Adjustable playback speed",
+          "description": "slow the audio down from 0.7x to 1x to better break down each word as you learn."
         },
         {
-          "title": "Téléchargement pour écoute hors ligne",
-          "description": "téléchargez l'audio à l'avance pour écouter le Coran sans connexion Internet, où que vous soyez."
+          "title": "Download for offline listening",
+          "description": "download the audio ahead of time to listen to the Quran without an Internet connection, wherever you are."
         }
       ]
     },
     "screenshots": {
-      "title": "Aperçu de l'audio du Coran",
+      "title": "Quran audio preview",
       "alts": [
-        "Noor Phonetic Quran - Barre de lecture audio synchronisée",
-        "Noor Phonetic Quran - Sélection d'une plage de versets et téléchargement hors ligne",
-        "Noor Phonetic Quran - Sélection d'une plage de sourates et réglage de la vitesse",
-        "Noor Phonetic Quran - Choix du récitateur"
+        "Noor Phonetic Quran - Synchronized audio playback bar",
+        "Noor Phonetic Quran - Selecting a verse range and offline download",
+        "Noor Phonetic Quran - Selecting a surah range and speed setting",
+        "Noor Phonetic Quran - Choosing the reciter"
       ]
     },
     "faq": {
-      "title": "Questions fréquentes sur l'audio du Coran",
+      "title": "Frequently asked questions about Quran audio",
       "items": [
         {
-          "question": "L'audio est-il synchronisé avec le texte ?",
-          "answer": "Oui, chaque verset est accompagné d'un audio synchronisé pour entendre la prononciation correcte pendant que vous suivez le texte et sa transcription phonétique."
+          "question": "Is the audio synchronized with the text?",
+          "answer": "Yes, each verse comes with synchronized audio so you can hear the correct pronunciation while following the text and its phonetic transcription."
         },
         {
-          "question": "Combien de récitateurs sont disponibles ?",
-          "answer": "Vous pouvez choisir parmi plusieurs récitateurs du Coran directement dans les réglages de lecture audio, selon vos préférences d'écoute."
+          "question": "How many reciters are available?",
+          "answer": "You can choose from several Quran reciters directly in the audio playback settings, according to your listening preferences."
         },
         {
-          "question": "Peut-on écouter le Coran hors ligne ?",
-          "answer": "Oui, vous pouvez télécharger l'audio d'un verset, d'une sourate ou d'une plage de sourates pour une écoute complète sans connexion Internet."
+          "question": "Can I listen to the Quran offline?",
+          "answer": "Yes, you can download the audio for a verse, a surah, or a range of surahs to listen without an Internet connection."
         },
         {
-          "question": "Peut-on changer la vitesse de lecture de l'audio ?",
-          "answer": "Oui, la vitesse de lecture est réglable de 0.7x à 1x pour adapter l'écoute à votre niveau d'apprentissage."
+          "question": "Can I change the audio playback speed?",
+          "answer": "Yes, playback speed can be adjusted from 0.7x to 1x to match the audio to your learning level."
         }
       ]
     },
     "related": {
       "title": "Découvrez aussi",
-      "tajweed": "Règles de Tajweed",
-      "memorization": "Mémoriser le Coran (Hifz)",
-      "allFeatures": "Toutes les fonctionnalités"
+      "tajweed": "Tajweed rules",
+      "memorization": "Memorize the Quran (Hifz)",
+      "allFeatures": "All features"
     }
   },
   "privacyPolicy": {
@@ -874,19 +883,19 @@
   },
   "correctionRecitation": {
     "meta": {
-      "title": "Correction de Récitation du Coran : Enregistrez-vous et Progressez | Noor Phonetic Quran",
-      "description": "Enregistrez votre récitation du Coran et recevez une correction personnalisée avec Noor Phonetic Quran : amélioration de la prononciation et du respect des règles de Tajweed. Gratuit sur iOS et Android.",
-      "keywords": "correction récitation Coran, améliorer sa récitation, correction Tajweed, enregistrer sa récitation, application correction Coran, apprendre à réciter le Coran correctement",
-      "ogTitle": "Correction de Récitation du Coran : Enregistrez-vous et Progressez",
-      "ogDescription": "Enregistrez votre récitation et recevez une correction personnalisée pour progresser en prononciation et en Tajweed. Application gratuite Noor Phonetic Quran."
+      "title": "Quran Recitation Correction: Record Yourself and Improve | Noor Phonetic Quran",
+      "description": "Record your Quran recitation and receive a personalized correction with Noor Phonetic Quran: improve your pronunciation and adherence to the rules of Tajweed. Free on iOS and Android.",
+      "keywords": "Quran recitation correction, improve your recitation, Tajweed correction, record your recitation, Quran correction app, learn to recite the Quran correctly",
+      "ogTitle": "Quran Recitation Correction: Record Yourself and Improve",
+      "ogDescription": "Record your recitation and receive a personalized correction to improve your pronunciation and Tajweed. Free Noor Phonetic Quran app."
     },
     "breadcrumb": {
       "home": "Accueil",
-      "current": "Correction de récitation"
+      "current": "Recitation Correction"
     },
     "hero": {
-      "title": "Correction de Récitation du Coran : Enregistrez-vous et Progressez",
-      "subtitle": "Enregistrez votre récitation directement dans l'application et recevez une correction personnalisée pour améliorer votre prononciation et le respect des règles de Tajweed."
+      "title": "Quran Recitation Correction: Record Yourself and Improve",
+      "subtitle": "Record your recitation directly in the app and receive a personalized correction to improve your pronunciation and adherence to the rules of Tajweed."
     },
     "intro": {
       "title": "Why correct your recitation?",
@@ -895,289 +904,289 @@
       "paragraph3": "This recitation correction fits naturally into your Quran learning alongside the Tajweed module and the memorization (Hifz) journey: you identify your pronunciation mistakes, correct them using the illustrated rules, and then review them during your memorization sessions to make lasting progress, verse after verse."
     },
     "steps": {
-      "title": "Comment fonctionne la correction de récitation ?",
+      "title": "How does recitation correction work?",
       "items": [
         {
-          "title": "Choisissez un passage",
-          "text": "sélectionnez la sourate et les versets que vous souhaitez réciter."
+          "title": "Choose a passage",
+          "text": "select the surah and verses you want to recite."
         },
         {
-          "title": "Enregistrez votre récitation",
-          "text": "directement depuis l'application, sans matériel supplémentaire."
+          "title": "Record your recitation",
+          "text": "directly from the app, with no extra equipment needed."
         },
         {
-          "title": "Envoyez votre enregistrement",
-          "text": "votre récitation est mise en file d'attente pour être écoutée."
+          "title": "Submit your recording",
+          "text": "your recitation is queued to be listened to."
         },
         {
-          "title": "Recevez votre correction",
-          "text": "une réponse personnalisée vous indique les points à améliorer, directement dans l'application."
+          "title": "Receive your correction",
+          "text": "a personalized response shows you what to improve, directly in the app."
         },
         {
-          "title": "Progressez au fil des enregistrements",
-          "text": "répétez l'exercice régulièrement pour affiner votre prononciation et votre Tajweed."
+          "title": "Improve with every recording",
+          "text": "repeat the exercise regularly to refine your pronunciation and your Tajweed."
         }
       ]
     },
     "faq": {
-      "title": "Questions fréquentes sur la correction de récitation",
+      "title": "Frequently asked questions about recitation correction",
       "items": [
         {
-          "question": "La correction de récitation est-elle gratuite ?",
-          "answer": "Un premier enregistrement est gratuit. Au-delà, la fonctionnalité fait partie de l'offre premium de l'application."
+          "question": "Is recitation correction free?",
+          "answer": "The first recording is free. Beyond that, the feature is part of the app's premium offering."
         },
         {
-          "question": "Combien de temps faut-il pour recevoir une correction ?",
-          "answer": "Votre enregistrement est mis en file d'attente pour être écouté et corrigé, avec une réponse personnalisée directement dans l'application."
+          "question": "How long does it take to receive a correction?",
+          "answer": "Your recording is queued to be listened to and corrected, with a personalized response delivered directly in the app."
         },
         {
-          "question": "Puis-je réenregistrer plusieurs fois le même passage ?",
-          "answer": "Oui, vous pouvez répéter l'exercice aussi souvent que vous le souhaitez pour progresser sur un même passage."
+          "question": "Can I re-record the same passage several times?",
+          "answer": "Yes, you can re-record the same passage as many times as you like to improve."
         }
       ]
     },
     "related": {
       "title": "Découvrez aussi",
-      "tajweed": "Règles de Tajweed",
-      "memorisation": "Mémoriser le Coran (Hifz)",
-      "allFeatures": "Toutes les fonctionnalités"
+      "tajweed": "Tajweed rules",
+      "memorisation": "Memorize the Quran (Hifz)",
+      "allFeatures": "All features"
     }
   },
   "khatmaCoran": {
     "meta": {
-      "title": "Khatma du Coran : Application pour Planifier et Suivre sa Lecture Complète | Noor Phonetic Quran",
-      "description": "Planifiez votre Khatma (lecture complète du Coran) avec l'application Noor Phonetic Quran : objectifs quotidiens, suivi de progression, séries de jours (streak) et rappels. Gratuit sur iOS et Android.",
-      "keywords": "Khatma Coran, khatma application, lire le Coran en entier, plan de lecture Coran, objectif Khatma Ramadan, suivi lecture Coran, terminer le Coran",
-      "ogTitle": "Khatma du Coran : Planifiez et Suivez votre Lecture Complète",
-      "ogDescription": "Planifiez votre Khatma avec objectifs quotidiens, suivi de progression et rappels. Application gratuite Noor Phonetic Quran."
+      "title": "Quran Khatma: App to Plan and Track Your Full Reading | Noor Phonetic Quran",
+      "description": "Plan your Khatma (complete reading of the Quran) with the Noor Phonetic Quran app: daily goals, progress tracking, day streaks, and reminders. Free on iOS and Android.",
+      "keywords": "Quran Khatma, khatma app, read the entire Quran, Quran reading plan, Ramadan Khatma goal, Quran reading tracker, finish the Quran",
+      "ogTitle": "Quran Khatma: Plan and Track Your Full Reading",
+      "ogDescription": "Plan your Khatma with daily goals, progress tracking, and reminders. Free Noor Phonetic Quran app."
     },
     "breadcrumb": {
       "home": "Accueil",
       "current": "Khatma du Coran"
     },
     "hero": {
-      "title": "Khatma du Coran : Planifiez et Terminez votre Lecture Complète",
-      "subtitle": "Fixez-vous un objectif de jours, suivez votre progression quotidienne et gardez votre série de lecture (streak) jusqu'à la dernière page du Saint Coran, avec des rappels pour rester régulier.",
+      "title": "Quran Khatma: Plan and Complete Your Full Reading",
+      "subtitle": "Set yourself a day goal, track your daily progress, and keep your reading streak going until the last page of the Holy Quran, with reminders to stay consistent.",
       "googlePlay": "Google Play",
       "appStore": "App Store"
     },
     "intro": {
-      "title": "Qu'est-ce qu'une Khatma ?",
-      "paragraph1": "La Khatma désigne la lecture complète du Coran, du début (Al-Fatiha) à la fin (An-Nas). De nombreux musulmans réalisent une Khatma pendant le mois de Ramadan, mais elle peut aussi être entreprise à n'importe quel moment de l'année, sur la durée de votre choix.",
-      "paragraph2": "Terminer le Coran demande de la constance : sans plan de lecture ni suivi, il est facile de perdre le fil ou d'abandonner en cours de route. C'est exactement ce que résout la fonctionnalité Khatma de Noor Phonetic Quran."
+      "title": "What is a Khatma?",
+      "paragraph1": "Khatma refers to reading the Quran in full, from beginning (Al-Fatiha) to end (An-Nas). Many Muslims complete a Khatma during the month of Ramadan, but it can also be undertaken at any time of the year, over the duration of your choice.",
+      "paragraph2": "Finishing the Quran requires consistency: without a reading plan or tracking, it's easy to lose track or give up along the way. That's exactly what Noor Phonetic Quran's Khatma feature solves."
     },
     "features": {
-      "title": "Comment fonctionne la Khatma dans l'application ?",
+      "title": "How does Khatma work in the app?",
       "items": [
         {
-          "title": "Choisissez la durée de votre Khatma",
-          "description": "par exemple 30 jours pour le Ramadan, ou une durée personnalisée adaptée à votre rythme."
+          "title": "Choose the length of your Khatma",
+          "description": "for example 30 days for Ramadan, or a custom duration suited to your pace."
         },
         {
-          "title": "Suivez votre objectif quotidien",
-          "description": "l'application calcule automatiquement le nombre de pages à lire chaque jour pour terminer dans les temps."
+          "title": "Track your daily goal",
+          "description": "the app automatically calculates the number of pages to read each day to finish on time."
         },
         {
-          "title": "Gardez votre série de lecture (streak)",
-          "description": "chaque jour où vous atteignez votre objectif prolonge votre streak, une motivation supplémentaire pour rester régulier."
+          "title": "Keep your reading streak",
+          "description": "each day you reach your goal extends your streak, an extra motivation to stay consistent."
         },
         {
-          "title": "Recevez des rappels",
-          "description": "des notifications vous aident à ne pas oublier votre lecture du jour."
+          "title": "Get reminders",
+          "description": "notifications help you remember your reading for the day."
         },
         {
-          "title": "Célébrez la fin de votre Khatma",
-          "description": "un récapitulatif de votre parcours (jours pris, meilleur streak) s'affiche une fois le Coran terminé."
+          "title": "Celebrate finishing your Khatma",
+          "description": "a summary of your journey (days completed, best streak) is displayed once you finish the Quran."
         }
       ]
     },
     "screenshots": {
-      "title": "Aperçu de la fonctionnalité Khatma",
+      "title": "Preview of the Khatma feature",
       "alts": [
-        "Noor Phonetic Quran - Choix du plan de Khatma (30, 60, 90 jours ou Ramadan)",
-        "Noor Phonetic Quran - Suivi de progression de la Khatma avec streak",
-        "Noor Phonetic Quran - Indicateur Khatma affiché pendant la lecture"
+        "Noor Phonetic Quran - Choice of Khatma plan (30, 60, 90 days, or Ramadan)",
+        "Noor Phonetic Quran - Khatma progress tracking with streak",
+        "Noor Phonetic Quran - Khatma indicator displayed while reading"
       ]
     },
     "faq": {
-      "title": "Questions fréquentes sur la Khatma",
+      "title": "Frequently asked questions about Khatma",
       "items": [
         {
-          "question": "Qu'est-ce qu'une Khatma du Coran ?",
-          "answer": "Une Khatma désigne la lecture complète du Coran, du début à la fin, généralement réalisée sur une période définie (souvent pendant le mois de Ramadan, mais aussi tout au long de l'année)."
+          "question": "What is a Khatma of the Quran?",
+          "answer": "A Khatma refers to reading the Quran from beginning to end, usually completed over a set period (often during the month of Ramadan, but also throughout the year)."
         },
         {
-          "question": "Comment planifier une Khatma avec l'application ?",
-          "answer": "Choisissez un nombre de jours pour terminer le Coran (par exemple 30 jours pour le Ramadan), l'application calcule automatiquement votre objectif de pages quotidien et suit votre progression jour après jour."
+          "question": "How do I plan a Khatma with the app?",
+          "answer": "Choose a number of days to finish the Quran (for example 30 days for Ramadan), and the app automatically calculates your daily page goal and tracks your progress day after day."
         },
         {
-          "question": "Que se passe-t-il si je manque un jour de lecture ?",
-          "answer": "L'application ajuste votre objectif quotidien restant pour vous permettre de rattraper votre retard et terminer votre Khatma dans les temps, tout en suivant votre série de jours consécutifs (streak)."
+          "question": "What happens if I miss a day of reading?",
+          "answer": "The app adjusts your remaining daily goal to help you catch up and finish your Khatma on time, while keeping track of your streak of consecutive days."
         },
         {
-          "question": "Puis-je faire une Khatma en dehors du Ramadan ?",
-          "answer": "Oui, vous pouvez démarrer une Khatma à tout moment de l'année, avec la durée de votre choix."
+          "question": "Can I do a Khatma outside of Ramadan?",
+          "answer": "Yes, you can start a Khatma at any time of the year, over the duration of your choice."
         },
         {
-          "question": "La fonctionnalité Khatma est-elle gratuite ?",
-          "answer": "Oui, comme l'ensemble des fonctionnalités principales de Noor Phonetic Quran, la Khatma est entièrement gratuite."
+          "question": "Is the Khatma feature free?",
+          "answer": "Yes, like all of Noor Phonetic Quran's main features, Khatma is entirely free."
         }
       ]
     },
     "related": {
       "title": "Découvrez aussi",
-      "memorization": "Mémoriser le Coran (Hifz)",
+      "memorization": "Memorize the Quran (Hifz)",
       "audio": "Audio du Coran",
-      "allFeatures": "Toutes les fonctionnalités"
+      "allFeatures": "All features"
     }
   },
   "tajweedCoran": {
     "meta": {
-      "title": "Règles de Tajweed du Coran : Apprentissage Coloré et Détaillé | Noor Phonetic Quran",
-      "description": "Apprenez les règles de Tajweed du Coran avec Noor Phonetic Quran : couleurs et annotations pendant la lecture, points d'articulation des lettres (Makharej), règles du Noun Sâkinah et du Waqf. Gratuit sur iOS et Android.",
-      "keywords": "règles Tajweed, Tajweed Coran, apprendre le Tajweed, Tajweed coloré, Makharej lettres arabes, Noun Sakinah Tanwin, Waqf Ibtida, application Tajweed gratuite",
-      "ogTitle": "Règles de Tajweed du Coran : Apprentissage Coloré et Détaillé",
-      "ogDescription": "Couleurs et annotations pendant la lecture, points d'articulation, règles du Noun Sâkinah et du Waqf. Application gratuite Noor Phonetic Quran."
+      "title": "Quran Tajweed Rules: Colored and Detailed Learning | Noor Phonetic Quran",
+      "description": "Learn the rules of Quran Tajweed with Noor Phonetic Quran: colors and annotations while reading, articulation points of letters (Makharij), rules of Noun Sakinah and Waqf. Free on iOS and Android.",
+      "keywords": "Tajweed rules, Quran Tajweed, learn Tajweed, colored Tajweed, Makharij Arabic letters, Noun Sakinah Tanween, Waqf Ibtida, free Tajweed app",
+      "ogTitle": "Quran Tajweed Rules: Colored and Detailed Learning",
+      "ogDescription": "Colors and annotations while reading, articulation points, rules of Noun Sakinah and Waqf. Free Noor Phonetic Quran app."
     },
     "breadcrumb": {
       "home": "Accueil",
-      "current": "Règles de Tajweed"
+      "current": "Tajweed Rules"
     },
     "hero": {
-      "title": "Règles de Tajweed du Coran : Apprentissage Coloré et Détaillé",
-      "subtitle": "Le texte du Coran s'affiche coloré et annoté selon les règles de Tajweed, accompagné de guides détaillés sur les points d'articulation, le Noun Sâkinah et les règles d'arrêt et de reprise.",
-      "backLink": "Retour à l'accueil",
+      "title": "Quran Tajweed Rules: Colored and Detailed Learning",
+      "subtitle": "The Quranic text is displayed colored and annotated according to the rules of Tajweed, along with detailed guides on articulation points, Noun Sakinah, and the rules of stopping and resuming.",
+      "backLink": "Back to home",
       "googlePlay": "Google Play",
       "appStore": "App Store"
     },
     "intro": {
-      "title": "Pourquoi le Tajweed est important",
-      "paragraph1": "Le Tajweed est l'ensemble des règles qui garantissent une récitation correcte du Coran : prononciation précise de chaque lettre, allongements, liaisons, et endroits où l'on peut s'arrêter ou reprendre sa lecture. Réciter sans respecter le Tajweed peut altérer le sens du texte.",
-      "paragraph2": "Noor Phonetic Quran rend ces règles visibles et compréhensibles, avec des couleurs pendant la lecture et des guides détaillés pour approfondir chaque notion."
+      "title": "Why Tajweed matters",
+      "paragraph1": "Tajweed is the set of rules that ensure correct recitation of the Quran: precise pronunciation of each letter, elongations, letter connections, and places where one may stop or resume reading. Reciting without observing Tajweed can alter the meaning of the text.",
+      "paragraph2": "Noor Phonetic Quran makes these rules visible and understandable, with colors while reading and detailed guides to deepen each concept."
     },
     "features": {
-      "title": "Ce que propose l'apprentissage du Tajweed",
+      "title": "What Tajweed learning offers",
       "items": [
         {
-          "title": "Texte coloré et annoté",
-          "description": "les couleurs et annotations guident votre récitation directement sur le texte du Coran, selon les règles correctes du Tajweed."
+          "title": "Colored and annotated text",
+          "description": "colors and annotations guide your recitation directly on the Quranic text, according to the correct rules of Tajweed."
         },
         {
-          "title": "Points d'articulation (Makharej)",
-          "description": "apprenez la prononciation correcte de chaque lettre arabe à partir de son point d'articulation, avec des schémas anatomiques."
+          "title": "Articulation points (Makharij)",
+          "description": "learn the correct pronunciation of each Arabic letter from its articulation point, with anatomical diagrams."
         },
         {
-          "title": "Noun Sâkinah et Tanwîn",
-          "description": "les 4 règles régissant le noun sâkinah et le tanwîn (Izhâr, Idghâm, Iqlâb, Ikhfâ') expliquées et comparées visuellement."
+          "title": "Noun Sakinah and Tanween",
+          "description": "the 4 rules governing Noun Sakinah and Tanween (Izhar, Idgham, Iqlab, Ikhfa) explained and compared visually."
         },
         {
           "title": "Waqf et Ibtidā",
-          "description": "les règles qui identifient les endroits où l'arrêt et la reprise de la récitation sont permis, pour préserver le sens du texte."
+          "description": "the rules that identify where stopping and resuming recitation is permitted, to preserve the meaning of the text."
         }
       ]
     },
     "screenshots": {
-      "title": "Aperçu des règles de Tajweed",
+      "title": "Preview of Tajweed rules",
       "alts": [
-        "Noor Phonetic Quran - Règles de Tajweed colorées pendant la lecture",
-        "Noor Phonetic Quran - Points d'articulation des lettres arabes (Makharej)",
-        "Noor Phonetic Quran - Règles du Noun Sâkinah et Tanwîn",
-        "Noor Phonetic Quran - Règles de Waqf et Ibtidā (arrêt et reprise)"
+        "Noor Phonetic Quran - Color-coded Tajweed rules while reading",
+        "Noor Phonetic Quran - Articulation points of Arabic letters (Makharij)",
+        "Noor Phonetic Quran - Noun Sakinah and Tanween rules",
+        "Noor Phonetic Quran - Waqf and Ibtida rules (stopping and resuming)"
       ]
     },
     "faq": {
-      "title": "Questions fréquentes sur le Tajweed",
+      "title": "Frequently asked questions about Tajweed",
       "items": [
         {
-          "question": "Qu'est-ce que le Tajweed ?",
-          "answer": "Le Tajweed est l'ensemble des règles qui régissent la prononciation correcte du Coran : allongements, liaisons, points d'articulation des lettres et règles d'arrêt et de reprise de la récitation."
+          "question": "What is Tajweed?",
+          "answer": "Tajweed is the set of rules governing the correct pronunciation of the Quran: elongations, letter connections, articulation points of letters, and rules for stopping and resuming recitation."
         },
         {
-          "question": "Comment l'application enseigne-t-elle le Tajweed ?",
-          "answer": "Le texte du Coran est coloré et annoté selon les règles de Tajweed pendant la lecture, et des guides détaillés expliquent chaque règle : points d'articulation, Noun Sâkinah et Tanwîn, ainsi que les règles de Waqf et d'Ibtidā."
+          "question": "How does the app teach Tajweed?",
+          "answer": "The Quranic text is colored and annotated according to the rules of Tajweed while reading, and detailed guides explain each rule: articulation points, Noun Sakinah and Tanween, as well as the rules of Waqf and Ibtida."
         },
         {
-          "question": "Le Tajweed est-il adapté aux débutants ?",
-          "answer": "Oui, chaque règle est expliquée avec des définitions simples, des exemples et des comparaisons visuelles pour faciliter l'apprentissage, même sans connaissances préalables."
+          "question": "Is Tajweed suitable for beginners?",
+          "answer": "Yes, each rule is explained with simple definitions, examples, and visual comparisons to make learning easier, even with no prior knowledge."
         }
       ]
     },
     "related": {
       "title": "Découvrez aussi",
       "audio": "Audio du Coran",
-      "memorization": "Mémoriser le Coran (Hifz)",
-      "allFeatures": "Toutes les fonctionnalités",
+      "memorization": "Memorize the Quran (Hifz)",
+      "allFeatures": "All features",
       "blogArticle": "Complete Guide to Tajweed Rules"
     }
   },
   "quizCoran": {
     "meta": {
-      "title": "Quiz Coranique : Testez vos Connaissances du Coran en Vous Amusant | Noor Phonetic Quran",
-      "description": "Testez vos connaissances du Coran avec le Quiz coranique de Noor Phonetic Quran : 21 questions, échelle de gains, jokers 50:50, sondage du public et appel à un ami. Gratuit sur iOS et Android.",
-      "keywords": "quiz Coran, quiz coranique, jeu questions Coran, tester ses connaissances Coran, quiz islam, application quiz Coran gratuite, questions Coran et réponses",
-      "ogTitle": "Quiz Coranique : Testez vos Connaissances du Coran en Vous Amusant",
-      "ogDescription": "21 questions, échelle de gains, jokers 50:50, sondage du public et appel à un ami. Application gratuite Noor Phonetic Quran."
+      "title": "Quran Quiz: Test Your Knowledge of the Quran While Having Fun | Noor Phonetic Quran",
+      "description": "Test your knowledge of the Quran with Noor Phonetic Quran's Quran quiz: 21 questions, prize ladder, 50:50 lifeline, audience poll, and phone a friend. Free on iOS and Android.",
+      "keywords": "Quran quiz, Quran trivia, Quran question game, test your Quran knowledge, Islam quiz, free Quran quiz app, Quran questions and answers",
+      "ogTitle": "Quran Quiz: Test Your Knowledge of the Quran While Having Fun",
+      "ogDescription": "21 questions, prize ladder, 50:50 lifeline, audience poll, and phone a friend. Free Noor Phonetic Quran app."
     },
     "breadcrumb": {
       "home": "Accueil",
       "current": "Quiz Coranique"
     },
     "hero": {
-      "title": "Quiz Coranique : Testez vos Connaissances en Vous Amusant",
-      "subtitle": "21 questions, une échelle de gains progressive et trois jokers (50:50, sondage du public, appel à un ami) pour apprendre le Coran de façon ludique.",
-      "backLink": "Retour à l'accueil",
+      "title": "Quran Quiz: Test Your Knowledge While Having Fun",
+      "subtitle": "21 questions, a progressive prize ladder, and three lifelines (50:50, audience poll, phone a friend) to learn the Quran in a fun way.",
+      "backLink": "Back to home",
       "googlePlay": "Google Play",
       "appStore": "App Store"
     },
     "intro": {
-      "title": "Un quiz pour apprendre en s'amusant",
-      "paragraph1": "Le Quiz coranique de Noor Phonetic Quran s'inspire du format \"Qui veut gagner des millions\" : une série de questions sur le Coran, l'histoire islamique et les sourates, avec une échelle de gains qui augmente à chaque bonne réponse.",
-      "paragraph2": "C'est une façon ludique de réviser ou de découvrir des connaissances sur le Coran, seul ou en famille, sans pression — vous pouvez vous arrêter à tout moment en gardant votre score."
+      "title": "A quiz to learn while having fun",
+      "paragraph1": "Noor Phonetic Quran's Quran quiz is inspired by the \"Who Wants to Be a Millionaire\" format: a series of questions about the Quran, Islamic history, and the surahs, with a prize ladder that increases with each correct answer.",
+      "paragraph2": "It's a fun way to review or discover knowledge about the Quran, alone or with family, with no pressure — you can stop at any time while keeping your score."
     },
     "features": {
-      "title": "Comment fonctionne le quiz ?",
+      "title": "How does the quiz work?",
       "items": [
         {
-          "title": "Répondez à 21 questions",
-          "description": "des questions à choix multiples de difficulté croissante sur le Coran et l'histoire islamique."
+          "title": "Answer 21 questions",
+          "description": "multiple-choice questions of increasing difficulty about the Quran and Islamic history."
         },
         {
-          "title": "Suivez l'échelle de gains",
-          "description": "chaque bonne réponse vous fait progresser sur une échelle allant de 100 points à 1 million."
+          "title": "Climb the prize ladder",
+          "description": "each correct answer moves you up a scale ranging from 100 points to 1 million."
         },
         {
-          "title": "Utilisez vos jokers",
-          "description": "le 50:50 élimine deux mauvaises réponses, le sondage du public affiche l'avis des autres joueurs, et l'appel à un ami vous suggère une réponse."
+          "title": "Use your lifelines",
+          "description": "50:50 eliminates two wrong answers, the audience poll shows other players' opinions, and phone a friend suggests an answer."
         },
         {
-          "title": "Arrêtez-vous quand vous voulez",
-          "description": "le bouton \"Walk Away\" vous permet de conserver vos gains à tout moment plutôt que de risquer de tout perdre."
+          "title": "Stop whenever you want",
+          "description": "the \"Walk Away\" button lets you keep your winnings at any time rather than risk losing everything."
         }
       ]
     },
     "screenshots": {
-      "title": "Aperçu du Quiz coranique",
+      "title": "Quran quiz preview",
       "alts": [
-        "Noor Phonetic Quran - Écran d'accueil du Quiz coranique",
-        "Noor Phonetic Quran - Question du quiz avec échelle de gains",
-        "Noor Phonetic Quran - Joker sondage du public dans le quiz",
-        "Noor Phonetic Quran - Joker appel à un ami dans le quiz"
+        "Noor Phonetic Quran - Quran quiz home screen",
+        "Noor Phonetic Quran - Quiz question with prize ladder",
+        "Noor Phonetic Quran - Audience poll lifeline in the quiz",
+        "Noor Phonetic Quran - Phone a friend lifeline in the quiz"
       ]
     },
     "faq": {
-      "title": "Questions fréquentes sur le Quiz coranique",
+      "title": "Frequently asked questions about the Quran quiz",
       "items": [
         {
-          "question": "Combien de questions comporte le quiz ?",
-          "answer": "Le quiz comporte 21 questions à choix multiples, avec une difficulté croissante au fil de la partie."
+          "question": "How many questions does the quiz have?",
+          "answer": "The quiz has 21 multiple-choice questions, with increasing difficulty as the game progresses."
         },
         {
-          "question": "Que se passe-t-il si je réponds mal à une question ?",
-          "answer": "Selon votre progression, vous conservez le dernier palier de gains garanti atteint, comme dans le format \"Qui veut gagner des millions\"."
+          "question": "What happens if I answer a question incorrectly?",
+          "answer": "Depending on your progress, you keep the last guaranteed prize level reached, just like in the \"Who Wants to Be a Millionaire\" format."
         },
         {
-          "question": "Le quiz coranique est-il gratuit ?",
-          "answer": "Oui, le Quiz coranique fait partie des fonctionnalités gratuites de Noor Phonetic Quran."
+          "question": "Is the Quran quiz free?",
+          "answer": "Yes, the Quran quiz is part of Noor Phonetic Quran's free features."
         }
       ]
     },
@@ -1185,88 +1194,88 @@
       "title": "Découvrez aussi",
       "khatma": "Khatma du Coran",
       "audio": "Audio du Coran",
-      "allFeatures": "Toutes les fonctionnalités"
+      "allFeatures": "All features"
     }
   },
   "memorisationCoran": {
     "meta": {
-      "title": "Mémoriser le Coran (Hifz) : Application avec Répétition Audio et Quiz | Noor Phonetic Quran",
-      "description": "Mémorisez le Coran (Hifz) avec l'application Noor Phonetic Quran : répétition audio verset par verset, mode mot-par-mot, quiz de révision, points, niveaux et badges. Gratuit sur iOS et Android.",
-      "keywords": "mémoriser le Coran, Hifz Coran, application mémorisation Coran, apprendre le Coran par coeur, mémorisation verset par verset, Hifz application gratuite",
-      "ogTitle": "Mémoriser le Coran (Hifz) : Répétition Audio, Quiz et Suivi de Progression",
-      "ogDescription": "Mémorisez le Coran avec répétition audio, mode mot-par-mot, quiz et défis quotidiens. Application gratuite Noor Phonetic Quran."
+      "title": "Memorize the Quran (Hifz): App with Audio Repetition and Quizzes | Noor Phonetic Quran",
+      "description": "Memorize the Quran (Hifz) with the Noor Phonetic Quran app: verse-by-verse audio repetition, word-by-word mode, review quizzes, points, levels, and badges. Free on iOS and Android.",
+      "keywords": "memorize the Quran, Quran Hifz, Quran memorization app, learn the Quran by heart, verse-by-verse memorization, free Hifz app",
+      "ogTitle": "Memorize the Quran (Hifz): Audio Repetition, Quizzes, and Progress Tracking",
+      "ogDescription": "Memorize the Quran with audio repetition, word-by-word mode, quizzes, and daily challenges. Free Noor Phonetic Quran app."
     },
     "breadcrumb": {
       "home": "Accueil",
-      "current": "Mémorisation du Coran"
+      "current": "Quran Memorization"
     },
     "hero": {
-      "title": "Mémoriser le Coran (Hifz) : Répétition Audio, Quiz et Suivi de Progression",
-      "subtitle": "Apprenez le Coran par cœur verset par verset grâce à la répétition audio, au mode mot-par-mot et aux quiz de révision, avec un système de points et de badges pour rester motivé chaque jour.",
-      "backLink": "Retour à l'accueil",
+      "title": "Memorize the Quran (Hifz): Audio Repetition, Quizzes, and Progress Tracking",
+      "subtitle": "Learn the Quran by heart, verse by verse, with audio repetition, word-by-word mode, and review quizzes, plus a points and badges system to keep you motivated every day.",
+      "backLink": "Back to home",
       "googlePlay": "Google Play",
       "appStore": "App Store"
     },
     "intro": {
-      "title": "Qu'est-ce que le Hifz ?",
-      "paragraph1": "Le Hifz désigne la mémorisation du Coran, verset par verset et sourate par sourate. C'est un parcours exigeant qui demande de la répétition régulière, de bonnes méthodes d'apprentissage et un moyen fiable de vérifier ce qui est déjà bien mémorisé.",
-      "paragraph2": "Noor Phonetic Quran a été conçu pour accompagner ce parcours avec des outils concrets : audio, répétition, révision active et gamification, plutôt que la seule lecture répétée d'un mushaf."
+      "title": "What is Hifz?",
+      "paragraph1": "Hifz refers to memorizing the Quran, verse by verse and surah by surah. It's a demanding journey that requires regular repetition, good learning methods, and a reliable way to check what has already been well memorized.",
+      "paragraph2": "Noor Phonetic Quran was designed to support this journey with practical tools: audio, repetition, active review, and gamification, rather than simply repeated reading of a mushaf."
     },
     "features": {
-      "title": "Comment mémoriser le Coran avec l'application ?",
+      "title": "How to memorize the Quran with the app?",
       "items": [
         {
-          "title": "Écoutez et répétez",
-          "description": "chaque verset dispose d'une répétition audio pour ancrer la mémorisation par l'écoute."
+          "title": "Listen and repeat",
+          "description": "each verse has an audio repetition to help anchor memorization through listening."
         },
         {
-          "title": "Utilisez le mode mot-par-mot",
-          "description": "décomposez les versets les plus longs pour les mémoriser progressivement."
+          "title": "Use word-by-word mode",
+          "description": "break down the longest verses to memorize them progressively."
         },
         {
-          "title": "Testez-vous avec les quiz de révision",
-          "description": "vérifiez régulièrement que les versets appris restent bien mémorisés."
+          "title": "Test yourself with review quizzes",
+          "description": "regularly check that the verses you've learned are still well memorized."
         },
         {
-          "title": "Gagnez des points et des badges",
-          "description": "chaque verset mémorisé rapporte des points, fait progresser votre niveau et débloque des badges."
+          "title": "Earn points and badges",
+          "description": "each memorized verse earns points, raises your level, and unlocks badges."
         },
         {
-          "title": "Relevez des défis quotidiens",
-          "description": "des objectifs journaliers vous encouragent à mémoriser un peu chaque jour, sans surcharge."
+          "title": "Take on daily challenges",
+          "description": "daily goals encourage you to memorize a little each day, without overload."
         }
       ]
     },
     "screenshots": {
-      "title": "Aperçu du plan de mémorisation",
+      "title": "Preview of the memorization plan",
       "alts": [
-        "Noor Phonetic Quran - Étapes du plan de mémorisation quotidien",
-        "Noor Phonetic Quran - Checklist de mémorisation avec streak",
-        "Noor Phonetic Quran - Indicateur du plan quotidien affiché pendant la lecture"
+        "Noor Phonetic Quran - Steps of the daily memorization plan",
+        "Noor Phonetic Quran - Memorization checklist with streak",
+        "Noor Phonetic Quran - Daily plan indicator displayed while reading"
       ]
     },
     "faq": {
-      "title": "Questions fréquentes sur la mémorisation du Coran",
+      "title": "Frequently asked questions about Quran memorization",
       "items": [
         {
-          "question": "Combien de temps faut-il pour mémoriser le Coran ?",
-          "answer": "Cela dépend du rythme de chacun. L'application vous permet d'avancer à votre propre rythme, verset par verset, sans pression de délai."
+          "question": "How long does it take to memorize the Quran?",
+          "answer": "It depends on each person's pace. The app lets you progress at your own pace, verse by verse, with no time pressure."
         },
         {
-          "question": "Le mode mémorisation fonctionne-t-il hors ligne ?",
-          "answer": "Une fois les sourates chargées, la répétition audio et les quiz de révision restent disponibles sans connexion Internet."
+          "question": "Does the memorization mode work offline?",
+          "answer": "Once the surahs are loaded, audio repetition and review quizzes remain available without an Internet connection."
         },
         {
-          "question": "La fonctionnalité Mémorisation est-elle gratuite ?",
-          "answer": "Oui, comme l'ensemble des fonctionnalités principales de Noor Phonetic Quran, le mode Mémorisation est entièrement gratuit."
+          "question": "Is the Memorization feature free?",
+          "answer": "Yes, like all of Noor Phonetic Quran's main features, the Memorization mode is entirely free."
         }
       ]
     },
     "related": {
       "title": "Découvrez aussi",
       "khatma": "Khatma du Coran",
-      "tajweed": "Règles de Tajweed",
-      "allFeatures": "Toutes les fonctionnalités",
+      "tajweed": "Tajweed rules",
+      "allFeatures": "All features",
       "blogArticle": "10 Methods to Memorize the Quran"
     }
   }

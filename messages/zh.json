@@ -42,7 +42,8 @@
       "contact": "联系我们",
       "location": "法国巴黎",
       "rights": "版权所有。",
-      "backToTop": "返回页面顶部"
+      "backToTop": "返回页面顶部",
+      "recentPosts": "最新文章"
     },
     "contactForm": {
       "eyebrow": "联系我们",
@@ -97,6 +98,13 @@
       "sending": "发送中...",
       "successMessage": "您的留言已成功发送，谢谢！",
       "errorMessage": "发生错误，请重试。"
+    },
+    "search": {
+      "label": "搜索网站",
+      "placeholder": "搜索文章、功能...",
+      "prompt": "开始输入以搜索。",
+      "close": "关闭",
+      "noResults": "未找到结果。"
     }
   },
   "home": {
@@ -1690,7 +1698,8 @@
     "searchPlaceholder": "搜索文章...",
     "noResults": "没有符合您搜索条件的文章。",
     "readingTime": "阅读需 %MINUTES% 分钟",
-    "relatedPosts": "相关文章"
+    "relatedPosts": "相关文章",
+    "tableOfContents": "目录"
   },
   "audioCoran": {
     "meta": {

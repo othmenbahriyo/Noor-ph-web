@@ -42,7 +42,8 @@
       "contact": "Contact",
       "location": "Parijs, Frankrijk",
       "rights": "Alle rechten voorbehouden.",
-      "backToTop": "Terug naar boven"
+      "backToTop": "Terug naar boven",
+      "recentPosts": "Recente artikelen"
     },
     "contactForm": {
       "eyebrow": "Neem contact met ons op",
@@ -97,6 +98,13 @@
       "sending": "Bezig met verzenden...",
       "successMessage": "Uw bericht is succesvol verzonden. Dank u wel!",
       "errorMessage": "Er is een fout opgetreden. Probeer het opnieuw."
+    },
+    "search": {
+      "label": "Zoeken op de site",
+      "placeholder": "Zoek een artikel, functie...",
+      "prompt": "Begin met typen om te zoeken.",
+      "close": "Sluiten",
+      "noResults": "Geen resultaten gevonden."
     }
   },
   "home": {
@@ -1690,7 +1698,8 @@
     "searchPlaceholder": "Zoek een artikel...",
     "noResults": "Geen artikel komt overeen met uw zoekopdracht.",
     "readingTime": "%MINUTES% min. leestijd",
-    "relatedPosts": "Ook interessant"
+    "relatedPosts": "Ook interessant",
+    "tableOfContents": "Inhoudsopgave"
   },
   "audioCoran": {
     "meta": {

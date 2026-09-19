@@ -57,8 +57,28 @@
 .footerGrid {
   padding: 50px 0 30px;
   display: grid;
-  grid-template-columns: 1.6fr 1fr 1fr 1fr;
+  grid-template-columns: 1.3fr 0.8fr 0.8fr 0.8fr 1.2fr;
   gap: 40px;
+}
+
+.footerRecentPosts {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.footerRecentPosts a {
+  font-size: 0.87rem;
+  color: var(--text-light);
+  text-decoration: none;
+  transition: var(--transition);
+  line-height: 1.4;
+  display: block;
+}
+
+.footerRecentPosts a:hover {
+  color: var(--primary-color);
 }
 
 .footerAbout h4 {

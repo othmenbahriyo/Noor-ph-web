@@ -42,7 +42,8 @@
       "contact": "संपर्क करें",
       "location": "पेरिस, फ्रांस",
       "rights": "सर्वाधिकार सुरक्षित।",
-      "backToTop": "पेज के शीर्ष पर वापस जाएँ"
+      "backToTop": "पेज के शीर्ष पर वापस जाएँ",
+      "recentPosts": "नवीनतम लेख"
     },
     "contactForm": {
       "eyebrow": "हमसे संपर्क करें",
@@ -97,6 +98,13 @@
       "sending": "भेजा जा रहा है...",
       "successMessage": "आपका संदेश सफलतापूर्वक भेज दिया गया है। धन्यवाद!",
       "errorMessage": "एक त्रुटि हुई है। कृपया फिर से प्रयास करें।"
+    },
+    "search": {
+      "label": "साइट खोजें",
+      "placeholder": "लेख या सुविधा खोजें...",
+      "prompt": "खोजने के लिए टाइप करना शुरू करें।",
+      "close": "बंद करें",
+      "noResults": "कोई परिणाम नहीं मिला।"
     }
   },
   "home": {
@@ -1690,7 +1698,8 @@
     "searchPlaceholder": "लेख खोजें...",
     "noResults": "आपकी खोज से कोई लेख मेल नहीं खाता।",
     "readingTime": "%MINUTES% मिनट पढ़ने का समय",
-    "relatedPosts": "यह भी पढ़ें"
+    "relatedPosts": "यह भी पढ़ें",
+    "tableOfContents": "विषय-सूची"
   },
   "audioCoran": {
     "meta": {

@@ -215,6 +215,53 @@
   object-fit: cover;
 }
 
+.toc {
+  background: var(--light-color);
+  border-radius: var(--border-radius);
+  padding: 22px 26px;
+  margin-bottom: 40px;
+}
+
+.tocTitle {
+  display: block;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--accent-color);
+  margin-bottom: 12px;
+}
+
+.tocList {
+  list-style: none;
+  counter-reset: toc-item;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.tocList li {
+  counter-increment: toc-item;
+}
+
+.tocList a {
+  color: var(--text-color);
+  text-decoration: none;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.tocList a::before {
+  content: counter(toc-item) '. ';
+  color: var(--primary-color);
+  font-weight: 700;
+}
+
+.tocList a:hover {
+  color: var(--primary-color);
+  text-decoration: underline;
+}
+
 .articleContent {
   font-size: 1.08rem;
 }
@@ -228,6 +275,7 @@
   letter-spacing: -0.3px;
   position: relative;
   padding-left: 18px;
+  scroll-margin-top: 96px;
 }
 
 .articleContent h2::before {

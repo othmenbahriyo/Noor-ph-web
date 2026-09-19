@@ -42,7 +42,8 @@
       "contact": "Jokkoo",
       "location": "Paris, France",
       "rights": "Sunuy yoon yépp ñu aar leen.",
-      "backToTop": "Dellu ci kaw xët bi"
+      "backToTop": "Dellu ci kaw xët bi",
+      "recentPosts": "Xibaar yu mujj"
     },
     "contactForm": {
       "eyebrow": "Jokkoo ak nun",
@@ -97,6 +98,13 @@
       "sending": "Muy yónnee...",
       "successMessage": "Sa bataaxal yónnee na bu baax. Jërëjëf !",
       "errorMessage": "Am na njumte. Jéema ci beneen yoon."
+    },
+    "search": {
+      "label": "Seet ci site bi",
+      "placeholder": "Seet ab xibaar, ab mébétum...",
+      "prompt": "Tàmbali bind ngir seet.",
+      "close": "Tëj",
+      "noResults": "Amul benn mbir gu gis."
     }
   },
   "home": {
@@ -1690,7 +1698,8 @@
     "searchPlaceholder": "Seet ab xibaar...",
     "noResults": "Amul benn xibaar bu mel ni seetu la.",
     "readingTime": "Jàng %MINUTES% simili",
-    "relatedPosts": "Jàng itam"
+    "relatedPosts": "Jàng itam",
+    "tableOfContents": "Mbindum wu bépp"
   },
   "audioCoran": {
     "meta": {

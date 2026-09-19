@@ -42,7 +42,8 @@
       "contact": "お問い合わせ",
       "location": "パリ、フランス",
       "rights": "全著作権所有。",
-      "backToTop": "ページの上部に戻る"
+      "backToTop": "ページの上部に戻る",
+      "recentPosts": "最新記事"
     },
     "contactForm": {
       "eyebrow": "お問い合わせ",
@@ -97,6 +98,13 @@
       "sending": "送信中...",
       "successMessage": "メッセージが正常に送信されました。ありがとうございます！",
       "errorMessage": "エラーが発生しました。もう一度お試しください。"
+    },
+    "search": {
+      "label": "サイト内検索",
+      "placeholder": "記事や機能を検索...",
+      "prompt": "検索するには入力を開始してください。",
+      "close": "閉じる",
+      "noResults": "結果が見つかりません。"
     }
   },
   "home": {
@@ -1690,7 +1698,8 @@
     "searchPlaceholder": "記事を検索...",
     "noResults": "検索に一致する記事がありません。",
     "readingTime": "読了時間 %MINUTES% 分",
-    "relatedPosts": "関連記事"
+    "relatedPosts": "関連記事",
+    "tableOfContents": "目次"
   },
   "audioCoran": {
     "meta": {
