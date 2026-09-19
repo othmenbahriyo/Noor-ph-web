@@ -131,7 +131,7 @@
 }
 
 .cardImage img {
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .cardBody {
@@ -456,10 +456,11 @@
   border-radius: var(--border-radius);
   overflow: hidden;
   margin-bottom: 12px;
+  background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary-light) 100%);
 }
 
 .relatedPostImage img {
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .relatedPostCategory {
