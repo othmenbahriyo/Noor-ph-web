@@ -500,7 +500,7 @@
 
 @media (max-width: 600px) {
   .articleCoverImage {
-    margin-top: -30px;
+    margin-top: 30px;
   }
 
   .articleContent {
