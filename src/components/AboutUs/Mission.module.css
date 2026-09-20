@@ -61,7 +61,7 @@
 }
 
 .card h3 {
-  color: var(--primary-color);
+  color: var(--text-color);
   font-size: 1.25rem;
   margin-bottom: 12px;
 }

@@ -152,7 +152,7 @@
 }
 
 .cardTitle {
-  color: var(--primary-color);
+  color: var(--text-color);
   font-size: 1.2rem;
   margin-bottom: 10px;
   line-height: 1.35;
@@ -171,7 +171,7 @@
   justify-content: space-between;
   margin-top: 20px;
   padding-top: 16px;
-  border-top: 1px solid rgba(1, 62, 55, 0.08);
+  border-top: 2px solid var(--light-gray);
 }
 
 .cardDate {
@@ -180,7 +180,7 @@
 }
 
 .cardReadMore {
-  color: var(--primary-color);
+  color: var(--accent-color);
   font-weight: 700;
   font-size: 0.85rem;
   display: flex;
@@ -253,12 +253,12 @@
 
 .tocList a::before {
   content: counter(toc-item) '. ';
-  color: var(--primary-color);
+  color: var(--accent-color);
   font-weight: 700;
 }
 
 .tocList a:hover {
-  color: var(--primary-color);
+  color: var(--accent-color);
   text-decoration: underline;
 }
 
@@ -267,7 +267,7 @@
 }
 
 .articleContent h2 {
-  color: var(--primary-color);
+  color: var(--text-color);
   margin-top: 2.4em;
   margin-bottom: 0.8em;
   font-size: 1.5em;
@@ -376,7 +376,7 @@
 }
 
 .articleContent strong {
-  color: var(--primary-color);
+  color: var(--text-color);
   font-weight: 700;
 }
 
@@ -385,7 +385,7 @@
 }
 
 .articleContent a {
-  color: var(--primary-color);
+  color: var(--accent-color);
   text-decoration: underline;
   text-underline-offset: 2px;
 }
@@ -428,7 +428,7 @@
 .relatedPostsTitle {
   font-size: 1.3rem;
   font-weight: 800;
-  color: var(--primary-color);
+  color: var(--text-color);
   margin-bottom: 20px;
 }
 
@@ -476,7 +476,7 @@
 .relatedPostTitle {
   font-size: 0.95rem;
   font-weight: 700;
-  color: var(--primary-color);
+  color: var(--text-color);
   line-height: 1.4;
 }
 
@@ -490,7 +490,7 @@
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  color: var(--primary-color);
+  color: var(--text-color);
   text-decoration: none;
   font-weight: 700;
 }

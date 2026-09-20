@@ -9,7 +9,7 @@
 
 .faqBlock summary {
   font-weight: 600;
-  color: var(--primary-color);
+  color: var(--text-color);
   cursor: pointer;
 }
 

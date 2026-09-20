@@ -20,11 +20,11 @@
   text-align: center;
   font-size: 2em;
   margin-bottom: 0.5em;
-  color: var(--primary-color);
+  color: var(--text-color);
 }
 
 .pageTitle {
-  border-bottom: 2px solid var(--primary-color);
+  border-bottom: 2px solid var(--light-gray);
   padding-bottom: 5px;
   margin-top: 20px;
   color: var(--text-color);
@@ -39,7 +39,7 @@
 .container h2 {
   color: var(--text-color);
   margin-top: 1.5em;
-  border-bottom: 2px solid var(--primary-color);
+  border-bottom: 2px solid var(--light-gray);
   padding-bottom: 5px;
   margin-top: 40px;
 }
@@ -63,20 +63,20 @@
 }
 
 .container a {
-  color: var(--primary-color);
+  color: var(--accent-color);
   text-decoration: underline;
 }
 
 .container a:hover {
-  color: var(--primary-light);
+  color: var(--accent-light);
 }
 
 .summary {
-  background-color: rgba(1, 62, 55, 0.06);
+  background-color: var(--light-gray);
   padding: 24px;
   border-radius: var(--border-radius);
   margin-bottom: 30px;
-  border-left: 5px solid var(--primary-color);
+  border-left: 5px solid var(--accent-color);
 }
 
 .keyPoint {
@@ -84,7 +84,7 @@
 }
 
 .keyPoint strong {
-  color: var(--primary-color);
+  color: var(--text-color);
 }
 
 .toc {
@@ -105,7 +105,7 @@
 
 .toc a {
   text-decoration: none;
-  color: var(--primary-light);
+  color: var(--text-color);
 }
 
 .toc a:hover {
