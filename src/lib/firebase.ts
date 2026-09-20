@@ -21,16 +21,29 @@ export const db = getFirestore(app);
 // import time like `db` above. CookieConsent.tsx is the only caller.
 let analyticsInstance: Analytics | null = null;
 
-export async function enableAnalytics() {
-  if (analyticsInstance || typeof window === 'undefined') return;
-  if (!(await isSupported())) return;
-  analyticsInstance = getAnalytics(app);
+let analyticsReady: Promise<void> | null = null;
+
+export function enableAnalytics(): Promise<void> {
+  if (typeof window === 'undefined') return Promise.resolve();
+  if (!analyticsReady) {
+    analyticsReady = isSupported().then((supported) => {
+      if (supported) {
+        analyticsInstance = getAnalytics(app);
+      } else {
+        console.warn('[analytics] Firebase Analytics not supported in this browser');
+      }
+    });
+  }
+  return analyticsReady;
 }
 
-// Silently no-ops when analytics hasn't been enabled (consent declined or
-// not yet granted) — callers don't need to check enableAnalytics() state
-// themselves before firing an event.
-export function trackEvent(eventName: string, params?: Record<string, string>) {
+// Waits for enableAnalytics() to finish resolving before logging — fixes a
+// race where a click fired trackEvent() before the isSupported() check
+// (awaited inside enableAnalytics) had resolved, silently dropping the
+// event because analyticsInstance was still null at call time.
+export async function trackEvent(eventName: string, params?: Record<string, string>) {
+  if (!analyticsReady) return;
+  await analyticsReady;
   if (!analyticsInstance) return;
   logEvent(analyticsInstance, eventName, params);
 }
