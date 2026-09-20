@@ -109,6 +109,12 @@
       "prompt": "Mulai mengetik untuk mencari.",
       "close": "Tutup",
       "noResults": "Tidak ada hasil ditemukan."
+    },
+    "cookieConsent": {
+      "title": "Preferensi cookie",
+      "message": "Kami menggunakan cookie untuk mengukur lalu lintas situs dan meningkatkan pengalaman Anda. Anda dapat menerima atau menolak penggunaannya.",
+      "accept": "Terima",
+      "decline": "Tolak"
     }
   },
   "home": {

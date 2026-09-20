@@ -109,6 +109,12 @@
       "prompt": "Magsimulang mag-type para maghanap.",
       "close": "Isara",
       "noResults": "Walang nahanap na resulta."
+    },
+    "cookieConsent": {
+      "title": "Mga kagustuhan sa cookie",
+      "message": "Gumagamit kami ng cookies upang sukatin ang trapiko ng site at mapabuti ang iyong karanasan. Maaari mong tanggapin o tanggihan ang paggamit nito.",
+      "accept": "Tanggapin",
+      "decline": "Tanggihan"
     }
   },
   "home": {

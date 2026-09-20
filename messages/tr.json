@@ -109,6 +109,12 @@
       "prompt": "Aramak için yazmaya başlayın.",
       "close": "Kapat",
       "noResults": "Sonuç bulunamadı."
+    },
+    "cookieConsent": {
+      "title": "Çerez tercihleri",
+      "message": "Site trafiğini ölçmek ve deneyiminizi iyileştirmek için çerezler kullanıyoruz. Kullanımlarını kabul edebilir veya reddedebilirsiniz.",
+      "accept": "Kabul et",
+      "decline": "Reddet"
     }
   },
   "home": {

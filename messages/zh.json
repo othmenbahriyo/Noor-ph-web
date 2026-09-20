@@ -109,6 +109,12 @@
       "prompt": "开始输入以搜索。",
       "close": "关闭",
       "noResults": "未找到结果。"
+    },
+    "cookieConsent": {
+      "title": "Cookie 偏好设置",
+      "message": "我们使用 Cookie 来衡量网站流量并改善您的体验。您可以接受或拒绝使用它们。",
+      "accept": "接受",
+      "decline": "拒绝"
     }
   },
   "home": {

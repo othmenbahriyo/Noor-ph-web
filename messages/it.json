@@ -109,6 +109,12 @@
       "prompt": "Inizia a digitare per cercare.",
       "close": "Chiudi",
       "noResults": "Nessun risultato trovato."
+    },
+    "cookieConsent": {
+      "title": "Preferenze sui cookie",
+      "message": "Utilizziamo i cookie per misurare il traffico del sito e migliorare la tua esperienza. Puoi accettare o rifiutare il loro utilizzo.",
+      "accept": "Accetta",
+      "decline": "Rifiuta"
     }
   },
   "home": {

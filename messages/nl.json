@@ -109,6 +109,12 @@
       "prompt": "Begin met typen om te zoeken.",
       "close": "Sluiten",
       "noResults": "Geen resultaten gevonden."
+    },
+    "cookieConsent": {
+      "title": "Cookievoorkeuren",
+      "message": "We gebruiken cookies om het sitebezoek te meten en uw ervaring te verbeteren. U kunt het gebruik ervan accepteren of weigeren.",
+      "accept": "Accepteren",
+      "decline": "Weigeren"
     }
   },
   "home": {

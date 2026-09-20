@@ -6,6 +6,7 @@ import { setRequestLocale } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import Script from 'next/script';
 import { routing } from '@/i18n/routing';
+import CookieConsent from '@/components/CookieConsent/CookieConsent';
 import '../globals.css';
 
 const cairo = Cairo({
@@ -66,7 +67,10 @@ export default async function LocaleLayout({
         />
       </head>
       <body>
-        <NextIntlClientProvider>{children}</NextIntlClientProvider>
+        <NextIntlClientProvider>
+          {children}
+          <CookieConsent />
+        </NextIntlClientProvider>
       </body>
     </html>
   );

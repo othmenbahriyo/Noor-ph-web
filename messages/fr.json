@@ -36,6 +36,12 @@
       "close": "Fermer",
       "noResults": "Aucune langue trouvée"
     },
+    "cookieConsent": {
+      "title": "Préférences de cookies",
+      "message": "Nous utilisons des cookies pour mesurer l'audience du site et améliorer votre expérience. Vous pouvez accepter ou refuser leur utilisation.",
+      "accept": "Accepter",
+      "decline": "Refuser"
+    },
     "search": {
       "label": "Rechercher sur le site",
       "placeholder": "Rechercher un article, une fonctionnalité...",

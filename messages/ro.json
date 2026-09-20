@@ -109,6 +109,12 @@
       "prompt": "Începe să tastezi pentru a căuta.",
       "close": "Închide",
       "noResults": "Niciun rezultat găsit."
+    },
+    "cookieConsent": {
+      "title": "Preferințe cookie-uri",
+      "message": "Folosim cookie-uri pentru a măsura traficul site-ului și a-ți îmbunătăți experiența. Poți accepta sau refuza utilizarea lor.",
+      "accept": "Acceptă",
+      "decline": "Refuză"
     }
   },
   "home": {
