@@ -4,6 +4,7 @@ import { Cairo } from 'next/font/google';
 import { NextIntlClientProvider, hasLocale } from 'next-intl';
 import { setRequestLocale } from 'next-intl/server';
 import { notFound } from 'next/navigation';
+import Script from 'next/script';
 import { routing } from '@/i18n/routing';
 import '../globals.css';
 
@@ -53,7 +54,9 @@ export default async function LocaleLayout({
           title="Noor Phonetic Quran - Blog"
           href="/rss.xml"
         />
-        <script
+        <Script
+          id="theme-init"
+          strategy="beforeInteractive"
           // Runs before first paint to avoid a light-mode flash: applies the
           // saved theme (or the OS preference on first visit) synchronously,
           // since React hydration happens too late to prevent a FOUC here.

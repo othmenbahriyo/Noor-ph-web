@@ -85,5 +85,14 @@ service cloud.firestore {
       allow read, create: if true;
       allow update, delete: if false;
     }
+
+    // Write-only from the public web form: the form never reads this back,
+    // and it collects emails (PII), so no public read is granted — unlike
+    // contact_messages/survey_responses above which the admin PIN-gated UI
+    // reads directly from the client.
+    match /newsletter_leads/{leadId} {
+      allow create: if true;
+      allow read, update, delete: if isAdmin();
+    }
   }
 }

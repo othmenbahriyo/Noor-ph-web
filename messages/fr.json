@@ -53,7 +53,8 @@
       "location": "Paris, France",
       "rights": "Tous droits réservés.",
       "backToTop": "Retour en haut de la page",
-      "recentPosts": "Derniers articles"
+      "recentPosts": "Derniers articles",
+      "newsletterTitle": "Suivez-nous pour les nouveautés"
     },
     "contactForm": {
       "eyebrow": "Contactez-nous",
@@ -1742,6 +1743,18 @@
         }
       ]
     }
+  },
+  "newsletter": {
+    "eyebrow": "Restons en contact",
+    "title": "Suivez-nous pour ne rien manquer",
+    "subtitle": "Inscrivez-vous pour être informé des nouvelles fonctionnalités, des mises à jour de l'application et surtout des nouveaux articles du blog.",
+    "emailPlaceholder": "Votre adresse email",
+    "cta": "S'inscrire",
+    "emailRequired": "Veuillez entrer votre adresse email.",
+    "emailInvalid": "Veuillez entrer une adresse email valide.",
+    "successMessage": "Merci ! Vous êtes bien inscrit.",
+    "errorMessage": "Une erreur est survenue. Merci de réessayer.",
+    "privacyNote": "Nous respectons votre vie privée. Aucun spam, désabonnement possible à tout moment."
   },
   "blog": {
     "meta": {

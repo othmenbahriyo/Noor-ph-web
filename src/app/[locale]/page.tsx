@@ -10,6 +10,7 @@ import Features from '@/components/Home/Features';
 import VideoDemo from '@/components/Home/VideoDemo';
 import Screenshots from '@/components/Home/Screenshots';
 import Faq from '@/components/Home/Faq';
+import NewsletterSection from '@/components/Newsletter/NewsletterSection';
 import BlogPreview from '@/components/Home/BlogPreview';
 import Testimonials from '@/components/Home/Testimonials';
 import { routing } from '@/i18n/routing';
@@ -187,6 +188,7 @@ export default async function Home({
         <BlogPreview />
         <Testimonials />
         <ContactSection />
+        <NewsletterSection />
       </main>
       <Footer />
     </>

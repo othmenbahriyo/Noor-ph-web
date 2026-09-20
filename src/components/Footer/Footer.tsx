@@ -1,6 +1,8 @@
+import Image from 'next/image';
 import { getTranslations, getLocale } from 'next-intl/server';
 import { Link } from '@/i18n/navigation';
 import { getAllBlogPosts } from '@/lib/blog';
+import NewsletterForm from '@/components/Newsletter/NewsletterForm';
 import styles from './Footer.module.css';
 import BackToTop from './BackToTop';
 
@@ -59,7 +61,16 @@ export default async function Footer() {
 
         <div className={styles.footerGrid}>
           <div className={styles.footerAbout}>
-            <h4>Noor Phonetic Quran</h4>
+            <div className={styles.footerBrand}>
+              <Image
+                src="/images/logo.webp"
+                alt="Noor Phonetic Quran Logo"
+                width={40}
+                height={40}
+                className={styles.footerLogo}
+              />
+              <h4>Noor Phonetic Quran</h4>
+            </div>
             <p>{t('about')}</p>
           </div>
 
@@ -115,6 +126,11 @@ export default async function Footer() {
               </ul>
             </div>
           )}
+        </div>
+
+        <div className={styles.footerNewsletterRow}>
+          <h5 className={styles.footerNewsletterTitle}>{t('newsletterTitle')}</h5>
+          <NewsletterForm variant="compact" />
         </div>
 
         <div className={styles.footerBottom}>

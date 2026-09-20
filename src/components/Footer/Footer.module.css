@@ -81,17 +81,44 @@
   color: var(--primary-color);
 }
 
+.footerBrand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.footerLogo {
+  border-radius: 8px;
+}
+
 .footerAbout h4 {
   font-size: 1.1rem;
   font-weight: 800;
   color: var(--primary-color);
-  margin-bottom: 12px;
+  margin-bottom: 0;
 }
 
 .footerAbout p {
   font-size: 0.9rem;
   color: var(--text-light);
   line-height: 1.6;
+}
+
+.footerNewsletterRow {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-top: 1px solid var(--light-gray);
+  max-width: 480px;
+}
+
+.footerNewsletterTitle {
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--text-color);
+  margin: 0 0 12px;
 }
 
 .footerLinks h5 {
