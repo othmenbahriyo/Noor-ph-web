@@ -8,9 +8,7 @@ import LanguageModal from '@/components/LanguageModal/LanguageModal';
 import SearchModal from './SearchModal';
 import { LANGUAGES } from '@/i18n/languages';
 import type { BlogPostMeta } from '@/lib/blog';
-// Dark mode toggle temporarily hidden from the UI — see ThemeToggle usages
-// below for the two spots to restore (desktop header + mobile menu).
-// import ThemeToggle from '@/components/ThemeToggle/ThemeToggle';
+import ThemeToggle from '@/components/ThemeToggle/ThemeToggle';
 import styles from './Header.module.css';
 
 interface NavLink {
@@ -115,6 +113,7 @@ export default function HeaderClient({ recentPosts }: HeaderClientProps) {
               >
                 <i className="fas fa-search" />
               </button>
+              <ThemeToggle label={tNav('toggleTheme')} />
               <button className={styles.langBtn} onClick={() => setLangModalOpen(true)}>
                 <span className={styles.langFlag}>{currentLanguage?.flag}</span>
                 <span className={styles.currentLang}>{locale.toUpperCase()}</span>
@@ -170,17 +169,20 @@ export default function HeaderClient({ recentPosts }: HeaderClientProps) {
             </a>
           ))}
         </nav>
-        <button
-          className={styles.mobileLangSwitcher}
-          onClick={() => {
-            closeMobileMenu();
-            setLangModalOpen(true);
-          }}
-        >
-          <span className={styles.langFlag}>{currentLanguage?.flag}</span>
-          <span>{tLang('label')}</span>
-          <i className="fas fa-chevron-right" />
-        </button>
+        <div className={styles.mobileBottomRow}>
+          <button
+            className={styles.mobileLangSwitcher}
+            onClick={() => {
+              closeMobileMenu();
+              setLangModalOpen(true);
+            }}
+          >
+            <span className={styles.langFlag}>{currentLanguage?.flag}</span>
+            <span>{tLang('label')}</span>
+            <i className="fas fa-chevron-right" />
+          </button>
+          <ThemeToggle label={tNav('toggleTheme')} />
+        </div>
       </div>
     </>
   );

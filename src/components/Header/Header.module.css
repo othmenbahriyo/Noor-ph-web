@@ -159,20 +159,26 @@
   line-height: 1;
 }
 
-/* Mobile language switcher trigger (inside mobile navbar) — opens the same
-   LanguageModal as the desktop button */
-.mobileLangSwitcher {
+/* Bottom row of the mobile navbar: language switcher + theme toggle,
+   pinned to the bottom of the flex column */
+.mobileBottomRow {
   margin-top: auto;
   display: flex;
   align-items: center;
-  gap: 10px;
-  width: 100%;
+  gap: 16px;
   padding-top: 20px;
   border-top: 2px solid var(--light-gray);
+}
+
+/* Mobile language switcher trigger (inside mobile navbar) — opens the same
+   LanguageModal as the desktop button */
+.mobileLangSwitcher {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex: 1;
   background: none;
-  border-left: none;
-  border-right: none;
-  border-bottom: none;
+  border: none;
   font-size: 0.95rem;
   font-weight: 600;
   color: var(--text-color);
