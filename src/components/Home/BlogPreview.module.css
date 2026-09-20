@@ -44,6 +44,10 @@
   text-decoration: underline;
 }
 
+.indicators {
+  display: none;
+}
+
 @media (max-width: 767px) {
   .carousel {
     display: flex;
@@ -63,5 +67,29 @@
   .carousel > * {
     flex: 0 0 82%;
     scroll-snap-align: center;
+  }
+
+  .indicators {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-top: 4px;
+  }
+
+  .indicatorDot {
+    width: 8px;
+    height: 8px;
+    padding: 0;
+    border: none;
+    border-radius: 50%;
+    background: var(--light-gray);
+    transition: background 0.2s ease, width 0.2s ease;
+  }
+
+  .indicatorDotActive {
+    width: 20px;
+    border-radius: 4px;
+    background: var(--primary-color);
   }
 }
