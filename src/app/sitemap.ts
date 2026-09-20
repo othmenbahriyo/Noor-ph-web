@@ -27,6 +27,8 @@ const pages: {
   { path: '/quiz-coran', priority: 0.8, changeFrequency: 'monthly', lastModified: '2026-09-17' },
   { path: '/audio-coran', priority: 0.8, changeFrequency: 'monthly', lastModified: '2026-09-17' },
   { path: '/tajweed-coran', priority: 0.8, changeFrequency: 'monthly', lastModified: '2026-09-17' },
+  { path: '/notre-histoire', priority: 0.5, changeFrequency: 'monthly', lastModified: '2026-09-20' },
+  { path: '/ramadan-2027', priority: 0.6, changeFrequency: 'weekly', lastModified: '2026-09-20' },
 ];
 
 // 'as-needed' localePrefix: the default locale has no prefix ("/"), every
