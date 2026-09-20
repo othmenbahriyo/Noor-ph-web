@@ -65,8 +65,8 @@
   height: 42px;
   min-width: 42px;
   border-radius: 12px;
-  background: rgba(1, 62, 55, 0.08);
-  color: var(--primary-color);
+  background: var(--light-gray);
+  color: var(--text-color);
   display: flex;
   align-items: center;
   justify-content: center;

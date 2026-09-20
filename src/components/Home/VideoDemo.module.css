@@ -26,7 +26,7 @@
 
 .sectionTitle h2 {
   font-size: 2rem;
-  color: var(--primary-color);
+  color: var(--text-color);
   margin-bottom: 15px;
   font-weight: 700;
 }

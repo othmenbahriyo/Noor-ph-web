@@ -52,8 +52,8 @@
   height: 34px;
   min-width: 34px;
   border-radius: 50%;
-  background: rgba(1, 62, 55, 0.08);
-  color: var(--primary-color);
+  background: var(--light-gray);
+  color: var(--text-color);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -83,7 +83,7 @@
   align-items: center;
   gap: 10px;
   background: var(--white);
-  color: var(--primary-color);
+  color: var(--text-color);
   font-weight: 700;
   font-size: 0.92rem;
   padding: 12px 24px;

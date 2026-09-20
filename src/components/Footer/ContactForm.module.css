@@ -43,9 +43,9 @@
 .input:focus,
 .textarea:focus {
   outline: none;
-  border-color: var(--primary-color);
+  border-color: var(--accent-color);
   background-color: var(--white);
-  box-shadow: 0 0 0 3px rgba(1, 62, 55, 0.08);
+  box-shadow: 0 0 0 3px rgba(201, 162, 39, 0.15);
 }
 
 .textarea {

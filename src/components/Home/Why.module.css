@@ -53,13 +53,13 @@
   height: 68px;
   border-radius: 50%;
   background: var(--white);
-  border: 2px solid var(--primary-color);
+  border: 2px solid var(--accent-color);
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 0 auto 24px;
   font-size: 1.5rem;
-  color: var(--primary-color);
+  color: var(--accent-color);
   position: relative;
   z-index: 1;
 }

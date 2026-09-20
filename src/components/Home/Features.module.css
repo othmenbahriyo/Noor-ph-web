@@ -22,7 +22,7 @@
 .sectionTitle h2 {
   font-size: 2.4rem;
   font-weight: 900;
-  color: var(--primary-color);
+  color: var(--text-color);
   line-height: 1.2;
   letter-spacing: -0.5px;
 }
@@ -74,7 +74,7 @@
 }
 
 .rowTitle i {
-  color: var(--primary-color);
+  color: var(--accent-color);
   font-size: 1rem;
   width: 20px;
   text-align: center;
@@ -93,8 +93,8 @@
   width: 36px;
   height: 36px;
   border-radius: 50%;
-  background: rgba(1, 62, 55, 0.06);
-  color: var(--primary-color);
+  background: var(--light-gray);
+  color: var(--text-color);
   font-size: 0.85rem;
   transition: var(--transition);
   justify-self: end;
