@@ -256,7 +256,7 @@
   color: var(--on-primary-text);
   text-decoration: none;
   padding: 14px 24px;
-  border: 2px solid var(--primary-color);
+  border: 0.5px solid white;
   border-radius: var(--border-radius-pill);
   transition: var(--transition);
   box-shadow: 0 8px 20px rgba(1, 62, 55, 0.25);
