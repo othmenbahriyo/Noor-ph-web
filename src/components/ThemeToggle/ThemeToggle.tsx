@@ -5,7 +5,12 @@ import styles from './ThemeToggle.module.css';
 
 const STORAGE_KEY = 'noor-theme';
 
-export default function ThemeToggle({ label }: { label: string }) {
+interface ThemeToggleProps {
+  label: string;
+  className?: string;
+}
+
+export default function ThemeToggle({ label, className }: ThemeToggleProps) {
   // Server and the first client render must produce identical markup, so
   // this always starts as `false` even though the inline script in the
   // root layout may have already set data-theme="dark" on <html>. The
@@ -26,7 +31,7 @@ export default function ThemeToggle({ label }: { label: string }) {
   return (
     <button
       type="button"
-      className={styles.toggle}
+      className={`${styles.toggle} ${className ?? ''}`}
       onClick={toggle}
       aria-label={label}
       aria-pressed={isDark}

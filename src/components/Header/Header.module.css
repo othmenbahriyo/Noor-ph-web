@@ -283,7 +283,8 @@
   }
 
   .headerActions .langBtn,
-  .headerActions .searchBtn {
+  .headerActions .searchBtn,
+  .desktopThemeToggle {
     display: none;
   }
 }

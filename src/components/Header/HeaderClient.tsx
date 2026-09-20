@@ -113,7 +113,7 @@ export default function HeaderClient({ recentPosts }: HeaderClientProps) {
               >
                 <i className="fas fa-search" />
               </button>
-              <ThemeToggle label={tNav('toggleTheme')} />
+              <ThemeToggle label={tNav('toggleTheme')} className={styles.desktopThemeToggle} />
               <button className={styles.langBtn} onClick={() => setLangModalOpen(true)}>
                 <span className={styles.langFlag}>{currentLanguage?.flag}</span>
                 <span className={styles.currentLang}>{locale.toUpperCase()}</span>
