@@ -44,6 +44,7 @@ const BLOG_POST_IMAGES: Record<string, string> = {
   'methodes-memoriser-coran-facilement': '/images/blog/hifz-methods.webp',
   'tarbiya-al-atfal-ala-al-quran': '/images/blog/tarbiya-atfal.webp',
   'ilaj-sudubat-hifz-al-quran': '/images/blog/ilaj-hifz.webp',
+  'turuq-hifz-al-quran': '/images/blog/hifz-tariq-methods.webp',
 };
 const DEFAULT_BLOG_IMAGE = '/images/blog/hifz-methods.webp';
 
@@ -104,4 +105,5 @@ export const BLOG_POST_RELATED_PAGE: Record<string, string> = {
   'methodes-memoriser-coran-facilement': '/memorisation-coran',
   'tarbiya-al-atfal-ala-al-quran': '/memorisation-coran',
   'ilaj-sudubat-hifz-al-quran': '/memorisation-coran',
+  'turuq-hifz-al-quran': '/memorisation-coran',
 };
