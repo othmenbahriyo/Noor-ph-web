@@ -46,7 +46,8 @@
       "location": "Parigi, Francia",
       "rights": "Tutti i diritti riservati.",
       "backToTop": "Torna in cima alla pagina",
-      "recentPosts": "Ultimi articoli"
+      "recentPosts": "Ultimi articoli",
+      "newsletterTitle": "Seguici per le novità"
     },
     "contactForm": {
       "eyebrow": "Contattaci",
@@ -1742,6 +1743,18 @@
         }
       ]
     }
+  },
+  "newsletter": {
+    "eyebrow": "Restiamo in contatto",
+    "title": "Seguici per non perderti nulla",
+    "subtitle": "Iscriviti per essere il primo a sapere delle nuove funzionalità, degli aggiornamenti dell'app e soprattutto dei nuovi articoli del blog.",
+    "emailPlaceholder": "La tua email",
+    "cta": "Iscriviti",
+    "emailRequired": "Inserisci il tuo indirizzo email.",
+    "emailInvalid": "Inserisci un indirizzo email valido.",
+    "successMessage": "Grazie! Ti sei iscritto con successo.",
+    "errorMessage": "Si è verificato un errore. Riprova.",
+    "privacyNote": "Rispettiamo la tua privacy. Niente spam, puoi annullare l'iscrizione in qualsiasi momento."
   },
   "blog": {
     "meta": {

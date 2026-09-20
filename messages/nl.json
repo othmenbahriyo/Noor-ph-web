@@ -46,7 +46,8 @@
       "location": "Parijs, Frankrijk",
       "rights": "Alle rechten voorbehouden.",
       "backToTop": "Terug naar boven",
-      "recentPosts": "Recente artikelen"
+      "recentPosts": "Recente artikelen",
+      "newsletterTitle": "Volg ons voor het laatste nieuws"
     },
     "contactForm": {
       "eyebrow": "Neem contact met ons op",
@@ -1742,6 +1743,18 @@
         }
       ]
     }
+  },
+  "newsletter": {
+    "eyebrow": "Blijf op de hoogte",
+    "title": "Volg ons zodat je niets mist",
+    "subtitle": "Meld je aan om als eerste op de hoogte te zijn van nieuwe functies, app-updates en vooral nieuwe blogartikelen.",
+    "emailPlaceholder": "Je e-mailadres",
+    "cta": "Aanmelden",
+    "emailRequired": "Vul je e-mailadres in.",
+    "emailInvalid": "Vul een geldig e-mailadres in.",
+    "successMessage": "Bedankt! Je bent aangemeld.",
+    "errorMessage": "Er is iets misgegaan. Probeer het opnieuw.",
+    "privacyNote": "We respecteren je privacy. Geen spam, altijd op te zeggen."
   },
   "blog": {
     "meta": {

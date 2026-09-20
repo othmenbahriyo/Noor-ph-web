@@ -46,7 +46,8 @@
       "location": "Paris, Prancis",
       "rights": "Semua hak dilindungi.",
       "backToTop": "Kembali ke atas halaman",
-      "recentPosts": "Artikel Terbaru"
+      "recentPosts": "Artikel Terbaru",
+      "newsletterTitle": "Ikuti kami untuk info terbaru"
     },
     "contactForm": {
       "eyebrow": "Hubungi Kami",
@@ -1742,6 +1743,18 @@
         }
       ]
     }
+  },
+  "newsletter": {
+    "eyebrow": "Tetap terhubung",
+    "title": "Ikuti kami agar tidak ketinggalan info",
+    "subtitle": "Daftar untuk menjadi yang pertama mengetahui fitur baru, pembaruan aplikasi, dan terutama artikel blog terbaru.",
+    "emailPlaceholder": "Alamat email Anda",
+    "cta": "Daftar",
+    "emailRequired": "Silakan masukkan alamat email Anda.",
+    "emailInvalid": "Silakan masukkan alamat email yang valid.",
+    "successMessage": "Terima kasih! Anda berhasil mendaftar.",
+    "errorMessage": "Terjadi kesalahan. Silakan coba lagi.",
+    "privacyNote": "Kami menghormati privasi Anda. Tanpa spam, berhenti berlangganan kapan saja."
   },
   "blog": {
     "meta": {

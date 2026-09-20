@@ -46,7 +46,8 @@
       "location": "Paris, Franța",
       "rights": "Toate drepturile rezervate.",
       "backToTop": "Înapoi sus",
-      "recentPosts": "Articole recente"
+      "recentPosts": "Articole recente",
+      "newsletterTitle": "Urmărește-ne pentru noutăți"
     },
     "contactForm": {
       "eyebrow": "Contactați-ne",
@@ -1742,6 +1743,18 @@
         }
       ]
     }
+  },
+  "newsletter": {
+    "eyebrow": "Rămâi în legătură",
+    "title": "Urmărește-ne ca să nu pierzi nimic",
+    "subtitle": "Abonează-te pentru a fi primul care află despre noile funcționalități, actualizările aplicației și, mai ales, noile articole de pe blog.",
+    "emailPlaceholder": "Adresa ta de email",
+    "cta": "Abonează-te",
+    "emailRequired": "Te rugăm să introduci adresa ta de email.",
+    "emailInvalid": "Te rugăm să introduci o adresă de email validă.",
+    "successMessage": "Mulțumim! Te-ai abonat cu succes.",
+    "errorMessage": "A apărut o eroare. Te rugăm să încerci din nou.",
+    "privacyNote": "Respectăm confidențialitatea ta. Fără spam, te poți dezabona oricând."
   },
   "blog": {
     "meta": {

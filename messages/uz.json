@@ -46,7 +46,8 @@
       "location": "Parij, Fransiya",
       "rights": "Barcha huquqlar himoyalangan.",
       "backToTop": "Sahifa boshiga qaytish",
-      "recentPosts": "So'nggi maqolalar"
+      "recentPosts": "So'nggi maqolalar",
+      "newsletterTitle": "Yangiliklar uchun bizni kuzating"
     },
     "contactForm": {
       "eyebrow": "Biz bilan bog'laning",
@@ -1742,6 +1743,18 @@
         }
       ]
     }
+  },
+  "newsletter": {
+    "eyebrow": "Aloqada bo'ling",
+    "title": "Hech narsani o'tkazib yubormaslik uchun bizni kuzating",
+    "subtitle": "Yangi funksiyalar, ilova yangilanishlari va, ayniqsa, yangi blog maqolalari haqida birinchi bo'lib bilish uchun ro'yxatdan o'ting.",
+    "emailPlaceholder": "Elektron pochta manzilingiz",
+    "cta": "Ro'yxatdan o'tish",
+    "emailRequired": "Iltimos, elektron pochta manzilingizni kiriting.",
+    "emailInvalid": "Iltimos, to'g'ri elektron pochta manzilini kiriting.",
+    "successMessage": "Rahmat! Siz muvaffaqiyatli ro'yxatdan o'tdingiz.",
+    "errorMessage": "Xatolik yuz berdi. Iltimos, qayta urinib ko'ring.",
+    "privacyNote": "Biz sizning maxfiyligingizni hurmat qilamiz. Spam yo'q, istalgan vaqtda obunani bekor qiling."
   },
   "blog": {
     "meta": {

@@ -46,7 +46,8 @@
       "location": "Paris, Fransa",
       "rights": "Tüm hakları saklıdır.",
       "backToTop": "Sayfanın başına dön",
-      "recentPosts": "Son Makaleler"
+      "recentPosts": "Son Makaleler",
+      "newsletterTitle": "Yenilikler için bizi takip edin"
     },
     "contactForm": {
       "eyebrow": "Bize Ulaşın",
@@ -1742,6 +1743,18 @@
         }
       ]
     }
+  },
+  "newsletter": {
+    "eyebrow": "İletişimde kalalım",
+    "title": "Hiçbir şeyi kaçırmamak için bizi takip edin",
+    "subtitle": "Yeni özellikler, uygulama güncellemeleri ve özellikle yeni blog yazılarından ilk siz haberdar olun.",
+    "emailPlaceholder": "E-posta adresiniz",
+    "cta": "Kaydol",
+    "emailRequired": "Lütfen e-posta adresinizi girin.",
+    "emailInvalid": "Lütfen geçerli bir e-posta adresi girin.",
+    "successMessage": "Teşekkürler! Kaydınız başarıyla tamamlandı.",
+    "errorMessage": "Bir hata oluştu. Lütfen tekrar deneyin.",
+    "privacyNote": "Gizliliğinize saygı duyuyoruz. Spam yok, istediğiniz zaman abonelikten çıkabilirsiniz."
   },
   "blog": {
     "meta": {

@@ -46,7 +46,8 @@
       "location": "法国巴黎",
       "rights": "版权所有。",
       "backToTop": "返回页面顶部",
-      "recentPosts": "最新文章"
+      "recentPosts": "最新文章",
+      "newsletterTitle": "关注我们获取最新动态"
     },
     "contactForm": {
       "eyebrow": "联系我们",
@@ -1742,6 +1743,18 @@
         }
       ]
     }
+  },
+  "newsletter": {
+    "eyebrow": "保持联系",
+    "title": "关注我们，不错过任何更新",
+    "subtitle": "订阅以第一时间了解新功能、应用更新，特别是最新的博客文章。",
+    "emailPlaceholder": "您的邮箱地址",
+    "cta": "订阅",
+    "emailRequired": "请输入您的邮箱地址。",
+    "emailInvalid": "请输入有效的邮箱地址。",
+    "successMessage": "谢谢！您已成功订阅。",
+    "errorMessage": "出现了一些问题，请重试。",
+    "privacyNote": "我们尊重您的隐私。绝不发送垃圾邮件，可随时取消订阅。"
   },
   "blog": {
     "meta": {

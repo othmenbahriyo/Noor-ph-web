@@ -46,7 +46,8 @@
       "location": "Paris, France",
       "rights": "Sunuy yoon yépp ñu aar leen.",
       "backToTop": "Dellu ci kaw xët bi",
-      "recentPosts": "Xibaar yu mujj"
+      "recentPosts": "Xibaar yu mujj",
+      "newsletterTitle": "Toppatoo nu ngir yeeg bepp"
     },
     "contactForm": {
       "eyebrow": "Jokkoo ak nun",
@@ -1742,6 +1743,18 @@
         }
       ]
     }
+  },
+  "newsletter": {
+    "eyebrow": "Toog ci lay",
+    "title": "Toppatoo nu ngir bañ a suul dara",
+    "subtitle": "Bind sa email ngir jëkk a xam bepp yu bees, mise à jour bu app bi, rawatina ay bind yu bees ci blog bi.",
+    "emailPlaceholder": "Sa email",
+    "cta": "Bind",
+    "emailRequired": "Bindal sa email.",
+    "emailInvalid": "Bindal email bu baax.",
+    "successMessage": "Jerejef! Bind naa sa email ci njariñ.",
+    "errorMessage": "Am na njumte. Jéemaatal.",
+    "privacyNote": "Nu am respet ci sa vie privée. Amul spam, mën nga wecci sa bind bépp waxtu."
   },
   "blog": {
     "meta": {

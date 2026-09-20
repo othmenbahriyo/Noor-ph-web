@@ -46,7 +46,8 @@
       "location": "Paris, France",
       "rights": "All rights reserved.",
       "backToTop": "Back to top",
-      "recentPosts": "Recent Articles"
+      "recentPosts": "Recent Articles",
+      "newsletterTitle": "Follow us for the latest updates"
     },
     "contactForm": {
       "eyebrow": "Contact us",
@@ -667,6 +668,18 @@
         }
       ]
     }
+  },
+  "newsletter": {
+    "eyebrow": "Stay in touch",
+    "title": "Follow us so you never miss an update",
+    "subtitle": "Sign up to be the first to know about new features, app updates, and especially new blog posts.",
+    "emailPlaceholder": "Your email address",
+    "cta": "Sign up",
+    "emailRequired": "Please enter your email address.",
+    "emailInvalid": "Please enter a valid email address.",
+    "successMessage": "Thanks! You're now signed up.",
+    "errorMessage": "Something went wrong. Please try again.",
+    "privacyNote": "We respect your privacy. No spam, unsubscribe anytime."
   },
   "blog": {
     "meta": {

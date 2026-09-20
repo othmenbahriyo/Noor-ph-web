@@ -46,7 +46,8 @@
       "location": "パリ、フランス",
       "rights": "全著作権所有。",
       "backToTop": "ページの上部に戻る",
-      "recentPosts": "最新記事"
+      "recentPosts": "最新記事",
+      "newsletterTitle": "最新情報はこちらをフォロー"
     },
     "contactForm": {
       "eyebrow": "お問い合わせ",
@@ -1742,6 +1743,18 @@
         }
       ]
     }
+  },
+  "newsletter": {
+    "eyebrow": "つながりを保つ",
+    "title": "フォローして最新情報をお見逃しなく",
+    "subtitle": "新機能、アプリのアップデート、そして特に新しいブログ記事をいち早くお届けします。",
+    "emailPlaceholder": "メールアドレス",
+    "cta": "登録する",
+    "emailRequired": "メールアドレスを入力してください。",
+    "emailInvalid": "有効なメールアドレスを入力してください。",
+    "successMessage": "ありがとうございます！登録が完了しました。",
+    "errorMessage": "エラーが発生しました。もう一度お試しください。",
+    "privacyNote": "お客様のプライバシーを尊重します。スパムなし、いつでも登録解除できます。"
   },
   "blog": {
     "meta": {

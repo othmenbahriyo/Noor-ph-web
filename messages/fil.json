@@ -46,7 +46,8 @@
       "location": "Paris, France",
       "rights": "Lahat ng karapatan ay nakalaan.",
       "backToTop": "Bumalik sa itaas ng pahina",
-      "recentPosts": "Pinakabagong mga Artikulo"
+      "recentPosts": "Pinakabagong mga Artikulo",
+      "newsletterTitle": "I-follow kami para sa mga update"
     },
     "contactForm": {
       "eyebrow": "Makipag-ugnayan sa Amin",
@@ -1742,6 +1743,18 @@
         }
       ]
     }
+  },
+  "newsletter": {
+    "eyebrow": "Manatiling konektado",
+    "title": "I-follow kami para hindi ka maiwan",
+    "subtitle": "Mag-sign up para maunang malaman ang mga bagong feature, update ng app, at lalo na ang mga bagong artikulo sa blog.",
+    "emailPlaceholder": "Iyong email address",
+    "cta": "Mag-sign up",
+    "emailRequired": "Pakilagay ang iyong email address.",
+    "emailInvalid": "Pakilagay ang isang wastong email address.",
+    "successMessage": "Salamat! Matagumpay kang naka-sign up.",
+    "errorMessage": "May naganap na error. Pakisubukan muli.",
+    "privacyNote": "Iginagalang namin ang iyong privacy. Walang spam, maaaring mag-unsubscribe anumang oras."
   },
   "blog": {
     "meta": {

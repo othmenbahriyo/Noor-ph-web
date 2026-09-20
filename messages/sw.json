@@ -46,7 +46,8 @@
       "location": "Paris, Ufaransa",
       "rights": "Haki zote zimehifadhiwa.",
       "backToTop": "Rudi juu ya ukurasa",
-      "recentPosts": "Makala za Hivi Karibuni"
+      "recentPosts": "Makala za Hivi Karibuni",
+      "newsletterTitle": "Tufuate kwa habari mpya"
     },
     "contactForm": {
       "eyebrow": "Wasiliana nasi",
@@ -1742,6 +1743,18 @@
         }
       ]
     }
+  },
+  "newsletter": {
+    "eyebrow": "Endelea kuwasiliana",
+    "title": "Tufuate ili usikose lolote",
+    "subtitle": "Jisajili ili kuwa wa kwanza kujua kuhusu vipengele vipya, masasisho ya programu, na hasa makala mpya za blogu.",
+    "emailPlaceholder": "Barua pepe yako",
+    "cta": "Jisajili",
+    "emailRequired": "Tafadhali weka anwani yako ya barua pepe.",
+    "emailInvalid": "Tafadhali weka anwani sahihi ya barua pepe.",
+    "successMessage": "Asante! Umejisajili kwa mafanikio.",
+    "errorMessage": "Hitilafu imetokea. Tafadhali jaribu tena.",
+    "privacyNote": "Tunaheshimu faragha yako. Hakuna barua taka, jiondoe wakati wowote."
   },
   "blog": {
     "meta": {
