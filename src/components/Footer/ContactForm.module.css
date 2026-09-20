@@ -74,7 +74,7 @@
   font-weight: 700;
   font-size: 0.95rem;
   padding: 14px 24px;
-  border: none;
+  border: 2px solid var(--primary-color);
   border-radius: var(--border-radius-pill);
   cursor: pointer;
   transition: var(--transition);
