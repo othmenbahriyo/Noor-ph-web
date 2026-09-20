@@ -1,4 +1,4 @@
-import { Link } from '@/i18n/navigation';
+import TrackedLink from '@/components/TrackedLink/TrackedLink';
 import styles from './TestimonialsGrid.module.css';
 
 export interface Testimonial {
@@ -49,10 +49,15 @@ export default function TestimonialsGrid({
       </div>
 
       <div className={styles.viewAllWrap}>
-        <Link href="/avis" className={styles.viewAllBtn}>
+        <TrackedLink
+          href="/avis"
+          eventName="related_link_click"
+          params={{ from: 'home_testimonials', to: 'avis' }}
+          className={styles.viewAllBtn}
+        >
           {viewAllLabel}
           <i className="fas fa-arrow-right" />
-        </Link>
+        </TrackedLink>
       </div>
     </div>
   );

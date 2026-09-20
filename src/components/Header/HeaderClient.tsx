@@ -95,11 +95,19 @@ export default function HeaderClient({ recentPosts }: HeaderClientProps) {
             <nav className={styles.navbar}>
               {NAV_LINKS.map((link) =>
                 link.href.startsWith('#') ? (
-                  <a key={link.href} href={resolveHref(link.href)}>
+                  <a
+                    key={link.href}
+                    href={resolveHref(link.href)}
+                    onClick={() => trackEvent('nav_click', { link: link.key, location: 'desktop' })}
+                  >
                     {tNav(link.key)}
                   </a>
                 ) : (
-                  <Link key={link.href} href={link.href}>
+                  <Link
+                    key={link.href}
+                    href={link.href}
+                    onClick={() => trackEvent('nav_click', { link: link.key, location: 'desktop' })}
+                  >
                     {tNav(link.key)}
                   </Link>
                 ),
@@ -152,12 +160,26 @@ export default function HeaderClient({ recentPosts }: HeaderClientProps) {
         <nav className={styles.mobileMenu}>
           {NAV_LINKS.map((link) =>
             link.href.startsWith('#') ? (
-              <a key={link.href} href={resolveHref(link.href)} onClick={closeMobileMenu}>
+              <a
+                key={link.href}
+                href={resolveHref(link.href)}
+                onClick={() => {
+                  trackEvent('nav_click', { link: link.key, location: 'mobile_drawer' });
+                  closeMobileMenu();
+                }}
+              >
                 <i className={`fas ${link.icon}`} />
                 <span>{tNav(link.key)}</span>
               </a>
             ) : (
-              <Link key={link.href} href={link.href} onClick={closeMobileMenu}>
+              <Link
+                key={link.href}
+                href={link.href}
+                onClick={() => {
+                  trackEvent('nav_click', { link: link.key, location: 'mobile_drawer' });
+                  closeMobileMenu();
+                }}
+              >
                 <i className={`fas ${link.icon}`} />
                 <span>{tNav(link.key)}</span>
               </Link>

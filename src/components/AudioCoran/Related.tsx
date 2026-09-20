@@ -1,5 +1,5 @@
 import { getTranslations } from 'next-intl/server';
-import { Link } from '@/i18n/navigation';
+import TrackedLink from '@/components/TrackedLink/TrackedLink';
 import contentStyles from './ContentBlock.module.css';
 import styles from './Related.module.css';
 
@@ -11,9 +11,27 @@ export default async function Related() {
       <div className={contentStyles.contentBlock}>
         <h2>{t('title')}</h2>
         <div className={styles.relatedFeatures}>
-          <Link href="/tajweed-coran">{t('tajweed')}</Link>
-          <Link href="/memorisation-coran">{t('memorization')}</Link>
-          <Link href="/#features">{t('allFeatures')}</Link>
+          <TrackedLink
+            href="/tajweed-coran"
+            eventName="related_link_click"
+            params={{ from: 'audio_coran', to: 'tajweed_coran' }}
+          >
+            {t('tajweed')}
+          </TrackedLink>
+          <TrackedLink
+            href="/memorisation-coran"
+            eventName="related_link_click"
+            params={{ from: 'audio_coran', to: 'memorisation_coran' }}
+          >
+            {t('memorization')}
+          </TrackedLink>
+          <TrackedLink
+            href="/#features"
+            eventName="related_link_click"
+            params={{ from: 'audio_coran', to: 'home_features' }}
+          >
+            {t('allFeatures')}
+          </TrackedLink>
         </div>
       </div>
     </div>

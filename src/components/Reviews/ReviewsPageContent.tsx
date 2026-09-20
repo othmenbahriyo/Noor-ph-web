@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import type { Testimonial } from '@/components/TestimonialCarousel/TestimonialsGrid';
+import { trackEvent } from '@/lib/firebase';
 import styles from './ReviewsPageContent.module.css';
 
 interface ReviewsPageContentProps {
@@ -81,7 +82,14 @@ export default function ReviewsPageContent({
 
           {hasMore && (
             <div className={styles.loadMoreWrap}>
-              <button className={styles.loadMoreBtn} onClick={() => setVisibleCount((c) => c + PAGE_SIZE)}>
+              <button
+                className={styles.loadMoreBtn}
+                onClick={() => {
+                  const next = visibleCount + PAGE_SIZE;
+                  setVisibleCount(next);
+                  trackEvent('reviews_load_more', { visibleCount: String(Math.min(next, testimonials.length)) });
+                }}
+              >
                 {loadMoreLabel}
                 <i className="fas fa-chevron-down" />
               </button>
