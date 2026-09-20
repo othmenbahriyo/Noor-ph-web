@@ -27,6 +27,7 @@ export default async function Footer() {
   const tNav = await getTranslations('common.nav');
   const tCta = await getTranslations('home.cta');
   const privacyHref = locale === 'en' ? '/en/privacy-policy' : '/privacy-policy';
+  const cguHref = locale === 'en' ? '/en/cgu' : '/cgu';
   const contactHref = locale === 'en' ? '/en/contact' : '/contact';
   const year = new Date().getFullYear();
   const recentPosts = getAllBlogPosts(locale).slice(0, FOOTER_POSTS_LIMIT);
@@ -100,6 +101,9 @@ export default async function Footer() {
               </li>
               <li>
                 <a href={privacyHref}>{tNav('privacy')}</a>
+              </li>
+              <li>
+                <a href={cguHref}>{tNav('pages.cgu')}</a>
               </li>
             </ul>
           </div>
