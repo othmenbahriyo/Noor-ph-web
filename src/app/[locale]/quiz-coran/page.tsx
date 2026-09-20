@@ -3,6 +3,7 @@ import { getTranslations, setRequestLocale } from 'next-intl/server';
 import Header from '@/components/Header/Header';
 import Footer from '@/components/Footer/Footer';
 import Hero from '@/components/QuizCoran/Hero';
+import DemoQuiz from '@/components/QuizCoran/DemoQuiz';
 import Intro from '@/components/QuizCoran/Intro';
 import Features from '@/components/QuizCoran/Features';
 import Screenshots from '@/components/QuizCoran/Screenshots';
@@ -117,6 +118,7 @@ export default async function QuizCoranPage({
       />
       <Header />
       <Hero />
+      <DemoQuiz />
       <main className={styles.main}>
         <Intro />
         <Features />

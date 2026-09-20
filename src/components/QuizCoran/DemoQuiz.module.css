@@ -1,0 +1,238 @@
+.section {
+  padding: var(--section-padding) 0;
+  background: var(--light-color);
+}
+
+.card {
+  max-width: 640px;
+  margin: 0 auto;
+  background: var(--white);
+  border-radius: var(--border-radius);
+  padding: 45px;
+  box-shadow: var(--shadow-md);
+  text-align: center;
+}
+
+.eyebrow {
+  display: inline-block;
+  color: var(--accent-color);
+  font-weight: 700;
+  font-size: 0.85rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+
+.card h2 {
+  color: var(--primary-color);
+  font-size: 1.9rem;
+  margin-bottom: 12px;
+  line-height: 1.3;
+}
+
+.subtitle {
+  color: var(--text-light);
+  font-size: 1.05rem;
+  margin-bottom: 30px;
+}
+
+.progress {
+  margin-bottom: 26px;
+  text-align: left;
+}
+
+.progress span {
+  display: block;
+  font-size: 0.85rem;
+  color: var(--text-light);
+  margin-bottom: 8px;
+}
+
+.progressBar {
+  height: 8px;
+  background: var(--light-gray);
+  border-radius: var(--border-radius-pill);
+  overflow: hidden;
+}
+
+.progressFill {
+  height: 100%;
+  background: var(--accent-gradient);
+  border-radius: var(--border-radius-pill);
+  transition: width 0.3s ease;
+}
+
+.question {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  margin-bottom: 24px;
+  text-align: left;
+  line-height: 1.4;
+}
+
+.answers {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.answerBtn {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  text-align: left;
+  padding: 14px 18px;
+  border-radius: var(--border-radius-sm);
+  border: 2px solid var(--light-gray);
+  background: var(--white);
+  color: var(--text-color);
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.answerBtn:hover:not(:disabled) {
+  border-color: var(--primary-color);
+  background: var(--light-color);
+}
+
+.answerBtn:disabled {
+  cursor: default;
+}
+
+.answerLetter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  min-width: 28px;
+  border-radius: 50%;
+  background: var(--light-gray);
+  color: var(--text-color);
+  font-weight: 700;
+  font-size: 0.85rem;
+}
+
+.correct {
+  border-color: var(--success-color);
+  background: rgba(0, 200, 83, 0.08);
+}
+
+.correct .answerLetter {
+  background: var(--success-color);
+  color: var(--white);
+}
+
+.wrong {
+  border-color: var(--error-color);
+  background: rgba(211, 47, 47, 0.08);
+}
+
+.wrong .answerLetter {
+  background: var(--error-color);
+  color: var(--white);
+}
+
+.nextBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  background: var(--primary-color);
+  color: var(--on-primary-text);
+  padding: 14px;
+  border-radius: var(--border-radius-sm);
+  border: none;
+  font-weight: 700;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.nextBtn:hover {
+  background: var(--primary-dark);
+}
+
+.resultScreen {
+  padding: 10px 0;
+}
+
+.resultScore {
+  font-size: 3.4rem;
+  font-weight: 800;
+  color: var(--primary-color);
+  line-height: 1;
+  margin-bottom: 12px;
+}
+
+.resultLabel {
+  color: var(--text-light);
+  font-size: 1.05rem;
+  margin-bottom: 30px;
+}
+
+.ctaGroup {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.restartBtn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: var(--light-gray);
+  color: var(--text-color);
+  padding: 12px 22px;
+  border-radius: 12px;
+  border: none;
+  font-weight: 700;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.restartBtn:hover {
+  background: var(--light-color);
+}
+
+.ctaBtn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: var(--primary-color);
+  color: var(--on-primary-text);
+  padding: 12px 22px;
+  border-radius: 12px;
+  text-decoration: none;
+  font-weight: 700;
+  transition: var(--transition);
+}
+
+.ctaBtn:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow);
+}
+
+@media (max-width: 600px) {
+  .section {
+    padding: var(--section-padding-mobile) 0;
+  }
+
+  .card {
+    padding: 26px;
+  }
+
+  .card h2 {
+    font-size: 1.5rem;
+  }
+
+  .resultScore {
+    font-size: 2.8rem;
+  }
+}
