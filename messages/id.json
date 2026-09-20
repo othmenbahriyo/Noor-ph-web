@@ -114,7 +114,8 @@
       "title": "Preferensi cookie",
       "message": "Kami menggunakan cookie untuk mengukur lalu lintas situs dan meningkatkan pengalaman Anda. Anda dapat menerima atau menolak penggunaannya.",
       "accept": "Terima",
-      "decline": "Tolak"
+      "decline": "Tolak",
+      "manage": "Kelola cookie"
     }
   },
   "home": {

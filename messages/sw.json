@@ -114,7 +114,8 @@
       "title": "Mapendeleo ya vidakuzi",
       "message": "Tunatumia vidakuzi kupima trafiki ya tovuti na kuboresha uzoefu wako. Unaweza kukubali au kukataa matumizi yao.",
       "accept": "Kubali",
-      "decline": "Kataa"
+      "decline": "Kataa",
+      "manage": "Dhibiti vidakuzi"
     }
   },
   "home": {

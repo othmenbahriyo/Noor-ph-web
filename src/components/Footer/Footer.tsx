@@ -4,6 +4,7 @@ import { Link } from '@/i18n/navigation';
 import { getAllBlogPosts } from '@/lib/blog';
 import NewsletterForm from '@/components/Newsletter/NewsletterForm';
 import StoreLink from '@/components/StoreLink/StoreLink';
+import CookieSettingsLink from '@/components/CookieConsent/CookieSettingsLink';
 import styles from './Footer.module.css';
 import BackToTop from './BackToTop';
 
@@ -27,6 +28,7 @@ export default async function Footer() {
   const t = await getTranslations('common.footer');
   const tNav = await getTranslations('common.nav');
   const tCta = await getTranslations('home.cta');
+  const tCookie = await getTranslations('common.cookieConsent');
   const privacyHref = locale === 'en' ? '/en/privacy-policy' : '/privacy-policy';
   const cguHref = locale === 'en' ? '/en/cgu' : '/cgu';
   const contactHref = locale === 'en' ? '/en/contact' : '/contact';
@@ -131,6 +133,10 @@ export default async function Footer() {
               </ul>
             </div>
           )}
+        </div>
+
+        <div className={styles.cookieSettingsRow}>
+          <CookieSettingsLink label={tCookie('manage')} />
         </div>
 
         <div className={styles.footerNewsletterRow}>

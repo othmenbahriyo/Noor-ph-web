@@ -107,10 +107,25 @@
   line-height: 1.6;
 }
 
-.footerNewsletterRow {
-  padding-top: 30px;
-  padding-bottom: 30px;
+.cookieSettingsRow {
+  padding-top: 24px;
   border-top: 1px solid var(--light-gray);
+}
+
+.cookieSettingsRow a {
+  font-size: 0.85rem;
+  color: var(--text-light);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.cookieSettingsRow a:hover {
+  color: var(--text-color);
+}
+
+.footerNewsletterRow {
+  padding-top: 24px;
+  padding-bottom: 30px;
   max-width: 480px;
 }
 

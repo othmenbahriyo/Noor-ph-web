@@ -114,7 +114,8 @@
       "title": "Preferințe cookie-uri",
       "message": "Folosim cookie-uri pentru a măsura traficul site-ului și a-ți îmbunătăți experiența. Poți accepta sau refuza utilizarea lor.",
       "accept": "Acceptă",
-      "decline": "Refuză"
+      "decline": "Refuză",
+      "manage": "Gestionează cookie-urile"
     }
   },
   "home": {

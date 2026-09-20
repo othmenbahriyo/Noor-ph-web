@@ -6,6 +6,7 @@ import { enableAnalytics } from '@/lib/firebase';
 import styles from './CookieConsent.module.css';
 
 const STORAGE_KEY = 'noor-cookie-consent';
+export const REOPEN_EVENT = 'noor-cookie-consent-reopen';
 
 type Consent = 'accepted' | 'declined';
 
@@ -20,6 +21,15 @@ export default function CookieConsent() {
     } else if (stored !== 'declined') {
       setVisible(true);
     }
+  }, []);
+
+  // Lets any page (e.g. the footer's "Manage cookies" link) reopen the
+  // banner to change a previously saved choice, without needing this
+  // component to be re-mounted or lifted into shared state.
+  useEffect(() => {
+    const reopen = () => setVisible(true);
+    window.addEventListener(REOPEN_EVENT, reopen);
+    return () => window.removeEventListener(REOPEN_EVENT, reopen);
   }, []);
 
   const choose = (consent: Consent) => {

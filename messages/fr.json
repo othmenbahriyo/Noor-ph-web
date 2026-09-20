@@ -40,7 +40,8 @@
       "title": "Préférences de cookies",
       "message": "Nous utilisons des cookies pour mesurer l'audience du site et améliorer votre expérience. Vous pouvez accepter ou refuser leur utilisation.",
       "accept": "Accepter",
-      "decline": "Refuser"
+      "decline": "Refuser",
+      "manage": "Gérer les cookies"
     },
     "search": {
       "label": "Rechercher sur le site",

@@ -114,7 +114,8 @@
       "title": "Cookieの設定",
       "message": "サイトのトラフィックを測定し、ユーザー体験を向上させるためにCookieを使用しています。使用を許可または拒否できます。",
       "accept": "同意する",
-      "decline": "拒否する"
+      "decline": "拒否する",
+      "manage": "Cookieの管理"
     }
   },
   "home": {

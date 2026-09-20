@@ -114,7 +114,8 @@
       "title": "Cookie-fayl sozlamalari",
       "message": "Biz sayt tashrifini o'lchash va tajribangizni yaxshilash uchun cookie-fayllardan foydalanamiz. Ularning ishlatilishini qabul qilishingiz yoki rad etishingiz mumkin.",
       "accept": "Qabul qilish",
-      "decline": "Rad etish"
+      "decline": "Rad etish",
+      "manage": "Cookie-fayllarni boshqarish"
     }
   },
   "home": {

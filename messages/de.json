@@ -114,7 +114,8 @@
       "title": "Cookie-Einstellungen",
       "message": "Wir verwenden Cookies, um die Nutzung der Website zu messen und Ihre Erfahrung zu verbessern. Sie können deren Verwendung akzeptieren oder ablehnen.",
       "accept": "Akzeptieren",
-      "decline": "Ablehnen"
+      "decline": "Ablehnen",
+      "manage": "Cookies verwalten"
     }
   },
   "home": {
