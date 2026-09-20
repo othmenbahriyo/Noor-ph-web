@@ -5,6 +5,7 @@
       "screenshots": "Picha za skrini",
       "reviews": "Maoni",
       "blog": "Blogu",
+      "aboutUs": "Historia Yetu",
       "privacy": "Faragha",
       "contact": "Wasiliana",
       "openMenu": "Fungua menyu ya urambazaji",
@@ -24,7 +25,8 @@
         "correctionRecitation": "Marekebisho ya Usomaji",
         "privacyPolicy": "Sera ya Faragha",
         "cgu": "Masharti ya Matumizi",
-        "blog": "Blogu"
+        "blog": "Blogu",
+        "aboutUs": "Historia Yetu"
       }
     },
     "languageSwitcher": {
@@ -1684,6 +1686,61 @@
     "subtitle": "Gundua maoni ya jumuiya yetu inayokua ya watumiaji walioridhika",
     "ratingCountLabel": "kati ya maoni %COUNT%",
     "loadMoreLabel": "Ona maoni zaidi"
+  },
+  "aboutUs": {
+    "meta": {
+      "title": "Historia yetu: kwa nini tulianzisha Noor Phonetic Quran",
+      "description": "Gundua historia iliyo nyuma ya Noor Phonetic Quran: kukutana na dada aliyesilimu hivi karibuni kulitutia moyo kuunda programu inayofanya usomaji wa Qur'ani kuwa rahisi kwa kila mtu, hata bila kujua kusoma Kiarabu.",
+      "ogTitle": "Historia yetu: kwa nini tulianzisha Noor Phonetic Quran",
+      "ogDescription": "Kila kitu kilianza kwa kukutana na dada aliyesilimu hivi karibuni ambaye hakuweza kusoma Qur'ani kwa Kiarabu. Hivyo ndivyo Noor Phonetic Quran ilivyozaliwa."
+    },
+    "breadcrumb": {
+      "home": "Nyumbani",
+      "current": "Historia Yetu"
+    },
+    "hero": {
+      "title": "Historia Yetu",
+      "subtitle": "Jinsi kukutana na dada aliyesilimu hivi karibuni kulivyozaa Noor Phonetic Quran.",
+      "imageAlt": "Muislamu mpya akizungukwa na marafiki wanaomsaidia kusoma Qur'ani, akiwa na programu ya Noor Phonetic Quran kwenye simu yake, kikiwakilisha msaada wa pamoja uliotia moyo kuundwa kwa programu hiyo"
+    },
+    "story": {
+      "eyebrow": "Jinsi yote yalivyoanza",
+      "title": "Mkutano uliobadilisha kila kitu",
+      "paragraphs": [
+        "Kila kitu kilianza kwa njia rahisi sana, karibu ya kawaida: kukutana na dada aliyekuwa amesilimu hivi karibuni. Alikuwa amejaa shauku na uaminifu katika imani yake mpya, lakini pia alikuwa akibeba masikitiko ya kimya ambayo hatimaye alitufungulia.",
+        "Alitueleza ugumu wake na lugha ya Kiarabu. Alitaka kwa moyo wake wote kusoma Qur'ani, kuielewa, kuisoma kwa sauti, lakini alfabeti ya Kiarabu ilikuwa ngeni kabisa kwake. Kila jaribio la kusoma liligeuka kuwa zoezi la kukatisha tamaa: hakuweza kutambua herufi, hakujua wapi pa kupumzika, na hakuwa na uhakika kamwe kama alikuwa akitamka vizuri maneno aliyokuwa akijaribu kusoma.",
+        "Alitusemea jambo lililotugusa sana: alihisi kwamba Qur'ani, kitabu ambacho tayari alikithamini kwa moyo wake wote, kilibaki \"kimefungwa\" kwake, kama hazina ambayo hakuwa na ufunguo wake. Hakuwa peke yake katika hali hii: alijua Waislamu wengine wapya waliokuwa wakikumbana na ugumu huo huo, hisia hiyo hiyo ya kutengwa mbele ya maandiko waliyoyapenda bila kuweza kuyasoma.",
+        "Mazungumzo hayo yalitugusa sana. Tulitambua kuwa hii haikuwa kesi ya pekee, bali kikwazo halisi kinachopatikana kwa watu wengi sana duniani kote: waliosilimu hivi karibuni, lakini pia Waislamu waliozaliwa katika familia zisizosema Kiarabu, watoto, watu waliokuwa mbali na asili zao kwa miaka mingi. Watu hao wote walishiriki hamu moja ya kweli: kusoma na kuelewa Qur'ani, bila kulazimika kubobea alfabeti ya Kiarabu ndani ya usiku mmoja.",
+        "Kutokana na ufahamu huo ndipo wazo la Noor Phonetic Quran lilizaliwa. Tuliamua kuunda programu inayonakili kila aya ya Qur'ani kwa kifonetiki, aya baada ya aya, ili mtu yeyote aweze kuanza kusoma na kusoma kwa sauti tangu siku ya kwanza, huku akijifunza hatua kwa hatua kanuni za matamshi na Tajweed. Lengo letu halikuwa kamwe kuchukua mahali pa kujifunza Kiarabu, bali kuondoa kikwazo cha kwanza, kile kinachozuia kuanza, ili usomaji wa Qur'ani hatimaye ufikiwe na dada huyo, na jamii yetu yote.",
+        "Tangu wakati huo, kile kilichoanza kama jibu la ugumu wa mtu mmoja kimekua kuwa programu inayotumiwa na makumi ya maelfu ya Waislamu duniani kote, katika lugha zaidi ya 20. Lakini roho inabaki sawa na siku ya kwanza: kujenga, kwa unyenyekevu na uaminifu, chombo ambacho dada huyo angependa kuwa nacho mikononi mwake."
+      ]
+    },
+    "mission": {
+      "title": "Kinachotuongoza",
+      "subtitle": "Kanuni zilizotia moyo kuundwa kwa Noor Phonetic Quran na zinazoendelea kuongoza kila kipengele kipya.",
+      "items": [
+        {
+          "icon": "fa-compass",
+          "title": "Kuondoa kikwazo cha kwanza",
+          "text": "Kutojua kusoma Kiarabu hakupaswi kamwe kumzuia mtu kusoma na kusoma kwa sauti Qur'ani. Kifonetiki chetu kipo kufungua mlango huo, tangu siku ya kwanza."
+        },
+        {
+          "icon": "fa-users",
+          "title": "Kuhudumia jamii nzima",
+          "text": "Waislamu wapya, Waislamu wasiosema Kiarabu, watoto, au mtu yeyote aliye mbali na Kiarabu: programu imeundwa kumsaidia kila mtu, kwa mwendo wake mwenyewe."
+        },
+        {
+          "icon": "fa-graduation-cap",
+          "title": "Kusaidia, si kuchukua mahali",
+          "text": "Kifonetiki ni kianzio, si lengo la mwisho. Tunahimiza mtumiaji kila mmoja kusonga mbele kuelekea usomaji halisi wa Kiarabu cha Kiqur'ani."
+        },
+        {
+          "icon": "fa-heart",
+          "title": "Bure na inayofikika",
+          "text": "Kiini cha programu kinabaki bure, kwa sababu hakuna kikwazo cha kifedha kinachopaswa kuongezwa juu ya kikwazo cha lugha kufikia Qur'ani."
+        }
+      ]
+    }
   },
   "blog": {
     "meta": {

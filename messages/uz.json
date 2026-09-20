@@ -5,6 +5,7 @@
       "screenshots": "Skrinshotlar",
       "reviews": "Sharhlar",
       "blog": "Blog",
+      "aboutUs": "Bizning Tariximiz",
       "privacy": "Maxfiylik",
       "contact": "Aloqa",
       "openMenu": "Navigatsiya menyusini ochish",
@@ -24,7 +25,8 @@
         "correctionRecitation": "Qiroatni to'g'irlash",
         "privacyPolicy": "Maxfiylik siyosati",
         "cgu": "Foydalanish shartlari",
-        "blog": "Blog"
+        "blog": "Blog",
+        "aboutUs": "Bizning Tariximiz"
       }
     },
     "languageSwitcher": {
@@ -1684,6 +1686,61 @@
     "subtitle": "O'sib borayotgan mamnun foydalanuvchilar jamoamizning fikrlarini bilib oling",
     "ratingCountLabel": "%COUNT% ta sharhdan",
     "loadMoreLabel": "Ko'proq sharh ko'rish"
+  },
+  "aboutUs": {
+    "meta": {
+      "title": "Bizning tariximiz: nima uchun Noor Phonetic Quran'ni yaratdik",
+      "description": "Noor Phonetic Quran ortidagi tarixni bilib oling: yaqinda islomni qabul qilgan opa-singil bilan uchrashuv bizni arab tilini bilmasdan ham Qur'onni o'qishni hamma uchun oson qiladigan ilova yaratishga ilhomlandirdi.",
+      "ogTitle": "Bizning tariximiz: nima uchun Noor Phonetic Quran'ni yaratdik",
+      "ogDescription": "Hammasi yaqinda islomni qabul qilgan va arab tilida Qur'onni o'qiy olmagan opa-singil bilan uchrashuvdan boshlandi. Noor Phonetic Quran shunday tug'ildi."
+    },
+    "breadcrumb": {
+      "home": "Bosh sahifa",
+      "current": "Bizning Tariximiz"
+    },
+    "hero": {
+      "title": "Bizning Tariximiz",
+      "subtitle": "Yaqinda islomni qabul qilgan opa-singil bilan uchrashuv qanday qilib Noor Phonetic Quran'ni yaratdi.",
+      "imageAlt": "Islomni yangi qabul qilgan ayol, unga Qur'on o'qishda yordam beruvchi do'stlari o'rab olgan, telefonida Noor Phonetic Quran ilovasi bilan, ilovaning yaratilishiga ilhom bergan o'zaro yordamni ifodalaydi"
+    },
+    "story": {
+      "eyebrow": "Hammasi qanday boshlangan",
+      "title": "Hamma narsani o'zgartirgan uchrashuv",
+      "paragraphs": [
+        "Hammasi juda oddiy, deyarli kundalik tarzda boshlandi: yaqinda islomni qabul qilgan opa-singil bilan uchrashuv. U yangi imonida ishtiyoq va samimiyatga to'la edi, ammo u bizga oxir-oqibat ochib bergan sokin bir umidsizlikni ham olib yurardi.",
+        "U bizga arab tili bilan bog'liq qiyinchiligi haqida gapirdi. U butun qalbi bilan Qur'onni o'qish, tushunish, tilovat qilishni istardi, ammo arab alifbosi unga butunlay begona edi. Har bir o'qish urinishi umidsizlikka soladigan mashg'ulotga aylanardi: u harflarni tanimasdi, qayerda to'xtashni bilmasdi va o'qishga harakat qilayotgan so'zlarni to'g'ri talaffuz qilayotganiga hech qachon ishonchi komil emasdi.",
+        "U bizga yodimizda qolgan bir gapni aytdi: u Qur'onni, butun qalbi bilan allaqachon aziz tutgan bu kitobni, o'zi uchun kaliti yo'q xazina kabi \"yopiq\" his qilardi. U bu holatda yolg'iz emasdi: u xuddi shu qiyinchilikni boshdan kechirayotgan boshqa yangi musulmonlarni ham bilardi, ular sevgan, ammo hali o'qiy olmagan matn oldida xuddi shunday chetlanganlik hissi.",
+        "Bu suhbat bizni chuqur to'lqinlantirdi. Biz bu alohida hodisa emas, balki butun dunyo bo'yicha son-sanoqsiz odamlar boshdan kechirayotgan haqiqiy to'siq ekanligini angladik: yaqinda dinga kirganlar, shuningdek arab tilida so'zlashmaydigan oilalarda tug'ilgan musulmonlar, bolalar, ildizlaridan yillar davomida uzoqlashgan odamlar. Ushbu odamlarning barchasi bir xil samimiy istakni baham ko'rishardi: bir kechada arab alifbosini o'zlashtirmasdan ham Qur'onni o'qish va tushunish.",
+        "Ushbu anglashdan Noor Phonetic Quran g'oyasi tug'ildi. Biz Qur'onning har bir oyatini fonetik tarzda, oyat-boyat yozib beruvchi ilova yaratishga qaror qildik, shunda har kim birinchi kundan boshlab o'qishni va tilovat qilishni boshlashi mumkin, shu bilan birga talaffuz va Tajvid qoidalarini bosqichma-bosqich o'rganadi. Bizning maqsadimiz hech qachon arab tilini o'rganishning o'rnini bosish emas, balki boshlashga to'sqinlik qiluvchi birinchi to'siqni olib tashlash edi, shunda Qur'on o'qish nihoyat ushbu opa-singil va butun jamoamiz uchun oson bo'lsin.",
+        "O'shandan beri, bir insonning qiyinchiligiga javob sifatida boshlangan narsa butun dunyo bo'yicha o'nlab minglab musulmonlar tomonidan 20 dan ortiq tilda foydalaniladigan ilovaga aylandi. Ammo ruhi birinchi kundagidek qolmoqda: kamtarlik va samimiyat bilan, ushbu opa-singil qo'lida ushlab turishni istagan vositani yaratish."
+      ]
+    },
+    "mission": {
+      "title": "Bizni yo'naltiruvchi narsa",
+      "subtitle": "Noor Phonetic Quran'ning yaratilishiga ilhom bergan va har bir yangi xususiyatni yo'naltirishda davom etayotgan tamoyillar.",
+      "items": [
+        {
+          "icon": "fa-compass",
+          "title": "Birinchi to'siqni olib tashlash",
+          "text": "Arab tilini o'qiy olmaslik hech qachon kishini Qur'onni o'qish va tilovat qilishdan to'xtatmasligi kerak. Bizning fonetikamiz ushbu eshikni birinchi kundan boshlab ochish uchun mavjud."
+        },
+        {
+          "icon": "fa-users",
+          "title": "Butun jamoaga xizmat qilish",
+          "text": "Yangi dinga kirganlar, arab tilida so'zlashmaydigan musulmonlar, bolalar yoki arab tilidan uzoq bo'lgan har qanday inson: ilova har birini o'z sur'atida qo'llab-quvvatlash uchun mo'ljallangan."
+        },
+        {
+          "icon": "fa-graduation-cap",
+          "title": "Qo'llab-quvvatlash, o'rnini bosish emas",
+          "text": "Fonetika boshlang'ich nuqta, yakuniy maqsad emas. Biz har bir foydalanuvchini Qur'on arabchasini haqiqiy o'qishga rivojlanishga undaymiz."
+        },
+        {
+          "icon": "fa-heart",
+          "title": "Bepul va oson foydalanish mumkin",
+          "text": "Ilovaning asosiy qismi bepul qolmoqda, chunki Qur'onga kirish uchun til to'sig'iga moliyaviy to'siq qo'shilmasligi kerak."
+        }
+      ]
+    }
   },
   "blog": {
     "meta": {

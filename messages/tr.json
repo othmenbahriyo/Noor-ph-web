@@ -5,6 +5,7 @@
       "screenshots": "Ekran Görüntüleri",
       "reviews": "Yorumlar",
       "blog": "Blog",
+      "aboutUs": "Hikayemiz",
       "privacy": "Gizlilik",
       "contact": "İletişim",
       "openMenu": "Gezinme menüsünü aç",
@@ -24,7 +25,8 @@
         "correctionRecitation": "Tilavet Düzeltme",
         "privacyPolicy": "Gizlilik Politikası",
         "cgu": "Kullanım Koşulları",
-        "blog": "Blog"
+        "blog": "Blog",
+        "aboutUs": "Hikayemiz"
       }
     },
     "languageSwitcher": {
@@ -1684,6 +1686,61 @@
     "subtitle": "Büyüyen memnun kullanıcı topluluğumuzun yorumlarını keşfedin",
     "ratingCountLabel": "%COUNT% yorumdan",
     "loadMoreLabel": "Daha fazla yorum gör"
+  },
+  "aboutUs": {
+    "meta": {
+      "title": "Hikayemiz: Noor Phonetic Quran'ı neden oluşturduk",
+      "description": "Noor Phonetic Quran'ın ardındaki hikayeyi keşfedin: İslam'a yeni girmiş bir kız kardeşle tanışmamız, Arapça okumayı bilmeyenler dahil herkes için Kur'an okumayı erişilebilir kılan bir uygulama oluşturmamıza ilham verdi.",
+      "ogTitle": "Hikayemiz: Noor Phonetic Quran'ı neden oluşturduk",
+      "ogDescription": "Her şey, Arapça Kur'an okuyamayan, İslam'a yeni girmiş bir kız kardeşle tanışmamızla başladı. Noor Phonetic Quran işte böyle doğdu."
+    },
+    "breadcrumb": {
+      "home": "Anasayfa",
+      "current": "Hikayemiz"
+    },
+    "hero": {
+      "title": "Hikayemiz",
+      "subtitle": "İslam'a yeni girmiş bir kız kardeşle tanışmamızın Noor Phonetic Quran'ı nasıl doğurduğu.",
+      "imageAlt": "İslam'a yeni giren bir kadının, Kur'an okumasına yardım eden arkadaşlarıyla çevrili, telefonunda Noor Phonetic Quran uygulamasıyla, uygulamanın yaratılmasına ilham veren karşılıklı yardımı simgeleyen görüntüsü"
+    },
+    "story": {
+      "eyebrow": "Her şey nasıl başladı",
+      "title": "Her şeyi değiştiren bir tanışma",
+      "paragraphs": [
+        "Her şey çok basit, hatta sıradan bir şekilde başladı: İslam'a yeni girmiş bir kız kardeşle tanışma. Yeni imanında coşku ve samimiyet doluydu, ama aynı zamanda sonunda bize itiraf ettiği sessiz bir hayal kırıklığı da taşıyordu.",
+        "Bize Arapça ile olan zorluğunu anlattı. Bütün kalbiyle Kur'an'ı okumak, anlamak, ezbere okumak istiyordu, ama Arap alfabesi ona tamamen yabancıydı. Her okuma denemesi cesaret kırıcı bir alıştırmaya dönüşüyordu: harfleri tanımıyor, nerede durması gerektiğini bilmiyor ve okumaya çalıştığı kelimeleri doğru telaffuz edip etmediğinden hiçbir zaman emin olamıyordu.",
+        "Bize bizi derinden etkileyen bir söz söyledi: Kur'an'ın, bütün varlığıyla zaten değer verdiği bu kitabın, kendisi için anahtarı olmayan bir hazine gibi \"kapalı\" kaldığını hissediyordu. Bu durumda tek değildi: aynı zorluğu, henüz okuyamadıkları sevdikleri bir metin karşısında aynı dışlanmışlık hissini yaşayan başka yeni Müslümanlar tanıyordu.",
+        "Bu konuşma bizi çok etkiledi. Bunun tekil bir durum olmadığını, dünya çapında sayısız insanın yaşadığı gerçek bir engel olduğunu fark ettik: yeni İslam'a girenler, ama aynı zamanda Arapça konuşulmayan ailelerde doğan Müslümanlar, çocuklar, köklerinden yıllardır uzaklaşmış insanlar. Bütün bu insanlar aynı samimi isteği paylaşıyordu: Arap alfabesini bir gecede ustalaşmak zorunda kalmadan Kur'an'ı okumak ve anlamak.",
+        "Noor Phonetic Quran fikri işte bu gözlemden doğdu. Herkesin ilk günden itibaren okumaya ve ezbere okumaya başlayabilmesi için Kur'an'ın her ayetini fonetik olarak, ayet ayet çeviren bir uygulama oluşturmaya karar verdik, aynı zamanda telaffuz ve Tecvid kurallarını da aşamalı olarak öğreterek. Amacımız hiçbir zaman Arapça öğrenmenin yerini almak değildi, başlamayı engelleyen ilk engeli kaldırmaktı, böylece Kur'an okuma nihayet o kız kardeş ve tüm topluluğumuz için erişilebilir olabilirdi.",
+        "O zamandan beri, bir kişinin zorluğuna verilen bir cevap olarak başlayan şey, dünya çapında onlarca bin Müslüman tarafından 20'den fazla dilde kullanılan bir uygulamaya dönüştü. Ama ruh ilk günkü gibi kalıyor: alçakgönüllülük ve samimiyetle, o kız kardeşin elinde tutmayı isteyeceği aracı inşa etmek."
+      ]
+    },
+    "mission": {
+      "title": "Bizi yönlendiren şey",
+      "subtitle": "Noor Phonetic Quran'ın oluşturulmasına ilham veren ve her yeni özelliği yönlendirmeye devam eden ilkeler.",
+      "items": [
+        {
+          "icon": "fa-compass",
+          "title": "İlk engeli kaldırmak",
+          "text": "Arapça okumayı bilmemek, birinin Kur'an'ı okumasını ve ezbere okumasını hiçbir zaman engellemez. Fonetiğimiz bu kapıyı ilk günden itibaren açmak için var."
+        },
+        {
+          "icon": "fa-users",
+          "title": "Tüm topluluğa hizmet etmek",
+          "text": "Yeni Müslümanlar, Arapça konuşmayan Müslümanlar, çocuklar veya Arapçadan uzak herkes: uygulama herkesi kendi hızında desteklemek için tasarlandı."
+        },
+        {
+          "icon": "fa-graduation-cap",
+          "title": "Desteklemek, yerini almamak",
+          "text": "Fonetik bir başlangıç noktasıdır, kendi içinde bir amaç değil. Her kullanıcıyı Kur'an Arapçasının özgün okumasına doğru ilerlemeye teşvik ediyoruz."
+        },
+        {
+          "icon": "fa-heart",
+          "title": "Ücretsiz ve erişilebilir",
+          "text": "Uygulamanın temel özü ücretsiz kalır, çünkü Kur'an'a erişmek için dil engelinin üzerine hiçbir mali engel eklenmemelidir."
+        }
+      ]
+    }
   },
   "blog": {
     "meta": {

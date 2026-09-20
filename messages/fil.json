@@ -5,6 +5,7 @@
       "screenshots": "Mga Screenshot",
       "reviews": "Mga Review",
       "blog": "Blog",
+      "aboutUs": "Ang Aming Kuwento",
       "privacy": "Privacy",
       "contact": "Makipag-ugnayan",
       "openMenu": "Buksan ang navigation menu",
@@ -24,7 +25,8 @@
         "correctionRecitation": "Pagwawasto ng Pagbigkas",
         "privacyPolicy": "Patakaran sa Privacy",
         "cgu": "Mga Tuntunin ng Paggamit",
-        "blog": "Blog"
+        "blog": "Blog",
+        "aboutUs": "Ang Aming Kuwento"
       }
     },
     "languageSwitcher": {
@@ -1684,6 +1686,61 @@
     "subtitle": "Tuklasin ang mga review ng aming lumalaking komunidad ng satisfied na users",
     "ratingCountLabel": "sa %COUNT% na review",
     "loadMoreLabel": "Tingnan ang Higit Pang Review"
+  },
+  "aboutUs": {
+    "meta": {
+      "title": "Ang aming kuwento: kung bakit ginawa namin ang Noor Phonetic Quran",
+      "description": "Alamin ang kuwento sa likod ng Noor Phonetic Quran: ang pagkikita namin sa isang kapatid na bagong yakap sa Islam ang nag-udyok sa amin na gumawa ng app na gagawing madaling ma-access ng lahat ang pagbasa ng Quran, kahit hindi marunong magbasa ng Arabic.",
+      "ogTitle": "Ang aming kuwento: kung bakit ginawa namin ang Noor Phonetic Quran",
+      "ogDescription": "Nagsimula ang lahat sa pagkikita namin sa isang kapatid na bagong yakap sa Islam na hindi makabasa ng Quran sa Arabic. Ganito nasilang ang Noor Phonetic Quran."
+    },
+    "breadcrumb": {
+      "home": "Home",
+      "current": "Ang Aming Kuwento"
+    },
+    "hero": {
+      "title": "Ang Aming Kuwento",
+      "subtitle": "Paano ang pagkikita namin sa isang kapatid na bagong yakap sa Islam ang nagbigay-buhay sa Noor Phonetic Quran.",
+      "imageAlt": "Isang bagong Muslim na napapaligiran ng mga kaibigan na tumutulong sa kanya na basahin ang Quran, kasama ang Noor Phonetic Quran app sa kanyang telepono, simbolo ng tulungan na nag-udyok sa paglikha ng app"
+    },
+    "story": {
+      "eyebrow": "Paano nagsimula ang lahat",
+      "title": "Isang pagkikita na nagbago ng lahat",
+      "paragraphs": [
+        "Nagsimula ang lahat sa isang napakasimple, halos ordinaryong paraan: ang pagkikita sa isang kapatid na bagong yakap sa Islam. Puno siya ng sigla at katapatan sa kanyang bagong pananampalataya, ngunit dala-dala niya rin ang tahimik na pagkabigo na sa huli ay ibinahagi niya sa amin.",
+        "Kinuwento niya sa amin ang kanyang hirap sa wikang Arabic. Buong puso niyang ninanais na basahin ang Quran, unawain ito, bigkasin ito, ngunit ang alpabetong Arabic ay ganap na hindi pamilyar sa kanya. Bawat pagtatangka niyang magbasa ay nagiging isang nakakadismaya na ehersisyo: hindi niya nakikilala ang mga letra, hindi niya alam kung saan hihinto, at kailanman ay hindi siya sigurado kung tama ang kanyang binibigkas na mga salita.",
+        "Sinabi niya sa amin ang isang bagay na naiwan sa aming puso: pakiramdam niya, ang Quran, ang aklat na minamahal na niya nang buong puso, ay nananatiling \"sarado\" para sa kanya, tulad ng isang kayamanan na hindi niya hawak ang susi. Hindi siya nag-iisa sa ganitong sitwasyon: kilala niya ang iba pang bagong Muslim na nakararanas ng eksaktong parehong hirap, ang parehong pakiramdam ng pag-iwas sa isang tekstong minamahal nila ngunit hindi pa nila kayang basahin.",
+        "Malalim kaming naantig ng pag-uusap na ito. Napagtanto namin na hindi ito nag-iisang kaso, kundi isang totoong hadlang na dinaranas ng napakaraming tao sa buong mundo: mga bagong nagbalik-loob, ngunit pati mga Muslim na ipinanganak sa mga hindi Arabic-speaking na pamilya, mga bata, mga taong malayo na sa kanilang mga ugat sa loob ng maraming taon. Lahat ng mga taong ito ay may parehong tapat na pagnanais: basahin at unawain ang Quran, nang hindi kinakailangang maging bihasa sa alpabetong Arabic sa isang gabi lamang.",
+        "Sa pagtanto na ito nabuo ang ideya ng Noor Phonetic Quran. Nagpasya kaming gumawa ng app na nagsasalin ng bawat talata ng Quran sa phonetics, talata kada talata, upang ang sinuman ay makapagsimulang basahin at bigkasin mula sa unang araw, habang unti-unting natutunan ang mga panuntunan sa bigkas at Tajweed. Ang aming layunin ay hindi kailanman ang palitan ang pag-aaral ng Arabic, kundi alisin ang unang hadlang, ang humahadlang sa pagsisimula, upang ang pagbasa ng Quran ay sa wakas ay maging madaling ma-access para sa kapatid na iyon, at sa buong aming komunidad.",
+        "Mula noon, ang nagsimula bilang tugon sa hirap ng isang tao lamang ay naging isang app na ginagamit ng sampu-sampung libong Muslim sa buong mundo, sa mahigit 20 wika. Ngunit ang diwa ay nananatiling pareho ng unang araw: buuin, nang may kababaang-loob at katapatan, ang kasangkapan na sana hawak ng kapatid na iyon."
+      ]
+    },
+    "mission": {
+      "title": "Ang gumagabay sa amin",
+      "subtitle": "Ang mga prinsipyo na nag-udyok sa paglikha ng Noor Phonetic Quran at patuloy na gumagabay sa bawat bagong tampok.",
+      "items": [
+        {
+          "icon": "fa-compass",
+          "title": "Alisin ang unang hadlang",
+          "text": "Ang hindi pagkabasa ng Arabic ay hindi dapat kailanman humadlang sa isang tao na basahin at bigkasin ang Quran. Umiiral ang aming phonetics upang buksan ang pintong ito, mula sa unang araw."
+        },
+        {
+          "icon": "fa-users",
+          "title": "Paglilingkuran ang buong komunidad",
+          "text": "Mga bagong nagbalik-loob, mga Muslim na hindi nagsasalita ng Arabic, mga bata, o sinumang malayo sa Arabic: ang app ay idinisenyo upang samahan ang bawat isa, ayon sa kanya-kanyang bilis."
+        },
+        {
+          "icon": "fa-graduation-cap",
+          "title": "Samahan, hindi palitan",
+          "text": "Ang phonetics ay isang panimulang punto, hindi isang huling layunin. Hinihikayat namin ang bawat gumagamit na umunlad tungo sa tunay na pagbasa ng Quranic Arabic."
+        },
+        {
+          "icon": "fa-heart",
+          "title": "Libre at madaling ma-access",
+          "text": "Ang pangunahing bahagi ng app ay nananatiling libre, dahil hindi dapat magdagdag ng anumang pinansyal na hadlang sa hadlang ng wika upang ma-access ang Quran."
+        }
+      ]
+    }
   },
   "blog": {
     "meta": {

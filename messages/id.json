@@ -5,6 +5,7 @@
       "screenshots": "Tangkapan Layar",
       "reviews": "Ulasan",
       "blog": "Blog",
+      "aboutUs": "Kisah Kami",
       "privacy": "Privasi",
       "contact": "Kontak",
       "openMenu": "Buka menu navigasi",
@@ -24,7 +25,8 @@
         "correctionRecitation": "Koreksi Bacaan",
         "privacyPolicy": "Kebijakan Privasi",
         "cgu": "Syarat Penggunaan",
-        "blog": "Blog"
+        "blog": "Blog",
+        "aboutUs": "Kisah Kami"
       }
     },
     "languageSwitcher": {
@@ -1684,6 +1686,61 @@
     "subtitle": "Lihat ulasan dari komunitas pengguna puas kami yang terus berkembang",
     "ratingCountLabel": "dari %COUNT% ulasan",
     "loadMoreLabel": "Lihat lebih banyak ulasan"
+  },
+  "aboutUs": {
+    "meta": {
+      "title": "Kisah kami: mengapa kami menciptakan Noor Phonetic Quran",
+      "description": "Temukan kisah di balik Noor Phonetic Quran: pertemuan dengan seorang saudari yang baru masuk Islam menginspirasi kami untuk membuat aplikasi yang membuat membaca Al-Qur'an mudah diakses oleh semua orang, bahkan tanpa bisa membaca bahasa Arab.",
+      "ogTitle": "Kisah kami: mengapa kami menciptakan Noor Phonetic Quran",
+      "ogDescription": "Semuanya dimulai dengan pertemuan seorang saudari yang baru masuk Islam dan tidak bisa membaca Al-Qur'an dalam bahasa Arab. Begitulah Noor Phonetic Quran lahir."
+    },
+    "breadcrumb": {
+      "home": "Beranda",
+      "current": "Kisah Kami"
+    },
+    "hero": {
+      "title": "Kisah Kami",
+      "subtitle": "Bagaimana pertemuan dengan seorang saudari yang baru masuk Islam melahirkan Noor Phonetic Quran.",
+      "imageAlt": "Seorang mualaf baru dikelilingi teman-teman yang membantunya membaca Al-Qur'an, dengan aplikasi Noor Phonetic Quran di ponselnya, melambangkan saling membantu yang menginspirasi terciptanya aplikasi ini"
+    },
+    "story": {
+      "eyebrow": "Bagaimana semuanya bermula",
+      "title": "Pertemuan yang mengubah segalanya",
+      "paragraphs": [
+        "Semuanya bermula dengan cara yang sangat sederhana, hampir biasa saja: pertemuan dengan seorang saudari yang baru saja masuk Islam. Ia penuh semangat dan ketulusan dalam iman barunya, tetapi ia juga menyimpan kekecewaan diam-diam yang akhirnya ia ceritakan kepada kami.",
+        "Ia menceritakan kesulitannya dengan bahasa Arab. Ia ingin sekali membaca Al-Qur'an, memahaminya, membacanya dengan tilawah, tetapi huruf Arab benar-benar asing baginya. Setiap kali mencoba membaca, itu berubah menjadi latihan yang membuat patah semangat: ia tidak mengenali huruf-hurufnya, tidak tahu di mana harus berhenti, dan tidak pernah yakin apakah ia mengucapkan kata-kata yang dibacanya dengan benar.",
+        "Ia mengatakan sesuatu yang membekas di hati kami: ia merasa Al-Qur'an, kitab yang sudah ia cintai dengan sepenuh hati, tetap \"tertutup\" baginya, seperti harta karun yang tidak ia miliki kuncinya. Ia tidak sendirian dalam hal ini: ia mengenal muslim baru lainnya yang mengalami kesulitan yang sama persis, perasaan tersisih yang sama di hadapan sebuah teks yang mereka cintai namun belum bisa mereka baca.",
+        "Percakapan itu sangat menyentuh kami. Kami menyadari bahwa ini bukan kasus yang terisolasi, tetapi hambatan nyata yang dialami oleh sangat banyak orang di seluruh dunia: mualaf baru, tetapi juga muslim yang lahir dalam keluarga non-Arab, anak-anak, orang-orang yang sudah lama menjauh dari akar mereka. Semua orang ini memiliki keinginan tulus yang sama: membaca dan memahami Al-Qur'an, tanpa harus menguasai huruf Arab dalam waktu semalam.",
+        "Dari kesadaran inilah lahir ide Noor Phonetic Quran. Kami memutuskan untuk membuat aplikasi yang menuliskan setiap ayat Al-Qur'an secara fonetik, ayat demi ayat, sehingga siapa pun bisa mulai membaca dan melafalkannya dari hari pertama, sambil secara bertahap belajar aturan pengucapan dan Tajwid. Tujuan kami bukanlah menggantikan pembelajaran bahasa Arab, melainkan menghilangkan hambatan pertama, yang menghalangi seseorang untuk mulai, agar membaca Al-Qur'an akhirnya dapat diakses oleh saudari tersebut, dan oleh seluruh komunitas kami.",
+        "Sejak itu, apa yang dimulai sebagai jawaban atas kesulitan satu orang telah berkembang menjadi aplikasi yang digunakan oleh puluhan ribu muslim di seluruh dunia, dalam lebih dari 20 bahasa. Namun semangatnya tetap sama seperti hari pertama: membangun, dengan kerendahan hati dan ketulusan, alat yang ingin dimiliki oleh saudari tersebut."
+      ]
+    },
+    "mission": {
+      "title": "Yang memandu kami",
+      "subtitle": "Prinsip-prinsip yang menginspirasi terciptanya Noor Phonetic Quran dan yang terus memandu setiap fitur baru.",
+      "items": [
+        {
+          "icon": "fa-compass",
+          "title": "Menghilangkan hambatan pertama",
+          "text": "Tidak bisa membaca bahasa Arab tidak seharusnya menghalangi seseorang untuk membaca dan melafalkan Al-Qur'an. Fonetik kami ada untuk membuka pintu ini, sejak hari pertama."
+        },
+        {
+          "icon": "fa-users",
+          "title": "Melayani seluruh komunitas",
+          "text": "Mualaf baru, muslim non-Arab, anak-anak, atau siapa pun yang jauh dari bahasa Arab: aplikasi ini dirancang untuk mendampingi setiap orang, sesuai kecepatannya masing-masing."
+        },
+        {
+          "icon": "fa-graduation-cap",
+          "title": "Mendampingi, bukan menggantikan",
+          "text": "Fonetik adalah titik awal, bukan tujuan akhir. Kami mendorong setiap pengguna untuk terus berkembang menuju pembacaan otentik bahasa Arab Al-Qur'an."
+        },
+        {
+          "icon": "fa-heart",
+          "title": "Gratis dan mudah diakses",
+          "text": "Inti dari aplikasi ini tetap gratis, karena tidak seharusnya ada hambatan finansial yang ditambahkan pada hambatan bahasa untuk mengakses Al-Qur'an."
+        }
+      ]
+    }
   },
   "blog": {
     "meta": {

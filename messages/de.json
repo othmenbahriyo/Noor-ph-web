@@ -5,6 +5,7 @@
       "screenshots": "Screenshots",
       "reviews": "Bewertungen",
       "blog": "Blog",
+      "aboutUs": "Unsere Geschichte",
       "privacy": "Datenschutz",
       "contact": "Kontakt",
       "openMenu": "Navigationsmenü öffnen",
@@ -24,7 +25,8 @@
         "correctionRecitation": "Rezitationskorrektur",
         "privacyPolicy": "Datenschutzrichtlinie",
         "cgu": "Nutzungsbedingungen",
-        "blog": "Blog"
+        "blog": "Blog",
+        "aboutUs": "Unsere Geschichte"
       }
     },
     "languageSwitcher": {
@@ -1684,6 +1686,61 @@
     "subtitle": "Entdecken Sie die Bewertungen unserer wachsenden Community zufriedener Nutzer",
     "ratingCountLabel": "von %COUNT% Bewertungen",
     "loadMoreLabel": "Mehr Bewertungen anzeigen"
+  },
+  "aboutUs": {
+    "meta": {
+      "title": "Unsere Geschichte: Warum wir Noor Phonetic Quran entwickelt haben",
+      "description": "Erfahren Sie die Geschichte hinter Noor Phonetic Quran: Die Begegnung mit einer Schwester, die gerade zum Islam konvertiert war, inspirierte uns zu einer App, die das Lesen des Korans für alle zugänglich macht, auch ohne Arabisch lesen zu können.",
+      "ogTitle": "Unsere Geschichte: Warum wir Noor Phonetic Quran entwickelt haben",
+      "ogDescription": "Alles begann mit der Begegnung mit einer Schwester, die gerade zum Islam konvertiert war und den Koran nicht auf Arabisch lesen konnte. So entstand Noor Phonetic Quran."
+    },
+    "breadcrumb": {
+      "home": "Startseite",
+      "current": "Unsere Geschichte"
+    },
+    "hero": {
+      "title": "Unsere Geschichte",
+      "subtitle": "Wie die Begegnung mit einer Schwester, die gerade zum Islam konvertiert war, Noor Phonetic Quran entstehen ließ.",
+      "imageAlt": "Eine neue Konvertitin zum Islam, umgeben von Freunden, die ihr beim Lesen des Korans helfen, mit der Noor Phonetic Quran App auf ihrem Telefon, als Symbol für die gegenseitige Hilfe, die zur Entwicklung der App inspirierte"
+    },
+    "story": {
+      "eyebrow": "Wie alles begann",
+      "title": "Eine Begegnung, die alles veränderte",
+      "paragraphs": [
+        "Alles begann auf sehr einfache, fast beiläufige Weise: mit der Begegnung mit einer Schwester, die gerade zum Islam konvertiert war. Sie war voller Begeisterung und Aufrichtigkeit in ihrem neuen Glauben, trug aber auch eine stille Frustration in sich, die sie uns schließlich anvertraute.",
+        "Sie erzählte uns von ihrer Schwierigkeit mit der arabischen Sprache. Sie wollte von ganzem Herzen den Koran lesen, ihn verstehen, ihn rezitieren, aber das arabische Alphabet war ihr völlig fremd. Jeder Leseversuch wurde zu einer entmutigenden Übung: Sie erkannte die Buchstaben nicht, wusste nicht, wo sie Pausen machen sollte, und war sich nie sicher, ob sie die Wörter, die sie zu lesen versuchte, richtig aussprach.",
+        "Sie sagte uns einen Satz, der uns berührte: Sie hatte das Gefühl, dass der Koran, dieses Buch, das sie bereits mit ihrem ganzen Wesen liebte, für sie \"verschlossen\" blieb, wie ein Schatz, zu dem sie keinen Schlüssel hatte. Sie war damit nicht allein: Sie kannte andere Neumuslime, die genau die gleiche Schwierigkeit erlebten, das gleiche Gefühl der Ausgrenzung von einem Text, den sie liebten, ohne ihn noch lesen zu können.",
+        "Dieses Gespräch hat uns sehr berührt. Wir erkannten, dass es sich nicht um einen Einzelfall handelte, sondern um ein echtes Hindernis, das unzählige Menschen weltweit erleben: neue Konvertiten, aber auch Muslime, die in nicht-arabischsprachigen Familien geboren wurden, Kinder, Menschen, die sich seit Jahren von ihren Wurzeln entfernt haben. Alle diese Menschen teilten den gleichen aufrichtigen Wunsch: den Koran zu lesen und zu verstehen, ohne das arabische Alphabet von heute auf morgen meistern zu müssen.",
+        "Aus dieser Erkenntnis entstand die Idee von Noor Phonetic Quran. Wir beschlossen, eine App zu entwickeln, die jeden Vers des Korans phonetisch transkribiert, Vers für Vers, damit jeder von Tag eins an lesen und rezitieren kann, während er nach und nach die Regeln der Aussprache und des Tajweed lernt. Unser Ziel war nie, das Erlernen der arabischen Sprache zu ersetzen, sondern die erste Barriere zu beseitigen, jene, die den Anfang verhindert, damit das Lesen des Korans endlich für diese Schwester und für unsere gesamte Gemeinschaft zugänglich wird.",
+        "Seitdem ist aus dem, was als Antwort auf die Schwierigkeit einer einzigen Person begann, eine App geworden, die von Zehntausenden Muslimen weltweit in mehr als 20 Sprachen genutzt wird. Doch der Geist bleibt derselbe wie am ersten Tag: mit Demut und Aufrichtigkeit das Werkzeug zu bauen, das diese Schwester gerne in ihren Händen gehabt hätte."
+      ]
+    },
+    "mission": {
+      "title": "Was uns leitet",
+      "subtitle": "Die Prinzipien, die die Entwicklung von Noor Phonetic Quran inspiriert haben und die weiterhin jede neue Funktion leiten.",
+      "items": [
+        {
+          "icon": "fa-compass",
+          "title": "Die erste Barriere beseitigen",
+          "text": "Arabisch nicht lesen zu können, sollte niemanden davon abhalten, den Koran zu lesen und zu rezitieren. Unsere Phonetik existiert, um diese Tür von Tag eins an zu öffnen."
+        },
+        {
+          "icon": "fa-users",
+          "title": "Der gesamten Gemeinschaft dienen",
+          "text": "Neue Konvertiten, nicht-arabischsprachige Muslime, Kinder oder jeder, der dem Arabischen fernsteht: Die App ist dafür konzipiert, jeden in seinem eigenen Tempo zu begleiten."
+        },
+        {
+          "icon": "fa-graduation-cap",
+          "title": "Begleiten, nicht ersetzen",
+          "text": "Die Phonetik ist ein Ausgangspunkt, kein Endziel. Wir ermutigen jeden Nutzer, sich zu einer authentischen Lesung des koranischen Arabisch weiterzuentwickeln."
+        },
+        {
+          "icon": "fa-heart",
+          "title": "Kostenlos und zugänglich",
+          "text": "Der Kern der App bleibt kostenlos, denn keine finanzielle Barriere sollte zur Sprachbarriere hinzukommen, um Zugang zum Koran zu erhalten."
+        }
+      ]
+    }
   },
   "blog": {
     "meta": {

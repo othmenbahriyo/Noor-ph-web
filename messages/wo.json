@@ -5,6 +5,7 @@
       "screenshots": "Nataal yi",
       "reviews": "Xamle yi",
       "blog": "Blog",
+      "aboutUs": "Taariixa Bi Sunu",
       "privacy": "Sutura",
       "contact": "Jokkoo",
       "openMenu": "Ubbi menu bi",
@@ -24,7 +25,8 @@
         "correctionRecitation": "Njub Jàng",
         "privacyPolicy": "Politik ci Sutura",
         "cgu": "Sart yu Jëfandikoo",
-        "blog": "Blog"
+        "blog": "Blog",
+        "aboutUs": "Taariixa Bi Sunu"
       }
     },
     "languageSwitcher": {
@@ -1684,6 +1686,61 @@
     "subtitle": "Xam xamle yu sunu àndaale bu mag te bég",
     "ratingCountLabel": "ci %COUNT% xamle",
     "loadMoreLabel": "Séet yeneen xamle"
+  },
+  "aboutUs": {
+    "meta": {
+      "title": "Taariixa bi sunu: lu tax nu def Noor Phonetic Quran",
+      "description": "Xam taariixa bi ci gannaaw Noor Phonetic Quran: bennub jokkoo ak benn jigéen bu jub ci lislaam bu bees, moo nu jox xel ngir def app bu may ñépp jàng Alxuraan, ba noppi ci ñi xamul araab.",
+      "ogTitle": "Taariixa bi sunu: lu tax nu def Noor Phonetic Quran",
+      "ogDescription": "Lépp dafa tàmbalee ci jokkoo ak benn jigéen bu jub ci lislaam bu bees te mënul jàng Alxuraan ci araab. Noonu la Noor Phonetic Quran juddoo."
+    },
+    "breadcrumb": {
+      "home": "Kër",
+      "current": "Taariixa Bi Sunu"
+    },
+    "hero": {
+      "title": "Taariixa Bi Sunu",
+      "subtitle": "Naka la jokkoo ak benn jigéen bu jub ci lislaam bu bees jur Noor Phonetic Quran.",
+      "imageAlt": "Benn jigéen bu bees jub ci lislaam wërale ci ay xarit yu koy dimbali mu jàng Alxuraan, ak app Noor Phonetic Quran ci telefon bi, di melokaani ndimbal mu joxe xel ngir sos app bi"
+    },
+    "story": {
+      "eyebrow": "Naka lépp tàmbalee",
+      "title": "Bennub jokkoo bu soppi lépp",
+      "paragraphs": [
+        "Lépp dafa tàmbalee ci anam bu yomb, lu jege lu ñu deful yaakaar: jokkoo ak benn jigéen bu nekkoon di jub ci lislaam bu bees. Moom dafa fees ak farlu ak sellal ci ndigalam bu bees, waaye it moom dafa yor benn tiis bu ne dof, bu mu ci mujj wax nu.",
+        "Mu wax nu naka la jafe ci làkkug araab. Moom bëgg lool ci xolam bépp jàng Alxuraan, xamale ko, jàng ko, waaye alfabet araab bi loolu du dara ci moom. Bépp yëf mu def ngir jàng dafay soppiku ci lu koy toroxal xol: mënu la xam araf yi, xamul fu war a taxaw, tey mënul mat woon ni mu di waxe baat yi mu di jéem a jàng.",
+        "Mu wax nu benn baat bu ne nu ci xol: mu gis ni Alxuraan, tééré boobu mu bëggoon ba noppi ak xolam bépp, moo dee \"tëj\" ci moom, mel ni alal ju mu amul caabi ba. Moom kese la ci mbir mii: moom xamoon it ñeneen musilmaan yu bees yu jekk ci menn coona, menn xalaat mu jóge ci lu ñu bëgg te mënuñu ko jàng.",
+        "Waxtaan boobu dafa nu yëngal lool. Nu gis ni loolu du bennub mbir bu jekkul, waaye benn coona bu jëm ci ay nit yu bare lool ci àdduna bépp: ñi bees jub ci lislaam, waaye it musilmaan yu juddu ci njabootu araab dul waxe, gune yi, ñi jóge ci ganaaw seen njariñ diirub at yu bare. Nit ñii ñépp am nañu bennub bëgg-bëgg bu dëggu: jàng te xamale Alxuraan, te du war a mat alfabet araab ci benn guddi.",
+        "Ci gis-gis boobu la woon xalaat bu Noor Phonetic Quran juddu. Nu dogu def app bu di jubbanti aayaat bu nekk ci Alxuraan ci fonetik, aayaat ci aayaat, ngir ne kenn mën na tàmbali jàng te jàng dale ci bis bu jëkk, di jàng it ay-yoonu wax ju baax ak Tajwiid. Sunu tekki du woon ne dana wuutu jàngal araab, waaye dana jële coona bu jëkk, boobu di tere kenn tàmbali, ngir ne jàngug Alxuraan man na mujj dellusi jigéen jooju, ak sunu mbootaay bépp.",
+        "Ba tey, lu tàmbalee ni tontu ci coonab kenn rekk moo mujj app buñuy jëfandikoo ay junniy junniy musilmaan ci àdduna bépp, ci lu ëpp 20 làkk. Waaye xel wi mooy mel ni ci bis bu jëkk: sos, ak yaru ak sellal, jumtukaay ju jigéen jooju bëggoon a am ci loxoom."
+      ]
+    },
+    "mission": {
+      "title": "Lu nuy jiitu",
+      "subtitle": "Ay yoon yu joxe xel ngir sos Noor Phonetic Quran te di jiitu bépp yëf bu bees.",
+      "items": [
+        {
+          "icon": "fa-compass",
+          "title": "Jële coona bu jëkk",
+          "text": "Xamul araab warul mukk a tere kenn jàng ak jàng Alxuraan. Sunu fonetik am na ngir ubbi buntu boobu, dale ci bis bu jëkk."
+        },
+        {
+          "icon": "fa-users",
+          "title": "Jaari mbootaay bépp",
+          "text": "Ñi bees jub, musilmaan yu xamul araab, gune yi, walla kenn ku ku jóge ci araab: app bi defe nañu ko ngir dimbali ku nekk, ci fetteem."
+        },
+        {
+          "icon": "fa-graduation-cap",
+          "title": "Dimbali, du wuutu",
+          "text": "Fonetik mooy tàmbaliku, du yem-bëg. Danu jappe ku jëfandikoo bépp ngir mu jëm ci jàngug araab-ul-Qur'aan bu dëggu."
+        },
+        {
+          "icon": "fa-heart",
+          "title": "Amul njëg te am ñépp ci",
+          "text": "Njëmbëtug app bi amul njëg, ndaxte amul benn coonab xaalis wu war a yokku ci coonab làkk ngir jot Alxuraan."
+        }
+      ]
+    }
   },
   "blog": {
     "meta": {

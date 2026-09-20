@@ -5,6 +5,7 @@
       "screenshots": "Schermate",
       "reviews": "Recensioni",
       "blog": "Blog",
+      "aboutUs": "La Nostra Storia",
       "privacy": "Privacy",
       "contact": "Contatto",
       "openMenu": "Apri il menu di navigazione",
@@ -24,7 +25,8 @@
         "correctionRecitation": "Correzione della Recitazione",
         "privacyPolicy": "Informativa sulla Privacy",
         "cgu": "Termini di Utilizzo",
-        "blog": "Blog"
+        "blog": "Blog",
+        "aboutUs": "La Nostra Storia"
       }
     },
     "languageSwitcher": {
@@ -1684,6 +1686,61 @@
     "subtitle": "Scopri le recensioni della nostra comunità in crescita di utenti soddisfatti",
     "ratingCountLabel": "su %COUNT% recensioni",
     "loadMoreLabel": "Vedi altre recensioni"
+  },
+  "aboutUs": {
+    "meta": {
+      "title": "La nostra storia: perché abbiamo creato Noor Phonetic Quran",
+      "description": "Scopri la storia dietro Noor Phonetic Quran: l'incontro con una sorella appena convertita all'islam ci ha spinto a creare un'app che rende accessibile a tutti la lettura del Corano, anche senza saper leggere l'arabo.",
+      "ogTitle": "La nostra storia: perché abbiamo creato Noor Phonetic Quran",
+      "ogDescription": "Tutto è iniziato con l'incontro con una sorella appena convertita all'islam che non riusciva a leggere il Corano in arabo. Ecco come è nata Noor Phonetic Quran."
+    },
+    "breadcrumb": {
+      "home": "Home",
+      "current": "La Nostra Storia"
+    },
+    "hero": {
+      "title": "La Nostra Storia",
+      "subtitle": "Come l'incontro con una sorella appena convertita all'islam ha dato vita a Noor Phonetic Quran.",
+      "imageAlt": "Una nuova convertita all'islam circondata da amici che l'aiutano a leggere il Corano, con l'app Noor Phonetic Quran sul suo telefono, simbolo del sostegno reciproco che ha ispirato la creazione dell'app"
+    },
+    "story": {
+      "eyebrow": "Come è iniziato tutto",
+      "title": "Un incontro che ha cambiato tutto",
+      "paragraphs": [
+        "Tutto è iniziato in modo molto semplice, quasi banale: un incontro con una sorella che si era appena convertita all'islam. Era piena di entusiasmo e sincerità nella sua nuova fede, ma portava anche una frustrazione silenziosa che alla fine ci ha confidato.",
+        "Ci ha raccontato la sua difficoltà con la lingua araba. Desiderava con tutto il cuore leggere il Corano, comprenderlo, recitarlo, ma l'alfabeto arabo le era completamente estraneo. Ogni tentativo di lettura si trasformava in un esercizio scoraggiante: non riconosceva le lettere, non sapeva dove fare le pause, e non era mai sicura di pronunciare correttamente le parole che cercava di leggere.",
+        "Ci ha detto una frase che ci ha colpito: sentiva che il Corano, questo libro che già custodiva con tutto il suo essere, restava \"chiuso\" per lei, come un tesoro di cui non aveva la chiave. Non era sola in questo: conosceva altri nuovi musulmani che vivevano esattamente la stessa difficoltà, lo stesso senso di esclusione davanti a un testo che amavano senza ancora poterlo leggere.",
+        "Questa conversazione ci ha toccato profondamente. Ci siamo rese conto che non si trattava di un caso isolato, ma di un vero ostacolo vissuto da moltissime persone in tutto il mondo: convertiti recenti, ma anche musulmani nati in famiglie non arabofone, bambini, persone lontane dalle proprie radici da anni. Tutte queste persone condividevano lo stesso desiderio sincero: leggere e comprendere il Corano, senza necessariamente padroneggiare l'alfabeto arabo da un giorno all'altro.",
+        "Da questa constatazione è nata l'idea di Noor Phonetic Quran. Abbiamo deciso di creare un'app che trascrive ogni versetto del Corano in fonetica, versetto per versetto, affinché chiunque possa iniziare a leggere e recitare dal primo giorno, imparando progressivamente le regole di pronuncia e il Tajweed. Il nostro obiettivo non era mai sostituire l'apprendimento dell'arabo, ma rimuovere la prima barriera, quella che impedisce di iniziare, affinché la lettura del Corano diventasse finalmente accessibile per quella sorella, e per tutta la nostra comunità.",
+        "Da allora, quello che è iniziato come una risposta alla difficoltà di una sola persona è diventato un'app utilizzata da decine di migliaia di musulmani in tutto il mondo, in più di 20 lingue. Ma lo spirito resta lo stesso del primo giorno: costruire, con umiltà e sincerità, lo strumento che quella sorella avrebbe voluto avere tra le mani."
+      ]
+    },
+    "mission": {
+      "title": "Ciò che ci guida",
+      "subtitle": "I principi che hanno ispirato la creazione di Noor Phonetic Quran e che continuano a guidare ogni nuova funzionalità.",
+      "items": [
+        {
+          "icon": "fa-compass",
+          "title": "Rimuovere la prima barriera",
+          "text": "Non saper leggere l'arabo non dovrebbe mai impedire a qualcuno di leggere e recitare il Corano. La nostra fonetica esiste per aprire questa porta, dal primo giorno."
+        },
+        {
+          "icon": "fa-users",
+          "title": "Servire tutta la comunità",
+          "text": "Nuovi convertiti, musulmani non arabofoni, bambini, o chiunque sia lontano dall'arabo: l'app è pensata per accompagnare ognuno, al proprio ritmo."
+        },
+        {
+          "icon": "fa-graduation-cap",
+          "title": "Accompagnare, non sostituire",
+          "text": "La fonetica è un punto di partenza, non un fine in sé. Incoraggiamo ogni utente a progredire verso una lettura autentica dell'arabo coranico."
+        },
+        {
+          "icon": "fa-heart",
+          "title": "Gratuita e accessibile",
+          "text": "L'essenziale dell'app resta gratuito, perché nessuna barriera economica dovrebbe aggiungersi alla barriera linguistica per accedere al Corano."
+        }
+      ]
+    }
   },
   "blog": {
     "meta": {
