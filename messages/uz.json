@@ -109,11 +109,11 @@
   },
   "home": {
     "meta": {
-      "title": "Noor Phonetic Quran - Qur'on O'rganish Ilovasi",
-      "description": "Noor Phonetic Quran - Qur'onni tilovat qilish, yodlash (Hifz) va to'liq o'qishni (Khatma) o'rgatuvchi bepul ilova. Fonetik transkripsiya, sinxron audio, rangli Tajweed, makharij al-huruf, Azkor, Ramazon dasturi, jonli Qur'on radiosi, kunlik o'qish rejasi, viktorina va tilovat tuzatish. 80 ming+ mamnun foydalanuvchi. iOS va Android'da mavjud.",
-      "keywords": "fonetik Qur'on, Qur'on o'rganish, Quran phonetics, Qur'on tilovati, Tajweed, bepul Qur'on ilovasi, arab fransuz Qur'oni, Qur'on fonetik transkripsiyasi, learn Quran, Quran app free, Khatma Qur'on, Qur'onni yodlash, Hifz Qur'on, Qur'on o'qish rejasi, Qur'on viktorinasi, tilovat tuzatish, Qur'on yodlash ilovasi, makharij al-huruf, arab harflarining talaffuz nuqtalari, Nun Sokin, Tanvin, vaqf, ertalab va kechqurun Azkor, islomiy duolar, Ramazon Qur'on dasturi, jonli Qur'on radiosi, islomiy TV kanallari",
-      "ogTitle": "Noor Phonetic Quran - Qur'onni fonetika bilan tilovat qiling",
-      "ogDescription": "Arab tilini bilmasangiz ham Muqaddas Qur'onni tilovat qilishni o'rganing. Aniq fonetika, o'rnatilgan audio, Tajweed qoidalari, Azkor va Ramazon dasturi bilan bepul ilova."
+      "title": "Noor Quran: Fonetik Qur'on, Tajweed, Yodlash va Khatma",
+      "description": "To'liq fonetik Qur'on ilovasi: arab tilini bilmasdan Qur'onni o'qing, audioni oflayn tinglang, Tajweed va makharij al-huruf'ni o'rganing, o'yin rejimida yodlang va Khatma va Azkoringizni kuzatib boring. Jonli Qur'on radiosi. 80 ming+ foydalanuvchi, 20+ til, iOS va Android.",
+      "keywords": "fonetik Qur'on, sura fonetika, fonetik Qur'on ilovasi, Qur'on o'rganish, Qur'on fonetik transkripsiyasi, Tajweed, makharij al-huruf, Qur'onni yodlash, Hifz, Khatma Qur'on, Azkor, jonli Qur'on radiosi, mushaf, tilovat tuzatish, Qur'on viktorinasi, Ramazon dasturi, Qur'on audio oflayn",
+      "ogTitle": "Noor Quran: To'liq Fonetik Qur'on Ilovasi (O'qish, Tajweed, Khatma)",
+      "ogDescription": "Arab tilini bilmasangiz ham Qur'onni fonetik va arab tilida o'qing, tinglang va yodlang. Tajweed, tilovat tuzatish, Khatma, Azkor va jonli Qur'on radiosi. Bepul, 20+ til."
     },
     "hero": {
       "statusBadge": "80 ming+ Faol Foydalanuvchi",

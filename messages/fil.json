@@ -109,11 +109,11 @@
   },
   "home": {
     "meta": {
-      "title": "Noor Phonetic Quran - Application para sa Pag-aaral ng Quran",
-      "description": "Noor Phonetic Quran - Libreng application para matutong bumigkas, magsaulo (Hifz), at basahin ang buong Quran (Khatma). Phonetic na transkripsyon, naka-synchronize na audio, makulay na Tajweed, makharij al-huruf, Adhkar, programa sa Ramadan, live na Quran radio, pang-araw-araw na reading plan, quiz at pagwawasto ng recitation. 80K+ satisfied na users. Available sa iOS at Android.",
-      "keywords": "Phonetic Quran, matuto ng Quran, Quran phonetics, pagbigkas ng Quran, Tajweed, libreng Quran application, Arabic French Quran, phonetic transcription ng Quran, learn Quran, Quran app free, Khatma Quran, magsaulo ng Quran, Hifz Quran, plano ng pagbabasa ng Quran, quiz Quran, pagwawasto ng recitation ng Quran, application sa pagsasaulo ng Quran, makharij al-huruf, mga punto ng artikulasyon ng letrang Arabic, Noun Sakinah, Tanween, waqf, Adhkar umaga at gabi, mga panalanging Islamiko, programa sa Ramadan ng Quran, live na Quran radio, mga Islamic TV channel",
-      "ogTitle": "Noor Phonetic Quran - Bigkasin ang Quran gamit ang phonetics",
-      "ogDescription": "Matutong bumigkas ng Banal na Quran kahit hindi marunong ng Arabic. Libreng application na may tumpak na phonetics, built-in na audio, mga tuntunin ng Tajweed, Adhkar at programa sa Ramadan."
+      "title": "Noor Quran: Phonetic Quran, Tajweed, Pagsasaulo at Khatma",
+      "description": "Ang kumpletong phonetic Quran app: basahin ang Quran kahit hindi marunong ng Arabic, pakinggan ang audio offline, matutunan ang Tajweed at makharij al-huruf, magsaulo gamit ang game mode, at subaybayan ang iyong Khatma at Adhkar. Live na Quran radio. 80K+ users, 20+ na wika, iOS at Android.",
+      "keywords": "Phonetic Quran, surah phonetics, phonetic Quran app, matuto ng Quran, phonetic transcription ng Quran, Tajweed, makharij al-huruf, pagsasaulo ng Quran, Hifz, Khatma ng Quran, Adhkar, live na Quran radio, mushaf, pagwawasto ng recitation, Quran quiz, programa sa Ramadan, Quran audio offline",
+      "ogTitle": "Noor Quran: Ang Kumpletong Phonetic Quran App (Pagbasa, Tajweed, Khatma)",
+      "ogDescription": "Basahin, pakinggan, at isaulo ang Quran sa phonetics at sa Arabic, kahit hindi marunong ng Arabic. Tajweed, pagwawasto ng recitation, Khatma, Adhkar at live na Quran radio. Libre, 20+ na wika."
     },
     "hero": {
       "statusBadge": "80K+ Aktibong Users",
