@@ -58,10 +58,12 @@
 .navbar {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 4px;
   background: var(--light-color);
   padding: 6px;
   border-radius: var(--border-radius-pill);
+  flex-shrink: 1;
+  min-width: 0;
 }
 
 .navbar a {
@@ -69,8 +71,9 @@
   text-decoration: none;
   font-weight: 700;
   font-size: 0.92rem;
+  white-space: nowrap;
   transition: var(--transition);
-  padding: 9px 18px;
+  padding: 9px 14px;
   border-radius: var(--border-radius-pill);
 }
 
@@ -269,7 +272,7 @@
 }
 
 /* Responsive */
-@media (max-width: 767px) {
+@media (max-width: 1024px) {
   .navbar {
     display: none;
   }
