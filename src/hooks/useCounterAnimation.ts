@@ -22,6 +22,11 @@ export function useCounterAnimation() {
           const increment = target / (duration / 15);
           let currentCount = 0;
 
+          // Server-rendered markup already shows the real target (for SEO
+          // and no-JS visitors), so only start the count-up animation once
+          // JS has actually taken over — otherwise it flashes to 0 first.
+          counter.textContent = '0';
+
           const updateCounter = () => {
             currentCount += increment;
 

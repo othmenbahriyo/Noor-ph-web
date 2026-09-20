@@ -18,7 +18,7 @@ export default function Counter({ target, className }: CounterProps) {
 
   return (
     <span className={`counter ${className ?? ''}`} data-target={target}>
-      0
+      {target.toLocaleString()}
     </span>
   );
 }

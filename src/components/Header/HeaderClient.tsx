@@ -15,7 +15,7 @@ import styles from './Header.module.css';
 
 interface NavLink {
   href: string;
-  key: 'features' | 'screenshots' | 'reviews' | 'blog' | 'contact';
+  key: 'features' | 'screenshots' | 'reviews' | 'blog' | 'aboutUs' | 'contact';
   icon: string;
 }
 
@@ -24,6 +24,7 @@ const NAV_LINKS: NavLink[] = [
   { href: '#screenshots', key: 'screenshots', icon: 'fa-mobile-alt' },
   { href: '#testimonials', key: 'reviews', icon: 'fa-comment' },
   { href: '/blog', key: 'blog', icon: 'fa-book-open' },
+  { href: '/notre-histoire', key: 'aboutUs', icon: 'fa-heart' },
   { href: '/contact', key: 'contact', icon: 'fa-envelope' },
 ];
 
@@ -34,7 +35,7 @@ const STORE_LINKS = [
     icon: 'fab fa-google-play',
   },
   {
-    href: 'https://apps.apple.com/sn/app/noor-phonetic-quran/id6737744800',
+    href: 'https://apps.apple.com/app/noor-phonetic-quran/id6737744800',
     labelKey: 'appStore' as const,
     icon: 'fab fa-apple',
   },

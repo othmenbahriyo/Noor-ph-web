@@ -31,6 +31,23 @@ export function ogLocaleFor(locale: string): string {
   return OG_LOCALES[locale] ?? locale;
 }
 
+// Twitter Cards render best with a shorter, punchier description than
+// OpenGraph's ~160-character one. Rather than maintaining a second
+// hand-translated string per page across 20 locales, derive it by trimming
+// at the last full sentence (or word) boundary before the limit.
+export function twitterDescriptionFor(ogDescription: string, maxLength = 200): string {
+  if (ogDescription.length <= maxLength) return ogDescription;
+
+  const truncated = ogDescription.slice(0, maxLength);
+  const lastSentenceEnd = Math.max(truncated.lastIndexOf('. '), truncated.lastIndexOf('! '));
+  if (lastSentenceEnd > maxLength * 0.5) {
+    return truncated.slice(0, lastSentenceEnd + 1);
+  }
+
+  const lastSpace = truncated.lastIndexOf(' ');
+  return `${truncated.slice(0, lastSpace)}…`;
+}
+
 /**
  * Builds the canonical URL and the full set of hreflang alternates for a
  * given page path across all 20 supported locales, honoring the

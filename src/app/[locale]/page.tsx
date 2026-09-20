@@ -13,7 +13,7 @@ import Faq from '@/components/Home/Faq';
 import BlogPreview from '@/components/Home/BlogPreview';
 import Testimonials from '@/components/Home/Testimonials';
 import { routing } from '@/i18n/routing';
-import { buildLocaleUrls } from '@/i18n/seo';
+import { buildLocaleUrls, twitterDescriptionFor } from '@/i18n/seo';
 
 const SITE_URL = 'https://noor-phonetic-quran.com';
 
@@ -64,7 +64,7 @@ export async function generateMetadata({
     twitter: {
       card: 'summary_large_image',
       title: t('ogTitle'),
-      description: t('ogDescription'),
+      description: twitterDescriptionFor(t('ogDescription')),
       images: [`${SITE_URL}/images/noor.png`],
     },
   };
@@ -97,7 +97,7 @@ function buildJsonLd(locale: string, faqItems: { question: string; answer: strin
     },
     installUrl: [
       'https://play.google.com/store/apps/details?id=coran.noor.bhr',
-      'https://apps.apple.com/sn/app/noor-phonetic-quran/id6737744800',
+      'https://apps.apple.com/app/noor-phonetic-quran/id6737744800',
     ],
     inLanguage: routing.locales,
     availableLanguage: routing.locales,

@@ -13,7 +13,7 @@ const STORE_LINKS = [
     labelKey: 'googlePlay',
   },
   {
-    href: 'https://apps.apple.com/sn/app/noor-phonetic-quran/id6737744800',
+    href: 'https://apps.apple.com/app/noor-phonetic-quran/id6737744800',
     icon: 'fab fa-apple',
     labelKey: 'appStore',
   },

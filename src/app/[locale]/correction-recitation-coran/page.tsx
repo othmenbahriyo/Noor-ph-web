@@ -8,7 +8,7 @@ import Steps from '@/components/CorrectionRecitation/Steps';
 import Faq from '@/components/CorrectionRecitation/Faq';
 import Related from '@/components/CorrectionRecitation/Related';
 import { routing } from '@/i18n/routing';
-import { buildLocaleUrls } from '@/i18n/seo';
+import { buildLocaleUrls, twitterDescriptionFor } from '@/i18n/seo';
 import contentStyles from '@/components/CorrectionRecitation/Content.module.css';
 
 const SITE_URL = 'https://noor-phonetic-quran.com';
@@ -61,7 +61,7 @@ export async function generateMetadata({
     twitter: {
       card: 'summary_large_image',
       title: t('ogTitle'),
-      description: t('ogDescription'),
+      description: twitterDescriptionFor(t('ogDescription')),
       images: [`${SITE_URL}/images/noor.png`],
     },
   };
