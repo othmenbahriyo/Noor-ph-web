@@ -4,6 +4,7 @@ import { useEffect, useMemo, useRef, useState } from 'react';
 import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/navigation';
 import type { BlogPostMeta } from '@/lib/blog';
+import { trackEvent } from '@/lib/firebase';
 import styles from '../LanguageModal/LanguageModal.module.css';
 import searchStyles from './SearchModal.module.css';
 
@@ -78,6 +79,15 @@ export default function SearchModal({ onClose, recentPosts }: SearchModalProps) 
     return allResults.filter((result) => result.title.toLowerCase().includes(q)).slice(0, 8);
   }, [allResults, query]);
 
+  // Debounced so we only log once the visitor pauses typing, not on every
+  // keystroke of a query that will keep changing.
+  useEffect(() => {
+    const q = query.trim();
+    if (!q || filtered.length > 0) return;
+    const timeout = setTimeout(() => trackEvent('search_no_results', { query: q }), 600);
+    return () => clearTimeout(timeout);
+  }, [query, filtered.length]);
+
   const typeIcon: Record<SearchResult['type'], string> = {
     blog: 'fa-book-open',
     feature: 'fa-star',
@@ -115,7 +125,15 @@ export default function SearchModal({ onClose, recentPosts }: SearchModalProps) 
             <p className={styles.empty}>{t('noResults')}</p>
           )}
           {filtered.map((result) => (
-            <Link key={`${result.type}-${result.href}-${result.title}`} href={result.href} className={styles.option} onClick={onClose}>
+            <Link
+              key={`${result.type}-${result.href}-${result.title}`}
+              href={result.href}
+              className={styles.option}
+              onClick={() => {
+                trackEvent('search_result_click', { query: query.trim(), resultType: result.type, resultTitle: result.title });
+                onClose();
+              }}
+            >
               <i className={`fas ${typeIcon[result.type]} ${searchStyles.resultIcon}`} />
               <span className={styles.name}>{result.title}</span>
             </Link>

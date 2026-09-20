@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
+import { trackEvent } from '@/lib/firebase';
 import styles from './ThemeToggle.module.css';
 
 const STORAGE_KEY = 'noor-theme';
@@ -26,6 +27,7 @@ export default function ThemeToggle({ label, className }: ThemeToggleProps) {
     document.documentElement.setAttribute('data-theme', next);
     localStorage.setItem(STORAGE_KEY, next);
     setIsDark(!isDark);
+    trackEvent('theme_toggle', { theme: next });
   };
 
   return (

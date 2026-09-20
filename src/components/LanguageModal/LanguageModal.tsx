@@ -5,6 +5,7 @@ import { useLocale, useTranslations } from 'next-intl';
 import { usePathname } from '@/i18n/navigation';
 import { routing } from '@/i18n/routing';
 import { LANGUAGES } from '@/i18n/languages';
+import { trackEvent } from '@/lib/firebase';
 import styles from './LanguageModal.module.css';
 
 interface LanguageModalProps {
@@ -81,6 +82,9 @@ export default function LanguageModal({ onClose }: LanguageModalProps) {
               key={lang.code}
               href={hrefFor(lang.code)}
               className={`${styles.option} ${locale === lang.code ? styles.active : ''}`}
+              onClick={() => {
+                if (lang.code !== locale) trackEvent('language_switch', { from: locale, to: lang.code });
+              }}
             >
               <span className={styles.flag}>{lang.flag}</span>
               <span className={styles.name}>{lang.name}</span>

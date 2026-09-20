@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import BackToTop from '@/components/Footer/BackToTop';
+import StoreLink from '@/components/StoreLink/StoreLink';
 import footerStyles from '@/components/Footer/Footer.module.css';
 
 // A static, French-only footer for the root 404 page. Reuses Footer's CSS
@@ -13,11 +14,13 @@ const STORE_LINKS = [
     href: 'https://play.google.com/store/apps/details?id=coran.noor.bhr',
     icon: 'fab fa-google-play',
     label: 'Google Play',
+    store: 'googlePlay',
   },
   {
     href: 'https://apps.apple.com/app/noor-phonetic-quran/id6737744800',
     icon: 'fab fa-apple',
     label: 'App Store',
+    store: 'appStore',
   },
 ] as const;
 
@@ -34,16 +37,16 @@ export default function NotFoundFooter() {
           </div>
           <div className={footerStyles.ctaButtons}>
             {STORE_LINKS.map((store) => (
-              <a
+              <StoreLink
                 key={store.href}
                 href={store.href}
+                store={store.store}
+                location="404_footer"
                 className={footerStyles.ctaBtn}
-                target="_blank"
-                rel="noopener noreferrer"
               >
                 <i className={store.icon} />
                 {store.label}
-              </a>
+              </StoreLink>
             ))}
           </div>
         </div>

@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import { useTranslations } from 'next-intl';
+import { trackEvent } from '@/lib/firebase';
 import styles from './Faq.module.css';
 
 interface FaqItem {
@@ -15,7 +16,11 @@ export default function Faq() {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
   const toggle = (index: number) => {
-    setOpenIndex((current) => (current === index ? null : index));
+    setOpenIndex((current) => {
+      const next = current === index ? null : index;
+      if (next !== null) trackEvent('faq_question_open', { question: items[index].question, page: 'home' });
+      return next;
+    });
   };
 
   return (

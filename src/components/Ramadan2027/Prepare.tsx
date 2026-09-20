@@ -1,4 +1,5 @@
 import { getTranslations } from 'next-intl/server';
+import StoreLink from '@/components/StoreLink/StoreLink';
 import styles from './Prepare.module.css';
 
 interface PrepareItem {
@@ -32,24 +33,24 @@ export default async function Prepare() {
         </div>
 
         <div className={styles.ctaGroup}>
-          <a
+          <StoreLink
             href="https://play.google.com/store/apps/details?id=coran.noor.bhr"
+            store="googlePlay"
+            location="ramadan2027_prepare"
             className={styles.ctaBtn}
-            target="_blank"
-            rel="noopener noreferrer"
           >
             <i className="fab fa-google-play" />
             {t('cta')}
-          </a>
-          <a
+          </StoreLink>
+          <StoreLink
             href="https://apps.apple.com/app/noor-phonetic-quran/id6737744800"
+            store="appStore"
+            location="ramadan2027_prepare"
             className={styles.ctaBtn}
-            target="_blank"
-            rel="noopener noreferrer"
           >
             <i className="fab fa-apple" />
             {t('cta')}
-          </a>
+          </StoreLink>
         </div>
       </div>
     </section>

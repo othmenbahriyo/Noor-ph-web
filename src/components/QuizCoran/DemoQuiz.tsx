@@ -2,6 +2,8 @@
 
 import { useState } from 'react';
 import { useTranslations } from 'next-intl';
+import { trackEvent } from '@/lib/firebase';
+import StoreLink from '@/components/StoreLink/StoreLink';
 import styles from './DemoQuiz.module.css';
 
 interface Question {
@@ -25,14 +27,17 @@ export default function DemoQuiz() {
   const handleAnswer = (index: number) => {
     if (selected !== null) return;
     setSelected(index);
-    if (index === currentQuestion.correctIndex) {
+    const correct = index === currentQuestion.correctIndex;
+    if (correct) {
       setScore((s) => s + 1);
     }
+    trackEvent('quiz_answer', { questionIndex: String(currentIndex), correct: String(correct) });
   };
 
   const handleNext = () => {
     if (isLast) {
       setFinished(true);
+      trackEvent('quiz_completed', { score: String(score), total: String(questions.length) });
       return;
     }
     setCurrentIndex((i) => i + 1);
@@ -44,6 +49,7 @@ export default function DemoQuiz() {
     setSelected(null);
     setScore(0);
     setFinished(false);
+    trackEvent('quiz_restart');
   };
 
   return (
@@ -109,24 +115,24 @@ export default function DemoQuiz() {
                   <i className="fas fa-sync-alt" />
                   {t('restart')}
                 </button>
-                <a
+                <StoreLink
                   href="https://play.google.com/store/apps/details?id=coran.noor.bhr"
+                  store="googlePlay"
+                  location="quiz_demo_result"
                   className={styles.ctaBtn}
-                  target="_blank"
-                  rel="noopener noreferrer"
                 >
                   <i className="fab fa-google-play" />
                   {t('cta')}
-                </a>
-                <a
+                </StoreLink>
+                <StoreLink
                   href="https://apps.apple.com/app/noor-phonetic-quran/id6737744800"
+                  store="appStore"
+                  location="quiz_demo_result"
                   className={styles.ctaBtn}
-                  target="_blank"
-                  rel="noopener noreferrer"
                 >
                   <i className="fab fa-apple" />
                   {t('cta')}
-                </a>
+                </StoreLink>
               </div>
             </div>
           )}
