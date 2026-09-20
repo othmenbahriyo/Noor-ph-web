@@ -4,11 +4,11 @@ import { useEffect, useState } from 'react';
 import { useTranslations } from 'next-intl';
 import styles from './Countdown.module.css';
 
-// 2027-02-18 is the widely anticipated Gregorian start date for Ramadan
+// 2027-02-08 is the widely anticipated Gregorian start date for Ramadan
 // 1449H based on current astronomical calendars. The exact day is only
 // confirmed by moon-sighting close to the date, hence the disclaimer
 // shown next to the countdown (see page copy).
-const RAMADAN_2027_START = new Date('2027-02-18T00:00:00');
+const RAMADAN_2027_START = new Date('2027-02-08T00:00:00');
 
 interface TimeLeft {
   days: number;
