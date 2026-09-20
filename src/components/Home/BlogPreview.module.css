@@ -1,5 +1,5 @@
 .section {
-  padding-top: var(--section-padding);
+  padding-top: 50px;
   padding-bottom: 0;
   background: var(--white);
 }
@@ -29,7 +29,7 @@
   display: flex;
   justify-content: center;
   margin-top: 20px;
-  margin-bottom: 40px;
+  padding-bottom: 40px;
 }
 
 .viewAllLink {
