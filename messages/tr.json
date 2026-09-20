@@ -26,7 +26,8 @@
         "privacyPolicy": "Gizlilik Politikası",
         "cgu": "Kullanım Koşulları",
         "blog": "Blog",
-        "aboutUs": "Hikayemiz"
+        "aboutUs": "Hikayemiz",
+        "ramadan2027": "Ramazan 2027"
       }
     },
     "languageSwitcher": {
@@ -2084,6 +2085,56 @@
       "allFeatures": "Tüm Özellikler"
     }
   },
+  "ramadan2027": {
+    "meta": {
+      "title": "Ramazan 2027: Tarih, Geri Sayım ve Hazırlık | Noor Phonetic Quran",
+      "description": "Ramazan 2027, 18 Şubat'ta başlıyor (tahmini tarih). Hatiminizi, günlük programınızı ve Ezkarınızı ücretsiz fonetik Kur'an uygulaması Noor Phonetic Quran ile hazırlayın.",
+      "keywords": "Ramazan 2027, Ramazan 2027 tarihi, Ramazan geri sayımı, Ramazan'a hazırlık, Ramazan Hatimi, Ramazan Kur'an programı",
+      "ogTitle": "Ramazan 2027: Tarih, Geri Sayım ve Hazırlık",
+      "ogDescription": "Ramazan 2027, 18 Şubat'ta başlıyor (tahmini tarih). Hatiminizi ve günlük programınızı Noor Phonetic Quran ile hazırlayın."
+    },
+    "breadcrumb": {
+      "home": "Ana Sayfa",
+      "current": "Ramazan 2027"
+    },
+    "hero": {
+      "badge": "Ramazan 1449H",
+      "title": "Ramazan 2027: kaç gün kaldı?",
+      "subtitle": "Mübarek oruç ayının 18 Şubat 2027'de başlaması bekleniyor. Hatiminizi, Ezkarınızı ve günlük okuma planınızı şimdiden hazırlamaya başlayın.",
+      "disclaimer": "Tarih, güncel astronomik takvimlere göre tahmin edilmiştir. Kesin tarih, ayın başlamasından birkaç gün önce hilalin gözlemlenmesiyle onaylanacaktır.",
+      "days": "Gün",
+      "hours": "Saat",
+      "minutes": "Dakika",
+      "seconds": "Saniye"
+    },
+    "prepare": {
+      "title": "Ramazan'ınızı şimdiden hazırlayın",
+      "subtitle": "Noor Phonetic Quran, Arapça okumayı bilmeseniz de mübarek aydan tam anlamıyla yararlanmanız için size eşlik ediyor.",
+      "items": [
+        {
+          "title": "Hatiminizi planlayın",
+          "text": "Ramazan'ın 30 günü boyunca Kur'an'ı baştan sona okuma hedefinizi belirleyin; günlük sayfa sayısı otomatik olarak hesaplanır.",
+          "icon": "fa-book-quran"
+        },
+        {
+          "title": "Günlük program",
+          "text": "Oruç ve ibadet günlerinizi düzenlemek için her namaza ve Ramazan anına özel bir plan.",
+          "icon": "fa-calendar-day"
+        },
+        {
+          "title": "Mübarek ayın Ezkarı",
+          "text": "Sesli ve tekrar sayacıyla sabah, akşam ve iftar sonrası zikirler.",
+          "icon": "fa-moon"
+        },
+        {
+          "title": "Canlı Kur'an radyosu",
+          "text": "İnternet bağlantısı olsun ya da olmasın, huzur anlarınızda sürekli Kur'an tilavetleri dinleyin.",
+          "icon": "fa-headphones"
+        }
+      ],
+      "cta": "Ramazan'ınızı hazırlayın"
+    }
+  },
   "khatmaCoran": {
     "meta": {
       "title": "Kur'an Hatimi: Tam Okumanızı Planlamak ve Takip Etmek İçin Uygulama | Noor Phonetic Quran",
@@ -2101,6 +2152,18 @@
       "subtitle": "Kendinize bir gün hedefi belirleyin, günlük ilerlemenizi takip edin ve düzenli kalmanız için hatırlatmalarla birlikte Kur'an-ı Kerim'in son sayfasına kadar okuma serinizi (streak) koruyun.",
       "googlePlay": "Google Play",
       "appStore": "App Store"
+    },
+    "calculator": {
+      "eyebrow": "Hesaplayıcı",
+      "title": "Kur'an'ı kaç günde bitirmek istiyorsunuz?",
+      "subtitle": "Bir süre seçin ve Hatminizi zamanında bitirmek için her gün kaç sayfa okumanız gerektiğini öğrenin.",
+      "daysCount": "%COUNT% gün",
+      "customLabel": "Veya özel bir süre seçin (gün olarak)",
+      "decrease": "Gün sayısını azalt",
+      "increase": "Gün sayısını artır",
+      "resultLabel": "Kur'an'ı %DAYS% günde bitirmek için günlük sayfa",
+      "adjustNote": "Bir okuma gününü kaçırırsanız, uygulama kalan sayfaları otomatik olarak ayarlar, böylece Hatminiz yine de zamanında tamamlanır.",
+      "cta": "Hatmimi takip et"
     },
     "intro": {
       "title": "Hatim Nedir?",
@@ -2269,6 +2332,69 @@
       "backLink": "Ana sayfaya dön",
       "googlePlay": "Google Play",
       "appStore": "App Store"
+    },
+    "demo": {
+      "eyebrow": "Şimdi deneyin",
+      "title": "Bu mini test ile kendinizi sınayın",
+      "subtitle": "Tam uygulamayı indirmeden önce (21 soru, jokerler ve ödül merdiveni) testin formatını keşfetmek için 5 soru.",
+      "progressLabel": "Soru %CURRENT% / %TOTAL%",
+      "nextQuestion": "Sonraki soru",
+      "seeResults": "Skorumu gör",
+      "resultLabel": "İyi bir başlangıç! Uygulamadaki tam testle öğrenmeye devam edin.",
+      "restart": "Yeniden başla",
+      "cta": "Uygulamayla devam et",
+      "questions": [
+        {
+          "question": "Kur'an kaç sureden oluşur?",
+          "answers": [
+            "99",
+            "114",
+            "120",
+            "150"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "question": "Kur'an'ın ilk suresi hangisidir?",
+          "answers": [
+            "El-Bakara",
+            "El-İhlas",
+            "El-Fatiha",
+            "En-Nas"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "question": "Kur'an'ın vahyi hangi ayda başladı?",
+          "answers": [
+            "Ramazan",
+            "Şaban",
+            "Muharrem",
+            "Recep"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "Kur'an'ın baştan sona tam okunuşuna ne denir?",
+          "answers": [
+            "Tecvid",
+            "Hatim",
+            "Tefsir",
+            "Hıfz"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "question": "Kur'an'ın en uzun suresi hangisidir?",
+          "answers": [
+            "El-Fatiha",
+            "El-İhlas",
+            "El-Kehf",
+            "El-Bakara"
+          ],
+          "correctIndex": 3
+        }
+      ]
     },
     "intro": {
       "title": "Eğlenerek Öğrenmek İçin Bir Quiz",

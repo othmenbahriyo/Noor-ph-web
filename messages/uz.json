@@ -26,7 +26,8 @@
         "privacyPolicy": "Maxfiylik siyosati",
         "cgu": "Foydalanish shartlari",
         "blog": "Blog",
-        "aboutUs": "Bizning Tariximiz"
+        "aboutUs": "Bizning Tariximiz",
+        "ramadan2027": "Ramazon 2027"
       }
     },
     "languageSwitcher": {
@@ -2084,6 +2085,56 @@
       "allFeatures": "Barcha funksiyalar"
     }
   },
+  "ramadan2027": {
+    "meta": {
+      "title": "Ramazon 2027: Sana, Hisoblagich va Tayyorgarlik | Noor Phonetic Quran",
+      "description": "Ramazon 2027 18-fevralda boshlanadi (taxminiy sana). Bepul fonetik Qur'on ilovasi Noor Phonetic Quran bilan Khatmangizni, kunlik dasturingizni va Azkoringizni tayyorlang.",
+      "keywords": "Ramazon 2027, Ramazon 2027 sanasi, Ramazon hisoblagichi, Ramazonga tayyorgarlik, Ramazon Khatmasi, Ramazon Qur'on dasturi",
+      "ogTitle": "Ramazon 2027: Sana, Hisoblagich va Tayyorgarlik",
+      "ogDescription": "Ramazon 2027 18-fevralda boshlanadi (taxminiy sana). Noor Phonetic Quran bilan Khatmangizni va kunlik dasturingizni tayyorlang."
+    },
+    "breadcrumb": {
+      "home": "Bosh sahifa",
+      "current": "Ramazon 2027"
+    },
+    "hero": {
+      "badge": "Ramazon 1449H",
+      "title": "Ramazon 2027: necha kun qoldi?",
+      "subtitle": "Muqaddas ro'za oyi 2027-yil 18-fevralda boshlanishi kutilmoqda. Hozirdan Khatmangizni, Azkoringizni va kunlik o'qish rejangizni tayyorlashni boshlang.",
+      "disclaimer": "Sana joriy astronomik taqvimlarga asoslangan taxminiy sanadir. Aniq sana oy boshlanishidan bir necha kun oldin oyni kuzatish orqali tasdiqlanadi.",
+      "days": "Kun",
+      "hours": "Soat",
+      "minutes": "Daqiqa",
+      "seconds": "Soniya"
+    },
+    "prepare": {
+      "title": "Ramazoningizni hozirdan tayyorlang",
+      "subtitle": "Arab tilini o'qishni bilmasangiz ham, Noor Phonetic Quran muqaddas oydan to'liq bahramand bo'lishingizga yordam beradi.",
+      "items": [
+        {
+          "title": "Khatmangizni rejalashtiring",
+          "text": "Ramazonning 30 kuni davomida butun Qur'onni o'qishni maqsad qilib qo'ying, kunlik sahifalar soni avtomatik hisoblanadi.",
+          "icon": "fa-book-quran"
+        },
+        {
+          "title": "Kunlik dastur",
+          "text": "Ramazonning har bir namozi va har bir lahzasi uchun maxsus jadval, ro'za va ibodat kunlaringizni tartibga solish uchun.",
+          "icon": "fa-calendar-day"
+        },
+        {
+          "title": "Muqaddas oy Azkori",
+          "text": "Ertalabki, kechki va iftordan keyingi duolar, audio va takrorlash hisoblagichi bilan.",
+          "icon": "fa-moon"
+        },
+        {
+          "title": "Jonli Qur'on radiosi",
+          "text": "Internet aloqasi bo'lsin yoki bo'lmasin, tafakkur lahzalaringizda uzluksiz Qur'on tilovatini tinglang.",
+          "icon": "fa-headphones"
+        }
+      ],
+      "cta": "Ramazoningizni tayyorlang"
+    }
+  },
   "khatmaCoran": {
     "meta": {
       "title": "Qur'on Khatmasi: To'liq O'qishni Rejalashtirish va Kuzatish uchun Ilova | Noor Phonetic Quran",
@@ -2101,6 +2152,18 @@
       "subtitle": "O'zingizga kunlar maqsadini belgilang, kunlik taraqqiyotingizni kuzating va muntazam bo'lish uchun eslatmalar bilan Muqaddas Qur'onning oxirgi sahifasigacha o'qish ketma-ketligingizni (streak) saqlang.",
       "googlePlay": "Google Play",
       "appStore": "App Store"
+    },
+    "calculator": {
+      "eyebrow": "Kalkulyator",
+      "title": "Qur'onni necha kunda tugatmoqchisiz?",
+      "subtitle": "Muddatni tanlang va Khatmangizni o'z vaqtida tugatish uchun har kuni necha bet o'qish kerakligini bilib oling.",
+      "daysCount": "%COUNT% kun",
+      "customLabel": "Yoki maxsus muddatni tanlang (kunlarda)",
+      "decrease": "Kunlar sonini kamaytirish",
+      "increase": "Kunlar sonini oshirish",
+      "resultLabel": "Qur'onni %DAYS% kunda tugatish uchun kunlik bet",
+      "adjustNote": "Agar bir kun o'qishni o'tkazib yuborsangiz, ilova qolgan betlarni avtomatik ravishda moslashtiradi, shunda Khatmangiz baribir o'z vaqtida tugaydi.",
+      "cta": "Khatmamni kuzatish"
     },
     "intro": {
       "title": "Khatma nima?",
@@ -2269,6 +2332,69 @@
       "backLink": "Bosh sahifaga qaytish",
       "googlePlay": "Google Play",
       "appStore": "App Store"
+    },
+    "demo": {
+      "eyebrow": "Hozir sinab ko'ring",
+      "title": "Ushbu mini-viktorina bilan o'zingizni sinab ko'ring",
+      "subtitle": "To'liq ilovani (21 savol, yordamchilar va mukofot zinapoyasi) yuklab olishdan oldin viktorina formatini bilib olish uchun 5 savol.",
+      "progressLabel": "Savol %CURRENT% / %TOTAL%",
+      "nextQuestion": "Keyingi savol",
+      "seeResults": "Natijamni ko'rish",
+      "resultLabel": "Yaxshi boshlanish! Ilovadagi to'liq viktorina bilan o'rganishda davom eting.",
+      "restart": "Qayta boshlash",
+      "cta": "Ilova bilan davom etish",
+      "questions": [
+        {
+          "question": "Qur'onda nechta sura bor?",
+          "answers": [
+            "99",
+            "114",
+            "120",
+            "150"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "question": "Qur'onning birinchi surasi qaysi?",
+          "answers": [
+            "Al-Baqara",
+            "Al-Ixlos",
+            "Al-Fotiha",
+            "An-Nas"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "question": "Qur'onning nozil bo'lishi qaysi oyda boshlangan?",
+          "answers": [
+            "Ramazon",
+            "Sha'bon",
+            "Muharram",
+            "Rajab"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "Qur'onni boshidan oxirigacha to'liq o'qishga nima deyiladi?",
+          "answers": [
+            "Tajweed",
+            "Khatma",
+            "Tafsir",
+            "Hifz"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "question": "Qur'onning eng uzun surasi qaysi?",
+          "answers": [
+            "Al-Fotiha",
+            "Al-Ixlos",
+            "Al-Kahf",
+            "Al-Baqara"
+          ],
+          "correctIndex": 3
+        }
+      ]
     },
     "intro": {
       "title": "O'ynab o'rganish uchun viktorina",

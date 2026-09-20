@@ -26,7 +26,8 @@
         "privacyPolicy": "Politik ci Sutura",
         "cgu": "Sart yu Jëfandikoo",
         "blog": "Blog",
-        "aboutUs": "Taariixa Bi Sunu"
+        "aboutUs": "Taariixa Bi Sunu",
+        "ramadan2027": "Ramadan 2027"
       }
     },
     "languageSwitcher": {
@@ -2084,6 +2085,56 @@
       "allFeatures": "Ay xarala yépp"
     }
   },
+  "ramadan2027": {
+    "meta": {
+      "title": "Ramadan 2027 : Bunt, Kontuwaar ak Wàggisaay | Noor Phonetic Quran",
+      "description": "Ramadan 2027 dina tàmbali 18 fewrye (bunt bu ñu waxtaan). Wàggis sa Khatma, sa jubluwaay bu bés bu nekk ak say Adhkar ci Noor Phonetic Quran, aplikasiyon bu Alxuraan fonetik bu neen.",
+      "keywords": "Ramadan 2027, bunt Ramadan 2027, kontuwaar Ramadan, wàggisaay Ramadan, Khatma Ramadan, jubluwaay Ramadan Alxuraan",
+      "ogTitle": "Ramadan 2027 : Bunt, Kontuwaar ak Wàggisaay",
+      "ogDescription": "Ramadan 2027 dina tàmbali 18 fewrye (bunt bu ñu waxtaan). Wàggis sa Khatma ak sa jubluwaay bu bés bu nekk ci Noor Phonetic Quran."
+    },
+    "breadcrumb": {
+      "home": "Kër",
+      "current": "Ramadan 2027"
+    },
+    "hero": {
+      "badge": "Ramadan 1449H",
+      "title": "Ramadan 2027 : ñaata fan a des?",
+      "subtitle": "Weer wu sell wu koor dafa war a tàmbali 18 fewrye 2027. Tàmbali léegi wàggisaay sa Khatma, say Adhkar ak sa jubluwaay bu jàng bu bés bu nekk.",
+      "disclaimer": "Bunt bu ñu waxtaan ci wàlleefu kalandriye astronomik yi. Bunt bu wóor dina wóoral ci gis weer, fanaan yu néew balaa weer bi tàmbali.",
+      "days": "Fan",
+      "hours": "Waxtu",
+      "minutes": "Miniit",
+      "seconds": "Sekond"
+    },
+    "prepare": {
+      "title": "Wàggis sa Ramadan léegi",
+      "subtitle": "Noor Phonetic Quran dafay ànd ak yow ngir nga jariñu bu baax weer wu sell wi, doonte xamuloo araab.",
+      "items": [
+        {
+          "title": "Jubluwaay sa Khatma",
+          "text": "Sàkk sa jubluwaay ngir jàng Alxuraan bu mat ci 30 fan yu Ramadan, ak limu xët bu bés bu nekk bu ñu jëfandikoo ci mode automatik.",
+          "icon": "fa-book-quran"
+        },
+        {
+          "title": "Jubluwaay bu bés bu nekk",
+          "text": "Jubluwaay bu jëm ci julli bu nekk ak jamono bu Ramadan, ngir jubluwaay say fan yu koor ak julli.",
+          "icon": "fa-calendar-day"
+        },
+        {
+          "title": "Adhkar yu weer wu sell",
+          "text": "Ñaan yu suba, ngoon ak ginnaaw ndogu, ak baat ak kontuwaar ci tey.",
+          "icon": "fa-moon"
+        },
+        {
+          "title": "Radio Alxuraan bu jub",
+          "text": "Dégg jàngu Alxuraan bu jub ci say jamono yu xalaat, ak wala doonte internet.",
+          "icon": "fa-headphones"
+        }
+      ],
+      "cta": "Wàggis sa Ramadan"
+    }
+  },
   "khatmaCoran": {
     "meta": {
       "title": "Khatma Alxuraan : Aplikasiyon ngir Jubluwaay ak Topptoo Sa Jàng bu Mat | Noor Phonetic Quran",
@@ -2101,6 +2152,18 @@
       "subtitle": "Tànn sa jubluwaay ci lim bu bés, topp sa jëm-kanam bés bu nekk te dëkkoo sa streak (bés yu toppante) ba ci xët bu mujj bu Alxuraan bu sell wi, ak fippal ngir dëkkoo.",
       "googlePlay": "Google Play",
       "appStore": "App Store"
+    },
+    "calculator": {
+      "eyebrow": "Kalkilatër",
+      "title": "Ci fan fukk yi nga bëgg jeexal Alxuraan?",
+      "subtitle": "Tànn benn diir te xam ñaata xët nga war a jàng bés bu nekk ngir jeexal sa Khatma ci jamono.",
+      "daysCount": "fukk yi %COUNT%",
+      "customLabel": "Walla tànn diir bu la neex (ci fukk yi)",
+      "decrease": "Wàññi fukk yi",
+      "increase": "Yokk fukk yi",
+      "resultLabel": "xët ci bés bu nekk ngir jeexal Alxuraan ci fukk yi %DAYS%",
+      "adjustNote": "Bu la bés bu jàng réer, aplikasiyon dafay coppali ci boppam xët yi des ngir sa Khatma jeex ci jamono ju baax.",
+      "cta": "Toppatoo sama Khatma"
     },
     "intro": {
       "title": "Lan mooy Khatma ?",
@@ -2269,6 +2332,69 @@
       "backLink": "Dellu ci kër",
       "googlePlay": "Google Play",
       "appStore": "App Store"
+    },
+    "demo": {
+      "eyebrow": "Nattu leegi",
+      "title": "Nattu sa bopp ak mini-quiz bii",
+      "subtitle": "Laaj yu 5 ngir xam nàkkoo quiz bi balaa nga télécharger aplikasiyon bu mat (laaj 21, jokerr ak jarala pri).",
+      "progressLabel": "Laaj %CURRENT% / %TOTAL%",
+      "nextQuestion": "Laaj bu ci topp",
+      "seeResults": "Gis sama point",
+      "resultLabel": "Njëkk bu baax! Jàng ci quiz bu mat ci aplikasiyon.",
+      "restart": "Dellu tambali",
+      "cta": "Jokkoo ak aplikasiyon",
+      "questions": [
+        {
+          "question": "Ñaata sourate Alxuraan am?",
+          "answers": [
+            "99",
+            "114",
+            "120",
+            "150"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "question": "Ban mooy sourate bu jëkk ci Alxuraan?",
+          "answers": [
+            "Al-Baqara",
+            "Al-Ikhlas",
+            "Al-Fatiha",
+            "An-Nas"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "question": "Ci ban weer wàcc Alxuraan tambalee?",
+          "answers": [
+            "Ramadan",
+            "Chaabaan",
+            "Muharram",
+            "Rajab"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "Naka lañuy woowe jàng Alxuraan bu mat li ci njëkk ba ci mujj?",
+          "answers": [
+            "Tajweed",
+            "Khatma",
+            "Tafsir",
+            "Hifz"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "question": "Ban mooy sourate bu gudd ci Alxuraan?",
+          "answers": [
+            "Al-Fatiha",
+            "Al-Ikhlas",
+            "Al-Kahf",
+            "Al-Baqara"
+          ],
+          "correctIndex": 3
+        }
+      ]
     },
     "intro": {
       "title": "Benn quiz ngir jàng te bég",

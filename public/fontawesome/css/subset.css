@@ -167,6 +167,9 @@
 .fa-lightbulb {
   --fa: "\f0eb";
 }
+.fa-minus {
+  --fa: "\f068";
+}
 .fa-mobile-alt {
   --fa: "\f3cd";
 }
@@ -175,6 +178,9 @@
 }
 .fa-moon {
   --fa: "\f186";
+}
+.fa-plus {
+  --fa: "\2b";
 }
 .fa-paper-plane {
   --fa: "\f1d8";

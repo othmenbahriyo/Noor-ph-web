@@ -26,7 +26,8 @@
         "privacyPolicy": "Privacy Policy",
         "cgu": "Terms of Use",
         "blog": "Blog",
-        "aboutUs": "Our Story"
+        "aboutUs": "Our Story",
+        "ramadan2027": "Ramadan 2027"
       }
     },
     "languageSwitcher": {
@@ -1009,6 +1010,56 @@
       "allFeatures": "All features"
     }
   },
+  "ramadan2027": {
+    "meta": {
+      "title": "Ramadan 2027: Date, Countdown and Preparation | Noor Phonetic Quran",
+      "description": "Ramadan 2027 begins on February 18 (estimated date). Prepare your Khatma, your daily program and your Adhkar with Noor Phonetic Quran, the free phonetic Quran app.",
+      "keywords": "Ramadan 2027, Ramadan 2027 date, Ramadan countdown, prepare for Ramadan, Ramadan Khatma, Ramadan Quran program",
+      "ogTitle": "Ramadan 2027: Date, Countdown and Preparation",
+      "ogDescription": "Ramadan 2027 begins on February 18 (estimated date). Prepare your Khatma and your daily program with Noor Phonetic Quran."
+    },
+    "breadcrumb": {
+      "home": "Home",
+      "current": "Ramadan 2027"
+    },
+    "hero": {
+      "badge": "Ramadan 1449H",
+      "title": "Ramadan 2027: how many days are left?",
+      "subtitle": "The sacred month of fasting is expected to begin on February 18, 2027. Start preparing your Khatma, your Adhkar and your daily reading plan now.",
+      "disclaimer": "Estimated date based on current astronomical calendars. The exact date will be confirmed by moon sighting, a few days before the month begins.",
+      "days": "Days",
+      "hours": "Hours",
+      "minutes": "Minutes",
+      "seconds": "Seconds"
+    },
+    "prepare": {
+      "title": "Prepare for your Ramadan starting now",
+      "subtitle": "Noor Phonetic Quran helps you make the most of the sacred month, even without knowing how to read Arabic.",
+      "items": [
+        {
+          "title": "Plan your Khatma",
+          "text": "Set your goal to read the entire Quran over the 30 days of Ramadan, with the number of pages per day calculated automatically.",
+          "icon": "fa-book-quran"
+        },
+        {
+          "title": "Daily program",
+          "text": "A dedicated schedule for every prayer and moment of Ramadan, to structure your days of fasting and worship.",
+          "icon": "fa-calendar-day"
+        },
+        {
+          "title": "Adhkar of the sacred month",
+          "text": "Morning, evening and post-iftar invocations, with audio and a repetition counter.",
+          "icon": "fa-moon"
+        },
+        {
+          "title": "Live Quran radio",
+          "text": "Listen to continuous Quran recitations during your moments of reflection, with or without an internet connection.",
+          "icon": "fa-headphones"
+        }
+      ],
+      "cta": "Prepare for your Ramadan"
+    }
+  },
   "khatmaCoran": {
     "meta": {
       "title": "Quran Khatma: App to Plan and Track Your Full Reading | Noor Phonetic Quran",
@@ -1026,6 +1077,18 @@
       "subtitle": "Set yourself a day goal, track your daily progress, and keep your reading streak going until the last page of the Holy Quran, with reminders to stay consistent.",
       "googlePlay": "Google Play",
       "appStore": "App Store"
+    },
+    "calculator": {
+      "eyebrow": "Calculator",
+      "title": "In how many days do you want to finish the Quran?",
+      "subtitle": "Choose a duration and find out how many pages to read each day to finish your Khatma on time.",
+      "daysCount": "%COUNT% days",
+      "customLabel": "Or choose a custom duration (in days)",
+      "decrease": "Decrease number of days",
+      "increase": "Increase number of days",
+      "resultLabel": "pages per day to finish the Quran in %DAYS% days",
+      "adjustNote": "If you miss a day of reading, the app automatically adjusts the remaining pages so your Khatma still finishes on time.",
+      "cta": "Track my Khatma"
     },
     "intro": {
       "title": "What is a Khatma?",
@@ -1194,6 +1257,69 @@
       "backLink": "Back to home",
       "googlePlay": "Google Play",
       "appStore": "App Store"
+    },
+    "demo": {
+      "eyebrow": "Try it now",
+      "title": "Test yourself with this mini-quiz",
+      "subtitle": "5 questions to discover the quiz format before downloading the full app (21 questions, lifelines and prize ladder).",
+      "progressLabel": "Question %CURRENT% / %TOTAL%",
+      "nextQuestion": "Next question",
+      "seeResults": "See my score",
+      "resultLabel": "That's a good start! Keep learning with the full quiz in the app.",
+      "restart": "Restart",
+      "cta": "Continue with the app",
+      "questions": [
+        {
+          "question": "How many surahs does the Quran have?",
+          "answers": [
+            "99",
+            "114",
+            "120",
+            "150"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "question": "What is the first surah of the Quran?",
+          "answers": [
+            "Al-Baqara",
+            "Al-Ikhlas",
+            "Al-Fatiha",
+            "An-Nas"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "question": "During which month did the revelation of the Quran begin?",
+          "answers": [
+            "Ramadan",
+            "Shaban",
+            "Muharram",
+            "Rajab"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "What is a complete reading of the Quran from beginning to end called?",
+          "answers": [
+            "Tajweed",
+            "Khatma",
+            "Tafsir",
+            "Hifz"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "question": "What is the longest surah in the Quran?",
+          "answers": [
+            "Al-Fatiha",
+            "Al-Ikhlas",
+            "Al-Kahf",
+            "Al-Baqara"
+          ],
+          "correctIndex": 3
+        }
+      ]
     },
     "intro": {
       "title": "A quiz to learn while having fun",

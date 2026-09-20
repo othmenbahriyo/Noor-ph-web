@@ -26,7 +26,8 @@
         "privacyPolicy": "Kebijakan Privasi",
         "cgu": "Syarat Penggunaan",
         "blog": "Blog",
-        "aboutUs": "Kisah Kami"
+        "aboutUs": "Kisah Kami",
+        "ramadan2027": "Ramadan 2027"
       }
     },
     "languageSwitcher": {
@@ -2084,6 +2085,56 @@
       "allFeatures": "Semua fitur"
     }
   },
+  "ramadan2027": {
+    "meta": {
+      "title": "Ramadan 2027: Tanggal, Hitung Mundur, dan Persiapan | Noor Phonetic Quran",
+      "description": "Ramadan 2027 dimulai pada 18 Februari (tanggal perkiraan). Siapkan Khataman, program harian, dan Adzkar Anda dengan Noor Phonetic Quran, aplikasi Al-Qur'an fonetik gratis.",
+      "keywords": "Ramadan 2027, tanggal Ramadan 2027, hitung mundur Ramadan, persiapan Ramadan, Khataman Ramadan, program Ramadan Al-Qur'an",
+      "ogTitle": "Ramadan 2027: Tanggal, Hitung Mundur, dan Persiapan",
+      "ogDescription": "Ramadan 2027 dimulai pada 18 Februari (tanggal perkiraan). Siapkan Khataman dan program harian Anda dengan Noor Phonetic Quran."
+    },
+    "breadcrumb": {
+      "home": "Beranda",
+      "current": "Ramadan 2027"
+    },
+    "hero": {
+      "badge": "Ramadan 1449H",
+      "title": "Ramadan 2027: berapa hari lagi?",
+      "subtitle": "Bulan suci puasa diperkirakan akan dimulai pada 18 Februari 2027. Mulailah menyiapkan Khataman, Adzkar, dan rencana bacaan harian Anda sekarang.",
+      "disclaimer": "Tanggal perkiraan berdasarkan kalender astronomi saat ini. Tanggal pasti akan dikonfirmasi melalui rukyatul hilal beberapa hari sebelum awal bulan.",
+      "days": "Hari",
+      "hours": "Jam",
+      "minutes": "Menit",
+      "seconds": "Detik"
+    },
+    "prepare": {
+      "title": "Siapkan Ramadan Anda sejak sekarang",
+      "subtitle": "Noor Phonetic Quran menemani Anda untuk memanfaatkan bulan suci secara maksimal, meski belum bisa membaca bahasa Arab.",
+      "items": [
+        {
+          "title": "Rencanakan Khataman Anda",
+          "text": "Tetapkan target membaca Al-Qur'an lengkap selama 30 hari Ramadan, dengan jumlah halaman per hari yang dihitung otomatis.",
+          "icon": "fa-book-quran"
+        },
+        {
+          "title": "Program harian",
+          "text": "Jadwal khusus untuk setiap salat dan momen Ramadan, untuk menyusun hari-hari puasa dan ibadah Anda.",
+          "icon": "fa-calendar-day"
+        },
+        {
+          "title": "Adzkar bulan suci",
+          "text": "Doa pagi, petang, dan setelah berbuka, dengan audio dan penghitung pengulangan.",
+          "icon": "fa-moon"
+        },
+        {
+          "title": "Radio Al-Qur'an live",
+          "text": "Dengarkan bacaan Al-Qur'an secara terus-menerus di saat-saat perenungan Anda, dengan atau tanpa koneksi internet.",
+          "icon": "fa-headphones"
+        }
+      ],
+      "cta": "Siapkan Ramadan Anda"
+    }
+  },
   "khatmaCoran": {
     "meta": {
       "title": "Khataman Al-Qur'an: Aplikasi untuk Merencanakan dan Melacak Bacaan Lengkap | Noor Phonetic Quran",
@@ -2101,6 +2152,18 @@
       "subtitle": "Tetapkan target hari, pantau kemajuan harian Anda, dan pertahankan rentetan bacaan (streak) Anda hingga halaman terakhir Al-Qur'an, dengan pengingat agar tetap konsisten.",
       "googlePlay": "Google Play",
       "appStore": "App Store"
+    },
+    "calculator": {
+      "eyebrow": "Kalkulator",
+      "title": "Dalam berapa hari Anda ingin menyelesaikan Al-Qur'an?",
+      "subtitle": "Pilih durasi dan cari tahu berapa halaman yang harus dibaca setiap hari untuk menyelesaikan Khatam Anda tepat waktu.",
+      "daysCount": "%COUNT% hari",
+      "customLabel": "Atau pilih durasi khusus (dalam hari)",
+      "decrease": "Kurangi jumlah hari",
+      "increase": "Tambah jumlah hari",
+      "resultLabel": "halaman per hari untuk menyelesaikan Al-Qur'an dalam %DAYS% hari",
+      "adjustNote": "Jika Anda melewatkan satu hari membaca, aplikasi akan otomatis menyesuaikan sisa halaman agar Khatam Anda tetap selesai tepat waktu.",
+      "cta": "Pantau Khatam saya"
     },
     "intro": {
       "title": "Apa itu Khataman?",
@@ -2269,6 +2332,69 @@
       "backLink": "Kembali ke beranda",
       "googlePlay": "Google Play",
       "appStore": "App Store"
+    },
+    "demo": {
+      "eyebrow": "Coba sekarang",
+      "title": "Uji diri Anda dengan mini-kuis ini",
+      "subtitle": "5 pertanyaan untuk mengenal format kuis sebelum mengunduh aplikasi lengkap (21 pertanyaan, bantuan, dan tangga hadiah).",
+      "progressLabel": "Pertanyaan %CURRENT% / %TOTAL%",
+      "nextQuestion": "Pertanyaan berikutnya",
+      "seeResults": "Lihat skor saya",
+      "resultLabel": "Awal yang bagus! Terus belajar dengan kuis lengkap di aplikasi.",
+      "restart": "Mulai lagi",
+      "cta": "Lanjutkan dengan aplikasi",
+      "questions": [
+        {
+          "question": "Berapa jumlah surah dalam Al-Qur'an?",
+          "answers": [
+            "99",
+            "114",
+            "120",
+            "150"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "question": "Apa surah pertama dalam Al-Qur'an?",
+          "answers": [
+            "Al-Baqarah",
+            "Al-Ikhlas",
+            "Al-Fatihah",
+            "An-Nas"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "question": "Pada bulan apa turunnya Al-Qur'an dimulai?",
+          "answers": [
+            "Ramadhan",
+            "Syaban",
+            "Muharram",
+            "Rajab"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "Apa sebutan untuk membaca Al-Qur'an secara lengkap dari awal hingga akhir?",
+          "answers": [
+            "Tajwid",
+            "Khatam",
+            "Tafsir",
+            "Hafalan"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "question": "Apa surah terpanjang dalam Al-Qur'an?",
+          "answers": [
+            "Al-Fatihah",
+            "Al-Ikhlas",
+            "Al-Kahfi",
+            "Al-Baqarah"
+          ],
+          "correctIndex": 3
+        }
+      ]
     },
     "intro": {
       "title": "Kuis untuk belajar sambil bersenang-senang",

@@ -3,6 +3,7 @@ import { getTranslations, setRequestLocale } from 'next-intl/server';
 import Header from '@/components/Header/Header';
 import Footer from '@/components/Footer/Footer';
 import Hero from '@/components/KhatmaCoran/Hero';
+import Calculator from '@/components/KhatmaCoran/Calculator';
 import Intro from '@/components/KhatmaCoran/Intro';
 import Features from '@/components/KhatmaCoran/Features';
 import Screenshots from '@/components/KhatmaCoran/Screenshots';
@@ -132,6 +133,7 @@ export default async function KhatmaCoranPage({
       />
       <Header />
       <Hero />
+      <Calculator />
       <main className={styles.main}>
         <Intro />
         <Features />

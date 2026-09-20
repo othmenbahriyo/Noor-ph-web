@@ -26,7 +26,8 @@
         "privacyPolicy": "隐私政策",
         "cgu": "使用条款",
         "blog": "博客",
-        "aboutUs": "我们的故事"
+        "aboutUs": "我们的故事",
+        "ramadan2027": "2027年斋月"
       }
     },
     "languageSwitcher": {
@@ -2084,6 +2085,56 @@
       "allFeatures": "所有功能"
     }
   },
+  "ramadan2027": {
+    "meta": {
+      "title": "2027年斋月：日期、倒计时与准备 | Noor Phonetic Quran",
+      "description": "2027年斋月预计于2月18日开始（估计日期）。使用免费的古兰经拼音应用Noor Phonetic Quran，准备您的卡塔姆、每日计划和阿兹卡尔。",
+      "keywords": "2027年斋月, 2027斋月日期, 斋月倒计时, 准备斋月, 斋月卡塔姆, 斋月古兰经计划",
+      "ogTitle": "2027年斋月：日期、倒计时与准备",
+      "ogDescription": "2027年斋月预计于2月18日开始（估计日期）。使用Noor Phonetic Quran准备您的卡塔姆和每日计划。"
+    },
+    "breadcrumb": {
+      "home": "首页",
+      "current": "2027年斋月"
+    },
+    "hero": {
+      "badge": "1449年斋月",
+      "title": "2027年斋月：还剩多少天？",
+      "subtitle": "神圣的斋戒月预计将于2027年2月18日开始。现在就开始准备您的卡塔姆、阿兹卡尔和每日诵读计划。",
+      "disclaimer": "此日期根据目前的天文历法估算。确切日期将在斋月开始前几天通过观月确认。",
+      "days": "天",
+      "hours": "小时",
+      "minutes": "分钟",
+      "seconds": "秒"
+    },
+    "prepare": {
+      "title": "现在就开始准备您的斋月",
+      "subtitle": "即使不懂阿拉伯语，Noor Phonetic Quran也能帮助您充分利用这个神圣的月份。",
+      "items": [
+        {
+          "title": "规划您的卡塔姆",
+          "text": "设定在斋月30天内诵读完整古兰经的目标，每日页数会自动计算。",
+          "icon": "fa-book-quran"
+        },
+        {
+          "title": "每日计划",
+          "text": "为斋月的每次礼拜和每个时刻量身定制的日程安排，帮您安排斋戒和礼拜的每一天。",
+          "icon": "fa-calendar-day"
+        },
+        {
+          "title": "神圣月份的阿兹卡尔",
+          "text": "早晚及开斋后的祈祷词，配有音频和重复计数器。",
+          "icon": "fa-moon"
+        },
+        {
+          "title": "古兰经直播电台",
+          "text": "无论是否联网，都可以在您静思的时刻持续收听古兰经诵读。",
+          "icon": "fa-headphones"
+        }
+      ],
+      "cta": "准备您的斋月"
+    }
+  },
   "khatmaCoran": {
     "meta": {
       "title": "古兰经卡塔姆：规划并跟踪完整阅读进度的应用 | Noor Phonetic Quran",
@@ -2101,6 +2152,18 @@
       "subtitle": "为自己设定天数目标，跟踪每日进度，保持阅读连续打卡（streak），直到读完圣古兰经的最后一页，并获得提醒帮助您保持规律。",
       "googlePlay": "Google Play",
       "appStore": "App Store"
+    },
+    "calculator": {
+      "eyebrow": "计算器",
+      "title": "您想用多少天读完古兰经？",
+      "subtitle": "选择一个时长，了解每天需要阅读多少页才能按时完成您的卡塔姆。",
+      "daysCount": "%COUNT% 天",
+      "customLabel": "或选择自定义时长（以天为单位）",
+      "decrease": "减少天数",
+      "increase": "增加天数",
+      "resultLabel": "每天阅读页数，以在 %DAYS% 天内读完古兰经",
+      "adjustNote": "如果您错过了一天的阅读，应用会自动调整剩余页数，确保您的卡塔姆仍能按时完成。",
+      "cta": "追踪我的卡塔姆"
     },
     "intro": {
       "title": "什么是卡塔姆？",
@@ -2269,6 +2332,69 @@
       "backLink": "返回首页",
       "googlePlay": "Google Play",
       "appStore": "App Store"
+    },
+    "demo": {
+      "eyebrow": "立即体验",
+      "title": "用这个迷你测验来检验自己",
+      "subtitle": "5道题，在下载完整版应用（21道题、道具和奖金阶梯）之前先了解测验的形式。",
+      "progressLabel": "第 %CURRENT% / %TOTAL% 题",
+      "nextQuestion": "下一题",
+      "seeResults": "查看我的得分",
+      "resultLabel": "开局不错！在应用中继续用完整版测验学习吧。",
+      "restart": "重新开始",
+      "cta": "在应用中继续",
+      "questions": [
+        {
+          "question": "古兰经共有多少章？",
+          "answers": [
+            "99",
+            "114",
+            "120",
+            "150"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "question": "古兰经的第一章是什么？",
+          "answers": [
+            "黄牛章",
+            "忠诚章",
+            "开端章",
+            "世人章"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "question": "古兰经的启示是在哪个月开始的？",
+          "answers": [
+            "斋月",
+            "舍尔邦月",
+            "穆哈兰姆月",
+            "拉贾布月"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "从头到尾完整诵读古兰经称为什么？",
+          "answers": [
+            "塔吉维德",
+            "卡塔姆",
+            "塔夫西尔",
+            "哈费兹"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "question": "古兰经中最长的章是哪一章？",
+          "answers": [
+            "开端章",
+            "忠诚章",
+            "山洞章",
+            "黄牛章"
+          ],
+          "correctIndex": 3
+        }
+      ]
     },
     "intro": {
       "title": "在娱乐中学习的测验",

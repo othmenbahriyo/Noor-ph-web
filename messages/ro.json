@@ -26,7 +26,8 @@
         "privacyPolicy": "Politica de Confidențialitate",
         "cgu": "Termeni de Utilizare",
         "blog": "Blog",
-        "aboutUs": "Povestea Noastră"
+        "aboutUs": "Povestea Noastră",
+        "ramadan2027": "Ramadan 2027"
       }
     },
     "languageSwitcher": {
@@ -2084,6 +2085,56 @@
       "allFeatures": "Toate funcționalitățile"
     }
   },
+  "ramadan2027": {
+    "meta": {
+      "title": "Ramadan 2027: Data, Numărătoare Inversă și Pregătire | Noor Phonetic Quran",
+      "description": "Ramadan 2027 începe pe 18 februarie (dată estimată). Pregătiți-vă Khatma, programul zilnic și Adhkar-urile cu Noor Phonetic Quran, aplicația gratuită de Coran fonetic.",
+      "keywords": "Ramadan 2027, data Ramadan 2027, numărătoare inversă Ramadan, pregătirea pentru Ramadan, Khatma Ramadan, program Ramadan Coran",
+      "ogTitle": "Ramadan 2027: Data, Numărătoare Inversă și Pregătire",
+      "ogDescription": "Ramadan 2027 începe pe 18 februarie (dată estimată). Pregătiți-vă Khatma și programul zilnic cu Noor Phonetic Quran."
+    },
+    "breadcrumb": {
+      "home": "Acasă",
+      "current": "Ramadan 2027"
+    },
+    "hero": {
+      "badge": "Ramadan 1449H",
+      "title": "Ramadan 2027: câte zile au mai rămas?",
+      "subtitle": "Luna sfântă a postului ar trebui să înceapă pe 18 februarie 2027. Începeți deja să vă pregătiți Khatma, Adhkar-urile și planul zilnic de lectură.",
+      "disclaimer": "Dată estimată conform calendarelor astronomice actuale. Data exactă va fi confirmată prin observarea lunii, cu câteva zile înainte de începutul lunii.",
+      "days": "Zile",
+      "hours": "Ore",
+      "minutes": "Minute",
+      "seconds": "Secunde"
+    },
+    "prepare": {
+      "title": "Pregătiți-vă Ramadanul chiar de acum",
+      "subtitle": "Noor Phonetic Quran vă ajută să profitați din plin de luna sfântă, chiar și fără să cunoașteți araba.",
+      "items": [
+        {
+          "title": "Planificați-vă Khatma",
+          "text": "Stabiliți-vă obiectivul de a citi Coranul integral în cele 30 de zile ale Ramadanului, cu numărul de pagini pe zi calculat automat.",
+          "icon": "fa-book-quran"
+        },
+        {
+          "title": "Program zilnic",
+          "text": "Un program dedicat fiecărei rugăciuni și fiecărui moment al Ramadanului, pentru a vă structura zilele de post și rugăciune.",
+          "icon": "fa-calendar-day"
+        },
+        {
+          "title": "Adhkar-urile lunii sfinte",
+          "text": "Invocații de dimineață, de seară și după iftar, cu audio și contor de repetiții.",
+          "icon": "fa-moon"
+        },
+        {
+          "title": "Radio Coran în direct",
+          "text": "Ascultați recitări continue ale Coranului în momentele voastre de reculegere, cu sau fără conexiune la internet.",
+          "icon": "fa-headphones"
+        }
+      ],
+      "cta": "Pregătiți-vă Ramadanul"
+    }
+  },
   "khatmaCoran": {
     "meta": {
       "title": "Khatma Coranului: Aplicație pentru a Planifica și Urmări Lectura Completă | Noor Phonetic Quran",
@@ -2101,6 +2152,18 @@
       "subtitle": "Stabiliți-vă un obiectiv de zile, urmăriți-vă progresul zilnic și păstrați-vă seria de citire (streak) până la ultima pagină a Sfântului Coran, cu mementouri pentru a rămâne constant.",
       "googlePlay": "Google Play",
       "appStore": "App Store"
+    },
+    "calculator": {
+      "eyebrow": "Calculator",
+      "title": "În câte zile vrei să termini Coranul?",
+      "subtitle": "Alege o durată și află câte pagini să citești în fiecare zi pentru a-ți termina Khatma la timp.",
+      "daysCount": "%COUNT% zile",
+      "customLabel": "Sau alege o durată personalizată (în zile)",
+      "decrease": "Micșorează numărul de zile",
+      "increase": "Mărește numărul de zile",
+      "resultLabel": "pagini pe zi pentru a termina Coranul în %DAYS% zile",
+      "adjustNote": "Dacă ratezi o zi de lectură, aplicația ajustează automat paginile rămase astfel încât Khatma ta să se termine tot la timp.",
+      "cta": "Urmărește-mi Khatma"
     },
     "intro": {
       "title": "Ce este o Khatma?",
@@ -2269,6 +2332,69 @@
       "backLink": "Înapoi acasă",
       "googlePlay": "Google Play",
       "appStore": "App Store"
+    },
+    "demo": {
+      "eyebrow": "Încearcă acum",
+      "title": "Testează-te cu acest mini-quiz",
+      "subtitle": "5 întrebări pentru a descoperi formatul quiz-ului înainte de a descărca aplicația completă (21 de întrebări, ajutoare și scara premiilor).",
+      "progressLabel": "Întrebarea %CURRENT% / %TOTAL%",
+      "nextQuestion": "Întrebarea următoare",
+      "seeResults": "Vezi scorul meu",
+      "resultLabel": "Un început bun! Continuă să înveți cu quiz-ul complet din aplicație.",
+      "restart": "Reia",
+      "cta": "Continuă cu aplicația",
+      "questions": [
+        {
+          "question": "Câte sure are Coranul?",
+          "answers": [
+            "99",
+            "114",
+            "120",
+            "150"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "question": "Care este prima sură a Coranului?",
+          "answers": [
+            "Al-Baqara",
+            "Al-Ikhlas",
+            "Al-Fatiha",
+            "An-Nas"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "question": "În ce lună a început revelația Coranului?",
+          "answers": [
+            "Ramadan",
+            "Șaaban",
+            "Muharram",
+            "Rajab"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "Cum se numește citirea completă a Coranului de la început până la sfârșit?",
+          "answers": [
+            "Tajweed",
+            "Khatma",
+            "Tafsir",
+            "Hifz"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "question": "Care este cea mai lungă sură a Coranului?",
+          "answers": [
+            "Al-Fatiha",
+            "Al-Ikhlas",
+            "Al-Kahf",
+            "Al-Baqara"
+          ],
+          "correctIndex": 3
+        }
+      ]
     },
     "intro": {
       "title": "Un quiz pentru a învăța distrându-te",

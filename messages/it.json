@@ -26,7 +26,8 @@
         "privacyPolicy": "Informativa sulla Privacy",
         "cgu": "Termini di Utilizzo",
         "blog": "Blog",
-        "aboutUs": "La Nostra Storia"
+        "aboutUs": "La Nostra Storia",
+        "ramadan2027": "Ramadan 2027"
       }
     },
     "languageSwitcher": {
@@ -2084,6 +2085,56 @@
       "allFeatures": "Tutte le funzionalità"
     }
   },
+  "ramadan2027": {
+    "meta": {
+      "title": "Ramadan 2027: Data, Conto alla Rovescia e Preparazione | Noor Phonetic Quran",
+      "description": "Il Ramadan 2027 inizia il 18 febbraio (data stimata). Prepara la tua Khatma, il tuo programma quotidiano e i tuoi Adhkar con Noor Phonetic Quran, l'app gratuita del Corano fonetico.",
+      "keywords": "Ramadan 2027, data Ramadan 2027, conto alla rovescia Ramadan, preparare il Ramadan, Khatma Ramadan, programma Ramadan Corano",
+      "ogTitle": "Ramadan 2027: Data, Conto alla Rovescia e Preparazione",
+      "ogDescription": "Il Ramadan 2027 inizia il 18 febbraio (data stimata). Prepara la tua Khatma e il tuo programma quotidiano con Noor Phonetic Quran."
+    },
+    "breadcrumb": {
+      "home": "Home",
+      "current": "Ramadan 2027"
+    },
+    "hero": {
+      "badge": "Ramadan 1449H",
+      "title": "Ramadan 2027: quanti giorni rimangono?",
+      "subtitle": "Il mese sacro del digiuno dovrebbe iniziare il 18 febbraio 2027. Inizia già a preparare la tua Khatma, i tuoi Adhkar e il tuo piano di lettura quotidiano.",
+      "disclaimer": "Data stimata secondo i calendari astronomici attuali. La data esatta sarà confermata dall'osservazione della luna, pochi giorni prima dell'inizio del mese.",
+      "days": "Giorni",
+      "hours": "Ore",
+      "minutes": "Minuti",
+      "seconds": "Secondi"
+    },
+    "prepare": {
+      "title": "Prepara il tuo Ramadan da ora",
+      "subtitle": "Noor Phonetic Quran ti accompagna per vivere pienamente il mese sacro, anche senza saper leggere l'arabo.",
+      "items": [
+        {
+          "title": "Pianifica la tua Khatma",
+          "text": "Fissa il tuo obiettivo di lettura completa del Corano nei 30 giorni del Ramadan, con il numero di pagine al giorno calcolato automaticamente.",
+          "icon": "fa-book-quran"
+        },
+        {
+          "title": "Programma quotidiano",
+          "text": "Un piano dedicato a ogni preghiera e momento del Ramadan, per strutturare le tue giornate di digiuno e devozione.",
+          "icon": "fa-calendar-day"
+        },
+        {
+          "title": "Adhkar del mese sacro",
+          "text": "Invocazioni del mattino, della sera e dopo l'iftar, con audio e contatore delle ripetizioni.",
+          "icon": "fa-moon"
+        },
+        {
+          "title": "Radio del Corano in diretta",
+          "text": "Ascolta recitazioni continue del Corano nei tuoi momenti di raccoglimento, con o senza connessione internet.",
+          "icon": "fa-headphones"
+        }
+      ],
+      "cta": "Prepara il tuo Ramadan"
+    }
+  },
   "khatmaCoran": {
     "meta": {
       "title": "Khatma del Corano: App per Pianificare e Seguire la Lettura Completa | Noor Phonetic Quran",
@@ -2101,6 +2152,18 @@
       "subtitle": "Fissati un obiettivo di giorni, segui i tuoi progressi quotidiani e mantieni la tua serie di lettura (streak) fino all'ultima pagina del Sacro Corano, con promemoria per restare costante.",
       "googlePlay": "Google Play",
       "appStore": "App Store"
+    },
+    "calculator": {
+      "eyebrow": "Calcolatore",
+      "title": "In quanti giorni vuoi finire il Corano?",
+      "subtitle": "Scegli una durata e scopri quante pagine leggere ogni giorno per finire la tua Khatma in tempo.",
+      "daysCount": "%COUNT% giorni",
+      "customLabel": "Oppure scegli una durata personalizzata (in giorni)",
+      "decrease": "Diminuisci il numero di giorni",
+      "increase": "Aumenta il numero di giorni",
+      "resultLabel": "pagine al giorno per finire il Corano in %DAYS% giorni",
+      "adjustNote": "Se perdi un giorno di lettura, l'app adegua automaticamente le pagine rimanenti in modo che la tua Khatma finisca comunque in tempo.",
+      "cta": "Segui la mia Khatma"
     },
     "intro": {
       "title": "Cos'è una Khatma?",
@@ -2269,6 +2332,69 @@
       "backLink": "Torna alla home",
       "googlePlay": "Google Play",
       "appStore": "App Store"
+    },
+    "demo": {
+      "eyebrow": "Provalo ora",
+      "title": "Mettiti alla prova con questo mini quiz",
+      "subtitle": "5 domande per scoprire il formato del quiz prima di scaricare l'app completa (21 domande, aiuti e scala di premi).",
+      "progressLabel": "Domanda %CURRENT% / %TOTAL%",
+      "nextQuestion": "Domanda successiva",
+      "seeResults": "Vedi il mio punteggio",
+      "resultLabel": "Un buon inizio! Continua a imparare con il quiz completo nell'app.",
+      "restart": "Ricomincia",
+      "cta": "Continua con l'app",
+      "questions": [
+        {
+          "question": "Quante sure ha il Corano?",
+          "answers": [
+            "99",
+            "114",
+            "120",
+            "150"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "question": "Qual è la prima sura del Corano?",
+          "answers": [
+            "Al-Baqara",
+            "Al-Ikhlas",
+            "Al-Fatiha",
+            "An-Nas"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "question": "Durante quale mese è iniziata la rivelazione del Corano?",
+          "answers": [
+            "Ramadan",
+            "Sciabàn",
+            "Muharram",
+            "Rajab"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "Come si chiama la lettura completa del Corano dall'inizio alla fine?",
+          "answers": [
+            "Il Tajweed",
+            "La Khatma",
+            "Il Tafsir",
+            "L'Hifz"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "question": "Qual è la sura più lunga del Corano?",
+          "answers": [
+            "Al-Fatiha",
+            "Al-Ikhlas",
+            "Al-Kahf",
+            "Al-Baqara"
+          ],
+          "correctIndex": 3
+        }
+      ]
     },
     "intro": {
       "title": "Un quiz per imparare divertendosi",

@@ -26,7 +26,8 @@
         "privacyPolicy": "Patakaran sa Privacy",
         "cgu": "Mga Tuntunin ng Paggamit",
         "blog": "Blog",
-        "aboutUs": "Ang Aming Kuwento"
+        "aboutUs": "Ang Aming Kuwento",
+        "ramadan2027": "Ramadan 2027"
       }
     },
     "languageSwitcher": {
@@ -2084,6 +2085,56 @@
       "allFeatures": "Lahat ng Tampok"
     }
   },
+  "ramadan2027": {
+    "meta": {
+      "title": "Ramadan 2027: Petsa, Countdown, at Paghahanda | Noor Phonetic Quran",
+      "description": "Ang Ramadan 2027 ay magsisimula sa Pebrero 18 (tinatayang petsa). Ihanda ang inyong Khatma, pang-araw-araw na programa, at Adhkar gamit ang Noor Phonetic Quran, ang libreng phonetic Quran app.",
+      "keywords": "Ramadan 2027, petsa ng Ramadan 2027, countdown ng Ramadan, paghahanda para sa Ramadan, Khatma sa Ramadan, programa ng Ramadan Quran",
+      "ogTitle": "Ramadan 2027: Petsa, Countdown, at Paghahanda",
+      "ogDescription": "Ang Ramadan 2027 ay magsisimula sa Pebrero 18 (tinatayang petsa). Ihanda ang inyong Khatma at pang-araw-araw na programa gamit ang Noor Phonetic Quran."
+    },
+    "breadcrumb": {
+      "home": "Home",
+      "current": "Ramadan 2027"
+    },
+    "hero": {
+      "badge": "Ramadan 1449H",
+      "title": "Ramadan 2027: ilang araw na lang ang natitira?",
+      "subtitle": "Ang banal na buwan ng pag-aayuno ay inaasahang magsisimula sa Pebrero 18, 2027. Simulan na ngayon ang paghahanda ng inyong Khatma, Adhkar, at pang-araw-araw na plano sa pagbabasa.",
+      "disclaimer": "Tinatayang petsa base sa kasalukuyang mga astronomikong kalendaryo. Ang eksaktong petsa ay kumpirmahin sa pagmamasid sa buwan, ilang araw bago magsimula ang buwan.",
+      "days": "Araw",
+      "hours": "Oras",
+      "minutes": "Minuto",
+      "seconds": "Segundo"
+    },
+    "prepare": {
+      "title": "Ihanda na ang inyong Ramadan ngayon",
+      "subtitle": "Sinasamahan kayo ng Noor Phonetic Quran upang lubos na mapakinabangan ang banal na buwan, kahit hindi marunong bumasa ng Arabic.",
+      "items": [
+        {
+          "title": "Planuhin ang inyong Khatma",
+          "text": "Itakda ang inyong layunin na basahin ang buong Quran sa loob ng 30 araw ng Ramadan, na may awtomatikong kalkuladong bilang ng pahina kada araw.",
+          "icon": "fa-book-quran"
+        },
+        {
+          "title": "Pang-araw-araw na programa",
+          "text": "Isang iskedyul na inukol sa bawat pagdarasal at sandali ng Ramadan, upang isaayos ang inyong mga araw ng pag-aayuno at pagsamba.",
+          "icon": "fa-calendar-day"
+        },
+        {
+          "title": "Adhkar ng banal na buwan",
+          "text": "Mga panalangin sa umaga, gabi, at pagkatapos ng iftar, na may audio at counter ng pag-ulit.",
+          "icon": "fa-moon"
+        },
+        {
+          "title": "Live na Quran radio",
+          "text": "Pakinggan ang tuloy-tuloy na pagbigkas ng Quran sa mga sandali ng inyong pagninilay, may o walang internet connection.",
+          "icon": "fa-headphones"
+        }
+      ],
+      "cta": "Ihanda ang inyong Ramadan"
+    }
+  },
   "khatmaCoran": {
     "meta": {
       "title": "Khatma ng Quran: Application para Magplano at Subaybayan ang Kumpletong Pagbabasa | Noor Phonetic Quran",
@@ -2101,6 +2152,18 @@
       "subtitle": "Magtakda ng target na bilang ng araw, subaybayan ang iyong pang-araw-araw na progreso, at panatilihin ang iyong reading streak hanggang sa huling pahina ng Banal na Quran, na may mga paalala para manatiling regular.",
       "googlePlay": "Google Play",
       "appStore": "App Store"
+    },
+    "calculator": {
+      "eyebrow": "Calculator",
+      "title": "Sa ilang araw mo gustong tapusin ang Quran?",
+      "subtitle": "Pumili ng tagal at alamin kung ilang pahina ang babasahin araw-araw para matapos ang iyong Khatma sa tamang oras.",
+      "daysCount": "%COUNT% araw",
+      "customLabel": "O pumili ng custom na tagal (sa araw)",
+      "decrease": "Bawasan ang bilang ng araw",
+      "increase": "Dagdagan ang bilang ng araw",
+      "resultLabel": "pahina bawat araw para matapos ang Quran sa %DAYS% araw",
+      "adjustNote": "Kung nakaligtaan mo ang isang araw ng pagbabasa, awtomatikong iaayos ng app ang natitirang pahina para matapos din ang iyong Khatma sa tamang oras.",
+      "cta": "Subaybayan ang aking Khatma"
     },
     "intro": {
       "title": "Ano ang Khatma?",
@@ -2269,6 +2332,69 @@
       "backLink": "Bumalik sa Home",
       "googlePlay": "Google Play",
       "appStore": "App Store"
+    },
+    "demo": {
+      "eyebrow": "Subukan ngayon",
+      "title": "Subukin ang sarili sa mini-quiz na ito",
+      "subtitle": "5 tanong para matuklasan ang format ng quiz bago i-download ang kumpletong app (21 tanong, lifelines at prize ladder).",
+      "progressLabel": "Tanong %CURRENT% / %TOTAL%",
+      "nextQuestion": "Susunod na tanong",
+      "seeResults": "Tingnan ang aking score",
+      "resultLabel": "Magandang simula! Ipagpatuloy ang pag-aaral gamit ang kumpletong quiz sa app.",
+      "restart": "Ulitin",
+      "cta": "Ituloy sa app",
+      "questions": [
+        {
+          "question": "Ilang surah ang Quran?",
+          "answers": [
+            "99",
+            "114",
+            "120",
+            "150"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "question": "Ano ang unang surah ng Quran?",
+          "answers": [
+            "Al-Baqara",
+            "Al-Ikhlas",
+            "Al-Fatiha",
+            "An-Nas"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "question": "Sa anong buwan nagsimula ang paghayag ng Quran?",
+          "answers": [
+            "Ramadan",
+            "Shaban",
+            "Muharram",
+            "Rajab"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "Ano ang tawag sa kumpletong pagbabasa ng Quran mula umpisa hanggang dulo?",
+          "answers": [
+            "Tajweed",
+            "Khatma",
+            "Tafsir",
+            "Hifz"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "question": "Ano ang pinakamahabang surah ng Quran?",
+          "answers": [
+            "Al-Fatiha",
+            "Al-Ikhlas",
+            "Al-Kahf",
+            "Al-Baqara"
+          ],
+          "correctIndex": 3
+        }
+      ]
     },
     "intro": {
       "title": "Isang Quiz para Matuto Habang Nag-eenjoy",

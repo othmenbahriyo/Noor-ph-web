@@ -26,7 +26,8 @@
         "privacyPolicy": "Política de Privacidade",
         "cgu": "Termos de Uso",
         "blog": "Blog",
-        "aboutUs": "Nossa História"
+        "aboutUs": "Nossa História",
+        "ramadan2027": "Ramadão 2027"
       }
     },
     "languageSwitcher": {
@@ -2084,6 +2085,56 @@
       "allFeatures": "Todas as funcionalidades"
     }
   },
+  "ramadan2027": {
+    "meta": {
+      "title": "Ramadão 2027: Data, Contagem Decrescente e Preparação | Noor Phonetic Quran",
+      "description": "O Ramadão 2027 começa em 18 de fevereiro (data estimada). Prepare a sua Khatma, o seu programa diário e os seus Adhkar com o Noor Phonetic Quran, a app gratuita de Alcorão fonético.",
+      "keywords": "Ramadão 2027, data Ramadão 2027, contagem decrescente Ramadão, preparar o Ramadão, Khatma Ramadão, programa Ramadão Alcorão",
+      "ogTitle": "Ramadão 2027: Data, Contagem Decrescente e Preparação",
+      "ogDescription": "O Ramadão 2027 começa em 18 de fevereiro (data estimada). Prepare a sua Khatma e o seu programa diário com o Noor Phonetic Quran."
+    },
+    "breadcrumb": {
+      "home": "Início",
+      "current": "Ramadão 2027"
+    },
+    "hero": {
+      "badge": "Ramadão 1449H",
+      "title": "Ramadão 2027: quantos dias faltam?",
+      "subtitle": "O mês sagrado do jejum deverá começar em 18 de fevereiro de 2027. Comece já a preparar a sua Khatma, os seus Adhkar e o seu plano de leitura diário.",
+      "disclaimer": "Data estimada de acordo com os calendários astronómicos atuais. A data exata será confirmada pela observação da lua, poucos dias antes do início do mês.",
+      "days": "Dias",
+      "hours": "Horas",
+      "minutes": "Minutos",
+      "seconds": "Segundos"
+    },
+    "prepare": {
+      "title": "Prepare o seu Ramadão desde já",
+      "subtitle": "O Noor Phonetic Quran acompanha-o para aproveitar plenamente o mês sagrado, mesmo sem saber ler árabe.",
+      "items": [
+        {
+          "title": "Planeie a sua Khatma",
+          "text": "Defina o seu objetivo de leitura completa do Alcorão nos 30 dias do Ramadão, com o número de páginas por dia calculado automaticamente.",
+          "icon": "fa-book-quran"
+        },
+        {
+          "title": "Programa diário",
+          "text": "Um plano dedicado a cada oração e momento do Ramadão, para estruturar os seus dias de jejum e adoração.",
+          "icon": "fa-calendar-day"
+        },
+        {
+          "title": "Adhkar do mês sagrado",
+          "text": "Invocações da manhã, da noite e após o iftar, com áudio e contador de repetições.",
+          "icon": "fa-moon"
+        },
+        {
+          "title": "Rádio do Alcorão em direto",
+          "text": "Ouça recitações contínuas do Alcorão nos seus momentos de recolhimento, com ou sem ligação à internet.",
+          "icon": "fa-headphones"
+        }
+      ],
+      "cta": "Prepare o seu Ramadão"
+    }
+  },
   "khatmaCoran": {
     "meta": {
       "title": "Khatma do Alcorão: Aplicação para Planear e Acompanhar a Leitura Completa | Noor Phonetic Quran",
@@ -2101,6 +2152,18 @@
       "subtitle": "Defina um objetivo de dias, acompanhe o seu progresso diário e mantenha a sua sequência de leitura (streak) até à última página do Sagrado Alcorão, com lembretes para se manter regular.",
       "googlePlay": "Google Play",
       "appStore": "App Store"
+    },
+    "calculator": {
+      "eyebrow": "Calculadora",
+      "title": "Em quantos dias você quer terminar o Alcorão?",
+      "subtitle": "Escolha uma duração e descubra quantas páginas ler por dia para terminar a sua Khatma a tempo.",
+      "daysCount": "%COUNT% dias",
+      "customLabel": "Ou escolha uma duração personalizada (em dias)",
+      "decrease": "Diminuir número de dias",
+      "increase": "Aumentar número de dias",
+      "resultLabel": "páginas por dia para terminar o Alcorão em %DAYS% dias",
+      "adjustNote": "Se perder um dia de leitura, a aplicação ajusta automaticamente as páginas restantes para que a sua Khatma termine mesmo assim a tempo.",
+      "cta": "Acompanhar a minha Khatma"
     },
     "intro": {
       "title": "O que é uma Khatma?",
@@ -2269,6 +2332,69 @@
       "backLink": "Voltar ao início",
       "googlePlay": "Google Play",
       "appStore": "App Store"
+    },
+    "demo": {
+      "eyebrow": "Experimente agora",
+      "title": "Teste-se com este mini quiz",
+      "subtitle": "5 perguntas para descobrir o formato do quiz antes de descarregar a aplicação completa (21 perguntas, ajudas e escada de prémios).",
+      "progressLabel": "Pergunta %CURRENT% / %TOTAL%",
+      "nextQuestion": "Próxima pergunta",
+      "seeResults": "Ver a minha pontuação",
+      "resultLabel": "Bom começo! Continue a aprender com o quiz completo na aplicação.",
+      "restart": "Reiniciar",
+      "cta": "Continuar com a app",
+      "questions": [
+        {
+          "question": "Quantas suratas tem o Alcorão?",
+          "answers": [
+            "99",
+            "114",
+            "120",
+            "150"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "question": "Qual é a primeira surata do Alcorão?",
+          "answers": [
+            "Al-Baqara",
+            "Al-Ikhlas",
+            "Al-Fatiha",
+            "An-Nas"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "question": "Durante que mês começou a revelação do Alcorão?",
+          "answers": [
+            "Ramadão",
+            "Xabão",
+            "Moharram",
+            "Rajab"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "Como se chama a leitura completa do Alcorão do início ao fim?",
+          "answers": [
+            "O Tajweed",
+            "A Khatma",
+            "O Tafsir",
+            "O Hifz"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "question": "Qual é a surata mais longa do Alcorão?",
+          "answers": [
+            "Al-Fatiha",
+            "Al-Ikhlas",
+            "Al-Kahf",
+            "Al-Baqara"
+          ],
+          "correctIndex": 3
+        }
+      ]
     },
     "intro": {
       "title": "Um quiz para aprender a divertir-se",

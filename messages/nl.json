@@ -26,7 +26,8 @@
         "privacyPolicy": "Privacybeleid",
         "cgu": "Gebruiksvoorwaarden",
         "blog": "Blog",
-        "aboutUs": "Ons Verhaal"
+        "aboutUs": "Ons Verhaal",
+        "ramadan2027": "Ramadan 2027"
       }
     },
     "languageSwitcher": {
@@ -2084,6 +2085,56 @@
       "allFeatures": "Alle functies"
     }
   },
+  "ramadan2027": {
+    "meta": {
+      "title": "Ramadan 2027: Datum, Aftellen en Voorbereiding | Noor Phonetic Quran",
+      "description": "Ramadan 2027 begint op 18 februari (geschatte datum). Bereid uw Khatma, uw dagelijkse programma en uw Adhkar voor met Noor Phonetic Quran, de gratis fonetische Koran-app.",
+      "keywords": "Ramadan 2027, Ramadan 2027 datum, Ramadan aftellen, Ramadan voorbereiden, Ramadan Khatma, Ramadan Koran-programma",
+      "ogTitle": "Ramadan 2027: Datum, Aftellen en Voorbereiding",
+      "ogDescription": "Ramadan 2027 begint op 18 februari (geschatte datum). Bereid uw Khatma en dagelijkse programma voor met Noor Phonetic Quran."
+    },
+    "breadcrumb": {
+      "home": "Home",
+      "current": "Ramadan 2027"
+    },
+    "hero": {
+      "badge": "Ramadan 1449H",
+      "title": "Ramadan 2027: hoeveel dagen resteren er nog?",
+      "subtitle": "De heilige vastenmaand zou moeten beginnen op 18 februari 2027. Begin nu al met de voorbereiding van uw Khatma, uw Adhkar en uw dagelijkse leesplan.",
+      "disclaimer": "Geschatte datum volgens de huidige astronomische kalenders. De exacte datum wordt bevestigd door maanwaarneming, enkele dagen voor het begin van de maand.",
+      "days": "Dagen",
+      "hours": "Uren",
+      "minutes": "Minuten",
+      "seconds": "Seconden"
+    },
+    "prepare": {
+      "title": "Bereid uw Ramadan nu al voor",
+      "subtitle": "Noor Phonetic Quran begeleidt u om ten volle te profiteren van de heilige maand, ook zonder Arabisch te kunnen lezen.",
+      "items": [
+        {
+          "title": "Plan uw Khatma",
+          "text": "Stel uw doel om de volledige Koran te lezen binnen de 30 dagen van Ramadan, met automatisch berekend aantal pagina's per dag.",
+          "icon": "fa-book-quran"
+        },
+        {
+          "title": "Dagelijks programma",
+          "text": "Een speciaal schema voor elk gebed en moment van Ramadan, om uw vasten- en aanbiddingsdagen te structureren.",
+          "icon": "fa-calendar-day"
+        },
+        {
+          "title": "Adhkar van de heilige maand",
+          "text": "Ochtend-, avond- en na-iftar-smeekbeden, met audio en herhalingsteller.",
+          "icon": "fa-moon"
+        },
+        {
+          "title": "Live Koran-radio",
+          "text": "Beluister doorlopende Koranreciteringen tijdens uw momenten van inkeer, met of zonder internetverbinding.",
+          "icon": "fa-headphones"
+        }
+      ],
+      "cta": "Bereid uw Ramadan voor"
+    }
+  },
   "khatmaCoran": {
     "meta": {
       "title": "Khatma van de Koran: App om Uw Volledige Lezing te Plannen en te Volgen | Noor Phonetic Quran",
@@ -2101,6 +2152,18 @@
       "subtitle": "Stel uzelf een aantal dagen als doel, volg uw dagelijkse voortgang en houd uw leesreeks (streak) vol tot de laatste pagina van de Heilige Koran, met herinneringen om regelmatig te blijven.",
       "googlePlay": "Google Play",
       "appStore": "App Store"
+    },
+    "calculator": {
+      "eyebrow": "Rekenmachine",
+      "title": "In hoeveel dagen wilt u de Koran uitlezen?",
+      "subtitle": "Kies een duur en ontdek hoeveel pagina's u elke dag moet lezen om uw Khatma op tijd af te ronden.",
+      "daysCount": "%COUNT% dagen",
+      "customLabel": "Of kies een aangepaste duur (in dagen)",
+      "decrease": "Aantal dagen verminderen",
+      "increase": "Aantal dagen verhogen",
+      "resultLabel": "pagina's per dag om de Koran in %DAYS% dagen uit te lezen",
+      "adjustNote": "Als u een leesdag mist, past de app het aantal resterende pagina's automatisch aan, zodat uw Khatma toch op tijd wordt afgerond.",
+      "cta": "Volg mijn Khatma"
     },
     "intro": {
       "title": "Wat is een Khatma?",
@@ -2269,6 +2332,69 @@
       "backLink": "Terug naar home",
       "googlePlay": "Google Play",
       "appStore": "App Store"
+    },
+    "demo": {
+      "eyebrow": "Probeer het nu",
+      "title": "Test uzelf met deze mini-quiz",
+      "subtitle": "5 vragen om het quizformat te ontdekken voordat u de volledige app downloadt (21 vragen, jokers en prijzenladder).",
+      "progressLabel": "Vraag %CURRENT% / %TOTAL%",
+      "nextQuestion": "Volgende vraag",
+      "seeResults": "Bekijk mijn score",
+      "resultLabel": "Een goed begin! Blijf leren met de volledige quiz in de app.",
+      "restart": "Opnieuw beginnen",
+      "cta": "Verder met de app",
+      "questions": [
+        {
+          "question": "Hoeveel surahs heeft de Koran?",
+          "answers": [
+            "99",
+            "114",
+            "120",
+            "150"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "question": "Wat is de eerste surah van de Koran?",
+          "answers": [
+            "Al-Baqara",
+            "Al-Ikhlas",
+            "Al-Fatiha",
+            "An-Nas"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "question": "In welke maand begon de openbaring van de Koran?",
+          "answers": [
+            "Ramadan",
+            "Sha'ban",
+            "Muharram",
+            "Rajab"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "Hoe noemt men het volledig uitlezen van de Koran van begin tot eind?",
+          "answers": [
+            "Tajweed",
+            "Khatma",
+            "Tafsir",
+            "Hifz"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "question": "Wat is de langste surah van de Koran?",
+          "answers": [
+            "Al-Fatiha",
+            "Al-Ikhlas",
+            "Al-Kahf",
+            "Al-Baqara"
+          ],
+          "correctIndex": 3
+        }
+      ]
     },
     "intro": {
       "title": "Een quiz om al lerend plezier te hebben",

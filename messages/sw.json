@@ -26,7 +26,8 @@
         "privacyPolicy": "Sera ya Faragha",
         "cgu": "Masharti ya Matumizi",
         "blog": "Blogu",
-        "aboutUs": "Historia Yetu"
+        "aboutUs": "Historia Yetu",
+        "ramadan2027": "Ramadhani 2027"
       }
     },
     "languageSwitcher": {
@@ -2084,6 +2085,56 @@
       "allFeatures": "Vipengele vyote"
     }
   },
+  "ramadan2027": {
+    "meta": {
+      "title": "Ramadhani 2027: Tarehe, Kipima Muda, na Maandalizi | Noor Phonetic Quran",
+      "description": "Ramadhani 2027 itaanza Februari 18 (tarehe inayokadiriwa). Andaa Khatma yako, mpango wa kila siku, na Adhkar zako na Noor Phonetic Quran, programu ya bure ya Qur'ani ya kifonetiki.",
+      "keywords": "Ramadhani 2027, tarehe ya Ramadhani 2027, kipima muda cha Ramadhani, kujiandaa kwa Ramadhani, Khatma ya Ramadhani, mpango wa Ramadhani wa Qur'ani",
+      "ogTitle": "Ramadhani 2027: Tarehe, Kipima Muda, na Maandalizi",
+      "ogDescription": "Ramadhani 2027 itaanza Februari 18 (tarehe inayokadiriwa). Andaa Khatma yako na mpango wa kila siku na Noor Phonetic Quran."
+    },
+    "breadcrumb": {
+      "home": "Nyumbani",
+      "current": "Ramadhani 2027"
+    },
+    "hero": {
+      "badge": "Ramadhani 1449H",
+      "title": "Ramadhani 2027: zimesalia siku ngapi?",
+      "subtitle": "Mwezi mtakatifu wa kufunga unatarajiwa kuanza Februari 18, 2027. Anza sasa kuandaa Khatma yako, Adhkar zako, na mpango wako wa kusoma wa kila siku.",
+      "disclaimer": "Tarehe hii imekadiriwa kulingana na kalenda za kiastronomia za sasa. Tarehe kamili itathibitishwa kwa kuangalia mwezi, siku chache kabla ya mwanzo wa mwezi.",
+      "days": "Siku",
+      "hours": "Masaa",
+      "minutes": "Dakika",
+      "seconds": "Sekunde"
+    },
+    "prepare": {
+      "title": "Andaa Ramadhani yako kuanzia sasa",
+      "subtitle": "Noor Phonetic Quran inakusaidia kufaidika kikamilifu na mwezi mtakatifu, hata bila kujua kusoma Kiarabu.",
+      "items": [
+        {
+          "title": "Panga Khatma yako",
+          "text": "Weka lengo lako la kusoma Qur'ani nzima ndani ya siku 30 za Ramadhani, huku idadi ya kurasa kwa siku ikikokotolewa kiotomatiki.",
+          "icon": "fa-book-quran"
+        },
+        {
+          "title": "Mpango wa kila siku",
+          "text": "Ratiba maalum kwa kila swala na wakati wa Ramadhani, kupanga siku zako za kufunga na ibada.",
+          "icon": "fa-calendar-day"
+        },
+        {
+          "title": "Adhkar za mwezi mtakatifu",
+          "text": "Dua za asubuhi, jioni, na baada ya kufungua, zikiwa na sauti na kihesabu marudio.",
+          "icon": "fa-moon"
+        },
+        {
+          "title": "Redio ya Qur'ani moja kwa moja",
+          "text": "Sikiliza usomaji wa Qur'ani unaoendelea katika nyakati zako za kutafakari, ukiwa na mtandao au bila.",
+          "icon": "fa-headphones"
+        }
+      ],
+      "cta": "Andaa Ramadhani yako"
+    }
+  },
   "khatmaCoran": {
     "meta": {
       "title": "Khatma ya Qur'ani: Programu ya Kupanga na Kufuatilia Usomaji Wako Kamili | Noor Phonetic Quran",
@@ -2101,6 +2152,18 @@
       "subtitle": "Weka lengo la siku, fuatilia maendeleo yako ya kila siku na weka mfululizo wako wa usomaji (streak) hadi ukurasa wa mwisho wa Qur'ani Tukufu, ukiwa na vikumbusho vya kubaki mtaratibu.",
       "googlePlay": "Google Play",
       "appStore": "App Store"
+    },
+    "calculator": {
+      "eyebrow": "Kikokotoo",
+      "title": "Ni katika siku ngapi unataka kumaliza Qur'ani?",
+      "subtitle": "Chagua muda na ujue kurasa ngapi za kusoma kila siku ili kumaliza Khatma yako kwa wakati.",
+      "daysCount": "siku %COUNT%",
+      "customLabel": "Au chagua muda maalum (kwa siku)",
+      "decrease": "Punguza idadi ya siku",
+      "increase": "Ongeza idadi ya siku",
+      "resultLabel": "kurasa kwa siku ili kumaliza Qur'ani kwa siku %DAYS%",
+      "adjustNote": "Ukikosa siku ya kusoma, programu hurekebisha kiotomatiki kurasa zilizobaki ili Khatma yako ikamilike kwa wakati.",
+      "cta": "Fuatilia Khatma yangu"
     },
     "intro": {
       "title": "Khatma ni nini?",
@@ -2269,6 +2332,69 @@
       "backLink": "Rudi nyumbani",
       "googlePlay": "Google Play",
       "appStore": "App Store"
+    },
+    "demo": {
+      "eyebrow": "Jaribu sasa",
+      "title": "Jipime na maswali haya machache",
+      "subtitle": "Maswali 5 ili kugundua muundo wa maswali kabla ya kupakua programu kamili (maswali 21, misaada na ngazi ya zawadi).",
+      "progressLabel": "Swali %CURRENT% / %TOTAL%",
+      "nextQuestion": "Swali linalofuata",
+      "seeResults": "Tazama matokeo yangu",
+      "resultLabel": "Mwanzo mzuri! Endelea kujifunza na maswali kamili kwenye programu.",
+      "restart": "Anza upya",
+      "cta": "Endelea na programu",
+      "questions": [
+        {
+          "question": "Qur'ani ina sura ngapi?",
+          "answers": [
+            "99",
+            "114",
+            "120",
+            "150"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "question": "Ni sura gani ya kwanza katika Qur'ani?",
+          "answers": [
+            "Al-Baqara",
+            "Al-Ikhlas",
+            "Al-Fatiha",
+            "An-Nas"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "question": "Ni mwezi gani uteremshaji wa Qur'ani ulianza?",
+          "answers": [
+            "Ramadhani",
+            "Shaabani",
+            "Muharram",
+            "Rajab"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "Usomaji kamili wa Qur'ani kutoka mwanzo hadi mwisho huitwaje?",
+          "answers": [
+            "Tajweed",
+            "Khatma",
+            "Tafsiri",
+            "Hifz"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "question": "Ni sura gani ndefu zaidi katika Qur'ani?",
+          "answers": [
+            "Al-Fatiha",
+            "Al-Ikhlas",
+            "Al-Kahf",
+            "Al-Baqara"
+          ],
+          "correctIndex": 3
+        }
+      ]
     },
     "intro": {
       "title": "Maswali ya kujifunza ukifurahia",

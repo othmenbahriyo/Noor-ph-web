@@ -26,7 +26,8 @@
         "privacyPolicy": "Datenschutzrichtlinie",
         "cgu": "Nutzungsbedingungen",
         "blog": "Blog",
-        "aboutUs": "Unsere Geschichte"
+        "aboutUs": "Unsere Geschichte",
+        "ramadan2027": "Ramadan 2027"
       }
     },
     "languageSwitcher": {
@@ -2084,6 +2085,56 @@
       "allFeatures": "Alle Funktionen"
     }
   },
+  "ramadan2027": {
+    "meta": {
+      "title": "Ramadan 2027: Datum, Countdown und Vorbereitung | Noor Phonetic Quran",
+      "description": "Der Ramadan 2027 beginnt am 18. Februar (geschätztes Datum). Bereiten Sie Ihre Khatma, Ihr tägliches Programm und Ihre Adhkar mit Noor Phonetic Quran vor, der kostenlosen phonetischen Koran-App.",
+      "keywords": "Ramadan 2027, Ramadan 2027 Datum, Ramadan Countdown, Ramadan vorbereiten, Ramadan Khatma, Ramadan Koran-Programm",
+      "ogTitle": "Ramadan 2027: Datum, Countdown und Vorbereitung",
+      "ogDescription": "Der Ramadan 2027 beginnt am 18. Februar (geschätztes Datum). Bereiten Sie Ihre Khatma und Ihr tägliches Programm mit Noor Phonetic Quran vor."
+    },
+    "breadcrumb": {
+      "home": "Startseite",
+      "current": "Ramadan 2027"
+    },
+    "hero": {
+      "badge": "Ramadan 1449H",
+      "title": "Ramadan 2027: Wie viele Tage bleiben noch?",
+      "subtitle": "Der heilige Fastenmonat soll am 18. Februar 2027 beginnen. Bereiten Sie jetzt schon Ihre Khatma, Ihre Adhkar und Ihren täglichen Leseplan vor.",
+      "disclaimer": "Geschätztes Datum nach aktuellen astronomischen Kalendern. Das genaue Datum wird durch die Mondsichtung wenige Tage vor Beginn des Monats bestätigt.",
+      "days": "Tage",
+      "hours": "Stunden",
+      "minutes": "Minuten",
+      "seconds": "Sekunden"
+    },
+    "prepare": {
+      "title": "Bereiten Sie sich jetzt auf Ihren Ramadan vor",
+      "subtitle": "Noor Phonetic Quran begleitet Sie dabei, den heiligen Monat voll auszukosten, auch ohne Arabisch lesen zu können.",
+      "items": [
+        {
+          "title": "Planen Sie Ihre Khatma",
+          "text": "Setzen Sie sich das Ziel, den gesamten Koran innerhalb der 30 Tage des Ramadan zu lesen, mit automatisch berechneter Seitenzahl pro Tag.",
+          "icon": "fa-book-quran"
+        },
+        {
+          "title": "Tägliches Programm",
+          "text": "Ein spezieller Zeitplan für jedes Gebet und jeden Moment des Ramadan, um Ihre Fasten- und Andachtstage zu strukturieren.",
+          "icon": "fa-calendar-day"
+        },
+        {
+          "title": "Adhkar des heiligen Monats",
+          "text": "Bittgebete für morgens, abends und nach dem Fastenbrechen, mit Audio und Wiederholungszähler.",
+          "icon": "fa-moon"
+        },
+        {
+          "title": "Live-Koran-Radio",
+          "text": "Hören Sie durchgehende Koranrezitationen während Ihrer Momente der Besinnung, mit oder ohne Internetverbindung.",
+          "icon": "fa-headphones"
+        }
+      ],
+      "cta": "Bereiten Sie Ihren Ramadan vor"
+    }
+  },
   "khatmaCoran": {
     "meta": {
       "title": "Khatma des Korans: App zum Planen und Verfolgen der vollständigen Lektüre | Noor Phonetic Quran",
@@ -2101,6 +2152,18 @@
       "subtitle": "Setzen Sie sich ein Tagesziel, verfolgen Sie Ihren täglichen Fortschritt und behalten Sie Ihre Leseserie (Streak) bis zur letzten Seite des Heiligen Korans, mit Erinnerungen, um regelmäßig zu bleiben.",
       "googlePlay": "Google Play",
       "appStore": "App Store"
+    },
+    "calculator": {
+      "eyebrow": "Rechner",
+      "title": "In wie vielen Tagen möchten Sie den Koran beenden?",
+      "subtitle": "Wählen Sie eine Dauer und finden Sie heraus, wie viele Seiten Sie täglich lesen müssen, um Ihre Khatma rechtzeitig zu beenden.",
+      "daysCount": "%COUNT% Tage",
+      "customLabel": "Oder wählen Sie eine individuelle Dauer (in Tagen)",
+      "decrease": "Anzahl der Tage verringern",
+      "increase": "Anzahl der Tage erhöhen",
+      "resultLabel": "Seiten pro Tag, um den Koran in %DAYS% Tagen zu beenden",
+      "adjustNote": "Wenn Sie einen Lesetag verpassen, passt die App die verbleibenden Seiten automatisch an, damit Ihre Khatma trotzdem rechtzeitig fertig wird.",
+      "cta": "Meine Khatma verfolgen"
     },
     "intro": {
       "title": "Was ist eine Khatma?",
@@ -2269,6 +2332,69 @@
       "backLink": "Zurück zur Startseite",
       "googlePlay": "Google Play",
       "appStore": "App Store"
+    },
+    "demo": {
+      "eyebrow": "Jetzt ausprobieren",
+      "title": "Testen Sie sich mit diesem Mini-Quiz",
+      "subtitle": "5 Fragen, um das Quiz-Format zu entdecken, bevor Sie die vollständige App herunterladen (21 Fragen, Joker und Gewinnstufen).",
+      "progressLabel": "Frage %CURRENT% / %TOTAL%",
+      "nextQuestion": "Nächste Frage",
+      "seeResults": "Mein Ergebnis ansehen",
+      "resultLabel": "Ein guter Anfang! Lernen Sie mit dem vollständigen Quiz in der App weiter.",
+      "restart": "Neu starten",
+      "cta": "Mit der App weitermachen",
+      "questions": [
+        {
+          "question": "Wie viele Suren hat der Koran?",
+          "answers": [
+            "99",
+            "114",
+            "120",
+            "150"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "question": "Was ist die erste Sure des Korans?",
+          "answers": [
+            "Al-Baqara",
+            "Al-Ikhlas",
+            "Al-Fatiha",
+            "An-Nas"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "question": "In welchem Monat begann die Offenbarung des Korans?",
+          "answers": [
+            "Ramadan",
+            "Schaban",
+            "Muharram",
+            "Rajab"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "question": "Wie nennt man das vollständige Lesen des Korans von Anfang bis Ende?",
+          "answers": [
+            "Tajweed",
+            "Khatma",
+            "Tafsir",
+            "Hifz"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "question": "Was ist die längste Sure des Korans?",
+          "answers": [
+            "Al-Fatiha",
+            "Al-Ikhlas",
+            "Al-Kahf",
+            "Al-Baqara"
+          ],
+          "correctIndex": 3
+        }
+      ]
     },
     "intro": {
       "title": "Ein Quiz, um mit Spaß zu lernen",
