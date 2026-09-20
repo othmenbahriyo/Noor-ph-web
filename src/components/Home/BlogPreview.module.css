@@ -91,6 +91,6 @@
   .indicatorDotActive {
     width: 20px;
     border-radius: 4px;
-    background: var(--primary-color);
+    background: var(--accent-color);
   }
 }
