@@ -118,8 +118,4 @@
   .submitBtn {
     width: 100%;
   }
-
-  .compact .inputRow {
-    flex-direction: row;
-  }
 }

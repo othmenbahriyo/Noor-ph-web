@@ -184,8 +184,8 @@ export default async function Home({
         <Features />
         <VideoDemo />
         <Screenshots />
-        <Faq />
         <BlogPreview />
+        <Faq />
         <Testimonials />
         <ContactSection />
         <NewsletterSection />
