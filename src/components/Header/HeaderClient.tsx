@@ -9,6 +9,7 @@ import SearchModal from './SearchModal';
 import { LANGUAGES } from '@/i18n/languages';
 import type { BlogPostMeta } from '@/lib/blog';
 import ThemeToggle from '@/components/ThemeToggle/ThemeToggle';
+import { trackEvent } from '@/lib/firebase';
 import styles from './Header.module.css';
 
 interface NavLink {
@@ -163,7 +164,16 @@ export default function HeaderClient({ recentPosts }: HeaderClientProps) {
             ),
           )}
           {STORE_LINKS.map((store) => (
-            <a key={store.href} href={store.href} target="_blank" rel="noopener noreferrer" onClick={closeMobileMenu}>
+            <a
+              key={store.href}
+              href={store.href}
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={() => {
+                trackEvent('store_click', { store: store.labelKey, location: 'mobile_drawer' });
+                closeMobileMenu();
+              }}
+            >
               <i className={store.icon} />
               <span>{tNav(store.labelKey)}</span>
             </a>

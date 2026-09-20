@@ -4,6 +4,7 @@ import { useMemo, useState } from 'react';
 import Image from 'next/image';
 import { Link } from '@/i18n/navigation';
 import type { BlogPostMeta } from '@/lib/blog';
+import { trackEvent } from '@/lib/firebase';
 import styles from './Blog.module.css';
 
 interface BlogSearchGridProps {
@@ -50,7 +51,12 @@ export default function BlogSearchGrid({
       ) : (
         <div className={styles.grid}>
           {filtered.map((post) => (
-            <Link key={post.slug} href={`/blog/${post.slug}`} className={styles.card}>
+            <Link
+              key={post.slug}
+              href={`/blog/${post.slug}`}
+              className={styles.card}
+              onClick={() => trackEvent('blog_card_click', { slug: post.slug, location: 'blog_listing' })}
+            >
               <div className={styles.cardImage}>
                 <Image src={post.image} alt={post.title} fill sizes="(max-width: 768px) 100vw, 400px" />
               </div>

@@ -3,7 +3,7 @@
 import { useState, type FormEvent } from 'react';
 import { useLocale, useTranslations } from 'next-intl';
 import { collection, addDoc, serverTimestamp } from 'firebase/firestore';
-import { db } from '@/lib/firebase';
+import { db, trackEvent } from '@/lib/firebase';
 import styles from './NewsletterForm.module.css';
 
 const EMAIL_PATTERN = /^[\w-.]+@([\w-]+\.)+[\w-]{2,4}$/;
@@ -47,6 +47,7 @@ export default function NewsletterForm({ variant = 'section' }: NewsletterFormPr
       });
 
       setStatus('success');
+      trackEvent('newsletter_signup', { location: variant });
     } catch {
       setStatus('error');
     }

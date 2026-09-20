@@ -4,6 +4,7 @@ import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 import { useHeroAnimation } from '@/hooks/useHeroAnimation';
 import { useParallax } from '@/hooks/useParallax';
+import StoreLink from '@/components/StoreLink/StoreLink';
 import Counter from './Counter';
 import styles from './Hero.module.css';
 
@@ -93,14 +94,14 @@ export default function Hero() {
 
               <div className={`download-btns-modern ${styles.downloadBtnsModern}`}>
                 {STORE_LINKS.map((store) => (
-                  <a
+                  <StoreLink
                     key={store.href}
                     href={store.href}
+                    store={store.labelKey}
+                    location="home_hero_desktop"
                     className={`${styles.downloadBtnModern} ${
                       store.labelKey === 'googlePlay' ? styles.playStore : styles.appStore
                     }`}
-                    target="_blank"
-                    rel="noopener noreferrer"
                   >
                     <div className={styles.btnIcon}>
                       <i className={store.icon} />
@@ -109,7 +110,7 @@ export default function Hero() {
                       <span className={styles.btnSmallText}>{t('downloadOn')}</span>
                       <span className={styles.btnLargeText}>{tNav(store.labelKey)}</span>
                     </div>
-                  </a>
+                  </StoreLink>
                 ))}
               </div>
             </div>
@@ -210,16 +211,16 @@ export default function Hero() {
 
           <div className={styles.mobileDownloadButtons}>
             {STORE_LINKS.map((store) => (
-              <a
+              <StoreLink
                 key={store.href}
                 href={store.href}
+                store={store.labelKey}
+                location="home_hero_mobile"
                 className={styles.mobileDownloadBtn}
-                target="_blank"
-                rel="noopener noreferrer"
               >
                 <i className={store.icon} />
                 <span>{tNav(store.labelKey)}</span>
-              </a>
+              </StoreLink>
             ))}
           </div>
         </div>

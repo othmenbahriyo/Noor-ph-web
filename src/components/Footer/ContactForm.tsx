@@ -3,7 +3,7 @@
 import { useState, type FormEvent } from 'react';
 import { useLocale, useTranslations } from 'next-intl';
 import { collection, addDoc, serverTimestamp } from 'firebase/firestore';
-import { db } from '@/lib/firebase';
+import { db, trackEvent } from '@/lib/firebase';
 import Dropdown from '@/components/Dropdown/Dropdown';
 import styles from './ContactForm.module.css';
 
@@ -90,6 +90,7 @@ export default function ContactForm() {
       });
 
       setStatus('success');
+      trackEvent('contact_form_submit', { subject });
       setName('');
       setEmail('');
       setPhone('');

@@ -1,5 +1,6 @@
 import { getTranslations } from 'next-intl/server';
 import { Link } from '@/i18n/navigation';
+import StoreLink from '@/components/StoreLink/StoreLink';
 import styles from './Hero.module.css';
 
 const STORE_LINKS = [
@@ -29,16 +30,16 @@ export default async function Hero() {
         <p className={styles.subtitle}>{t('subtitle')}</p>
         <div className={styles.ctaGroup}>
           {STORE_LINKS.map((store) => (
-            <a
+            <StoreLink
               key={store.href}
               href={store.href}
+              store={store.labelKey}
+              location="quiz_coran_hero"
               className={styles.btnStore}
-              target="_blank"
-              rel="noopener noreferrer"
             >
               <i className={store.icon} />
               {t(store.labelKey)}
-            </a>
+            </StoreLink>
           ))}
         </div>
       </div>

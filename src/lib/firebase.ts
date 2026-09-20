@@ -1,6 +1,6 @@
 import { initializeApp, getApps, getApp } from 'firebase/app';
 import { getFirestore } from 'firebase/firestore';
-import { isSupported, getAnalytics, type Analytics } from 'firebase/analytics';
+import { isSupported, getAnalytics, logEvent, type Analytics } from 'firebase/analytics';
 
 const firebaseConfig = {
   apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
@@ -25,4 +25,12 @@ export async function enableAnalytics() {
   if (analyticsInstance || typeof window === 'undefined') return;
   if (!(await isSupported())) return;
   analyticsInstance = getAnalytics(app);
+}
+
+// Silently no-ops when analytics hasn't been enabled (consent declined or
+// not yet granted) — callers don't need to check enableAnalytics() state
+// themselves before firing an event.
+export function trackEvent(eventName: string, params?: Record<string, string>) {
+  if (!analyticsInstance) return;
+  logEvent(analyticsInstance, eventName, params);
 }

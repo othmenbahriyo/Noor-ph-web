@@ -4,6 +4,7 @@ import { useEffect, useRef, useState } from 'react';
 import Image from 'next/image';
 import { Link } from '@/i18n/navigation';
 import type { BlogPostMeta } from '@/lib/blog';
+import { trackEvent } from '@/lib/firebase';
 import blogStyles from '../Blog/Blog.module.css';
 import styles from './BlogPreview.module.css';
 
@@ -56,6 +57,7 @@ export default function BlogCarousel({ posts, readMoreLabel }: BlogCarouselProps
             ref={(el) => {
               cardRefs.current[index] = el;
             }}
+            onClick={() => trackEvent('blog_card_click', { slug: post.slug, location: 'home_preview' })}
           >
             <div className={blogStyles.cardImage}>
               <Image src={post.image} alt={post.title} fill sizes="(max-width: 768px) 100vw, 400px" />

@@ -3,6 +3,7 @@ import { getTranslations, getLocale } from 'next-intl/server';
 import { Link } from '@/i18n/navigation';
 import { getAllBlogPosts } from '@/lib/blog';
 import NewsletterForm from '@/components/Newsletter/NewsletterForm';
+import StoreLink from '@/components/StoreLink/StoreLink';
 import styles from './Footer.module.css';
 import BackToTop from './BackToTop';
 
@@ -46,16 +47,16 @@ export default async function Footer() {
           </div>
           <div className={styles.ctaButtons}>
             {STORE_LINKS.map((store) => (
-              <a
+              <StoreLink
                 key={store.href}
                 href={store.href}
+                store={store.labelKey}
+                location="footer_cta"
                 className={styles.ctaBtn}
-                target="_blank"
-                rel="noopener noreferrer"
               >
                 <i className={store.icon} />
                 {tNav(store.labelKey)}
-              </a>
+              </StoreLink>
             ))}
           </div>
         </div>
