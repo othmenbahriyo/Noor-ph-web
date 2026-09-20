@@ -111,11 +111,23 @@
       "noResults": "Hech qanday natija topilmadi."
     },
     "cookieConsent": {
-      "title": "Cookie-fayl sozlamalari",
-      "message": "Biz sayt tashrifini o'lchash va tajribangizni yaxshilash uchun cookie-fayllardan foydalanamiz. Ularning ishlatilishini qabul qilishingiz yoki rad etishingiz mumkin.",
-      "accept": "Qabul qilish",
-      "decline": "Rad etish",
-      "manage": "Cookie-fayllarni boshqarish"
+      "title": "Maxfiylik sozlamalari markazi",
+      "message": "Biz sayt tashrifini o'lchash va tajribangizni yaxshilash uchun cookie-fayllardan foydalanamiz. Sozlamalaringizni quyida moslashtirishingiz mumkin.",
+      "acceptAll": "Barchasini qabul qilish",
+      "declineAll": "Barchasini rad etish",
+      "customize": "Moslashtirish",
+      "save": "Tanlovlarimni saqlash",
+      "manage": "Cookie-fayllarni boshqarish",
+      "close": "Yopish",
+      "necessary": {
+        "title": "Zarur cookie-fayllar",
+        "description": "Sayt ishlashi uchun zarur (navigatsiya, xavfsizlik). Ularni o'chirib bo'lmaydi.",
+        "alwaysActive": "Doimo faol"
+      },
+      "analytics": {
+        "title": "Analitik cookie-fayllar",
+        "description": "Saytdan qanday foydalanilishini tushunishga yordam beradi, shunda biz uni yaxshilashimiz mumkin (Firebase Analytics)."
+      }
     }
   },
   "home": {

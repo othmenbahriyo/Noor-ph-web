@@ -111,11 +111,23 @@
       "noResults": "Tidak ada hasil ditemukan."
     },
     "cookieConsent": {
-      "title": "Preferensi cookie",
-      "message": "Kami menggunakan cookie untuk mengukur lalu lintas situs dan meningkatkan pengalaman Anda. Anda dapat menerima atau menolak penggunaannya.",
-      "accept": "Terima",
-      "decline": "Tolak",
-      "manage": "Kelola cookie"
+      "title": "Pusat Preferensi Privasi",
+      "message": "Kami menggunakan cookie untuk mengukur lalu lintas situs dan meningkatkan pengalaman Anda. Anda dapat menyesuaikan preferensi Anda di bawah ini.",
+      "acceptAll": "Terima semua",
+      "declineAll": "Tolak semua",
+      "customize": "Sesuaikan",
+      "save": "Simpan pilihan saya",
+      "manage": "Kelola cookie",
+      "close": "Tutup",
+      "necessary": {
+        "title": "Cookie yang diperlukan",
+        "description": "Penting agar situs berfungsi (navigasi, keamanan). Tidak dapat dinonaktifkan.",
+        "alwaysActive": "Selalu aktif"
+      },
+      "analytics": {
+        "title": "Cookie analitik",
+        "description": "Membantu kami memahami cara situs digunakan agar dapat kami tingkatkan (Firebase Analytics)."
+      }
     }
   },
   "home": {

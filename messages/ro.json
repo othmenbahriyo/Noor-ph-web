@@ -111,11 +111,23 @@
       "noResults": "Niciun rezultat găsit."
     },
     "cookieConsent": {
-      "title": "Preferințe cookie-uri",
-      "message": "Folosim cookie-uri pentru a măsura traficul site-ului și a-ți îmbunătăți experiența. Poți accepta sau refuza utilizarea lor.",
-      "accept": "Acceptă",
-      "decline": "Refuză",
-      "manage": "Gestionează cookie-urile"
+      "title": "Centrul de preferințe de confidențialitate",
+      "message": "Folosim cookie-uri pentru a măsura traficul site-ului și a-ți îmbunătăți experiența. Poți personaliza preferințele mai jos.",
+      "acceptAll": "Acceptă tot",
+      "declineAll": "Refuză tot",
+      "customize": "Personalizează",
+      "save": "Salvează alegerile mele",
+      "manage": "Gestionează cookie-urile",
+      "close": "Închide",
+      "necessary": {
+        "title": "Cookie-uri necesare",
+        "description": "Esențiale pentru funcționarea site-ului (navigare, securitate). Nu pot fi dezactivate.",
+        "alwaysActive": "Întotdeauna active"
+      },
+      "analytics": {
+        "title": "Cookie-uri analitice",
+        "description": "Ne ajută să înțelegem cum este utilizat site-ul pentru a-l putea îmbunătăți (Firebase Analytics)."
+      }
     }
   },
   "home": {

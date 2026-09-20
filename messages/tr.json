@@ -111,11 +111,23 @@
       "noResults": "Sonuç bulunamadı."
     },
     "cookieConsent": {
-      "title": "Çerez tercihleri",
-      "message": "Site trafiğini ölçmek ve deneyiminizi iyileştirmek için çerezler kullanıyoruz. Kullanımlarını kabul edebilir veya reddedebilirsiniz.",
-      "accept": "Kabul et",
-      "decline": "Reddet",
-      "manage": "Çerezleri yönet"
+      "title": "Gizlilik Tercih Merkezi",
+      "message": "Site trafiğini ölçmek ve deneyiminizi iyileştirmek için çerezler kullanıyoruz. Tercihlerinizi aşağıda özelleştirebilirsiniz.",
+      "acceptAll": "Tümünü kabul et",
+      "declineAll": "Tümünü reddet",
+      "customize": "Özelleştir",
+      "save": "Seçimlerimi kaydet",
+      "manage": "Çerezleri yönet",
+      "close": "Kapat",
+      "necessary": {
+        "title": "Gerekli çerezler",
+        "description": "Sitenin çalışması için gereklidir (gezinme, güvenlik). Devre dışı bırakılamazlar.",
+        "alwaysActive": "Her zaman aktif"
+      },
+      "analytics": {
+        "title": "Analitik çerezler",
+        "description": "Siteyi nasıl kullandığınızı anlamamıza ve geliştirmemize yardımcı olur (Firebase Analytics)."
+      }
     }
   },
   "home": {

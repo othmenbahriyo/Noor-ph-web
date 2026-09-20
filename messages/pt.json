@@ -111,11 +111,23 @@
       "noResults": "Nenhum resultado encontrado."
     },
     "cookieConsent": {
-      "title": "Preferências de cookies",
-      "message": "Utilizamos cookies para medir o tráfego do site e melhorar sua experiência. Você pode aceitar ou recusar seu uso.",
-      "accept": "Aceitar",
-      "decline": "Recusar",
-      "manage": "Gerenciar cookies"
+      "title": "Central de preferências de privacidade",
+      "message": "Utilizamos cookies para medir o tráfego do site e melhorar sua experiência. Você pode personalizar suas preferências abaixo.",
+      "acceptAll": "Aceitar tudo",
+      "declineAll": "Recusar tudo",
+      "customize": "Personalizar",
+      "save": "Salvar minhas escolhas",
+      "manage": "Gerenciar cookies",
+      "close": "Fechar",
+      "necessary": {
+        "title": "Cookies necessários",
+        "description": "Essenciais para o funcionamento do site (navegação, segurança). Não podem ser desativados.",
+        "alwaysActive": "Sempre ativos"
+      },
+      "analytics": {
+        "title": "Cookies analíticos",
+        "description": "Nos ajudam a entender como o site é usado para que possamos melhorá-lo (Firebase Analytics)."
+      }
     }
   },
   "home": {

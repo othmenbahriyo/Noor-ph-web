@@ -111,11 +111,23 @@
       "noResults": "Walang nahanap na resulta."
     },
     "cookieConsent": {
-      "title": "Mga kagustuhan sa cookie",
-      "message": "Gumagamit kami ng cookies upang sukatin ang trapiko ng site at mapabuti ang iyong karanasan. Maaari mong tanggapin o tanggihan ang paggamit nito.",
-      "accept": "Tanggapin",
-      "decline": "Tanggihan",
-      "manage": "Pamahalaan ang cookies"
+      "title": "Sentro ng Kagustuhan sa Privacy",
+      "message": "Gumagamit kami ng cookies upang sukatin ang trapiko ng site at mapabuti ang iyong karanasan. Maaari mong i-customize ang iyong mga kagustuhan sa ibaba.",
+      "acceptAll": "Tanggapin lahat",
+      "declineAll": "Tanggihan lahat",
+      "customize": "I-customize",
+      "save": "I-save ang aking mga pinili",
+      "manage": "Pamahalaan ang cookies",
+      "close": "Isara",
+      "necessary": {
+        "title": "Mahahalagang cookies",
+        "description": "Kailangan para gumana ang site (navigation, seguridad). Hindi ito maaaring i-disable.",
+        "alwaysActive": "Palaging aktibo"
+      },
+      "analytics": {
+        "title": "Cookies para sa analytics",
+        "description": "Tumutulong sa amin na maunawaan kung paano ginagamit ang site upang mapabuti ito (Firebase Analytics)."
+      }
     }
   },
   "home": {

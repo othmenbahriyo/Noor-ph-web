@@ -1,0 +1,34 @@
+.floatingBtn {
+  position: fixed;
+  bottom: 30px;
+  left: 30px;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: var(--primary-color);
+  color: var(--on-primary-text);
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  box-shadow: var(--shadow-md);
+  z-index: 1500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: var(--transition);
+}
+
+.floatingBtn:hover {
+  background: var(--primary-dark);
+  transform: translateY(-3px);
+}
+
+@media (max-width: 600px) {
+  .floatingBtn {
+    bottom: 20px;
+    left: 20px;
+    width: 42px;
+    height: 42px;
+    font-size: 1.05rem;
+  }
+}

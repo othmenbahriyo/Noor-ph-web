@@ -111,11 +111,23 @@
       "noResults": "Amul benn mbir gu gis."
     },
     "cookieConsent": {
-      "title": "Tannéef yu cookies",
-      "message": "Danuy jëfandikoo cookies ngir xam ñu ñëw ci sunu site bi te defar sa jubluwaay. Mën nga nangu walla bañ ko.",
-      "accept": "Nangu",
-      "decline": "Bañ",
-      "manage": "Jëfandikoo cookies"
+      "title": "Barab yu tannéef ci sutura",
+      "message": "Danuy jëfandikoo cookies ngir xam ñu ñëw ci sunu site bi te defar sa jubluwaay. Mën nga soppi say tannéef ci suuf.",
+      "acceptAll": "Nangu lépp",
+      "declineAll": "Bañ lépp",
+      "customize": "Soppi",
+      "save": "Denc samay tann",
+      "manage": "Jëfandikoo cookies",
+      "close": "Tëj",
+      "necessary": {
+        "title": "Cookies yu wara am",
+        "description": "Am solo ngir site bi dox (navigation, kaaraange). Mënuñu koo bañ.",
+        "alwaysActive": "Dafa dox léegi léegi"
+      },
+      "analytics": {
+        "title": "Cookies yu analytics",
+        "description": "Danañu nu jàppale ngir xam nan lañuy jëfandikoo site bi ngir defar ko (Firebase Analytics)."
+      }
     }
   },
   "home": {

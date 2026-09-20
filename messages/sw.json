@@ -111,11 +111,23 @@
       "noResults": "Hakuna matokeo yaliyopatikana."
     },
     "cookieConsent": {
-      "title": "Mapendeleo ya vidakuzi",
-      "message": "Tunatumia vidakuzi kupima trafiki ya tovuti na kuboresha uzoefu wako. Unaweza kukubali au kukataa matumizi yao.",
-      "accept": "Kubali",
-      "decline": "Kataa",
-      "manage": "Dhibiti vidakuzi"
+      "title": "Kituo cha Mapendeleo ya Faragha",
+      "message": "Tunatumia vidakuzi kupima trafiki ya tovuti na kuboresha uzoefu wako. Unaweza kubinafsisha mapendeleo yako hapa chini.",
+      "acceptAll": "Kubali yote",
+      "declineAll": "Kataa yote",
+      "customize": "Binafsisha",
+      "save": "Hifadhi machaguo yangu",
+      "manage": "Dhibiti vidakuzi",
+      "close": "Funga",
+      "necessary": {
+        "title": "Vidakuzi muhimu",
+        "description": "Muhimu kwa utendaji wa tovuti (urambazaji, usalama). Haviwezi kuzimwa.",
+        "alwaysActive": "Hai kila wakati"
+      },
+      "analytics": {
+        "title": "Vidakuzi vya uchambuzi",
+        "description": "Vinatusaidia kuelewa jinsi tovuti inavyotumika ili tuweze kuiboresha (Firebase Analytics)."
+      }
     }
   },
   "home": {

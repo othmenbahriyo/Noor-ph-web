@@ -1,6 +1,12 @@
 import { initializeApp, getApps, getApp } from 'firebase/app';
 import { getFirestore } from 'firebase/firestore';
-import { isSupported, getAnalytics, logEvent, type Analytics } from 'firebase/analytics';
+import {
+  isSupported,
+  getAnalytics,
+  logEvent,
+  setAnalyticsCollectionEnabled,
+  type Analytics,
+} from 'firebase/analytics';
 
 const firebaseConfig = {
   apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
@@ -46,4 +52,16 @@ export async function trackEvent(eventName: string, params?: Record<string, stri
   await analyticsReady;
   if (!analyticsInstance) return;
   logEvent(analyticsInstance, eventName, params);
+}
+
+// Lets a visitor revoke consent after previously accepting, without a page
+// reload — Firebase has no "uninitialize" API, so we stop collection on the
+// existing instance instead of trying to tear it down.
+export async function setAnalyticsEnabled(enabled: boolean) {
+  if (enabled) {
+    await enableAnalytics();
+  }
+  if (analyticsInstance) {
+    setAnalyticsCollectionEnabled(analyticsInstance, enabled);
+  }
 }

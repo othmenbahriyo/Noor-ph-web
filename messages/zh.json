@@ -111,11 +111,23 @@
       "noResults": "未找到结果。"
     },
     "cookieConsent": {
-      "title": "Cookie 偏好设置",
-      "message": "我们使用 Cookie 来衡量网站流量并改善您的体验。您可以接受或拒绝使用它们。",
-      "accept": "接受",
-      "decline": "拒绝",
-      "manage": "管理 Cookie"
+      "title": "隐私偏好中心",
+      "message": "我们使用 Cookie 来衡量网站流量并改善您的体验。您可以在下方自定义您的偏好设置。",
+      "acceptAll": "全部接受",
+      "declineAll": "全部拒绝",
+      "customize": "自定义",
+      "save": "保存我的选择",
+      "manage": "管理 Cookie",
+      "close": "关闭",
+      "necessary": {
+        "title": "必要 Cookie",
+        "description": "网站运行所必需（导航、安全）。无法禁用。",
+        "alwaysActive": "始终启用"
+      },
+      "analytics": {
+        "title": "分析 Cookie",
+        "description": "帮助我们了解网站的使用情况以便改进（Firebase Analytics）。"
+      }
     }
   },
   "home": {

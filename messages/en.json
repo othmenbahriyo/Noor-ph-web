@@ -111,11 +111,23 @@
       "noResults": "No results found."
     },
     "cookieConsent": {
-      "title": "Cookie preferences",
-      "message": "We use cookies to measure site traffic and improve your experience. You can accept or decline their use.",
-      "accept": "Accept",
-      "decline": "Decline",
-      "manage": "Manage cookies"
+      "title": "Privacy Preference Center",
+      "message": "We use cookies to measure site traffic and improve your experience. You can customize your preferences below.",
+      "acceptAll": "Accept all",
+      "declineAll": "Decline all",
+      "customize": "Customize",
+      "save": "Save my choices",
+      "manage": "Manage cookies",
+      "close": "Close",
+      "necessary": {
+        "title": "Necessary cookies",
+        "description": "Essential for the site to function (navigation, security). They cannot be disabled.",
+        "alwaysActive": "Always active"
+      },
+      "analytics": {
+        "title": "Analytics cookies",
+        "description": "Help us understand how the site is used so we can improve it (Firebase Analytics)."
+      }
     }
   },
   "home": {

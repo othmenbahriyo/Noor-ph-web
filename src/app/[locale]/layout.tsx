@@ -7,6 +7,7 @@ import { notFound } from 'next/navigation';
 import Script from 'next/script';
 import { routing } from '@/i18n/routing';
 import CookieConsent from '@/components/CookieConsent/CookieConsent';
+import CookieFloatingButton from '@/components/CookieConsent/CookieFloatingButton';
 import '../globals.css';
 
 const cairo = Cairo({
@@ -70,6 +71,7 @@ export default async function LocaleLayout({
         <NextIntlClientProvider>
           {children}
           <CookieConsent />
+          <CookieFloatingButton />
         </NextIntlClientProvider>
       </body>
     </html>

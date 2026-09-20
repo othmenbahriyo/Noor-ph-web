@@ -111,11 +111,23 @@
       "noResults": "結果が見つかりません。"
     },
     "cookieConsent": {
-      "title": "Cookieの設定",
-      "message": "サイトのトラフィックを測定し、ユーザー体験を向上させるためにCookieを使用しています。使用を許可または拒否できます。",
-      "accept": "同意する",
-      "decline": "拒否する",
-      "manage": "Cookieの管理"
+      "title": "プライバシー設定センター",
+      "message": "サイトのトラフィックを測定し、ユーザー体験を向上させるためにCookieを使用しています。以下で設定をカスタマイズできます。",
+      "acceptAll": "すべて同意する",
+      "declineAll": "すべて拒否する",
+      "customize": "カスタマイズ",
+      "save": "選択を保存する",
+      "manage": "Cookieの管理",
+      "close": "閉じる",
+      "necessary": {
+        "title": "必須Cookie",
+        "description": "サイトの機能（ナビゲーション、セキュリティ）に不可欠です。無効にすることはできません。",
+        "alwaysActive": "常に有効"
+      },
+      "analytics": {
+        "title": "分析用Cookie",
+        "description": "サイトの利用状況を理解し改善するために役立ちます（Firebase Analytics）。"
+      }
     }
   },
   "home": {
