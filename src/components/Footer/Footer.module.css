@@ -126,6 +126,13 @@
 .footerNewsletterRow {
   padding-top: 12px;
   padding-bottom: 30px;
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.footerNewsletterRow form {
+  flex: 1;
   max-width: 480px;
 }
 
@@ -135,7 +142,20 @@
   text-transform: uppercase;
   letter-spacing: 1px;
   color: var(--text-color);
-  margin: 0 0 12px;
+  margin: 0;
+  white-space: nowrap;
+}
+
+@media (max-width: 700px) {
+  .footerNewsletterRow {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+  }
+
+  .footerNewsletterRow form {
+    max-width: none;
+  }
 }
 
 .footerLinks h5 {
