@@ -1,20 +1,20 @@
 'use client';
 
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import styles from './ThemeToggle.module.css';
 
 const STORAGE_KEY = 'noor-theme';
 
-// The inline script in the root layout sets data-theme on <html> before
-// hydration, so reading it here (lazily, once) stays in sync without an
-// effect-driven setState render.
-function readInitialTheme() {
-  if (typeof document === 'undefined') return false;
-  return document.documentElement.getAttribute('data-theme') === 'dark';
-}
-
 export default function ThemeToggle({ label }: { label: string }) {
-  const [isDark, setIsDark] = useState(readInitialTheme);
+  // Server and the first client render must produce identical markup, so
+  // this always starts as `false` even though the inline script in the
+  // root layout may have already set data-theme="dark" on <html>. The
+  // effect below syncs to the real value right after mount.
+  const [isDark, setIsDark] = useState(false);
+
+  useEffect(() => {
+    setIsDark(document.documentElement.getAttribute('data-theme') === 'dark');
+  }, []);
 
   const toggle = () => {
     const next = isDark ? 'light' : 'dark';
