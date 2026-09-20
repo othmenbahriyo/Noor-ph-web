@@ -270,7 +270,7 @@
 
   .menuToggle {
     display: block;
-    margin-left: auto;
+    margin-inline-start: auto;
   }
 
   .headerActions .langBtn,
