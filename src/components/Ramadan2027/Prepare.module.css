@@ -1,0 +1,112 @@
+.section {
+  padding: var(--section-padding) 0;
+  background: var(--light-color);
+}
+
+.sectionTitle {
+  text-align: center;
+  margin-bottom: 50px;
+  padding: 0 15px;
+}
+
+.sectionTitle h2 {
+  font-size: 2.1rem;
+  color: var(--text-color);
+  margin-bottom: 15px;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+}
+
+.sectionTitle p {
+  font-size: 1.1rem;
+  color: var(--text-light);
+  max-width: 620px;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 28px;
+  margin-bottom: 40px;
+}
+
+.card {
+  background: var(--white);
+  border-radius: var(--border-radius);
+  padding: 32px 28px;
+  box-shadow: var(--shadow-md);
+  text-align: center;
+  transition: var(--transition);
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-hover);
+}
+
+.iconWrap {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: var(--primary-gradient);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px;
+}
+
+.iconWrap i {
+  color: var(--on-primary-text);
+  font-size: 1.4rem;
+}
+
+.card h3 {
+  color: var(--primary-color);
+  font-size: 1.25rem;
+  margin-bottom: 12px;
+}
+
+.card p {
+  color: var(--text-light);
+  line-height: 1.65;
+}
+
+.ctaGroup {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.ctaBtn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: var(--primary-color);
+  color: var(--on-primary-text);
+  padding: 12px 24px;
+  border-radius: 12px;
+  text-decoration: none;
+  font-weight: 700;
+  transition: var(--transition);
+}
+
+.ctaBtn:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow);
+}
+
+.ctaBtn i {
+  font-size: 1.3rem;
+}
+
+@media (max-width: 600px) {
+  .section {
+    padding: var(--section-padding-mobile) 0;
+  }
+
+  .sectionTitle h2 {
+    font-size: 1.6rem;
+  }
+}
