@@ -7,6 +7,7 @@
 .ctaBanner {
   background: var(--primary-color);
   margin-top: 40px;
+  border: 0.5px solid white;
   border-radius: var(--border-radius-lg);
   padding: 36px 40px;
   display: flex;
