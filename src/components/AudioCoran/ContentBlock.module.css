@@ -1,9 +1,9 @@
 .containerWrap {
-  padding-top: 25px;
+  margin-top: 56px;
 }
 
 .containerWrap:first-child {
-  padding-top: 0;
+  margin-top: 0;
 }
 
 .contentBlock {
@@ -29,6 +29,10 @@
 }
 
 @media (max-width: 600px) {
+  .containerWrap {
+    margin-top: 32px;
+  }
+
   .contentBlock {
     padding: 22px;
   }
