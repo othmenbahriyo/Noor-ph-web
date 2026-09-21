@@ -271,15 +271,14 @@
 
 .panelActions {
   display: flex;
+  flex-direction: column;
   gap: 10px;
   padding: 20px 28px;
   border-top: 1px solid var(--light-gray);
-  flex-wrap: wrap;
 }
 
 .panelActions button {
-  flex: 1;
-  min-width: 110px;
+  width: 100%;
 }
 
 @media (max-width: 600px) {
