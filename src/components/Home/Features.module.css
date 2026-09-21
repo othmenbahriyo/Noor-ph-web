@@ -38,7 +38,7 @@
   align-items: center;
   gap: 24px;
   padding: 26px 16px;
-  border-top: 1px solid rgba(1, 62, 55, 0.1);
+  border-top: 1px solid var(--light-gray);
   text-decoration: none;
   color: inherit;
   transition: background-color 0.2s ease;
@@ -46,7 +46,7 @@
 }
 
 .list > :last-child {
-  border-bottom: 1px solid rgba(1, 62, 55, 0.1);
+  border-bottom: 1px solid var(--light-gray);
 }
 
 .rowLinked {
@@ -54,7 +54,7 @@
 }
 
 .rowLinked:hover {
-  background-color: rgba(1, 62, 55, 0.03);
+  background-color: var(--light-gray);
 }
 
 .rowNumber {
