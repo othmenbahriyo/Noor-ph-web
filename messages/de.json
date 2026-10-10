@@ -27,7 +27,8 @@
         "cgu": "Nutzungsbedingungen",
         "blog": "Blog",
         "aboutUs": "Unsere Geschichte",
-        "ramadan2027": "Ramadan 2027"
+        "ramadan2027": "Ramadan 2027",
+        "suiviRecitationIa": "KI-Rezitationsbegleitung"
       }
     },
     "languageSwitcher": {
@@ -235,6 +236,12 @@
           "title": "Koran auswendig lernen (Hifz)",
           "href": "/memorisation-coran",
           "text": "Lernen Sie den Koran Vers für Vers auswendig mit Audio-Wiederholung, Wort-für-Wort-Modus, Wiederholungs-Quiz, Punkten, Stufen, Abzeichen und täglichen Herausforderungen, um motiviert zu bleiben."
+        },
+        {
+          "icon": "fa-wave-square",
+          "title": "KI-Rezitationsbegleitung",
+          "href": "/suivi-recitation-ia",
+          "text": "Rezitiere laut: Die KI verfolgt jedes Wort in Echtzeit, markiert Fehler und ausgelassene Wörter, analysiert dein Tajweed und verfolgt deinen Fortschritt Sitzung für Sitzung."
         },
         {
           "icon": "fa-microphone-alt",
@@ -2567,6 +2574,102 @@
       "tajweed": "Tajweed-Regeln",
       "allFeatures": "Alle Funktionen",
       "blogArticle": "10 Methoden zum Auswendiglernen des Korans"
+    }
+  },
+  "suiviRecitationIa": {
+    "meta": {
+      "title": "Koranrezitation mit KI verfolgen: Korrektur Wort für Wort in Echtzeit | Noor Phonetic Quran",
+      "description": "Rezitiere den Koran laut: Die KI von Noor Phonetic Quran verfolgt jedes Wort in Echtzeit, markiert Fehler und Auslassungen, analysiert dein Tajweed und verfolgt deinen Fortschritt. Kostenlos für iOS und Android.",
+      "keywords": "Koranrezitation KI, Koran Rezitation prüfen, Koranrezitation korrigieren, Koran auswendig lernen KI, Koran App Rezitation",
+      "ogTitle": "Koranrezitation mit KI verfolgen: Korrektur Wort für Wort in Echtzeit",
+      "ogDescription": "Rezitiere laut: Die KI verfolgt jedes Wort, markiert deine Fehler und verfolgt deinen Fortschritt. Kostenlose App Noor Phonetic Quran."
+    },
+    "breadcrumb": {
+      "home": "Startseite",
+      "current": "KI-Rezitationsbegleitung"
+    },
+    "hero": {
+      "title": "Koranrezitation mit KI verfolgen: Rezitiere, die KI folgt dir Wort für Wort",
+      "subtitle": "Schalte das Mikrofon ein und rezitiere: Die künstliche Intelligenz erkennt jedes Wort in Echtzeit, färbt Richtiges ein, markiert Fehler und Auslassungen und zeigt dir deinen Fortschritt Sitzung für Sitzung.",
+      "googlePlay": "Google Play",
+      "appStore": "App Store"
+    },
+    "intro": {
+      "title": "Was ist die KI-Rezitationsbegleitung?",
+      "paragraph1": "Die KI-Rezitationsbegleitung hört deiner Koranlesung beim Rezitieren zu und vergleicht jedes Wort mit dem Text des Mushaf. Das erwartete Wort ist unterstrichen, richtig rezitierte Wörter erscheinen nach und nach, und ein Fehler oder ein ausgelassenes Wort wird sofort markiert.",
+      "paragraph2": "Die Spracherkennung läuft direkt auf deinem Handy: Das Modell wird einmal heruntergeladen, und deine Stimme wird nicht zur Analyse an einen Server gesendet.",
+      "paragraph3": "Ideal zum Wiederholen dessen, was du auswendig gelernt hast (Hifz): Blende den Text aus, rezitiere aus dem Gedächtnis und lass die KI die Wörter beim Rezitieren aufdecken."
+    },
+    "features": {
+      "title": "Wie funktioniert die KI-Rezitationsbegleitung?",
+      "items": [
+        {
+          "title": "Öffne eine Seite und tippe auf das Mikrofon",
+          "description": "beginne, wo du willst: Die KI findet die Passage, die du rezitierst, und blättert automatisch um."
+        },
+        {
+          "title": "Rezitiere laut",
+          "description": "jedes erkannte Wort wird farbig, und das erwartete Wort ist unterstrichen, damit du nie die Stelle verlierst."
+        },
+        {
+          "title": "Blende den Text aus und rezitiere aus dem Gedächtnis",
+          "description": "der Text wird beim Rezitieren aufgedeckt, oder bleib auf einer leeren Seite; ein Hinweis zeigt das nächste Wort, wenn du hängen bleibst."
+        },
+        {
+          "title": "Sieh deine Fehler sofort",
+          "description": "falsche, ausgelassene oder zögerliche Wörter werden markiert, und die Sitzungsübersicht erscheint, sobald du das Mikrofon ausschaltest."
+        },
+        {
+          "title": "Analysiere dein Tajweed",
+          "description": "auf kompatiblen Android-Handys erkennt eine optionale Analyse Tajweed-Fehler: Madd zu kurz oder zu lang, Qalqala, Ghunna, Shadda…"
+        },
+        {
+          "title": "Verfolge deinen Fortschritt",
+          "description": "Tagesserie, Genauigkeit, Fehler pro Seite, Verlaufskurve, Rezitationszeit, Beherrschung Vers für Vers und verteilte Wiederholung schwacher Verse."
+        }
+      ]
+    },
+    "screenshots": {
+      "title": "Einblick in Rezitationsbegleitung und Fortschritt",
+      "alts": [
+        "Noor Phonetic Quran - Von der KI begleitete Rezitation mit ausgeblendetem Text",
+        "Noor Phonetic Quran - Tagesserie, Genauigkeit und zu wiederholende Verse",
+        "Noor Phonetic Quran - Verlaufskurve und Aktivitätskalender",
+        "Noor Phonetic Quran - Rezitationszeit und Beherrschung des Korans",
+        "Noor Phonetic Quran - Verlauf der Rezitationssitzungen"
+      ]
+    },
+    "faq": {
+      "title": "Häufige Fragen zur KI-Rezitationsbegleitung",
+      "items": [
+        {
+          "question": "Ist die KI-Rezitationsbegleitung kostenlos?",
+          "answer": "Ja, die KI-Rezitationsbegleitung ist in der App Noor Phonetic Quran für iOS und Android kostenlos verfügbar."
+        },
+        {
+          "question": "Brauche ich eine Internetverbindung?",
+          "answer": "Eine Verbindung ist nötig, um das Erkennungsmodell beim ersten Mal herunterzuladen. Danach wird deine Rezitation direkt auf deinem Handy erkannt."
+        },
+        {
+          "question": "Mit welchen Lesarten funktioniert sie?",
+          "answer": "Die Begleitung Wort für Wort funktioniert mit dem phonetischen Text und dem arabischen Mushaf, in der Lesart Hafs sowie Warsh und Qaloun. Die Tajweed-Analyse ist nur für Hafs verfügbar."
+        },
+        {
+          "question": "Wie hilft mir die KI, den Koran auswendig zu lernen?",
+          "answer": "Blende den Text aus und rezitiere aus dem Gedächtnis: Die KI deckt richtig rezitierte Wörter auf und markiert vergessene. Jeder Vers erhält eine Bewertung, und schwache Verse kommen nach 1, 3, 7, 14 und dann 30 Tagen zur Wiederholung zurück."
+        },
+        {
+          "question": "Ersetzt die KI einen Lehrer?",
+          "answer": "Nein. Sie ist ein Übungswerkzeug, um öfter zu rezitieren und Fehler zu erkennen, aber die Erkennung kann sich irren. Um deine Rezitation und dein Tajweed zu bestätigen, ersetzt nichts einen qualifizierten Lehrer."
+        }
+      ]
+    },
+    "related": {
+      "title": "Entdecken Sie auch",
+      "memorisation": "Koran auswendig lernen (Hifz)",
+      "tajweed": "Tajweed-Regeln",
+      "correction": "Rezitationskorrektur",
+      "allFeatures": "Alle Funktionen"
     }
   }
 }

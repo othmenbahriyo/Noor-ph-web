@@ -27,7 +27,8 @@
         "cgu": "Kullanım Koşulları",
         "blog": "Blog",
         "aboutUs": "Hikayemiz",
-        "ramadan2027": "Ramazan 2027"
+        "ramadan2027": "Ramazan 2027",
+        "suiviRecitationIa": "Yapay zekâ ile okuma takibi"
       }
     },
     "languageSwitcher": {
@@ -235,6 +236,12 @@
           "title": "Kur'an Ezberleme (Hıfz)",
           "href": "/memorisation-coran",
           "text": "Ses tekrarı, kelime kelime mod, tekrar quizleri, puanlar, seviyeler, rozetler ve motive kalmanız için günlük görevlerle Kur'an'ı ayet ayet ezberleyin."
+        },
+        {
+          "icon": "fa-wave-square",
+          "title": "Yapay Zekâ ile Okuma Takibi",
+          "href": "/suivi-recitation-ia",
+          "text": "Sesli okuyun: yapay zekâ her kelimeyi anlık takip eder, hatalarınızı ve atladıklarınızı gösterir, tecvidinizi analiz eder ve ilerlemenizi oturum oturum izler."
         },
         {
           "icon": "fa-microphone-alt",
@@ -2567,6 +2574,102 @@
       "tajweed": "Tecvid Kuralları",
       "allFeatures": "Tüm Özellikler",
       "blogArticle": "Kur'an'ı Ezberlemenin 10 Yöntemi"
+    }
+  },
+  "suiviRecitationIa": {
+    "meta": {
+      "title": "Yapay Zekâ ile Kur'an Okuma Takibi: Anlık Kelime Kelime Düzeltme | Noor Phonetic Quran",
+      "description": "Kur'an'ı sesli okuyun: Noor Phonetic Quran'ın yapay zekâsı her kelimeyi anlık takip eder, hataları ve atlanan kelimeleri gösterir, tecvidi analiz eder ve ilerlemenizi izler. iOS ve Android'de ücretsiz.",
+      "keywords": "yapay zekâ Kur'an okuma, Kur'an okuma kontrolü, Kur'an okuma düzeltme, yapay zekâ ile hafızlık, Kur'an okuma uygulaması",
+      "ogTitle": "Yapay Zekâ ile Kur'an Okuma Takibi: Anlık Kelime Kelime Düzeltme",
+      "ogDescription": "Sesli okuyun: yapay zekâ her kelimeyi takip eder, hatalarınızı gösterir ve ilerlemenizi izler. Ücretsiz Noor Phonetic Quran uygulaması."
+    },
+    "breadcrumb": {
+      "home": "Ana Sayfa",
+      "current": "Yapay zekâ ile okuma takibi"
+    },
+    "hero": {
+      "title": "Yapay Zekâ ile Kur'an Okuma Takibi: Siz Okuyun, Yapay Zekâ Kelime Kelime Takip Etsin",
+      "subtitle": "Mikrofonu açın ve okuyun: yapay zekâ her kelimeyi anlık tanır, doğru okunanları renklendirir, hataları ve atlananları gösterir, ardından ilerlemenizi oturum oturum sunar.",
+      "googlePlay": "Google Play",
+      "appStore": "App Store"
+    },
+    "intro": {
+      "title": "Yapay zekâ ile okuma takibi nedir?",
+      "paragraph1": "Yapay zekâ ile okuma takibi, siz okurken Kur'an tilavetinizi dinler ve her kelimeyi mushaf metniyle karşılaştırır. Beklenen kelimenin altı çizilir, doğru okunan kelimeler sırayla belirir, bir hata ya da atlanan kelime hemen gösterilir.",
+      "paragraph2": "Ses tanıma doğrudan telefonunuzda çalışır: model bir kez indirilir ve sesiniz analiz için bir sunucuya gönderilmez.",
+      "paragraph3": "Ezberinizi (hıfz) tekrar etmek için ideal: metni gizleyin, ezberden okuyun ve yapay zekânın kelimeleri siz okudukça açmasına izin verin."
+    },
+    "features": {
+      "title": "Yapay zekâ ile okuma takibi nasıl çalışır?",
+      "items": [
+        {
+          "title": "Bir sayfa açın ve mikrofona dokunun",
+          "description": "istediğiniz yerden başlayın: yapay zekâ okuduğunuz bölümü bulur ve sayfaları otomatik çevirir."
+        },
+        {
+          "title": "Sesli okuyun",
+          "description": "tanınan her kelime renklenir, beklenen kelimenin altı çizilir; böylece yerinizi hiç kaybetmezsiniz."
+        },
+        {
+          "title": "Ezberden okumak için metni gizleyin",
+          "description": "metin siz okudukça açılır ya da boş sayfada kalın; takıldığınızda bir ipucu sonraki kelimeyi gösterir."
+        },
+        {
+          "title": "Hatalarınızı hemen görün",
+          "description": "yanlış, atlanan veya tereddütlü kelimeler işaretlenir ve mikrofonu kapattığınız anda oturum özeti görünür."
+        },
+        {
+          "title": "Tecvidinizi analiz edin",
+          "description": "uyumlu Android telefonlarda isteğe bağlı bir analiz tecvid hatalarını bulur: çok kısa veya uzun med, kalkale, gunne, şedde…"
+        },
+        {
+          "title": "İlerlemenizi takip edin",
+          "description": "gün serisi, doğruluk, sayfa başına hata, gelişim eğrisi, okuma süresi, ayet ayet hâkimiyet ve zayıf ayetlerin aralıklı tekrarı."
+        }
+      ]
+    },
+    "screenshots": {
+      "title": "Okuma takibi ve ilerlemeye bir bakış",
+      "alts": [
+        "Noor Phonetic Quran - Metin gizliyken yapay zekâ ile takip edilen okuma",
+        "Noor Phonetic Quran - Gün serisi, doğruluk ve tekrar edilecek ayetler",
+        "Noor Phonetic Quran - Gelişim eğrisi ve etkinlik takvimi",
+        "Noor Phonetic Quran - Okuma süresi ve Kur'an hâkimiyeti",
+        "Noor Phonetic Quran - Okuma oturumları geçmişi"
+      ]
+    },
+    "faq": {
+      "title": "Yapay zekâ ile okuma takibi hakkında sık sorulan sorular",
+      "items": [
+        {
+          "question": "Yapay zekâ ile okuma takibi ücretsiz mi?",
+          "answer": "Evet, yapay zekâ ile okuma takibi Noor Phonetic Quran uygulamasında iOS ve Android'de ücretsiz olarak sunulur."
+        },
+        {
+          "question": "İnternet bağlantısı gerekir mi?",
+          "answer": "Tanıma modelini ilk kez indirmek için bağlantı gerekir. Sonrasında okumanız doğrudan telefonunuzda tanınır."
+        },
+        {
+          "question": "Hangi kıraatlerle çalışır?",
+          "answer": "Kelime kelime takip, fonetik metinde ve Arapça mushafta Hafs kıraatinin yanı sıra Verş ve Kalun ile de çalışır. Tecvid analizi yalnızca Hafs için kullanılabilir."
+        },
+        {
+          "question": "Yapay zekâ ezberlememe nasıl yardımcı olur?",
+          "answer": "Metni gizleyin ve ezberden okuyun: yapay zekâ doğru okuduğunuz kelimeleri açar, unuttuklarınızı işaretler. Her ayet bir puan alır; zayıf ayetler 1, 3, 7, 14 ve ardından 30 gün sonra tekrara döner."
+        },
+        {
+          "question": "Yapay zekâ bir hocanın yerini tutar mı?",
+          "answer": "Hayır. Daha sık okumanız ve hatalarınızı görmeniz için bir alıştırma aracıdır, ancak tanıma yanılabilir. Okumanızı ve tecvidinizi onaylatmak için hiçbir şey yetkin bir hocanın yerini tutamaz."
+        }
+      ]
+    },
+    "related": {
+      "title": "Ayrıca Keşfedin",
+      "memorisation": "Kur'an'ı Ezberleyin (Hıfz)",
+      "tajweed": "Tecvid Kuralları",
+      "correction": "Tilavet Düzeltme",
+      "allFeatures": "Tüm Özellikler"
     }
   }
 }

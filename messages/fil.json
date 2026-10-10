@@ -27,7 +27,8 @@
         "cgu": "Mga Tuntunin ng Paggamit",
         "blog": "Blog",
         "aboutUs": "Ang Aming Kuwento",
-        "ramadan2027": "Ramadan 2027"
+        "ramadan2027": "Ramadan 2027",
+        "suiviRecitationIa": "Pagsubaybay sa pagbigkas gamit ang AI"
       }
     },
     "languageSwitcher": {
@@ -235,6 +236,12 @@
           "title": "Pagsasaulo ng Quran (Hifz)",
           "href": "/memorisation-coran",
           "text": "Isaulo ang Quran nang talata-by-talata gamit ang audio repetition, word-by-word mode, review quiz, points, level, badge, at pang-araw-araw na hamon para manatiling motivated."
+        },
+        {
+          "icon": "fa-wave-square",
+          "title": "Pagsubaybay sa Pagbigkas gamit ang AI",
+          "href": "/suivi-recitation-ia",
+          "text": "Bumigkas nang malakas: sinusundan ng AI ang bawat salita nang real-time, itinuturo ang iyong mga mali at nalaktawang salita, sinusuri ang tajweed mo at sinusubaybayan ang iyong pag-unlad sa bawat sesyon."
         },
         {
           "icon": "fa-microphone-alt",
@@ -2567,6 +2574,102 @@
       "tajweed": "Mga Tuntunin ng Tajweed",
       "allFeatures": "Lahat ng Tampok",
       "blogArticle": "10 Paraan para Isaulo ang Quran"
+    }
+  },
+  "suiviRecitationIa": {
+    "meta": {
+      "title": "Pagsubaybay sa Pagbigkas ng Quran gamit ang AI: Pagwawasto Salita por Salita nang Real-Time | Noor Phonetic Quran",
+      "description": "Bigkasin ang Quran nang malakas: sinusundan ng AI ng Noor Phonetic Quran ang bawat salita nang real-time, itinuturo ang mga mali at nalaktawan, sinusuri ang tajweed at sinusubaybayan ang iyong pag-unlad. Libre sa iOS at Android.",
+      "keywords": "AI pagbigkas ng Quran, suriin ang pagbigkas ng Quran, pagwawasto ng pagbigkas ng Quran, pagsasaulo ng Quran gamit ang AI, app sa pagbigkas ng Quran",
+      "ogTitle": "Pagsubaybay sa Pagbigkas ng Quran gamit ang AI: Pagwawasto Salita por Salita nang Real-Time",
+      "ogDescription": "Bumigkas nang malakas: sinusundan ng AI ang bawat salita, itinuturo ang mga mali at sinusubaybayan ang pag-unlad mo. Libreng app na Noor Phonetic Quran."
+    },
+    "breadcrumb": {
+      "home": "Home",
+      "current": "Pagsubaybay sa pagbigkas gamit ang AI"
+    },
+    "hero": {
+      "title": "Pagsubaybay sa Pagbigkas ng Quran gamit ang AI: Ikaw ang Bumigkas, Susundan Ka ng AI Salita por Salita",
+      "subtitle": "Buksan ang mikropono at bumigkas: kinikilala ng artificial intelligence ang bawat salita nang real-time, kinukulayan ang tama, itinuturo ang mga mali at nalaktawan, at ipinapakita ang pag-unlad mo sa bawat sesyon.",
+      "googlePlay": "Google Play",
+      "appStore": "App Store"
+    },
+    "intro": {
+      "title": "Ano ang pagsubaybay sa pagbigkas gamit ang AI?",
+      "paragraph1": "Pinapakinggan ng pagsubaybay sa pagbigkas gamit ang AI ang iyong pagbasa ng Quran habang bumibigkas ka at ikinukumpara ang bawat salita sa teksto ng mushaf. May salungguhit ang inaasahang salita, lumilitaw ang mga tamang salita habang tumutuloy ka, at agad na itinuturo ang mali o nalaktawang salita.",
+      "paragraph2": "Gumagana ang pagkilala sa boses mismo sa iyong telepono: isang beses lang dina-download ang model, at hindi ipinapadala ang boses mo sa server para suriin.",
+      "paragraph3": "Mainam para balikan ang iyong mga naisaulo (Hifz): itago ang teksto, bumigkas mula sa memorya, at hayaang ilantad ng AI ang mga salita habang bumibigkas ka."
+    },
+    "features": {
+      "title": "Paano gumagana ang pagsubaybay sa pagbigkas gamit ang AI?",
+      "items": [
+        {
+          "title": "Magbukas ng pahina at pindutin ang mikropono",
+          "description": "magsimula kahit saan: hinahanap ng AI ang bahaging binibigkas mo at kusang inililipat ang mga pahina."
+        },
+        {
+          "title": "Bumigkas nang malakas",
+          "description": "nagkakakulay ang bawat nakilalang salita at may salungguhit ang inaasahang salita para hindi ka maligaw."
+        },
+        {
+          "title": "Itago ang teksto para bumigkas mula sa memorya",
+          "description": "lumilitaw ang teksto habang bumibigkas ka, o manatili sa blangkong pahina; ipinapakita ng pahiwatig ang susunod na salita kapag natigilan ka."
+        },
+        {
+          "title": "Makita agad ang iyong mga mali",
+          "description": "itinuturo ang mga mali, nalaktawan o alanganing salita, at lumilitaw ang buod ng sesyon pagkapatay mo ng mikropono."
+        },
+        {
+          "title": "Suriin ang iyong tajweed",
+          "description": "sa mga compatible na Android phone, may opsyonal na pagsusuri na tumutukoy sa mga mali sa tajweed: madd na masyadong maikli o mahaba, qalqala, ghunna, shadda…"
+        },
+        {
+          "title": "Subaybayan ang iyong pag-unlad",
+          "description": "sunod-sunod na araw, katumpakan, mali bawat pahina, kurba ng pag-unlad, oras ng pagbigkas, kasanayan bawat talata at may pagitang pagbabalik-aral sa mahihinang talata."
+        }
+      ]
+    },
+    "screenshots": {
+      "title": "Silip sa pagsubaybay sa pagbigkas at pag-unlad",
+      "alts": [
+        "Noor Phonetic Quran - Pagbigkas na sinusundan ng AI habang nakatago ang teksto",
+        "Noor Phonetic Quran - Sunod-sunod na araw, katumpakan at mga talatang babalikan",
+        "Noor Phonetic Quran - Kurba ng pag-unlad at kalendaryo ng aktibidad",
+        "Noor Phonetic Quran - Oras ng pagbigkas at kasanayan sa Quran",
+        "Noor Phonetic Quran - Kasaysayan ng mga sesyon ng pagbigkas"
+      ]
+    },
+    "faq": {
+      "title": "Mga madalas itanong tungkol sa pagsubaybay sa pagbigkas gamit ang AI",
+      "items": [
+        {
+          "question": "Libre ba ang pagsubaybay sa pagbigkas gamit ang AI?",
+          "answer": "Oo, libre ang pagsubaybay sa pagbigkas gamit ang AI sa app na Noor Phonetic Quran, sa iOS at Android."
+        },
+        {
+          "question": "Kailangan ba ng internet?",
+          "answer": "Kailangan ng koneksyon para i-download ang recognition model sa unang pagkakataon. Pagkatapos nito, kinikilala ang iyong pagbigkas mismo sa telepono."
+        },
+        {
+          "question": "Sa aling mga pagbasa ito gumagana?",
+          "answer": "Gumagana ang pagsubaybay salita por salita sa phonetic na teksto at sa Arabic na mushaf, sa pagbasang Hafs pati na sa Warsh at Qaloun. Ang pagsusuri ng tajweed ay para lamang sa Hafs."
+        },
+        {
+          "question": "Paano ako tinutulungan ng AI na isaulo ang Quran?",
+          "answer": "Itago ang teksto at bumigkas mula sa memorya: inilalantad ng AI ang mga salitang tama ang bigkas mo at itinuturo ang nakalimutan mo. May marka ang bawat talata, at bumabalik para sa pagbabalik-aral ang mahihinang talata pagkalipas ng 1, 3, 7, 14 at pagkatapos ay 30 araw."
+        },
+        {
+          "question": "Napapalitan ba ng AI ang isang guro?",
+          "answer": "Hindi. Isa itong kasangkapan sa pagsasanay para mas madalas kang bumigkas at makita ang mga mali mo, pero maaaring magkamali ang pagkilala. Para mapatunayan ang pagbigkas at tajweed mo, walang makapapalit sa isang kwalipikadong guro."
+        }
+      ]
+    },
+    "related": {
+      "title": "Tuklasin Din",
+      "memorisation": "Isaulo ang Quran (Hifz)",
+      "tajweed": "Mga Tuntunin ng Tajweed",
+      "correction": "Pagwawasto ng Pagbigkas",
+      "allFeatures": "Lahat ng Tampok"
     }
   }
 }

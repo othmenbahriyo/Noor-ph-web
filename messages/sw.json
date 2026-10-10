@@ -27,7 +27,8 @@
         "cgu": "Masharti ya Matumizi",
         "blog": "Blogu",
         "aboutUs": "Historia Yetu",
-        "ramadan2027": "Ramadhani 2027"
+        "ramadan2027": "Ramadhani 2027",
+        "suiviRecitationIa": "Ufuatiliaji wa kisomo kwa AI"
       }
     },
     "languageSwitcher": {
@@ -235,6 +236,12 @@
           "title": "Kuhifadhi Qur'ani (Hifz)",
           "href": "/memorisation-coran",
           "text": "Hifadhi Qur'ani aya kwa aya kwa marudio ya sauti, hali ya neno-kwa-neno, maswali ya marejeo, alama, viwango, beji na changamoto za kila siku ili kubaki na hamasa."
+        },
+        {
+          "icon": "fa-wave-square",
+          "title": "Ufuatiliaji wa Kisomo kwa AI",
+          "href": "/suivi-recitation-ia",
+          "text": "Soma kwa sauti: AI hufuatilia kila neno papo hapo, huonyesha makosa yako na maneno uliyoruka, huchambua tajwidi yako na hufuatilia maendeleo yako kila kikao."
         },
         {
           "icon": "fa-microphone-alt",
@@ -2567,6 +2574,102 @@
       "tajweed": "Kanuni za Tajweed",
       "allFeatures": "Vipengele vyote",
       "blogArticle": "Mbinu 10 za Kuhifadhi Qur'ani"
+    }
+  },
+  "suiviRecitationIa": {
+    "meta": {
+      "title": "Ufuatiliaji wa Kisomo cha Qur'ani kwa AI: Usahihishaji Neno kwa Neno Papo Hapo | Noor Phonetic Quran",
+      "description": "Soma Qur'ani kwa sauti: AI ya Noor Phonetic Quran hufuatilia kila neno papo hapo, huonyesha makosa na maneno yaliyorukwa, huchambua tajwidi na hufuatilia maendeleo yako. Bure kwenye iOS na Android.",
+      "keywords": "kisomo cha Qur'ani kwa AI, kukagua kisomo cha Qur'ani, kusahihisha kisomo cha Qur'ani, kuhifadhi Qur'ani kwa AI, programu ya kisomo cha Qur'ani",
+      "ogTitle": "Ufuatiliaji wa Kisomo cha Qur'ani kwa AI: Usahihishaji Neno kwa Neno Papo Hapo",
+      "ogDescription": "Soma kwa sauti: AI hufuatilia kila neno, huonyesha makosa yako na hufuatilia maendeleo yako. Programu ya bure Noor Phonetic Quran."
+    },
+    "breadcrumb": {
+      "home": "Nyumbani",
+      "current": "Ufuatiliaji wa kisomo kwa AI"
+    },
+    "hero": {
+      "title": "Ufuatiliaji wa Kisomo cha Qur'ani kwa AI: Wewe Soma, AI Ikufuate Neno kwa Neno",
+      "subtitle": "Washa kipaza sauti na usome: akili bandia hutambua kila neno papo hapo, huipa rangi sehemu sahihi, huonyesha makosa na maneno yaliyorukwa, kisha hukuonyesha maendeleo yako kila kikao.",
+      "googlePlay": "Google Play",
+      "appStore": "App Store"
+    },
+    "intro": {
+      "title": "Ufuatiliaji wa kisomo kwa AI ni nini?",
+      "paragraph1": "Ufuatiliaji wa kisomo kwa AI husikiliza usomaji wako wa Qur'ani unaposoma na hulinganisha kila neno na maandishi ya msahafu. Neno linalotarajiwa limepigiwa mstari, maneno yaliyosomwa sawasawa hujitokeza unavyoendelea, na kosa au neno lililorukwa huonyeshwa mara moja.",
+      "paragraph2": "Utambuzi wa sauti hufanya kazi moja kwa moja kwenye simu yako: modeli hupakuliwa mara moja tu, na sauti yako haitumwi kwenye seva ili kuchambuliwa.",
+      "paragraph3": "Bora kwa kurudia ulichohifadhi (hifdhi): ficha maandishi, soma kwa moyo na uiache AI ifunue maneno unavyosoma."
+    },
+    "features": {
+      "title": "Ufuatiliaji wa kisomo kwa AI unafanyaje kazi?",
+      "items": [
+        {
+          "title": "Fungua ukurasa na ugusa kipaza sauti",
+          "description": "anza popote: AI hutambua sehemu unayosoma na hugeuza kurasa yenyewe."
+        },
+        {
+          "title": "Soma kwa sauti",
+          "description": "kila neno linalotambuliwa hupata rangi, na neno linalotarajiwa limepigiwa mstari ili usipotee."
+        },
+        {
+          "title": "Ficha maandishi ili usome kwa moyo",
+          "description": "maandishi hufunuka unavyosoma, au baki kwenye ukurasa mtupu; dokezo huonyesha neno linalofuata ukikwama."
+        },
+        {
+          "title": "Ona makosa yako papo hapo",
+          "description": "maneno yasiyo sahihi, yaliyorukwa au ya kusitasita huonyeshwa, na muhtasari wa kikao hutokea mara tu unapozima kipaza sauti."
+        },
+        {
+          "title": "Chambua tajwidi yako",
+          "description": "kwenye simu za Android zinazooana, uchambuzi wa hiari hugundua makosa ya tajwidi: madd fupi au ndefu kupita kiasi, qalqala, ghunna, shadda…"
+        },
+        {
+          "title": "Fuatilia maendeleo yako",
+          "description": "mfululizo wa siku, usahihi, makosa kwa ukurasa, mkunjo wa maendeleo, muda wa kusoma, umahiri wa kila aya na marudio yenye vipindi kwa aya dhaifu."
+        }
+      ]
+    },
+    "screenshots": {
+      "title": "Mtazamo wa ufuatiliaji wa kisomo na maendeleo",
+      "alts": [
+        "Noor Phonetic Quran - Kisomo kinachofuatiliwa na AI huku maandishi yamefichwa",
+        "Noor Phonetic Quran - Mfululizo wa siku, usahihi na aya za kurudia",
+        "Noor Phonetic Quran - Mkunjo wa maendeleo na kalenda ya shughuli",
+        "Noor Phonetic Quran - Muda wa kusoma na umahiri wa Qur'ani",
+        "Noor Phonetic Quran - Historia ya vikao vya kisomo"
+      ]
+    },
+    "faq": {
+      "title": "Maswali yanayoulizwa mara kwa mara kuhusu ufuatiliaji wa kisomo kwa AI",
+      "items": [
+        {
+          "question": "Je, ufuatiliaji wa kisomo kwa AI ni bure?",
+          "answer": "Ndiyo, ufuatiliaji wa kisomo kwa AI unapatikana bure katika programu ya Noor Phonetic Quran, kwenye iOS na Android."
+        },
+        {
+          "question": "Je, ninahitaji intaneti?",
+          "answer": "Muunganisho unahitajika kupakua modeli ya utambuzi mara ya kwanza. Baada ya hapo, kisomo chako hutambuliwa moja kwa moja kwenye simu yako."
+        },
+        {
+          "question": "Inafanya kazi na riwaya zipi?",
+          "answer": "Ufuatiliaji wa neno kwa neno hufanya kazi kwenye maandishi ya kifonetiki na msahafu wa Kiarabu, kwa riwaya ya Hafs pamoja na Warsh na Qaloun. Uchambuzi wa tajwidi unapatikana kwa Hafs pekee."
+        },
+        {
+          "question": "AI inanisaidiaje kuhifadhi Qur'ani?",
+          "answer": "Ficha maandishi na usome kwa moyo: AI hufunua maneno unayosoma sawasawa na huonyesha uliyosahau. Kila aya hupata alama, na aya dhaifu hurudi kwa marudio baada ya siku 1, 3, 7, 14 kisha 30."
+        },
+        {
+          "question": "Je, AI inachukua nafasi ya mwalimu?",
+          "answer": "Hapana. Ni chombo cha mazoezi ili usome mara nyingi zaidi na uone makosa yako, lakini utambuzi unaweza kukosea. Ili kuthibitisha kisomo na tajwidi yako, hakuna kinachochukua nafasi ya mwalimu aliyehitimu."
+        }
+      ]
+    },
+    "related": {
+      "title": "Gundua pia",
+      "memorisation": "Kuhifadhi Qur'ani (Hifz)",
+      "tajweed": "Kanuni za Tajweed",
+      "correction": "Marekebisho ya Usomaji",
+      "allFeatures": "Vipengele vyote"
     }
   }
 }

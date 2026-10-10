@@ -29,13 +29,17 @@ const pages: {
   { path: '/tajweed-coran', priority: 0.8, changeFrequency: 'monthly', lastModified: '2026-09-17' },
   { path: '/notre-histoire', priority: 0.5, changeFrequency: 'monthly', lastModified: '2026-09-20' },
   { path: '/ramadan-2027', priority: 0.6, changeFrequency: 'weekly', lastModified: '2026-09-20' },
+  { path: '/suivi-recitation-ia', priority: 0.8, changeFrequency: 'monthly', lastModified: '2026-10-10' },
 ];
 
 // 'as-needed' localePrefix: the default locale has no prefix ("/"), every
-// other locale is prefixed ("/en/", "/ar/", ...).
+// other locale is prefixed ("/en", "/ar", ...). No trailing slash: Next.js
+// (trailingSlash: false) 308-redirects "/khatma-coran/" to "/khatma-coran",
+// so slash-terminated sitemap URLs were all redirects and didn't match the
+// pages' canonical URLs (see buildLocaleUrls).
 function localizedUrl(locale: string, path: string) {
   const prefix = locale === DEFAULT_LOCALE ? '' : `/${locale}`;
-  return `${BASE_URL}${prefix}${path}/`;
+  return `${BASE_URL}${prefix}${path}`;
 }
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -49,9 +53,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
   }));
 
   for (const { path, priority, changeFrequency, lastModified } of [...pages, ...blogPostPages]) {
-    const languages = Object.fromEntries(
+    const languages: Record<string, string> = Object.fromEntries(
       routing.locales.map((locale) => [locale, localizedUrl(locale, path)]),
     );
+    // Same alternates as the pages' <link rel="alternate"> (buildLocaleUrls).
+    languages['x-default'] = localizedUrl(DEFAULT_LOCALE, path);
 
     for (const locale of routing.locales) {
       entries.push({

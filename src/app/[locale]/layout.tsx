@@ -23,6 +23,8 @@ export function generateStaticParams() {
 }
 
 export const metadata: Metadata = {
+  // Résout les URL relatives des métadonnées (OpenGraph, Twitter…).
+  metadataBase: new URL('https://noor-phonetic-quran.com'),
   title: 'Noor Phonetic Quran',
   description:
     "Apprenez à réciter, mémoriser et lire le Coran en entier même sans connaître l'arabe.",

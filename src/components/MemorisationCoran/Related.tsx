@@ -5,6 +5,7 @@ import styles from './Related.module.css';
 
 export default async function Related() {
   const t = await getTranslations('memorisationCoran.related');
+  const tNav = await getTranslations('common.nav');
 
   return (
     <div className={`container ${contentStyles.containerWrap}`}>
@@ -17,6 +18,13 @@ export default async function Related() {
             params={{ from: 'memorisation_coran', to: 'khatma_coran' }}
           >
             {t('khatma')}
+          </TrackedLink>
+          <TrackedLink
+            href="/suivi-recitation-ia"
+            eventName="related_link_click"
+            params={{ from: 'memorisation_coran', to: 'suivi_recitation_ia' }}
+          >
+            {tNav('pages.suiviRecitationIa')}
           </TrackedLink>
           <TrackedLink
             href="/tajweed-coran"

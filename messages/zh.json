@@ -27,7 +27,8 @@
         "cgu": "使用条款",
         "blog": "博客",
         "aboutUs": "我们的故事",
-        "ramadan2027": "2027年斋月"
+        "ramadan2027": "2027年斋月",
+        "suiviRecitationIa": "AI 诵读跟踪"
       }
     },
     "languageSwitcher": {
@@ -235,6 +236,12 @@
           "title": "背诵古兰经（哈费兹）",
           "href": "/memorisation-coran",
           "text": "逐节背诵古兰经，配有音频重复、逐词模式、复习测验、积分、等级、徽章和每日挑战，让您保持学习动力。"
+        },
+        {
+          "icon": "fa-wave-square",
+          "title": "AI 诵读跟踪",
+          "href": "/suivi-recitation-ia",
+          "text": "大声诵读：AI 实时跟踪每个词，标出错误和漏读，分析你的泰吉威德，并逐次记录你的进步。"
         },
         {
           "icon": "fa-microphone-alt",
@@ -2567,6 +2574,102 @@
       "tajweed": "塔吉维德规则",
       "allFeatures": "所有功能",
       "blogArticle": "记忆古兰经的10种方法"
+    }
+  },
+  "suiviRecitationIa": {
+    "meta": {
+      "title": "AI 古兰经诵读跟踪：实时逐词纠正 | Noor Phonetic Quran",
+      "description": "大声诵读古兰经：Noor Phonetic Quran 的 AI 实时跟踪每个词，标出错误和漏读，分析泰吉威德并记录你的进步。iOS 和 Android 免费。",
+      "keywords": "AI 古兰经诵读, 古兰经诵读检查, 古兰经诵读纠正, AI 背诵古兰经, 古兰经诵读应用",
+      "ogTitle": "AI 古兰经诵读跟踪：实时逐词纠正",
+      "ogDescription": "大声诵读：AI 跟踪每个词，标出错误并记录你的进步。免费应用 Noor Phonetic Quran。"
+    },
+    "breadcrumb": {
+      "home": "首页",
+      "current": "AI 诵读跟踪"
+    },
+    "hero": {
+      "title": "AI 古兰经诵读跟踪：你来诵读，AI 逐词跟随",
+      "subtitle": "打开麦克风开始诵读：人工智能实时识别每个词，为正确的部分着色，标出错误和漏读，并逐次展示你的进步。",
+      "googlePlay": "Google Play",
+      "appStore": "App Store"
+    },
+    "intro": {
+      "title": "什么是 AI 诵读跟踪？",
+      "paragraph1": "AI 诵读跟踪会在你诵读时聆听，并将每个词与经本文字进行比对。待读的词带有下划线，读对的词随着诵读逐个出现，一旦出错或漏读会立即标出。",
+      "paragraph2": "语音识别直接在你的手机上运行：模型只需下载一次，你的声音不会被发送到服务器进行分析。",
+      "paragraph3": "非常适合复习已背诵的内容（哈菲兹）：隐藏文字，凭记忆诵读，让 AI 随着你的诵读逐步显示经文。"
+    },
+    "features": {
+      "title": "AI 诵读跟踪如何运作？",
+      "items": [
+        {
+          "title": "打开一页并点击麦克风",
+          "description": "从任意位置开始：AI 会找到你正在诵读的段落并自动翻页。"
+        },
+        {
+          "title": "大声诵读",
+          "description": "每个被识别的词都会着色，待读的词带有下划线，让你不会读丢位置。"
+        },
+        {
+          "title": "隐藏文字，凭记忆诵读",
+          "description": "文字会随着诵读逐步显示，也可以保持空白页；卡住时，提示会显示下一个词。"
+        },
+        {
+          "title": "立即看到错误",
+          "description": "读错、漏读或犹豫的词都会被标出，关闭麦克风后立即显示本次总结。"
+        },
+        {
+          "title": "分析你的泰吉威德",
+          "description": "在兼容的 Android 手机上，可选的分析功能会找出泰吉威德错误：长音过短或过长、震音、鼻音、叠音……"
+        },
+        {
+          "title": "跟踪你的进步",
+          "description": "连续天数、准确率、每页错误数、趋势曲线、诵读时长、逐节掌握情况以及薄弱经节的间隔复习。"
+        }
+      ]
+    },
+    "screenshots": {
+      "title": "诵读跟踪与进度一览",
+      "alts": [
+        "Noor Phonetic Quran - 隐藏文字时由 AI 跟踪的诵读",
+        "Noor Phonetic Quran - 连续天数、准确率和待复习经节",
+        "Noor Phonetic Quran - 趋势曲线和活动日历",
+        "Noor Phonetic Quran - 诵读时长和古兰经掌握度",
+        "Noor Phonetic Quran - 诵读记录历史"
+      ]
+    },
+    "faq": {
+      "title": "关于 AI 诵读跟踪的常见问题",
+      "items": [
+        {
+          "question": "AI 诵读跟踪免费吗？",
+          "answer": "是的，AI 诵读跟踪在 Noor Phonetic Quran 应用中免费提供，支持 iOS 和 Android。"
+        },
+        {
+          "question": "需要联网吗？",
+          "answer": "首次使用时需要联网下载识别模型，之后你的诵读会直接在手机上识别。"
+        },
+        {
+          "question": "支持哪些读法？",
+          "answer": "逐词跟踪适用于音译文本和阿拉伯文经本，支持哈夫斯读法以及沃尔什和格伦读法。泰吉威德分析仅支持哈夫斯。"
+        },
+        {
+          "question": "AI 如何帮助我背诵古兰经？",
+          "answer": "隐藏文字并凭记忆诵读：AI 会显示你读对的词，并标出你遗忘的词。每节经文都会得到评分，薄弱的经节会在 1、3、7、14 天以及 30 天后再次复习。"
+        },
+        {
+          "question": "AI 能取代老师吗？",
+          "answer": "不能。它是帮助你更常诵读、发现错误的练习工具，但识别可能出错。要确认你的诵读和泰吉威德，没有什么能取代合格的老师。"
+        }
+      ]
+    },
+    "related": {
+      "title": "同时了解",
+      "memorisation": "背诵古兰经（哈费兹）",
+      "tajweed": "塔吉维德规则",
+      "correction": "诵读纠正",
+      "allFeatures": "所有功能"
     }
   }
 }

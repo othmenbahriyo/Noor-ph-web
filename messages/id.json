@@ -27,7 +27,8 @@
         "cgu": "Syarat Penggunaan",
         "blog": "Blog",
         "aboutUs": "Kisah Kami",
-        "ramadan2027": "Ramadan 2027"
+        "ramadan2027": "Ramadan 2027",
+        "suiviRecitationIa": "Pemantauan bacaan dengan AI"
       }
     },
     "languageSwitcher": {
@@ -235,6 +236,12 @@
           "title": "Hafalan Al-Qur'an (Hifz)",
           "href": "/memorisation-coran",
           "text": "Hafalkan Al-Qur'an ayat demi ayat dengan pengulangan audio, mode kata per kata, kuis ulasan, poin, level, lencana, dan tantangan harian agar tetap termotivasi."
+        },
+        {
+          "icon": "fa-wave-square",
+          "title": "Pemantauan Bacaan dengan AI",
+          "href": "/suivi-recitation-ia",
+          "text": "Bacalah dengan suara keras: AI mengikuti setiap kata secara real-time, menandai kesalahan dan kata yang terlewat, menganalisis tajwid Anda, dan memantau kemajuan dari sesi ke sesi."
         },
         {
           "icon": "fa-microphone-alt",
@@ -2567,6 +2574,102 @@
       "tajweed": "Kaidah Tajwid",
       "allFeatures": "Semua fitur",
       "blogArticle": "10 Metode Menghafal Al-Quran"
+    }
+  },
+  "suiviRecitationIa": {
+    "meta": {
+      "title": "Pemantauan Bacaan Al-Qur'an dengan AI: Koreksi Kata demi Kata secara Real-Time | Noor Phonetic Quran",
+      "description": "Bacalah Al-Qur'an dengan suara keras: AI Noor Phonetic Quran mengikuti setiap kata secara real-time, menandai kesalahan dan kata terlewat, menganalisis tajwid, dan memantau kemajuan Anda. Gratis di iOS dan Android.",
+      "keywords": "bacaan Al-Qur'an AI, cek bacaan Al-Qur'an, koreksi bacaan Al-Qur'an, hafalan Al-Qur'an dengan AI, aplikasi bacaan Al-Qur'an",
+      "ogTitle": "Pemantauan Bacaan Al-Qur'an dengan AI: Koreksi Kata demi Kata secara Real-Time",
+      "ogDescription": "Bacalah dengan suara keras: AI mengikuti setiap kata, menandai kesalahan, dan memantau kemajuan Anda. Aplikasi gratis Noor Phonetic Quran."
+    },
+    "breadcrumb": {
+      "home": "Beranda",
+      "current": "Pemantauan bacaan dengan AI"
+    },
+    "hero": {
+      "title": "Pemantauan Bacaan Al-Qur'an dengan AI: Anda Membaca, AI Mengikuti Kata demi Kata",
+      "subtitle": "Nyalakan mikrofon dan bacalah: kecerdasan buatan mengenali setiap kata secara real-time, mewarnai yang benar, menandai kesalahan dan kata terlewat, lalu menampilkan kemajuan Anda dari sesi ke sesi.",
+      "googlePlay": "Google Play",
+      "appStore": "App Store"
+    },
+    "intro": {
+      "title": "Apa itu pemantauan bacaan dengan AI?",
+      "paragraph1": "Pemantauan bacaan dengan AI mendengarkan bacaan Al-Qur'an Anda saat membaca dan membandingkan setiap kata dengan teks mushaf. Kata yang ditunggu digarisbawahi, kata yang dibaca dengan benar muncul satu per satu, dan kesalahan atau kata terlewat langsung ditandai.",
+      "paragraph2": "Pengenalan suara berjalan langsung di ponsel Anda: model diunduh sekali, dan suara Anda tidak dikirim ke server untuk dianalisis.",
+      "paragraph3": "Ideal untuk mengulang hafalan (hifz): sembunyikan teks, baca dari hafalan, dan biarkan AI membuka kata-kata seiring bacaan Anda."
+    },
+    "features": {
+      "title": "Bagaimana cara kerja pemantauan bacaan dengan AI?",
+      "items": [
+        {
+          "title": "Buka halaman dan ketuk mikrofon",
+          "description": "mulailah dari mana saja: AI menemukan bagian yang Anda baca dan membalik halaman secara otomatis."
+        },
+        {
+          "title": "Bacalah dengan suara keras",
+          "description": "setiap kata yang dikenali berwarna, dan kata yang ditunggu digarisbawahi agar Anda tidak kehilangan posisi."
+        },
+        {
+          "title": "Sembunyikan teks untuk membaca dari hafalan",
+          "description": "teks terbuka seiring bacaan Anda, atau tetap di halaman kosong; petunjuk menampilkan kata berikutnya jika Anda tersendat."
+        },
+        {
+          "title": "Lihat kesalahan Anda seketika",
+          "description": "kata yang salah, terlewat, atau ragu-ragu ditandai, dan ringkasan sesi muncul begitu Anda mematikan mikrofon."
+        },
+        {
+          "title": "Analisis tajwid Anda",
+          "description": "di ponsel Android yang kompatibel, analisis opsional mendeteksi kesalahan tajwid: mad terlalu pendek atau panjang, qalqalah, dengung, syaddah…"
+        },
+        {
+          "title": "Pantau kemajuan Anda",
+          "description": "rentetan hari, akurasi, kesalahan per halaman, kurva perkembangan, waktu membaca, penguasaan per ayat, dan pengulangan berjarak untuk ayat yang lemah."
+        }
+      ]
+    },
+    "screenshots": {
+      "title": "Sekilas pemantauan bacaan dan kemajuan",
+      "alts": [
+        "Noor Phonetic Quran - Bacaan yang dipantau AI dengan teks tersembunyi",
+        "Noor Phonetic Quran - Rentetan hari, akurasi, dan ayat untuk diulang",
+        "Noor Phonetic Quran - Kurva perkembangan dan kalender aktivitas",
+        "Noor Phonetic Quran - Waktu membaca dan penguasaan Al-Qur'an",
+        "Noor Phonetic Quran - Riwayat sesi bacaan"
+      ]
+    },
+    "faq": {
+      "title": "Pertanyaan umum tentang pemantauan bacaan dengan AI",
+      "items": [
+        {
+          "question": "Apakah pemantauan bacaan dengan AI gratis?",
+          "answer": "Ya, pemantauan bacaan dengan AI tersedia gratis di aplikasi Noor Phonetic Quran, di iOS dan Android."
+        },
+        {
+          "question": "Apakah perlu koneksi internet?",
+          "answer": "Koneksi diperlukan untuk mengunduh model pengenalan pertama kali. Setelah itu, bacaan Anda dikenali langsung di ponsel."
+        },
+        {
+          "question": "Riwayat bacaan apa saja yang didukung?",
+          "answer": "Pemantauan kata demi kata berfungsi pada teks fonetik dan mushaf Arab, dalam riwayat Hafs serta Warsh dan Qalun. Analisis tajwid hanya tersedia untuk Hafs."
+        },
+        {
+          "question": "Bagaimana AI membantu saya menghafal Al-Qur'an?",
+          "answer": "Sembunyikan teks dan baca dari hafalan: AI membuka kata yang Anda baca dengan benar dan menandai yang Anda lupa. Setiap ayat mendapat nilai, dan ayat yang lemah kembali untuk diulang setelah 1, 3, 7, 14, lalu 30 hari."
+        },
+        {
+          "question": "Apakah AI menggantikan guru?",
+          "answer": "Tidak. Ini alat latihan agar Anda lebih sering membaca dan mengenali kesalahan, tetapi pengenalan bisa keliru. Untuk memastikan bacaan dan tajwid Anda, tidak ada yang menggantikan guru yang berkompeten."
+        }
+      ]
+    },
+    "related": {
+      "title": "Temukan juga",
+      "memorisation": "Menghafal Al-Qur'an (Hifz)",
+      "tajweed": "Kaidah Tajwid",
+      "correction": "Koreksi Bacaan",
+      "allFeatures": "Semua fitur"
     }
   }
 }

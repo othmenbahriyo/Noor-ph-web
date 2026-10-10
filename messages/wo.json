@@ -27,7 +27,8 @@
         "cgu": "Sart yu Jëfandikoo",
         "blog": "Blog",
         "aboutUs": "Taariixa Bi Sunu",
-        "ramadan2027": "Ramadan 2027"
+        "ramadan2027": "Ramadan 2027",
+        "suiviRecitationIa": "Topp jàng gi ak IA"
       }
     },
     "languageSwitcher": {
@@ -235,6 +236,12 @@
           "title": "Tey Alxuraan (Hifz)",
           "href": "/memorisation-coran",
           "text": "Tey Alxuraan ayaat ci ayaat ak audio bu ñu di seddaale, mode baat ci baat, quiz gëstu, ay point, ay niveau, ay badge ak jubluwaay bés bu nekk ngir dëkkoo ci sa jëfandiku."
+        },
+        {
+          "icon": "fa-wave-square",
+          "title": "Topp Jàng gi ak IA",
+          "href": "/suivi-recitation-ia",
+          "text": "Jàngal ci kaw: IA bi dafay topp bépp baat ci saa si, di la won say njuumte ak baat yi nga sàcc, di seet sa tajwiid te di topp sa yokkute ci bépp jàng."
         },
         {
           "icon": "fa-microphone-alt",
@@ -2567,6 +2574,102 @@
       "tajweed": "Yoon yu Tajweed",
       "allFeatures": "Ay xarala yépp",
       "blogArticle": "Fukki fenn ngir fàttaliku Alxuraan"
+    }
+  },
+  "suiviRecitationIa": {
+    "meta": {
+      "title": "Topp jàngum Alxuraan ak IA: Defar baat ak baat ci saa si | Noor Phonetic Quran",
+      "description": "Jàngal Alxuraan ci kaw: IA bu Noor Phonetic Quran dafay topp bépp baat ci saa si, di won njuumte yi ak baat yi nga sàcc, di seet tajwiid te di topp sa yokkute. Ñu ngi koy jox ci neen ci iOS ak Android.",
+      "keywords": "jàngum Alxuraan ak IA, seet jàngum Alxuraan, defar jàngum Alxuraan, nangu Alxuraan ak IA, app jàngum Alxuraan",
+      "ogTitle": "Topp jàngum Alxuraan ak IA: Defar baat ak baat ci saa si",
+      "ogDescription": "Jàngal ci kaw: IA bi dafay topp bépp baat, di won say njuumte te di topp sa yokkute. App bu ñu jox ci neen Noor Phonetic Quran."
+    },
+    "breadcrumb": {
+      "home": "Kër",
+      "current": "Topp jàng gi ak IA"
+    },
+    "hero": {
+      "title": "Topp jàngum Alxuraan ak IA: Yaw nga jàng, IA bi di la topp baat ak baat",
+      "subtitle": "Taal mikro bi te jàng: xel mu nit ñu defar dafay xàmme bépp baat ci saa si, di melal li baax, di won njuumte yi ak li nga sàcc, ba noppi won la sa yokkute ci bépp jàng.",
+      "googlePlay": "Google Play",
+      "appStore": "App Store"
+    },
+    "intro": {
+      "title": "Lan mooy topp jàng gi ak IA?",
+      "paragraph1": "Topp jàng gi ak IA dafay déglu sa jàngum Alxuraan saa yoo jàngee, di méngale bépp baat ak mbindum mushaf bi. Baat bi ñuy xaar am na rëdd ci suufam, baat yi nga jàng bu baax di feeñ ndànk-ndànk, te njuumte walla baat bu nga sàcc ñu wone ko ci saa si.",
+      "paragraph2": "Xàmmeg baat gi ci sa telefon lay def: model bi benn yoon rekk lañu koy yebal, te sa baat du dem ci benn serwëer ngir ñu seet ko.",
+      "paragraph3": "Baax na lool ngir fàttaliku li nga nangu (Hifz): nëbbal mbind mi, jàngal ci sa xel te bàyyi IA bi muy feeñal baat yi ci sa jàng."
+    },
+    "features": {
+      "title": "Naka la topp jàng gi ak IA di doxe?",
+      "items": [
+        {
+          "title": "Ubbil benn xët te bësal mikro bi",
+          "description": "tàmbaleel fu la neex: IA bi dafay gis bi nga jàng te di walbatiku xët yi boppam."
+        },
+        {
+          "title": "Jàngal ci kaw",
+          "description": "bépp baat bu mu xàmme dafay am melo, te baat bi ñuy xaar am na rëdd ngir doo réer."
+        },
+        {
+          "title": "Nëbbal mbind mi ngir jàng ci sa xel",
+          "description": "mbind mi dafay feeñ ci sa jàng, walla nga des ci xët bu weex; ndimbal dafay won baat bi topp bu nga taxawee."
+        },
+        {
+          "title": "Gis say njuumte ci saa si",
+          "description": "baat yu juum, yu nga sàcc walla yu nga xàddi dañu leen di wone, te tënku jàng gi di feeñ saa yoo feyee mikro bi."
+        },
+        {
+          "title": "Seetal sa tajwiid",
+          "description": "ci telefon Android yu ko mana def, benn seet bu nga mana tànn dafay gis njuumtey tajwiid: madd bu gàtt walla bu gudd lool, qalqala, ghunna, shadda…"
+        },
+        {
+          "title": "Toppal sa yokkute",
+          "description": "fan yu toppante, wóorte, njuumte ci benn xët, rëddu yokkute, diirub jàng, xam-xam aaya ak aaya ak fàttaliku aaya yu néew ci diggante."
+        }
+      ]
+    },
+    "screenshots": {
+      "title": "Xool topp jàng gi ak yokkute bi",
+      "alts": [
+        "Noor Phonetic Quran - Jàng bu IA bi topp te mbind mi nëbbu",
+        "Noor Phonetic Quran - Fan yu toppante, wóorte ak aaya yu ñuy fàttaliku",
+        "Noor Phonetic Quran - Rëddu yokkute ak arminaatu liggéey",
+        "Noor Phonetic Quran - Diirub jàng ak xam-xamu Alxuraan",
+        "Noor Phonetic Quran - Taariixu jàng yi"
+      ]
+    },
+    "faq": {
+      "title": "Laaj yi ñuy faral di laaj ci topp jàng gi ak IA",
+      "items": [
+        {
+          "question": "Ndax topp jàng gi ak IA dafa neen?",
+          "answer": "Waaw, topp jàng gi ak IA ci neen la ci app Noor Phonetic Quran, ci iOS ak Android."
+        },
+        {
+          "question": "Ndax soxla nga internet?",
+          "answer": "Soxla nga lëkkalekaay ngir yebal model bi bu jëkk. Ginaaw loolu, sa jàng ci sa telefon lañu koy xàmme."
+        },
+        {
+          "question": "Ak ban riwaayaa lay dox?",
+          "answer": "Topp baat ak baat bi dafay dox ci mbind fonetik bi ak mushaf araab bi, ci riwaayaa Hafs ak itam Warsh ak Qaloun. Seetug tajwiid bi ci Hafs rekk la am."
+        },
+        {
+          "question": "Naka la IA bi may dimbali ngir nangu Alxuraan?",
+          "answer": "Nëbbal mbind mi te jàng ci sa xel: IA bi dafay feeñal baat yi nga jàng bu baax te won la yi nga fàtte. Bépp aaya am na nòt, te aaya yu néew dañuy dellusi ngir fàttaliku ginaaw 1, 3, 7, 14 ba noppi 30 fan."
+        },
+        {
+          "question": "Ndax IA bi dafay wuutu jàngalekat?",
+          "answer": "Déedéet. Jumtukaay la ngir nga gëna faral di jàng te gis say njuumte, waaye xàmme gi man na juum. Ngir wóoral sa jàng ak sa tajwiid, dara du wuutu jàngalekat bu xam liggéeyam."
+        }
+      ]
+    },
+    "related": {
+      "title": "Xam it",
+      "memorisation": "Tey Alxuraan (Hifz)",
+      "tajweed": "Yoon yu Tajweed",
+      "correction": "Njub Jàng",
+      "allFeatures": "Ay xarala yépp"
     }
   }
 }

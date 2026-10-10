@@ -27,7 +27,8 @@
         "cgu": "Termeni de Utilizare",
         "blog": "Blog",
         "aboutUs": "Povestea Noastră",
-        "ramadan2027": "Ramadan 2027"
+        "ramadan2027": "Ramadan 2027",
+        "suiviRecitationIa": "Urmărirea recitării cu IA"
       }
     },
     "languageSwitcher": {
@@ -235,6 +236,12 @@
           "title": "Memorarea Coranului (Hifz)",
           "href": "/memorisation-coran",
           "text": "Memorați Coranul verset cu verset cu repetiție audio, mod cuvânt-cu-cuvânt, quiz de recapitulare, puncte, niveluri, insigne și provocări zilnice pentru a rămâne motivați."
+        },
+        {
+          "icon": "fa-wave-square",
+          "title": "Urmărirea Recitării cu IA",
+          "href": "/suivi-recitation-ia",
+          "text": "Recită cu voce tare: IA urmărește fiecare cuvânt în timp real, semnalează greșelile și omisiunile, îți analizează tajwidul și îți urmărește progresul de la o sesiune la alta."
         },
         {
           "icon": "fa-microphone-alt",
@@ -2567,6 +2574,102 @@
       "tajweed": "Reguli de Tajweed",
       "allFeatures": "Toate funcționalitățile",
       "blogArticle": "10 metode pentru a memora Coranul"
+    }
+  },
+  "suiviRecitationIa": {
+    "meta": {
+      "title": "Urmărirea Recitării Coranului cu IA: Corectare Cuvânt cu Cuvânt în Timp Real | Noor Phonetic Quran",
+      "description": "Recită Coranul cu voce tare: IA Noor Phonetic Quran urmărește fiecare cuvânt în timp real, semnalează greșelile și omisiunile, analizează tajwidul și îți urmărește progresul. Gratuit pe iOS și Android.",
+      "keywords": "recitarea Coranului cu IA, verificarea recitării Coranului, corectarea recitării Coranului, memorarea Coranului cu IA, aplicație recitare Coran",
+      "ogTitle": "Urmărirea Recitării Coranului cu IA: Corectare Cuvânt cu Cuvânt în Timp Real",
+      "ogDescription": "Recită cu voce tare: IA urmărește fiecare cuvânt, semnalează greșelile și îți urmărește progresul. Aplicație gratuită Noor Phonetic Quran."
+    },
+    "breadcrumb": {
+      "home": "Acasă",
+      "current": "Urmărirea recitării cu IA"
+    },
+    "hero": {
+      "title": "Urmărirea Recitării Coranului cu IA: Tu Reciți, IA Te Urmează Cuvânt cu Cuvânt",
+      "subtitle": "Pornește microfonul și recită: inteligența artificială recunoaște fiecare cuvânt în timp real, colorează ce este corect, semnalează greșelile și omisiunile, apoi îți arată progresul de la o sesiune la alta.",
+      "googlePlay": "Google Play",
+      "appStore": "App Store"
+    },
+    "intro": {
+      "title": "Ce este urmărirea recitării cu IA?",
+      "paragraph1": "Urmărirea recitării cu IA îți ascultă recitarea Coranului și compară fiecare cuvânt cu textul mushafului. Cuvântul așteptat este subliniat, cuvintele recitate corect apar pe măsură ce avansezi, iar o greșeală sau o omisiune este semnalată imediat.",
+      "paragraph2": "Recunoașterea vocală funcționează direct pe telefonul tău: modelul se descarcă o singură dată, iar vocea ta nu este trimisă unui server pentru analiză.",
+      "paragraph3": "Ideal pentru a repeta ce ai memorat (Hifz): ascunde textul, recită din memorie și lasă IA să dezvăluie cuvintele pe măsură ce reciți."
+    },
+    "features": {
+      "title": "Cum funcționează urmărirea recitării cu IA?",
+      "items": [
+        {
+          "title": "Deschide o pagină și atinge microfonul",
+          "description": "începe de unde vrei: IA găsește pasajul pe care îl reciți și întoarce paginile automat."
+        },
+        {
+          "title": "Recită cu voce tare",
+          "description": "fiecare cuvânt recunoscut se colorează, iar cuvântul așteptat este subliniat ca să nu te pierzi niciodată."
+        },
+        {
+          "title": "Ascunde textul ca să reciți din memorie",
+          "description": "textul se dezvăluie pe măsură ce reciți, sau rămâi pe o pagină goală; un indiciu arată cuvântul următor dacă te blochezi."
+        },
+        {
+          "title": "Vezi imediat greșelile",
+          "description": "cuvintele greșite, omise sau ezitante sunt semnalate, iar rezumatul sesiunii apare imediat ce oprești microfonul."
+        },
+        {
+          "title": "Analizează-ți tajwidul",
+          "description": "pe telefoanele Android compatibile, o analiză opțională depistează greșelile de tajwid: madd prea scurt sau prea lung, qalqala, ghunna, shadda…"
+        },
+        {
+          "title": "Urmărește-ți progresul",
+          "description": "serie de zile, precizie, greșeli pe pagină, curbă de evoluție, timp de recitare, stăpânirea fiecărui verset și repetarea la intervale a versetelor slabe."
+        }
+      ]
+    },
+    "screenshots": {
+      "title": "O privire asupra urmăririi recitării și a progresului",
+      "alts": [
+        "Noor Phonetic Quran - Recitare urmărită de IA cu textul ascuns",
+        "Noor Phonetic Quran - Serie de zile, precizie și versete de repetat",
+        "Noor Phonetic Quran - Curbă de evoluție și calendar de activitate",
+        "Noor Phonetic Quran - Timp de recitare și stăpânirea Coranului",
+        "Noor Phonetic Quran - Istoricul sesiunilor de recitare"
+      ]
+    },
+    "faq": {
+      "title": "Întrebări frecvente despre urmărirea recitării cu IA",
+      "items": [
+        {
+          "question": "Urmărirea recitării cu IA este gratuită?",
+          "answer": "Da, urmărirea recitării cu IA este disponibilă gratuit în aplicația Noor Phonetic Quran, pe iOS și Android."
+        },
+        {
+          "question": "Am nevoie de conexiune la Internet?",
+          "answer": "Este nevoie de conexiune pentru a descărca modelul de recunoaștere prima dată. După aceea, recitarea ta este recunoscută direct pe telefon."
+        },
+        {
+          "question": "Cu ce lecturi funcționează?",
+          "answer": "Urmărirea cuvânt cu cuvânt funcționează pe textul fonetic și pe mushaful arab, în lectura Hafs, precum și în Warsh și Qaloun. Analiza tajwidului este disponibilă doar pentru Hafs."
+        },
+        {
+          "question": "Cum mă ajută IA să memorez Coranul?",
+          "answer": "Ascunde textul și recită din memorie: IA dezvăluie cuvintele recitate corect și le semnalează pe cele uitate. Fiecare verset primește o notă, iar versetele slabe revin la repetare după 1, 3, 7, 14 și apoi 30 de zile."
+        },
+        {
+          "question": "Înlocuiește IA un profesor?",
+          "answer": "Nu. Este un instrument de exercițiu ca să reciți mai des și să-ți vezi greșelile, dar recunoașterea poate greși. Pentru a-ți valida recitarea și tajwidul, nimic nu înlocuiește un profesor calificat."
+        }
+      ]
+    },
+    "related": {
+      "title": "Descoperiți și",
+      "memorisation": "Memorarea Coranului (Hifz)",
+      "tajweed": "Reguli de Tajweed",
+      "correction": "Corectarea Recitării",
+      "allFeatures": "Toate funcționalitățile"
     }
   }
 }

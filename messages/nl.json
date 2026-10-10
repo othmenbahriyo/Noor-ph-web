@@ -27,7 +27,8 @@
         "cgu": "Gebruiksvoorwaarden",
         "blog": "Blog",
         "aboutUs": "Ons Verhaal",
-        "ramadan2027": "Ramadan 2027"
+        "ramadan2027": "Ramadan 2027",
+        "suiviRecitationIa": "AI-recitatiebegeleiding"
       }
     },
     "languageSwitcher": {
@@ -235,6 +236,12 @@
           "title": "De Koran Uit het Hoofd Leren (Hifz)",
           "href": "/memorisation-coran",
           "text": "Leer de Koran vers voor vers uit het hoofd met audioherhaling, woord-voor-woordmodus, herhalingsquiz, punten, niveaus, badges en dagelijkse uitdagingen om gemotiveerd te blijven."
+        },
+        {
+          "icon": "fa-wave-square",
+          "title": "AI-recitatiebegeleiding",
+          "href": "/suivi-recitation-ia",
+          "text": "Reciteer hardop: de AI volgt elk woord in realtime, markeert je fouten en overgeslagen woorden, analyseert je tajweed en volgt je voortgang sessie na sessie."
         },
         {
           "icon": "fa-microphone-alt",
@@ -2567,6 +2574,102 @@
       "tajweed": "Tajweed-regels",
       "allFeatures": "Alle functies",
       "blogArticle": "10 methoden om de Koran uit het hoofd te leren"
+    }
+  },
+  "suiviRecitationIa": {
+    "meta": {
+      "title": "Koranrecitatie volgen met AI: woord-voor-woordcorrectie in realtime | Noor Phonetic Quran",
+      "description": "Reciteer de Koran hardop: de AI van Noor Phonetic Quran volgt elk woord in realtime, markeert fouten en overgeslagen woorden, analyseert je tajweed en volgt je voortgang. Gratis op iOS en Android.",
+      "keywords": "Koranrecitatie AI, Koranrecitatie controleren, Koranrecitatie corrigeren, Koran memoriseren met AI, Koran recitatie app",
+      "ogTitle": "Koranrecitatie volgen met AI: woord-voor-woordcorrectie in realtime",
+      "ogDescription": "Reciteer hardop: de AI volgt elk woord, markeert je fouten en volgt je voortgang. Gratis app Noor Phonetic Quran."
+    },
+    "breadcrumb": {
+      "home": "Home",
+      "current": "AI-recitatiebegeleiding"
+    },
+    "hero": {
+      "title": "Koranrecitatie volgen met AI: reciteer, de AI volgt je woord voor woord",
+      "subtitle": "Zet de microfoon aan en reciteer: de kunstmatige intelligentie herkent elk woord in realtime, kleurt wat juist is, markeert fouten en overgeslagen woorden en toont je voortgang sessie na sessie.",
+      "googlePlay": "Google Play",
+      "appStore": "App Store"
+    },
+    "intro": {
+      "title": "Wat is AI-recitatiebegeleiding?",
+      "paragraph1": "AI-recitatiebegeleiding luistert naar je Koranlezing terwijl je reciteert en vergelijkt elk woord met de tekst van de mushaf. Het verwachte woord is onderstreept, correct gereciteerde woorden verschijnen gaandeweg en een fout of overgeslagen woord wordt direct gemarkeerd.",
+      "paragraph2": "De spraakherkenning werkt rechtstreeks op je telefoon: het model wordt één keer gedownload en je stem wordt niet naar een server gestuurd voor analyse.",
+      "paragraph3": "Ideaal om te herhalen wat je uit je hoofd hebt geleerd (Hifz): verberg de tekst, reciteer uit je geheugen en laat de AI de woorden onthullen terwijl je reciteert."
+    },
+    "features": {
+      "title": "Hoe werkt AI-recitatiebegeleiding?",
+      "items": [
+        {
+          "title": "Open een pagina en tik op de microfoon",
+          "description": "begin waar je wilt: de AI vindt de passage die je reciteert en slaat de pagina's automatisch om."
+        },
+        {
+          "title": "Reciteer hardop",
+          "description": "elk herkend woord krijgt een kleur en het verwachte woord is onderstreept, zodat je nooit de draad kwijtraakt."
+        },
+        {
+          "title": "Verberg de tekst om uit je geheugen te reciteren",
+          "description": "de tekst wordt onthuld terwijl je reciteert, of blijf op een lege pagina; een hint toont het volgende woord als je vastloopt."
+        },
+        {
+          "title": "Zie je fouten meteen",
+          "description": "foute, overgeslagen of aarzelende woorden worden gemarkeerd en het sessieoverzicht verschijnt zodra je de microfoon uitzet."
+        },
+        {
+          "title": "Analyseer je tajweed",
+          "description": "op compatibele Android-telefoons spoort een optionele analyse tajweedfouten op: madd te kort of te lang, qalqala, ghunna, shadda…"
+        },
+        {
+          "title": "Volg je voortgang",
+          "description": "dagenreeks, nauwkeurigheid, fouten per pagina, voortgangscurve, recitatietijd, beheersing per vers en gespreide herhaling van zwakke verzen."
+        }
+      ]
+    },
+    "screenshots": {
+      "title": "Een kijkje in recitatiebegeleiding en voortgang",
+      "alts": [
+        "Noor Phonetic Quran - Door AI gevolgde recitatie met verborgen tekst",
+        "Noor Phonetic Quran - Dagenreeks, nauwkeurigheid en te herhalen verzen",
+        "Noor Phonetic Quran - Voortgangscurve en activiteitenkalender",
+        "Noor Phonetic Quran - Recitatietijd en beheersing van de Koran",
+        "Noor Phonetic Quran - Geschiedenis van recitatiesessies"
+      ]
+    },
+    "faq": {
+      "title": "Veelgestelde vragen over AI-recitatiebegeleiding",
+      "items": [
+        {
+          "question": "Is AI-recitatiebegeleiding gratis?",
+          "answer": "Ja, AI-recitatiebegeleiding is gratis beschikbaar in de app Noor Phonetic Quran, op iOS en Android."
+        },
+        {
+          "question": "Heb ik een internetverbinding nodig?",
+          "answer": "Een verbinding is nodig om het herkenningsmodel de eerste keer te downloaden. Daarna wordt je recitatie rechtstreeks op je telefoon herkend."
+        },
+        {
+          "question": "Met welke lezingen werkt het?",
+          "answer": "De woord-voor-woordbegeleiding werkt met de fonetische tekst en de Arabische mushaf, in de Hafs-lezing en ook Warsh en Qaloun. De tajweedanalyse is alleen beschikbaar voor Hafs."
+        },
+        {
+          "question": "Hoe helpt de AI me de Koran te memoriseren?",
+          "answer": "Verberg de tekst en reciteer uit je geheugen: de AI onthult de woorden die je correct reciteert en markeert de woorden die je vergeet. Elk vers krijgt een score en zwakke verzen komen terug voor herhaling na 1, 3, 7, 14 en daarna 30 dagen."
+        },
+        {
+          "question": "Vervangt de AI een leraar?",
+          "answer": "Nee. Het is een oefenhulpmiddel om vaker te reciteren en je fouten te zien, maar de herkenning kan zich vergissen. Om je recitatie en tajweed te laten bevestigen, gaat er niets boven een gekwalificeerde leraar."
+        }
+      ]
+    },
+    "related": {
+      "title": "Ontdek ook",
+      "memorisation": "De Koran Uit het Hoofd Leren (Hifz)",
+      "tajweed": "Tajweed-regels",
+      "correction": "Recitatiecorrectie",
+      "allFeatures": "Alle functies"
     }
   }
 }

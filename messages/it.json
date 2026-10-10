@@ -27,7 +27,8 @@
         "cgu": "Termini di Utilizzo",
         "blog": "Blog",
         "aboutUs": "La Nostra Storia",
-        "ramadan2027": "Ramadan 2027"
+        "ramadan2027": "Ramadan 2027",
+        "suiviRecitationIa": "Monitoraggio della recitazione con IA"
       }
     },
     "languageSwitcher": {
@@ -235,6 +236,12 @@
           "title": "Memorizzazione del Corano (Hifz)",
           "href": "/memorisation-coran",
           "text": "Memorizza il Corano versetto per versetto con ripetizione audio, modalità parola per parola, quiz di ripasso, punti, livelli, badge e sfide quotidiane per restare motivato."
+        },
+        {
+          "icon": "fa-wave-square",
+          "title": "Monitoraggio della Recitazione con IA",
+          "href": "/suivi-recitation-ia",
+          "text": "Recita ad alta voce: l'IA segue ogni parola in tempo reale, segnala errori e omissioni, analizza il tuo tajwid e segue i tuoi progressi sessione dopo sessione."
         },
         {
           "icon": "fa-microphone-alt",
@@ -2567,6 +2574,102 @@
       "tajweed": "Regole di Tajweed",
       "allFeatures": "Tutte le funzionalità",
       "blogArticle": "10 metodi per memorizzare il Corano"
+    }
+  },
+  "suiviRecitationIa": {
+    "meta": {
+      "title": "Monitoraggio della Recitazione del Corano con IA: Correzione Parola per Parola in Tempo Reale | Noor Phonetic Quran",
+      "description": "Recita il Corano ad alta voce: l'IA di Noor Phonetic Quran segue ogni parola in tempo reale, segnala errori e omissioni, analizza il tajwid e segue i tuoi progressi. Gratis su iOS e Android.",
+      "keywords": "recitazione Corano IA, correggere recitazione Corano, verificare recitazione Corano, memorizzare il Corano con IA, app recitazione Corano",
+      "ogTitle": "Monitoraggio della Recitazione del Corano con IA: Correzione Parola per Parola in Tempo Reale",
+      "ogDescription": "Recita ad alta voce: l'IA segue ogni parola, segnala i tuoi errori e segue i tuoi progressi. App gratuita Noor Phonetic Quran."
+    },
+    "breadcrumb": {
+      "home": "Home",
+      "current": "Monitoraggio della recitazione con IA"
+    },
+    "hero": {
+      "title": "Monitoraggio della Recitazione del Corano con IA: Recita, l'IA ti Segue Parola per Parola",
+      "subtitle": "Attiva il microfono e recita: l'intelligenza artificiale riconosce ogni parola in tempo reale, colora ciò che è corretto, segnala errori e omissioni e ti mostra i progressi sessione dopo sessione.",
+      "googlePlay": "Google Play",
+      "appStore": "App Store"
+    },
+    "intro": {
+      "title": "Che cos'è il monitoraggio della recitazione con IA?",
+      "paragraph1": "Il monitoraggio della recitazione con IA ascolta la tua lettura del Corano mentre reciti e confronta ogni parola con il testo del mushaf. La parola attesa è sottolineata, le parole recitate correttamente compaiono man mano e un errore o un'omissione viene segnalato subito.",
+      "paragraph2": "Il riconoscimento vocale funziona direttamente sul telefono: il modello viene scaricato una sola volta e la tua voce non viene inviata a un server per l'analisi.",
+      "paragraph3": "Ideale per ripassare ciò che hai memorizzato (Hifz): nascondi il testo, recita a memoria e lascia che l'IA sveli le parole mentre reciti."
+    },
+    "features": {
+      "title": "Come funziona il monitoraggio della recitazione con IA?",
+      "items": [
+        {
+          "title": "Apri una pagina e tocca il microfono",
+          "description": "inizia dove vuoi: l'IA individua il passo che stai recitando e gira le pagine automaticamente."
+        },
+        {
+          "title": "Recita ad alta voce",
+          "description": "ogni parola riconosciuta si colora e la parola attesa è sottolineata per non perderti mai."
+        },
+        {
+          "title": "Nascondi il testo per recitare a memoria",
+          "description": "il testo si svela mentre reciti, oppure resta su una pagina bianca; un suggerimento mostra la parola successiva se ti blocchi."
+        },
+        {
+          "title": "Vedi subito i tuoi errori",
+          "description": "le parole sbagliate, omesse o esitanti vengono segnalate e il riepilogo della sessione appare appena spegni il microfono."
+        },
+        {
+          "title": "Analizza il tuo tajwid",
+          "description": "sui telefoni Android compatibili, un'analisi facoltativa individua gli errori di tajwid: madd troppo corto o troppo lungo, qalqala, ghunna, shadda…"
+        },
+        {
+          "title": "Segui i tuoi progressi",
+          "description": "serie di giorni, precisione, errori per pagina, curva di andamento, tempo di recitazione, padronanza versetto per versetto e ripasso distanziato dei versetti deboli."
+        }
+      ]
+    },
+    "screenshots": {
+      "title": "Uno sguardo al monitoraggio della recitazione e ai progressi",
+      "alts": [
+        "Noor Phonetic Quran - Recitazione seguita dall'IA con il testo nascosto",
+        "Noor Phonetic Quran - Serie di giorni, precisione e versetti da ripassare",
+        "Noor Phonetic Quran - Curva di andamento e calendario delle attività",
+        "Noor Phonetic Quran - Tempo di recitazione e padronanza del Corano",
+        "Noor Phonetic Quran - Cronologia delle sessioni di recitazione"
+      ]
+    },
+    "faq": {
+      "title": "Domande frequenti sul monitoraggio della recitazione con IA",
+      "items": [
+        {
+          "question": "Il monitoraggio della recitazione con IA è gratuito?",
+          "answer": "Sì, il monitoraggio della recitazione con IA è disponibile gratuitamente nell'app Noor Phonetic Quran, su iOS e Android."
+        },
+        {
+          "question": "Serve una connessione Internet?",
+          "answer": "Serve una connessione per scaricare il modello di riconoscimento la prima volta. In seguito la tua recitazione viene riconosciuta direttamente sul telefono."
+        },
+        {
+          "question": "Con quali letture funziona?",
+          "answer": "Il monitoraggio parola per parola funziona sul testo fonetico e sul mushaf arabo, nella lettura Hafs e anche Warsh e Qaloun. L'analisi del tajwid è disponibile solo per Hafs."
+        },
+        {
+          "question": "Come mi aiuta l'IA a memorizzare il Corano?",
+          "answer": "Nascondi il testo e recita a memoria: l'IA svela le parole recitate correttamente e segnala quelle che dimentichi. Ogni versetto riceve un punteggio e i versetti deboli tornano in ripasso dopo 1, 3, 7, 14 e poi 30 giorni."
+        },
+        {
+          "question": "L'IA sostituisce un insegnante?",
+          "answer": "No. È uno strumento di esercizio per recitare più spesso e individuare i tuoi errori, ma il riconoscimento può sbagliare. Per convalidare la tua recitazione e il tuo tajwid, nulla sostituisce un insegnante qualificato."
+        }
+      ]
+    },
+    "related": {
+      "title": "Scopri anche",
+      "memorisation": "Memorizzare il Corano (Hifz)",
+      "tajweed": "Regole di Tajweed",
+      "correction": "Correzione della Recitazione",
+      "allFeatures": "Tutte le funzionalità"
     }
   }
 }

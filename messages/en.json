@@ -27,7 +27,8 @@
         "cgu": "Terms of Use",
         "blog": "Blog",
         "aboutUs": "Our Story",
-        "ramadan2027": "Ramadan 2027"
+        "ramadan2027": "Ramadan 2027",
+        "suiviRecitationIa": "AI Recitation Tracking"
       }
     },
     "languageSwitcher": {
@@ -235,6 +236,12 @@
           "title": "Quran Memorization (Hifz)",
           "href": "/memorisation-coran",
           "text": "Memorize the Quran verse by verse with audio repetition, word-by-word mode, review quizzes, points, levels, badges and daily challenges to stay motivated."
+        },
+        {
+          "icon": "fa-wave-square",
+          "title": "AI Recitation Tracking",
+          "href": "/suivi-recitation-ia",
+          "text": "Recite out loud: the AI follows every word in real time, flags your mistakes and skipped words, analyses your tajweed and tracks your progress session after session."
         },
         {
           "icon": "fa-microphone-alt",
@@ -1492,6 +1499,102 @@
       "tajweed": "Tajweed rules",
       "allFeatures": "All features",
       "blogArticle": "10 Methods to Memorize the Quran"
+    }
+  },
+  "suiviRecitationIa": {
+    "meta": {
+      "title": "AI Quran Recitation Tracking: Real-Time Word-by-Word Correction | Noor Phonetic Quran",
+      "description": "Recite the Quran out loud: Noor Phonetic Quran's AI follows every word in real time, flags mistakes and skipped words, analyses your tajweed and tracks your progress. Free on iOS and Android.",
+      "keywords": "AI Quran recitation, Quran recitation checker, Quran recitation correction AI, recite Quran with AI, Quran memorization AI, check my Quran recitation, Quran recitation app",
+      "ogTitle": "AI Quran Recitation Tracking: Real-Time Word-by-Word Correction",
+      "ogDescription": "Recite out loud: the AI follows every word, flags your mistakes and tracks your progress. Free Noor Phonetic Quran app."
+    },
+    "breadcrumb": {
+      "home": "Home",
+      "current": "AI recitation tracking"
+    },
+    "hero": {
+      "title": "AI Quran Recitation Tracking: Recite, the AI Follows You Word by Word",
+      "subtitle": "Turn on the mic and recite: the AI recognises every word in real time, colours what is right, flags mistakes and skipped words, then shows your progress session after session.",
+      "googlePlay": "Google Play",
+      "appStore": "App Store"
+    },
+    "intro": {
+      "title": "What is AI recitation tracking?",
+      "paragraph1": "AI recitation tracking listens to your Quran recitation as you recite and compares every word with the mushaf text. The expected word is underlined, correctly recited words appear as you go, and a mistake or skipped word is flagged immediately.",
+      "paragraph2": "Speech recognition runs directly on your phone: the model is downloaded once, and your voice is not sent to a server for analysis.",
+      "paragraph3": "Ideal for revising what you have memorised (Hifz): hide the text, recite from memory and let the AI reveal the words as you recite."
+    },
+    "features": {
+      "title": "How does AI recitation tracking work?",
+      "items": [
+        {
+          "title": "Open a page and tap the mic",
+          "description": "start wherever you like: the AI finds the passage you are reciting and turns the pages automatically."
+        },
+        {
+          "title": "Recite out loud",
+          "description": "every recognised word lights up in colour, and the expected word is underlined so you never lose your place."
+        },
+        {
+          "title": "Hide the text to recite from memory",
+          "description": "the text is revealed as you recite, or stay on a blank page; a hint reveals the next word if you get stuck."
+        },
+        {
+          "title": "See your mistakes straight away",
+          "description": "wrong, skipped or hesitant words are flagged, and the session summary appears as soon as you turn off the mic."
+        },
+        {
+          "title": "Analyse your tajweed",
+          "description": "on compatible Android phones, an optional analysis spots tajweed mistakes: madd too short or too long, qalqalah, ghunnah, shaddah…"
+        },
+        {
+          "title": "Track your progress",
+          "description": "streak, accuracy, mistakes per page, trend curve, recitation time, verse-by-verse mastery and spaced review of weak verses."
+        }
+      ]
+    },
+    "screenshots": {
+      "title": "A look at recitation tracking and progress",
+      "alts": [
+        "Noor Phonetic Quran - AI-tracked recitation with hidden text",
+        "Noor Phonetic Quran - Streak, accuracy and verses to review",
+        "Noor Phonetic Quran - Trend curve and activity calendar",
+        "Noor Phonetic Quran - Recitation time and Quran mastery",
+        "Noor Phonetic Quran - Recitation session history"
+      ]
+    },
+    "faq": {
+      "title": "Frequently asked questions about AI recitation tracking",
+      "items": [
+        {
+          "question": "Is AI recitation tracking free?",
+          "answer": "Yes, AI recitation tracking is available for free in the Noor Phonetic Quran app, on iOS and Android."
+        },
+        {
+          "question": "Do I need an Internet connection?",
+          "answer": "A connection is needed to download the recognition model the first time. After that, your recitation is recognised directly on your phone."
+        },
+        {
+          "question": "Which readings does it support?",
+          "answer": "Word-by-word tracking works on the phonetic text and on the Arabic mushaf, in the Hafs reading as well as Warsh and Qaloun. Tajweed analysis is available in Hafs only."
+        },
+        {
+          "question": "How does the AI help me memorise the Quran?",
+          "answer": "Hide the text and recite from memory: the AI reveals the words you recite correctly and flags the ones you forget. Each verse gets a score, and weak verses come back for review after 1, 3, 7, 14 and then 30 days."
+        },
+        {
+          "question": "Does the AI replace a teacher?",
+          "answer": "No. It is a practice tool to help you recite more often and spot your mistakes, but recognition can be wrong. To validate your recitation and tajweed, nothing replaces a qualified teacher."
+        }
+      ]
+    },
+    "related": {
+      "title": "Discover also",
+      "memorisation": "Memorise the Quran (Hifz)",
+      "tajweed": "Tajweed rules",
+      "correction": "Recitation correction",
+      "allFeatures": "All features"
     }
   }
 }

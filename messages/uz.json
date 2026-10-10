@@ -27,7 +27,8 @@
         "cgu": "Foydalanish shartlari",
         "blog": "Blog",
         "aboutUs": "Bizning Tariximiz",
-        "ramadan2027": "Ramazon 2027"
+        "ramadan2027": "Ramazon 2027",
+        "suiviRecitationIa": "Sun'iy intellekt bilan qiroatni kuzatish"
       }
     },
     "languageSwitcher": {
@@ -235,6 +236,12 @@
           "title": "Qur'onni Yodlash (Hifz)",
           "href": "/memorisation-coran",
           "text": "Qur'onni oyat-boyat audio takrorlash, so'zma-so'z rejim, takrorlash viktorinalari, ballar, darajalar, nishonlar va kunlik topshiriqlar bilan yodlang, motivatsiyangizni saqlang."
+        },
+        {
+          "icon": "fa-wave-square",
+          "title": "Sun'iy Intellekt bilan Qiroatni Kuzatish",
+          "href": "/suivi-recitation-ia",
+          "text": "Ovoz chiqarib o'qing: sun'iy intellekt har bir so'zni real vaqtda kuzatadi, xatolaringiz va tushib qolgan so'zlarni ko'rsatadi, tajvidingizni tahlil qiladi va har bir mashg'ulotdagi o'sishingizni kuzatadi."
         },
         {
           "icon": "fa-microphone-alt",
@@ -2567,6 +2574,102 @@
       "tajweed": "Tajweed Qoidalari",
       "allFeatures": "Barcha funksiyalar",
       "blogArticle": "Qur'onni yodlashning 10 usuli"
+    }
+  },
+  "suiviRecitationIa": {
+    "meta": {
+      "title": "Sun'iy Intellekt bilan Qur'on Qiroatini Kuzatish: Real Vaqtda So'zma-so'z Tuzatish | Noor Phonetic Quran",
+      "description": "Qur'onni ovoz chiqarib o'qing: Noor Phonetic Quran sun'iy intellekti har bir so'zni real vaqtda kuzatadi, xatolar va tushib qolgan so'zlarni ko'rsatadi, tajvidni tahlil qiladi va o'sishingizni kuzatadi. iOS va Android'da bepul.",
+      "keywords": "sun'iy intellekt Qur'on qiroati, Qur'on qiroatini tekshirish, Qur'on qiroatini tuzatish, sun'iy intellekt bilan Qur'on yodlash, Qur'on qiroati ilovasi",
+      "ogTitle": "Sun'iy Intellekt bilan Qur'on Qiroatini Kuzatish: Real Vaqtda So'zma-so'z Tuzatish",
+      "ogDescription": "Ovoz chiqarib o'qing: sun'iy intellekt har bir so'zni kuzatadi, xatolaringizni ko'rsatadi va o'sishingizni kuzatadi. Bepul Noor Phonetic Quran ilovasi."
+    },
+    "breadcrumb": {
+      "home": "Bosh sahifa",
+      "current": "Sun'iy intellekt bilan qiroatni kuzatish"
+    },
+    "hero": {
+      "title": "Sun'iy Intellekt bilan Qur'on Qiroatini Kuzatish: Siz O'qing, Sun'iy Intellekt So'zma-so'z Kuzatadi",
+      "subtitle": "Mikrofonni yoqing va o'qing: sun'iy intellekt har bir so'zni real vaqtda taniydi, to'g'risini rang bilan belgilaydi, xatolar va tushib qolgan so'zlarni ko'rsatadi, so'ng har bir mashg'ulotdagi o'sishingizni ko'rsatadi.",
+      "googlePlay": "Google Play",
+      "appStore": "App Store"
+    },
+    "intro": {
+      "title": "Sun'iy intellekt bilan qiroatni kuzatish nima?",
+      "paragraph1": "Sun'iy intellekt bilan qiroatni kuzatish siz o'qiyotganingizda qiroatingizni tinglaydi va har bir so'zni mushaf matni bilan solishtiradi. Kutilayotgan so'z tagiga chiziladi, to'g'ri o'qilgan so'zlar ketma-ket paydo bo'ladi, xato yoki tushib qolgan so'z darhol ko'rsatiladi.",
+      "paragraph2": "Ovozni tanish to'g'ridan-to'g'ri telefoningizda ishlaydi: model bir marta yuklab olinadi va ovozingiz tahlil uchun serverga yuborilmaydi.",
+      "paragraph3": "Yodlaganlaringizni (hifz) takrorlash uchun ayni muddao: matnni yashiring, yoddan o'qing va sun'iy intellekt so'zlarni qiroatingiz bilan birga ochib borsin."
+    },
+    "features": {
+      "title": "Sun'iy intellekt bilan qiroatni kuzatish qanday ishlaydi?",
+      "items": [
+        {
+          "title": "Sahifani oching va mikrofonni bosing",
+          "description": "istalgan joydan boshlang: sun'iy intellekt siz o'qiyotgan joyni topadi va sahifalarni o'zi varaqlaydi."
+        },
+        {
+          "title": "Ovoz chiqarib o'qing",
+          "description": "tanilgan har bir so'z rangga kiradi, kutilayotgan so'z tagiga chiziladi, shuning uchun hech qachon adashmaysiz."
+        },
+        {
+          "title": "Yoddan o'qish uchun matnni yashiring",
+          "description": "matn qiroatingiz bilan ochilib boradi yoki bo'sh sahifada qoling; to'xtab qolsangiz, ishora keyingi so'zni ko'rsatadi."
+        },
+        {
+          "title": "Xatolaringizni darhol ko'ring",
+          "description": "noto'g'ri, tushib qolgan yoki ikkilanib o'qilgan so'zlar belgilanadi va mikrofonni o'chirishingiz bilan mashg'ulot xulosasi chiqadi."
+        },
+        {
+          "title": "Tajvidingizni tahlil qiling",
+          "description": "mos Android telefonlarda ixtiyoriy tahlil tajvid xatolarini aniqlaydi: juda qisqa yoki uzun madd, qalqala, g'unna, shadda…"
+        },
+        {
+          "title": "O'sishingizni kuzating",
+          "description": "kunlar seriyasi, aniqlik, sahifadagi xatolar, o'sish chizig'i, qiroat vaqti, har bir oyatni o'zlashtirish va zaif oyatlarni oraliqli takrorlash."
+        }
+      ]
+    },
+    "screenshots": {
+      "title": "Qiroatni kuzatish va o'sishga bir nazar",
+      "alts": [
+        "Noor Phonetic Quran - Matn yashirilgan holda sun'iy intellekt kuzatgan qiroat",
+        "Noor Phonetic Quran - Kunlar seriyasi, aniqlik va takrorlanadigan oyatlar",
+        "Noor Phonetic Quran - O'sish chizig'i va faollik taqvimi",
+        "Noor Phonetic Quran - Qiroat vaqti va Qur'onni o'zlashtirish",
+        "Noor Phonetic Quran - Qiroat mashg'ulotlari tarixi"
+      ]
+    },
+    "faq": {
+      "title": "Sun'iy intellekt bilan qiroatni kuzatish haqida ko'p beriladigan savollar",
+      "items": [
+        {
+          "question": "Sun'iy intellekt bilan qiroatni kuzatish bepulmi?",
+          "answer": "Ha, sun'iy intellekt bilan qiroatni kuzatish Noor Phonetic Quran ilovasida iOS va Android'da bepul."
+        },
+        {
+          "question": "Internet kerakmi?",
+          "answer": "Tanish modelini birinchi marta yuklab olish uchun internet kerak. Shundan so'ng qiroatingiz to'g'ridan-to'g'ri telefoningizda taniladi."
+        },
+        {
+          "question": "Qaysi qiroatlar bilan ishlaydi?",
+          "answer": "So'zma-so'z kuzatish fonetik matn va arabcha mushafda Hafs, shuningdek Varsh va Qolun rivoyatlarida ishlaydi. Tajvid tahlili faqat Hafs uchun mavjud."
+        },
+        {
+          "question": "Sun'iy intellekt Qur'on yodlashga qanday yordam beradi?",
+          "answer": "Matnni yashiring va yoddan o'qing: sun'iy intellekt to'g'ri o'qilgan so'zlarni ochadi va unutganlaringizni ko'rsatadi. Har bir oyat baho oladi, zaif oyatlar esa 1, 3, 7, 14 va keyin 30 kundan so'ng takrorlashga qaytadi."
+        },
+        {
+          "question": "Sun'iy intellekt ustozning o'rnini bosadimi?",
+          "answer": "Yo'q. Bu ko'proq o'qish va xatolaringizni ko'rish uchun mashq vositasi, ammo tanish xato qilishi mumkin. Qiroatingiz va tajvidingizni tasdiqlash uchun malakali ustozning o'rnini hech narsa bosa olmaydi."
+        }
+      ]
+    },
+    "related": {
+      "title": "Shuningdek ko'ring",
+      "memorisation": "Qur'onni Yodlash (Hifz)",
+      "tajweed": "Tajweed Qoidalari",
+      "correction": "Qiroatni to'g'irlash",
+      "allFeatures": "Barcha funksiyalar"
     }
   }
 }
