@@ -29,7 +29,7 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'home.meta' });
-  const { canonicalUrl, languages, ogLocale } = buildLocaleUrls(locale, '/');
+  const { canonicalUrl, languages, ogLocale } = buildLocaleUrls(locale, '');
 
   return {
     title: t('title'),

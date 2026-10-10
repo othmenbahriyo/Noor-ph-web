@@ -6,7 +6,7 @@ import Footer from '@/components/Footer/Footer';
 import BlogArticle from '@/components/Blog/BlogArticle';
 import { BLOG_POST_RELATED_PAGE, getAllBlogSlugs, getBlogPost, getRelatedPosts } from '@/lib/blog';
 import { routing } from '@/i18n/routing';
-import { buildLocaleUrls } from '@/i18n/seo';
+import { buildLocaleUrls, homeUrlFor } from '@/i18n/seo';
 
 const SITE_URL = 'https://noor-phonetic-quran.com';
 
@@ -61,14 +61,14 @@ function buildJsonLd(
   post: { title: string; description: string; date: string; author: string; image: string },
   breadcrumbLabels: { home: string; blog: string },
 ) {
-  const { canonicalUrl, languages } = buildLocaleUrls(locale, `/blog/${slug}`);
+  const { canonicalUrl } = buildLocaleUrls(locale, `/blog/${slug}`);
   const blogUrl = buildLocaleUrls(locale, '/blog').canonicalUrl;
 
   const breadcrumb = {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: breadcrumbLabels.home, item: languages[locale] },
+      { '@type': 'ListItem', position: 1, name: breadcrumbLabels.home, item: homeUrlFor(locale) },
       { '@type': 'ListItem', position: 2, name: breadcrumbLabels.blog, item: blogUrl },
       { '@type': 'ListItem', position: 3, name: post.title, item: canonicalUrl },
     ],

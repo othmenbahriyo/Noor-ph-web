@@ -9,7 +9,7 @@ import Screenshots from '@/components/AudioCoran/Screenshots';
 import Faq from '@/components/AudioCoran/Faq';
 import Related from '@/components/AudioCoran/Related';
 import { routing } from '@/i18n/routing';
-import { buildLocaleUrls } from '@/i18n/seo';
+import { buildLocaleUrls, homeUrlFor } from '@/i18n/seo';
 import styles from './page.module.css';
 
 const SITE_URL = 'https://noor-phonetic-quran.com';
@@ -66,13 +66,13 @@ function buildJsonLd(
   faqItems: { question: string; answer: string }[],
   breadcrumbLabels: { home: string; page: string },
 ) {
-  const { canonicalUrl, languages } = buildLocaleUrls(locale, PAGE_PATH);
+  const { canonicalUrl } = buildLocaleUrls(locale, PAGE_PATH);
 
   const breadcrumb = {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: breadcrumbLabels.home, item: languages[locale] },
+      { '@type': 'ListItem', position: 1, name: breadcrumbLabels.home, item: homeUrlFor(locale) },
       { '@type': 'ListItem', position: 2, name: breadcrumbLabels.page, item: canonicalUrl },
     ],
   };

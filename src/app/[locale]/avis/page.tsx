@@ -5,7 +5,7 @@ import Footer from '@/components/Footer/Footer';
 import ReviewsPageContent from '@/components/Reviews/ReviewsPageContent';
 import type { Testimonial } from '@/components/TestimonialCarousel/TestimonialsGrid';
 import { routing } from '@/i18n/routing';
-import { buildLocaleUrls } from '@/i18n/seo';
+import { buildLocaleUrls, homeUrlFor, socialMetadata } from '@/i18n/seo';
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
@@ -18,7 +18,7 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'reviews.meta' });
-  const { canonicalUrl, languages } = buildLocaleUrls(locale, '/avis');
+  const { canonicalUrl, languages, ogLocale } = buildLocaleUrls(locale, '/avis');
 
   return {
     title: t('title'),
@@ -28,6 +28,7 @@ export async function generateMetadata({
       canonical: canonicalUrl,
       languages,
     },
+    ...socialMetadata(t('title'), t('description'), canonicalUrl, ogLocale),
   };
 }
 
@@ -42,7 +43,7 @@ function buildJsonLd(
   items: Testimonial[],
   breadcrumbLabels: { home: string; reviews: string },
 ) {
-  const { canonicalUrl, languages } = buildLocaleUrls(locale, '/avis');
+  const { canonicalUrl } = buildLocaleUrls(locale, '/avis');
   const ratingSum = items.reduce((sum, item) => sum + (item.rating ?? 5), 0);
   const ratingValue = (ratingSum / (items.length || 1)).toFixed(1);
 
@@ -54,7 +55,7 @@ function buildJsonLd(
         '@type': 'ListItem',
         position: 1,
         name: breadcrumbLabels.home,
-        item: languages[locale],
+        item: homeUrlFor(locale),
       },
       {
         '@type': 'ListItem',

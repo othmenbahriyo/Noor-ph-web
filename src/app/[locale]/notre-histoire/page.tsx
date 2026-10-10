@@ -7,7 +7,7 @@ import Hero from '@/components/AboutUs/Hero';
 import Story from '@/components/AboutUs/Story';
 import Mission from '@/components/AboutUs/Mission';
 import { routing } from '@/i18n/routing';
-import { buildLocaleUrls } from '@/i18n/seo';
+import { buildLocaleUrls, homeUrlFor } from '@/i18n/seo';
 
 const SITE_URL = 'https://noor-phonetic-quran.com';
 const PAGE_PATH = '/notre-histoire';
@@ -53,13 +53,13 @@ export async function generateMetadata({
 }
 
 function buildJsonLd(locale: string, breadcrumbLabels: { home: string; page: string }) {
-  const { canonicalUrl, languages } = buildLocaleUrls(locale, PAGE_PATH);
+  const { canonicalUrl } = buildLocaleUrls(locale, PAGE_PATH);
 
   return {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: breadcrumbLabels.home, item: languages[locale] },
+      { '@type': 'ListItem', position: 1, name: breadcrumbLabels.home, item: homeUrlFor(locale) },
       { '@type': 'ListItem', position: 2, name: breadcrumbLabels.page, item: canonicalUrl },
     ],
   };

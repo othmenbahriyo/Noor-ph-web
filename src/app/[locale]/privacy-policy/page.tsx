@@ -4,7 +4,7 @@ import Header from '@/components/Header/Header';
 import Footer from '@/components/Footer/Footer';
 import PrivacyPolicyContent from '@/components/Legal/PrivacyPolicyContent';
 import { routing } from '@/i18n/routing';
-import { buildLocaleUrls } from '@/i18n/seo';
+import { buildLocaleUrls, homeUrlFor, socialMetadata } from '@/i18n/seo';
 
 const PAGE_PATH = '/privacy-policy';
 
@@ -19,7 +19,7 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'privacyPolicy.meta' });
-  const { canonicalUrl, languages } = buildLocaleUrls(locale, PAGE_PATH);
+  const { canonicalUrl, languages, ogLocale } = buildLocaleUrls(locale, PAGE_PATH);
 
   return {
     title: t('title'),
@@ -29,17 +29,18 @@ export async function generateMetadata({
       canonical: canonicalUrl,
       languages,
     },
+    ...socialMetadata(t('title'), t('description'), canonicalUrl, ogLocale),
   };
 }
 
 function buildJsonLd(locale: string, breadcrumbLabels: { home: string; page: string }) {
-  const { canonicalUrl, languages } = buildLocaleUrls(locale, PAGE_PATH);
+  const { canonicalUrl } = buildLocaleUrls(locale, PAGE_PATH);
 
   return {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: breadcrumbLabels.home, item: languages[locale] },
+      { '@type': 'ListItem', position: 1, name: breadcrumbLabels.home, item: homeUrlFor(locale) },
       { '@type': 'ListItem', position: 2, name: breadcrumbLabels.page, item: canonicalUrl },
     ],
   };

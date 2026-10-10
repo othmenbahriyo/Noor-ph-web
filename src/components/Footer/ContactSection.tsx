@@ -20,7 +20,8 @@ export default async function ContactSection({ standalone = false }: ContactSect
     >
       <div className="container">
         <div className={styles.sectionTitle}>
-          <h2>{t('title')}</h2>
+          {/* Seul titre de la page /contact : h1 ; h2 en section d'accueil. */}
+          {standalone ? <h1>{t('title')}</h1> : <h2>{t('title')}</h2>}
           <p>{t('description')}</p>
         </div>
 

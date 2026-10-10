@@ -1,3 +1,4 @@
+import type { Metadata } from 'next';
 import { routing } from './routing';
 
 const SITE_URL = 'https://noor-phonetic-quran.com';
@@ -66,5 +67,40 @@ export function buildLocaleUrls(locale: string, path: string) {
     canonicalUrl: withPrefix(locale),
     languages,
     ogLocale: ogLocaleFor(locale),
+  };
+}
+
+/** URL de l'accueil dans [locale] (sans slash final, comme les canonicals). */
+export function homeUrlFor(locale: string): string {
+  return buildLocaleUrls(locale, '').canonicalUrl;
+}
+
+/**
+ * OpenGraph + Twitter Card standards (image du site) pour une page qui n'a
+ * pas de visuel propre : sans eux, un partage n'affiche ni titre ni aperçu.
+ */
+export function socialMetadata(
+  title: string,
+  description: string,
+  url: string,
+  ogLocale: string,
+): Pick<Metadata, 'openGraph' | 'twitter'> {
+  const image = `${SITE_URL}/images/noor.png`;
+  return {
+    openGraph: {
+      title,
+      description,
+      url,
+      siteName: 'Noor Phonetic Quran',
+      locale: ogLocale,
+      type: 'website',
+      images: [{ url: image, width: 1200, height: 628, alt: title }],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description: twitterDescriptionFor(description),
+      images: [image],
+    },
   };
 }

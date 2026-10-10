@@ -4,7 +4,7 @@ import Header from '@/components/Header/Header';
 import Footer from '@/components/Footer/Footer';
 import ContactSection from '@/components/Footer/ContactSection';
 import { routing } from '@/i18n/routing';
-import { buildLocaleUrls } from '@/i18n/seo';
+import { buildLocaleUrls, homeUrlFor, socialMetadata } from '@/i18n/seo';
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
@@ -17,7 +17,7 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'contactPage.meta' });
-  const { canonicalUrl, languages } = buildLocaleUrls(locale, '/contact');
+  const { canonicalUrl, languages, ogLocale } = buildLocaleUrls(locale, '/contact');
 
   return {
     title: t('title'),
@@ -27,6 +27,7 @@ export async function generateMetadata({
       canonical: canonicalUrl,
       languages,
     },
+    ...socialMetadata(t('title'), t('description'), canonicalUrl, ogLocale),
   };
 }
 
@@ -34,7 +35,7 @@ function buildJsonLd(
   locale: string,
   breadcrumbLabels: { home: string; contact: string },
 ) {
-  const { canonicalUrl, languages } = buildLocaleUrls(locale, '/contact');
+  const { canonicalUrl } = buildLocaleUrls(locale, '/contact');
 
   return {
     '@context': 'https://schema.org',
@@ -44,7 +45,7 @@ function buildJsonLd(
         '@type': 'ListItem',
         position: 1,
         name: breadcrumbLabels.home,
-        item: languages[locale],
+        item: homeUrlFor(locale),
       },
       {
         '@type': 'ListItem',
