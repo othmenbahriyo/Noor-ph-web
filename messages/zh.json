@@ -28,7 +28,12 @@
         "blog": "博客",
         "aboutUs": "我们的故事",
         "ramadan2027": "2027年斋月",
-        "suiviRecitationIa": "AI 诵读跟踪"
+        "suiviRecitationIa": "AI 诵读跟踪",
+        "warshQaloun": "沃尔什与格伦经本",
+        "radioTv": "古兰经电台与电视直播",
+        "adhkar": "早晚记念词",
+        "lireCoranPhonetique": "用音译诵读古兰经",
+        "widgetVerset": "每日经文小组件"
       }
     },
     "languageSwitcher": {
@@ -191,6 +196,7 @@
         {
           "icon": "fa-book",
           "title": "拼音转写",
+          "href": "/lire-coran-phonetique",
           "text": "每节经文都配有详细的拼音转写，帮助您正确发音。"
         },
         {
@@ -244,6 +250,24 @@
           "text": "大声诵读：AI 实时跟踪每个词，标出错误和漏读，分析你的泰吉威德，并逐次记录你的进步。"
         },
         {
+          "icon": "fa-book-open",
+          "title": "沃尔什与格伦经本",
+          "href": "/mushaf-warsh-qaloun",
+          "text": "以沃尔什和格伦读法阅读古兰经，可选印刷版经本或文本，提供各读法的诵读者和 AI 诵读跟踪。"
+        },
+        {
+          "icon": "fa-tower-broadcast",
+          "title": "古兰经电台与电视直播",
+          "href": "/radio-tv-coran",
+          "text": "收听 170 多个古兰经诵读电台，并观看古兰经和圣训频道直播。"
+        },
+        {
+          "icon": "fa-hands-praying",
+          "title": "早晚记念词",
+          "href": "/adhkar-matin-soir",
+          "text": "早晨、晚上、睡前和礼拜后的记念词，提供阿拉伯文、音译和译文，并附重复计数器。"
+        },
+        {
           "icon": "fa-microphone-alt",
           "title": "诵读纠正",
           "href": "/correction-recitation-coran",
@@ -258,6 +282,7 @@
         {
           "icon": "fa-mobile-screen-button",
           "title": "主屏幕小组件",
+          "href": "/widget-verset-du-jour",
           "text": "在手机主屏幕上直接显示每日经文，让您的阅读习惯始终触手可及。"
         }
       ]
@@ -2670,6 +2695,341 @@
       "tajweed": "塔吉维德规则",
       "correction": "诵读纠正",
       "allFeatures": "所有功能"
+    }
+  },
+  "warshQaloun": {
+    "meta": {
+      "title": "沃尔什与格伦经本：阅读和聆听古兰经",
+      "description": "以沃尔什和格伦读法阅读古兰经：印刷版经本或文本、各读法的诵读者以及 AI 诵读跟踪。Noor Phonetic Quran 应用。",
+      "keywords": "沃尔什古兰经, 沃尔什经本, 格伦古兰经, 格伦经本, 沃尔什读法, 古兰经沃尔什应用",
+      "ogTitle": "沃尔什与格伦经本：阅读和聆听古兰经",
+      "ogDescription": "沃尔什与格伦读法的古兰经：印刷版经本、各读法诵读者和 AI 跟踪。"
+    },
+    "breadcrumb": {
+      "home": "首页",
+      "current": "沃尔什与格伦经本"
+    },
+    "hero": {
+      "title": "沃尔什与格伦经本：用你的读法阅读和聆听古兰经",
+      "subtitle": "选择哈夫斯、沃尔什或格伦：经本、诵读者和诵读跟踪都会适配你所用的读法。",
+      "googlePlay": "Google Play",
+      "appStore": "App Store"
+    },
+    "intro": {
+      "title": "用你的读法阅读古兰经",
+      "paragraphs": [
+        "阿绥姆传哈夫斯读法是世界上最普及的读法，但在马格里布和西非，许多人以纳菲传沃尔什读法学习和诵读古兰经，利比亚和突尼斯则多用纳菲传格伦读法。",
+        "Noor Phonetic Quran 提供这三种读法：沃尔什与格伦的印刷版经本、文本显示、各读法的诵读者以及 AI 诵读跟踪。"
+      ]
+    },
+    "features": {
+      "title": "如何用沃尔什或格伦读法阅读？",
+      "items": [
+        {
+          "title": "选择你的读法",
+          "description": "在设置中选择哈夫斯、沃尔什或格伦，页面将以所选读法显示。"
+        },
+        {
+          "title": "阅读印刷版经本或文本",
+          "description": "沃尔什与格伦的印刷版经本，或更易读的文本；只需下载一次，之后可离线使用。"
+        },
+        {
+          "title": "聆听你所用读法的诵读者",
+          "description": "诵读者列表标明每位诵读者的读法，并可逐节聆听。"
+        },
+        {
+          "title": "配合 AI 跟踪诵读",
+          "description": "逐词跟踪同样支持沃尔什和格伦，帮你检查诵读。"
+        }
+      ]
+    },
+    "faq": {
+      "title": "关于沃尔什与格伦经本的常见问题",
+      "items": [
+        {
+          "question": "哈夫斯、沃尔什和格伦有什么区别？",
+          "answer": "它们都是古兰经诵读的可靠传述，区别在于部分元音、长音、哈姆宰的读法以及少数经节的编号。"
+        },
+        {
+          "question": "沃尔什读法有音译吗？",
+          "answer": "没有，音译仅提供哈夫斯读法。在沃尔什和格伦读法中，应用显示阿拉伯文。"
+        },
+        {
+          "question": "AI 诵读跟踪支持沃尔什吗？",
+          "answer": "支持，逐词跟踪适用于沃尔什和格伦读法。泰吉威德分析仅支持哈夫斯。"
+        }
+      ]
+    },
+    "related": {
+      "title": "同时了解"
+    }
+  },
+  "radioTv": {
+    "meta": {
+      "title": "古兰经电台与古兰经电视直播",
+      "description": "170 多个古兰经诵读电台以及古兰经和圣训电视频道直播，支持收藏和后台播放。Noor Phonetic Quran 应用。",
+      "keywords": "古兰经电台, 古兰经电台直播, 在线听古兰经, 古兰经电视直播, 麦加古兰经频道, 麦地那圣训频道",
+      "ogTitle": "古兰经电台与古兰经电视直播",
+      "ogDescription": "170 多个古兰经诵读电台以及古兰经和圣训频道直播。"
+    },
+    "breadcrumb": {
+      "home": "首页",
+      "current": "古兰经电台与电视"
+    },
+    "hero": {
+      "title": "古兰经电台与古兰经电视直播",
+      "subtitle": "随时聆听古兰经：170 多个诵读电台以及古兰经和圣训电视频道直播，尽在一个应用中。",
+      "googlePlay": "Google Play",
+      "appStore": "App Store"
+    },
+    "intro": {
+      "title": "无论身在何处，古兰经不间断",
+      "paragraphs": [
+        "Noor Phonetic Quran 汇集了 170 多个专门播放世界各地诵读者古兰经诵读的电台，以及古兰经和圣训电视频道直播。",
+        "播放可在后台持续进行，并可在锁屏上控制，陪伴你通勤、工作或休息。"
+      ]
+    },
+    "features": {
+      "title": "如何收听古兰经电台和观看电视？",
+      "items": [
+        {
+          "title": "打开电台或电视直播",
+          "description": "从应用菜单进入电台或电视频道。"
+        },
+        {
+          "title": "选择电台",
+          "description": "浏览诵读电台；在可能的情况下，名称会以你的语言显示。"
+        },
+        {
+          "title": "添加收藏",
+          "description": "把喜欢的电台放在手边，一键即可找到。"
+        },
+        {
+          "title": "后台收听",
+          "description": "关闭屏幕后继续播放，可在锁屏上播放或暂停。"
+        }
+      ]
+    },
+    "faq": {
+      "title": "关于古兰经电台和电视的常见问题",
+      "items": [
+        {
+          "question": "需要联网吗？",
+          "answer": "需要，电台和电视为直播，必须连接互联网。"
+        },
+        {
+          "question": "有哪些电视频道？",
+          "answer": "古兰经频道和圣训频道，均为直播。"
+        },
+        {
+          "question": "可以关屏收听吗？",
+          "answer": "可以，播放会在后台继续，并可在锁屏上控制。"
+        }
+      ]
+    },
+    "related": {
+      "title": "同时了解"
+    }
+  },
+  "adhkar": {
+    "meta": {
+      "title": "早晚记念词（附音译）",
+      "description": "早晨、晚上、睡前和礼拜后的记念词，提供阿拉伯文、音译和译文，并附重复计数器。Noor Phonetic Quran 应用。",
+      "keywords": "早晨记念词, 晚间记念词, 记念词音译, 早晨祈祷, 齐克尔, 睡前记念词, 礼拜后记念, 记念词应用",
+      "ogTitle": "早晚记念词（附音译）",
+      "ogDescription": "早晨、晚上、睡前和礼拜后的记念词，阿拉伯文、音译和译文。"
+    },
+    "breadcrumb": {
+      "home": "首页",
+      "current": "早晚记念词"
+    },
+    "hero": {
+      "title": "早晚记念词（附音译）",
+      "subtitle": "即使不会读阿拉伯文，也能诵念每日的祈祷词：每条记念词都有阿拉伯文、音译和译文，并有计数器记录你的重复次数。",
+      "googlePlay": "Google Play",
+      "appStore": "App Store"
+    },
+    "intro": {
+      "title": "记念词：一天中每个时刻的记念",
+      "paragraphs": [
+        "记念词是圣训中传下的祈祷和赞念安拉之辞，在特定时刻诵念：醒来时、傍晚、睡前和礼拜后。",
+        "Noor Phonetic Quran 汇集了早晨、晚上、睡前和礼拜后的记念词。每条祈祷词都以阿拉伯文呈现，并附音译以便不懂阿拉伯文的人诵读，还附有译文。"
+      ]
+    },
+    "features": {
+      "title": "如何用应用诵念记念词？",
+      "items": [
+        {
+          "title": "选择时刻",
+          "description": "早晨、晚上、睡前或礼拜后的记念词。"
+        },
+        {
+          "title": "阅读阿拉伯文或音译",
+          "description": "每条记念词都显示阿拉伯文、音译和译文。"
+        },
+        {
+          "title": "记录重复次数",
+          "description": "每重复一次点一下计数器，进度会提示你何时达到建议次数。"
+        },
+        {
+          "title": "聆听与分享",
+          "description": "在有音频时聆听诵读，并一键分享祈祷词。"
+        }
+      ]
+    },
+    "faq": {
+      "title": "关于记念词的常见问题",
+      "items": [
+        {
+          "question": "早晚记念词应在何时诵念？",
+          "answer": "学者们一般认为早晨记念词在黎明至日出之间，晚间记念词在晡礼至日落之间。"
+        },
+        {
+          "question": "不懂阿拉伯文可以诵念吗？",
+          "answer": "可以，每条祈祷词都有音译，并附有译文。"
+        },
+        {
+          "question": "可以分享祈祷词吗？",
+          "answer": "可以，每条祈祷词都能一键分享给亲友。"
+        }
+      ]
+    },
+    "related": {
+      "title": "同时了解"
+    }
+  },
+  "lireCoranPhonetique": {
+    "meta": {
+      "title": "不懂阿拉伯文也能用音译诵读古兰经",
+      "description": "以音译阅读古兰经的每一节，借助每个字母的音频学习阿拉伯语特有的发音，并检查你的读音。Noor Phonetic Quran 应用。",
+      "keywords": "古兰经音译, 古兰经拼音, 古兰经拉丁字母, 不懂阿拉伯文读古兰经, 学习诵读古兰经",
+      "ogTitle": "不懂阿拉伯文也能用音译诵读古兰经",
+      "ogDescription": "古兰经每一节的音译、每个字母的音频以及读音检查。"
+    },
+    "breadcrumb": {
+      "home": "首页",
+      "current": "用音译诵读古兰经"
+    },
+    "hero": {
+      "title": "用音译诵读古兰经，即使不懂阿拉伯文",
+      "subtitle": "每一节都有音译，让你今天就能开始诵读，然后按自己的节奏过渡到阿拉伯文。",
+      "googlePlay": "Google Play",
+      "appStore": "App Store"
+    },
+    "intro": {
+      "title": "在学会阿拉伯文之前就能诵读古兰经",
+      "paragraphs": [
+        "Noor Phonetic Quran 为古兰经的每一节提供音标转写：你用拉丁字母读出阿拉伯语的发音，无需先学会阿拉伯字母。",
+        "音译指南讲解你的语言中没有的发音，并附每个字母的音频；泰吉威德模块（发音部位、规则）帮助你逐步过渡到阿拉伯文。"
+      ]
+    },
+    "features": {
+      "title": "如何用音译诵读古兰经？",
+      "items": [
+        {
+          "title": "逐页阅读音译",
+          "description": "音译随经本排列，旁边是阿拉伯文和译文。"
+        },
+        {
+          "title": "学习阿拉伯语特有的发音",
+          "description": "指南把每个符号（ḥ、ṣ、ḍ、ṭ、ʿ……）与对应的阿拉伯字母和录音联系起来，并讲解长短元音。"
+        },
+        {
+          "title": "同时聆听",
+          "description": "逐节音频让你听到所读内容的准确发音。"
+        },
+        {
+          "title": "检查你的读音",
+          "description": "配合 AI 跟踪大声诵读，并练习字母的发音部位。"
+        }
+      ]
+    },
+    "faq": {
+      "title": "关于用音译诵读古兰经的常见问题",
+      "items": [
+        {
+          "question": "不懂阿拉伯文真的能诵读古兰经吗？",
+          "answer": "音译让你从第一天起就能诵读。但它只是辅助：逐步学习阿拉伯字母和泰吉威德才能读得更准确。"
+        },
+        {
+          "question": "音译覆盖整部古兰经吗？",
+          "answer": "是的，覆盖经本全部 604 页，采用哈夫斯读法。"
+        },
+        {
+          "question": "如何知道 ḥ 或 ʿ 怎么读？",
+          "answer": "应用中的音译指南把每个符号与对应的阿拉伯字母和录音联系起来。"
+        }
+      ]
+    },
+    "related": {
+      "title": "同时了解"
+    }
+  },
+  "widgetVerset": {
+    "meta": {
+      "title": "每日经文小组件：主屏幕上的古兰经",
+      "description": "每天在手机主屏幕上显示一节古兰经，支持 Android 和 iPhone，并与 Noor Phonetic Quran 的“每日经文”计划相连。",
+      "keywords": "古兰经小组件, 每日经文小组件, 每日古兰经经文, 主屏幕古兰经, 伊斯兰小组件 Android, 古兰经小组件 iPhone",
+      "ogTitle": "每日经文小组件：主屏幕上的古兰经",
+      "ogDescription": "每天在手机主屏幕上显示一节古兰经，支持 Android 和 iPhone。"
+    },
+    "breadcrumb": {
+      "home": "首页",
+      "current": "每日经文小组件"
+    },
+    "hero": {
+      "title": "每日经文小组件：主屏幕上的古兰经",
+      "subtitle": "每天一节新经文，直接显示在手机主屏幕上，让古兰经常在眼前，背诵不断进步。",
+      "googlePlay": "Google Play",
+      "appStore": "App Store"
+    },
+    "intro": {
+      "title": "每天一节，无需打开应用",
+      "paragraphs": [
+        "Noor Phonetic Quran 小组件每天在手机主屏幕上显示一节古兰经，Android 和 iPhone 均可使用。",
+        "它与应用中的“每日经文”计划相连：聆听经文、阅读经注、背诵、录下诵读并复习，循序渐进。"
+      ]
+    },
+    "features": {
+      "title": "如何使用每日经文小组件？",
+      "items": [
+        {
+          "title": "添加小组件",
+          "description": "长按主屏幕，打开小组件并选择 Noor Phonetic Quran。"
+        },
+        {
+          "title": "每天获得一节新经文",
+          "description": "小组件每天自动更新。"
+        },
+        {
+          "title": "在主屏幕上推进",
+          "description": "在 Android 上，+1 按钮无需打开应用即可记录当前步骤的一次重复。"
+        },
+        {
+          "title": "跟随当天的计划",
+          "description": "聆听诵读者、阅读经注、背诵、录下诵读并复习。"
+        }
+      ]
+    },
+    "faq": {
+      "title": "关于每日经文小组件的常见问题",
+      "items": [
+        {
+          "question": "小组件支持 iPhone 吗？",
+          "answer": "支持，Android 和 iPhone 均可使用。+1 按钮仅在 Android 上提供；在 iPhone 上，小组件显示经文并打开应用。"
+        },
+        {
+          "question": "如何添加小组件？",
+          "answer": "长按主屏幕，打开小组件列表并选择 Noor Phonetic Quran。"
+        },
+        {
+          "question": "经文每天都会更换吗？",
+          "answer": "是的，小组件每天自动显示一节新经文。"
+        }
+      ]
+    },
+    "related": {
+      "title": "同时了解"
     }
   }
 }

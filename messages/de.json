@@ -28,7 +28,12 @@
         "blog": "Blog",
         "aboutUs": "Unsere Geschichte",
         "ramadan2027": "Ramadan 2027",
-        "suiviRecitationIa": "KI-Rezitationsbegleitung"
+        "suiviRecitationIa": "KI-Rezitationsbegleitung",
+        "warshQaloun": "Mushaf Warsh und Qaloun",
+        "radioTv": "Koran-Radio und -TV live",
+        "adhkar": "Adhkar für Morgen und Abend",
+        "lireCoranPhonetique": "Koran in Lautschrift lesen",
+        "widgetVerset": "Widget Vers des Tages"
       }
     },
     "languageSwitcher": {
@@ -133,8 +138,8 @@
   },
   "home": {
     "meta": {
-      "title": "Noor Quran: Phonetischer Koran, Tajweed, Auswendiglernen & Khatma",
-      "description": "Die vollständige phonetische Koran-App: Lesen Sie den Koran ohne Arabischkenntnisse, hören Sie Audio offline, lernen Sie Tajweed und makharij al-huruf, merken Sie sich Verse im Spielmodus und verfolgen Sie Ihre Khatma und Adhkar. Live-Koran-Radio. 80.000+ Nutzer, 20+ Sprachen, iOS und Android.",
+      "title": "Noor Quran: Phonetischer Koran, Tajweed, Auswendiglernen",
+      "description": "Lies den Koran in Lautschrift ohne Arabisch: Offline-Audio, Tajweed, Auswendiglernen, KI-Rezitationsbegleitung und Khatma. 80.000+ Nutzer, iOS und Android.",
       "keywords": "Phonetischer Koran, Sure phonetisch, phonetische Koran-App, Koran lernen, phonetische Transkription Koran, Tajweed, makharij al-huruf, Koran auswendig lernen, Hifz, Khatma Koran, Adhkar, Live-Koran-Radio, Mushaf, Rezitationskorrektur, Koran-Quiz, Ramadan-Programm, Koran-Audio offline",
       "ogTitle": "Noor Quran: Die komplette phonetische Koran-App (Lesen, Tajweed, Khatma)",
       "ogDescription": "Lesen, hören und lernen Sie den Koran phonetisch und auf Arabisch, auch ohne Arabischkenntnisse. Tajweed, Rezitationskorrektur, Khatma, Adhkar und Live-Koran-Radio. Kostenlos, 20+ Sprachen."
@@ -191,6 +196,7 @@
         {
           "icon": "fa-book",
           "title": "Phonetische Transkription",
+          "href": "/lire-coran-phonetique",
           "text": "Jeder Vers wird von einer detaillierten phonetischen Transkription begleitet, um eine korrekte Aussprache zu ermöglichen."
         },
         {
@@ -244,6 +250,24 @@
           "text": "Rezitiere laut: Die KI verfolgt jedes Wort in Echtzeit, markiert Fehler und ausgelassene Wörter, analysiert dein Tajweed und verfolgt deinen Fortschritt Sitzung für Sitzung."
         },
         {
+          "icon": "fa-book-open",
+          "title": "Mushaf Warsh und Qaloun",
+          "href": "/mushaf-warsh-qaloun",
+          "text": "Lies den Koran in den Lesarten Warsh und Qaloun, als gedruckten Mushaf oder als Text, mit Rezitatoren jeder Riwaya und KI-Rezitationsbegleitung."
+        },
+        {
+          "icon": "fa-tower-broadcast",
+          "title": "Koran-Radio und -TV live",
+          "href": "/radio-tv-coran",
+          "text": "Höre über 170 Radiosender mit Koranrezitation und sieh die Sender Koran und Sunna live."
+        },
+        {
+          "icon": "fa-hands-praying",
+          "title": "Adhkar für Morgen und Abend",
+          "href": "/adhkar-matin-soir",
+          "text": "Adhkar für Morgen, Abend, Schlaf und Gebete, auf Arabisch, in Lautschrift und übersetzt, mit Wiederholungszähler."
+        },
+        {
           "icon": "fa-microphone-alt",
           "title": "Rezitationskorrektur",
           "href": "/correction-recitation-coran",
@@ -258,6 +282,7 @@
         {
           "icon": "fa-mobile-screen-button",
           "title": "Startbildschirm-Widget",
+          "href": "/widget-verset-du-jour",
           "text": "Zeigen Sie den Vers des Tages direkt auf dem Startbildschirm Ihres Telefons an und behalten Sie Ihre Leseroutine immer im Blick."
         }
       ]
@@ -1701,13 +1726,13 @@
   "contactPage": {
     "meta": {
       "title": "Kontakt - Noor Phonetic Quran",
-      "description": "Eine Frage zur App Noor Phonetic Quran, ein Vorschlag zur Koran-Phonetik oder ein technisches Problem? Kontaktieren Sie unser Team, Antwort innerhalb von 48 Stunden."
+      "description": "Eine Frage zur App, ein Vorschlag zur Koran-Lautschrift oder ein technisches Problem? Kontaktieren Sie unser Team, Antwort innerhalb von 48 Stunden."
     }
   },
   "reviews": {
     "meta": {
       "title": "Nutzerbewertungen - Noor Phonetic Quran",
-      "description": "Entdecken Sie mehr als 160 verifizierte Bewertungen von Nutzern von Noor Phonetic Quran, der App zum Rezitieren, Auswendiglernen und Lesen des Korans in Phonetik, mit einer durchschnittlichen Bewertung von 5 Sternen."
+      "description": "Über 160 verifizierte Bewertungen zu Noor Phonetic Quran, der App zum Rezitieren, Auswendiglernen und Lesen des Korans in Lautschrift. Ø 5 Sterne."
     },
     "eyebrow": "Verifizierte Bewertungen",
     "title": "Was unsere Nutzer sagen",
@@ -1717,8 +1742,8 @@
   },
   "aboutUs": {
     "meta": {
-      "title": "Unsere Geschichte: Warum wir Noor Phonetic Quran entwickelt haben",
-      "description": "Erfahren Sie die Geschichte hinter Noor Phonetic Quran: Die Begegnung mit einer Schwester, die gerade zum Islam konvertiert war, inspirierte uns zu einer App, die das Lesen des Korans für alle zugänglich macht, auch ohne Arabisch lesen zu können.",
+      "title": "Unsere Geschichte: Warum es Noor Phonetic Quran gibt",
+      "description": "Die Geschichte von Noor Phonetic Quran: Eine Schwester, die gerade zum Islam gefunden hatte, inspirierte uns, das Koranlesen für alle zugänglich zu machen.",
       "ogTitle": "Unsere Geschichte: Warum wir Noor Phonetic Quran entwickelt haben",
       "ogDescription": "Alles begann mit der Begegnung mit einer Schwester, die gerade zum Islam konvertiert war und den Koran nicht auf Arabisch lesen konnte. So entstand Noor Phonetic Quran."
     },
@@ -1784,8 +1809,8 @@
   },
   "blog": {
     "meta": {
-      "title": "Blog - Tajweed, Auswendiglernen und Koranlernen | Noor Phonetic Quran",
-      "description": "Artikel und praktische Anleitungen zu den Tajweed-Regeln, Methoden zum Auswendiglernen des Korans (Hifz) und zum Erlernen der Rezitation, vom Noor Phonetic Quran Team."
+      "title": "Blog - Tajweed, Auswendiglernen und Koranlernen",
+      "description": "Artikel und Anleitungen zu den Tajweed-Regeln, Methoden zum Auswendiglernen des Korans (Hifz) und zum Erlernen der Rezitation."
     },
     "title": "Blog",
     "subtitle": "Praktische Anleitungen und Tipps zu Tajweed, dem Auswendiglernen des Korans und der Rezitation, damit Sie in Ihrem eigenen Tempo Fortschritte machen.",
@@ -1800,8 +1825,8 @@
   },
   "audioCoran": {
     "meta": {
-      "title": "Synchronisiertes Koran-Audio: Mehrere Rezitatoren und Offline-Hören | Noor Phonetic Quran",
-      "description": "Hören Sie den Koran mit synchronisiertem Audio Vers für Vers, wählen Sie unter mehreren Rezitatoren und laden Sie das Audio für Offline-Hören mit Noor Phonetic Quran herunter. Kostenlos für iOS und Android.",
+      "title": "Koran-Audio: Rezitatoren und Offline-Hören",
+      "description": "Höre den Koran Vers für Vers mit synchronisiertem Audio, wähle deinen Rezitator und lade die Suren herunter, um sie offline zu hören.",
       "keywords": "Koran-Audio, Koran-Rezitation Audio, mehrere Koran-Rezitatoren, Koran-Audio offline, Koran-Audio herunterladen, den Koran hören, synchronisiertes Koran-Audio, Koran-Rezitatoren App",
       "ogTitle": "Synchronisiertes Koran-Audio: Mehrere Rezitatoren und Offline-Hören",
       "ogDescription": "Synchronisiertes Audio Vers für Vers, mehrere Rezitatoren und Offline-Download. Kostenlose App Noor Phonetic Quran."
@@ -2055,8 +2080,8 @@
   },
   "correctionRecitation": {
     "meta": {
-      "title": "Korrektur der Koran-Rezitation: Nehmen Sie sich auf und machen Sie Fortschritte | Noor Phonetic Quran",
-      "description": "Nehmen Sie Ihre Koran-Rezitation auf und erhalten Sie eine persönliche Korrektur mit Noor Phonetic Quran: Verbesserung der Aussprache und der Einhaltung der Tajweed-Regeln. Kostenlos für iOS und Android.",
+      "title": "Koran-Rezitation korrigieren: Aufnehmen und Fortschritte",
+      "description": "Nimm deine Koranrezitation auf und erhalte eine persönliche Korrektur, um Aussprache und Tajweed zu verbessern. Kostenlos für iOS und Android.",
       "keywords": "Rezitationskorrektur Koran, Rezitation verbessern, Tajweed-Korrektur, Rezitation aufnehmen, Koran-Korrektur-App, den Koran korrekt rezitieren lernen",
       "ogTitle": "Korrektur der Koran-Rezitation: Nehmen Sie sich auf und machen Sie Fortschritte",
       "ogDescription": "Nehmen Sie Ihre Rezitation auf und erhalten Sie eine persönliche Korrektur, um bei Aussprache und Tajweed voranzukommen. Kostenlose App Noor Phonetic Quran."
@@ -2126,8 +2151,8 @@
   },
   "ramadan2027": {
     "meta": {
-      "title": "Ramadan 2027: Datum, Countdown und Vorbereitung | Noor Phonetic Quran",
-      "description": "Der Ramadan 2027 beginnt am 8. Februar (geschätztes Datum). Bereiten Sie Ihre Khatma, Ihr tägliches Programm und Ihre Adhkar mit Noor Phonetic Quran vor, der kostenlosen phonetischen Koran-App.",
+      "title": "Ramadan 2027: Datum, Countdown und Vorbereitung",
+      "description": "Der Ramadan 2027 beginnt am 8. Februar (geschätzt). Bereite deine Khatma, dein Tagesprogramm und deine Adhkar mit Noor Phonetic Quran vor.",
       "keywords": "Ramadan 2027, Ramadan 2027 Datum, Ramadan Countdown, Ramadan vorbereiten, Ramadan Khatma, Ramadan Koran-Programm",
       "ogTitle": "Ramadan 2027: Datum, Countdown und Vorbereitung",
       "ogDescription": "Der Ramadan 2027 beginnt am 8. Februar (geschätztes Datum). Bereiten Sie Ihre Khatma und Ihr tägliches Programm mit Noor Phonetic Quran vor."
@@ -2176,8 +2201,8 @@
   },
   "khatmaCoran": {
     "meta": {
-      "title": "Khatma des Korans: App zum Planen und Verfolgen der vollständigen Lektüre | Noor Phonetic Quran",
-      "description": "Planen Sie Ihre Khatma (vollständige Lektüre des Korans) mit der App Noor Phonetic Quran: tägliche Ziele, Fortschrittsverfolgung, Tagesserien (Streak) und Erinnerungen. Kostenlos für iOS und Android.",
+      "title": "Khatma des Korans: Lektüre planen und verfolgen",
+      "description": "Plane deine Khatma (vollständige Koranlektüre): Tagesziele, Fortschrittsverfolgung, Tagesserien und Erinnerungen. Kostenlos für iOS und Android.",
       "keywords": "Khatma Koran, Khatma-App, den Koran vollständig lesen, Koran-Leseplan, Khatma-Ziel Ramadan, Koran-Leseverfolgung, den Koran beenden",
       "ogTitle": "Khatma des Korans: Planen und Verfolgen Sie Ihre vollständige Lektüre",
       "ogDescription": "Planen Sie Ihre Khatma mit täglichen Zielen, Fortschrittsverfolgung und Erinnerungen. Kostenlose App Noor Phonetic Quran."
@@ -2276,8 +2301,8 @@
   },
   "tajweedCoran": {
     "meta": {
-      "title": "Tajweed-Regeln des Korans: Farbiges und Detailliertes Lernen | Noor Phonetic Quran",
-      "description": "Lernen Sie die Tajweed-Regeln des Korans mit Noor Phonetic Quran: Farben und Anmerkungen während des Lesens, Artikulationsstellen der Buchstaben (Makharej), Regeln des Noun Sakinah und des Waqf. Kostenlos für iOS und Android.",
+      "title": "Tajweed-Regeln des Korans: Farbiges und Detailliertes Lernen",
+      "description": "Lerne Tajweed: Farben und Anmerkungen beim Lesen, Artikulationspunkte (Makharij), Regeln zu Noon Sakinah und Waqf. Kostenlos für iOS und Android.",
       "keywords": "Tajweed-Regeln, Tajweed Koran, Tajweed lernen, farbiges Tajweed, Makharej arabische Buchstaben, Noun Sakinah Tanwin, Waqf Ibtida, kostenlose Tajweed-App",
       "ogTitle": "Tajweed-Regeln des Korans: Farbiges und Detailliertes Lernen",
       "ogDescription": "Farben und Anmerkungen während des Lesens, Artikulationsstellen, Regeln des Noun Sakinah und des Waqf. Kostenlose App Noor Phonetic Quran."
@@ -2355,8 +2380,8 @@
   },
   "quizCoran": {
     "meta": {
-      "title": "Koran-Quiz: Testen Sie Ihr Koran-Wissen mit Spaß | Noor Phonetic Quran",
-      "description": "Testen Sie Ihr Koran-Wissen mit dem Koran-Quiz von Noor Phonetic Quran: 21 Fragen, Gewinnstufen, 50:50-Joker, Publikumsumfrage und Telefonjoker. Kostenlos für iOS und Android.",
+      "title": "Koran-Quiz: Testen Sie Ihr Koran-Wissen mit Spaß",
+      "description": "Testen Sie Ihr Koran-Wissen mit dem Koran-Quiz von Noor Phonetic Quran: 21 Fragen, Gewinnstufen, 50:50-Joker, Publikumsumfrage und Telefonjoker.",
       "keywords": "Koran-Quiz, Koran-Quiz-Spiel, Koran-Wissensfragen, Koran-Wissen testen, Islam-Quiz, kostenlose Koran-Quiz-App, Koran-Fragen und Antworten",
       "ogTitle": "Koran-Quiz: Testen Sie Ihr Koran-Wissen mit Spaß",
       "ogDescription": "21 Fragen, Gewinnstufen, 50:50-Joker, Publikumsumfrage und Telefonjoker. Kostenlose App Noor Phonetic Quran."
@@ -2496,8 +2521,8 @@
   },
   "memorisationCoran": {
     "meta": {
-      "title": "Koran auswendig lernen (Hifz): App mit Audio-Wiederholung und Quiz | Noor Phonetic Quran",
-      "description": "Lernen Sie den Koran auswendig (Hifz) mit der App Noor Phonetic Quran: Audio-Wiederholung Vers für Vers, Wort-für-Wort-Modus, Wiederholungs-Quiz, Punkte, Stufen und Abzeichen. Kostenlos für iOS und Android.",
+      "title": "Koran auswendig lernen (Hifz): Audio und Quiz",
+      "description": "Lerne den Koran auswendig (Hifz): Audio-Wiederholung Vers für Vers, Wort-für-Wort-Modus, Quiz, Punkte, Stufen und Abzeichen. Kostenlos für iOS und Android.",
       "keywords": "Koran auswendig lernen, Hifz Koran, Koran-Memorierungs-App, den Koran auswendig lernen, Memorierung Vers für Vers, kostenlose Hifz-App",
       "ogTitle": "Koran auswendig lernen (Hifz): Audio-Wiederholung, Quiz und Fortschrittsverfolgung",
       "ogDescription": "Lernen Sie den Koran auswendig mit Audio-Wiederholung, Wort-für-Wort-Modus, Quiz und täglichen Herausforderungen. Kostenlose App Noor Phonetic Quran."
@@ -2578,8 +2603,8 @@
   },
   "suiviRecitationIa": {
     "meta": {
-      "title": "Koranrezitation mit KI verfolgen: Korrektur Wort für Wort in Echtzeit | Noor Phonetic Quran",
-      "description": "Rezitiere den Koran laut: Die KI von Noor Phonetic Quran verfolgt jedes Wort in Echtzeit, markiert Fehler und Auslassungen, analysiert dein Tajweed und verfolgt deinen Fortschritt. Kostenlos für iOS und Android.",
+      "title": "Koranrezitation mit KI verfolgen, Wort für Wort",
+      "description": "Rezitiere den Koran laut: Die KI verfolgt jedes Wort in Echtzeit, markiert Fehler und analysiert Tajweed und Fortschritt. Kostenlos für iOS und Android.",
       "keywords": "Koranrezitation KI, Koran Rezitation prüfen, Koranrezitation korrigieren, Koran auswendig lernen KI, Koran App Rezitation",
       "ogTitle": "Koranrezitation mit KI verfolgen: Korrektur Wort für Wort in Echtzeit",
       "ogDescription": "Rezitiere laut: Die KI verfolgt jedes Wort, markiert deine Fehler und verfolgt deinen Fortschritt. Kostenlose App Noor Phonetic Quran."
@@ -2670,6 +2695,341 @@
       "tajweed": "Tajweed-Regeln",
       "correction": "Rezitationskorrektur",
       "allFeatures": "Alle Funktionen"
+    }
+  },
+  "warshQaloun": {
+    "meta": {
+      "title": "Mushaf Warsh und Qaloun: Koran lesen und hören",
+      "description": "Lies den Koran in Warsh und Qaloun: gedruckter Mushaf oder Text, Rezitatoren jeder Riwaya und KI-Rezitationsbegleitung. App Noor Phonetic Quran.",
+      "keywords": "Koran Warsh, Mushaf Warsh, Koran Qaloun, Mushaf Qaloun, Koran in Warsh lesen, Koran App Warsh",
+      "ogTitle": "Mushaf Warsh und Qaloun: Koran lesen und hören",
+      "ogDescription": "Der Koran in Warsh und Qaloun: gedruckter Mushaf, Rezitatoren jeder Riwaya und KI-Begleitung."
+    },
+    "breadcrumb": {
+      "home": "Startseite",
+      "current": "Mushaf Warsh und Qaloun"
+    },
+    "hero": {
+      "title": "Mushaf Warsh und Qaloun: den Koran in deiner Lesart lesen und hören",
+      "subtitle": "Wähle Hafs, Warsh oder Qaloun: Mushaf, Rezitatoren und Rezitationsbegleitung passen sich an die Riwaya an, in der du liest.",
+      "googlePlay": "Google Play",
+      "appStore": "App Store"
+    },
+    "intro": {
+      "title": "Der Koran in deiner Riwaya",
+      "paragraphs": [
+        "Hafs 'an 'Asim ist die weltweit verbreitetste Lesart, doch im Maghreb und in Westafrika lernen und rezitieren viele den Koran in Warsh 'an Nafi' oder in Libyen und Tunesien in Qaloun 'an Nafi'.",
+        "Noor Phonetic Quran bietet alle drei Lesarten: den gedruckten Mushaf für Warsh und Qaloun, eine Textansicht, Rezitatoren jeder Riwaya und die KI-Rezitationsbegleitung."
+      ]
+    },
+    "features": {
+      "title": "Wie liest man in Warsh oder Qaloun?",
+      "items": [
+        {
+          "title": "Wähle deine Lesart",
+          "description": "stelle Hafs, Warsh oder Qaloun in den Einstellungen ein: Die Seiten erscheinen in der gewählten Riwaya."
+        },
+        {
+          "title": "Lies im gedruckten Mushaf oder als Text",
+          "description": "der gedruckte Mushaf von Warsh und Qaloun oder ein besser lesbarer Text; er wird einmal heruntergeladen und funktioniert dann offline."
+        },
+        {
+          "title": "Höre einen Rezitator deiner Riwaya",
+          "description": "die Rezitatorenliste zeigt die Lesart jedes Rezitators, mit Wiedergabe Vers für Vers."
+        },
+        {
+          "title": "Rezitiere mit KI-Begleitung",
+          "description": "die Begleitung Wort für Wort funktioniert auch in Warsh und Qaloun, um deine Rezitation zu prüfen."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Häufige Fragen zum Mushaf Warsh und Qaloun",
+      "items": [
+        {
+          "question": "Was ist der Unterschied zwischen Hafs, Warsh und Qaloun?",
+          "answer": "Es sind authentische Überlieferungen der Koranrezitation. Sie unterscheiden sich in einigen Vokalen, Dehnungen, der Behandlung der Hamza und der Nummerierung einiger Verse."
+        },
+        {
+          "question": "Gibt es die Lautschrift in Warsh?",
+          "answer": "Nein, die phonetische Umschrift gibt es nur in Hafs. In Warsh und Qaloun zeigt die App den arabischen Text."
+        },
+        {
+          "question": "Funktioniert die KI-Rezitationsbegleitung in Warsh?",
+          "answer": "Ja, die Begleitung Wort für Wort funktioniert in Warsh und Qaloun. Die Tajweed-Analyse ist hingegen Hafs vorbehalten."
+        }
+      ]
+    },
+    "related": {
+      "title": "Entdecken Sie auch"
+    }
+  },
+  "radioTv": {
+    "meta": {
+      "title": "Koran-Radio und Koran-TV live",
+      "description": "Über 170 Radiosender mit Koranrezitation und die Live-Sender Koran und Sunna, mit Favoriten und Wiedergabe im Hintergrund. App Noor Phonetic Quran.",
+      "keywords": "Koran Radio, Koran Radio live, Koran live hören, Koran TV live, Koransender Mekka, Sunna Sender Medina",
+      "ogTitle": "Koran-Radio und Koran-TV live",
+      "ogDescription": "Über 170 Radiosender mit Koranrezitation und die Live-Sender Koran und Sunna."
+    },
+    "breadcrumb": {
+      "home": "Startseite",
+      "current": "Koran-Radio und -TV"
+    },
+    "hero": {
+      "title": "Koran-Radio und Koran-TV live",
+      "subtitle": "Höre den Koran jederzeit: über 170 Rezitationssender und die Fernsehsender Koran und Sunna live, in einer einzigen App.",
+      "googlePlay": "Google Play",
+      "appStore": "App Store"
+    },
+    "intro": {
+      "title": "Der Koran ohne Pause, wo immer du bist",
+      "paragraphs": [
+        "Noor Phonetic Quran vereint über 170 Radiosender, die der Koranrezitation durch Rezitatoren aus aller Welt gewidmet sind, sowie die Fernsehsender Koran und Sunna live.",
+        "Die Wiedergabe läuft im Hintergrund weiter, mit Steuerung auf dem Sperrbildschirm, und begleitet dich unterwegs, bei der Arbeit oder in Ruhepausen."
+      ]
+    },
+    "features": {
+      "title": "Wie hört man Koran-Radio und -TV?",
+      "items": [
+        {
+          "title": "Öffne Radio oder Live-TV",
+          "description": "im App-Menü gelangst du zu den Radiosendern oder Fernsehsendern."
+        },
+        {
+          "title": "Wähle einen Sender",
+          "description": "durchstöbere die Rezitationssender; ihre Namen erscheinen nach Möglichkeit in deiner Sprache."
+        },
+        {
+          "title": "Füge Favoriten hinzu",
+          "description": "halte deine Lieblingssender griffbereit, um sie mit einem Tippen zu finden."
+        },
+        {
+          "title": "Höre im Hintergrund",
+          "description": "die Wiedergabe läuft bei ausgeschaltetem Bildschirm weiter, mit Wiedergabe und Pause auf dem Sperrbildschirm."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Häufige Fragen zu Koran-Radio und -TV",
+      "items": [
+        {
+          "question": "Brauche ich eine Internetverbindung?",
+          "answer": "Ja, Radio und Fernsehen werden live übertragen und benötigen eine Internetverbindung."
+        },
+        {
+          "question": "Welche Fernsehsender gibt es?",
+          "answer": "Die Sender Koran und Sunna, live übertragen."
+        },
+        {
+          "question": "Kann ich bei ausgeschaltetem Bildschirm hören?",
+          "answer": "Ja, die Wiedergabe läuft im Hintergrund weiter und lässt sich über den Sperrbildschirm steuern."
+        }
+      ]
+    },
+    "related": {
+      "title": "Entdecken Sie auch"
+    }
+  },
+  "adhkar": {
+    "meta": {
+      "title": "Adhkar für Morgen und Abend in Lautschrift",
+      "description": "Adhkar für Morgen, Abend, Schlaf und Gebete auf Arabisch, in Lautschrift und übersetzt, mit Wiederholungszähler. App Noor Phonetic Quran.",
+      "keywords": "Morgen-Adhkar, Abend-Adhkar, Adhkar Lautschrift, Bittgebete am Morgen, Dhikr, Adhkar vor dem Schlafen, Adhkar App",
+      "ogTitle": "Adhkar für Morgen und Abend in Lautschrift",
+      "ogDescription": "Adhkar für Morgen, Abend, Schlaf und Gebete auf Arabisch, in Lautschrift und übersetzt."
+    },
+    "breadcrumb": {
+      "home": "Startseite",
+      "current": "Adhkar für Morgen und Abend"
+    },
+    "hero": {
+      "title": "Adhkar für Morgen und Abend in Lautschrift",
+      "subtitle": "Sprich die Bittgebete des Tages, auch wenn du kein Arabisch liest: jeder Dhikr auf Arabisch, in Lautschrift und übersetzt, mit einem Zähler für deine Wiederholungen.",
+      "googlePlay": "Google Play",
+      "appStore": "App Store"
+    },
+    "intro": {
+      "title": "Adhkar: Gedenken für jeden Moment des Tages",
+      "paragraphs": [
+        "Adhkar sind die in der Sunna überlieferten Bittgebete und Formen des Gedenkens an Allah, die zu bestimmten Zeiten gesprochen werden: beim Aufwachen, am Abend, vor dem Schlafen und nach dem Gebet.",
+        "Noor Phonetic Quran vereint die Adhkar für Morgen, Abend, Schlaf und Gebete. Jedes Bittgebet steht auf Arabisch, in Lautschrift zum Lesen ohne Arabischkenntnisse und mit Übersetzung."
+      ]
+    },
+    "features": {
+      "title": "Wie sprichst du deine Adhkar mit der App?",
+      "items": [
+        {
+          "title": "Wähle den Zeitpunkt",
+          "description": "Adhkar für Morgen, Abend, Schlaf oder Gebete."
+        },
+        {
+          "title": "Lies auf Arabisch oder in Lautschrift",
+          "description": "jeder Dhikr erscheint auf Arabisch, in Lautschrift und übersetzt."
+        },
+        {
+          "title": "Zähle deine Wiederholungen",
+          "description": "tippe bei jeder Wiederholung auf den Zähler: Der Fortschritt zeigt dir, wann die empfohlene Anzahl erreicht ist."
+        },
+        {
+          "title": "Hören und teilen",
+          "description": "höre die Rezitation, wenn verfügbar, und teile ein Bittgebet mit einem Tippen."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Häufige Fragen zu den Adhkar",
+      "items": [
+        {
+          "question": "Wann liest man die Adhkar für Morgen und Abend?",
+          "answer": "Die Gelehrten verorten die Morgen-Adhkar meist zwischen Morgendämmerung und Sonnenaufgang, die Abend-Adhkar zwischen dem Nachmittagsgebet ('Asr) und Sonnenuntergang."
+        },
+        {
+          "question": "Kann ich sie ohne Arabischkenntnisse lesen?",
+          "answer": "Ja, jedes Bittgebet ist in Lautschrift umschrieben und übersetzt."
+        },
+        {
+          "question": "Kann ich ein Bittgebet teilen?",
+          "answer": "Ja, jedes Bittgebet lässt sich mit einem Tippen mit deinen Liebsten teilen."
+        }
+      ]
+    },
+    "related": {
+      "title": "Entdecken Sie auch"
+    }
+  },
+  "lireCoranPhonetique": {
+    "meta": {
+      "title": "Den Koran in Lautschrift lesen – ohne Arabisch",
+      "description": "Lies jeden Vers des Korans in Lautschrift, lerne die Laute des Arabischen mit Audio zu jedem Buchstaben und prüfe deine Aussprache. App Noor Phonetic Quran.",
+      "keywords": "Koran Lautschrift, Koran in Umschrift, Koran Transliteration, Koran lesen ohne Arabisch, Koran lesen lernen",
+      "ogTitle": "Den Koran in Lautschrift lesen – ohne Arabisch",
+      "ogDescription": "Jeder Vers des Korans in Lautschrift, Audio zu jedem Buchstaben und Prüfung deiner Aussprache."
+    },
+    "breadcrumb": {
+      "home": "Startseite",
+      "current": "Koran in Lautschrift lesen"
+    },
+    "hero": {
+      "title": "Den Koran in Lautschrift lesen, auch ohne Arabischkenntnisse",
+      "subtitle": "Jeder Vers ist in Lautschrift umschrieben, damit du schon heute rezitieren und dich in deinem Tempo zum arabischen Text vorarbeiten kannst.",
+      "googlePlay": "Google Play",
+      "appStore": "App Store"
+    },
+    "intro": {
+      "title": "Den Koran rezitieren, bevor man Arabisch lesen kann",
+      "paragraphs": [
+        "Noor Phonetic Quran zeigt jeden Vers des Korans in phonetischer Umschrift: Du liest die Laute des Arabischen mit dem lateinischen Alphabet, ohne die arabische Schrift gelernt zu haben.",
+        "Ein Transliterationsleitfaden erklärt die Laute, die es in deiner Sprache nicht gibt, mit Audio zu jedem Buchstaben, und die Tajweed-Module (Artikulationspunkte, Regeln) helfen dir, schrittweise zum arabischen Text zu wechseln."
+      ]
+    },
+    "features": {
+      "title": "Wie liest man den Koran in Lautschrift?",
+      "items": [
+        {
+          "title": "Lies die Lautschrift Seite für Seite",
+          "description": "die Umschrift folgt dem Mushaf, neben dem arabischen Text und der Übersetzung."
+        },
+        {
+          "title": "Lerne die Laute des Arabischen",
+          "description": "der Leitfaden verbindet jedes Symbol (ḥ, ṣ, ḍ, ṭ, ʿ…) mit seinem arabischen Buchstaben und einer Aufnahme, dazu die kurzen und langen Vokale."
+        },
+        {
+          "title": "Höre gleichzeitig zu",
+          "description": "das Audio Vers für Vers lässt dich die genaue Aussprache dessen hören, was du liest."
+        },
+        {
+          "title": "Prüfe deine Aussprache",
+          "description": "rezitiere laut mit der KI-Begleitung und übe die Artikulationspunkte der Buchstaben."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Häufige Fragen zum Lesen des Korans in Lautschrift",
+      "items": [
+        {
+          "question": "Kann man den Koran wirklich ohne Arabischkenntnisse lesen?",
+          "answer": "Die Lautschrift ermöglicht das Rezitieren ab dem ersten Tag. Sie bleibt eine Hilfe: Wer nach und nach das arabische Alphabet und Tajweed lernt, rezitiert genauer."
+        },
+        {
+          "question": "Deckt die Lautschrift den ganzen Koran ab?",
+          "answer": "Ja, alle 604 Seiten des Mushaf, in der Lesart Hafs."
+        },
+        {
+          "question": "Woher weiß ich, wie man ḥ oder ʿ ausspricht?",
+          "answer": "Der Transliterationsleitfaden der App verbindet jedes Symbol mit seinem arabischen Buchstaben und einer Audioaufnahme."
+        }
+      ]
+    },
+    "related": {
+      "title": "Entdecken Sie auch"
+    }
+  },
+  "widgetVerset": {
+    "meta": {
+      "title": "Widget Vers des Tages: der Koran auf dem Startbildschirm",
+      "description": "Jeden Tag ein Koranvers auf dem Startbildschirm deines Handys, Android und iPhone, verbunden mit dem Programm „Vers des Tages“ von Noor Phonetic Quran.",
+      "keywords": "Koran Widget, Widget Vers des Tages, täglicher Koranvers, Koran Startbildschirm, islamisches Widget Android, Koran Widget iPhone",
+      "ogTitle": "Widget Vers des Tages: der Koran auf dem Startbildschirm",
+      "ogDescription": "Jeden Tag ein Koranvers auf dem Startbildschirm deines Handys, Android und iPhone."
+    },
+    "breadcrumb": {
+      "home": "Startseite",
+      "current": "Widget Vers des Tages"
+    },
+    "hero": {
+      "title": "Widget Vers des Tages: der Koran auf deinem Startbildschirm",
+      "subtitle": "Jeden Tag ein neuer Vers direkt auf dem Startbildschirm deines Handys, damit der Koran immer im Blick bleibt und du beim Auswendiglernen vorankommst.",
+      "googlePlay": "Google Play",
+      "appStore": "App Store"
+    },
+    "intro": {
+      "title": "Ein Vers pro Tag, ohne die App zu öffnen",
+      "paragraphs": [
+        "Das Widget von Noor Phonetic Quran zeigt jeden Tag einen Koranvers auf dem Startbildschirm deines Handys, auf Android wie auf dem iPhone.",
+        "Es ist mit dem Programm „Vers des Tages“ der App verbunden: den Vers hören, seinen Tafsir lesen, ihn auswendig lernen, aufnehmen und wiederholen, Schritt für Schritt."
+      ]
+    },
+    "features": {
+      "title": "Wie nutzt man das Widget Vers des Tages?",
+      "items": [
+        {
+          "title": "Füge das Widget hinzu",
+          "description": "halte den Startbildschirm gedrückt, öffne die Widgets und wähle Noor Phonetic Quran."
+        },
+        {
+          "title": "Erhalte jeden Tag einen neuen Vers",
+          "description": "das Widget aktualisiert sich jeden Tag automatisch."
+        },
+        {
+          "title": "Komm vom Startbildschirm aus voran",
+          "description": "auf Android erfasst die Taste +1 eine Wiederholung des aktuellen Schritts, ohne die App zu öffnen."
+        },
+        {
+          "title": "Folge dem Tagesprogramm",
+          "description": "Rezitator hören, Tafsir, Auswendiglernen, Aufnahme deiner Rezitation und Wiederholung."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Häufige Fragen zum Widget Vers des Tages",
+      "items": [
+        {
+          "question": "Funktioniert das Widget auf dem iPhone?",
+          "answer": "Ja, auf Android und iPhone. Die Taste +1 gibt es auf Android; auf dem iPhone zeigt das Widget den Vers und öffnet die App."
+        },
+        {
+          "question": "Wie füge ich das Widget hinzu?",
+          "answer": "Halte den Startbildschirm gedrückt, öffne die Widget-Liste und wähle Noor Phonetic Quran."
+        },
+        {
+          "question": "Ändert sich der Vers jeden Tag?",
+          "answer": "Ja, das Widget zeigt jeden Tag automatisch einen neuen Vers."
+        }
+      ]
+    },
+    "related": {
+      "title": "Entdecken Sie auch"
     }
   }
 }

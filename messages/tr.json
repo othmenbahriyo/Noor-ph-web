@@ -28,7 +28,12 @@
         "blog": "Blog",
         "aboutUs": "Hikayemiz",
         "ramadan2027": "Ramazan 2027",
-        "suiviRecitationIa": "Yapay zekâ ile okuma takibi"
+        "suiviRecitationIa": "Yapay zekâ ile okuma takibi",
+        "warshQaloun": "Verş ve Kalun mushafı",
+        "radioTv": "Canlı Kur'an radyo ve TV",
+        "adhkar": "Sabah ve akşam zikirleri",
+        "lireCoranPhonetique": "Kur'an'ı okunuşuyla okuma",
+        "widgetVerset": "Günün ayeti widget'ı"
       }
     },
     "languageSwitcher": {
@@ -134,7 +139,7 @@
   "home": {
     "meta": {
       "title": "Noor Quran: Fonetik Kur'an, Tecvid, Ezber ve Hatim",
-      "description": "Eksiksiz fonetik Kur'an uygulaması: Arapça bilmeden Kur'an'ı okuyun, sesi çevrimdışı dinleyin, Tecvid ve mahariç-ul huruf öğrenin, oyun moduyla ezberleyin, Hatim ve Ezkar'ınızı takip edin. Canlı Kur'an radyosu. 80 bin+ kullanıcı, 20'den fazla dil, iOS ve Android.",
+      "description": "Arapça bilmeden Kur'an'ı okunuşuyla okuyun: çevrimdışı ses, tecvid, ezber, yapay zekâ ile okuma takibi ve Hatim. 80 bin+ kullanıcı, iOS ve Android.",
       "keywords": "fonetik Kur'an, sure fonetik, fonetik Kur'an uygulaması, Kur'an öğren, Kur'an fonetik transkripsiyon, Tecvid, mahariç-ul huruf, Kur'an ezberleme, Hıfz, Kur'an Hatim, Ezkar, canlı Kur'an radyosu, mushaf, kıraat düzeltme, Kur'an quiz, Ramazan programı, Kur'an sesli çevrimdışı",
       "ogTitle": "Noor Quran: Eksiksiz Fonetik Kur'an Uygulaması (Okuma, Tecvid, Hatim)",
       "ogDescription": "Arapça bilmeseniz bile Kur'an'ı fonetikle ve Arapça okuyun, dinleyin ve ezberleyin. Tecvid, kıraat düzeltme, Hatim, Ezkar ve canlı Kur'an radyosu. Ücretsiz, 20'den fazla dil."
@@ -191,6 +196,7 @@
         {
           "icon": "fa-book",
           "title": "Fonetik Transkripsiyon",
+          "href": "/lire-coran-phonetique",
           "text": "Her ayet, doğru telaffuz için detaylı bir fonetik transkripsiyonla birlikte sunulur."
         },
         {
@@ -244,6 +250,24 @@
           "text": "Sesli okuyun: yapay zekâ her kelimeyi anlık takip eder, hatalarınızı ve atladıklarınızı gösterir, tecvidinizi analiz eder ve ilerlemenizi oturum oturum izler."
         },
         {
+          "icon": "fa-book-open",
+          "title": "Verş ve Kalun Mushafı",
+          "href": "/mushaf-warsh-qaloun",
+          "text": "Kur'an'ı Verş ve Kalun kıraatleriyle, basılı mushaf ya da metin olarak okuyun; her rivayetin karileri ve yapay zekâ ile okuma takibi."
+        },
+        {
+          "icon": "fa-tower-broadcast",
+          "title": "Canlı Kur'an Radyo ve TV",
+          "href": "/radio-tv-coran",
+          "text": "170'ten fazla Kur'an tilaveti radyosunu dinleyin, Kur'an ve Sünnet kanallarını canlı izleyin."
+        },
+        {
+          "icon": "fa-hands-praying",
+          "title": "Sabah ve Akşam Zikirleri",
+          "href": "/adhkar-matin-soir",
+          "text": "Sabah, akşam, uyku ve namaz zikirleri; Arapça, okunuşlu ve meali ile, tekrar sayacıyla."
+        },
+        {
           "icon": "fa-microphone-alt",
           "title": "Kıraat Düzeltme",
           "href": "/correction-recitation-coran",
@@ -258,6 +282,7 @@
         {
           "icon": "fa-mobile-screen-button",
           "title": "Ana Ekran Widget'ı",
+          "href": "/widget-verset-du-jour",
           "text": "Günün ayetini doğrudan telefonunuzun ana ekranında gösterin ve okuma rutininizi her zaman göz önünde tutun."
         }
       ]
@@ -1701,13 +1726,13 @@
   "contactPage": {
     "meta": {
       "title": "İletişim - Noor Phonetic Quran",
-      "description": "Noor Phonetic Quran uygulaması hakkında bir sorunuz, Kur'an fonetiği için bir öneriniz veya teknik bir sorununuz mu var? Ekibimizle iletişime geçin, 48 saat içinde yanıt."
+      "description": "Noor Phonetic Quran uygulaması hakkında bir sorunuz, Kur'an fonetiği için bir öneriniz veya teknik bir sorununuz mu var?"
     }
   },
   "reviews": {
     "meta": {
       "title": "Kullanıcı Yorumları - Noor Phonetic Quran",
-      "description": "Kur'an'ı fonetikle okumayı, ezberlemeyi ve okumayı öğrenmek için uygulama Noor Phonetic Quran'ın 160'tan fazla onaylı kullanıcı yorumunu, ortalama 5 yıldız puanla keşfedin."
+      "description": "Kur'an'ı okunuşuyla okumak, ezberlemek ve tilavet etmek için Noor Phonetic Quran hakkında 160'tan fazla onaylı yorum. Ortalama 5 yıldız."
     },
     "eyebrow": "Onaylı Yorumlar",
     "title": "Kullanıcılarımız Ne Diyor",
@@ -1718,7 +1743,7 @@
   "aboutUs": {
     "meta": {
       "title": "Hikayemiz: Noor Phonetic Quran'ı neden oluşturduk",
-      "description": "Noor Phonetic Quran'ın ardındaki hikayeyi keşfedin: İslam'a yeni girmiş bir kız kardeşle tanışmamız, Arapça okumayı bilmeyenler dahil herkes için Kur'an okumayı erişilebilir kılan bir uygulama oluşturmamıza ilham verdi.",
+      "description": "Noor Phonetic Quran'ın hikâyesi: İslam'ı yeni seçmiş bir kardeşimiz, Arapça bilmeyenler dahil herkesin Kur'an okuyabilmesi için bize ilham verdi.",
       "ogTitle": "Hikayemiz: Noor Phonetic Quran'ı neden oluşturduk",
       "ogDescription": "Her şey, Arapça Kur'an okuyamayan, İslam'a yeni girmiş bir kız kardeşle tanışmamızla başladı. Noor Phonetic Quran işte böyle doğdu."
     },
@@ -1785,7 +1810,7 @@
   "blog": {
     "meta": {
       "title": "Blog - Tecvid, Ezber ve Kuran Öğrenimi | Noor Phonetic Quran",
-      "description": "Tecvid kuralları, Kuran ezberleme (Hıfz) yöntemleri ve tilavet öğrenimi hakkında makaleler ve pratik rehberler, Noor Phonetic Quran ekibi tarafından hazırlanmıştır."
+      "description": "Tecvid kuralları, Kur'an ezberleme (Hıfz) yöntemleri ve tilavet öğrenimi üzerine makaleler ve pratik rehberler."
     },
     "title": "Blog",
     "subtitle": "Kendi hızınızda ilerlemeniz için Tecvid, Kuran ezberleme ve tilavet hakkında pratik rehberler ve ipuçları.",
@@ -1800,8 +1825,8 @@
   },
   "audioCoran": {
     "meta": {
-      "title": "Senkronize Kur'an Sesi: Birden Fazla Hafız ve Çevrimdışı Dinleme | Noor Phonetic Quran",
-      "description": "Ayet ayet senkronize sesle Kur'an'ı dinleyin, birden fazla hafız arasından seçim yapın ve Noor Phonetic Quran ile çevrimdışı dinleme için sesi indirin. iOS ve Android'de ücretsiz.",
+      "title": "Kur'an Sesi: Kariler ve Çevrimdışı Dinleme",
+      "description": "Ayet ayet senkronize sesle Kur'an'ı dinleyin, birden fazla hafız arasından seçim yapın ve Noor Phonetic Quran ile çevrimdışı dinleme için sesi indirin.",
       "keywords": "Kur'an sesi, sesli Kur'an kıraati, birden fazla Kur'an hafızı, çevrimdışı Kur'an sesi, Kur'an sesi indir, Kur'an dinle, senkronize Kur'an sesi, Kur'an hafız uygulaması",
       "ogTitle": "Senkronize Kur'an Sesi: Birden Fazla Hafız ve Çevrimdışı Dinleme",
       "ogDescription": "Ayet ayet senkronize ses, birden fazla hafız ve çevrimdışı indirme. Ücretsiz Noor Phonetic Quran uygulaması."
@@ -2055,8 +2080,8 @@
   },
   "correctionRecitation": {
     "meta": {
-      "title": "Kur'an Kıraat Düzeltme: Kendinizi Kaydedin ve İlerleyin | Noor Phonetic Quran",
-      "description": "Kur'an kıraatinizi kaydedin ve Noor Phonetic Quran ile kişiselleştirilmiş bir düzeltme alın: telaffuz ve Tecvid kurallarına uyumda gelişme. iOS ve Android'de ücretsiz.",
+      "title": "Kur'an Kıraat Düzeltme: Kendinizi Kaydedin ve İlerleyin",
+      "description": "Kur'an kıraatinizi kaydedin ve Noor Phonetic Quran ile kişiselleştirilmiş bir düzeltme alın: telaffuz ve Tecvid kurallarına uyumda gelişme.",
       "keywords": "Kur'an kıraat düzeltme, kıraatini geliştir, Tecvid düzeltme, kıraatini kaydet, Kur'an düzeltme uygulaması, Kur'an'ı doğru okumayı öğren",
       "ogTitle": "Kur'an Kıraat Düzeltme: Kendinizi Kaydedin ve İlerleyin",
       "ogDescription": "Kıraatinizi kaydedin ve telaffuz ile Tecvid'de ilerlemek için kişiselleştirilmiş bir düzeltme alın. Ücretsiz Noor Phonetic Quran uygulaması."
@@ -2126,8 +2151,8 @@
   },
   "ramadan2027": {
     "meta": {
-      "title": "Ramazan 2027: Tarih, Geri Sayım ve Hazırlık | Noor Phonetic Quran",
-      "description": "Ramazan 2027, 8 Şubat'ta başlıyor (tahmini tarih). Hatiminizi, günlük programınızı ve Ezkarınızı ücretsiz fonetik Kur'an uygulaması Noor Phonetic Quran ile hazırlayın.",
+      "title": "Ramazan 2027: Tarih, Geri Sayım ve Hazırlık",
+      "description": "Ramazan 2027, 8 Şubat'ta başlıyor (tahmini). Hatminizi, günlük programınızı ve zikirlerinizi Noor Phonetic Quran ile hazırlayın.",
       "keywords": "Ramazan 2027, Ramazan 2027 tarihi, Ramazan geri sayımı, Ramazan'a hazırlık, Ramazan Hatimi, Ramazan Kur'an programı",
       "ogTitle": "Ramazan 2027: Tarih, Geri Sayım ve Hazırlık",
       "ogDescription": "Ramazan 2027, 8 Şubat'ta başlıyor (tahmini tarih). Hatiminizi ve günlük programınızı Noor Phonetic Quran ile hazırlayın."
@@ -2176,8 +2201,8 @@
   },
   "khatmaCoran": {
     "meta": {
-      "title": "Kur'an Hatimi: Tam Okumanızı Planlamak ve Takip Etmek İçin Uygulama | Noor Phonetic Quran",
-      "description": "Noor Phonetic Quran uygulamasıyla Hatiminizi (Kur'an'ın tamamını okuma) planlayın: günlük hedefler, ilerleme takibi, gün serileri (streak) ve hatırlatmalar. iOS ve Android'de ücretsiz.",
+      "title": "Kur'an Hatmi: Okumanızı Planlayın ve Takip Edin",
+      "description": "Noor Phonetic Quran uygulamasıyla Hatiminizi (Kur'an'ın tamamını okuma) planlayın: günlük hedefler, ilerleme takibi, gün serileri (streak) ve hatırlatmalar.",
       "keywords": "Kur'an Hatimi, hatim uygulaması, Kur'an'ı tamamen oku, Kur'an okuma planı, Ramazan Hatim hedefi, Kur'an okuma takibi, Kur'an'ı bitir",
       "ogTitle": "Kur'an Hatimi: Tam Okumanızı Planlayın ve Takip Edin",
       "ogDescription": "Günlük hedefler, ilerleme takibi ve hatırlatmalarla Hatiminizi planlayın. Ücretsiz Noor Phonetic Quran uygulaması."
@@ -2276,8 +2301,8 @@
   },
   "tajweedCoran": {
     "meta": {
-      "title": "Kur'an Tecvid Kuralları: Renkli ve Detaylı Öğrenim | Noor Phonetic Quran",
-      "description": "Noor Phonetic Quran ile Kur'an tecvid kurallarını öğrenin: okuma sırasında renkler ve notlar, harflerin çıkış noktaları (Mahariç), Nun Sakin ve Vakf kuralları. iOS ve Android'de ücretsiz.",
+      "title": "Kur'an Tecvid Kuralları: Renkli ve Detaylı Öğrenim",
+      "description": "Noor Phonetic Quran ile Kur'an tecvid kurallarını öğrenin: okuma sırasında renkler ve notlar, harflerin çıkış noktaları (Mahariç), Nun Sakin ve Vakf kuralları.",
       "keywords": "tecvid kuralları, Kur'an tecvidi, tecvid öğren, renkli tecvid, Arapça harflerin mahariçi, Nun Sakin Tenvin, Vakf İbtida, ücretsiz tecvid uygulaması",
       "ogTitle": "Kur'an Tecvid Kuralları: Renkli ve Detaylı Öğrenim",
       "ogDescription": "Okuma sırasında renkler ve notlar, çıkış noktaları, Nun Sakin ve Vakf kuralları. Ücretsiz Noor Phonetic Quran uygulaması."
@@ -2355,8 +2380,8 @@
   },
   "quizCoran": {
     "meta": {
-      "title": "Kur'an Quizi: Eğlenerek Kur'an Bilginizi Test Edin | Noor Phonetic Quran",
-      "description": "Noor Phonetic Quran'ın Kur'an Quizi ile Kur'an bilginizi test edin: 21 soru, kazanç skalası, 50:50 joker, seyirci anketi ve arkadaşını ara. iOS ve Android'de ücretsiz.",
+      "title": "Kur'an Quizi: Eğlenerek Kur'an Bilginizi Test Edin",
+      "description": "Noor Phonetic Quran'ın Kur'an Quizi ile Kur'an bilginizi test edin: 21 soru, kazanç skalası, 50:50 joker, seyirci anketi ve arkadaşını ara.",
       "keywords": "Kur'an quizi, Kur'an testi, Kur'an soru oyunu, Kur'an bilgini test et, İslam quizi, ücretsiz Kur'an quiz uygulaması, Kur'an soru ve cevapları",
       "ogTitle": "Kur'an Quizi: Eğlenerek Kur'an Bilginizi Test Edin",
       "ogDescription": "21 soru, kazanç skalası, 50:50 joker, seyirci anketi ve arkadaşını ara. Ücretsiz Noor Phonetic Quran uygulaması."
@@ -2496,8 +2521,8 @@
   },
   "memorisationCoran": {
     "meta": {
-      "title": "Kur'an'ı Ezberleyin (Hıfz): Ses Tekrarı ve Quiz İçeren Uygulama | Noor Phonetic Quran",
-      "description": "Noor Phonetic Quran uygulamasıyla Kur'an'ı (Hıfz) ezberleyin: ayet ayet ses tekrarı, kelime kelime mod, tekrar quizleri, puanlar, seviyeler ve rozetler. iOS ve Android'de ücretsiz.",
+      "title": "Kur'an'ı Ezberleyin (Hıfz): Ses Tekrarı ve Quiz",
+      "description": "Noor Phonetic Quran uygulamasıyla Kur'an'ı (Hıfz) ezberleyin: ayet ayet ses tekrarı, kelime kelime mod, tekrar quizleri, puanlar, seviyeler ve rozetler.",
       "keywords": "Kur'an ezberle, Hıfz Kur'an, Kur'an ezberleme uygulaması, Kur'an'ı ezbere öğren, ayet ayet ezberleme, ücretsiz Hıfz uygulaması",
       "ogTitle": "Kur'an'ı Ezberleyin (Hıfz): Ses Tekrarı, Quiz ve İlerleme Takibi",
       "ogDescription": "Ses tekrarı, kelime kelime mod, quiz ve günlük görevlerle Kur'an'ı ezberleyin. Ücretsiz Noor Phonetic Quran uygulaması."
@@ -2578,8 +2603,8 @@
   },
   "suiviRecitationIa": {
     "meta": {
-      "title": "Yapay Zekâ ile Kur'an Okuma Takibi: Anlık Kelime Kelime Düzeltme | Noor Phonetic Quran",
-      "description": "Kur'an'ı sesli okuyun: Noor Phonetic Quran'ın yapay zekâsı her kelimeyi anlık takip eder, hataları ve atlanan kelimeleri gösterir, tecvidi analiz eder ve ilerlemenizi izler. iOS ve Android'de ücretsiz.",
+      "title": "Yapay Zekâ ile Kur'an Okuma Takibi",
+      "description": "Kur'an'ı sesli okuyun: yapay zekâ her kelimeyi anlık takip eder, hatalarınızı gösterir, tecvidinizi ve ilerlemenizi izler. iOS ve Android'de ücretsiz.",
       "keywords": "yapay zekâ Kur'an okuma, Kur'an okuma kontrolü, Kur'an okuma düzeltme, yapay zekâ ile hafızlık, Kur'an okuma uygulaması",
       "ogTitle": "Yapay Zekâ ile Kur'an Okuma Takibi: Anlık Kelime Kelime Düzeltme",
       "ogDescription": "Sesli okuyun: yapay zekâ her kelimeyi takip eder, hatalarınızı gösterir ve ilerlemenizi izler. Ücretsiz Noor Phonetic Quran uygulaması."
@@ -2670,6 +2695,341 @@
       "tajweed": "Tecvid Kuralları",
       "correction": "Tilavet Düzeltme",
       "allFeatures": "Tüm Özellikler"
+    }
+  },
+  "warshQaloun": {
+    "meta": {
+      "title": "Verş ve Kalun Mushafı: Kur'an'ı Okuyun ve Dinleyin",
+      "description": "Kur'an'ı Verş ve Kalun ile okuyun: basılı mushaf veya metin, her rivayetin karileri ve yapay zekâ ile okuma takibi. Noor Phonetic Quran uygulaması.",
+      "keywords": "Verş Kur'an, Verş mushafı, Kalun Kur'an, Kalun mushafı, Verş rivayeti, Verş Kur'an uygulaması",
+      "ogTitle": "Verş ve Kalun Mushafı: Kur'an'ı Okuyun ve Dinleyin",
+      "ogDescription": "Verş ve Kalun ile Kur'an: basılı mushaf, her rivayetin karileri ve yapay zekâ ile takip."
+    },
+    "breadcrumb": {
+      "home": "Ana Sayfa",
+      "current": "Verş ve Kalun mushafı"
+    },
+    "hero": {
+      "title": "Verş ve Kalun Mushafı: Kur'an'ı Kendi Kıraatinizle Okuyun ve Dinleyin",
+      "subtitle": "Hafs, Verş ya da Kalun'u seçin: mushaf, kariler ve okuma takibi okuduğunuz rivayete uyum sağlar.",
+      "googlePlay": "Google Play",
+      "appStore": "App Store"
+    },
+    "intro": {
+      "title": "Kendi rivayetinizle Kur'an",
+      "paragraphs": [
+        "Asım'dan Hafs rivayeti dünyada en yaygın olanıdır; ancak Mağrip ve Batı Afrika'da pek çok kişi Kur'an'ı Nâfi'den Verş, Libya ve Tunus'ta ise Nâfi'den Kalun rivayetiyle öğrenir ve okur.",
+        "Noor Phonetic Quran üç rivayeti de sunar: Verş ve Kalun için basılı mushaf, metin görünümü, her rivayetin karileri ve yapay zekâ ile okuma takibi."
+      ]
+    },
+    "features": {
+      "title": "Verş veya Kalun ile nasıl okunur?",
+      "items": [
+        {
+          "title": "Rivayetinizi seçin",
+          "description": "ayarlardan Hafs, Verş ya da Kalun'u seçin: sayfalar seçtiğiniz rivayetle görüntülenir."
+        },
+        {
+          "title": "Basılı mushaftan veya metinden okuyun",
+          "description": "Verş ve Kalun'un basılı mushafı ya da daha okunaklı bir metin; bir kez indirilir, sonra çevrimdışı çalışır."
+        },
+        {
+          "title": "Rivayetinizden bir kariyi dinleyin",
+          "description": "kari listesi her karinin rivayetini gösterir, ayet ayet dinleme ile."
+        },
+        {
+          "title": "Yapay zekâ takibiyle okuyun",
+          "description": "kelime kelime takip Verş ve Kalun'da da çalışır ve okumanızı kontrol eder."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Verş ve Kalun mushafı hakkında sık sorulan sorular",
+      "items": [
+        {
+          "question": "Hafs, Verş ve Kalun arasındaki fark nedir?",
+          "answer": "Bunlar Kur'an tilavetinin sahih rivayetleridir. Bazı harekelerde, medlerde, hemzenin okunuşunda ve birkaç ayetin numaralandırılmasında farklılık gösterirler."
+        },
+        {
+          "question": "Verş için fonetik metin var mı?",
+          "answer": "Hayır, fonetik transkripsiyon yalnızca Hafs için mevcuttur. Verş ve Kalun'da uygulama Arapça metni gösterir."
+        },
+        {
+          "question": "Yapay zekâ takibi Verş'te çalışır mı?",
+          "answer": "Evet, kelime kelime takip Verş ve Kalun'da çalışır. Tecvid analizi ise yalnızca Hafs içindir."
+        }
+      ]
+    },
+    "related": {
+      "title": "Ayrıca Keşfedin"
+    }
+  },
+  "radioTv": {
+    "meta": {
+      "title": "Canlı Kur'an Radyosu ve Kur'an TV",
+      "description": "170'ten fazla Kur'an tilaveti radyosu ve canlı Kur'an ve Sünnet kanalları; favoriler ve arka planda dinleme ile. Noor Phonetic Quran uygulaması.",
+      "keywords": "Kur'an radyosu, canlı Kur'an radyosu, canlı Kur'an dinle, canlı Kur'an TV, Mekke Kur'an kanalı, Medine Sünnet kanalı",
+      "ogTitle": "Canlı Kur'an Radyosu ve Kur'an TV",
+      "ogDescription": "170'ten fazla Kur'an tilaveti radyosu ve canlı Kur'an ve Sünnet kanalları."
+    },
+    "breadcrumb": {
+      "home": "Ana Sayfa",
+      "current": "Kur'an radyo ve TV"
+    },
+    "hero": {
+      "title": "Canlı Kur'an Radyosu ve Kur'an TV",
+      "subtitle": "Kur'an'ı her an dinleyin: 170'ten fazla tilavet istasyonu ve canlı Kur'an ve Sünnet kanalları tek uygulamada.",
+      "googlePlay": "Google Play",
+      "appStore": "App Store"
+    },
+    "intro": {
+      "title": "Nerede olursanız olun, kesintisiz Kur'an",
+      "paragraphs": [
+        "Noor Phonetic Quran, dünyanın dört bir yanından karilerin Kur'an tilavetine ayrılmış 170'ten fazla radyo istasyonunu ve canlı Kur'an ve Sünnet televizyon kanallarını bir araya getirir.",
+        "Dinleme, kilit ekranındaki kontrollerle arka planda devam eder; yolculukta, işte ya da dinlenirken size eşlik eder."
+      ]
+    },
+    "features": {
+      "title": "Kur'an radyosu ve TV nasıl dinlenir?",
+      "items": [
+        {
+          "title": "Radyo veya Canlı TV'yi açın",
+          "description": "uygulama menüsünden radyo istasyonlarına ya da TV kanallarına girin."
+        },
+        {
+          "title": "Bir istasyon seçin",
+          "description": "tilavet istasyonlarına göz atın; adları mümkün olduğunda sizin dilinizde görünür."
+        },
+        {
+          "title": "Favorilere ekleyin",
+          "description": "sevdiğiniz istasyonları tek dokunuşla bulmak için elinizin altında tutun."
+        },
+        {
+          "title": "Arka planda dinleyin",
+          "description": "ekran kapalıyken de çalmaya devam eder; kilit ekranından oynatıp duraklatabilirsiniz."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Kur'an radyosu ve TV hakkında sık sorulan sorular",
+      "items": [
+        {
+          "question": "İnternet bağlantısı gerekir mi?",
+          "answer": "Evet, radyo ve televizyon canlı yayınlanır ve internet bağlantısı gerektirir."
+        },
+        {
+          "question": "Hangi TV kanalları var?",
+          "answer": "Canlı yayınlanan Kur'an ve Sünnet kanalları."
+        },
+        {
+          "question": "Ekran kapalıyken dinleyebilir miyim?",
+          "answer": "Evet, oynatma arka planda devam eder ve kilit ekranından kontrol edilir."
+        }
+      ]
+    },
+    "related": {
+      "title": "Ayrıca Keşfedin"
+    }
+  },
+  "adhkar": {
+    "meta": {
+      "title": "Okunuşlu Sabah ve Akşam Zikirleri",
+      "description": "Sabah, akşam, uyku ve namaz zikirleri Arapça, okunuşlu ve mealli; tekrar sayacıyla. Noor Phonetic Quran uygulaması.",
+      "keywords": "sabah zikirleri, akşam zikirleri, okunuşlu zikirler, sabah duaları, zikir, uyku öncesi zikirler, namaz sonrası zikir, zikir uygulaması",
+      "ogTitle": "Okunuşlu Sabah ve Akşam Zikirleri",
+      "ogDescription": "Sabah, akşam, uyku ve namaz zikirleri Arapça, okunuşlu ve mealli."
+    },
+    "breadcrumb": {
+      "home": "Ana Sayfa",
+      "current": "Sabah ve akşam zikirleri"
+    },
+    "hero": {
+      "title": "Okunuşlu Sabah ve Akşam Zikirleri",
+      "subtitle": "Arapça okuyamasanız da günün dualarını okuyun: her zikir Arapça, okunuşu ve meali ile, tekrarlarınızı takip eden bir sayaçla.",
+      "googlePlay": "Google Play",
+      "appStore": "App Store"
+    },
+    "intro": {
+      "title": "Zikirler: günün her anı için bir hatırlatma",
+      "paragraphs": [
+        "Zikirler, Sünnet'te aktarılan ve belirli vakitlerde okunan dualar ve Allah'ı anma sözleridir: uyanınca, akşam, uyumadan önce ve namazdan sonra.",
+        "Noor Phonetic Quran sabah, akşam, uyku ve namaz zikirlerini bir araya getirir. Her dua Arapça, Arapça bilmeden okuyabilmeniz için okunuşu ve meali ile sunulur."
+      ]
+    },
+    "features": {
+      "title": "Uygulamayla zikirlerinizi nasıl okursunuz?",
+      "items": [
+        {
+          "title": "Vakti seçin",
+          "description": "sabah, akşam, uyku veya namaz zikirleri."
+        },
+        {
+          "title": "Arapça ya da okunuşla okuyun",
+          "description": "her zikir Arapça, okunuşu ve meali ile gösterilir."
+        },
+        {
+          "title": "Tekrarlarınızı sayın",
+          "description": "her tekrarda sayaca dokunun; ilerleme, önerilen sayıya ulaştığınızı gösterir."
+        },
+        {
+          "title": "Dinleyin ve paylaşın",
+          "description": "mevcut olduğunda okunuşu dinleyin ve bir duayı tek dokunuşla paylaşın."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Zikirler hakkında sık sorulan sorular",
+      "items": [
+        {
+          "question": "Sabah ve akşam zikirleri ne zaman okunur?",
+          "answer": "Âlimler genellikle sabah zikirlerini fecirden güneşin doğuşuna, akşam zikirlerini ikindiden güneşin batışına kadar olan vakitte belirtir."
+        },
+        {
+          "question": "Arapça bilmeden okuyabilir miyim?",
+          "answer": "Evet, her dua okunuşuyla yazılmıştır ve meali eklidir."
+        },
+        {
+          "question": "Bir duayı paylaşabilir miyim?",
+          "answer": "Evet, her duayı sevdiklerinizle tek dokunuşla paylaşabilirsiniz."
+        }
+      ]
+    },
+    "related": {
+      "title": "Ayrıca Keşfedin"
+    }
+  },
+  "lireCoranPhonetique": {
+    "meta": {
+      "title": "Arapça Bilmeden Kur'an'ı Okunuşuyla Okuyun",
+      "description": "Kur'an'ın her ayetini okunuşuyla okuyun, Arapçaya özgü sesleri her harfin sesiyle öğrenin ve telaffuzunuzu kontrol edin. Noor Phonetic Quran uygulaması.",
+      "keywords": "Kur'an okunuşu, okunuşlu Kur'an, Latin harfli Kur'an, Arapça bilmeden Kur'an okumak, Kur'an okumayı öğrenmek",
+      "ogTitle": "Arapça Bilmeden Kur'an'ı Okunuşuyla Okuyun",
+      "ogDescription": "Kur'an'ın her ayeti okunuşuyla, her harfin sesi ve telaffuz kontrolü."
+    },
+    "breadcrumb": {
+      "home": "Ana Sayfa",
+      "current": "Kur'an'ı okunuşuyla okuma"
+    },
+    "hero": {
+      "title": "Kur'an'ı Okunuşuyla Okuyun, Arapça Bilmeseniz Bile",
+      "subtitle": "Her ayet okunuşuyla yazılmıştır; bugünden okumaya başlayın, sonra kendi hızınızda Arapça metne geçin.",
+      "googlePlay": "Google Play",
+      "appStore": "App Store"
+    },
+    "intro": {
+      "title": "Arapça okumayı öğrenmeden Kur'an okumak",
+      "paragraphs": [
+        "Noor Phonetic Quran, Kur'an'ın her ayetini fonetik transkripsiyonla gösterir: Arap alfabesini öğrenmeden Arapçanın seslerini Latin harfleriyle okursunuz.",
+        "Bir transliterasyon rehberi, dilinizde bulunmayan sesleri her harfin sesiyle açıklar; tecvid modülleri (mahreçler, kurallar) ise Arapça metne adım adım geçmenize yardımcı olur."
+      ]
+    },
+    "features": {
+      "title": "Kur'an okunuşuyla nasıl okunur?",
+      "items": [
+        {
+          "title": "Okunuşu sayfa sayfa okuyun",
+          "description": "okunuş, Arapça metin ve mealin yanında mushafı takip eder."
+        },
+        {
+          "title": "Arapçaya özgü sesleri öğrenin",
+          "description": "rehber her sembolü (ḥ, ṣ, ḍ, ṭ, ʿ…) Arapça harfi ve bir ses kaydıyla eşleştirir; kısa ve uzun ünlüler de dahil."
+        },
+        {
+          "title": "Aynı anda dinleyin",
+          "description": "ayet ayet ses kaydı, okuduğunuzun doğru telaffuzunu duymanızı sağlar."
+        },
+        {
+          "title": "Telaffuzunuzu kontrol edin",
+          "description": "yapay zekâ takibiyle sesli okuyun ve harflerin mahreçleri üzerinde çalışın."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Kur'an'ı okunuşuyla okuma hakkında sık sorulan sorular",
+      "items": [
+        {
+          "question": "Arapça bilmeden gerçekten Kur'an okunabilir mi?",
+          "answer": "Okunuş ilk günden okumayı sağlar. Ancak bir yardımcıdır: Arap alfabesini ve tecvidi yavaş yavaş öğrenmek daha doğru bir tilavet sağlar."
+        },
+        {
+          "question": "Okunuş Kur'an'ın tamamını kapsıyor mu?",
+          "answer": "Evet, mushafın 604 sayfasının tamamı, Hafs rivayetiyle."
+        },
+        {
+          "question": "ḥ veya ʿ nasıl telaffuz edilir?",
+          "answer": "Uygulamanın transliterasyon rehberi her sembolü Arapça harfi ve bir ses kaydıyla eşleştirir."
+        }
+      ]
+    },
+    "related": {
+      "title": "Ayrıca Keşfedin"
+    }
+  },
+  "widgetVerset": {
+    "meta": {
+      "title": "Günün Ayeti Widget'ı: Ana Ekranınızda Kur'an",
+      "description": "Her gün telefonunuzun ana ekranında bir Kur'an ayeti, Android ve iPhone'da; Noor Phonetic Quran'ın «Günün ayeti» programına bağlı.",
+      "keywords": "Kur'an widget, günün ayeti widget, günlük Kur'an ayeti, ana ekranda Kur'an, İslami widget Android, Kur'an widget iPhone",
+      "ogTitle": "Günün Ayeti Widget'ı: Ana Ekranınızda Kur'an",
+      "ogDescription": "Her gün telefonunuzun ana ekranında bir Kur'an ayeti, Android ve iPhone'da."
+    },
+    "breadcrumb": {
+      "home": "Ana Sayfa",
+      "current": "Günün ayeti widget'ı"
+    },
+    "hero": {
+      "title": "Günün Ayeti Widget'ı: Ana Ekranınızda Kur'an",
+      "subtitle": "Her gün yeni bir ayet, doğrudan telefonunuzun ana ekranında; Kur'an hep gözünüzün önünde olsun ve ezberiniz ilerlesin.",
+      "googlePlay": "Google Play",
+      "appStore": "App Store"
+    },
+    "intro": {
+      "title": "Uygulamayı açmadan her gün bir ayet",
+      "paragraphs": [
+        "Noor Phonetic Quran widget'ı, Android'de de iPhone'da da her gün telefonunuzun ana ekranında bir Kur'an ayeti gösterir.",
+        "Uygulamanın «Günün ayeti» programına bağlıdır: ayeti dinlemek, tefsirini okumak, ezberlemek, kaydetmek ve tekrar etmek, adım adım."
+      ]
+    },
+    "features": {
+      "title": "Günün ayeti widget'ı nasıl kullanılır?",
+      "items": [
+        {
+          "title": "Widget'ı ekleyin",
+          "description": "ana ekrana uzun basın, widget'ları açın ve Noor Phonetic Quran'ı seçin."
+        },
+        {
+          "title": "Her gün yeni bir ayet alın",
+          "description": "widget her gün otomatik olarak güncellenir."
+        },
+        {
+          "title": "Ana ekrandan ilerleyin",
+          "description": "Android'de +1 düğmesi, uygulamayı açmadan mevcut adımın bir tekrarını kaydeder."
+        },
+        {
+          "title": "Günün programını takip edin",
+          "description": "kariyi dinleme, tefsir, ezber, tilavetinizi kaydetme ve tekrar."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Günün ayeti widget'ı hakkında sık sorulan sorular",
+      "items": [
+        {
+          "question": "Widget iPhone'da çalışır mı?",
+          "answer": "Evet, Android ve iPhone'da. +1 düğmesi Android'de vardır; iPhone'da widget ayeti gösterir ve uygulamayı açar."
+        },
+        {
+          "question": "Widget'ı nasıl eklerim?",
+          "answer": "Ana ekrana uzun basın, widget listesini açın ve Noor Phonetic Quran'ı seçin."
+        },
+        {
+          "question": "Ayet her gün değişir mi?",
+          "answer": "Evet, widget her gün otomatik olarak yeni bir ayet gösterir."
+        }
+      ]
+    },
+    "related": {
+      "title": "Ayrıca Keşfedin"
     }
   }
 }

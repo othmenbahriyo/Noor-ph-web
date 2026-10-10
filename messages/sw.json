@@ -28,7 +28,12 @@
         "blog": "Blogu",
         "aboutUs": "Historia Yetu",
         "ramadan2027": "Ramadhani 2027",
-        "suiviRecitationIa": "Ufuatiliaji wa kisomo kwa AI"
+        "suiviRecitationIa": "Ufuatiliaji wa kisomo kwa AI",
+        "warshQaloun": "Msahafu wa Warsh na Qaloun",
+        "radioTv": "Redio na TV ya Qur'ani mubashara",
+        "adhkar": "Adhkar za asubuhi na jioni",
+        "lireCoranPhonetique": "Kusoma Qur'ani kwa kifonetiki",
+        "widgetVerset": "Wijeti ya aya ya siku"
       }
     },
     "languageSwitcher": {
@@ -133,8 +138,8 @@
   },
   "home": {
     "meta": {
-      "title": "Noor Quran: Qur'ani ya Kifonetiki, Tajweed, Kuhifadhi na Khatma",
-      "description": "Programu kamili ya Qur'ani ya kifonetiki: soma Qur'ani bila kujua Kiarabu, sikiliza sauti bila mtandao, jifunze Tajweed na makharij al-huruf, hifadhi kwa hali ya mchezo, na fuatilia Khatma na Adhkar zako. Redio ya Qur'ani moja kwa moja. Watumiaji 80K+, lugha 20+, iOS na Android.",
+      "title": "Noor Quran: Qur'ani ya Kifonetiki, Tajwidi na Kuhifadhi",
+      "description": "Soma Qur'ani kwa kifonetiki bila kujua Kiarabu: sauti bila intaneti, tajwidi, kuhifadhi, ufuatiliaji wa kisomo kwa AI na Khatma. Watumiaji 80K+, iOS na Android.",
       "keywords": "Qur'ani ya kifonetiki, sura kifonetiki, programu ya Qur'ani kifonetiki, jifunze Qur'ani, uandishi wa kifonetiki wa Qur'ani, Tajweed, makharij al-huruf, kuhifadhi Qur'ani, Hifz, Khatma ya Qur'ani, Adhkar, redio ya Qur'ani moja kwa moja, mswada, marekebisho ya usomaji, maswali ya Qur'ani, mpango wa Ramadhani, Qur'ani sauti bila mtandao",
       "ogTitle": "Noor Quran: Programu Kamili ya Qur'ani ya Kifonetiki (Usomaji, Tajweed, Khatma)",
       "ogDescription": "Soma, sikiliza na hifadhi Qur'ani kwa kifonetiki na kwa Kiarabu, hata bila kujua Kiarabu. Tajweed, marekebisho ya usomaji, Khatma, Adhkar na redio ya Qur'ani moja kwa moja. Bure, lugha 20+."
@@ -191,6 +196,7 @@
         {
           "icon": "fa-book",
           "title": "Uandishi wa Kifonetiki",
+          "href": "/lire-coran-phonetique",
           "text": "Kila aya inaambatana na uandishi wa kifonetiki wa kina kwa matamshi sahihi."
         },
         {
@@ -244,6 +250,24 @@
           "text": "Soma kwa sauti: AI hufuatilia kila neno papo hapo, huonyesha makosa yako na maneno uliyoruka, huchambua tajwidi yako na hufuatilia maendeleo yako kila kikao."
         },
         {
+          "icon": "fa-book-open",
+          "title": "Msahafu wa Warsh na Qaloun",
+          "href": "/mushaf-warsh-qaloun",
+          "text": "Soma Qur'ani kwa riwaya za Warsh na Qaloun, kwa msahafu uliochapishwa au maandishi, pamoja na wasomaji wa kila riwaya na ufuatiliaji wa kisomo kwa AI."
+        },
+        {
+          "icon": "fa-tower-broadcast",
+          "title": "Redio na TV ya Qur'ani Mubashara",
+          "href": "/radio-tv-coran",
+          "text": "Sikiliza zaidi ya redio 170 za kisomo cha Qur'ani na utazame mubashara chaneli za Qur'ani na Sunna."
+        },
+        {
+          "icon": "fa-hands-praying",
+          "title": "Adhkar za Asubuhi na Jioni",
+          "href": "/adhkar-matin-soir",
+          "text": "Adhkar za asubuhi, jioni, kabla ya kulala na baada ya swala, kwa Kiarabu, kifonetiki na tafsiri, pamoja na kihesabu cha marudio."
+        },
+        {
           "icon": "fa-microphone-alt",
           "title": "Marekebisho ya Usomaji",
           "href": "/correction-recitation-coran",
@@ -258,6 +282,7 @@
         {
           "icon": "fa-mobile-screen-button",
           "title": "Kifaa cha Skrini ya Nyumbani",
+          "href": "/widget-verset-du-jour",
           "text": "Onyesha aya ya siku moja kwa moja kwenye skrini ya nyumbani ya simu yako na weka utaratibu wako wa usomaji daima karibu na macho yako."
         }
       ]
@@ -1486,7 +1511,7 @@
   "cgu": {
     "meta": {
       "title": "Masharti ya Jumla ya Matumizi - Noor Phonetic Quran",
-      "description": "Masharti ya jumla ya matumizi ya Noor Phonetic Quran: ufikiaji wa huduma, akaunti ya mtumiaji, usajili wa Premium, umiliki wa kiakili, wajibu na sheria inayotumika.",
+      "description": "Masharti ya matumizi ya Noor Phonetic Quran: ufikiaji wa huduma, akaunti, usajili wa Premium, umiliki wa kiakili na wajibu.",
       "keywords": "CGU Noor Phonetic Quran, masharti ya jumla ya matumizi, masharti ya matumizi programu ya Qur'ani"
     },
     "appName": "Noor Phonetic Quran",
@@ -1707,7 +1732,7 @@
   "reviews": {
     "meta": {
       "title": "Maoni ya watumiaji - Noor Phonetic Quran",
-      "description": "Gundua zaidi ya maoni 160 yaliyothibitishwa ya watumiaji wa Noor Phonetic Quran, programu ya kujifunza kusoma, kuhifadhi na kusoma Qur'ani kwa kifonetiki, ikiwa na alama ya wastani ya nyota 5."
+      "description": "Zaidi ya maoni 160 yaliyothibitishwa kuhusu Noor Phonetic Quran, programu ya kusoma, kuhifadhi na kusoma Qur'ani kwa kifonetiki. Wastani wa nyota 5."
     },
     "eyebrow": "Maoni yaliyothibitishwa",
     "title": "Wanachosema watumiaji wetu",
@@ -1718,7 +1743,7 @@
   "aboutUs": {
     "meta": {
       "title": "Historia yetu: kwa nini tulianzisha Noor Phonetic Quran",
-      "description": "Gundua historia iliyo nyuma ya Noor Phonetic Quran: kukutana na dada aliyesilimu hivi karibuni kulitutia moyo kuunda programu inayofanya usomaji wa Qur'ani kuwa rahisi kwa kila mtu, hata bila kujua kusoma Kiarabu.",
+      "description": "Historia ya Noor Phonetic Quran: dada aliyesilimu hivi karibuni alitutia moyo kufanya usomaji wa Qur'ani uwe rahisi kwa wote, hata bila kujua Kiarabu.",
       "ogTitle": "Historia yetu: kwa nini tulianzisha Noor Phonetic Quran",
       "ogDescription": "Kila kitu kilianza kwa kukutana na dada aliyesilimu hivi karibuni ambaye hakuweza kusoma Qur'ani kwa Kiarabu. Hivyo ndivyo Noor Phonetic Quran ilivyozaliwa."
     },
@@ -1784,7 +1809,7 @@
   },
   "blog": {
     "meta": {
-      "title": "Blogu - Tajwid, Kuhifadhi na Kujifunza Qur'ani | Noor Phonetic Quran",
+      "title": "Blogu - Tajwid, Kuhifadhi na Kujifunza Qur'ani",
       "description": "Makala na miongozo ya vitendo kuhusu kanuni za Tajwid, mbinu za kuhifadhi Qur'ani (Hifz), na kujifunza usomaji, kutoka kwa timu ya Noor Phonetic Quran."
     },
     "title": "Blogu",
@@ -1800,8 +1825,8 @@
   },
   "audioCoran": {
     "meta": {
-      "title": "Sauti ya Qur'ani Iliyosawazishwa: Wasomaji Kadhaa na Usikilizaji Bila Mtandao | Noor Phonetic Quran",
-      "description": "Sikiliza Qur'ani kwa sauti iliyosawazishwa aya kwa aya, chagua kati ya wasomaji kadhaa na pakua sauti kwa usikilizaji bila mtandao na Noor Phonetic Quran. Bure kwenye iOS na Android.",
+      "title": "Sauti ya Qur'ani: Wasomaji na Kusikiliza Bila Intaneti",
+      "description": "Sikiliza Qur'ani kwa sauti iliyosawazishwa aya kwa aya, chagua kati ya wasomaji kadhaa na pakua sauti kwa usikilizaji bila mtandao na Noor Phonetic Quran.",
       "keywords": "sauti ya Qur'ani, usomaji wa Qur'ani kwa sauti, wasomaji kadhaa wa Qur'ani, Qur'ani kwa sauti bila mtandao, pakua sauti ya Qur'ani, sikiliza Qur'ani, sauti iliyosawazishwa ya Qur'ani, wasomaji wa Qur'ani programu",
       "ogTitle": "Sauti ya Qur'ani Iliyosawazishwa: Wasomaji Kadhaa na Usikilizaji Bila Mtandao",
       "ogDescription": "Sauti iliyosawazishwa aya kwa aya, wasomaji kadhaa na upakuaji bila mtandao. Programu ya bure Noor Phonetic Quran."
@@ -2055,8 +2080,8 @@
   },
   "correctionRecitation": {
     "meta": {
-      "title": "Marekebisho ya Usomaji wa Qur'ani: Jirekodi na Uendelee | Noor Phonetic Quran",
-      "description": "Rekodi usomaji wako wa Qur'ani na upokee marekebisho maalum na Noor Phonetic Quran: uboreshaji wa matamshi na uzingatiaji wa kanuni za Tajweed. Bure kwenye iOS na Android.",
+      "title": "Marekebisho ya Usomaji wa Qur'ani: Jirekodi na Uendelee",
+      "description": "Rekodi usomaji wako wa Qur'ani na upokee marekebisho maalum na Noor Phonetic Quran: uboreshaji wa matamshi na uzingatiaji wa kanuni za Tajweed.",
       "keywords": "marekebisho ya usomaji wa Qur'ani, boresha usomaji wako, marekebisho ya Tajweed, rekodi usomaji wako, programu ya marekebisho ya Qur'ani, jifunze kusoma Qur'ani kwa usahihi",
       "ogTitle": "Marekebisho ya Usomaji wa Qur'ani: Jirekodi na Uendelee",
       "ogDescription": "Rekodi usomaji wako na upokee marekebisho maalum ili kuendelea katika matamshi na Tajweed. Programu ya bure Noor Phonetic Quran."
@@ -2126,8 +2151,8 @@
   },
   "ramadan2027": {
     "meta": {
-      "title": "Ramadhani 2027: Tarehe, Kipima Muda, na Maandalizi | Noor Phonetic Quran",
-      "description": "Ramadhani 2027 itaanza Februari 8 (tarehe inayokadiriwa). Andaa Khatma yako, mpango wa kila siku, na Adhkar zako na Noor Phonetic Quran, programu ya bure ya Qur'ani ya kifonetiki.",
+      "title": "Ramadhani 2027: Tarehe, Kipima Muda, na Maandalizi",
+      "description": "Ramadhani 2027 itaanza Februari 8 (tarehe ya makadirio). Andaa Khatma yako, ratiba ya kila siku na Adhkar zako kwa Noor Phonetic Quran.",
       "keywords": "Ramadhani 2027, tarehe ya Ramadhani 2027, kipima muda cha Ramadhani, kujiandaa kwa Ramadhani, Khatma ya Ramadhani, mpango wa Ramadhani wa Qur'ani",
       "ogTitle": "Ramadhani 2027: Tarehe, Kipima Muda, na Maandalizi",
       "ogDescription": "Ramadhani 2027 itaanza Februari 8 (tarehe inayokadiriwa). Andaa Khatma yako na mpango wa kila siku na Noor Phonetic Quran."
@@ -2176,8 +2201,8 @@
   },
   "khatmaCoran": {
     "meta": {
-      "title": "Khatma ya Qur'ani: Programu ya Kupanga na Kufuatilia Usomaji Wako Kamili | Noor Phonetic Quran",
-      "description": "Panga Khatma yako (usomaji kamili wa Qur'ani) na programu ya Noor Phonetic Quran: malengo ya kila siku, ufuatiliaji wa maendeleo, mfululizo wa siku (streak) na vikumbusho. Bure kwenye iOS na Android.",
+      "title": "Khatma ya Qur'ani: Panga na Fuatilia Usomaji Wako",
+      "description": "Panga Khatma yako (usomaji kamili wa Qur'ani): malengo ya kila siku, ufuatiliaji wa maendeleo, mfululizo wa siku na vikumbusho. Bure kwenye iOS na Android.",
       "keywords": "Khatma ya Qur'ani, programu ya khatma, soma Qur'ani nzima, mpango wa usomaji wa Qur'ani, lengo la Khatma Ramadhani, ufuatiliaji wa usomaji wa Qur'ani, kumaliza Qur'ani",
       "ogTitle": "Khatma ya Qur'ani: Panga na Fuatilia Usomaji Wako Kamili",
       "ogDescription": "Panga Khatma yako ukiwa na malengo ya kila siku, ufuatiliaji wa maendeleo na vikumbusho. Programu ya bure Noor Phonetic Quran."
@@ -2276,8 +2301,8 @@
   },
   "tajweedCoran": {
     "meta": {
-      "title": "Kanuni za Tajweed za Qur'ani: Ujifunzaji wenye Rangi na wa Kina | Noor Phonetic Quran",
-      "description": "Jifunze kanuni za Tajweed za Qur'ani na Noor Phonetic Quran: rangi na maelezo wakati wa usomaji, sehemu za matamshi za herufi (Makharej), kanuni za Noun Sâkinah na Waqf. Bure kwenye iOS na Android.",
+      "title": "Kanuni za Tajwidi za Qur'ani: Rangi na Maelezo",
+      "description": "Jifunze tajwidi: rangi na maelezo wakati wa kusoma, makhraji ya herufi, kanuni za Nun Sakina na Waqf. Bure kwenye iOS na Android.",
       "keywords": "kanuni za Tajweed, Tajweed ya Qur'ani, jifunze Tajweed, Tajweed yenye rangi, Makharej za herufi za Kiarabu, Noun Sakinah Tanwin, Waqf Ibtida, programu ya Tajweed bure",
       "ogTitle": "Kanuni za Tajweed za Qur'ani: Ujifunzaji wenye Rangi na wa Kina",
       "ogDescription": "Rangi na maelezo wakati wa usomaji, sehemu za matamshi, kanuni za Noun Sâkinah na Waqf. Programu ya bure Noor Phonetic Quran."
@@ -2355,8 +2380,8 @@
   },
   "quizCoran": {
     "meta": {
-      "title": "Maswali ya Qur'ani: Jaribu Maarifa Yako ya Qur'ani Ukifurahia | Noor Phonetic Quran",
-      "description": "Jaribu maarifa yako ya Qur'ani na Maswali ya Qur'ani ya Noor Phonetic Quran: maswali 21, kiwango cha ushindi, jokers 50:50, kura ya hadhira na simu kwa rafiki. Bure kwenye iOS na Android.",
+      "title": "Maswali ya Qur'ani: Jaribu Maarifa Yako",
+      "description": "Jaribu maarifa yako ya Qur'ani na Maswali ya Qur'ani ya Noor Phonetic Quran: maswali 21, kiwango cha ushindi, jokers 50:50, kura ya hadhira na simu kwa rafiki.",
       "keywords": "maswali ya Qur'ani, maswali ya Kiislamu, mchezo wa maswali ya Qur'ani, jaribu maarifa yako ya Qur'ani, maswali ya Uislamu, programu ya maswali ya Qur'ani bure, maswali ya Qur'ani na majibu",
       "ogTitle": "Maswali ya Qur'ani: Jaribu Maarifa Yako ya Qur'ani Ukifurahia",
       "ogDescription": "Maswali 21, kiwango cha ushindi, jokers 50:50, kura ya hadhira na simu kwa rafiki. Programu ya bure Noor Phonetic Quran."
@@ -2496,8 +2521,8 @@
   },
   "memorisationCoran": {
     "meta": {
-      "title": "Kuhifadhi Qur'ani (Hifz): Programu yenye Marudio ya Sauti na Maswali | Noor Phonetic Quran",
-      "description": "Hifadhi Qur'ani (Hifz) na programu ya Noor Phonetic Quran: marudio ya sauti aya kwa aya, hali ya neno-kwa-neno, maswali ya marejeo, alama, viwango na beji. Bure kwenye iOS na Android.",
+      "title": "Kuhifadhi Qur'ani (Hifz): Marudio ya Sauti na Maswali",
+      "description": "Hifadhi Qur'ani (Hifz) na programu ya Noor Phonetic Quran: marudio ya sauti aya kwa aya, hali ya neno-kwa-neno, maswali ya marejeo, alama, viwango na beji.",
       "keywords": "kuhifadhi Qur'ani, Hifz ya Qur'ani, programu ya kuhifadhi Qur'ani, jifunze Qur'ani kwa moyo, kuhifadhi aya kwa aya, Hifz programu bure",
       "ogTitle": "Kuhifadhi Qur'ani (Hifz): Marudio ya Sauti, Maswali na Ufuatiliaji wa Maendeleo",
       "ogDescription": "Hifadhi Qur'ani ukiwa na marudio ya sauti, hali ya neno-kwa-neno, maswali na changamoto za kila siku. Programu ya bure Noor Phonetic Quran."
@@ -2578,8 +2603,8 @@
   },
   "suiviRecitationIa": {
     "meta": {
-      "title": "Ufuatiliaji wa Kisomo cha Qur'ani kwa AI: Usahihishaji Neno kwa Neno Papo Hapo | Noor Phonetic Quran",
-      "description": "Soma Qur'ani kwa sauti: AI ya Noor Phonetic Quran hufuatilia kila neno papo hapo, huonyesha makosa na maneno yaliyorukwa, huchambua tajwidi na hufuatilia maendeleo yako. Bure kwenye iOS na Android.",
+      "title": "Ufuatiliaji wa Kisomo cha Qur'ani kwa AI",
+      "description": "Soma Qur'ani kwa sauti: AI hufuatilia kila neno papo hapo, huonyesha makosa, huchambua tajwidi na maendeleo yako. Bure kwenye iOS na Android.",
       "keywords": "kisomo cha Qur'ani kwa AI, kukagua kisomo cha Qur'ani, kusahihisha kisomo cha Qur'ani, kuhifadhi Qur'ani kwa AI, programu ya kisomo cha Qur'ani",
       "ogTitle": "Ufuatiliaji wa Kisomo cha Qur'ani kwa AI: Usahihishaji Neno kwa Neno Papo Hapo",
       "ogDescription": "Soma kwa sauti: AI hufuatilia kila neno, huonyesha makosa yako na hufuatilia maendeleo yako. Programu ya bure Noor Phonetic Quran."
@@ -2670,6 +2695,341 @@
       "tajweed": "Kanuni za Tajweed",
       "correction": "Marekebisho ya Usomaji",
       "allFeatures": "Vipengele vyote"
+    }
+  },
+  "warshQaloun": {
+    "meta": {
+      "title": "Msahafu wa Warsh na Qaloun: Soma na Sikiliza Qur'ani",
+      "description": "Soma Qur'ani kwa Warsh na Qaloun: msahafu uliochapishwa au maandishi, wasomaji wa kila riwaya na ufuatiliaji wa kisomo kwa AI. Programu ya Noor Phonetic Quran.",
+      "keywords": "Qur'ani Warsh, msahafu Warsh, Qur'ani Qaloun, msahafu Qaloun, riwaya ya Warsh, programu ya Qur'ani Warsh",
+      "ogTitle": "Msahafu wa Warsh na Qaloun: Soma na Sikiliza Qur'ani",
+      "ogDescription": "Qur'ani kwa Warsh na Qaloun: msahafu uliochapishwa, wasomaji wa kila riwaya na ufuatiliaji kwa AI."
+    },
+    "breadcrumb": {
+      "home": "Nyumbani",
+      "current": "Msahafu wa Warsh na Qaloun"
+    },
+    "hero": {
+      "title": "Msahafu wa Warsh na Qaloun: Soma na Sikiliza Qur'ani kwa Riwaya Yako",
+      "subtitle": "Chagua Hafs, Warsh au Qaloun: msahafu, wasomaji na ufuatiliaji wa kisomo hubadilika kulingana na riwaya unayosoma.",
+      "googlePlay": "Google Play",
+      "appStore": "App Store"
+    },
+    "intro": {
+      "title": "Qur'ani kwa riwaya yako",
+      "paragraphs": [
+        "Hafs 'an 'Asim ndiyo riwaya iliyoenea zaidi duniani, lakini katika Maghrib na Afrika Magharibi wengi hujifunza na kusoma Qur'ani kwa Warsh 'an Nafi', au Qaloun 'an Nafi' nchini Libya na Tunisia.",
+        "Noor Phonetic Quran inatoa riwaya zote tatu: msahafu uliochapishwa wa Warsh na Qaloun, mwonekano wa maandishi, wasomaji wa kila riwaya na ufuatiliaji wa kisomo kwa AI."
+      ]
+    },
+    "features": {
+      "title": "Jinsi ya kusoma kwa Warsh au Qaloun?",
+      "items": [
+        {
+          "title": "Chagua riwaya yako",
+          "description": "chagua Hafs, Warsh au Qaloun kwenye mipangilio: kurasa zinaonyeshwa kwa riwaya uliyochagua."
+        },
+        {
+          "title": "Soma msahafu uliochapishwa au maandishi",
+          "description": "msahafu uliochapishwa wa Warsh na Qaloun au maandishi yanayosomeka zaidi; hupakuliwa mara moja kisha hufanya kazi bila intaneti."
+        },
+        {
+          "title": "Msikilize msomaji wa riwaya yako",
+          "description": "orodha ya wasomaji inaonyesha riwaya ya kila mmoja, pamoja na kusikiliza aya kwa aya."
+        },
+        {
+          "title": "Soma ukifuatiliwa na AI",
+          "description": "ufuatiliaji wa neno kwa neno hufanya kazi pia kwa Warsh na Qaloun kukagua kisomo chako."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Maswali kuhusu msahafu wa Warsh na Qaloun",
+      "items": [
+        {
+          "question": "Kuna tofauti gani kati ya Hafs, Warsh na Qaloun?",
+          "answer": "Ni riwaya sahihi za kisomo cha Qur'ani. Zinatofautiana katika baadhi ya irabu, urefushaji, utamkaji wa hamza na uhesabuji wa baadhi ya aya."
+        },
+        {
+          "question": "Je, maandishi ya kifonetiki yapo kwa Warsh?",
+          "answer": "Hapana, unukuzi wa kifonetiki upo kwa Hafs pekee. Kwa Warsh na Qaloun, programu huonyesha maandishi ya Kiarabu."
+        },
+        {
+          "question": "Je, ufuatiliaji wa AI hufanya kazi kwa Warsh?",
+          "answer": "Ndiyo, ufuatiliaji wa neno kwa neno hufanya kazi kwa Warsh na Qaloun. Uchambuzi wa tajwidi ni kwa Hafs pekee."
+        }
+      ]
+    },
+    "related": {
+      "title": "Gundua pia"
+    }
+  },
+  "radioTv": {
+    "meta": {
+      "title": "Redio ya Qur'ani na TV ya Qur'ani Mubashara",
+      "description": "Zaidi ya redio 170 za kisomo cha Qur'ani na chaneli za TV za Qur'ani na Sunna mubashara, pamoja na vipendwa na kusikiliza chinichini.",
+      "keywords": "redio ya Qur'ani, redio ya Qur'ani mubashara, sikiliza Qur'ani mubashara, TV ya Qur'ani mubashara, chaneli ya Qur'ani Makka, chaneli ya Sunna Madina",
+      "ogTitle": "Redio ya Qur'ani na TV ya Qur'ani Mubashara",
+      "ogDescription": "Zaidi ya redio 170 za kisomo cha Qur'ani na chaneli za Qur'ani na Sunna mubashara."
+    },
+    "breadcrumb": {
+      "home": "Nyumbani",
+      "current": "Redio na TV ya Qur'ani"
+    },
+    "hero": {
+      "title": "Redio ya Qur'ani na TV ya Qur'ani Mubashara",
+      "subtitle": "Sikiliza Qur'ani wakati wowote: zaidi ya vituo 170 vya kisomo na chaneli za TV za Qur'ani na Sunna mubashara, katika programu moja.",
+      "googlePlay": "Google Play",
+      "appStore": "App Store"
+    },
+    "intro": {
+      "title": "Qur'ani bila kukoma, popote ulipo",
+      "paragraphs": [
+        "Noor Phonetic Quran inakusanya zaidi ya vituo 170 vya redio vya kisomo cha Qur'ani kutoka kwa wasomaji wa dunia nzima, pamoja na chaneli za TV za Qur'ani na Sunna mubashara.",
+        "Usikilizaji unaendelea chinichini, ukiwa na vidhibiti kwenye skrini iliyofungwa, kukuandamana safarini, kazini au wakati wa kupumzika."
+      ]
+    },
+    "features": {
+      "title": "Jinsi ya kusikiliza redio na TV ya Qur'ani?",
+      "items": [
+        {
+          "title": "Fungua Redio au TV Mubashara",
+          "description": "kutoka menyu ya programu, nenda kwenye vituo vya redio au chaneli za TV."
+        },
+        {
+          "title": "Chagua kituo",
+          "description": "pitia vituo vya kisomo; majina yake huonyeshwa kwa lugha yako inapowezekana."
+        },
+        {
+          "title": "Ongeza vipendwa",
+          "description": "weka vituo unavyopenda karibu ili uvipate kwa mguso mmoja."
+        },
+        {
+          "title": "Sikiliza chinichini",
+          "description": "uchezaji huendelea skrini ikiwa imezimwa, ukicheza na kusitisha kutoka skrini iliyofungwa."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Maswali kuhusu redio na TV ya Qur'ani",
+      "items": [
+        {
+          "question": "Je, ninahitaji intaneti?",
+          "answer": "Ndiyo, redio na TV hurushwa mubashara na zinahitaji muunganisho wa intaneti."
+        },
+        {
+          "question": "Kuna chaneli gani za TV?",
+          "answer": "Chaneli za Qur'ani na Sunna, zinazorushwa mubashara."
+        },
+        {
+          "question": "Je, naweza kusikiliza skrini ikiwa imezimwa?",
+          "answer": "Ndiyo, uchezaji huendelea chinichini na hudhibitiwa kutoka skrini iliyofungwa."
+        }
+      ]
+    },
+    "related": {
+      "title": "Gundua pia"
+    }
+  },
+  "adhkar": {
+    "meta": {
+      "title": "Adhkar za Asubuhi na Jioni kwa Kifonetiki",
+      "description": "Adhkar za asubuhi, jioni, kabla ya kulala na baada ya swala kwa Kiarabu, kifonetiki na tafsiri, pamoja na kihesabu. Programu ya Noor Phonetic Quran.",
+      "keywords": "adhkar za asubuhi, adhkar za jioni, adhkar kwa kifonetiki, dua za asubuhi, dhikri, adhkar kabla ya kulala, programu ya adhkar",
+      "ogTitle": "Adhkar za Asubuhi na Jioni kwa Kifonetiki",
+      "ogDescription": "Adhkar za asubuhi, jioni, kabla ya kulala na baada ya swala kwa Kiarabu, kifonetiki na tafsiri."
+    },
+    "breadcrumb": {
+      "home": "Nyumbani",
+      "current": "Adhkar za asubuhi na jioni"
+    },
+    "hero": {
+      "title": "Adhkar za Asubuhi na Jioni kwa Kifonetiki",
+      "subtitle": "Soma dua za siku hata kama husomi Kiarabu: kila dhikri kwa Kiarabu, kifonetiki na tafsiri, pamoja na kihesabu cha marudio yako.",
+      "googlePlay": "Google Play",
+      "appStore": "App Store"
+    },
+    "intro": {
+      "title": "Adhkar, ukumbusho kwa kila wakati wa siku",
+      "paragraphs": [
+        "Adhkar ni dua na utajo wa Allah uliopokewa katika Sunna, unaosomwa nyakati maalum: unapoamka, jioni, kabla ya kulala na baada ya swala.",
+        "Noor Phonetic Quran inakusanya adhkar za asubuhi, jioni, kabla ya kulala na baada ya swala. Kila dua iko kwa Kiarabu, kwa kifonetiki ili uisome bila kujua Kiarabu, na pamoja na tafsiri yake."
+      ]
+    },
+    "features": {
+      "title": "Jinsi ya kusoma adhkar zako kwa programu?",
+      "items": [
+        {
+          "title": "Chagua wakati",
+          "description": "adhkar za asubuhi, jioni, kabla ya kulala au baada ya swala."
+        },
+        {
+          "title": "Soma kwa Kiarabu au kifonetiki",
+          "description": "kila dhikri inaonyeshwa kwa Kiarabu, kifonetiki na tafsiri."
+        },
+        {
+          "title": "Hesabu marudio yako",
+          "description": "gusa kihesabu kila unaporudia: maendeleo yanaonyesha unapofikia idadi inayopendekezwa."
+        },
+        {
+          "title": "Sikiliza na ushiriki",
+          "description": "sikiliza kisomo kinapopatikana na ushiriki dua kwa mguso mmoja."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Maswali kuhusu adhkar",
+      "items": [
+        {
+          "question": "Adhkar za asubuhi na jioni husomwa lini?",
+          "answer": "Wanazuoni kwa kawaida huziweka za asubuhi kati ya alfajiri na kuchomoza jua, na za jioni kati ya Alasiri na kuzama jua."
+        },
+        {
+          "question": "Naweza kuzisoma bila kujua Kiarabu?",
+          "answer": "Ndiyo, kila dua imeandikwa kwa kifonetiki na ina tafsiri yake."
+        },
+        {
+          "question": "Naweza kushiriki dua?",
+          "answer": "Ndiyo, kila dua inashirikiwa na wapendwa wako kwa mguso mmoja."
+        }
+      ]
+    },
+    "related": {
+      "title": "Gundua pia"
+    }
+  },
+  "lireCoranPhonetique": {
+    "meta": {
+      "title": "Soma Qur'ani kwa Kifonetiki Bila Kujua Kiarabu",
+      "description": "Soma kila aya ya Qur'ani kwa kifonetiki, jifunze sauti za Kiarabu kwa sauti ya kila herufi na kagua matamshi yako. Programu ya Noor Phonetic Quran.",
+      "keywords": "Qur'ani kwa kifonetiki, Qur'ani kwa herufi za Kilatini, unukuzi wa Qur'ani, kusoma Qur'ani bila kujua Kiarabu, jifunze kusoma Qur'ani",
+      "ogTitle": "Soma Qur'ani kwa Kifonetiki Bila Kujua Kiarabu",
+      "ogDescription": "Kila aya ya Qur'ani kwa kifonetiki, sauti ya kila herufi na ukaguzi wa matamshi."
+    },
+    "breadcrumb": {
+      "home": "Nyumbani",
+      "current": "Kusoma Qur'ani kwa kifonetiki"
+    },
+    "hero": {
+      "title": "Soma Qur'ani kwa Kifonetiki, Hata Bila Kujua Kiarabu",
+      "subtitle": "Kila aya imeandikwa kwa kifonetiki ili uanze kusoma leo, kisha uende kwenye maandishi ya Kiarabu kwa kasi yako.",
+      "googlePlay": "Google Play",
+      "appStore": "App Store"
+    },
+    "intro": {
+      "title": "Kusoma Qur'ani kabla ya kujua kusoma Kiarabu",
+      "paragraphs": [
+        "Noor Phonetic Quran inaonyesha kila aya ya Qur'ani kwa unukuzi wa kifonetiki: unasoma sauti za Kiarabu kwa herufi za Kilatini, bila kujifunza alfabeti ya Kiarabu kwanza.",
+        "Mwongozo wa unukuzi unaeleza sauti zisizokuwepo katika lugha yako, pamoja na sauti ya kila herufi, na moduli za tajwidi (makhraji, hukumu) zinakusaidia kuhamia maandishi ya Kiarabu taratibu."
+      ]
+    },
+    "features": {
+      "title": "Jinsi ya kusoma Qur'ani kwa kifonetiki?",
+      "items": [
+        {
+          "title": "Soma kifonetiki ukurasa kwa ukurasa",
+          "description": "unukuzi unafuata msahafu, kando ya maandishi ya Kiarabu na tafsiri."
+        },
+        {
+          "title": "Jifunze sauti za Kiarabu",
+          "description": "mwongozo unahusisha kila alama (ḥ, ṣ, ḍ, ṭ, ʿ…) na herufi yake ya Kiarabu na rekodi ya sauti, pamoja na irabu fupi na ndefu."
+        },
+        {
+          "title": "Sikiliza wakati huohuo",
+          "description": "sauti ya aya kwa aya inakusikilizisha matamshi sahihi ya unachosoma."
+        },
+        {
+          "title": "Kagua matamshi yako",
+          "description": "soma kwa sauti ukifuatiliwa na AI na ujizoeze makhraji ya herufi."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Maswali kuhusu kusoma Qur'ani kwa kifonetiki",
+      "items": [
+        {
+          "question": "Je, kweli Qur'ani inaweza kusomwa bila kujua Kiarabu?",
+          "answer": "Kifonetiki kinakuwezesha kusoma tangu siku ya kwanza. Ni msaada tu: kujifunza alfabeti ya Kiarabu na tajwidi taratibu hutoa kisomo sahihi zaidi."
+        },
+        {
+          "question": "Je, kifonetiki kinashughulikia Qur'ani yote?",
+          "answer": "Ndiyo, kurasa zote 604 za msahafu, kwa riwaya ya Hafs."
+        },
+        {
+          "question": "Nitajuaje kutamka ḥ au ʿ?",
+          "answer": "Mwongozo wa unukuzi wa programu unahusisha kila alama na herufi yake ya Kiarabu na rekodi ya sauti."
+        }
+      ]
+    },
+    "related": {
+      "title": "Gundua pia"
+    }
+  },
+  "widgetVerset": {
+    "meta": {
+      "title": "Wijeti ya Aya ya Siku: Qur'ani kwenye Skrini ya Nyumbani",
+      "description": "Aya ya Qur'ani kila siku kwenye skrini ya nyumbani ya simu yako, Android na iPhone, iliyounganishwa na programu ya “Aya ya siku” ya Noor Phonetic Quran.",
+      "keywords": "wijeti ya Qur'ani, wijeti ya aya ya siku, aya ya kila siku ya Qur'ani, Qur'ani skrini ya nyumbani, wijeti ya Kiislamu Android, wijeti ya Qur'ani iPhone",
+      "ogTitle": "Wijeti ya Aya ya Siku: Qur'ani kwenye Skrini ya Nyumbani",
+      "ogDescription": "Aya ya Qur'ani kila siku kwenye skrini ya nyumbani ya simu yako, Android na iPhone."
+    },
+    "breadcrumb": {
+      "home": "Nyumbani",
+      "current": "Wijeti ya aya ya siku"
+    },
+    "hero": {
+      "title": "Wijeti ya Aya ya Siku: Qur'ani kwenye Skrini Yako ya Nyumbani",
+      "subtitle": "Aya mpya kila siku, moja kwa moja kwenye skrini ya nyumbani ya simu yako, ili Qur'ani iwe machoni kila wakati na uhifadhi wako usonge mbele.",
+      "googlePlay": "Google Play",
+      "appStore": "App Store"
+    },
+    "intro": {
+      "title": "Aya moja kwa siku, bila kufungua programu",
+      "paragraphs": [
+        "Wijeti ya Noor Phonetic Quran inaonyesha aya ya Qur'ani kila siku kwenye skrini ya nyumbani ya simu yako, kwenye Android na iPhone.",
+        "Imeunganishwa na programu ya “Aya ya siku”: kusikiliza aya, kusoma tafsiri yake, kuihifadhi, kuirekodi na kuirudia, hatua kwa hatua."
+      ]
+    },
+    "features": {
+      "title": "Jinsi ya kutumia wijeti ya aya ya siku?",
+      "items": [
+        {
+          "title": "Ongeza wijeti",
+          "description": "bonyeza kwa muda skrini ya nyumbani, fungua wijeti na uchague Noor Phonetic Quran."
+        },
+        {
+          "title": "Pata aya mpya kila siku",
+          "description": "wijeti hujisasisha yenyewe kila siku."
+        },
+        {
+          "title": "Songa mbele ukiwa skrini ya nyumbani",
+          "description": "kwenye Android, kitufe cha +1 husajili rudio moja la hatua ya sasa bila kufungua programu."
+        },
+        {
+          "title": "Fuata programu ya siku",
+          "description": "kumsikiliza msomaji, tafsiri, kuhifadhi, kurekodi kisomo chako na kurudia."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Maswali kuhusu wijeti ya aya ya siku",
+      "items": [
+        {
+          "question": "Je, wijeti inafanya kazi kwenye iPhone?",
+          "answer": "Ndiyo, kwenye Android na iPhone. Kitufe cha +1 kipo kwenye Android; kwenye iPhone wijeti huonyesha aya na hufungua programu."
+        },
+        {
+          "question": "Nitaongezaje wijeti?",
+          "answer": "Bonyeza kwa muda skrini ya nyumbani, fungua orodha ya wijeti na uchague Noor Phonetic Quran."
+        },
+        {
+          "question": "Je, aya hubadilika kila siku?",
+          "answer": "Ndiyo, wijeti huonyesha aya mpya kila siku yenyewe."
+        }
+      ]
+    },
+    "related": {
+      "title": "Gundua pia"
     }
   }
 }

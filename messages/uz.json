@@ -28,7 +28,12 @@
         "blog": "Blog",
         "aboutUs": "Bizning Tariximiz",
         "ramadan2027": "Ramazon 2027",
-        "suiviRecitationIa": "Sun'iy intellekt bilan qiroatni kuzatish"
+        "suiviRecitationIa": "Sun'iy intellekt bilan qiroatni kuzatish",
+        "warshQaloun": "Varsh va Qolun mushafi",
+        "radioTv": "Qur'on radiosi va TV jonli efirda",
+        "adhkar": "Ertalabki va kechki azkorlar",
+        "lireCoranPhonetique": "Qur'onni fonetik o'qish",
+        "widgetVerset": "Kun oyati vidjeti"
       }
     },
     "languageSwitcher": {
@@ -134,7 +139,7 @@
   "home": {
     "meta": {
       "title": "Noor Quran: Fonetik Qur'on, Tajweed, Yodlash va Khatma",
-      "description": "To'liq fonetik Qur'on ilovasi: arab tilini bilmasdan Qur'onni o'qing, audioni oflayn tinglang, Tajweed va makharij al-huruf'ni o'rganing, o'yin rejimida yodlang va Khatma va Azkoringizni kuzatib boring. Jonli Qur'on radiosi. 80 ming+ foydalanuvchi, 20+ til, iOS va Android.",
+      "description": "Qur'onni arab tilisiz fonetik o'qing: internetsiz audio, tajvid, yodlash, sun'iy intellekt bilan qiroatni kuzatish va xatm. 80 ming+ foydalanuvchi.",
       "keywords": "fonetik Qur'on, sura fonetika, fonetik Qur'on ilovasi, Qur'on o'rganish, Qur'on fonetik transkripsiyasi, Tajweed, makharij al-huruf, Qur'onni yodlash, Hifz, Khatma Qur'on, Azkor, jonli Qur'on radiosi, mushaf, tilovat tuzatish, Qur'on viktorinasi, Ramazon dasturi, Qur'on audio oflayn",
       "ogTitle": "Noor Quran: To'liq Fonetik Qur'on Ilovasi (O'qish, Tajweed, Khatma)",
       "ogDescription": "Arab tilini bilmasangiz ham Qur'onni fonetik va arab tilida o'qing, tinglang va yodlang. Tajweed, tilovat tuzatish, Khatma, Azkor va jonli Qur'on radiosi. Bepul, 20+ til."
@@ -191,6 +196,7 @@
         {
           "icon": "fa-book",
           "title": "Fonetik Transkripsiya",
+          "href": "/lire-coran-phonetique",
           "text": "Har bir oyat to'g'ri talaffuz uchun batafsil fonetik transkripsiya bilan birga keladi."
         },
         {
@@ -244,6 +250,24 @@
           "text": "Ovoz chiqarib o'qing: sun'iy intellekt har bir so'zni real vaqtda kuzatadi, xatolaringiz va tushib qolgan so'zlarni ko'rsatadi, tajvidingizni tahlil qiladi va har bir mashg'ulotdagi o'sishingizni kuzatadi."
         },
         {
+          "icon": "fa-book-open",
+          "title": "Varsh va Qolun Mushafi",
+          "href": "/mushaf-warsh-qaloun",
+          "text": "Qur'onni Varsh va Qolun qiroatlarida, bosma mushaf yoki matn ko'rinishida o'qing — har bir rivoyat qorilari va sun'iy intellekt bilan qiroatni kuzatish bilan."
+        },
+        {
+          "icon": "fa-tower-broadcast",
+          "title": "Qur'on Radiosi va TV Jonli Efirda",
+          "href": "/radio-tv-coran",
+          "text": "170 dan ortiq Qur'on qiroati radiosini tinglang va Qur'on hamda Sunna kanallarini jonli tomosha qiling."
+        },
+        {
+          "icon": "fa-hands-praying",
+          "title": "Ertalabki va Kechki Azkorlar",
+          "href": "/adhkar-matin-soir",
+          "text": "Ertalabki, kechki, uyqu oldidan va namozdan keyingi azkorlar arabcha, fonetik va tarjima bilan, takrorlash hisoblagichi bilan."
+        },
+        {
           "icon": "fa-microphone-alt",
           "title": "Tilovat Tuzatish",
           "href": "/correction-recitation-coran",
@@ -258,6 +282,7 @@
         {
           "icon": "fa-mobile-screen-button",
           "title": "Bosh Ekran Vidjeti",
+          "href": "/widget-verset-du-jour",
           "text": "Kunning oyatini to'g'ridan-to'g'ri telefoningiz bosh ekranida ko'rsating va o'qish odatingizni doim ko'z oldingizda saqlang."
         }
       ]
@@ -1707,7 +1732,7 @@
   "reviews": {
     "meta": {
       "title": "Foydalanuvchilar sharhlari - Noor Phonetic Quran",
-      "description": "Qur'onni fonetik tarzda tilovat qilish, yodlash va o'qishni o'rgatuvchi Noor Phonetic Quran ilovasining 160 dan ortiq tasdiqlangan foydalanuvchi sharhlarini, o'rtacha 5 yulduz reyting bilan bilib oling."
+      "description": "Qur'onni fonetik o'qish, yodlash va tilovat qilish ilovasi Noor Phonetic Quran haqida 160 dan ortiq tasdiqlangan sharh. O'rtacha 5 yulduz."
     },
     "eyebrow": "Tasdiqlangan sharhlar",
     "title": "Foydalanuvchilarimiz nima deydi",
@@ -1717,8 +1742,8 @@
   },
   "aboutUs": {
     "meta": {
-      "title": "Bizning tariximiz: nima uchun Noor Phonetic Quran'ni yaratdik",
-      "description": "Noor Phonetic Quran ortidagi tarixni bilib oling: yaqinda islomni qabul qilgan opa-singil bilan uchrashuv bizni arab tilini bilmasdan ham Qur'onni o'qishni hamma uchun oson qiladigan ilova yaratishga ilhomlandirdi.",
+      "title": "Bizning tariximiz: Noor Phonetic Quran qanday paydo bo'ldi",
+      "description": "Noor Phonetic Quran tarixi: yaqinda islomni qabul qilgan bir opa bizni Qur'on o'qishni hamma uchun, arab tilini bilmaganlarga ham oson qilishga ilhomlantirdi.",
       "ogTitle": "Bizning tariximiz: nima uchun Noor Phonetic Quran'ni yaratdik",
       "ogDescription": "Hammasi yaqinda islomni qabul qilgan va arab tilida Qur'onni o'qiy olmagan opa-singil bilan uchrashuvdan boshlandi. Noor Phonetic Quran shunday tug'ildi."
     },
@@ -1784,7 +1809,7 @@
   },
   "blog": {
     "meta": {
-      "title": "Blog - Tajvid, Yodlash va Qur'on O'rganish | Noor Phonetic Quran",
+      "title": "Blog - Tajvid, Yodlash va Qur'on O'rganish",
       "description": "Tajvid qoidalari, Qur'onni yodlash (Hifz) usullari va tilovatni o'rganish haqida maqolalar va amaliy qo'llanmalar, Noor Phonetic Quran jamoasi tomonidan."
     },
     "title": "Blog",
@@ -1800,8 +1825,8 @@
   },
   "audioCoran": {
     "meta": {
-      "title": "Sinxron Qur'on Audiosi: Bir Nechta Qori va Internetsiz Tinglash | Noor Phonetic Quran",
-      "description": "Noor Phonetic Quran bilan Qur'onni oyat-boyat sinxron audio bilan tinglang, bir nechta qori orasidan tanlang va internetsiz tinglash uchun audioni yuklab oling. iOS va Android'da bepul.",
+      "title": "Qur'on audiosi: qorilar va internetsiz tinglash",
+      "description": "Noor Phonetic Quran bilan Qur'onni oyat-boyat sinxron audio bilan tinglang, bir nechta qori orasidan tanlang va internetsiz tinglash uchun audioni yuklab oling.",
       "keywords": "Qur'on audiosi, Qur'on tilovati audiosi, bir nechta Qur'on qorisi, internetsiz Qur'on audiosi, Qur'on audiosini yuklab olish, Qur'onni tinglash, sinxron Qur'on audiosi, Qur'on qorilar ilovasi",
       "ogTitle": "Sinxron Qur'on Audiosi: Bir Nechta Qori va Internetsiz Tinglash",
       "ogDescription": "Oyat-boyat sinxron audio, bir nechta qori va internetsiz yuklab olish. Bepul Noor Phonetic Quran ilovasi."
@@ -2050,13 +2075,13 @@
     "footer": "© 2026 Noor Phonetic Quran. Barcha huquqlar himoyalangan.",
     "meta": {
       "title": "Maxfiylik siyosati - Noor Phonetic Quran",
-      "description": "Noor Phonetic Quran maxfiylik siyosati: to'planadigan ma'lumotlar (tahlil, xaridlar, aloqa shakli), maqsadlar, uchinchi shaxslar bilan almashish va sizning huquqlaringiz."
+      "description": "Noor Phonetic Quran maxfiylik siyosati: to'planadigan ma'lumotlar, maqsadlar, uchinchi shaxslar bilan almashish va huquqlaringiz."
     }
   },
   "correctionRecitation": {
     "meta": {
-      "title": "Qur'on Tilovatini Tuzatish: Yozib Oling va Rivojlaning | Noor Phonetic Quran",
-      "description": "Noor Phonetic Quran bilan Qur'on tilovatingizni yozib oling va shaxsiylashtirilgan tuzatish oling: talaffuz va Tajweed qoidalariga rioya qilishni yaxshilash. iOS va Android'da bepul.",
+      "title": "Qur'on Tilovatini Tuzatish: Yozib Oling va Rivojlaning",
+      "description": "Noor Phonetic Quran bilan Qur'on tilovatingizni yozib oling va shaxsiylashtirilgan tuzatish oling: talaffuz va Tajweed qoidalariga rioya qilishni yaxshilash.",
       "keywords": "Qur'on tilovatini tuzatish, tilovatni yaxshilash, Tajweed tuzatish, tilovatni yozib olish, Qur'on tuzatish ilovasi, Qur'onni to'g'ri tilovat qilishni o'rganish",
       "ogTitle": "Qur'on Tilovatini Tuzatish: Yozib Oling va Rivojlaning",
       "ogDescription": "Tilovatingizni yozib oling va talaffuz hamda Tajweed'da rivojlanish uchun shaxsiylashtirilgan tuzatish oling. Bepul Noor Phonetic Quran ilovasi."
@@ -2126,8 +2151,8 @@
   },
   "ramadan2027": {
     "meta": {
-      "title": "Ramazon 2027: Sana, Hisoblagich va Tayyorgarlik | Noor Phonetic Quran",
-      "description": "Ramazon 2027 8-fevralda boshlanadi (taxminiy sana). Bepul fonetik Qur'on ilovasi Noor Phonetic Quran bilan Khatmangizni, kunlik dasturingizni va Azkoringizni tayyorlang.",
+      "title": "Ramazon 2027: Sana, Hisoblagich va Tayyorgarlik",
+      "description": "Ramazon 2027 8-fevralda boshlanadi (taxminiy sana). Xatmingiz, kunlik dasturingiz va azkorlaringizni Noor Phonetic Quran bilan tayyorlang.",
       "keywords": "Ramazon 2027, Ramazon 2027 sanasi, Ramazon hisoblagichi, Ramazonga tayyorgarlik, Ramazon Khatmasi, Ramazon Qur'on dasturi",
       "ogTitle": "Ramazon 2027: Sana, Hisoblagich va Tayyorgarlik",
       "ogDescription": "Ramazon 2027 8-fevralda boshlanadi (taxminiy sana). Noor Phonetic Quran bilan Khatmangizni va kunlik dasturingizni tayyorlang."
@@ -2176,8 +2201,8 @@
   },
   "khatmaCoran": {
     "meta": {
-      "title": "Qur'on Khatmasi: To'liq O'qishni Rejalashtirish va Kuzatish uchun Ilova | Noor Phonetic Quran",
-      "description": "Noor Phonetic Quran ilovasi bilan Khatmangizni (Qur'onni to'liq o'qish) rejalashtiring: kunlik maqsadlar, taraqqiyot kuzatuvi, ketma-ket kunlar (streak) va eslatmalar. iOS va Android'da bepul.",
+      "title": "Qur'on xatmi: o'qishni rejalashtiring va kuzating",
+      "description": "Xatmingizni (Qur'onni to'liq o'qish) rejalashtiring: kunlik maqsadlar, o'sish kuzatuvi, ketma-ket kunlar va eslatmalar. iOS va Android'da bepul.",
       "keywords": "Qur'on khatmasi, khatma ilovasi, Qur'onni to'liq o'qish, Qur'on o'qish rejasi, Ramazon khatma maqsadi, Qur'on o'qish kuzatuvi, Qur'onni tugatish",
       "ogTitle": "Qur'on Khatmasi: To'liq O'qishingizni Rejalashtiring va Kuzating",
       "ogDescription": "Kunlik maqsadlar, taraqqiyot kuzatuvi va eslatmalar bilan Khatmangizni rejalashtiring. Bepul Noor Phonetic Quran ilovasi."
@@ -2276,8 +2301,8 @@
   },
   "tajweedCoran": {
     "meta": {
-      "title": "Qur'on Tajweed Qoidalari: Rangli va Batafsil O'rganish | Noor Phonetic Quran",
-      "description": "Noor Phonetic Quran bilan Qur'on Tajweed qoidalarini o'rganing: o'qish paytida ranglar va izohlar, harflarning chiqish nuqtalari (Makharej), Noun Sâkinah va Waqf qoidalari. iOS va Android'da bepul.",
+      "title": "Qur'on Tajweed Qoidalari: Rangli va Batafsil O'rganish",
+      "description": "Tajvidni o'rganing: o'qish paytida ranglar va izohlar, harflar maxraji, nun sokin va vaqf qoidalari. iOS va Android'da bepul.",
       "keywords": "Tajweed qoidalari, Qur'on Tajweed, Tajweed o'rganish, rangli Tajweed, arab harflari Makharej, Noun Sakinah Tanwin, Waqf Ibtida, bepul Tajweed ilovasi",
       "ogTitle": "Qur'on Tajweed Qoidalari: Rangli va Batafsil O'rganish",
       "ogDescription": "O'qish paytida ranglar va izohlar, chiqish nuqtalari, Noun Sâkinah va Waqf qoidalari. Bepul Noor Phonetic Quran ilovasi."
@@ -2355,8 +2380,8 @@
   },
   "quizCoran": {
     "meta": {
-      "title": "Qur'on Viktorinasi: Bilimlaringizni O'ynab Sinang | Noor Phonetic Quran",
-      "description": "Noor Phonetic Quran'ning Qur'on Viktorinasi bilan Qur'on bilimingizni sinang: 21 savol, yutuqlar shkalasi, 50:50 jokerlar, tomoshabinlar so'rovi va do'stga qo'ng'iroq. iOS va Android'da bepul.",
+      "title": "Qur'on Viktorinasi: Bilimlaringizni O'ynab Sinang",
+      "description": "Noor Phonetic Quran Qur'on viktorinasi: 21 savol, yutuqlar zinapoyasi, 50:50 jokerlar, tomoshabinlar yordami va do'stga qo'ng'iroq. iOS va Android'da bepul.",
       "keywords": "Qur'on viktorinasi, Qur'on savol-javob o'yini, Qur'on bilimini sinash, islom viktorinasi, bepul Qur'on viktorinasi ilovasi, Qur'on savol va javoblari",
       "ogTitle": "Qur'on Viktorinasi: Bilimlaringizni O'ynab Sinang",
       "ogDescription": "21 savol, yutuqlar shkalasi, 50:50 jokerlar, tomoshabinlar so'rovi va do'stga qo'ng'iroq. Bepul Noor Phonetic Quran ilovasi."
@@ -2496,8 +2521,8 @@
   },
   "memorisationCoran": {
     "meta": {
-      "title": "Qur'onni Yodlash (Hifz): Audio Takrorlash va Viktorina bilan Ilova | Noor Phonetic Quran",
-      "description": "Noor Phonetic Quran ilovasi bilan Qur'onni (Hifz) yodlang: oyat-boyat audio takrorlash, so'zma-so'z rejim, takrorlash viktorinalari, ballar, darajalar va nishonlar. iOS va Android'da bepul.",
+      "title": "Qur'onni yodlash (hifz): audio takror va viktorina",
+      "description": "Qur'onni yodlang (hifz): oyatma-oyat audio takrorlash, so'zma-so'z rejim, takrorlash viktorinasi, ballar, darajalar va nishonlar. iOS va Android'da bepul.",
       "keywords": "Qur'onni yodlash, Hifz Qur'on, Qur'on yodlash ilovasi, Qur'onni yoddan o'rganish, oyat-boyat yodlash, bepul Hifz ilovasi",
       "ogTitle": "Qur'onni Yodlash (Hifz): Audio Takrorlash, Viktorina va Taraqqiyot Kuzatuvi",
       "ogDescription": "Audio takrorlash, so'zma-so'z rejim, viktorina va kunlik topshiriqlar bilan Qur'onni yodlang. Bepul Noor Phonetic Quran ilovasi."
@@ -2578,8 +2603,8 @@
   },
   "suiviRecitationIa": {
     "meta": {
-      "title": "Sun'iy Intellekt bilan Qur'on Qiroatini Kuzatish: Real Vaqtda So'zma-so'z Tuzatish | Noor Phonetic Quran",
-      "description": "Qur'onni ovoz chiqarib o'qing: Noor Phonetic Quran sun'iy intellekti har bir so'zni real vaqtda kuzatadi, xatolar va tushib qolgan so'zlarni ko'rsatadi, tajvidni tahlil qiladi va o'sishingizni kuzatadi. iOS va Android'da bepul.",
+      "title": "Sun'iy intellekt bilan Qur'on qiroatini kuzatish",
+      "description": "Qur'onni ovoz chiqarib o'qing: sun'iy intellekt har bir so'zni kuzatadi, xatolarni ko'rsatadi, tajvid va o'sishingizni tahlil qiladi. iOS va Android'da bepul.",
       "keywords": "sun'iy intellekt Qur'on qiroati, Qur'on qiroatini tekshirish, Qur'on qiroatini tuzatish, sun'iy intellekt bilan Qur'on yodlash, Qur'on qiroati ilovasi",
       "ogTitle": "Sun'iy Intellekt bilan Qur'on Qiroatini Kuzatish: Real Vaqtda So'zma-so'z Tuzatish",
       "ogDescription": "Ovoz chiqarib o'qing: sun'iy intellekt har bir so'zni kuzatadi, xatolaringizni ko'rsatadi va o'sishingizni kuzatadi. Bepul Noor Phonetic Quran ilovasi."
@@ -2670,6 +2695,341 @@
       "tajweed": "Tajweed Qoidalari",
       "correction": "Qiroatni to'g'irlash",
       "allFeatures": "Barcha funksiyalar"
+    }
+  },
+  "warshQaloun": {
+    "meta": {
+      "title": "Varsh va Qolun mushafi: Qur'onni o'qing va tinglang",
+      "description": "Qur'onni Varsh va Qolun rivoyatida o'qing: bosma mushaf yoki matn, har bir rivoyat qorilari va sun'iy intellekt bilan kuzatish. Noor Phonetic Quran ilovasi.",
+      "keywords": "Varsh Qur'on, Varsh mushafi, Qolun Qur'on, Qolun mushafi, Varsh rivoyati, Varsh Qur'on ilovasi",
+      "ogTitle": "Varsh va Qolun mushafi: Qur'onni o'qing va tinglang",
+      "ogDescription": "Varsh va Qolun rivoyatidagi Qur'on: bosma mushaf, har bir rivoyat qorilari va SI bilan kuzatish."
+    },
+    "breadcrumb": {
+      "home": "Bosh sahifa",
+      "current": "Varsh va Qolun mushafi"
+    },
+    "hero": {
+      "title": "Varsh va Qolun mushafi: Qur'onni o'z qiroatingizda o'qing va tinglang",
+      "subtitle": "Hafs, Varsh yoki Qolunni tanlang: mushaf, qorilar va qiroatni kuzatish siz o'qiyotgan rivoyatga moslashadi.",
+      "googlePlay": "Google Play",
+      "appStore": "App Store"
+    },
+    "intro": {
+      "title": "Qur'on sizning rivoyatingizda",
+      "paragraphs": [
+        "Osimdan Hafs rivoyati dunyoda eng keng tarqalgan qiroatdir, ammo Mag'rib va G'arbiy Afrikada ko'pchilik Qur'onni Nofi'dan Varsh, Liviya va Tunisda esa Nofi'dan Qolun rivoyatida o'rganadi va o'qiydi.",
+        "Noor Phonetic Quran uchala qiroatni taklif qiladi: Varsh va Qolun bosma mushafi, matn ko'rinishi, har bir rivoyat qorilari va sun'iy intellekt bilan qiroatni kuzatish."
+      ]
+    },
+    "features": {
+      "title": "Varsh yoki Qolun rivoyatida qanday o'qiladi?",
+      "items": [
+        {
+          "title": "Qiroatingizni tanlang",
+          "description": "sozlamalarda Hafs, Varsh yoki Qolunni tanlang: sahifalar tanlangan rivoyatda ko'rsatiladi."
+        },
+        {
+          "title": "Bosma mushaf yoki matnda o'qing",
+          "description": "Varsh va Qolun bosma mushafi yoki o'qish oson matn; bir marta yuklab olinadi, so'ng internetsiz ishlaydi."
+        },
+        {
+          "title": "O'z rivoyatingiz qorisini tinglang",
+          "description": "qorilar ro'yxatida har birining qiroati ko'rsatilgan, oyatma-oyat tinglash bilan."
+        },
+        {
+          "title": "Sun'iy intellekt kuzatuvida o'qing",
+          "description": "so'zma-so'z kuzatish Varsh va Qolunda ham qiroatingizni tekshiradi."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Varsh va Qolun mushafi haqida savollar",
+      "items": [
+        {
+          "question": "Hafs, Varsh va Qolun o'rtasidagi farq nima?",
+          "answer": "Ular Qur'on qiroatining sahih rivoyatlaridir. Ba'zi harakatlar, maddlar, hamzaning talaffuzi va bir necha oyatning raqamlanishida farq qiladi."
+        },
+        {
+          "question": "Varshda fonetik matn bormi?",
+          "answer": "Yo'q, fonetik transkripsiya faqat Hafs uchun mavjud. Varsh va Qolunda ilova arabcha matnni ko'rsatadi."
+        },
+        {
+          "question": "Sun'iy intellekt kuzatuvi Varshda ishlaydimi?",
+          "answer": "Ha, so'zma-so'z kuzatish Varsh va Qolunda ishlaydi. Tajvid tahlili esa faqat Hafs uchun."
+        }
+      ]
+    },
+    "related": {
+      "title": "Shuningdek ko'ring"
+    }
+  },
+  "radioTv": {
+    "meta": {
+      "title": "Qur'on radiosi va Qur'on TV jonli efirda",
+      "description": "170 dan ortiq Qur'on qiroati radiosi va Qur'on hamda Sunna TV kanallari jonli efirda, sevimlilar va fonda tinglash bilan. Noor Phonetic Quran ilovasi.",
+      "keywords": "Qur'on radiosi, jonli Qur'on radiosi, Qur'onni jonli tinglash, Qur'on TV jonli, Makka Qur'on kanali, Madina Sunna kanali",
+      "ogTitle": "Qur'on radiosi va Qur'on TV jonli efirda",
+      "ogDescription": "170 dan ortiq Qur'on qiroati radiosi va Qur'on hamda Sunna kanallari jonli efirda."
+    },
+    "breadcrumb": {
+      "home": "Bosh sahifa",
+      "current": "Qur'on radiosi va TV"
+    },
+    "hero": {
+      "title": "Qur'on radiosi va Qur'on TV jonli efirda",
+      "subtitle": "Qur'onni istalgan vaqtda tinglang: 170 dan ortiq qiroat stansiyasi va Qur'on hamda Sunna TV kanallari jonli efirda, bitta ilovada.",
+      "googlePlay": "Google Play",
+      "appStore": "App Store"
+    },
+    "intro": {
+      "title": "Qayerda bo'lmang, Qur'on uzluksiz",
+      "paragraphs": [
+        "Noor Phonetic Quran butun dunyo qorilarining Qur'on qiroatiga bag'ishlangan 170 dan ortiq radiostansiyasini hamda Qur'on va Sunna TV kanallarini jonli efirda jamlaydi.",
+        "Tinglash fonda davom etadi, qulf ekranida boshqaruv bilan — yo'lda, ishda yoki dam olishda hamroh bo'ladi."
+      ]
+    },
+    "features": {
+      "title": "Qur'on radiosi va TV qanday tinglanadi?",
+      "items": [
+        {
+          "title": "Radio yoki jonli TV ni oching",
+          "description": "ilova menyusidan radiostansiyalar yoki TV kanallariga o'ting."
+        },
+        {
+          "title": "Stansiyani tanlang",
+          "description": "qiroat stansiyalarini ko'rib chiqing; imkon bo'lsa, nomlari tilingizda ko'rsatiladi."
+        },
+        {
+          "title": "Sevimlilarga qo'shing",
+          "description": "sevimli stansiyalaringizni bir bosishda topish uchun yoningizda saqlang."
+        },
+        {
+          "title": "Fonda tinglang",
+          "description": "ekran o'chiq bo'lsa ham ijro davom etadi, qulf ekranidan ijro va pauza."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Qur'on radiosi va TV haqida savollar",
+      "items": [
+        {
+          "question": "Internet kerakmi?",
+          "answer": "Ha, radio va televideniye jonli efirda uzatiladi va internet aloqasini talab qiladi."
+        },
+        {
+          "question": "Qaysi TV kanallari bor?",
+          "answer": "Qur'on va Sunna kanallari, jonli efirda."
+        },
+        {
+          "question": "Ekran o'chiq holda tinglash mumkinmi?",
+          "answer": "Ha, ijro fonda davom etadi va qulf ekranidan boshqariladi."
+        }
+      ]
+    },
+    "related": {
+      "title": "Shuningdek ko'ring"
+    }
+  },
+  "adhkar": {
+    "meta": {
+      "title": "Ertalabki va kechki azkorlar fonetik yozuvda",
+      "description": "Ertalabki, kechki, uyqu oldidan va namozdan keyingi azkorlar arabcha, fonetik va tarjima bilan, hisoblagich bilan. Noor Phonetic Quran ilovasi.",
+      "keywords": "ertalabki azkorlar, kechki azkorlar, azkorlar lotin yozuvida, ertalabki duolar, zikr, uyqu oldidan azkorlar, azkorlar ilovasi",
+      "ogTitle": "Ertalabki va kechki azkorlar fonetik yozuvda",
+      "ogDescription": "Ertalabki, kechki, uyqu oldidan va namozdan keyingi azkorlar arabcha, fonetik va tarjima bilan."
+    },
+    "breadcrumb": {
+      "home": "Bosh sahifa",
+      "current": "Ertalabki va kechki azkorlar"
+    },
+    "hero": {
+      "title": "Ertalabki va kechki azkorlar fonetik yozuvda",
+      "subtitle": "Arabcha o'qiy olmasangiz ham kunlik duolarni o'qing: har bir zikr arabcha, fonetik va tarjima bilan, takrorlarni hisoblash uchun hisoblagich bilan.",
+      "googlePlay": "Google Play",
+      "appStore": "App Store"
+    },
+    "intro": {
+      "title": "Azkorlar — kunning har lahzasi uchun zikr",
+      "paragraphs": [
+        "Azkorlar Sunnatda kelgan duolar va Allohni zikr qilishdir; ular belgilangan vaqtlarda o'qiladi: uyg'onganda, kechqurun, uxlashdan oldin va namozdan keyin.",
+        "Noor Phonetic Quran ertalabki, kechki, uyqu oldidan va namozdan keyingi azkorlarni jamlaydi. Har bir duo arabcha, arab tilini bilmasdan o'qish uchun fonetik yozuvda va tarjimasi bilan berilgan."
+      ]
+    },
+    "features": {
+      "title": "Ilova bilan azkorlarni qanday o'qiysiz?",
+      "items": [
+        {
+          "title": "Vaqtni tanlang",
+          "description": "ertalabki, kechki, uyqu oldidan yoki namozdan keyingi azkorlar."
+        },
+        {
+          "title": "Arabcha yoki fonetik o'qing",
+          "description": "har bir zikr arabcha, fonetik va tarjima bilan ko'rsatiladi."
+        },
+        {
+          "title": "Takrorlarni sanang",
+          "description": "har takrorda hisoblagichni bosing: tavsiya etilgan songa yetganingizni ko'rsatadi."
+        },
+        {
+          "title": "Tinglang va ulashing",
+          "description": "mavjud bo'lsa, qiroatni tinglang va duoni bir bosishda ulashing."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Azkorlar haqida savollar",
+      "items": [
+        {
+          "question": "Ertalabki va kechki azkorlar qachon o'qiladi?",
+          "answer": "Ulamolar odatda ertalabki azkorlarni tong otishdan quyosh chiqqunicha, kechkilarini esa asrdan quyosh botgunicha bo'lgan vaqtga belgilaydi."
+        },
+        {
+          "question": "Arab tilini bilmasdan o'qisa bo'ladimi?",
+          "answer": "Ha, har bir duo fonetik yozuvda va tarjimasi bilan berilgan."
+        },
+        {
+          "question": "Duoni ulashsa bo'ladimi?",
+          "answer": "Ha, har bir duoni yaqinlaringiz bilan bir bosishda ulashish mumkin."
+        }
+      ]
+    },
+    "related": {
+      "title": "Shuningdek ko'ring"
+    }
+  },
+  "lireCoranPhonetique": {
+    "meta": {
+      "title": "Arab tilini bilmasdan Qur'onni fonetik o'qish",
+      "description": "Qur'onning har bir oyatini fonetik yozuvda o'qing, har bir harf audiosi bilan arab tiliga xos tovushlarni o'rganing va talaffuzingizni tekshiring.",
+      "keywords": "Qur'on lotin yozuvida, Qur'on fonetik, Qur'on transliteratsiyasi, arab tilisiz Qur'on o'qish, Qur'on o'qishni o'rganish",
+      "ogTitle": "Arab tilini bilmasdan Qur'onni fonetik o'qish",
+      "ogDescription": "Qur'onning har bir oyati fonetik yozuvda, har bir harf audiosi va talaffuzni tekshirish."
+    },
+    "breadcrumb": {
+      "home": "Bosh sahifa",
+      "current": "Qur'onni fonetik o'qish"
+    },
+    "hero": {
+      "title": "Qur'onni fonetik o'qing, arab tilini bilmasangiz ham",
+      "subtitle": "Har bir oyat fonetik yozuvda, shuning uchun bugundan qiroat qilib, keyin o'z sur'atingizda arabcha matnga o'tasiz.",
+      "googlePlay": "Google Play",
+      "appStore": "App Store"
+    },
+    "intro": {
+      "title": "Arabcha o'qishni o'rganmasdan oldin Qur'on qiroati",
+      "paragraphs": [
+        "Noor Phonetic Quran Qur'onning har bir oyatini fonetik transkripsiyada ko'rsatadi: arab alifbosini o'rganmasdan arab tovushlarini lotin harflari bilan o'qiysiz.",
+        "Transliteratsiya qo'llanmasi tilingizda yo'q tovushlarni har bir harf audiosi bilan tushuntiradi, tajvid modullari (maxrajlar, qoidalar) esa arabcha matnga asta-sekin o'tishga yordam beradi."
+      ]
+    },
+    "features": {
+      "title": "Qur'onni fonetik qanday o'qiladi?",
+      "items": [
+        {
+          "title": "Fonetik yozuvni sahifama-sahifa o'qing",
+          "description": "transkripsiya mushafga mos, arabcha matn va tarjima yonida."
+        },
+        {
+          "title": "Arab tiliga xos tovushlarni o'rganing",
+          "description": "qo'llanma har bir belgini (ḥ, ṣ, ḍ, ṭ, ʿ…) arabcha harfi va yozuv bilan bog'laydi, qisqa va cho'ziq unlilar bilan birga."
+        },
+        {
+          "title": "Bir vaqtda tinglang",
+          "description": "oyatma-oyat audio o'qiyotganingizning aniq talaffuzini eshittiradi."
+        },
+        {
+          "title": "Talaffuzingizni tekshiring",
+          "description": "sun'iy intellekt kuzatuvida ovoz chiqarib o'qing va harflar maxrajini mashq qiling."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Qur'onni fonetik o'qish haqida savollar",
+      "items": [
+        {
+          "question": "Haqiqatan ham arab tilini bilmasdan Qur'on o'qisa bo'ladimi?",
+          "answer": "Fonetik yozuv birinchi kundan qiroat qilish imkonini beradi. Bu faqat yordam: arab alifbosi va tajvidni asta-sekin o'rganish qiroatni to'g'riroq qiladi."
+        },
+        {
+          "question": "Fonetik yozuv butun Qur'onni qamrab oladimi?",
+          "answer": "Ha, mushafning barcha 604 sahifasi, Hafs rivoyatida."
+        },
+        {
+          "question": "ḥ yoki ʿ ni qanday talaffuz qilishni qanday bilaman?",
+          "answer": "Ilovaning transliteratsiya qo'llanmasi har bir belgini arabcha harfi va audio yozuv bilan bog'laydi."
+        }
+      ]
+    },
+    "related": {
+      "title": "Shuningdek ko'ring"
+    }
+  },
+  "widgetVerset": {
+    "meta": {
+      "title": "Kun oyati vidjeti: bosh ekranda Qur'on",
+      "description": "Har kuni telefoningiz bosh ekranida Qur'ondan bir oyat, Android va iPhone'da, Noor Phonetic Quran'ning «Kun oyati» dasturi bilan bog'langan.",
+      "keywords": "Qur'on vidjeti, kun oyati vidjeti, kundalik Qur'on oyati, bosh ekranda Qur'on, islomiy vidjet Android, Qur'on vidjeti iPhone",
+      "ogTitle": "Kun oyati vidjeti: bosh ekranda Qur'on",
+      "ogDescription": "Har kuni telefoningiz bosh ekranida Qur'ondan bir oyat, Android va iPhone'da."
+    },
+    "breadcrumb": {
+      "home": "Bosh sahifa",
+      "current": "Kun oyati vidjeti"
+    },
+    "hero": {
+      "title": "Kun oyati vidjeti: bosh ekraningizda Qur'on",
+      "subtitle": "Har kuni yangi oyat, to'g'ridan-to'g'ri telefoningiz bosh ekranida — Qur'on doim ko'z oldingizda bo'lsin va yodlashingiz olg'a borsin.",
+      "googlePlay": "Google Play",
+      "appStore": "App Store"
+    },
+    "intro": {
+      "title": "Ilovani ochmasdan har kuni bir oyat",
+      "paragraphs": [
+        "Noor Phonetic Quran vidjeti har kuni telefoningiz bosh ekranida Qur'ondan bir oyatni ko'rsatadi — Android'da ham, iPhone'da ham.",
+        "U ilovaning «Kun oyati» dasturi bilan bog'langan: oyatni tinglash, tafsirini o'qish, yodlash, yozib olish va takrorlash, qadamma-qadam."
+      ]
+    },
+    "features": {
+      "title": "Kun oyati vidjetidan qanday foydalaniladi?",
+      "items": [
+        {
+          "title": "Vidjetni qo'shing",
+          "description": "bosh ekranni uzoq bosing, vidjetlarni oching va Noor Phonetic Quran'ni tanlang."
+        },
+        {
+          "title": "Har kuni yangi oyat oling",
+          "description": "vidjet har kuni avtomatik yangilanadi."
+        },
+        {
+          "title": "Bosh ekrandan olg'a boring",
+          "description": "Android'da +1 tugmasi ilovani ochmasdan joriy bosqichning bir takrorini qayd etadi."
+        },
+        {
+          "title": "Kun dasturiga amal qiling",
+          "description": "qorini tinglash, tafsir, yodlash, qiroatingizni yozib olish va takrorlash."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Kun oyati vidjeti haqida savollar",
+      "items": [
+        {
+          "question": "Vidjet iPhone'da ishlaydimi?",
+          "answer": "Ha, Android va iPhone'da. +1 tugmasi Android'da mavjud; iPhone'da vidjet oyatni ko'rsatadi va ilovani ochadi."
+        },
+        {
+          "question": "Vidjetni qanday qo'shaman?",
+          "answer": "Bosh ekranni uzoq bosing, vidjetlar ro'yxatini oching va Noor Phonetic Quran'ni tanlang."
+        },
+        {
+          "question": "Oyat har kuni o'zgaradimi?",
+          "answer": "Ha, vidjet har kuni avtomatik ravishda yangi oyat ko'rsatadi."
+        }
+      ]
+    },
+    "related": {
+      "title": "Shuningdek ko'ring"
     }
   }
 }

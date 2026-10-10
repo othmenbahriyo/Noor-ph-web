@@ -28,7 +28,12 @@
         "blog": "Blog",
         "aboutUs": "Kisah Kami",
         "ramadan2027": "Ramadan 2027",
-        "suiviRecitationIa": "Pemantauan bacaan dengan AI"
+        "suiviRecitationIa": "Pemantauan bacaan dengan AI",
+        "warshQaloun": "Mushaf Warsh dan Qalun",
+        "radioTv": "Radio dan TV Al-Qur'an langsung",
+        "adhkar": "Dzikir pagi dan petang",
+        "lireCoranPhonetique": "Membaca Al-Qur'an dengan latin",
+        "widgetVerset": "Widget ayat hari ini"
       }
     },
     "languageSwitcher": {
@@ -134,7 +139,7 @@
   "home": {
     "meta": {
       "title": "Noor Quran: Al-Qur'an Fonetik, Tajwid, Hafalan & Khataman",
-      "description": "Aplikasi Al-Qur'an fonetik yang lengkap: baca Al-Qur'an tanpa perlu bisa bahasa Arab, dengarkan audio secara offline, pelajari Tajwid dan makharijul huruf, hafalkan dengan mode permainan, dan pantau Khataman serta Adzkar Anda. Radio Al-Qur'an live. 80 ribu+ pengguna, 20+ bahasa, iOS dan Android.",
+      "description": "Baca Al-Qur'an dengan latin tanpa bisa bahasa Arab: audio offline, tajwid, hafalan, pemantauan bacaan dengan AI, dan khataman. 80 ribu+ pengguna.",
       "keywords": "Al-Qur'an fonetik, surah fonetik, aplikasi Al-Qur'an fonetik, belajar Al-Qur'an, transkripsi fonetik Al-Qur'an, Tajwid, makharijul huruf, hafalan Al-Qur'an, Hafalan, Khataman Al-Qur'an, Adzkar, radio Al-Qur'an live, mushaf, koreksi bacaan, kuis Al-Qur'an, program Ramadhan, Al-Qur'an audio offline",
       "ogTitle": "Noor Quran: Aplikasi Al-Qur'an Fonetik Lengkap (Membaca, Tajwid, Khataman)",
       "ogDescription": "Baca, dengarkan, dan hafalkan Al-Qur'an secara fonetik dan dalam bahasa Arab, meski belum menguasai bahasa Arab. Tajwid, koreksi bacaan, Khataman, Adzkar, dan radio Al-Qur'an live. Gratis, 20+ bahasa."
@@ -191,6 +196,7 @@
         {
           "icon": "fa-book",
           "title": "Transkripsi Fonetik",
+          "href": "/lire-coran-phonetique",
           "text": "Setiap ayat disertai transkripsi fonetik yang detail untuk pelafalan yang benar."
         },
         {
@@ -244,6 +250,24 @@
           "text": "Bacalah dengan suara keras: AI mengikuti setiap kata secara real-time, menandai kesalahan dan kata yang terlewat, menganalisis tajwid Anda, dan memantau kemajuan dari sesi ke sesi."
         },
         {
+          "icon": "fa-book-open",
+          "title": "Mushaf Warsh dan Qalun",
+          "href": "/mushaf-warsh-qaloun",
+          "text": "Baca Al-Qur'an dengan riwayat Warsh dan Qalun, dalam mushaf cetak atau teks, dengan qari setiap riwayat dan pemantauan bacaan dengan AI."
+        },
+        {
+          "icon": "fa-tower-broadcast",
+          "title": "Radio dan TV Al-Qur'an Langsung",
+          "href": "/radio-tv-coran",
+          "text": "Dengarkan lebih dari 170 radio murattal Al-Qur'an dan tonton siaran langsung saluran Al-Qur'an dan Sunnah."
+        },
+        {
+          "icon": "fa-hands-praying",
+          "title": "Dzikir Pagi dan Petang",
+          "href": "/adhkar-matin-soir",
+          "text": "Dzikir pagi, petang, sebelum tidur, dan setelah salat dalam bahasa Arab, latin, dan terjemahan, dengan penghitung pengulangan."
+        },
+        {
           "icon": "fa-microphone-alt",
           "title": "Koreksi Bacaan",
           "href": "/correction-recitation-coran",
@@ -258,6 +282,7 @@
         {
           "icon": "fa-mobile-screen-button",
           "title": "Widget Layar Utama",
+          "href": "/widget-verset-du-jour",
           "text": "Tampilkan ayat hari ini langsung di layar utama ponsel Anda dan jaga rutinitas membaca Anda selalu terlihat."
         }
       ]
@@ -1486,7 +1511,7 @@
   "cgu": {
     "meta": {
       "title": "Syarat dan Ketentuan Penggunaan - Noor Phonetic Quran",
-      "description": "Syarat dan ketentuan penggunaan Noor Phonetic Quran: akses layanan, akun pengguna, langganan Premium, hak kekayaan intelektual, tanggung jawab, dan hukum yang berlaku.",
+      "description": "Syarat dan ketentuan penggunaan Noor Phonetic Quran: akses layanan, akun, langganan Premium, kekayaan intelektual, dan tanggung jawab.",
       "keywords": "Syarat Ketentuan Noor Phonetic Quran, syarat dan ketentuan penggunaan, ketentuan penggunaan aplikasi Al-Qur'an"
     },
     "appName": "Noor Phonetic Quran",
@@ -1707,7 +1732,7 @@
   "reviews": {
     "meta": {
       "title": "Ulasan Pengguna - Noor Phonetic Quran",
-      "description": "Lihat lebih dari 160 ulasan terverifikasi dari pengguna Noor Phonetic Quran, aplikasi untuk belajar membaca, menghafal, dan mengkhatamkan Al-Qur'an secara fonetik, dengan penilaian rata-rata 5 bintang."
+      "description": "Lebih dari 160 ulasan terverifikasi tentang Noor Phonetic Quran, aplikasi untuk membaca, menghafal, dan melafalkan Al-Qur'an dengan latin. Rata-rata 5 bintang."
     },
     "eyebrow": "Ulasan Terverifikasi",
     "title": "Apa Kata Pengguna Kami",
@@ -1718,7 +1743,7 @@
   "aboutUs": {
     "meta": {
       "title": "Kisah kami: mengapa kami menciptakan Noor Phonetic Quran",
-      "description": "Temukan kisah di balik Noor Phonetic Quran: pertemuan dengan seorang saudari yang baru masuk Islam menginspirasi kami untuk membuat aplikasi yang membuat membaca Al-Qur'an mudah diakses oleh semua orang, bahkan tanpa bisa membaca bahasa Arab.",
+      "description": "Kisah Noor Phonetic Quran: seorang saudari yang baru memeluk Islam menginspirasi kami agar Al-Qur'an bisa dibaca semua orang, meski tanpa bisa bahasa Arab.",
       "ogTitle": "Kisah kami: mengapa kami menciptakan Noor Phonetic Quran",
       "ogDescription": "Semuanya dimulai dengan pertemuan seorang saudari yang baru masuk Islam dan tidak bisa membaca Al-Qur'an dalam bahasa Arab. Begitulah Noor Phonetic Quran lahir."
     },
@@ -1784,7 +1809,7 @@
   },
   "blog": {
     "meta": {
-      "title": "Blog - Tajwid, Hafalan dan Pembelajaran Al-Qur'an | Noor Phonetic Quran",
+      "title": "Blog - Tajwid, Hafalan dan Pembelajaran Al-Qur'an",
       "description": "Artikel dan panduan praktis tentang aturan Tajwid, metode menghafal Al-Qur'an (Hifz), dan belajar tilawah, oleh tim Noor Phonetic Quran."
     },
     "title": "Blog",
@@ -1800,8 +1825,8 @@
   },
   "audioCoran": {
     "meta": {
-      "title": "Audio Al-Qur'an Tersinkron: Beberapa Qari dan Dengarkan Secara Offline | Noor Phonetic Quran",
-      "description": "Dengarkan Al-Qur'an dengan audio tersinkron ayat demi ayat, pilih dari beberapa qari, dan unduh audio untuk didengarkan secara offline dengan Noor Phonetic Quran. Gratis di iOS dan Android.",
+      "title": "Audio Al-Qur'an: Para Qari dan Dengarkan Offline",
+      "description": "Dengarkan Al-Qur'an ayat demi ayat dengan audio tersinkron, pilih qari Anda, dan unduh surah untuk didengarkan secara offline. Gratis di iOS dan Android.",
       "keywords": "audio Al-Qur'an, bacaan Al-Qur'an audio, beberapa qari Al-Qur'an, Al-Qur'an audio offline, unduh audio Al-Qur'an, dengarkan Al-Qur'an, audio tersinkron Al-Qur'an, qari aplikasi Al-Qur'an",
       "ogTitle": "Audio Al-Qur'an Tersinkron: Beberapa Qari dan Dengarkan Secara Offline",
       "ogDescription": "Audio tersinkron ayat demi ayat, beberapa qari, dan pengunduhan offline. Aplikasi gratis Noor Phonetic Quran."
@@ -2055,8 +2080,8 @@
   },
   "correctionRecitation": {
     "meta": {
-      "title": "Koreksi Bacaan Al-Qur'an: Rekam dan Berkembanglah | Noor Phonetic Quran",
-      "description": "Rekam bacaan Al-Qur'an Anda dan dapatkan koreksi yang dipersonalisasi dengan Noor Phonetic Quran: peningkatan pelafalan dan kepatuhan terhadap kaidah Tajwid. Gratis di iOS dan Android.",
+      "title": "Koreksi Bacaan Al-Qur'an: Rekam dan Berkembanglah",
+      "description": "Rekam bacaan Al-Qur'an Anda dan dapatkan koreksi yang dipersonalisasi dengan Noor Phonetic Quran: peningkatan pelafalan dan kepatuhan terhadap kaidah Tajwid.",
       "keywords": "koreksi bacaan Al-Qur'an, perbaiki bacaan Anda, koreksi Tajwid, rekam bacaan Anda, aplikasi koreksi Al-Qur'an, belajar membaca Al-Qur'an dengan benar",
       "ogTitle": "Koreksi Bacaan Al-Qur'an: Rekam dan Berkembanglah",
       "ogDescription": "Rekam bacaan Anda dan dapatkan koreksi yang dipersonalisasi untuk berkembang dalam pelafalan dan Tajwid. Aplikasi gratis Noor Phonetic Quran."
@@ -2126,8 +2151,8 @@
   },
   "ramadan2027": {
     "meta": {
-      "title": "Ramadan 2027: Tanggal, Hitung Mundur, dan Persiapan | Noor Phonetic Quran",
-      "description": "Ramadan 2027 dimulai pada 8 Februari (tanggal perkiraan). Siapkan Khataman, program harian, dan Adzkar Anda dengan Noor Phonetic Quran, aplikasi Al-Qur'an fonetik gratis.",
+      "title": "Ramadan 2027: Tanggal, Hitung Mundur, dan Persiapan",
+      "description": "Ramadan 2027 dimulai 8 Februari (perkiraan). Siapkan khataman, program harian, dan dzikir Anda dengan Noor Phonetic Quran.",
       "keywords": "Ramadan 2027, tanggal Ramadan 2027, hitung mundur Ramadan, persiapan Ramadan, Khataman Ramadan, program Ramadan Al-Qur'an",
       "ogTitle": "Ramadan 2027: Tanggal, Hitung Mundur, dan Persiapan",
       "ogDescription": "Ramadan 2027 dimulai pada 8 Februari (tanggal perkiraan). Siapkan Khataman dan program harian Anda dengan Noor Phonetic Quran."
@@ -2176,8 +2201,8 @@
   },
   "khatmaCoran": {
     "meta": {
-      "title": "Khataman Al-Qur'an: Aplikasi untuk Merencanakan dan Melacak Bacaan Lengkap | Noor Phonetic Quran",
-      "description": "Rencanakan Khataman Anda (bacaan lengkap Al-Qur'an) dengan aplikasi Noor Phonetic Quran: target harian, pelacakan kemajuan, rentetan hari (streak), dan pengingat. Gratis di iOS dan Android.",
+      "title": "Khataman Al-Qur'an: Rencanakan dan Pantau Bacaan",
+      "description": "Rencanakan khataman Al-Qur'an Anda: target harian, pemantauan kemajuan, rentetan hari, dan pengingat. Gratis di iOS dan Android.",
       "keywords": "Khataman Al-Qur'an, aplikasi khataman, membaca Al-Qur'an lengkap, rencana bacaan Al-Qur'an, target khataman Ramadan, pelacakan bacaan Al-Qur'an, menyelesaikan Al-Qur'an",
       "ogTitle": "Khataman Al-Qur'an: Rencanakan dan Lacak Bacaan Lengkap Anda",
       "ogDescription": "Rencanakan Khataman Anda dengan target harian, pelacakan kemajuan, dan pengingat. Aplikasi gratis Noor Phonetic Quran."
@@ -2276,8 +2301,8 @@
   },
   "tajweedCoran": {
     "meta": {
-      "title": "Kaidah Tajwid Al-Qur'an: Pembelajaran Berwarna dan Terperinci | Noor Phonetic Quran",
-      "description": "Pelajari kaidah Tajwid Al-Qur'an dengan Noor Phonetic Quran: warna dan anotasi saat membaca, titik artikulasi huruf (Makharij), kaidah Nun Sakinah dan Waqf. Gratis di iOS dan Android.",
+      "title": "Kaidah Tajwid Al-Qur'an: Warna dan Penjelasan",
+      "description": "Pelajari kaidah Tajwid Al-Qur'an dengan Noor Phonetic Quran: warna dan anotasi saat membaca, titik artikulasi huruf (Makharij), kaidah Nun Sakinah dan Waqf.",
       "keywords": "kaidah Tajwid, Tajwid Al-Qur'an, belajar Tajwid, Tajwid berwarna, Makharij huruf Arab, Nun Sakinah Tanwin, Waqf Ibtida, aplikasi Tajwid gratis",
       "ogTitle": "Kaidah Tajwid Al-Qur'an: Pembelajaran Berwarna dan Terperinci",
       "ogDescription": "Warna dan anotasi saat membaca, titik artikulasi, kaidah Nun Sakinah dan Waqf. Aplikasi gratis Noor Phonetic Quran."
@@ -2355,8 +2380,8 @@
   },
   "quizCoran": {
     "meta": {
-      "title": "Kuis Al-Qur'an: Uji Pengetahuan Al-Qur'an Anda Sambil Bersenang-senang | Noor Phonetic Quran",
-      "description": "Uji pengetahuan Al-Qur'an Anda dengan Kuis Al-Qur'an dari Noor Phonetic Quran: 21 pertanyaan, skala hadiah, joker 50:50, jajak pendapat penonton, dan telepon teman. Gratis di iOS dan Android.",
+      "title": "Kuis Al-Qur'an: Uji Pengetahuan Al-Qur'an Anda",
+      "description": "Kuis Al-Qur'an dari Noor Phonetic Quran: 21 pertanyaan, tangga hadiah, joker 50:50, bantuan penonton, dan telepon teman. Gratis di iOS dan Android.",
       "keywords": "kuis Al-Qur'an, kuis Islami, permainan pertanyaan Al-Qur'an, uji pengetahuan Al-Qur'an, kuis islam, aplikasi kuis Al-Qur'an gratis, pertanyaan Al-Qur'an dan jawaban",
       "ogTitle": "Kuis Al-Qur'an: Uji Pengetahuan Al-Qur'an Anda Sambil Bersenang-senang",
       "ogDescription": "21 pertanyaan, skala hadiah, joker 50:50, jajak pendapat penonton, dan telepon teman. Aplikasi gratis Noor Phonetic Quran."
@@ -2496,8 +2521,8 @@
   },
   "memorisationCoran": {
     "meta": {
-      "title": "Menghafal Al-Qur'an (Hifz): Aplikasi dengan Pengulangan Audio dan Kuis | Noor Phonetic Quran",
-      "description": "Hafalkan Al-Qur'an (Hifz) dengan aplikasi Noor Phonetic Quran: pengulangan audio ayat demi ayat, mode kata per kata, kuis ulasan, poin, level, dan lencana. Gratis di iOS dan Android.",
+      "title": "Menghafal Al-Qur'an (Hifz): Pengulangan Audio dan Kuis",
+      "description": "Hafalkan Al-Qur'an (Hifz) dengan aplikasi Noor Phonetic Quran: pengulangan audio ayat demi ayat, mode kata per kata, kuis ulasan, poin, level, dan lencana.",
       "keywords": "menghafal Al-Qur'an, Hifz Al-Qur'an, aplikasi hafalan Al-Qur'an, belajar Al-Qur'an dengan hafalan, hafalan ayat demi ayat, aplikasi Hifz gratis",
       "ogTitle": "Menghafal Al-Qur'an (Hifz): Pengulangan Audio, Kuis, dan Pelacakan Kemajuan",
       "ogDescription": "Hafalkan Al-Qur'an dengan pengulangan audio, mode kata per kata, kuis, dan tantangan harian. Aplikasi gratis Noor Phonetic Quran."
@@ -2578,8 +2603,8 @@
   },
   "suiviRecitationIa": {
     "meta": {
-      "title": "Pemantauan Bacaan Al-Qur'an dengan AI: Koreksi Kata demi Kata secara Real-Time | Noor Phonetic Quran",
-      "description": "Bacalah Al-Qur'an dengan suara keras: AI Noor Phonetic Quran mengikuti setiap kata secara real-time, menandai kesalahan dan kata terlewat, menganalisis tajwid, dan memantau kemajuan Anda. Gratis di iOS dan Android.",
+      "title": "Pemantauan Bacaan Al-Qur'an dengan AI",
+      "description": "Bacalah Al-Qur'an dengan suara keras: AI mengikuti setiap kata secara real-time, menandai kesalahan, menganalisis tajwid, dan memantau kemajuan. Gratis.",
       "keywords": "bacaan Al-Qur'an AI, cek bacaan Al-Qur'an, koreksi bacaan Al-Qur'an, hafalan Al-Qur'an dengan AI, aplikasi bacaan Al-Qur'an",
       "ogTitle": "Pemantauan Bacaan Al-Qur'an dengan AI: Koreksi Kata demi Kata secara Real-Time",
       "ogDescription": "Bacalah dengan suara keras: AI mengikuti setiap kata, menandai kesalahan, dan memantau kemajuan Anda. Aplikasi gratis Noor Phonetic Quran."
@@ -2670,6 +2695,341 @@
       "tajweed": "Kaidah Tajwid",
       "correction": "Koreksi Bacaan",
       "allFeatures": "Semua fitur"
+    }
+  },
+  "warshQaloun": {
+    "meta": {
+      "title": "Mushaf Warsh dan Qalun: Baca dan Dengarkan Al-Qur'an",
+      "description": "Baca Al-Qur'an dengan Warsh dan Qalun: mushaf cetak atau teks, qari setiap riwayat, dan pemantauan bacaan dengan AI. Aplikasi Noor Phonetic Quran.",
+      "keywords": "Al-Qur'an Warsh, mushaf Warsh, Al-Qur'an Qalun, mushaf Qalun, riwayat Warsh, aplikasi Al-Qur'an Warsh",
+      "ogTitle": "Mushaf Warsh dan Qalun: Baca dan Dengarkan Al-Qur'an",
+      "ogDescription": "Al-Qur'an riwayat Warsh dan Qalun: mushaf cetak, qari setiap riwayat, dan pemantauan dengan AI."
+    },
+    "breadcrumb": {
+      "home": "Beranda",
+      "current": "Mushaf Warsh dan Qalun"
+    },
+    "hero": {
+      "title": "Mushaf Warsh dan Qalun: Baca dan Dengarkan Al-Qur'an dengan Riwayat Anda",
+      "subtitle": "Pilih Hafs, Warsh, atau Qalun: mushaf, qari, dan pemantauan bacaan menyesuaikan riwayat yang Anda baca.",
+      "googlePlay": "Google Play",
+      "appStore": "App Store"
+    },
+    "intro": {
+      "title": "Al-Qur'an dengan riwayat Anda",
+      "paragraphs": [
+        "Hafs 'an 'Ashim adalah riwayat yang paling tersebar di dunia, tetapi di Maghrib dan Afrika Barat banyak yang belajar dan membaca Al-Qur'an dengan Warsh 'an Nafi', atau Qalun 'an Nafi' di Libya dan Tunisia.",
+        "Noor Phonetic Quran menyediakan ketiga riwayat: mushaf cetak Warsh dan Qalun, tampilan teks, qari setiap riwayat, dan pemantauan bacaan dengan AI."
+      ]
+    },
+    "features": {
+      "title": "Bagaimana membaca dengan riwayat Warsh atau Qalun?",
+      "items": [
+        {
+          "title": "Pilih riwayat Anda",
+          "description": "pilih Hafs, Warsh, atau Qalun di pengaturan: halaman tampil dengan riwayat yang dipilih."
+        },
+        {
+          "title": "Baca mushaf cetak atau teks",
+          "description": "mushaf cetak Warsh dan Qalun atau teks yang lebih mudah dibaca; diunduh sekali lalu berfungsi tanpa internet."
+        },
+        {
+          "title": "Dengarkan qari riwayat Anda",
+          "description": "daftar qari menunjukkan riwayat masing-masing, dengan pemutaran ayat demi ayat."
+        },
+        {
+          "title": "Baca dengan pemantauan AI",
+          "description": "pemantauan kata demi kata juga berfungsi dalam Warsh dan Qalun untuk memeriksa bacaan Anda."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Pertanyaan umum tentang mushaf Warsh dan Qalun",
+      "items": [
+        {
+          "question": "Apa perbedaan Hafs, Warsh, dan Qalun?",
+          "answer": "Ketiganya adalah riwayat bacaan Al-Qur'an yang sahih. Perbedaannya antara lain pada beberapa harakat, mad, pengucapan hamzah, dan penomoran beberapa ayat."
+        },
+        {
+          "question": "Apakah teks fonetik tersedia dalam Warsh?",
+          "answer": "Tidak, transkripsi fonetik hanya tersedia dalam Hafs. Dalam Warsh dan Qalun, aplikasi menampilkan teks Arab."
+        },
+        {
+          "question": "Apakah pemantauan AI berfungsi dalam Warsh?",
+          "answer": "Ya, pemantauan kata demi kata berfungsi dalam Warsh dan Qalun. Analisis tajwid hanya tersedia untuk Hafs."
+        }
+      ]
+    },
+    "related": {
+      "title": "Temukan juga"
+    }
+  },
+  "radioTv": {
+    "meta": {
+      "title": "Radio Al-Qur'an dan TV Al-Qur'an Langsung",
+      "description": "Lebih dari 170 radio murattal Al-Qur'an dan saluran TV Al-Qur'an dan Sunnah langsung, dengan favorit dan pemutaran di latar belakang.",
+      "keywords": "radio Al-Qur'an, radio Al-Qur'an live, dengar Al-Qur'an langsung, TV Al-Qur'an live, saluran Al-Qur'an Makkah, saluran Sunnah Madinah",
+      "ogTitle": "Radio Al-Qur'an dan TV Al-Qur'an Langsung",
+      "ogDescription": "Lebih dari 170 radio murattal Al-Qur'an dan saluran Al-Qur'an dan Sunnah langsung."
+    },
+    "breadcrumb": {
+      "home": "Beranda",
+      "current": "Radio dan TV Al-Qur'an"
+    },
+    "hero": {
+      "title": "Radio Al-Qur'an dan TV Al-Qur'an Langsung",
+      "subtitle": "Dengarkan Al-Qur'an kapan saja: lebih dari 170 stasiun murattal dan saluran TV Al-Qur'an dan Sunnah langsung, dalam satu aplikasi.",
+      "googlePlay": "Google Play",
+      "appStore": "App Store"
+    },
+    "intro": {
+      "title": "Al-Qur'an tanpa henti, di mana pun Anda berada",
+      "paragraphs": [
+        "Noor Phonetic Quran menghimpun lebih dari 170 stasiun radio yang khusus menyiarkan bacaan Al-Qur'an oleh qari dari seluruh dunia, beserta saluran TV Al-Qur'an dan Sunnah secara langsung.",
+        "Pemutaran berlanjut di latar belakang dengan kontrol di layar kunci, menemani perjalanan, pekerjaan, atau waktu istirahat Anda."
+      ]
+    },
+    "features": {
+      "title": "Bagaimana mendengarkan radio dan TV Al-Qur'an?",
+      "items": [
+        {
+          "title": "Buka Radio atau TV Langsung",
+          "description": "dari menu aplikasi, masuk ke stasiun radio atau saluran TV."
+        },
+        {
+          "title": "Pilih stasiun",
+          "description": "jelajahi stasiun murattal; namanya tampil dalam bahasa Anda bila tersedia."
+        },
+        {
+          "title": "Tambahkan favorit",
+          "description": "simpan stasiun favorit agar bisa dibuka dengan sekali ketuk."
+        },
+        {
+          "title": "Dengarkan di latar belakang",
+          "description": "pemutaran berlanjut saat layar mati, dengan putar dan jeda dari layar kunci."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Pertanyaan umum tentang radio dan TV Al-Qur'an",
+      "items": [
+        {
+          "question": "Apakah perlu koneksi internet?",
+          "answer": "Ya, radio dan TV disiarkan langsung dan memerlukan koneksi internet."
+        },
+        {
+          "question": "Saluran TV apa saja yang tersedia?",
+          "answer": "Saluran Al-Qur'an dan Sunnah, disiarkan langsung."
+        },
+        {
+          "question": "Bisakah mendengarkan saat layar mati?",
+          "answer": "Ya, pemutaran berlanjut di latar belakang dan bisa dikontrol dari layar kunci."
+        }
+      ]
+    },
+    "related": {
+      "title": "Temukan juga"
+    }
+  },
+  "adhkar": {
+    "meta": {
+      "title": "Dzikir Pagi dan Petang Lengkap dengan Latin",
+      "description": "Dzikir pagi, petang, sebelum tidur, dan setelah salat dalam bahasa Arab, latin, dan terjemahan, dengan penghitung pengulangan. Aplikasi Noor Phonetic Quran.",
+      "keywords": "dzikir pagi, dzikir petang, dzikir pagi petang latin, doa pagi, dzikir sebelum tidur, dzikir setelah salat, aplikasi dzikir",
+      "ogTitle": "Dzikir Pagi dan Petang Lengkap dengan Latin",
+      "ogDescription": "Dzikir pagi, petang, sebelum tidur, dan setelah salat dalam bahasa Arab, latin, dan terjemahan."
+    },
+    "breadcrumb": {
+      "home": "Beranda",
+      "current": "Dzikir pagi dan petang"
+    },
+    "hero": {
+      "title": "Dzikir Pagi dan Petang Lengkap dengan Latin",
+      "subtitle": "Amalkan doa-doa harian meski belum lancar membaca Arab: setiap dzikir dalam bahasa Arab, latin, dan terjemahan, dengan penghitung untuk memantau pengulangan Anda.",
+      "googlePlay": "Google Play",
+      "appStore": "App Store"
+    },
+    "intro": {
+      "title": "Dzikir, pengingat untuk setiap waktu dalam sehari",
+      "paragraphs": [
+        "Dzikir adalah doa dan ucapan mengingat Allah yang diajarkan dalam Sunnah, dibaca pada waktu tertentu: saat bangun, petang hari, sebelum tidur, dan setelah salat.",
+        "Noor Phonetic Quran menghimpun dzikir pagi, petang, sebelum tidur, dan setelah salat. Setiap doa ditampilkan dalam bahasa Arab, dalam tulisan latin agar bisa dibaca tanpa menguasai Arab, dan dengan terjemahannya."
+      ]
+    },
+    "features": {
+      "title": "Bagaimana membaca dzikir dengan aplikasi?",
+      "items": [
+        {
+          "title": "Pilih waktunya",
+          "description": "dzikir pagi, petang, sebelum tidur, atau setelah salat."
+        },
+        {
+          "title": "Baca dalam Arab atau latin",
+          "description": "setiap dzikir ditampilkan dalam bahasa Arab, latin, dan terjemahan."
+        },
+        {
+          "title": "Hitung pengulangan",
+          "description": "ketuk penghitung setiap kali mengulang: progres menunjukkan saat jumlah yang dianjurkan tercapai."
+        },
+        {
+          "title": "Dengarkan dan bagikan",
+          "description": "dengarkan bacaan bila tersedia dan bagikan doa dengan sekali ketuk."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Pertanyaan umum tentang dzikir",
+      "items": [
+        {
+          "question": "Kapan dzikir pagi dan petang dibaca?",
+          "answer": "Para ulama umumnya menyebut dzikir pagi antara fajar dan terbit matahari, dan dzikir petang antara Asar dan terbenam matahari."
+        },
+        {
+          "question": "Bisakah dibaca tanpa menguasai bahasa Arab?",
+          "answer": "Ya, setiap doa ditulis dalam huruf latin dan disertai terjemahan."
+        },
+        {
+          "question": "Bisakah saya membagikan doa?",
+          "answer": "Ya, setiap doa bisa dibagikan kepada orang tercinta dengan sekali ketuk."
+        }
+      ]
+    },
+    "related": {
+      "title": "Temukan juga"
+    }
+  },
+  "lireCoranPhonetique": {
+    "meta": {
+      "title": "Membaca Al-Qur'an dengan Latin tanpa Bisa Bahasa Arab",
+      "description": "Baca setiap ayat Al-Qur'an dalam tulisan latin, pelajari bunyi khas bahasa Arab dengan audio setiap huruf, dan periksa pelafalan Anda.",
+      "keywords": "Al-Qur'an latin, baca Al-Qur'an latin, transliterasi Al-Qur'an, membaca Al-Qur'an tanpa bisa Arab, belajar membaca Al-Qur'an",
+      "ogTitle": "Membaca Al-Qur'an dengan Latin tanpa Bisa Bahasa Arab",
+      "ogDescription": "Setiap ayat Al-Qur'an dalam tulisan latin, audio setiap huruf, dan pemeriksaan pelafalan."
+    },
+    "breadcrumb": {
+      "home": "Beranda",
+      "current": "Membaca Al-Qur'an dengan latin"
+    },
+    "hero": {
+      "title": "Membaca Al-Qur'an dengan Latin, Meski Belum Bisa Bahasa Arab",
+      "subtitle": "Setiap ayat ditulis dalam huruf latin agar Anda bisa membaca mulai hari ini, lalu beralih ke teks Arab sesuai kecepatan Anda.",
+      "googlePlay": "Google Play",
+      "appStore": "App Store"
+    },
+    "intro": {
+      "title": "Membaca Al-Qur'an sebelum bisa membaca huruf Arab",
+      "paragraphs": [
+        "Noor Phonetic Quran menampilkan setiap ayat Al-Qur'an dalam transkripsi fonetik: Anda membaca bunyi bahasa Arab dengan huruf latin, tanpa harus mempelajari huruf Arab terlebih dahulu.",
+        "Panduan transliterasi menjelaskan bunyi yang tidak ada dalam bahasa Anda, dengan audio setiap huruf, dan modul tajwid (makharijul huruf, hukum bacaan) membantu Anda beralih ke teks Arab secara bertahap."
+      ]
+    },
+    "features": {
+      "title": "Bagaimana membaca Al-Qur'an dengan latin?",
+      "items": [
+        {
+          "title": "Baca tulisan latin halaman demi halaman",
+          "description": "transkripsi mengikuti mushaf, di samping teks Arab dan terjemahan."
+        },
+        {
+          "title": "Pelajari bunyi khas bahasa Arab",
+          "description": "panduan menghubungkan setiap simbol (ḥ, ṣ, ḍ, ṭ, ʿ…) dengan huruf Arabnya dan rekaman suara, beserta harakat pendek dan panjang."
+        },
+        {
+          "title": "Dengarkan bersamaan",
+          "description": "audio ayat demi ayat memperdengarkan pelafalan tepat dari yang Anda baca."
+        },
+        {
+          "title": "Periksa pelafalan Anda",
+          "description": "baca dengan suara keras bersama pemantauan AI dan latih makharijul huruf."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Pertanyaan umum tentang membaca Al-Qur'an dengan latin",
+      "items": [
+        {
+          "question": "Benarkah Al-Qur'an bisa dibaca tanpa bisa bahasa Arab?",
+          "answer": "Tulisan latin memungkinkan Anda membaca sejak hari pertama. Namun ini hanya alat bantu: mempelajari huruf Arab dan tajwid secara bertahap membuat bacaan lebih benar."
+        },
+        {
+          "question": "Apakah tulisan latin mencakup seluruh Al-Qur'an?",
+          "answer": "Ya, seluruh 604 halaman mushaf, dengan riwayat Hafs."
+        },
+        {
+          "question": "Bagaimana cara melafalkan ḥ atau ʿ?",
+          "answer": "Panduan transliterasi di aplikasi menghubungkan setiap simbol dengan huruf Arabnya dan rekaman audio."
+        }
+      ]
+    },
+    "related": {
+      "title": "Temukan juga"
+    }
+  },
+  "widgetVerset": {
+    "meta": {
+      "title": "Widget Ayat Hari Ini: Al-Qur'an di Layar Utama",
+      "description": "Satu ayat Al-Qur'an setiap hari di layar utama ponsel Anda, Android dan iPhone, terhubung dengan program «Ayat hari ini» Noor Phonetic Quran.",
+      "keywords": "widget Al-Qur'an, widget ayat hari ini, ayat Al-Qur'an harian, Al-Qur'an layar utama, widget islami Android, widget Al-Qur'an iPhone",
+      "ogTitle": "Widget Ayat Hari Ini: Al-Qur'an di Layar Utama",
+      "ogDescription": "Satu ayat Al-Qur'an setiap hari di layar utama ponsel Anda, Android dan iPhone."
+    },
+    "breadcrumb": {
+      "home": "Beranda",
+      "current": "Widget ayat hari ini"
+    },
+    "hero": {
+      "title": "Widget Ayat Hari Ini: Al-Qur'an di Layar Utama Anda",
+      "subtitle": "Ayat baru setiap hari, langsung di layar utama ponsel Anda, agar Al-Qur'an selalu terlihat dan hafalan terus berjalan.",
+      "googlePlay": "Google Play",
+      "appStore": "App Store"
+    },
+    "intro": {
+      "title": "Satu ayat sehari, tanpa membuka aplikasi",
+      "paragraphs": [
+        "Widget Noor Phonetic Quran menampilkan satu ayat Al-Qur'an setiap hari di layar utama ponsel Anda, baik di Android maupun iPhone.",
+        "Widget ini terhubung dengan program «Ayat hari ini» di aplikasi: mendengarkan ayat, membaca tafsirnya, menghafal, merekam, lalu mengulanginya, langkah demi langkah."
+      ]
+    },
+    "features": {
+      "title": "Bagaimana menggunakan widget ayat hari ini?",
+      "items": [
+        {
+          "title": "Tambahkan widget",
+          "description": "tekan lama layar utama, buka widget, lalu pilih Noor Phonetic Quran."
+        },
+        {
+          "title": "Dapatkan ayat baru setiap hari",
+          "description": "widget diperbarui otomatis setiap hari."
+        },
+        {
+          "title": "Lanjutkan dari layar utama",
+          "description": "di Android, tombol +1 mencatat satu pengulangan langkah saat ini tanpa membuka aplikasi."
+        },
+        {
+          "title": "Ikuti program hari ini",
+          "description": "mendengarkan qari, tafsir, menghafal, merekam bacaan Anda, dan mengulang."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Pertanyaan umum tentang widget ayat hari ini",
+      "items": [
+        {
+          "question": "Apakah widget berfungsi di iPhone?",
+          "answer": "Ya, di Android dan iPhone. Tombol +1 tersedia di Android; di iPhone, widget menampilkan ayat dan membuka aplikasi."
+        },
+        {
+          "question": "Bagaimana cara menambahkan widget?",
+          "answer": "Tekan lama layar utama, buka daftar widget, lalu pilih Noor Phonetic Quran."
+        },
+        {
+          "question": "Apakah ayatnya berganti setiap hari?",
+          "answer": "Ya, widget otomatis menampilkan ayat baru setiap hari."
+        }
+      ]
+    },
+    "related": {
+      "title": "Temukan juga"
     }
   }
 }

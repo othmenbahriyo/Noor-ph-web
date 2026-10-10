@@ -86,11 +86,17 @@
 .fa-graduation-cap {
   --fa: "\f19d";
 }
+.fa-hands-praying {
+  --fa: "\f684";
+}
 .fa-heart {
   --fa: "\f004";
 }
 .fa-microphone-alt {
   --fa: "\f3c9";
+}
+.fa-tower-broadcast {
+  --fa: "\f519";
 }
 .fa-trophy {
   --fa: "\f091";

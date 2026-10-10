@@ -28,7 +28,12 @@
         "blog": "Blog",
         "aboutUs": "Ang Aming Kuwento",
         "ramadan2027": "Ramadan 2027",
-        "suiviRecitationIa": "Pagsubaybay sa pagbigkas gamit ang AI"
+        "suiviRecitationIa": "Pagsubaybay sa pagbigkas gamit ang AI",
+        "warshQaloun": "Mushaf Warsh at Qaloun",
+        "radioTv": "Live na radyo at TV ng Quran",
+        "adhkar": "Adhkar sa umaga at gabi",
+        "lireCoranPhonetique": "Pagbasa ng Quran sa phonetic",
+        "widgetVerset": "Widget ng talata ng araw"
       }
     },
     "languageSwitcher": {
@@ -134,7 +139,7 @@
   "home": {
     "meta": {
       "title": "Noor Quran: Phonetic Quran, Tajweed, Pagsasaulo at Khatma",
-      "description": "Ang kumpletong phonetic Quran app: basahin ang Quran kahit hindi marunong ng Arabic, pakinggan ang audio offline, matutunan ang Tajweed at makharij al-huruf, magsaulo gamit ang game mode, at subaybayan ang iyong Khatma at Adhkar. Live na Quran radio. 80K+ users, 20+ na wika, iOS at Android.",
+      "description": "Basahin ang Quran sa phonetic kahit hindi marunong ng Arabic: offline na audio, tajweed, pagsasaulo, AI na pagsubaybay at Khatma. 80K+ users, iOS at Android.",
       "keywords": "Phonetic Quran, surah phonetics, phonetic Quran app, matuto ng Quran, phonetic transcription ng Quran, Tajweed, makharij al-huruf, pagsasaulo ng Quran, Hifz, Khatma ng Quran, Adhkar, live na Quran radio, mushaf, pagwawasto ng recitation, Quran quiz, programa sa Ramadan, Quran audio offline",
       "ogTitle": "Noor Quran: Ang Kumpletong Phonetic Quran App (Pagbasa, Tajweed, Khatma)",
       "ogDescription": "Basahin, pakinggan, at isaulo ang Quran sa phonetics at sa Arabic, kahit hindi marunong ng Arabic. Tajweed, pagwawasto ng recitation, Khatma, Adhkar at live na Quran radio. Libre, 20+ na wika."
@@ -191,6 +196,7 @@
         {
           "icon": "fa-book",
           "title": "Phonetic na Transkripsyon",
+          "href": "/lire-coran-phonetique",
           "text": "Bawat talata ay may kasamang detalyadong phonetic transcription para sa tamang pagbigkas."
         },
         {
@@ -244,6 +250,24 @@
           "text": "Bumigkas nang malakas: sinusundan ng AI ang bawat salita nang real-time, itinuturo ang iyong mga mali at nalaktawang salita, sinusuri ang tajweed mo at sinusubaybayan ang iyong pag-unlad sa bawat sesyon."
         },
         {
+          "icon": "fa-book-open",
+          "title": "Mushaf Warsh at Qaloun",
+          "href": "/mushaf-warsh-qaloun",
+          "text": "Basahin ang Quran sa pagbasang Warsh at Qaloun, bilang nakalimbag na mushaf o teksto, kasama ang mga qari ng bawat riwaya at pagsubaybay sa pagbigkas gamit ang AI."
+        },
+        {
+          "icon": "fa-tower-broadcast",
+          "title": "Live na Radyo at TV ng Quran",
+          "href": "/radio-tv-coran",
+          "text": "Makinig sa mahigit 170 radyo ng pagbigkas ng Quran at manood nang live ng mga channel na Quran at Sunnah."
+        },
+        {
+          "icon": "fa-hands-praying",
+          "title": "Adhkar sa Umaga at Gabi",
+          "href": "/adhkar-matin-soir",
+          "text": "Adhkar sa umaga, gabi, bago matulog at pagkatapos ng salah, sa Arabic, phonetic at may salin, na may counter ng pag-uulit."
+        },
+        {
           "icon": "fa-microphone-alt",
           "title": "Pagwawasto ng Recitation",
           "href": "/correction-recitation-coran",
@@ -258,6 +282,7 @@
         {
           "icon": "fa-mobile-screen-button",
           "title": "Widget sa Home Screen",
+          "href": "/widget-verset-du-jour",
           "text": "Ipakita ang talata ng araw direkta sa home screen ng iyong telepono at panatilihing laging malapit sa paningin ang iyong routine sa pagbabasa."
         }
       ]
@@ -1486,7 +1511,7 @@
   "cgu": {
     "meta": {
       "title": "Mga Tuntunin ng Paggamit - Noor Phonetic Quran",
-      "description": "Mga tuntunin ng paggamit ng Noor Phonetic Quran: access sa serbisyo, user account, Premium subscription, intellectual property, pananagutan at naaangkop na batas.",
+      "description": "Mga tuntunin ng paggamit ng Noor Phonetic Quran: access sa serbisyo, account, Premium subscription, intellectual property at pananagutan.",
       "keywords": "CGU Noor Phonetic Quran, mga tuntunin ng paggamit, mga kondisyon ng paggamit ng Quran application"
     },
     "appName": "Noor Phonetic Quran",
@@ -1701,13 +1726,13 @@
   "contactPage": {
     "meta": {
       "title": "Makipag-ugnayan - Noor Phonetic Quran",
-      "description": "May tanong tungkol sa Noor Phonetic Quran application, mungkahi para sa phonetics ng Quran, o technical na problema? Makipag-ugnayan sa aming team, sagot sa loob ng 48 oras."
+      "description": "May tanong tungkol sa Noor Phonetic Quran application, mungkahi para sa phonetics ng Quran, o technical na problema?"
     }
   },
   "reviews": {
     "meta": {
       "title": "Mga Review ng User - Noor Phonetic Quran",
-      "description": "Tuklasin ang higit sa 160 verified na review mula sa mga user ng Noor Phonetic Quran, ang application para matutong bumigkas, magsaulo, at magbasa ng Quran sa phonetics, na may average na rating na 5 stars."
+      "description": "Higit 160 verified na review ng Noor Phonetic Quran, ang app para bumigkas, magsaulo at magbasa ng Quran sa phonetic. Average na 5 stars."
     },
     "eyebrow": "Mga Verified na Review",
     "title": "Ang Sinasabi ng Aming mga User",
@@ -1717,8 +1742,8 @@
   },
   "aboutUs": {
     "meta": {
-      "title": "Ang aming kuwento: kung bakit ginawa namin ang Noor Phonetic Quran",
-      "description": "Alamin ang kuwento sa likod ng Noor Phonetic Quran: ang pagkikita namin sa isang kapatid na bagong yakap sa Islam ang nag-udyok sa amin na gumawa ng app na gagawing madaling ma-access ng lahat ang pagbasa ng Quran, kahit hindi marunong magbasa ng Arabic.",
+      "title": "Ang aming kuwento: kung bakit may Noor Phonetic Quran",
+      "description": "Ang kuwento ng Noor Phonetic Quran: isang kapatid na bagong yakap sa Islam ang nagbigay-inspirasyon sa amin na gawing abot-kaya ng lahat ang pagbasa ng Quran.",
       "ogTitle": "Ang aming kuwento: kung bakit ginawa namin ang Noor Phonetic Quran",
       "ogDescription": "Nagsimula ang lahat sa pagkikita namin sa isang kapatid na bagong yakap sa Islam na hindi makabasa ng Quran sa Arabic. Ganito nasilang ang Noor Phonetic Quran."
     },
@@ -1784,8 +1809,8 @@
   },
   "blog": {
     "meta": {
-      "title": "Blog - Tajweed, Pagsasaulo at Pag-aaral ng Quran | Noor Phonetic Quran",
-      "description": "Mga artikulo at praktikal na gabay tungkol sa mga tuntunin ng Tajweed, mga paraan ng pagsasaulo ng Quran (Hifz), at pag-aaral ng pagbigkas, mula sa koponan ng Noor Phonetic Quran."
+      "title": "Blog - Tajweed, Pagsasaulo at Pag-aaral ng Quran",
+      "description": "Mga artikulo at gabay tungkol sa mga tuntunin ng Tajweed, mga paraan ng pagsasaulo ng Quran (Hifz) at pag-aaral ng pagbigkas."
     },
     "title": "Blog",
     "subtitle": "Praktikal na gabay at mga tip tungkol sa Tajweed, pagsasaulo ng Quran, at pagbigkas, upang makasulong ka sa sarili mong bilis.",
@@ -1800,8 +1825,8 @@
   },
   "audioCoran": {
     "meta": {
-      "title": "Naka-synchronize na Audio ng Quran: Maraming Reciter at Offline na Pakikinig | Noor Phonetic Quran",
-      "description": "Makinig sa Quran gamit ang naka-synchronize na audio nang talata-by-talata, pumili sa maraming reciter, at mag-download ng audio para sa offline na pakikinig gamit ang Noor Phonetic Quran. Libre sa iOS at Android.",
+      "title": "Audio ng Quran: mga Qari at Offline na Pakikinig",
+      "description": "Pakinggan ang Quran bawat talata gamit ang synchronized na audio, piliin ang qari mo at i-download ang mga surah para sa offline na pakikinig.",
       "keywords": "audio Quran, recitation Quran audio, maraming reciter Quran, Quran audio offline, mag-download ng Quran audio, makinig sa Quran, naka-synchronize na audio Quran, reciter Quran application",
       "ogTitle": "Naka-synchronize na Audio ng Quran: Maraming Reciter at Offline na Pakikinig",
       "ogDescription": "Naka-synchronize na audio nang talata-by-talata, maraming reciter, at offline na pag-download. Libreng application na Noor Phonetic Quran."
@@ -2050,13 +2075,13 @@
     "footer": "© 2026 Noor Phonetic Quran. Lahat ng karapatan ay nakalaan.",
     "meta": {
       "title": "Patakaran sa Privacy - Noor Phonetic Quran",
-      "description": "Patakaran sa privacy ng Noor Phonetic Quran: nakolektang data (analytics, pagbili, form ng pakikipag-ugnayan), layunin, pagbabahagi sa third-party, at ang iyong mga karapatan."
+      "description": "Patakaran sa privacy ng Noor Phonetic Quran: mga nakolektang data, layunin, pagbabahagi sa third party at ang iyong mga karapatan."
     }
   },
   "correctionRecitation": {
     "meta": {
-      "title": "Pagwawasto ng Recitation ng Quran: I-record ang Sarili at Umunlad | Noor Phonetic Quran",
-      "description": "I-record ang iyong recitation ng Quran at tumanggap ng personalized na pagwawasto gamit ang Noor Phonetic Quran: pagpapahusay ng pagbigkas at pagsunod sa mga tuntunin ng Tajweed. Libre sa iOS at Android.",
+      "title": "Pagwawasto ng Pagbigkas ng Quran",
+      "description": "I-record ang iyong pagbigkas ng Quran at tumanggap ng personal na pagwawasto para mapahusay ang bigkas at tajweed. Libre sa iOS at Android.",
       "keywords": "pagwawasto recitation Quran, pahusayin ang recitation, pagwawasto Tajweed, i-record ang recitation, application pagwawasto Quran, matuto bumigkas ng Quran nang tama",
       "ogTitle": "Pagwawasto ng Recitation ng Quran: I-record ang Sarili at Umunlad",
       "ogDescription": "I-record ang iyong recitation at tumanggap ng personalized na pagwawasto para umunlad sa pagbigkas at Tajweed. Libreng application na Noor Phonetic Quran."
@@ -2126,8 +2151,8 @@
   },
   "ramadan2027": {
     "meta": {
-      "title": "Ramadan 2027: Petsa, Countdown, at Paghahanda | Noor Phonetic Quran",
-      "description": "Ang Ramadan 2027 ay magsisimula sa Pebrero 8 (tinatayang petsa). Ihanda ang inyong Khatma, pang-araw-araw na programa, at Adhkar gamit ang Noor Phonetic Quran, ang libreng phonetic Quran app.",
+      "title": "Ramadan 2027: Petsa, Countdown, at Paghahanda",
+      "description": "Magsisimula ang Ramadan 2027 sa Pebrero 8 (tinatayang petsa). Ihanda ang iyong Khatma, programa at Adhkar gamit ang Noor Phonetic Quran.",
       "keywords": "Ramadan 2027, petsa ng Ramadan 2027, countdown ng Ramadan, paghahanda para sa Ramadan, Khatma sa Ramadan, programa ng Ramadan Quran",
       "ogTitle": "Ramadan 2027: Petsa, Countdown, at Paghahanda",
       "ogDescription": "Ang Ramadan 2027 ay magsisimula sa Pebrero 8 (tinatayang petsa). Ihanda ang inyong Khatma at pang-araw-araw na programa gamit ang Noor Phonetic Quran."
@@ -2176,8 +2201,8 @@
   },
   "khatmaCoran": {
     "meta": {
-      "title": "Khatma ng Quran: Application para Magplano at Subaybayan ang Kumpletong Pagbabasa | Noor Phonetic Quran",
-      "description": "Planuhin ang iyong Khatma (kumpletong pagbabasa ng Quran) gamit ang Noor Phonetic Quran application: pang-araw-araw na target, pagsubaybay ng progreso, streak ng mga araw, at mga paalala. Libre sa iOS at Android.",
+      "title": "Khatma ng Quran: Planuhin at Subaybayan ang Pagbasa",
+      "description": "Planuhin ang iyong Khatma (buong pagbasa ng Quran): araw-araw na target, pagsubaybay ng progreso, streak at mga paalala. Libre sa iOS at Android.",
       "keywords": "Khatma Quran, khatma application, basahin ang buong Quran, plano ng pagbabasa ng Quran, target na Khatma Ramadan, pagsubaybay ng pagbabasa ng Quran, tapusin ang Quran",
       "ogTitle": "Khatma ng Quran: Planuhin at Subaybayan ang Iyong Kumpletong Pagbabasa",
       "ogDescription": "Planuhin ang iyong Khatma na may pang-araw-araw na target, pagsubaybay ng progreso at mga paalala. Libreng application na Noor Phonetic Quran."
@@ -2276,8 +2301,8 @@
   },
   "tajweedCoran": {
     "meta": {
-      "title": "Mga Tuntunin ng Tajweed ng Quran: Makulay at Detalyadong Pag-aaral | Noor Phonetic Quran",
-      "description": "Matuto ng mga tuntunin ng Tajweed ng Quran gamit ang Noor Phonetic Quran: mga kulay at annotation habang nagbabasa, mga punto ng artikulasyon ng mga letra (Makharej), mga tuntunin ng Noun Sakinah at Waqf. Libre sa iOS at Android.",
+      "title": "Mga Tuntunin ng Tajweed: Mga Kulay at Paliwanag",
+      "description": "Matuto ng tajweed: mga kulay at anotasyon habang nagbabasa, makharij ng mga titik, mga tuntunin ng Noon Sakinah at Waqf. Libre sa iOS at Android.",
       "keywords": "mga tuntunin Tajweed, Tajweed Quran, matuto ng Tajweed, Tajweed makulay, Makharej mga letrang Arabic, Noun Sakinah Tanwin, Waqf Ibtida, libreng application Tajweed",
       "ogTitle": "Mga Tuntunin ng Tajweed ng Quran: Makulay at Detalyadong Pag-aaral",
       "ogDescription": "Mga kulay at annotation habang nagbabasa, mga punto ng artikulasyon, mga tuntunin ng Noun Sakinah at Waqf. Libreng application na Noor Phonetic Quran."
@@ -2355,8 +2380,8 @@
   },
   "quizCoran": {
     "meta": {
-      "title": "Quiz sa Quran: Subukin ang Iyong Kaalaman sa Quran Habang Nag-eenjoy | Noor Phonetic Quran",
-      "description": "Subukin ang iyong kaalaman sa Quran gamit ang Quiz sa Quran ng Noor Phonetic Quran: 21 tanong, gradwal na scale ng premyo, mga joker na 50:50, sondage ng manonood, at tumawag sa kaibigan. Libre sa iOS at Android.",
+      "title": "Quiz sa Quran: Subukin ang Iyong Kaalaman",
+      "description": "Quiz sa Quran ng Noor Phonetic Quran: 21 tanong, hagdan ng premyo, joker na 50:50, tulong ng manonood at tawag sa kaibigan. Libre sa iOS at Android.",
       "keywords": "quiz Quran, quiz sa Quran, laro ng tanong Quran, subukin ang kaalaman sa Quran, quiz islam, libreng application quiz Quran, mga tanong at sagot sa Quran",
       "ogTitle": "Quiz sa Quran: Subukin ang Iyong Kaalaman Habang Nag-eenjoy",
       "ogDescription": "21 tanong, gradwal na scale ng premyo, mga joker na 50:50, sondage ng manonood, at tumawag sa kaibigan. Libreng application na Noor Phonetic Quran."
@@ -2496,8 +2521,8 @@
   },
   "memorisationCoran": {
     "meta": {
-      "title": "Isaulo ang Quran (Hifz): Application na may Audio Repetition at Quiz | Noor Phonetic Quran",
-      "description": "Isaulo ang Quran (Hifz) gamit ang Noor Phonetic Quran application: audio repetition nang talata-by-talata, word-by-word mode, review quiz, points, levels, at badges. Libre sa iOS at Android.",
+      "title": "Isaulo ang Quran (Hifz): Audio Repetition at Quiz",
+      "description": "Isaulo ang Quran (Hifz): audio repetition bawat talata, word-by-word mode, review quiz, points, levels at badges. Libre sa iOS at Android.",
       "keywords": "isaulo ang Quran, Hifz Quran, application pagsasaulo Quran, matuto ng Quran nang buong puso, pagsasaulo talata-by-talata, Hifz libreng application",
       "ogTitle": "Isaulo ang Quran (Hifz): Audio Repetition, Quiz, at Pagsubaybay ng Progreso",
       "ogDescription": "Isaulo ang Quran gamit ang audio repetition, word-by-word mode, quiz, at pang-araw-araw na hamon. Libreng application na Noor Phonetic Quran."
@@ -2578,8 +2603,8 @@
   },
   "suiviRecitationIa": {
     "meta": {
-      "title": "Pagsubaybay sa Pagbigkas ng Quran gamit ang AI: Pagwawasto Salita por Salita nang Real-Time | Noor Phonetic Quran",
-      "description": "Bigkasin ang Quran nang malakas: sinusundan ng AI ng Noor Phonetic Quran ang bawat salita nang real-time, itinuturo ang mga mali at nalaktawan, sinusuri ang tajweed at sinusubaybayan ang iyong pag-unlad. Libre sa iOS at Android.",
+      "title": "Pagsubaybay sa Pagbigkas ng Quran gamit ang AI",
+      "description": "Bigkasin ang Quran nang malakas: sinusundan ng AI ang bawat salita, itinuturo ang mga mali at sinusuri ang tajweed at pag-unlad mo. Libre sa iOS at Android.",
       "keywords": "AI pagbigkas ng Quran, suriin ang pagbigkas ng Quran, pagwawasto ng pagbigkas ng Quran, pagsasaulo ng Quran gamit ang AI, app sa pagbigkas ng Quran",
       "ogTitle": "Pagsubaybay sa Pagbigkas ng Quran gamit ang AI: Pagwawasto Salita por Salita nang Real-Time",
       "ogDescription": "Bumigkas nang malakas: sinusundan ng AI ang bawat salita, itinuturo ang mga mali at sinusubaybayan ang pag-unlad mo. Libreng app na Noor Phonetic Quran."
@@ -2670,6 +2695,341 @@
       "tajweed": "Mga Tuntunin ng Tajweed",
       "correction": "Pagwawasto ng Pagbigkas",
       "allFeatures": "Lahat ng Tampok"
+    }
+  },
+  "warshQaloun": {
+    "meta": {
+      "title": "Mushaf Warsh at Qaloun: Basahin at Pakinggan ang Quran",
+      "description": "Basahin ang Quran sa Warsh at Qaloun: nakalimbag na mushaf o teksto, mga qari ng bawat riwaya at pagsubaybay gamit ang AI. App na Noor Phonetic Quran.",
+      "keywords": "Quran Warsh, mushaf Warsh, Quran Qaloun, mushaf Qaloun, riwaya Warsh, app na Quran Warsh",
+      "ogTitle": "Mushaf Warsh at Qaloun: Basahin at Pakinggan ang Quran",
+      "ogDescription": "Ang Quran sa Warsh at Qaloun: nakalimbag na mushaf, qari ng bawat riwaya at AI na pagsubaybay."
+    },
+    "breadcrumb": {
+      "home": "Home",
+      "current": "Mushaf Warsh at Qaloun"
+    },
+    "hero": {
+      "title": "Mushaf Warsh at Qaloun: Basahin at Pakinggan ang Quran sa Iyong Pagbasa",
+      "subtitle": "Piliin ang Hafs, Warsh o Qaloun: umaangkop ang mushaf, ang mga qari at ang pagsubaybay sa pagbigkas sa riwayang binabasa mo.",
+      "googlePlay": "Google Play",
+      "appStore": "App Store"
+    },
+    "intro": {
+      "title": "Ang Quran sa iyong riwaya",
+      "paragraphs": [
+        "Ang Hafs 'an 'Asim ang pinakalaganap na pagbasa sa mundo, ngunit sa Maghreb at Kanlurang Aprika ay marami ang natututo at bumibigkas ng Quran sa Warsh 'an Nafi', o sa Qaloun 'an Nafi' sa Libya at Tunisia.",
+        "Inihahandog ng Noor Phonetic Quran ang tatlong pagbasa: nakalimbag na mushaf para sa Warsh at Qaloun, view na teksto, mga qari ng bawat riwaya at pagsubaybay sa pagbigkas gamit ang AI."
+      ]
+    },
+    "features": {
+      "title": "Paano magbasa sa Warsh o Qaloun?",
+      "items": [
+        {
+          "title": "Piliin ang iyong pagbasa",
+          "description": "piliin ang Hafs, Warsh o Qaloun sa settings: lalabas ang mga pahina sa napiling riwaya."
+        },
+        {
+          "title": "Magbasa sa nakalimbag na mushaf o teksto",
+          "description": "ang nakalimbag na mushaf ng Warsh at Qaloun o mas madaling basahing teksto; isang beses lang dina-download at gumagana na offline."
+        },
+        {
+          "title": "Makinig sa qari ng iyong riwaya",
+          "description": "ipinapakita ng listahan ang pagbasa ng bawat qari, na may pakikinig bawat talata."
+        },
+        {
+          "title": "Bumigkas kasama ang AI",
+          "description": "gumagana rin ang pagsubaybay salita por salita sa Warsh at Qaloun para suriin ang iyong pagbigkas."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Mga madalas itanong tungkol sa mushaf Warsh at Qaloun",
+      "items": [
+        {
+          "question": "Ano ang pagkakaiba ng Hafs, Warsh at Qaloun?",
+          "answer": "Mga tunay na paghahatid ang mga ito ng pagbigkas ng Quran. Nagkakaiba sila sa ilang patinig, pagpapahaba, pagbigkas ng hamza at pagbilang ng ilang talata."
+        },
+        {
+          "question": "May phonetic ba sa Warsh?",
+          "answer": "Wala, ang phonetic na transkripsiyon ay para lamang sa Hafs. Sa Warsh at Qaloun, Arabic na teksto ang ipinapakita ng app."
+        },
+        {
+          "question": "Gumagana ba ang AI na pagsubaybay sa Warsh?",
+          "answer": "Oo, gumagana ang pagsubaybay salita por salita sa Warsh at Qaloun. Ang pagsusuri ng tajweed ay para lamang sa Hafs."
+        }
+      ]
+    },
+    "related": {
+      "title": "Tuklasin Din"
+    }
+  },
+  "radioTv": {
+    "meta": {
+      "title": "Live na Radyo ng Quran at Quran TV",
+      "description": "Mahigit 170 radyo ng pagbigkas ng Quran at ang live na mga channel na Quran at Sunnah, may favorites at pakikinig sa background. App na Noor Phonetic Quran.",
+      "keywords": "radyo ng Quran, live na radyo ng Quran, makinig ng Quran nang live, live na Quran TV, Quran channel Makkah, Sunnah channel Madinah",
+      "ogTitle": "Live na Radyo ng Quran at Quran TV",
+      "ogDescription": "Mahigit 170 radyo ng pagbigkas ng Quran at ang live na mga channel na Quran at Sunnah."
+    },
+    "breadcrumb": {
+      "home": "Home",
+      "current": "Radyo at TV ng Quran"
+    },
+    "hero": {
+      "title": "Live na Radyo ng Quran at Quran TV",
+      "subtitle": "Pakinggan ang Quran anumang oras: mahigit 170 istasyon ng pagbigkas at ang live na mga channel na Quran at Sunnah, sa iisang app.",
+      "googlePlay": "Google Play",
+      "appStore": "App Store"
+    },
+    "intro": {
+      "title": "Walang tigil na Quran, nasaan ka man",
+      "paragraphs": [
+        "Pinagsasama ng Noor Phonetic Quran ang mahigit 170 istasyon ng radyo na nakalaan sa pagbigkas ng Quran ng mga qari mula sa buong mundo, kasama ang live na mga TV channel na Quran at Sunnah.",
+        "Tuloy ang pakikinig sa background, may kontrol sa lock screen, para samahan ka sa biyahe, trabaho o pahinga."
+      ]
+    },
+    "features": {
+      "title": "Paano makinig sa radyo at TV ng Quran?",
+      "items": [
+        {
+          "title": "Buksan ang Radyo o Live TV",
+          "description": "mula sa menu ng app, pumunta sa mga istasyon ng radyo o TV channel."
+        },
+        {
+          "title": "Pumili ng istasyon",
+          "description": "tingnan ang mga istasyon ng pagbigkas; lumalabas ang pangalan sa iyong wika kung maaari."
+        },
+        {
+          "title": "Magdagdag ng favorites",
+          "description": "itabi ang paboritong istasyon para mabuksan sa isang tap."
+        },
+        {
+          "title": "Makinig sa background",
+          "description": "tuloy ang pag-play kahit patay ang screen, may play at pause sa lock screen."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Mga madalas itanong tungkol sa radyo at TV ng Quran",
+      "items": [
+        {
+          "question": "Kailangan ba ng internet?",
+          "answer": "Oo, live na ipinapalabas ang radyo at TV kaya kailangan ng internet."
+        },
+        {
+          "question": "Anong mga TV channel ang mayroon?",
+          "answer": "Ang mga channel na Quran at Sunnah, live na ipinapalabas."
+        },
+        {
+          "question": "Puwede bang makinig nang patay ang screen?",
+          "answer": "Oo, tuloy ang pag-play sa background at makokontrol sa lock screen."
+        }
+      ]
+    },
+    "related": {
+      "title": "Tuklasin Din"
+    }
+  },
+  "adhkar": {
+    "meta": {
+      "title": "Adhkar sa Umaga at Gabi na may Phonetic",
+      "description": "Adhkar sa umaga, gabi, bago matulog at pagkatapos ng salah sa Arabic, phonetic at may salin, na may counter. App na Noor Phonetic Quran.",
+      "keywords": "adhkar sa umaga, adhkar sa gabi, adhkar phonetic, dua sa umaga, dhikr, adhkar bago matulog, adhkar pagkatapos ng salah, app ng adhkar",
+      "ogTitle": "Adhkar sa Umaga at Gabi na may Phonetic",
+      "ogDescription": "Adhkar sa umaga, gabi, bago matulog at pagkatapos ng salah sa Arabic, phonetic at may salin."
+    },
+    "breadcrumb": {
+      "home": "Home",
+      "current": "Adhkar sa umaga at gabi"
+    },
+    "hero": {
+      "title": "Adhkar sa Umaga at Gabi na may Phonetic",
+      "subtitle": "Bigkasin ang mga dua ng araw kahit hindi ka nakababasa ng Arabic: bawat dhikr sa Arabic, phonetic at may salin, na may counter para sa iyong pag-uulit.",
+      "googlePlay": "Google Play",
+      "appStore": "App Store"
+    },
+    "intro": {
+      "title": "Adhkar, mga paalala sa bawat sandali ng araw",
+      "paragraphs": [
+        "Ang adhkar ay mga dua at pag-alala kay Allah na itinuro sa Sunnah, na binibigkas sa takdang oras: paggising, sa gabi, bago matulog at pagkatapos ng salah.",
+        "Pinagsasama ng Noor Phonetic Quran ang adhkar sa umaga, gabi, bago matulog at pagkatapos ng salah. Bawat dua ay nasa Arabic, nasa phonetic para mabasa kahit hindi marunong ng Arabic, at may salin."
+      ]
+    },
+    "features": {
+      "title": "Paano bigkasin ang adhkar gamit ang app?",
+      "items": [
+        {
+          "title": "Piliin ang oras",
+          "description": "adhkar sa umaga, gabi, bago matulog o pagkatapos ng salah."
+        },
+        {
+          "title": "Magbasa sa Arabic o phonetic",
+          "description": "bawat dhikr ay nasa Arabic, phonetic at may salin."
+        },
+        {
+          "title": "Bilangin ang pag-uulit",
+          "description": "pindutin ang counter sa bawat ulit: ipinapakita ng progreso kapag naabot na ang inirerekomendang bilang."
+        },
+        {
+          "title": "Makinig at magbahagi",
+          "description": "pakinggan ang pagbigkas kung mayroon at ibahagi ang dua sa isang tap."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Mga madalas itanong tungkol sa adhkar",
+      "items": [
+        {
+          "question": "Kailan binabasa ang adhkar sa umaga at gabi?",
+          "answer": "Karaniwang inilalagay ng mga iskolar ang adhkar sa umaga mula madaling-araw hanggang pagsikat ng araw, at ang sa gabi mula 'Asr hanggang paglubog ng araw."
+        },
+        {
+          "question": "Mababasa ko ba ito kahit hindi marunong ng Arabic?",
+          "answer": "Oo, nakasulat sa phonetic ang bawat dua at may kasamang salin."
+        },
+        {
+          "question": "Puwede ko bang ibahagi ang isang dua?",
+          "answer": "Oo, maibabahagi ang bawat dua sa iyong mga mahal sa buhay sa isang tap."
+        }
+      ]
+    },
+    "related": {
+      "title": "Tuklasin Din"
+    }
+  },
+  "lireCoranPhonetique": {
+    "meta": {
+      "title": "Basahin ang Quran sa Phonetic Kahit Hindi Marunong ng Arabic",
+      "description": "Basahin ang bawat talata ng Quran sa phonetic, alamin ang mga tunog ng Arabic gamit ang audio ng bawat titik at suriin ang iyong bigkas.",
+      "keywords": "Quran phonetic, Quran transliteration, basahin ang Quran sa Latin, basahin ang Quran nang walang Arabic, matutong magbasa ng Quran",
+      "ogTitle": "Basahin ang Quran sa Phonetic Kahit Hindi Marunong ng Arabic",
+      "ogDescription": "Bawat talata ng Quran sa phonetic, audio ng bawat titik at pagsusuri ng iyong bigkas."
+    },
+    "breadcrumb": {
+      "home": "Home",
+      "current": "Pagbasa ng Quran sa phonetic"
+    },
+    "hero": {
+      "title": "Basahin ang Quran sa Phonetic, Kahit Hindi Marunong ng Arabic",
+      "subtitle": "Nakasulat sa phonetic ang bawat talata para makabigkas ka simula ngayon, at lumipat sa Arabic na teksto sa sarili mong bilis.",
+      "googlePlay": "Google Play",
+      "appStore": "App Store"
+    },
+    "intro": {
+      "title": "Bigkasin ang Quran bago pa matutong magbasa ng Arabic",
+      "paragraphs": [
+        "Ipinapakita ng Noor Phonetic Quran ang bawat talata ng Quran sa phonetic na transkripsiyon: binabasa mo ang mga tunog ng Arabic gamit ang alpabetong Latin, nang hindi pa natututo ng alpabetong Arabic.",
+        "Ipinapaliwanag ng gabay sa transliteration ang mga tunog na wala sa iyong wika, may audio ng bawat titik, at tinutulungan ka ng mga module ng tajweed (makharij, mga patakaran) na unti-unting lumipat sa Arabic na teksto."
+      ]
+    },
+    "features": {
+      "title": "Paano basahin ang Quran sa phonetic?",
+      "items": [
+        {
+          "title": "Basahin ang phonetic bawat pahina",
+          "description": "sumusunod ang transkripsiyon sa mushaf, katabi ng Arabic na teksto at salin."
+        },
+        {
+          "title": "Alamin ang mga tunog ng Arabic",
+          "description": "iniuugnay ng gabay ang bawat simbolo (ḥ, ṣ, ḍ, ṭ, ʿ…) sa titik na Arabic at sa recording, pati ang maiikli at mahahabang patinig."
+        },
+        {
+          "title": "Makinig nang sabay",
+          "description": "ipinaririnig ng audio bawat talata ang tamang bigkas ng binabasa mo."
+        },
+        {
+          "title": "Suriin ang iyong bigkas",
+          "description": "bumigkas nang malakas kasama ang AI at sanayin ang makharij ng mga titik."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Mga madalas itanong tungkol sa pagbasa ng Quran sa phonetic",
+      "items": [
+        {
+          "question": "Talaga bang mababasa ang Quran kahit hindi marunong ng Arabic?",
+          "answer": "Sa phonetic, makabibigkas ka mula sa unang araw. Pantulong lamang ito: ang unti-unting pag-aaral ng alpabetong Arabic at tajweed ang nagbibigay ng mas tamang pagbigkas."
+        },
+        {
+          "question": "Saklaw ba ng phonetic ang buong Quran?",
+          "answer": "Oo, lahat ng 604 na pahina ng mushaf, sa pagbasang Hafs."
+        },
+        {
+          "question": "Paano ko malalaman ang bigkas ng ḥ o ʿ?",
+          "answer": "Iniuugnay ng gabay sa transliteration ng app ang bawat simbolo sa titik na Arabic at sa audio recording."
+        }
+      ]
+    },
+    "related": {
+      "title": "Tuklasin Din"
+    }
+  },
+  "widgetVerset": {
+    "meta": {
+      "title": "Widget ng Talata ng Araw: ang Quran sa Home Screen",
+      "description": "Isang talata ng Quran araw-araw sa home screen ng iyong telepono, Android at iPhone, kaugnay ng programang “Talata ng araw” ng Noor Phonetic Quran.",
+      "keywords": "widget ng Quran, widget ng talata ng araw, araw-araw na talata ng Quran, Quran sa home screen, Islamic widget Android, widget ng Quran iPhone",
+      "ogTitle": "Widget ng Talata ng Araw: ang Quran sa Home Screen",
+      "ogDescription": "Isang talata ng Quran araw-araw sa home screen ng iyong telepono, Android at iPhone."
+    },
+    "breadcrumb": {
+      "home": "Home",
+      "current": "Widget ng talata ng araw"
+    },
+    "hero": {
+      "title": "Widget ng Talata ng Araw: ang Quran sa Iyong Home Screen",
+      "subtitle": "Bagong talata araw-araw, mismo sa home screen ng iyong telepono, para laging nakikita ang Quran at umusad ang iyong pagsasaulo.",
+      "googlePlay": "Google Play",
+      "appStore": "App Store"
+    },
+    "intro": {
+      "title": "Isang talata bawat araw, nang hindi binubuksan ang app",
+      "paragraphs": [
+        "Nagpapakita ang widget ng Noor Phonetic Quran ng isang talata ng Quran araw-araw sa home screen ng iyong telepono, sa Android man o iPhone.",
+        "Kaugnay ito ng programang “Talata ng araw” ng app: pakinggan ang talata, basahin ang tafsir, isaulo, i-record at balikan ito, hakbang-hakbang."
+      ]
+    },
+    "features": {
+      "title": "Paano gamitin ang widget ng talata ng araw?",
+      "items": [
+        {
+          "title": "Idagdag ang widget",
+          "description": "pindutin nang matagal ang home screen, buksan ang mga widget at piliin ang Noor Phonetic Quran."
+        },
+        {
+          "title": "Bagong talata araw-araw",
+          "description": "kusang nag-a-update ang widget araw-araw."
+        },
+        {
+          "title": "Umusad mula sa home screen",
+          "description": "sa Android, itinatala ng button na +1 ang isang ulit ng kasalukuyang hakbang nang hindi binubuksan ang app."
+        },
+        {
+          "title": "Sundin ang programa ng araw",
+          "description": "pakikinig sa qari, tafsir, pagsasaulo, pag-record ng iyong pagbigkas at pagbabalik-aral."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Mga madalas itanong tungkol sa widget ng talata ng araw",
+      "items": [
+        {
+          "question": "Gumagana ba ang widget sa iPhone?",
+          "answer": "Oo, sa Android at iPhone. Ang button na +1 ay nasa Android; sa iPhone, ipinapakita ng widget ang talata at binubuksan ang app."
+        },
+        {
+          "question": "Paano idagdag ang widget?",
+          "answer": "Pindutin nang matagal ang home screen, buksan ang listahan ng widget at piliin ang Noor Phonetic Quran."
+        },
+        {
+          "question": "Nagbabago ba ang talata araw-araw?",
+          "answer": "Oo, kusang nagpapakita ang widget ng bagong talata araw-araw."
+        }
+      ]
+    },
+    "related": {
+      "title": "Tuklasin Din"
     }
   }
 }

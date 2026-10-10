@@ -8,6 +8,7 @@ import { BLOG_POST_RELATED_PAGE, getAllBlogSlugs, getBlogPost, getRelatedPosts }
 import { routing } from '@/i18n/routing';
 import { buildLocaleUrls, homeUrlFor } from '@/i18n/seo';
 
+const BRAND_SUFFIX = ' | Noor Phonetic Quran';
 const SITE_URL = 'https://noor-phonetic-quran.com';
 
 export function generateStaticParams() {
@@ -28,7 +29,12 @@ export async function generateMetadata({
   const { canonicalUrl, languages, ogLocale } = buildLocaleUrls(locale, `/blog/${slug}`);
 
   return {
-    title: `${post.title} | Noor Phonetic Quran`,
+    // Suffixe de marque seulement s'il tient dans les ~60 caractères
+    // affichés par Google (sinon il est coupé dans les résultats).
+    title:
+      post.title.length <= 60 - BRAND_SUFFIX.length
+        ? `${post.title}${BRAND_SUFFIX}`
+        : post.title,
     description: post.description,
     authors: [{ name: post.author }],
     robots: 'index, follow, max-image-preview:large',

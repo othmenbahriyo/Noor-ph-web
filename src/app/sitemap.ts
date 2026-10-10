@@ -30,6 +30,11 @@ const pages: {
   { path: '/notre-histoire', priority: 0.5, changeFrequency: 'monthly', lastModified: '2026-09-20' },
   { path: '/ramadan-2027', priority: 0.6, changeFrequency: 'weekly', lastModified: '2026-09-20' },
   { path: '/suivi-recitation-ia', priority: 0.8, changeFrequency: 'monthly', lastModified: '2026-10-10' },
+  { path: '/mushaf-warsh-qaloun', priority: 0.7, changeFrequency: 'monthly', lastModified: '2026-10-10' },
+  { path: '/radio-tv-coran', priority: 0.7, changeFrequency: 'monthly', lastModified: '2026-10-10' },
+  { path: '/adhkar-matin-soir', priority: 0.7, changeFrequency: 'monthly', lastModified: '2026-10-10' },
+  { path: '/lire-coran-phonetique', priority: 0.7, changeFrequency: 'monthly', lastModified: '2026-10-10' },
+  { path: '/widget-verset-du-jour', priority: 0.7, changeFrequency: 'monthly', lastModified: '2026-10-10' },
 ];
 
 // 'as-needed' localePrefix: the default locale has no prefix ("/"), every

@@ -28,7 +28,12 @@
         "blog": "Blog",
         "aboutUs": "Taariixa Bi Sunu",
         "ramadan2027": "Ramadan 2027",
-        "suiviRecitationIa": "Topp jàng gi ak IA"
+        "suiviRecitationIa": "Topp jàng gi ak IA",
+        "warshQaloun": "Mushaf Warsh ak Qaloun",
+        "radioTv": "Radio ak TV Alxuraan ci saa si",
+        "adhkar": "Adhkaar yu suba ak ngoon",
+        "lireCoranPhonetique": "Jàng Alxuraan ci fonetik",
+        "widgetVerset": "Widget aaya bés bi"
       }
     },
     "languageSwitcher": {
@@ -134,7 +139,7 @@
   "home": {
     "meta": {
       "title": "Noor Quran: Alxuraan Fonetik, Tajweed, Tey ak Khatma",
-      "description": "Aplikasiyon bu mat ci Alxuraan fonetik: jàng Alxuraan doonte xamuloo araab, dégg audio bu séqoo internet, jàng Tajweed ak makharij al-huruf, tey ci jubluwaay ci mode jeu, topp sa Khatma ak sa Adhkar. Radio Alxuraan bu jub. 80K+ jëfandikukat, 20+ làkk, iOS ak Android.",
+      "description": "Jàngal Alxuraan ci fonetik te xamuloo araab: audio te amul internet, tajwiid, nangu, topp jàng gi ak IA ak Khatma. 80K+ jëfandikukat, iOS ak Android.",
       "keywords": "Alxuraan fonetik, sourate fonetik, aplikasiyon Alxuraan fonetik, jàng Alxuraan, transcription fonetik Alxuraan, Tajweed, makharij al-huruf, tey Alxuraan, Hifz, Khatma Alxuraan, Adhkar, radio Alxuraan bu jub, mushaf, njub ñaan, quiz Alxuraan, jubluwaay Ramadan, Alxuraan audio bu séqoo internet",
       "ogTitle": "Noor Quran: Aplikasiyon bu Mat ci Alxuraan Fonetik (Jàng, Tajweed, Khatma)",
       "ogDescription": "Jàng, dégg ak tey Alxuraan ci fonetik ak ci araab, doonte xamuloo araab. Tajweed, njub ñaan, Khatma, Adhkar ak radio Alxuraan bu jub. Bu neen, 20+ làkk."
@@ -191,6 +196,7 @@
         {
           "icon": "fa-book",
           "title": "Transcription Fonetik",
+          "href": "/lire-coran-phonetique",
           "text": "Ayaat bu nekk am na transcription fonetik bu leer ngir ñaan bu jub."
         },
         {
@@ -244,6 +250,24 @@
           "text": "Jàngal ci kaw: IA bi dafay topp bépp baat ci saa si, di la won say njuumte ak baat yi nga sàcc, di seet sa tajwiid te di topp sa yokkute ci bépp jàng."
         },
         {
+          "icon": "fa-book-open",
+          "title": "Mushaf Warsh ak Qaloun",
+          "href": "/mushaf-warsh-qaloun",
+          "text": "Jàngal Alxuraan ci riwaayaa Warsh ak Qaloun, ci mushaf bu ñu móol walla mbind, ak jàngkat yu bépp riwaayaa ak topp jàng gi ak IA."
+        },
+        {
+          "icon": "fa-tower-broadcast",
+          "title": "Radio ak TV Alxuraan ci Saa si",
+          "href": "/radio-tv-coran",
+          "text": "Déglul lu ëpp 170 radio yuy jàng Alxuraan te xool ci saa si kanaal Alxuraan ak Sunna."
+        },
+        {
+          "icon": "fa-hands-praying",
+          "title": "Adhkaar yu Suba ak Ngoon",
+          "href": "/adhkar-matin-soir",
+          "text": "Adhkaar yu suba, ngoon, bala nga nelaw ak ginnaaw julli, ci araab, fonetik ak firi, ak ab limukaay."
+        },
+        {
           "icon": "fa-microphone-alt",
           "title": "Njub Ñaan",
           "href": "/correction-recitation-coran",
@@ -258,6 +282,7 @@
         {
           "icon": "fa-mobile-screen-button",
           "title": "Widget ci Xët bu Njëkk",
+          "href": "/widget-verset-du-jour",
           "text": "Wone ayaat bi ci bés bi ci xët bu njëkk bu sa telefon te sa jàng dina nekk lu la yombal am ci sa yoon."
         }
       ]
@@ -1718,7 +1743,7 @@
   "aboutUs": {
     "meta": {
       "title": "Taariixa bi sunu: lu tax nu def Noor Phonetic Quran",
-      "description": "Xam taariixa bi ci gannaaw Noor Phonetic Quran: bennub jokkoo ak benn jigéen bu jub ci lislaam bu bees, moo nu jox xel ngir def app bu may ñépp jàng Alxuraan, ba noppi ci ñi xamul araab.",
+      "description": "Taariixu Noor Phonetic Quran: benn jigéen bu bees ci lislaam moo nu xiir ngir ñépp mana jàng Alxuraan, ba ci ñi xamul araab.",
       "ogTitle": "Taariixa bi sunu: lu tax nu def Noor Phonetic Quran",
       "ogDescription": "Lépp dafa tàmbalee ci jokkoo ak benn jigéen bu jub ci lislaam bu bees te mënul jàng Alxuraan ci araab. Noonu la Noor Phonetic Quran juddoo."
     },
@@ -1784,7 +1809,7 @@
   },
   "blog": {
     "meta": {
-      "title": "Blog - Tajwiid, Fàttaliku ak Jàng Alkuraan | Noor Phonetic Quran",
+      "title": "Blog - Tajwiid, Fàttaliku ak Jàng Alkuraan",
       "description": "Xibaar ak njàngale yu am solo ci yoonu Tajwiid, ci fàttaliku Alkuraan (Hifz), ak njàngale liggéeyukaay, jibéeru ekip Noor Phonetic Quran."
     },
     "title": "Blog",
@@ -1800,8 +1825,8 @@
   },
   "audioCoran": {
     "meta": {
-      "title": "Audio Alxuraan bu Séqoo : Bare Ñaanekat ak Déglu su Amul Internet | Noor Phonetic Quran",
-      "description": "Déglu Alxuraan ak audio buy séqoo ayaat ci ayaat, tann ci bare ñaanekat te wàcce audio bi ngir déglu su amul internet ak Noor Phonetic Quran. Neen ci iOS ak Android.",
+      "title": "Audio Alxuraan: Jàngkat yi ak Déglu te Amul Internet",
+      "description": "Déglu Alxuraan ak audio buy séqoo ayaat ci ayaat, tann ci bare ñaanekat te wàcce audio bi ngir déglu su amul internet ak Noor Phonetic Quran.",
       "keywords": "audio Alxuraan, ñaan Alxuraan audio, bare ñaanekat Alxuraan, Alxuraan audio su amul internet, wàcce Alxuraan audio, déglu Alxuraan, audio bu séqoo Alxuraan, ñaanekat Alxuraan aplikasiyon",
       "ogTitle": "Audio Alxuraan bu Séqoo : Bare Ñaanekat ak Déglu su Amul Internet",
       "ogDescription": "Audio buy séqoo ayaat ci ayaat, bare ñaanekat ak wàcce su amul internet. Aplikasiyon bu neen Noor Phonetic Quran."
@@ -2055,7 +2080,7 @@
   },
   "correctionRecitation": {
     "meta": {
-      "title": "Njub Ñaan Alxuraan : Enregistre Sa Bopp te Jëm Kanam | Noor Phonetic Quran",
+      "title": "Njub Ñaan Alxuraan : Enregistre Sa Bopp te Jëm Kanam",
       "description": "Enregistre sa ñaan Alxuraan te jot njub bu ñu defal la ak Noor Phonetic Quran : rafetal sa ñaan ak topp yoon yu Tajweed. Neen ci iOS ak Android.",
       "keywords": "njub ñaan Alxuraan, rafetal sa ñaan, njub Tajweed, enregistre sa ñaan, aplikasiyon njub Alxuraan, jàng ñaan Alxuraan bu jub",
       "ogTitle": "Njub Ñaan Alxuraan : Enregistre Sa Bopp te Jëm Kanam",
@@ -2126,8 +2151,8 @@
   },
   "ramadan2027": {
     "meta": {
-      "title": "Ramadan 2027 : Bunt, Kontuwaar ak Wàggisaay | Noor Phonetic Quran",
-      "description": "Ramadan 2027 dina tàmbali 8 fewrye (bunt bu ñu waxtaan). Wàggis sa Khatma, sa jubluwaay bu bés bu nekk ak say Adhkar ci Noor Phonetic Quran, aplikasiyon bu Alxuraan fonetik bu neen.",
+      "title": "Ramadan 2027 : Bunt, Kontuwaar ak Wàggisaay",
+      "description": "Koor 2027 dina tàmbali 8 fewrie (bés bu ñu jàppante). Waajal sa Khatma, sa programu bés bu nekk ak say adhkaar ak Noor Phonetic Quran.",
       "keywords": "Ramadan 2027, bunt Ramadan 2027, kontuwaar Ramadan, wàggisaay Ramadan, Khatma Ramadan, jubluwaay Ramadan Alxuraan",
       "ogTitle": "Ramadan 2027 : Bunt, Kontuwaar ak Wàggisaay",
       "ogDescription": "Ramadan 2027 dina tàmbali 8 fewrye (bunt bu ñu waxtaan). Wàggis sa Khatma ak sa jubluwaay bu bés bu nekk ci Noor Phonetic Quran."
@@ -2176,8 +2201,8 @@
   },
   "khatmaCoran": {
     "meta": {
-      "title": "Khatma Alxuraan : Aplikasiyon ngir Jubluwaay ak Topptoo Sa Jàng bu Mat | Noor Phonetic Quran",
-      "description": "Jubluwaay sa Khatma (jàng Alxuraan bu mat) ak aplikasiyon Noor Phonetic Quran : jubluwaay bés bu nekk, topptoo jëm-kanam, streak (bés yu toppante) ak fippal. Neen ci iOS ak Android.",
+      "title": "Khatmab Alxuraan: Waajal te Topp sa Jàng",
+      "description": "Jubluwaay sa Khatma (jàng Alxuraan bu mat) ak aplikasiyon Noor Phonetic Quran : jubluwaay bés bu nekk, topptoo jëm-kanam, streak (bés yu toppante) ak fippal.",
       "keywords": "Khatma Alxuraan, khatma aplikasiyon, jàng Alxuraan bu mat, jubluwaay jàng Alxuraan, jubluwaay Khatma Ramadan, topptoo jàng Alxuraan, mottali Alxuraan",
       "ogTitle": "Khatma Alxuraan : Jubluwaay ak Topptoo Sa Jàng bu Mat",
       "ogDescription": "Jubluwaay sa Khatma ak jubluwaay bés bu nekk, topptoo jëm-kanam ak fippal. Aplikasiyon bu neen Noor Phonetic Quran."
@@ -2276,8 +2301,8 @@
   },
   "tajweedCoran": {
     "meta": {
-      "title": "Yoon yu Tajweed Alxuraan : Jàng bu Leerandoo te Mat | Noor Phonetic Quran",
-      "description": "Jàng yoon yu Tajweed Alxuraan ak Noor Phonetic Quran : melo ak araxal ci waxtu jàng, fu ñu génne baat yi (Makharej), yoon yu Noun Sâkinah ak Waqf. Neen ci iOS ak Android.",
+      "title": "Yoon yu Tajweed Alxuraan : Jàng bu Leerandoo te Mat",
+      "description": "Jàng yoon yu Tajweed Alxuraan ak Noor Phonetic Quran : melo ak araxal ci waxtu jàng, fu ñu génne baat yi (Makharej), yoon yu Noun Sâkinah ak Waqf.",
       "keywords": "yoon Tajweed, Tajweed Alxuraan, jàng Tajweed, Tajweed leerandoo, Makharej lettre araab, Noun Sakinah Tanwin, Waqf Ibtida, aplikasiyon Tajweed bu neen",
       "ogTitle": "Yoon yu Tajweed Alxuraan : Jàng bu Leerandoo te Mat",
       "ogDescription": "Melo ak araxal ci waxtu jàng, fu ñu génne baat yi, yoon yu Noun Sâkinah ak Waqf. Aplikasiyon bu neen Noor Phonetic Quran."
@@ -2355,8 +2380,8 @@
   },
   "quizCoran": {
     "meta": {
-      "title": "Quiz Alxuraan : Nattu Sa Xam-xam ci Alxuraan te Bég | Noor Phonetic Quran",
-      "description": "Nattu sa xam-xam ci Alxuraan ak Quiz Alxuraan bu Noor Phonetic Quran : 21 laaj, échelle jaat, joker 50:50, sondage jëfandikukat ak woote xarit. Neen ci iOS ak Android.",
+      "title": "Quiz Alxuraan : Nattu Sa Xam-xam ci Alxuraan te Bég",
+      "description": "Nattu sa xam-xam ci Alxuraan ak Quiz Alxuraan bu Noor Phonetic Quran : 21 laaj, échelle jaat, joker 50:50, sondage jëfandikukat ak woote xarit.",
       "keywords": "quiz Alxuraan, quiz coranique, jeu laaj Alxuraan, nattu xam-xam Alxuraan, quiz islam, aplikasiyon quiz Alxuraan bu neen, laaj Alxuraan ak tontu",
       "ogTitle": "Quiz Alxuraan : Nattu Sa Xam-xam ci Alxuraan te Bég",
       "ogDescription": "21 laaj, échelle jaat, joker 50:50, sondage jëfandikukat ak woote xarit. Aplikasiyon bu neen Noor Phonetic Quran."
@@ -2496,8 +2521,8 @@
   },
   "memorisationCoran": {
     "meta": {
-      "title": "Tey Alxuraan (Hifz) : Aplikasiyon ak Audio buy Seddaale ak Quiz | Noor Phonetic Quran",
-      "description": "Tey Alxuraan (Hifz) ak aplikasiyon Noor Phonetic Quran : audio buy seddaale ayaat ci ayaat, mode baat ci baat, quiz gëstu, point, niveau ak badge. Neen ci iOS ak Android.",
+      "title": "Nangu Alxuraan (Hifz): Audio buy Delloo ak Quiz",
+      "description": "Tey Alxuraan (Hifz) ak aplikasiyon Noor Phonetic Quran : audio buy seddaale ayaat ci ayaat, mode baat ci baat, quiz gëstu, point, niveau ak badge.",
       "keywords": "tey Alxuraan, Hifz Alxuraan, aplikasiyon tey Alxuraan, jàng Alxuraan ci xol, tey ayaat ci ayaat, Hifz aplikasiyon bu neen",
       "ogTitle": "Tey Alxuraan (Hifz) : Audio buy Seddaale, Quiz ak Topptoo Jëm-kanam",
       "ogDescription": "Tey Alxuraan ak audio buy seddaale, mode baat ci baat, quiz ak jubluwaay bés bu nekk. Aplikasiyon bu neen Noor Phonetic Quran."
@@ -2578,8 +2603,8 @@
   },
   "suiviRecitationIa": {
     "meta": {
-      "title": "Topp jàngum Alxuraan ak IA: Defar baat ak baat ci saa si | Noor Phonetic Quran",
-      "description": "Jàngal Alxuraan ci kaw: IA bu Noor Phonetic Quran dafay topp bépp baat ci saa si, di won njuumte yi ak baat yi nga sàcc, di seet tajwiid te di topp sa yokkute. Ñu ngi koy jox ci neen ci iOS ak Android.",
+      "title": "Topp jàngum Alxuraan ak IA: Defar baat ak baat ci saa si",
+      "description": "Jàngal Alxuraan ci kaw: IA bu Noor Phonetic Quran dafay topp bépp baat ci saa si, di won njuumte yi ak baat yi nga sàcc, di seet tajwiid te di topp sa yokkute.",
       "keywords": "jàngum Alxuraan ak IA, seet jàngum Alxuraan, defar jàngum Alxuraan, nangu Alxuraan ak IA, app jàngum Alxuraan",
       "ogTitle": "Topp jàngum Alxuraan ak IA: Defar baat ak baat ci saa si",
       "ogDescription": "Jàngal ci kaw: IA bi dafay topp bépp baat, di won say njuumte te di topp sa yokkute. App bu ñu jox ci neen Noor Phonetic Quran."
@@ -2670,6 +2695,341 @@
       "tajweed": "Yoon yu Tajweed",
       "correction": "Njub Jàng",
       "allFeatures": "Ay xarala yépp"
+    }
+  },
+  "warshQaloun": {
+    "meta": {
+      "title": "Mushaf Warsh ak Qaloun: Jàng te Déglu Alxuraan",
+      "description": "Jàngal Alxuraan ci Warsh ak Qaloun: mushaf bu ñu móol walla mbind, jàngkat yu bépp riwaayaa ak topp jàng gi ak IA. App Noor Phonetic Quran.",
+      "keywords": "Alxuraan Warsh, mushaf Warsh, Alxuraan Qaloun, mushaf Qaloun, riwaayaa Warsh, app Alxuraan Warsh",
+      "ogTitle": "Mushaf Warsh ak Qaloun: Jàng te Déglu Alxuraan",
+      "ogDescription": "Alxuraan ci Warsh ak Qaloun: mushaf bu ñu móol, jàngkat yu bépp riwaayaa ak topp ak IA."
+    },
+    "breadcrumb": {
+      "home": "Kër",
+      "current": "Mushaf Warsh ak Qaloun"
+    },
+    "hero": {
+      "title": "Mushaf Warsh ak Qaloun: Jàng te Déglu Alxuraan ci sa Riwaayaa",
+      "subtitle": "Tànnal Hafs, Warsh walla Qaloun: mushaf bi, jàngkat yi ak topp jàng gi dañuy topp riwaayaa bi ngay jàng.",
+      "googlePlay": "Google Play",
+      "appStore": "App Store"
+    },
+    "intro": {
+      "title": "Alxuraan ci sa riwaayaa",
+      "paragraphs": [
+        "Hafs 'an 'Asim mooy riwaayaa bi gëna siiw ci àddina, waaye ci Magrib ak Afrig sowu jant, ñu bari dañuy jàng ak di jàngal Alxuraan ci Warsh 'an Nafi', walla Qaloun 'an Nafi' ci Libi ak Tinisi.",
+        "Noor Phonetic Quran dafay jox ñetti riwaayaa yépp: mushaf bu ñu móol ngir Warsh ak Qaloun, mbind, jàngkat yu bépp riwaayaa ak topp jàng gi ak IA."
+      ]
+    },
+    "features": {
+      "title": "Naka lañuy jànge ci Warsh walla Qaloun?",
+      "items": [
+        {
+          "title": "Tànnal sa riwaayaa",
+          "description": "tànnal Hafs, Warsh walla Qaloun ci réglaas yi: xët yi dañuy feeñ ci riwaayaa bi nga tànn."
+        },
+        {
+          "title": "Jàngal ci mushaf bu ñu móol walla mbind",
+          "description": "mushaf bu ñu móol bu Warsh ak Qaloun walla mbind bu gëna leer; benn yoon rekk lañu koy yebal, ba noppi mu dox te amul internet."
+        },
+        {
+          "title": "Déglul jàngkat bu sa riwaayaa",
+          "description": "limu jàngkat yi dafay wone riwaayaa bu ku nekk, ak déglu aaya ak aaya."
+        },
+        {
+          "title": "Jàngal ak topp gu IA",
+          "description": "topp baat ak baat bi dafay dox itam ci Warsh ak Qaloun ngir seet sa jàng."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Laaj yi ci mushaf Warsh ak Qaloun",
+      "items": [
+        {
+          "question": "Lan mooy wuute Hafs, Warsh ak Qaloun?",
+          "answer": "Ñoom ñépp riwaayaa yu wóor lañu ci jàngum Alxuraan. Dañuy wuute ci yenn wóyel, ci gudd-gudd yi, ci naka lañuy wax hamza ak ci limu yenn aaya."
+        },
+        {
+          "question": "Ndax mbind fonetik am na ci Warsh?",
+          "answer": "Déedéet, mbind fonetik bi ci Hafs rekk la am. Ci Warsh ak Qaloun, app bi dafay wone mbindum araab."
+        },
+        {
+          "question": "Ndax topp gu IA dafay dox ci Warsh?",
+          "answer": "Waaw, topp baat ak baat bi dafay dox ci Warsh ak Qaloun. Seetug tajwiid bi ci Hafs rekk la."
+        }
+      ]
+    },
+    "related": {
+      "title": "Xam it"
+    }
+  },
+  "radioTv": {
+    "meta": {
+      "title": "Radio Alxuraan ak TV Alxuraan ci Saa si",
+      "description": "Lu ëpp 170 radio yuy jàng Alxuraan ak kanaal TV Alxuraan ak Sunna ci saa si, ak yi la neex ak déglu ci ginnaaw. App Noor Phonetic Quran.",
+      "keywords": "radio Alxuraan, radio Alxuraan ci saa si, déglu Alxuraan ci saa si, TV Alxuraan, kanaal Alxuraan Màkka, kanaal Sunna Madina",
+      "ogTitle": "Radio Alxuraan ak TV Alxuraan ci Saa si",
+      "ogDescription": "Lu ëpp 170 radio yuy jàng Alxuraan ak kanaal Alxuraan ak Sunna ci saa si."
+    },
+    "breadcrumb": {
+      "home": "Kër",
+      "current": "Radio ak TV Alxuraan"
+    },
+    "hero": {
+      "title": "Radio Alxuraan ak TV Alxuraan ci Saa si",
+      "subtitle": "Déglul Alxuraan saa yu la neex: lu ëpp 170 radio yuy jàng ak kanaal TV Alxuraan ak Sunna ci saa si, ci benn app rekk.",
+      "googlePlay": "Google Play",
+      "appStore": "App Store"
+    },
+    "intro": {
+      "title": "Alxuraan te du taxaw, fu mu mana doon",
+      "paragraphs": [
+        "Noor Phonetic Quran dafay boole lu ëpp 170 radio yu ñu jagleel jàngum Alxuraan ci jàngkat yu àddina sépp, ak kanaal TV Alxuraan ak Sunna ci saa si.",
+        "Déglu gi dafay wéy ci ginnaaw, ak buton yi ci ekraan bu tëju bi, ngir àndal ak yaw ci yoon wi, ci liggéey walla ci noflaay."
+      ]
+    },
+    "features": {
+      "title": "Naka lañuy déglu radio ak TV Alxuraan?",
+      "items": [
+        {
+          "title": "Ubbil Radio walla TV ci saa si",
+          "description": "ci menuw app bi, demal ci radio yi walla kanaal TV yi."
+        },
+        {
+          "title": "Tànnal benn radio",
+          "description": "seetal radio yuy jàng yi; seeni tur dañuy feeñ ci sa làkk bu ko mana."
+        },
+        {
+          "title": "Yokkal yi la neex",
+          "description": "denc radio yi la neex ngir gis leen ci benn bës."
+        },
+        {
+          "title": "Déglul ci ginnaaw",
+          "description": "dafay wéy di dox su ekraan bi fey, te man nga ko taal walla taxawal ci ekraan bu tëju bi."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Laaj yi ci radio ak TV Alxuraan",
+      "items": [
+        {
+          "question": "Ndax soxla nga internet?",
+          "answer": "Waaw, radio ak TV yi ci saa si lañuy génne, kon soxla nga internet."
+        },
+        {
+          "question": "Ban kanaal TV ñoo am?",
+          "answer": "Kanaal Alxuraan ak kanaal Sunna, ci saa si."
+        },
+        {
+          "question": "Ndax man naa déglu te ekraan bi fey?",
+          "answer": "Waaw, dafay wéy ci ginnaaw te man nga ko jiite ci ekraan bu tëju bi."
+        }
+      ]
+    },
+    "related": {
+      "title": "Xam it"
+    }
+  },
+  "adhkar": {
+    "meta": {
+      "title": "Adhkaar yu Suba ak Ngoon ci Fonetik",
+      "description": "Adhkaar yu suba, ngoon, bala nga nelaw ak ginnaaw julli ci araab, fonetik ak firi, ak limukaay. App Noor Phonetic Quran.",
+      "keywords": "adhkaar yu suba, adhkaar yu ngoon, adhkaar fonetik, ñaan yu suba, dikr, adhkaar bala nga nelaw, app adhkaar",
+      "ogTitle": "Adhkaar yu Suba ak Ngoon ci Fonetik",
+      "ogDescription": "Adhkaar yu suba, ngoon, bala nga nelaw ak ginnaaw julli ci araab, fonetik ak firi."
+    },
+    "breadcrumb": {
+      "home": "Kër",
+      "current": "Adhkaar yu suba ak ngoon"
+    },
+    "hero": {
+      "title": "Adhkaar yu Suba ak Ngoon ci Fonetik",
+      "subtitle": "Jàngal ñaani bés bi te doo xam araab: bépp dikr ci araab, ci fonetik ak firi, ak limukaay ngir topp say jàngaat.",
+      "googlePlay": "Google Play",
+      "appStore": "App Store"
+    },
+    "intro": {
+      "title": "Adhkaar, fàttaliku ci bépp saa ci bés bi",
+      "paragraphs": [
+        "Adhkaar yi ñaan ak fàttaliku Yàlla lañu yu ñu jële ci Sunna, ñuy wax ci waxtu yu ñu xam: bu ñu yewwoo, ci ngoon, bala ñuy nelaw ak ginnaaw julli.",
+        "Noor Phonetic Quran dafay boole adhkaar yu suba, ngoon, bala nga nelaw ak ginnaaw julli. Bépp ñaan ci araab la, ci fonetik ngir nga mana ko jàng te xamoo araab, ak firoom."
+      ]
+    },
+    "features": {
+      "title": "Naka nga mana jàng say adhkaar ak app bi?",
+      "items": [
+        {
+          "title": "Tànnal waxtu wi",
+          "description": "adhkaar yu suba, ngoon, bala nga nelaw walla ginnaaw julli."
+        },
+        {
+          "title": "Jàngal ci araab walla fonetik",
+          "description": "bépp dikr dafay feeñ ci araab, fonetik ak firi."
+        },
+        {
+          "title": "Limal say jàngaat",
+          "description": "bësal limukaay bi saa yoo jàngaatee: yokkute bi dafay wone kañ nga àgg ci lim bi ñu digle."
+        },
+        {
+          "title": "Déglul te séddoo",
+          "description": "déglul jàng gi bu amee te séddoo benn ñaan ci benn bës."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Laaj yi ci adhkaar yi",
+      "items": [
+        {
+          "question": "Kañ lañuy jàng adhkaar yu suba ak ngoon?",
+          "answer": "Boroom xam-xam yi dañu leen faral di def, yu suba diggante fajar ak bu jant bi fenkee, yu ngoon diggante tisbaar ak bu jant bi sowee."
+        },
+        {
+          "question": "Ndax man naa leen jàng te xamuma araab?",
+          "answer": "Waaw, bépp ñaan bind nañu ko ci fonetik te am na firoom."
+        },
+        {
+          "question": "Ndax man naa séddoo benn ñaan?",
+          "answer": "Waaw, man nga séddoo bépp ñaan ak say mbokk ci benn bës."
+        }
+      ]
+    },
+    "related": {
+      "title": "Xam it"
+    }
+  },
+  "lireCoranPhonetique": {
+    "meta": {
+      "title": "Jàng Alxuraan ci Fonetik te Xamuloo Araab",
+      "description": "Jàngal bépp aaya ci Alxuraan ci fonetik, jàngal baat yu araab yi ak deg-deg bépp araf te seet naka ngay wax. App Noor Phonetic Quran.",
+      "keywords": "Alxuraan fonetik, Alxuraan ci araf latin, transliterasioŋ Alxuraan, jàng Alxuraan te xamuloo araab, jàng ni ñuy jàngee Alxuraan",
+      "ogTitle": "Jàng Alxuraan ci Fonetik te Xamuloo Araab",
+      "ogDescription": "Bépp aaya ci Alxuraan ci fonetik, deg-degu bépp araf ak seet sa wax."
+    },
+    "breadcrumb": {
+      "home": "Kër",
+      "current": "Jàng Alxuraan ci fonetik"
+    },
+    "hero": {
+      "title": "Jàngal Alxuraan ci Fonetik, Te Xamuloo Araab",
+      "subtitle": "Bépp aaya bind nañu ko ci fonetik ngir nga mana jàng tey, ba noppi dem ci mbindum araab ci sa yaatuwaay.",
+      "googlePlay": "Google Play",
+      "appStore": "App Store"
+    },
+    "intro": {
+      "title": "Jàng Alxuraan bala nga xam jàngum araab",
+      "paragraphs": [
+        "Noor Phonetic Quran dafay wone bépp aaya ci Alxuraan ci mbind fonetik: ngay jàng baati araab yi ak araf latin, te jàngaguloo araf araab yi.",
+        "Gindiku transliterasioŋ dafay leeral baat yi amul ci sa làkk, ak deg-degu bépp araf, te modul tajwiid yi (makhaarij, àtte yi) dañu lay dimbali nga dem ndànk-ndànk ci mbindum araab."
+      ]
+    },
+    "features": {
+      "title": "Naka lañuy jàngee Alxuraan ci fonetik?",
+      "items": [
+        {
+          "title": "Jàngal fonetik bi xët ak xët",
+          "description": "mbind bi dafay topp mushaf bi, ci wetu mbindum araab ak firi bi."
+        },
+        {
+          "title": "Jàngal baat yu araab yi",
+          "description": "gindiku bi dafay lëkkale bépp màndarga (ḥ, ṣ, ḍ, ṭ, ʿ…) ak arafam ci araab ak benn deg-deg, ak wóyel yu gàtt ak yu gudd."
+        },
+        {
+          "title": "Déglul ci jamono jooju",
+          "description": "deg-degu aaya ak aaya dafay may nga dégg ni ñuy waxe li ngay jàng."
+        },
+        {
+          "title": "Seetal naka ngay wax",
+          "description": "jàngal ci kaw ak topp gu IA te jàngal makhaarij yu araf yi."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Laaj yi ci jàngum Alxuraan ci fonetik",
+      "items": [
+        {
+          "question": "Ndax dëgg la, man nañu jàng Alxuraan te xamuñu araab?",
+          "answer": "Fonetik bi dafay may nga jàng li dale ci bés bu jëkk. Waaye ndimbal la rekk: jàng ndànk-ndànk araf araab yi ak tajwiid moo lay may nga gëna jàng bu baax."
+        },
+        {
+          "question": "Ndax fonetik bi dafa mat Alxuraan bépp?",
+          "answer": "Waaw, 604 xëti mushaf bi yépp, ci riwaayaa Hafs."
+        },
+        {
+          "question": "Naka laay xame ni ñuy waxe ḥ walla ʿ?",
+          "answer": "Gindiku transliterasioŋ bu app bi dafay lëkkale bépp màndarga ak arafam ci araab ak benn deg-deg."
+        }
+      ]
+    },
+    "related": {
+      "title": "Xam it"
+    }
+  },
+  "widgetVerset": {
+    "meta": {
+      "title": "Widget Aaya Bés bi: Alxuraan ci Ekraanu Njëlbéen",
+      "description": "Benn aaya ci Alxuraan bés bu nekk ci ekraanu njëlbéenu sa telefon, Android ak iPhone, mu lëkkalook programu «Aaya bés bi» bu Noor Phonetic Quran.",
+      "keywords": "widget Alxuraan, widget aaya bés bi, aaya Alxuraan bés bu nekk, Alxuraan ci ekraan, widget lislaam Android, widget Alxuraan iPhone",
+      "ogTitle": "Widget Aaya Bés bi: Alxuraan ci Ekraanu Njëlbéen",
+      "ogDescription": "Benn aaya ci Alxuraan bés bu nekk ci ekraanu njëlbéenu sa telefon, Android ak iPhone."
+    },
+    "breadcrumb": {
+      "home": "Kër",
+      "current": "Widget aaya bés bi"
+    },
+    "hero": {
+      "title": "Widget Aaya Bés bi: Alxuraan ci sa Ekraanu Njëlbéen",
+      "subtitle": "Benn aaya bu bees bés bu nekk, ci ekraanu njëlbéenu sa telefon, ngir Alxuraan mu nekk ci sa kanam saa su ne te sa nangu gi di jëm kanam.",
+      "googlePlay": "Google Play",
+      "appStore": "App Store"
+    },
+    "intro": {
+      "title": "Benn aaya bés bu nekk, te ubbiloo app bi",
+      "paragraphs": [
+        "Widget bu Noor Phonetic Quran dafay wone benn aaya ci Alxuraan bés bu nekk ci ekraanu njëlbéenu sa telefon, ci Android ak ci iPhone.",
+        "Dafa lëkkalook programu «Aaya bés bi» bu app bi: déglu aaya bi, jàng tafsiiram, nangu ko, register ko te fàttaliku ko, ndànk-ndànk."
+      ]
+    },
+    "features": {
+      "title": "Naka lañuy jëfandikoo widget aaya bés bi?",
+      "items": [
+        {
+          "title": "Yokkal widget bi",
+          "description": "bësal lu yàgg ci ekraanu njëlbéen bi, ubbil widget yi te tànn Noor Phonetic Quran."
+        },
+        {
+          "title": "Am benn aaya bu bees bés bu nekk",
+          "description": "widget bi dafay yeesal boppam bés bu nekk."
+        },
+        {
+          "title": "Jëm kanam ci ekraanu njëlbéen bi",
+          "description": "ci Android, butoŋ +1 bi dafay bind benn jàngaat ci tappaate bi te ubbiloo app bi."
+        },
+        {
+          "title": "Toppal programu bés bi",
+          "description": "déglu jàngkat bi, tafsiir, nangu, register sa jàng ak fàttaliku."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Laaj yi ci widget aaya bés bi",
+      "items": [
+        {
+          "question": "Ndax widget bi dafay dox ci iPhone?",
+          "answer": "Waaw, ci Android ak iPhone. Butoŋ +1 bi ci Android la am; ci iPhone, widget bi dafay wone aaya bi te ubbi app bi."
+        },
+        {
+          "question": "Naka laay yokke widget bi?",
+          "answer": "Bësal lu yàgg ci ekraanu njëlbéen bi, ubbil limu widget yi te tànn Noor Phonetic Quran."
+        },
+        {
+          "question": "Ndax aaya bi dafay soppeeku bés bu nekk?",
+          "answer": "Waaw, widget bi dafay wone boppam benn aaya bu bees bés bu nekk."
+        }
+      ]
+    },
+    "related": {
+      "title": "Xam it"
     }
   }
 }
