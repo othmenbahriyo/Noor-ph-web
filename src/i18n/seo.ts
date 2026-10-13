@@ -94,6 +94,7 @@ export function organizationJsonLd() {
     sameAs: [
       'https://play.google.com/store/apps/details?id=coran.noor.bhr',
       'https://apps.apple.com/app/noor-phonetic-quran/id6737744800',
+      'https://www.wikidata.org/wiki/Q141725076',
     ],
   };
 }
