@@ -51,6 +51,13 @@ export default async function LocaleLayout({
   return (
     <html lang={locale} dir={dir} className={cairo.variable} suppressHydrationWarning>
       <head>
+        <link
+          rel="preload"
+          href="/fontawesome/webfonts/fa-solid-900.woff2"
+          as="font"
+          type="font/woff2"
+          crossOrigin="anonymous"
+        />
         <link href="/fontawesome/css/subset.css" rel="stylesheet" />
         <link
           rel="alternate"

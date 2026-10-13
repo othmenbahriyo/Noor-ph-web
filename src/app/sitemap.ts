@@ -9,32 +9,34 @@ const DEFAULT_LOCALE = routing.defaultLocale;
 // reports every page as "modified today" on every crawl, which dilutes the
 // freshness signal search engines use lastModified for. Bump a page's date
 // by hand when its content actually changes.
+//
+// No `priority`/`changeFrequency`: Google has ignored both for years and
+// Bing gives them minimal weight, so they're dead weight across 500 URLs
+// (20 locales x ~25 pages) rather than a real ranking signal.
 const pages: {
   path: string;
-  priority: number;
-  changeFrequency: MetadataRoute.Sitemap[number]['changeFrequency'];
   lastModified: string;
 }[] = [
-  { path: '', priority: 1.0, changeFrequency: 'weekly', lastModified: '2026-09-18' },
-  { path: '/blog', priority: 0.7, changeFrequency: 'weekly', lastModified: '2026-09-19' },
-  { path: '/avis', priority: 0.6, changeFrequency: 'weekly', lastModified: '2026-09-18' },
-  { path: '/contact', priority: 0.5, changeFrequency: 'monthly', lastModified: '2026-09-17' },
-  { path: '/privacy-policy', priority: 0.3, changeFrequency: 'yearly', lastModified: '2026-07-28' },
-  { path: '/cgu', priority: 0.3, changeFrequency: 'yearly', lastModified: '2026-07-28' },
-  { path: '/khatma-coran', priority: 0.8, changeFrequency: 'monthly', lastModified: '2026-09-17' },
-  { path: '/memorisation-coran', priority: 0.8, changeFrequency: 'monthly', lastModified: '2026-09-17' },
-  { path: '/correction-recitation-coran', priority: 0.8, changeFrequency: 'monthly', lastModified: '2026-09-18' },
-  { path: '/quiz-coran', priority: 0.8, changeFrequency: 'monthly', lastModified: '2026-09-17' },
-  { path: '/audio-coran', priority: 0.8, changeFrequency: 'monthly', lastModified: '2026-09-17' },
-  { path: '/tajweed-coran', priority: 0.8, changeFrequency: 'monthly', lastModified: '2026-09-17' },
-  { path: '/notre-histoire', priority: 0.5, changeFrequency: 'monthly', lastModified: '2026-09-20' },
-  { path: '/ramadan-2027', priority: 0.6, changeFrequency: 'weekly', lastModified: '2026-09-20' },
-  { path: '/suivi-recitation-ia', priority: 0.8, changeFrequency: 'monthly', lastModified: '2026-10-10' },
-  { path: '/mushaf-warsh-qaloun', priority: 0.7, changeFrequency: 'monthly', lastModified: '2026-10-10' },
-  { path: '/radio-tv-coran', priority: 0.7, changeFrequency: 'monthly', lastModified: '2026-10-10' },
-  { path: '/adhkar-matin-soir', priority: 0.7, changeFrequency: 'monthly', lastModified: '2026-10-10' },
-  { path: '/lire-coran-phonetique', priority: 0.7, changeFrequency: 'monthly', lastModified: '2026-10-10' },
-  { path: '/widget-verset-du-jour', priority: 0.7, changeFrequency: 'monthly', lastModified: '2026-10-10' },
+  { path: '', lastModified: '2026-09-18' },
+  { path: '/blog', lastModified: '2026-09-19' },
+  { path: '/avis', lastModified: '2026-09-18' },
+  { path: '/contact', lastModified: '2026-09-17' },
+  { path: '/privacy-policy', lastModified: '2026-07-28' },
+  { path: '/cgu', lastModified: '2026-07-28' },
+  { path: '/khatma-coran', lastModified: '2026-09-17' },
+  { path: '/memorisation-coran', lastModified: '2026-09-17' },
+  { path: '/correction-recitation-coran', lastModified: '2026-09-18' },
+  { path: '/quiz-coran', lastModified: '2026-09-17' },
+  { path: '/audio-coran', lastModified: '2026-09-17' },
+  { path: '/tajweed-coran', lastModified: '2026-09-17' },
+  { path: '/notre-histoire', lastModified: '2026-09-20' },
+  { path: '/ramadan-2027', lastModified: '2026-09-20' },
+  { path: '/suivi-recitation-ia', lastModified: '2026-10-10' },
+  { path: '/mushaf-warsh-qaloun', lastModified: '2026-10-10' },
+  { path: '/radio-tv-coran', lastModified: '2026-10-10' },
+  { path: '/adhkar-matin-soir', lastModified: '2026-10-10' },
+  { path: '/lire-coran-phonetique', lastModified: '2026-10-10' },
+  { path: '/widget-verset-du-jour', lastModified: '2026-10-10' },
 ];
 
 // 'as-needed' localePrefix: the default locale has no prefix ("/"), every
@@ -52,12 +54,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const blogPostPages = getAllBlogSlugs().map((slug) => ({
     path: `/blog/${slug}`,
-    priority: 0.6,
-    changeFrequency: 'monthly' as const,
     lastModified: '2026-09-19',
   }));
 
-  for (const { path, priority, changeFrequency, lastModified } of [...pages, ...blogPostPages]) {
+  for (const { path, lastModified } of [...pages, ...blogPostPages]) {
     const languages: Record<string, string> = Object.fromEntries(
       routing.locales.map((locale) => [locale, localizedUrl(locale, path)]),
     );
@@ -68,8 +68,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
       entries.push({
         url: localizedUrl(locale, path),
         lastModified,
-        changeFrequency,
-        priority,
         alternates: { languages },
       });
     }

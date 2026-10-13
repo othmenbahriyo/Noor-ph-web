@@ -82,10 +82,7 @@ export default function Hero() {
 
               <div className={`rating-card ${styles.ratingCard}`}>
                 <div className={styles.ratingStars}>
-                  {Array.from({ length: 5 }).map((_, i) => (
-                    <i className="fas fa-star" key={i} />
-                  ))}
-                  <span className={styles.ratingNumber}>5.0</span>
+                  <i className="fas fa-heart" />
                 </div>
                 <div className={styles.ratingInfo}>
                   <p>{t('ratingText')}</p>
@@ -181,6 +178,28 @@ export default function Hero() {
             <p className={styles.mobileSubheadline}>{t('subheadline')}</p>
           </div>
 
+          <div className={styles.mobileRatingRow}>
+            <span className={styles.mobileRatingStars}>
+              <i className="fas fa-heart" />
+            </span>
+            <span className={styles.mobileRatingNumber}>{t('ratingText')}</span>
+          </div>
+
+          <div className={styles.mobileDownloadButtons}>
+            {STORE_LINKS.map((store) => (
+              <StoreLink
+                key={store.href}
+                href={store.href}
+                store={store.labelKey}
+                location="home_hero_mobile"
+                className={styles.mobileDownloadBtn}
+              >
+                <i className={store.icon} />
+                <span>{tNav(store.labelKey)}</span>
+              </StoreLink>
+            ))}
+          </div>
+
           <div className={styles.mobileDeviceContainer}>
             <div className={styles.mobileDeviceFrame}>
               <Image
@@ -207,21 +226,6 @@ export default function Hero() {
                 <span>{t('miniFeatures.audio')}</span>
               </div>
             </div>
-          </div>
-
-          <div className={styles.mobileDownloadButtons}>
-            {STORE_LINKS.map((store) => (
-              <StoreLink
-                key={store.href}
-                href={store.href}
-                store={store.labelKey}
-                location="home_hero_mobile"
-                className={styles.mobileDownloadBtn}
-              >
-                <i className={store.icon} />
-                <span>{tNav(store.labelKey)}</span>
-              </StoreLink>
-            ))}
           </div>
         </div>
       </section>

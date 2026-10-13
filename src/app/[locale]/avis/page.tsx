@@ -44,8 +44,6 @@ function buildJsonLd(
   breadcrumbLabels: { home: string; reviews: string },
 ) {
   const { canonicalUrl } = buildLocaleUrls(locale, '/avis');
-  const ratingSum = items.reduce((sum, item) => sum + (item.rating ?? 5), 0);
-  const ratingValue = (ratingSum / (items.length || 1)).toFixed(1);
 
   const breadcrumb = {
     '@context': 'https://schema.org',
@@ -71,15 +69,8 @@ function buildJsonLd(
     '@type': 'SoftwareApplication',
     name: 'Noor Phonetic Quran',
     applicationCategory: 'EducationApplication',
-    operatingSystem: 'Android, iOS',
+    operatingSystem: ['ANDROID', 'IOS'],
     url: canonicalUrl,
-    aggregateRating: {
-      '@type': 'AggregateRating',
-      ratingValue,
-      bestRating: '5',
-      worstRating: '1',
-      ratingCount: String(items.length),
-    },
     review: items.slice(0, REVIEW_SAMPLE_SIZE).map((item) => ({
       '@type': 'Review',
       author: {

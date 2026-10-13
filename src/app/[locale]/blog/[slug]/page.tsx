@@ -6,7 +6,7 @@ import Footer from '@/components/Footer/Footer';
 import BlogArticle from '@/components/Blog/BlogArticle';
 import { BLOG_POST_RELATED_PAGE, getAllBlogSlugs, getBlogPost, getRelatedPosts } from '@/lib/blog';
 import { routing } from '@/i18n/routing';
-import { buildLocaleUrls, homeUrlFor } from '@/i18n/seo';
+import { buildLocaleUrls, homeUrlFor, organizationJsonLd, ORGANIZATION_ID } from '@/i18n/seo';
 
 const BRAND_SUFFIX = ' | Noor Phonetic Quran';
 const SITE_URL = 'https://noor-phonetic-quran.com';
@@ -91,16 +91,12 @@ function buildJsonLd(
       '@type': 'Organization',
       name: post.author,
     },
-    publisher: {
-      '@type': 'Organization',
-      name: 'Noor Phonetic Quran',
-      url: SITE_URL,
-    },
+    publisher: { '@id': ORGANIZATION_ID },
     mainEntityOfPage: canonicalUrl,
     image: `${SITE_URL}${post.image}`,
   };
 
-  return [breadcrumb, article];
+  return [breadcrumb, organizationJsonLd(), article];
 }
 
 export default async function BlogArticlePage({

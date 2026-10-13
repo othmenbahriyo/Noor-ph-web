@@ -75,6 +75,29 @@ export function homeUrlFor(locale: string): string {
   return buildLocaleUrls(locale, '').canonicalUrl;
 }
 
+export const ORGANIZATION_ID = `${SITE_URL}/#organization`;
+
+/**
+ * Entité Organization partagée (référencée par @id depuis les autres blocs
+ * JSON-LD) : ancre l'identité de marque pour le knowledge graph / les
+ * assistants IA, au lieu de la dupliquer en Organization imbriquée à chaque
+ * page.
+ */
+export function organizationJsonLd() {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    '@id': ORGANIZATION_ID,
+    name: 'Noor Phonetic Quran',
+    url: SITE_URL,
+    logo: `${SITE_URL}/images/logo.webp`,
+    sameAs: [
+      'https://play.google.com/store/apps/details?id=coran.noor.bhr',
+      'https://apps.apple.com/app/noor-phonetic-quran/id6737744800',
+    ],
+  };
+}
+
 /**
  * OpenGraph + Twitter Card standards (image du site) pour une page qui n'a
  * pas de visuel propre : sans eux, un partage n'affiche ni titre ni aperçu.

@@ -14,7 +14,7 @@ import NewsletterSection from '@/components/Newsletter/NewsletterSection';
 import BlogPreview from '@/components/Home/BlogPreview';
 import Testimonials from '@/components/Home/Testimonials';
 import { routing } from '@/i18n/routing';
-import { buildLocaleUrls, twitterDescriptionFor } from '@/i18n/seo';
+import { buildLocaleUrls, organizationJsonLd, ORGANIZATION_ID, twitterDescriptionFor } from '@/i18n/seo';
 
 const SITE_URL = 'https://noor-phonetic-quran.com';
 
@@ -83,18 +83,11 @@ function buildJsonLd(locale: string, faqItems: { question: string; answer: strin
       : "Apprenez à réciter, mémoriser et lire le Coran en entier même sans connaître l'arabe. Application gratuite avec phonétique précise, audio intégré, règles de Tajweed, Khatma, plan de lecture quotidien, mémorisation gamifiée, quiz et correction de récitation.",
     url: SITE_URL,
     applicationCategory: 'EducationApplication',
-    operatingSystem: 'Android, iOS',
+    operatingSystem: ['ANDROID', 'IOS'],
     offers: {
       '@type': 'Offer',
       price: '0',
       priceCurrency: 'EUR',
-    },
-    aggregateRating: {
-      '@type': 'AggregateRating',
-      ratingValue: '5.0',
-      bestRating: '5',
-      worstRating: '1',
-      ratingCount: '80000',
     },
     installUrl: [
       'https://play.google.com/store/apps/details?id=coran.noor.bhr',
@@ -102,12 +95,7 @@ function buildJsonLd(locale: string, faqItems: { question: string; answer: strin
     ],
     inLanguage: routing.locales,
     availableLanguage: routing.locales,
-    author: {
-      '@type': 'Organization',
-      name: 'Noor Phonetic Quran',
-      url: SITE_URL,
-      email: 'othmeneb@gmail.com',
-    },
+    author: { '@id': ORGANIZATION_ID },
   };
 
   const faqPage = {
@@ -142,16 +130,12 @@ function buildJsonLd(locale: string, faqItems: { question: string; answer: strin
     duration: 'PT2M30S',
     contentUrl: 'https://www.youtube.com/watch?v=O6kRF4UV_xc',
     embedUrl: 'https://www.youtube.com/embed/O6kRF4UV_xc',
-    publisher: {
-      '@type': 'Organization',
-      name: 'Noor Phonetic Quran',
-      url: SITE_URL,
-    },
+    publisher: { '@id': ORGANIZATION_ID },
     inLanguage: 'fr',
     isFamilyFriendly: true,
   };
 
-  return { combined: [mobileApplication, faqPage, website], video };
+  return { combined: [organizationJsonLd(), mobileApplication, faqPage, website], video };
 }
 
 export default async function Home({
